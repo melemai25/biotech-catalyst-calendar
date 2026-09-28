@@ -1,0 +1,4 @@
+{
+  "_comment": "The SEC requires automated tools to identify themselves. Replace the placeholder below with your real name and email, or set the EDGAR_USER_AGENT environment variable instead. Without this, EDGAR ingestion is skipped and you get ClinicalTrials.gov data only.",
+  "edgarUserAgent": "Your Name you@example.com"
+}

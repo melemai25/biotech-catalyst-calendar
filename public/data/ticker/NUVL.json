@@ -1,0 +1,70 @@
+{
+  "ticker": "NUVL",
+  "name": "Nuvalent, Inc.",
+  "sponsorQuery": "Nuvalent",
+  "tier": "oncology",
+  "focus": "ROS1/ALK inhibitors, NSCLC",
+  "generatedDate": "2026-09-28",
+  "events": [
+    {
+      "id": "ct-NUVL-NCT06521554",
+      "ticker": "NUVL",
+      "date": "2027-01-15",
+      "title": "A Study of NVL-330 in Patients With Advanced or Metastatic HER2-altered NSCLC (HEROEX-1)",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Locally Advanced Solid Tumor, Metastatic Solid Tumor · 200 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06521554",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06521554",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-NUVL-NCT05384626",
+      "ticker": "NUVL",
+      "date": "2027-12-15",
+      "title": "A Study of Neladalkib (NVL-655) in Patients With Advanced NSCLC and Other Solid Tumors Harboring ALK Rearrangement or Activating ALK Mutation (ALKOVE-1)",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Locally Advanced Solid Tumor, Metastatic Solid Tumor · 840 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05384626",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05384626",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-NUVL-NCT05118789",
+      "ticker": "NUVL",
+      "date": "2027-12-31",
+      "title": "A Study of Zidesamtinib (NVL-520) in Patients With Advanced NSCLC and Other Solid Tumors Harboring ROS1 Rearrangement (ARROS-1)",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Locally Advanced Solid Tumor, Metastatic Solid Tumor · 359 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05118789",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05118789",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-NUVL-NCT06765109",
+      "ticker": "NUVL",
+      "date": "2029-12-15",
+      "title": "Neladalkib (NVL-655) for TKI-naive Patients With Advanced ALK-Positive NSCLC",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Non-small Cell Lung Cancer, Anaplastic Lymphoma Kinase-positive · 450 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06765109",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06765109",
+      "origin": "registry",
+      "status": "upcoming"
+    }
+  ]
+}

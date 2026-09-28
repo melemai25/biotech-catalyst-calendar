@@ -1,0 +1,40 @@
+{
+  "ticker": "ACLX",
+  "name": "Arcellx, Inc.",
+  "sponsorQuery": "Arcellx",
+  "tier": "cell-therapy",
+  "focus": "BCMA CAR-T, multiple myeloma",
+  "generatedDate": "2026-09-28",
+  "events": [
+    {
+      "id": "ct-ACLX-NCT05457010",
+      "ticker": "ACLX",
+      "date": "2026-10-15",
+      "title": "Phase I Study of Cell Therapies for the Treatment of Patients With Relapsed or Refractory AML or High-risk MDS",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Acute Myeloid Leukemia, Myelodysplastic Syndromes · 24 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05457010",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05457010",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ACLX-NCT06626919",
+      "ticker": "ACLX",
+      "date": "2027-03-15",
+      "title": "A Phase 1 Study of Anitocabtagene Autoleucel for the Treatment of Subjects With Non-oncology Plasma Cell-related Diseases",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Muscular Diseases, Neuromuscular Manifestations, Autoimmune · 30 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06626919",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06626919",
+      "origin": "registry",
+      "status": "upcoming"
+    }
+  ]
+}

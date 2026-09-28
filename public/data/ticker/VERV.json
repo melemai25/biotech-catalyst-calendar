@@ -1,0 +1,70 @@
+{
+  "ticker": "VERV",
+  "name": "Verve Therapeutics",
+  "sponsorQuery": "Verve Therapeutics",
+  "tier": "gene-editing",
+  "focus": "Cardiovascular base editing",
+  "generatedDate": "2026-09-28",
+  "events": [
+    {
+      "id": "ct-VERV-NCT05398029",
+      "ticker": "VERV",
+      "date": "2025-02-14",
+      "title": "A Study of VERVE-101 in Patients With Familial Hypercholesterolemia and Cardiovascular Disease",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Heterozygous Familial Hypercholesterolemia, Atherosclerotic Cardiovascular Disease, Hypercholesterolemia · 13 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05398029",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05398029",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-VERV-NCT06164730",
+      "ticker": "VERV",
+      "date": "2026-10-15",
+      "title": "A Study of VERVE-102 in Patients With Familial Hypercholesterolemia or Premature Coronary Artery Disease",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Heterozygous Familial Hypercholesterolemia, Premature Coronary Heart Disease · 85 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06164730",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06164730",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-VERV-NCT06451770",
+      "ticker": "VERV",
+      "date": "2027-12-15",
+      "title": "Phase 1b Study of VERVE-201 in Patients With Refractory Hyperlipidemia",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Hypercholesterolemia, Hypertriglyceridemia, Refractory Hyperlipidemia · 36 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06451770",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06451770",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-VERV-NCT07839936",
+      "ticker": "VERV",
+      "date": "2028-08-15",
+      "title": "A Study of VERVE-102 (LY4636581) in Adults With or at High Risk for Cardiovascular Disease",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Atherosclerosis, Cardiovascular Disease, Hypercholesterolemia · 175 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07839936",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07839936",
+      "origin": "registry",
+      "status": "upcoming"
+    }
+  ]
+}

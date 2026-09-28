@@ -1,0 +1,726 @@
+{
+  "_comment": "Ticker universe. 'sponsorQuery' is matched against the LEAD SPONSOR name on ClinicalTrials.gov, case-insensitive substring. If a ticker returns 0 studies, the sponsorQuery is probably wrong - run `npm run validate` to find them. 'tier' drives nothing yet but is useful for sector pages later.",
+  "tickers": {
+    "LLY": {
+      "name": "Eli Lilly and Company",
+      "sponsorQuery": "Eli Lilly",
+      "tier": "large-pharma",
+      "focus": "Obesity, diabetes, Alzheimer's"
+    },
+    "JNJ": {
+      "name": "Johnson & Johnson",
+      "sponsorQuery": "Janssen",
+      "tier": "large-pharma",
+      "focus": "Immunology, oncology, neuroscience"
+    },
+    "ABBV": {
+      "name": "AbbVie Inc.",
+      "sponsorQuery": "AbbVie",
+      "tier": "large-pharma",
+      "focus": "Immunology, aesthetics, neuroscience"
+    },
+    "MRK": {
+      "name": "Merck & Co., Inc.",
+      "sponsorQuery": "Merck Sharp",
+      "tier": "large-pharma",
+      "focus": "Oncology (KEYTRUDA), vaccines"
+    },
+    "PFE": {
+      "name": "Pfizer Inc.",
+      "sponsorQuery": "Pfizer",
+      "tier": "large-pharma",
+      "focus": "Oncology, vaccines, internal medicine"
+    },
+    "BMY": {
+      "name": "Bristol-Myers Squibb",
+      "sponsorQuery": "Bristol-Myers Squibb",
+      "tier": "large-pharma",
+      "focus": "Oncology, immunology, cardiovascular"
+    },
+    "AZN": {
+      "name": "AstraZeneca PLC",
+      "sponsorQuery": "AstraZeneca",
+      "tier": "large-pharma",
+      "focus": "Oncology, respiratory, cardiometabolic"
+    },
+    "NVS": {
+      "name": "Novartis AG",
+      "sponsorQuery": "Novartis",
+      "tier": "large-pharma",
+      "focus": "Oncology, cardiovascular, neuroscience"
+    },
+    "NVO": {
+      "name": "Novo Nordisk A/S",
+      "sponsorQuery": "Novo Nordisk",
+      "tier": "large-pharma",
+      "focus": "Obesity, diabetes"
+    },
+    "GSK": {
+      "name": "GSK plc",
+      "sponsorQuery": "GlaxoSmithKline",
+      "tier": "large-pharma",
+      "focus": "Vaccines, HIV, respiratory"
+    },
+    "SNY": {
+      "name": "Sanofi",
+      "sponsorQuery": "Sanofi",
+      "tier": "large-pharma",
+      "focus": "Immunology, vaccines, rare disease"
+    },
+    "TAK": {
+      "name": "Takeda Pharmaceutical",
+      "sponsorQuery": "Takeda",
+      "tier": "large-pharma",
+      "focus": "GI, rare disease, neuroscience"
+    },
+    "AMGN": {
+      "name": "Amgen Inc.",
+      "sponsorQuery": "Amgen",
+      "tier": "large-biotech",
+      "focus": "Inflammation, oncology, obesity"
+    },
+    "GILD": {
+      "name": "Gilead Sciences, Inc.",
+      "sponsorQuery": "Gilead",
+      "tier": "large-biotech",
+      "focus": "HIV, oncology, liver disease"
+    },
+    "VRTX": {
+      "name": "Vertex Pharmaceuticals",
+      "sponsorQuery": "Vertex Pharmaceuticals",
+      "tier": "large-biotech",
+      "focus": "Cystic fibrosis, pain, gene editing"
+    },
+    "REGN": {
+      "name": "Regeneron Pharmaceuticals",
+      "sponsorQuery": "Regeneron",
+      "tier": "large-biotech",
+      "focus": "Ophthalmology, immunology, oncology"
+    },
+    "BIIB": {
+      "name": "Biogen Inc.",
+      "sponsorQuery": "Biogen",
+      "tier": "large-biotech",
+      "focus": "Neurology, Alzheimer's, MS"
+    },
+    "MRNA": {
+      "name": "Moderna, Inc.",
+      "sponsorQuery": "ModernaTX",
+      "tier": "large-biotech",
+      "focus": "mRNA vaccines, oncology, rare disease"
+    },
+    "BNTX": {
+      "name": "BioNTech SE",
+      "sponsorQuery": "BioNTech",
+      "tier": "large-biotech",
+      "focus": "mRNA oncology, immunotherapy"
+    },
+    "ARGX": {
+      "name": "argenx SE",
+      "sponsorQuery": "argenx",
+      "tier": "large-biotech",
+      "focus": "Autoimmune (FcRn)"
+    },
+    "ALNY": {
+      "name": "Alnylam Pharmaceuticals",
+      "sponsorQuery": "Alnylam",
+      "tier": "large-biotech",
+      "focus": "RNAi therapeutics, ATTR amyloidosis"
+    },
+    "INCY": {
+      "name": "Incyte Corporation",
+      "sponsorQuery": "Incyte",
+      "tier": "large-biotech",
+      "focus": "Oncology, dermatology"
+    },
+    "BMRN": {
+      "name": "BioMarin Pharmaceutical",
+      "sponsorQuery": "BioMarin",
+      "tier": "large-biotech",
+      "focus": "Rare genetic disease, achondroplasia"
+    },
+    "NBIX": {
+      "name": "Neurocrine Biosciences",
+      "sponsorQuery": "Neurocrine",
+      "tier": "large-biotech",
+      "focus": "Neurology, endocrinology"
+    },
+    "UTHR": {
+      "name": "United Therapeutics",
+      "sponsorQuery": "United Therapeutics",
+      "tier": "large-biotech",
+      "focus": "Pulmonary hypertension, organ manufacturing"
+    },
+    "EXEL": {
+      "name": "Exelixis, Inc.",
+      "sponsorQuery": "Exelixis",
+      "tier": "large-biotech",
+      "focus": "Oncology (cabozantinib)"
+    },
+    "IONS": {
+      "name": "Ionis Pharmaceuticals",
+      "sponsorQuery": "Ionis",
+      "tier": "large-biotech",
+      "focus": "Antisense oligonucleotides"
+    },
+    "JAZZ": {
+      "name": "Jazz Pharmaceuticals",
+      "sponsorQuery": "Jazz Pharmaceuticals",
+      "tier": "large-biotech",
+      "focus": "Sleep, epilepsy, oncology"
+    },
+    "SRPT": {
+      "name": "Sarepta Therapeutics",
+      "sponsorQuery": "Sarepta",
+      "tier": "large-biotech",
+      "focus": "Duchenne muscular dystrophy, gene therapy"
+    },
+    "RPRX": {
+      "name": "Royalty Pharma plc",
+      "sponsorQuery": "Royalty Pharma plc",
+      "tier": "large-biotech",
+      "focus": "Biopharma royalties"
+    },
+    "TMO": {
+      "name": "Thermo Fisher Scientific",
+      "sponsorQuery": "Thermo Fisher",
+      "tier": "tools",
+      "focus": "Life science tools, CDMO",
+      "allowUnphased": true
+    },
+    "DHR": {
+      "name": "Danaher Corporation",
+      "sponsorQuery": "Danaher",
+      "tier": "tools",
+      "focus": "Diagnostics, bioprocessing",
+      "allowUnphased": true
+    },
+    "ILMN": {
+      "name": "Illumina, Inc.",
+      "sponsorQuery": "Illumina",
+      "tier": "tools",
+      "focus": "DNA sequencing, genomics",
+      "allowUnphased": true
+    },
+    "A": {
+      "name": "Agilent Technologies",
+      "sponsorQuery": "Agilent",
+      "tier": "tools",
+      "focus": "Analytical instruments, diagnostics",
+      "allowUnphased": true
+    },
+    "QGEN": {
+      "name": "QIAGEN N.V.",
+      "sponsorQuery": "QIAGEN",
+      "tier": "tools",
+      "focus": "Sample prep, molecular diagnostics",
+      "allowUnphased": true
+    },
+    "EXAS": {
+      "name": "Exact Sciences",
+      "sponsorQuery": "Exact Sciences",
+      "tier": "tools",
+      "focus": "Cancer screening (Cologuard)",
+      "allowUnphased": true
+    },
+    "NTRA": {
+      "name": "Natera, Inc.",
+      "sponsorQuery": "Natera",
+      "tier": "tools",
+      "focus": "Cell-free DNA, MRD testing",
+      "allowUnphased": true
+    },
+    "GH": {
+      "name": "Guardant Health",
+      "sponsorQuery": "Guardant",
+      "tier": "tools",
+      "focus": "Liquid biopsy, cancer screening",
+      "allowUnphased": true
+    },
+    "MYGN": {
+      "name": "Myriad Genetics",
+      "sponsorQuery": "Myriad Genetics",
+      "tier": "tools",
+      "focus": "Hereditary cancer testing",
+      "allowUnphased": true
+    },
+    "TXG": {
+      "name": "10x Genomics",
+      "sponsorQuery": "10X Genomics",
+      "tier": "tools",
+      "focus": "Single-cell and spatial biology",
+      "allowUnphased": true
+    },
+    "PACB": {
+      "name": "Pacific Biosciences",
+      "sponsorQuery": "Pacific Biosciences of California",
+      "tier": "tools",
+      "focus": "Long-read sequencing",
+      "allowUnphased": true
+    },
+    "BRKR": {
+      "name": "Bruker Corporation",
+      "sponsorQuery": "Bruker",
+      "tier": "tools",
+      "focus": "Scientific instruments, proteomics",
+      "allowUnphased": true
+    },
+    "VCYT": {
+      "name": "Veracyte, Inc.",
+      "sponsorQuery": "Veracyte",
+      "tier": "tools",
+      "focus": "Genomic diagnostics",
+      "allowUnphased": true
+    },
+    "ALKS": {
+      "name": "Alkermes plc",
+      "sponsorQuery": "Alkermes",
+      "tier": "mid-cap",
+      "focus": "Neuroscience, narcolepsy"
+    },
+    "ACAD": {
+      "name": "ACADIA Pharmaceuticals",
+      "sponsorQuery": "ACADIA Pharmaceuticals",
+      "tier": "mid-cap",
+      "focus": "CNS, Rett syndrome"
+    },
+    "AXSM": {
+      "name": "Axsome Therapeutics",
+      "sponsorQuery": "Axsome",
+      "tier": "mid-cap",
+      "focus": "CNS, depression, migraine"
+    },
+    "HALO": {
+      "name": "Halozyme Therapeutics",
+      "sponsorQuery": "Halozyme",
+      "tier": "mid-cap",
+      "focus": "Drug delivery (ENHANZE)"
+    },
+    "RARE": {
+      "name": "Ultragenyx Pharmaceutical",
+      "sponsorQuery": "Ultragenyx",
+      "tier": "mid-cap",
+      "focus": "Ultra-rare genetic disease"
+    },
+    "FOLD": {
+      "name": "Amicus Therapeutics",
+      "sponsorQuery": "Amicus Therapeutics",
+      "tier": "mid-cap",
+      "focus": "Fabry, Pompe disease"
+    },
+    "PTCT": {
+      "name": "PTC Therapeutics",
+      "sponsorQuery": "PTC Therapeutics",
+      "tier": "mid-cap",
+      "focus": "Rare disease, DMD"
+    },
+    "INSM": {
+      "name": "Insmed Incorporated",
+      "sponsorQuery": "Insmed",
+      "tier": "mid-cap",
+      "focus": "Bronchiectasis, pulmonary"
+    },
+    "CORT": {
+      "name": "Corcept Therapeutics",
+      "sponsorQuery": "Corcept",
+      "tier": "mid-cap",
+      "focus": "Cortisol modulation, Cushing's"
+    },
+    "APLS": {
+      "name": "Apellis Pharmaceuticals",
+      "sponsorQuery": "Apellis",
+      "tier": "mid-cap",
+      "focus": "Complement, geographic atrophy"
+    },
+    "MDGL": {
+      "name": "Madrigal Pharmaceuticals",
+      "sponsorQuery": "Madrigal",
+      "tier": "mid-cap",
+      "focus": "MASH/NASH"
+    },
+    "KRYS": {
+      "name": "Krystal Biotech",
+      "sponsorQuery": "Krystal Biotech",
+      "tier": "mid-cap",
+      "focus": "Redosable gene therapy, dermatology"
+    },
+    "RYTM": {
+      "name": "Rhythm Pharmaceuticals",
+      "sponsorQuery": "Rhythm Pharmaceuticals",
+      "tier": "mid-cap",
+      "focus": "Rare obesity (MC4R)"
+    },
+    "VRNA": {
+      "name": "Verona Pharma plc",
+      "sponsorQuery": "Verona Pharma",
+      "tier": "mid-cap",
+      "focus": "COPD"
+    },
+    "DVAX": {
+      "name": "Dynavax Technologies",
+      "sponsorQuery": "Dynavax",
+      "tier": "mid-cap",
+      "focus": "Adjuvanted vaccines (HEPLISAV)"
+    },
+    "PCVX": {
+      "name": "Vaxcyte, Inc.",
+      "sponsorQuery": "Vaxcyte",
+      "tier": "mid-cap",
+      "focus": "Pneumococcal conjugate vaccines"
+    },
+    "NVAX": {
+      "name": "Novavax, Inc.",
+      "sponsorQuery": "Novavax",
+      "tier": "mid-cap",
+      "focus": "Protein-based vaccines"
+    },
+    "ARWR": {
+      "name": "Arrowhead Pharmaceuticals",
+      "sponsorQuery": "Arrowhead",
+      "tier": "mid-cap",
+      "focus": "RNAi, cardiometabolic"
+    },
+    "DNLI": {
+      "name": "Denali Therapeutics",
+      "sponsorQuery": "Denali Therapeutics",
+      "tier": "mid-cap",
+      "focus": "Neurodegeneration, BBB transport"
+    },
+    "PRTA": {
+      "name": "Prothena Corporation",
+      "sponsorQuery": "Prothena",
+      "tier": "mid-cap",
+      "focus": "Protein misfolding, amyloidosis"
+    },
+    "IOVA": {
+      "name": "Iovance Biotherapeutics",
+      "sponsorQuery": "Iovance",
+      "tier": "mid-cap",
+      "focus": "TIL cell therapy, melanoma"
+    },
+    "BBIO": {
+      "name": "BridgeBio Pharma",
+      "sponsorQuery": "BridgeBio",
+      "tier": "mid-cap",
+      "focus": "Genetic disease, ATTR-CM"
+    },
+    "VNDA": {
+      "name": "Vanda Pharmaceuticals",
+      "sponsorQuery": "Vanda Pharmaceuticals",
+      "tier": "mid-cap",
+      "focus": "CNS, sleep disorders"
+    },
+    "AGIO": {
+      "name": "Agios Pharmaceuticals",
+      "sponsorQuery": "Agios",
+      "tier": "mid-cap",
+      "focus": "Hemolytic anemia, PK deficiency"
+    },
+    "XENE": {
+      "name": "Xenon Pharmaceuticals",
+      "sponsorQuery": "Xenon Pharmaceuticals",
+      "tier": "mid-cap",
+      "focus": "Epilepsy, ion channels"
+    },
+    "CRSP": {
+      "name": "CRISPR Therapeutics",
+      "sponsorQuery": "CRISPR Therapeutics",
+      "tier": "gene-editing",
+      "focus": "CRISPR/Cas9, sickle cell"
+    },
+    "NTLA": {
+      "name": "Intellia Therapeutics",
+      "sponsorQuery": "Intellia",
+      "tier": "gene-editing",
+      "focus": "In vivo CRISPR, ATTR, HAE"
+    },
+    "BEAM": {
+      "name": "Beam Therapeutics",
+      "sponsorQuery": "Beam Therapeutics",
+      "tier": "gene-editing",
+      "focus": "Base editing"
+    },
+    "EDIT": {
+      "name": "Editas Medicine",
+      "sponsorQuery": "Editas",
+      "tier": "gene-editing",
+      "focus": "Gene editing, in vivo HSC"
+    },
+    "VERV": {
+      "name": "Verve Therapeutics",
+      "sponsorQuery": "Verve Therapeutics",
+      "tier": "gene-editing",
+      "focus": "Cardiovascular base editing"
+    },
+    "QURE": {
+      "name": "uniQure N.V.",
+      "sponsorQuery": "uniQure",
+      "tier": "gene-editing",
+      "focus": "AAV gene therapy, Huntington's"
+    },
+    "RGNX": {
+      "name": "REGENXBIO Inc.",
+      "sponsorQuery": "REGENXBIO",
+      "tier": "gene-editing",
+      "focus": "AAV gene therapy"
+    },
+    "SLDB": {
+      "name": "Solid Biosciences",
+      "sponsorQuery": "Solid Biosciences",
+      "tier": "gene-editing",
+      "focus": "DMD gene therapy"
+    },
+    "SANA": {
+      "name": "Sana Biotechnology",
+      "sponsorQuery": "Sana Biotechnology",
+      "tier": "gene-editing",
+      "focus": "Hypoimmune cell therapy"
+    },
+    "ALLO": {
+      "name": "Allogene Therapeutics",
+      "sponsorQuery": "Allogene",
+      "tier": "gene-editing",
+      "focus": "Allogeneic CAR-T"
+    },
+    "FATE": {
+      "name": "Fate Therapeutics",
+      "sponsorQuery": "Fate Therapeutics",
+      "tier": "gene-editing",
+      "focus": "iPSC-derived NK and T cells"
+    },
+    "CRBU": {
+      "name": "Caribou Biosciences",
+      "sponsorQuery": "Caribou Biosciences",
+      "tier": "gene-editing",
+      "focus": "CRISPR allogeneic cell therapy"
+    },
+    "RVMD": {
+      "name": "Revolution Medicines",
+      "sponsorQuery": "Revolution Medicines",
+      "tier": "oncology",
+      "focus": "RAS(ON) inhibitors, pancreatic"
+    },
+    "KURA": {
+      "name": "Kura Oncology",
+      "sponsorQuery": "Kura Oncology",
+      "tier": "oncology",
+      "focus": "Menin inhibitors, AML"
+    },
+    "NUVL": {
+      "name": "Nuvalent, Inc.",
+      "sponsorQuery": "Nuvalent",
+      "tier": "oncology",
+      "focus": "ROS1/ALK inhibitors, NSCLC"
+    },
+    "IDYA": {
+      "name": "IDEAYA Biosciences",
+      "sponsorQuery": "IDEAYA",
+      "tier": "oncology",
+      "focus": "Synthetic lethality, uveal melanoma"
+    },
+    "ARVN": {
+      "name": "Arvinas, Inc.",
+      "sponsorQuery": "Arvinas",
+      "tier": "oncology",
+      "focus": "PROTAC degraders, breast cancer"
+    },
+    "KYMR": {
+      "name": "Kymera Therapeutics",
+      "sponsorQuery": "Kymera",
+      "tier": "oncology",
+      "focus": "Targeted protein degradation"
+    },
+    "RLAY": {
+      "name": "Relay Therapeutics",
+      "sponsorQuery": "Relay Therapeutics",
+      "tier": "oncology",
+      "focus": "Protein motion drug design"
+    },
+    "OLMA": {
+      "name": "Olema Pharmaceuticals",
+      "sponsorQuery": "Olema",
+      "tier": "oncology",
+      "focus": "ER-targeting, breast cancer"
+    },
+    "ERAS": {
+      "name": "Erasca, Inc.",
+      "sponsorQuery": "Erasca",
+      "tier": "oncology",
+      "focus": "RAS/MAPK pathway"
+    },
+    "ZNTL": {
+      "name": "Zentalis Pharmaceuticals",
+      "sponsorQuery": "Zentalis",
+      "tier": "oncology",
+      "focus": "WEE1 inhibitors"
+    },
+    "RCUS": {
+      "name": "Arcus Biosciences",
+      "sponsorQuery": "Arcus Biosciences",
+      "tier": "oncology",
+      "focus": "Immuno-oncology, adenosine axis"
+    },
+    "SWTX": {
+      "name": "SpringWorks Therapeutics",
+      "sponsorQuery": "SpringWorks",
+      "tier": "oncology",
+      "focus": "Desmoid tumors, NF1"
+    },
+    "DAWN": {
+      "name": "Day One Biopharmaceuticals",
+      "sponsorQuery": "Day One Biopharmaceuticals",
+      "tier": "oncology",
+      "focus": "Pediatric brain tumors"
+    },
+    "JANX": {
+      "name": "Janux Therapeutics",
+      "sponsorQuery": "Janux",
+      "tier": "oncology",
+      "focus": "T-cell engagers, prostate"
+    },
+    "VKTX": {
+      "name": "Viking Therapeutics",
+      "sponsorQuery": "Viking Therapeutics",
+      "tier": "metabolic",
+      "focus": "Obesity, MASH"
+    },
+    "TERN": {
+      "name": "Terns Pharmaceuticals",
+      "sponsorQuery": "Terns",
+      "tier": "metabolic",
+      "focus": "Oral obesity, CML"
+    },
+    "ALT": {
+      "name": "Altimmune, Inc.",
+      "sponsorQuery": "Altimmune",
+      "tier": "metabolic",
+      "focus": "Obesity, MASH (pemvidutide)"
+    },
+    "STRO": {
+      "name": "Sutro Biopharma",
+      "sponsorQuery": "Sutro Biopharma",
+      "tier": "oncology",
+      "focus": "Antibody-drug conjugates"
+    },
+    "ITOS": {
+      "name": "iTeos Therapeutics",
+      "sponsorQuery": "iTeos",
+      "tier": "oncology",
+      "focus": "TIGIT, immuno-oncology"
+    },
+    "ACLX": {
+      "name": "Arcellx, Inc.",
+      "sponsorQuery": "Arcellx",
+      "tier": "cell-therapy",
+      "focus": "BCMA CAR-T, multiple myeloma"
+    },
+    "LEGN": {
+      "name": "Legend Biotech",
+      "sponsorQuery": "Legend Biotech",
+      "tier": "cell-therapy",
+      "focus": "CARVYKTI, multiple myeloma"
+    },
+    "CABA": {
+      "name": "Cabaletta Bio",
+      "sponsorQuery": "Cabaletta",
+      "tier": "cell-therapy",
+      "focus": "CAR-T for autoimmune disease"
+    },
+    "KYTX": {
+      "name": "Kyverna Therapeutics",
+      "sponsorQuery": "Kyverna",
+      "tier": "cell-therapy",
+      "focus": "CAR-T for autoimmune disease"
+    },
+    "VIR": {
+      "name": "Vir Biotechnology",
+      "sponsorQuery": "Vir Biotechnology",
+      "tier": "infectious",
+      "focus": "Hepatitis B/D, infectious disease"
+    },
+    "ARCT": {
+      "name": "Arcturus Therapeutics",
+      "sponsorQuery": "Arcturus",
+      "tier": "infectious",
+      "focus": "self-amplifying mRNA, cystic fibrosis"
+    },
+    "ABUS": {
+      "name": "Arbutus Biopharma",
+      "sponsorQuery": "Arbutus",
+      "tier": "infectious",
+      "focus": "Chronic hepatitis B"
+    },
+    "VXRT": {
+      "name": "Vaxart, Inc.",
+      "sponsorQuery": "Vaxart",
+      "tier": "infectious",
+      "focus": "Oral vaccines"
+    },
+    "OCGN": {
+      "name": "Ocugen, Inc.",
+      "sponsorQuery": "Ocugen",
+      "tier": "infectious",
+      "focus": "Ophthalmic gene therapy, vaccines"
+    },
+    "SNDX": {
+      "name": "Syndax Pharmaceuticals",
+      "sponsorQuery": "Syndax",
+      "tier": "oncology",
+      "focus": "Menin inhibitors, GVHD"
+    },
+    "MIRM": {
+      "name": "Mirum Pharmaceuticals",
+      "sponsorQuery": "Mirum",
+      "tier": "mid-cap",
+      "focus": "Rare liver disease"
+    },
+    "TVTX": {
+      "name": "Travere Therapeutics",
+      "sponsorQuery": "Travere",
+      "tier": "mid-cap",
+      "focus": "Rare kidney disease, IgAN"
+    },
+    "AURA": {
+      "name": "Aura Biosciences",
+      "sponsorQuery": "Aura Biosciences",
+      "tier": "oncology",
+      "focus": "Ocular oncology"
+    },
+    "SAVA": {
+      "name": "Cassava Sciences",
+      "sponsorQuery": "Cassava Sciences",
+      "tier": "mid-cap",
+      "focus": "Alzheimer's disease"
+    },
+    "ANVS": {
+      "name": "Annovis Bio",
+      "sponsorQuery": "Annovis",
+      "tier": "mid-cap",
+      "focus": "Neurodegeneration"
+    },
+    "LXRX": {
+      "name": "Lexicon Pharmaceuticals",
+      "sponsorQuery": "Lexicon Pharmaceuticals",
+      "tier": "mid-cap",
+      "focus": "Diabetes, heart failure"
+    },
+    "AKRO": {
+      "name": "Akero Therapeutics",
+      "sponsorQuery": "Akero",
+      "tier": "metabolic",
+      "focus": "MASH (efruxifermin)"
+    },
+    "NGNE": {
+      "name": "Neurogene Inc.",
+      "sponsorQuery": "Neurogene",
+      "tier": "gene-editing",
+      "focus": "Neurological gene therapy"
+    },
+    "TSHA": {
+      "name": "Taysha Gene Therapies",
+      "sponsorQuery": "Taysha",
+      "tier": "gene-editing",
+      "focus": "Rett syndrome gene therapy"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "biotech-catalyst-calendar",
+  "version": "1.4.0",
+  "description": "A calendar of clinical trial dates, FDA decisions, and earnings catalysts for tracked biotech tickers.",
+  "private": true,
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "build": "node scripts/build-data.js",
+    "serve": "node scripts/serve.js --no-build",
+    "deploy": "node scripts/deploy.js",
+    "validate": "node scripts/build-data.js --validate"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

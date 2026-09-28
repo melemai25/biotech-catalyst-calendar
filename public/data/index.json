@@ -1,0 +1,1660 @@
+{
+  "generatedAt": "2026-09-28T00:30:56.987Z",
+  "generatedDate": "2026-09-28",
+  "tickerCount": 118,
+  "totalEvents": 9752,
+  "tickers": {
+    "LLY": {
+      "name": "Eli Lilly and Company",
+      "tier": "large-pharma",
+      "focus": "Obesity, diabetes, Alzheimer's",
+      "counts": {
+        "total": 418,
+        "curated": 0,
+        "registry": 408,
+        "edgar": 10,
+        "upcoming": 30
+      },
+      "nextDate": "2026-10-15",
+      "error": null
+    },
+    "JNJ": {
+      "name": "Johnson & Johnson",
+      "tier": "large-pharma",
+      "focus": "Immunology, oncology, neuroscience",
+      "counts": {
+        "total": 359,
+        "curated": 0,
+        "registry": 345,
+        "edgar": 14,
+        "upcoming": 29
+      },
+      "nextDate": "2026-10-15",
+      "error": null
+    },
+    "ABBV": {
+      "name": "AbbVie Inc.",
+      "tier": "large-pharma",
+      "focus": "Immunology, aesthetics, neuroscience",
+      "counts": {
+        "total": 366,
+        "curated": 0,
+        "registry": 346,
+        "edgar": 20,
+        "upcoming": 65
+      },
+      "nextDate": "2026-10-15",
+      "error": null
+    },
+    "MRK": {
+      "name": "Merck & Co., Inc.",
+      "tier": "large-pharma",
+      "focus": "Oncology (KEYTRUDA), vaccines",
+      "counts": {
+        "total": 282,
+        "curated": 0,
+        "registry": 272,
+        "edgar": 10,
+        "upcoming": 25
+      },
+      "nextDate": "2026-11-08",
+      "error": null
+    },
+    "PFE": {
+      "name": "Pfizer Inc.",
+      "tier": "large-pharma",
+      "focus": "Oncology, vaccines, internal medicine",
+      "counts": {
+        "total": 361,
+        "curated": 0,
+        "registry": 348,
+        "edgar": 13,
+        "upcoming": 12
+      },
+      "nextDate": "2026-11-03",
+      "error": null
+    },
+    "BMY": {
+      "name": "Bristol-Myers Squibb",
+      "tier": "large-pharma",
+      "focus": "Oncology, immunology, cardiovascular",
+      "counts": {
+        "total": 253,
+        "curated": 0,
+        "registry": 241,
+        "edgar": 12,
+        "upcoming": 28
+      },
+      "nextDate": "2026-09-30",
+      "error": null
+    },
+    "AZN": {
+      "name": "AstraZeneca PLC",
+      "tier": "large-pharma",
+      "focus": "Oncology, respiratory, cardiometabolic",
+      "counts": {
+        "total": 303,
+        "curated": 0,
+        "registry": 303,
+        "edgar": 0,
+        "upcoming": 24
+      },
+      "nextDate": "2026-10-31",
+      "error": null
+    },
+    "NVS": {
+      "name": "Novartis AG",
+      "tier": "large-pharma",
+      "focus": "Oncology, cardiovascular, neuroscience",
+      "counts": {
+        "total": 344,
+        "curated": 0,
+        "registry": 344,
+        "edgar": 0,
+        "upcoming": 31
+      },
+      "nextDate": "2026-11-05",
+      "error": null
+    },
+    "NVO": {
+      "name": "Novo Nordisk A/S",
+      "tier": "large-pharma",
+      "focus": "Obesity, diabetes",
+      "counts": {
+        "total": 335,
+        "curated": 0,
+        "registry": 335,
+        "edgar": 0,
+        "upcoming": 22
+      },
+      "nextDate": "2026-10-01",
+      "error": null
+    },
+    "GSK": {
+      "name": "GSK plc",
+      "tier": "large-pharma",
+      "focus": "Vaccines, HIV, respiratory",
+      "counts": {
+        "total": 366,
+        "curated": 0,
+        "registry": 366,
+        "edgar": 0,
+        "upcoming": 20
+      },
+      "nextDate": "2026-11-09",
+      "error": null
+    },
+    "SNY": {
+      "name": "Sanofi",
+      "tier": "large-pharma",
+      "focus": "Immunology, vaccines, rare disease",
+      "counts": {
+        "total": 359,
+        "curated": 0,
+        "registry": 359,
+        "edgar": 0,
+        "upcoming": 24
+      },
+      "nextDate": "2026-11-06",
+      "error": null
+    },
+    "TAK": {
+      "name": "Takeda Pharmaceutical",
+      "tier": "large-pharma",
+      "focus": "GI, rare disease, neuroscience",
+      "counts": {
+        "total": 216,
+        "curated": 0,
+        "registry": 216,
+        "edgar": 0,
+        "upcoming": 23
+      },
+      "nextDate": "2026-10-02",
+      "error": null
+    },
+    "AMGN": {
+      "name": "Amgen Inc.",
+      "tier": "large-biotech",
+      "focus": "Inflammation, oncology, obesity",
+      "counts": {
+        "total": 348,
+        "curated": 0,
+        "registry": 338,
+        "edgar": 10,
+        "upcoming": 29
+      },
+      "nextDate": "2026-10-22",
+      "error": null
+    },
+    "GILD": {
+      "name": "Gilead Sciences, Inc.",
+      "tier": "large-biotech",
+      "focus": "HIV, oncology, liver disease",
+      "counts": {
+        "total": 300,
+        "curated": 0,
+        "registry": 287,
+        "edgar": 13,
+        "upcoming": 30
+      },
+      "nextDate": "2026-10-15",
+      "error": null
+    },
+    "VRTX": {
+      "name": "Vertex Pharmaceuticals",
+      "tier": "large-biotech",
+      "focus": "Cystic fibrosis, pain, gene editing",
+      "counts": {
+        "total": 246,
+        "curated": 0,
+        "registry": 232,
+        "edgar": 14,
+        "upcoming": 29
+      },
+      "nextDate": "2026-10-27",
+      "error": null
+    },
+    "REGN": {
+      "name": "Regeneron Pharmaceuticals",
+      "tier": "large-biotech",
+      "focus": "Ophthalmology, immunology, oncology",
+      "counts": {
+        "total": 265,
+        "curated": 0,
+        "registry": 255,
+        "edgar": 10,
+        "upcoming": 74
+      },
+      "nextDate": "2026-10-07",
+      "error": null
+    },
+    "BIIB": {
+      "name": "Biogen Inc.",
+      "tier": "large-biotech",
+      "focus": "Neurology, Alzheimer's, MS",
+      "counts": {
+        "total": 363,
+        "curated": 0,
+        "registry": 347,
+        "edgar": 16,
+        "upcoming": 22
+      },
+      "nextDate": "2026-09-30",
+      "error": null
+    },
+    "MRNA": {
+      "name": "Moderna, Inc.",
+      "tier": "large-biotech",
+      "focus": "mRNA vaccines, oncology, rare disease",
+      "counts": {
+        "total": 114,
+        "curated": 8,
+        "registry": 91,
+        "edgar": 15,
+        "upcoming": 28
+      },
+      "nextDate": "2026-10-05",
+      "error": null
+    },
+    "BNTX": {
+      "name": "BioNTech SE",
+      "tier": "large-biotech",
+      "focus": "mRNA oncology, immunotherapy",
+      "counts": {
+        "total": 81,
+        "curated": 0,
+        "registry": 81,
+        "edgar": 0,
+        "upcoming": 29
+      },
+      "nextDate": "2026-10-15",
+      "error": null
+    },
+    "ARGX": {
+      "name": "argenx SE",
+      "tier": "large-biotech",
+      "focus": "Autoimmune (FcRn)",
+      "counts": {
+        "total": 78,
+        "curated": 0,
+        "registry": 78,
+        "edgar": 0,
+        "upcoming": 31
+      },
+      "nextDate": "2026-10-01",
+      "error": null
+    },
+    "ALNY": {
+      "name": "Alnylam Pharmaceuticals",
+      "tier": "large-biotech",
+      "focus": "RNAi therapeutics, ATTR amyloidosis",
+      "counts": {
+        "total": 83,
+        "curated": 0,
+        "registry": 68,
+        "edgar": 15,
+        "upcoming": 20
+      },
+      "nextDate": "2026-10-15",
+      "error": null
+    },
+    "INCY": {
+      "name": "Incyte Corporation",
+      "tier": "large-biotech",
+      "focus": "Oncology, dermatology",
+      "counts": {
+        "total": 292,
+        "curated": 0,
+        "registry": 272,
+        "edgar": 20,
+        "upcoming": 47
+      },
+      "nextDate": "2026-09-30",
+      "error": null
+    },
+    "BMRN": {
+      "name": "BioMarin Pharmaceutical",
+      "tier": "large-biotech",
+      "focus": "Rare genetic disease, achondroplasia",
+      "counts": {
+        "total": 109,
+        "curated": 0,
+        "registry": 80,
+        "edgar": 29,
+        "upcoming": 14
+      },
+      "nextDate": "2026-10-15",
+      "error": null
+    },
+    "NBIX": {
+      "name": "Neurocrine Biosciences",
+      "tier": "large-biotech",
+      "focus": "Neurology, endocrinology",
+      "counts": {
+        "total": 113,
+        "curated": 0,
+        "registry": 99,
+        "edgar": 14,
+        "upcoming": 18
+      },
+      "nextDate": "2026-10-24",
+      "error": null
+    },
+    "UTHR": {
+      "name": "United Therapeutics",
+      "tier": "large-biotech",
+      "focus": "Pulmonary hypertension, organ manufacturing",
+      "counts": {
+        "total": 79,
+        "curated": 0,
+        "registry": 61,
+        "edgar": 18,
+        "upcoming": 6
+      },
+      "nextDate": "2026-11-04",
+      "error": null
+    },
+    "EXEL": {
+      "name": "Exelixis, Inc.",
+      "tier": "large-biotech",
+      "focus": "Oncology (cabozantinib)",
+      "counts": {
+        "total": 63,
+        "curated": 0,
+        "registry": 49,
+        "edgar": 14,
+        "upcoming": 13
+      },
+      "nextDate": "2026-10-28",
+      "error": null
+    },
+    "IONS": {
+      "name": "Ionis Pharmaceuticals",
+      "tier": "large-biotech",
+      "focus": "Antisense oligonucleotides",
+      "counts": {
+        "total": 130,
+        "curated": 0,
+        "registry": 102,
+        "edgar": 28,
+        "upcoming": 18
+      },
+      "nextDate": "2026-10-12",
+      "error": null
+    },
+    "JAZZ": {
+      "name": "Jazz Pharmaceuticals",
+      "tier": "large-biotech",
+      "focus": "Sleep, epilepsy, oncology",
+      "counts": {
+        "total": 190,
+        "curated": 0,
+        "registry": 169,
+        "edgar": 21,
+        "upcoming": 19
+      },
+      "nextDate": "2026-10-12",
+      "error": null
+    },
+    "SRPT": {
+      "name": "Sarepta Therapeutics",
+      "tier": "large-biotech",
+      "focus": "Duchenne muscular dystrophy, gene therapy",
+      "counts": {
+        "total": 63,
+        "curated": 0,
+        "registry": 45,
+        "edgar": 18,
+        "upcoming": 10
+      },
+      "nextDate": "2026-10-14",
+      "error": null
+    },
+    "RPRX": {
+      "name": "Royalty Pharma plc",
+      "tier": "large-biotech",
+      "focus": "Biopharma royalties",
+      "counts": {
+        "total": 17,
+        "curated": 0,
+        "registry": 0,
+        "edgar": 17,
+        "upcoming": 1
+      },
+      "nextDate": "2026-11-04",
+      "error": null
+    },
+    "TMO": {
+      "name": "Thermo Fisher Scientific",
+      "tier": "tools",
+      "focus": "Life science tools, CDMO",
+      "counts": {
+        "total": 19,
+        "curated": 0,
+        "registry": 3,
+        "edgar": 16,
+        "upcoming": 1
+      },
+      "nextDate": "2026-10-22",
+      "error": null
+    },
+    "DHR": {
+      "name": "Danaher Corporation",
+      "tier": "tools",
+      "focus": "Diagnostics, bioprocessing",
+      "counts": {
+        "total": 19,
+        "curated": 0,
+        "registry": 0,
+        "edgar": 19,
+        "upcoming": 1
+      },
+      "nextDate": "2026-10-12",
+      "error": null
+    },
+    "ILMN": {
+      "name": "Illumina, Inc.",
+      "tier": "tools",
+      "focus": "DNA sequencing, genomics",
+      "counts": {
+        "total": 41,
+        "curated": 6,
+        "registry": 15,
+        "edgar": 20,
+        "upcoming": 4
+      },
+      "nextDate": "2026-10-22",
+      "error": null
+    },
+    "A": {
+      "name": "Agilent Technologies",
+      "tier": "tools",
+      "focus": "Analytical instruments, diagnostics",
+      "counts": {
+        "total": 18,
+        "curated": 0,
+        "registry": 0,
+        "edgar": 18,
+        "upcoming": 1
+      },
+      "nextDate": "2026-11-25",
+      "error": null
+    },
+    "QGEN": {
+      "name": "QIAGEN N.V.",
+      "tier": "tools",
+      "focus": "Sample prep, molecular diagnostics",
+      "counts": {
+        "total": 26,
+        "curated": 0,
+        "registry": 26,
+        "edgar": 0,
+        "upcoming": 1
+      },
+      "nextDate": "2030-10-31",
+      "error": null
+    },
+    "EXAS": {
+      "name": "Exact Sciences",
+      "tier": "tools",
+      "focus": "Cancer screening (Cologuard)",
+      "counts": {
+        "total": 31,
+        "curated": 0,
+        "registry": 31,
+        "edgar": 0,
+        "upcoming": 5
+      },
+      "nextDate": "2027-05-15",
+      "error": null
+    },
+    "NTRA": {
+      "name": "Natera, Inc.",
+      "tier": "tools",
+      "focus": "Cell-free DNA, MRD testing",
+      "counts": {
+        "total": 47,
+        "curated": 0,
+        "registry": 32,
+        "edgar": 15,
+        "upcoming": 14
+      },
+      "nextDate": "2026-10-01",
+      "error": null
+    },
+    "GH": {
+      "name": "Guardant Health",
+      "tier": "tools",
+      "focus": "Liquid biopsy, cancer screening",
+      "counts": {
+        "total": 23,
+        "curated": 0,
+        "registry": 10,
+        "edgar": 13,
+        "upcoming": 6
+      },
+      "nextDate": "2026-10-15",
+      "error": null
+    },
+    "MYGN": {
+      "name": "Myriad Genetics",
+      "tier": "tools",
+      "focus": "Hereditary cancer testing",
+      "counts": {
+        "total": 17,
+        "curated": 0,
+        "registry": 0,
+        "edgar": 17,
+        "upcoming": 1
+      },
+      "nextDate": "2026-10-07",
+      "error": null
+    },
+    "TXG": {
+      "name": "10x Genomics",
+      "tier": "tools",
+      "focus": "Single-cell and spatial biology",
+      "counts": {
+        "total": 10,
+        "curated": 0,
+        "registry": 0,
+        "edgar": 10,
+        "upcoming": 1
+      },
+      "nextDate": "2026-10-29",
+      "error": null
+    },
+    "PACB": {
+      "name": "Pacific Biosciences",
+      "tier": "tools",
+      "focus": "Long-read sequencing",
+      "counts": {
+        "total": 17,
+        "curated": 0,
+        "registry": 0,
+        "edgar": 17,
+        "upcoming": 1
+      },
+      "nextDate": "2026-10-28",
+      "error": null
+    },
+    "BRKR": {
+      "name": "Bruker Corporation",
+      "tier": "tools",
+      "focus": "Scientific instruments, proteomics",
+      "counts": {
+        "total": 21,
+        "curated": 0,
+        "registry": 0,
+        "edgar": 21,
+        "upcoming": 1
+      },
+      "nextDate": "2026-10-26",
+      "error": null
+    },
+    "VCYT": {
+      "name": "Veracyte, Inc.",
+      "tier": "tools",
+      "focus": "Genomic diagnostics",
+      "counts": {
+        "total": 13,
+        "curated": 0,
+        "registry": 1,
+        "edgar": 12,
+        "upcoming": 1
+      },
+      "nextDate": "2026-10-07",
+      "error": null
+    },
+    "ALKS": {
+      "name": "Alkermes plc",
+      "tier": "mid-cap",
+      "focus": "Neuroscience, narcolepsy",
+      "counts": {
+        "total": 105,
+        "curated": 0,
+        "registry": 78,
+        "edgar": 27,
+        "upcoming": 8
+      },
+      "nextDate": "2026-10-05",
+      "error": null
+    },
+    "ACAD": {
+      "name": "ACADIA Pharmaceuticals",
+      "tier": "mid-cap",
+      "focus": "CNS, Rett syndrome",
+      "counts": {
+        "total": 55,
+        "curated": 0,
+        "registry": 39,
+        "edgar": 16,
+        "upcoming": 6
+      },
+      "nextDate": "2026-10-13",
+      "error": null
+    },
+    "AXSM": {
+      "name": "Axsome Therapeutics",
+      "tier": "mid-cap",
+      "focus": "CNS, depression, migraine",
+      "counts": {
+        "total": 54,
+        "curated": 0,
+        "registry": 33,
+        "edgar": 21,
+        "upcoming": 11
+      },
+      "nextDate": "2026-10-19",
+      "error": null
+    },
+    "HALO": {
+      "name": "Halozyme Therapeutics",
+      "tier": "mid-cap",
+      "focus": "Drug delivery (ENHANZE)",
+      "counts": {
+        "total": 58,
+        "curated": 0,
+        "registry": 33,
+        "edgar": 25,
+        "upcoming": 2
+      },
+      "nextDate": "2026-10-31",
+      "error": null
+    },
+    "RARE": {
+      "name": "Ultragenyx Pharmaceutical",
+      "tier": "mid-cap",
+      "focus": "Ultra-rare genetic disease",
+      "counts": {
+        "total": 68,
+        "curated": 0,
+        "registry": 39,
+        "edgar": 29,
+        "upcoming": 10
+      },
+      "nextDate": "2026-10-25",
+      "error": null
+    },
+    "FOLD": {
+      "name": "Amicus Therapeutics",
+      "tier": "mid-cap",
+      "focus": "Fabry, Pompe disease",
+      "counts": {
+        "total": 30,
+        "curated": 0,
+        "registry": 30,
+        "edgar": 0,
+        "upcoming": 4
+      },
+      "nextDate": "2026-12-31",
+      "error": null
+    },
+    "PTCT": {
+      "name": "PTC Therapeutics",
+      "tier": "mid-cap",
+      "focus": "Rare disease, DMD",
+      "counts": {
+        "total": 83,
+        "curated": 0,
+        "registry": 60,
+        "edgar": 23,
+        "upcoming": 5
+      },
+      "nextDate": "2026-10-15",
+      "error": null
+    },
+    "INSM": {
+      "name": "Insmed Incorporated",
+      "tier": "mid-cap",
+      "focus": "Bronchiectasis, pulmonary",
+      "counts": {
+        "total": 67,
+        "curated": 0,
+        "registry": 46,
+        "edgar": 21,
+        "upcoming": 10
+      },
+      "nextDate": "2026-11-05",
+      "error": null
+    },
+    "CORT": {
+      "name": "Corcept Therapeutics",
+      "tier": "mid-cap",
+      "focus": "Cortisol modulation, Cushing's",
+      "counts": {
+        "total": 85,
+        "curated": 0,
+        "registry": 66,
+        "edgar": 19,
+        "upcoming": 5
+      },
+      "nextDate": "2026-10-15",
+      "error": null
+    },
+    "APLS": {
+      "name": "Apellis Pharmaceuticals",
+      "tier": "mid-cap",
+      "focus": "Complement, geographic atrophy",
+      "counts": {
+        "total": 24,
+        "curated": 0,
+        "registry": 24,
+        "edgar": 0,
+        "upcoming": 4
+      },
+      "nextDate": "2027-06-25",
+      "error": null
+    },
+    "MDGL": {
+      "name": "Madrigal Pharmaceuticals",
+      "tier": "mid-cap",
+      "focus": "MASH/NASH",
+      "counts": {
+        "total": 34,
+        "curated": 0,
+        "registry": 19,
+        "edgar": 15,
+        "upcoming": 7
+      },
+      "nextDate": "2026-10-29",
+      "error": null
+    },
+    "KRYS": {
+      "name": "Krystal Biotech",
+      "tier": "mid-cap",
+      "focus": "Redosable gene therapy, dermatology",
+      "counts": {
+        "total": 30,
+        "curated": 0,
+        "registry": 12,
+        "edgar": 18,
+        "upcoming": 7
+      },
+      "nextDate": "2026-11-01",
+      "error": null
+    },
+    "RYTM": {
+      "name": "Rhythm Pharmaceuticals",
+      "tier": "mid-cap",
+      "focus": "Rare obesity (MC4R)",
+      "counts": {
+        "total": 45,
+        "curated": 0,
+        "registry": 25,
+        "edgar": 20,
+        "upcoming": 5
+      },
+      "nextDate": "2026-10-11",
+      "error": null
+    },
+    "VRNA": {
+      "name": "Verona Pharma plc",
+      "tier": "mid-cap",
+      "focus": "COPD",
+      "counts": {
+        "total": 19,
+        "curated": 0,
+        "registry": 19,
+        "edgar": 0,
+        "upcoming": 2
+      },
+      "nextDate": "2026-12-15",
+      "error": null
+    },
+    "DVAX": {
+      "name": "Dynavax Technologies",
+      "tier": "mid-cap",
+      "focus": "Adjuvanted vaccines (HEPLISAV)",
+      "counts": {
+        "total": 23,
+        "curated": 0,
+        "registry": 23,
+        "edgar": 0,
+        "upcoming": 2
+      },
+      "nextDate": "2027-01-29",
+      "error": null
+    },
+    "PCVX": {
+      "name": "Vaxcyte, Inc.",
+      "tier": "mid-cap",
+      "focus": "Pneumococcal conjugate vaccines",
+      "counts": {
+        "total": 25,
+        "curated": 0,
+        "registry": 9,
+        "edgar": 16,
+        "upcoming": 6
+      },
+      "nextDate": "2026-11-04",
+      "error": null
+    },
+    "NVAX": {
+      "name": "Novavax, Inc.",
+      "tier": "mid-cap",
+      "focus": "Protein-based vaccines",
+      "counts": {
+        "total": 66,
+        "curated": 0,
+        "registry": 44,
+        "edgar": 22,
+        "upcoming": 2
+      },
+      "nextDate": "2026-10-14",
+      "error": null
+    },
+    "ARWR": {
+      "name": "Arrowhead Pharmaceuticals",
+      "tier": "mid-cap",
+      "focus": "RNAi, cardiometabolic",
+      "counts": {
+        "total": 65,
+        "curated": 0,
+        "registry": 49,
+        "edgar": 16,
+        "upcoming": 12
+      },
+      "nextDate": "2026-09-30",
+      "error": null
+    },
+    "DNLI": {
+      "name": "Denali Therapeutics",
+      "tier": "mid-cap",
+      "focus": "Neurodegeneration, BBB transport",
+      "counts": {
+        "total": 38,
+        "curated": 0,
+        "registry": 18,
+        "edgar": 20,
+        "upcoming": 10
+      },
+      "nextDate": "2026-11-05",
+      "error": null
+    },
+    "PRTA": {
+      "name": "Prothena Corporation",
+      "tier": "mid-cap",
+      "focus": "Protein misfolding, amyloidosis",
+      "counts": {
+        "total": 28,
+        "curated": 0,
+        "registry": 12,
+        "edgar": 16,
+        "upcoming": 1
+      },
+      "nextDate": "2026-11-05",
+      "error": null
+    },
+    "IOVA": {
+      "name": "Iovance Biotherapeutics",
+      "tier": "mid-cap",
+      "focus": "TIL cell therapy, melanoma",
+      "counts": {
+        "total": 32,
+        "curated": 0,
+        "registry": 14,
+        "edgar": 18,
+        "upcoming": 9
+      },
+      "nextDate": "2026-11-05",
+      "error": null
+    },
+    "BBIO": {
+      "name": "BridgeBio Pharma",
+      "tier": "mid-cap",
+      "focus": "Genetic disease, ATTR-CM",
+      "counts": {
+        "total": 53,
+        "curated": 0,
+        "registry": 31,
+        "edgar": 22,
+        "upcoming": 15
+      },
+      "nextDate": "2026-10-24",
+      "error": null
+    },
+    "VNDA": {
+      "name": "Vanda Pharmaceuticals",
+      "tier": "mid-cap",
+      "focus": "CNS, sleep disorders",
+      "counts": {
+        "total": 88,
+        "curated": 0,
+        "registry": 71,
+        "edgar": 17,
+        "upcoming": 12
+      },
+      "nextDate": "2026-10-15",
+      "error": null
+    },
+    "AGIO": {
+      "name": "Agios Pharmaceuticals",
+      "tier": "mid-cap",
+      "focus": "Hemolytic anemia, PK deficiency",
+      "counts": {
+        "total": 57,
+        "curated": 0,
+        "registry": 45,
+        "edgar": 12,
+        "upcoming": 6
+      },
+      "nextDate": "2026-10-29",
+      "error": null
+    },
+    "XENE": {
+      "name": "Xenon Pharmaceuticals",
+      "tier": "mid-cap",
+      "focus": "Epilepsy, ion channels",
+      "counts": {
+        "total": 40,
+        "curated": 0,
+        "registry": 23,
+        "edgar": 17,
+        "upcoming": 8
+      },
+      "nextDate": "2026-10-15",
+      "error": null
+    },
+    "CRSP": {
+      "name": "CRISPR Therapeutics",
+      "tier": "gene-editing",
+      "focus": "CRISPR/Cas9, sickle cell",
+      "counts": {
+        "total": 28,
+        "curated": 0,
+        "registry": 14,
+        "edgar": 14,
+        "upcoming": 7
+      },
+      "nextDate": "2026-11-02",
+      "error": null
+    },
+    "NTLA": {
+      "name": "Intellia Therapeutics",
+      "tier": "gene-editing",
+      "focus": "In vivo CRISPR, ATTR, HAE",
+      "counts": {
+        "total": 29,
+        "curated": 0,
+        "registry": 6,
+        "edgar": 23,
+        "upcoming": 3
+      },
+      "nextDate": "2026-11-01",
+      "error": null
+    },
+    "BEAM": {
+      "name": "Beam Therapeutics",
+      "tier": "gene-editing",
+      "focus": "Base editing",
+      "counts": {
+        "total": 16,
+        "curated": 0,
+        "registry": 5,
+        "edgar": 11,
+        "upcoming": 5
+      },
+      "nextDate": "2026-10-15",
+      "error": null
+    },
+    "EDIT": {
+      "name": "Editas Medicine",
+      "tier": "gene-editing",
+      "focus": "Gene editing, in vivo HSC",
+      "counts": {
+        "total": 20,
+        "curated": 0,
+        "registry": 2,
+        "edgar": 18,
+        "upcoming": 1
+      },
+      "nextDate": "2026-11-05",
+      "error": null
+    },
+    "VERV": {
+      "name": "Verve Therapeutics",
+      "tier": "gene-editing",
+      "focus": "Cardiovascular base editing",
+      "counts": {
+        "total": 4,
+        "curated": 0,
+        "registry": 4,
+        "edgar": 0,
+        "upcoming": 3
+      },
+      "nextDate": "2026-10-15",
+      "error": null
+    },
+    "QURE": {
+      "name": "uniQure N.V.",
+      "tier": "gene-editing",
+      "focus": "AAV gene therapy, Huntington's",
+      "counts": {
+        "total": 30,
+        "curated": 0,
+        "registry": 6,
+        "edgar": 24,
+        "upcoming": 6
+      },
+      "nextDate": "2026-09-30",
+      "error": null
+    },
+    "RGNX": {
+      "name": "REGENXBIO Inc.",
+      "tier": "gene-editing",
+      "focus": "AAV gene therapy",
+      "counts": {
+        "total": 24,
+        "curated": 0,
+        "registry": 6,
+        "edgar": 18,
+        "upcoming": 2
+      },
+      "nextDate": "2026-11-01",
+      "error": null
+    },
+    "SLDB": {
+      "name": "Solid Biosciences",
+      "tier": "gene-editing",
+      "focus": "DMD gene therapy",
+      "counts": {
+        "total": 12,
+        "curated": 0,
+        "registry": 5,
+        "edgar": 7,
+        "upcoming": 5
+      },
+      "nextDate": "2026-10-15",
+      "error": null
+    },
+    "SANA": {
+      "name": "Sana Biotechnology",
+      "tier": "gene-editing",
+      "focus": "Hypoimmune cell therapy",
+      "counts": {
+        "total": 21,
+        "curated": 0,
+        "registry": 3,
+        "edgar": 18,
+        "upcoming": 2
+      },
+      "nextDate": "2026-11-05",
+      "error": null
+    },
+    "ALLO": {
+      "name": "Allogene Therapeutics",
+      "tier": "gene-editing",
+      "focus": "Allogeneic CAR-T",
+      "counts": {
+        "total": 23,
+        "curated": 0,
+        "registry": 8,
+        "edgar": 15,
+        "upcoming": 5
+      },
+      "nextDate": "2026-11-11",
+      "error": null
+    },
+    "FATE": {
+      "name": "Fate Therapeutics",
+      "tier": "gene-editing",
+      "focus": "iPSC-derived NK and T cells",
+      "counts": {
+        "total": 34,
+        "curated": 0,
+        "registry": 22,
+        "edgar": 12,
+        "upcoming": 6
+      },
+      "nextDate": "2026-11-13",
+      "error": null
+    },
+    "CRBU": {
+      "name": "Caribou Biosciences",
+      "tier": "gene-editing",
+      "focus": "CRISPR allogeneic cell therapy",
+      "counts": {
+        "total": 14,
+        "curated": 0,
+        "registry": 2,
+        "edgar": 12,
+        "upcoming": 2
+      },
+      "nextDate": "2026-11-04",
+      "error": null
+    },
+    "RVMD": {
+      "name": "Revolution Medicines",
+      "tier": "oncology",
+      "focus": "RAS(ON) inhibitors, pancreatic",
+      "counts": {
+        "total": 35,
+        "curated": 0,
+        "registry": 18,
+        "edgar": 17,
+        "upcoming": 15
+      },
+      "nextDate": "2026-11-04",
+      "error": null
+    },
+    "KURA": {
+      "name": "Kura Oncology",
+      "tier": "oncology",
+      "focus": "Menin inhibitors, AML",
+      "counts": {
+        "total": 34,
+        "curated": 0,
+        "registry": 14,
+        "edgar": 20,
+        "upcoming": 7
+      },
+      "nextDate": "2026-10-20",
+      "error": null
+    },
+    "NUVL": {
+      "name": "Nuvalent, Inc.",
+      "tier": "oncology",
+      "focus": "ROS1/ALK inhibitors, NSCLC",
+      "counts": {
+        "total": 4,
+        "curated": 0,
+        "registry": 4,
+        "edgar": 0,
+        "upcoming": 4
+      },
+      "nextDate": "2027-01-15",
+      "error": null
+    },
+    "IDYA": {
+      "name": "IDEAYA Biosciences",
+      "tier": "oncology",
+      "focus": "Synthetic lethality, uveal melanoma",
+      "counts": {
+        "total": 33,
+        "curated": 0,
+        "registry": 11,
+        "edgar": 22,
+        "upcoming": 12
+      },
+      "nextDate": "2026-10-15",
+      "error": null
+    },
+    "ARVN": {
+      "name": "Arvinas, Inc.",
+      "tier": "oncology",
+      "focus": "PROTAC degraders, breast cancer",
+      "counts": {
+        "total": 36,
+        "curated": 0,
+        "registry": 8,
+        "edgar": 28,
+        "upcoming": 4
+      },
+      "nextDate": "2026-11-03",
+      "error": null
+    },
+    "KYMR": {
+      "name": "Kymera Therapeutics",
+      "tier": "oncology",
+      "focus": "Targeted protein degradation",
+      "counts": {
+        "total": 32,
+        "curated": 0,
+        "registry": 11,
+        "edgar": 21,
+        "upcoming": 6
+      },
+      "nextDate": "2026-10-14",
+      "error": null
+    },
+    "RLAY": {
+      "name": "Relay Therapeutics",
+      "tier": "oncology",
+      "focus": "Protein motion drug design",
+      "counts": {
+        "total": 19,
+        "curated": 0,
+        "registry": 5,
+        "edgar": 14,
+        "upcoming": 5
+      },
+      "nextDate": "2026-11-07",
+      "error": null
+    },
+    "OLMA": {
+      "name": "Olema Pharmaceuticals",
+      "tier": "oncology",
+      "focus": "ER-targeting, breast cancer",
+      "counts": {
+        "total": 24,
+        "curated": 0,
+        "registry": 6,
+        "edgar": 18,
+        "upcoming": 5
+      },
+      "nextDate": "2026-10-12",
+      "error": null
+    },
+    "ERAS": {
+      "name": "Erasca, Inc.",
+      "tier": "oncology",
+      "focus": "RAS/MAPK pathway",
+      "counts": {
+        "total": 26,
+        "curated": 0,
+        "registry": 8,
+        "edgar": 18,
+        "upcoming": 4
+      },
+      "nextDate": "2026-10-19",
+      "error": null
+    },
+    "ZNTL": {
+      "name": "Zentalis Pharmaceuticals",
+      "tier": "oncology",
+      "focus": "WEE1 inhibitors",
+      "counts": {
+        "total": 31,
+        "curated": 0,
+        "registry": 12,
+        "edgar": 19,
+        "upcoming": 4
+      },
+      "nextDate": "2026-10-31",
+      "error": null
+    },
+    "RCUS": {
+      "name": "Arcus Biosciences",
+      "tier": "oncology",
+      "focus": "Immuno-oncology, adenosine axis",
+      "counts": {
+        "total": 48,
+        "curated": 0,
+        "registry": 32,
+        "edgar": 16,
+        "upcoming": 10
+      },
+      "nextDate": "2026-11-05",
+      "error": null
+    },
+    "SWTX": {
+      "name": "SpringWorks Therapeutics",
+      "tier": "oncology",
+      "focus": "Desmoid tumors, NF1",
+      "counts": {
+        "total": 11,
+        "curated": 0,
+        "registry": 11,
+        "edgar": 0,
+        "upcoming": 4
+      },
+      "nextDate": "2026-10-31",
+      "error": null
+    },
+    "DAWN": {
+      "name": "Day One Biopharmaceuticals",
+      "tier": "oncology",
+      "focus": "Pediatric brain tumors",
+      "counts": {
+        "total": 7,
+        "curated": 0,
+        "registry": 7,
+        "edgar": 0,
+        "upcoming": 4
+      },
+      "nextDate": "2027-02-15",
+      "error": null
+    },
+    "JANX": {
+      "name": "Janux Therapeutics",
+      "tier": "oncology",
+      "focus": "T-cell engagers, prostate",
+      "counts": {
+        "total": 16,
+        "curated": 0,
+        "registry": 5,
+        "edgar": 11,
+        "upcoming": 5
+      },
+      "nextDate": "2026-10-15",
+      "error": null
+    },
+    "VKTX": {
+      "name": "Viking Therapeutics",
+      "tier": "metabolic",
+      "focus": "Obesity, MASH",
+      "counts": {
+        "total": 20,
+        "curated": 0,
+        "registry": 10,
+        "edgar": 10,
+        "upcoming": 4
+      },
+      "nextDate": "2026-10-28",
+      "error": null
+    },
+    "TERN": {
+      "name": "Terns Pharmaceuticals",
+      "tier": "metabolic",
+      "focus": "Oral obesity, CML",
+      "counts": {
+        "total": 7,
+        "curated": 0,
+        "registry": 7,
+        "edgar": 0,
+        "upcoming": 1
+      },
+      "nextDate": "2029-11-30",
+      "error": null
+    },
+    "ALT": {
+      "name": "Altimmune, Inc.",
+      "tier": "metabolic",
+      "focus": "Obesity, MASH (pemvidutide)",
+      "counts": {
+        "total": 36,
+        "curated": 0,
+        "registry": 19,
+        "edgar": 17,
+        "upcoming": 3
+      },
+      "nextDate": "2026-11-11",
+      "error": null
+    },
+    "STRO": {
+      "name": "Sutro Biopharma",
+      "tier": "oncology",
+      "focus": "Antibody-drug conjugates",
+      "counts": {
+        "total": 20,
+        "curated": 0,
+        "registry": 7,
+        "edgar": 13,
+        "upcoming": 3
+      },
+      "nextDate": "2026-11-11",
+      "error": null
+    },
+    "ITOS": {
+      "name": "iTeos Therapeutics",
+      "tier": "oncology",
+      "focus": "TIGIT, immuno-oncology",
+      "counts": {
+        "total": 7,
+        "curated": 0,
+        "registry": 7,
+        "edgar": 0,
+        "upcoming": 0
+      },
+      "nextDate": null,
+      "error": null
+    },
+    "ACLX": {
+      "name": "Arcellx, Inc.",
+      "tier": "cell-therapy",
+      "focus": "BCMA CAR-T, multiple myeloma",
+      "counts": {
+        "total": 2,
+        "curated": 0,
+        "registry": 2,
+        "edgar": 0,
+        "upcoming": 2
+      },
+      "nextDate": "2026-10-15",
+      "error": null
+    },
+    "LEGN": {
+      "name": "Legend Biotech",
+      "tier": "cell-therapy",
+      "focus": "CARVYKTI, multiple myeloma",
+      "counts": {
+        "total": 6,
+        "curated": 0,
+        "registry": 6,
+        "edgar": 0,
+        "upcoming": 4
+      },
+      "nextDate": "2027-12-15",
+      "error": null
+    },
+    "CABA": {
+      "name": "Cabaletta Bio",
+      "tier": "cell-therapy",
+      "focus": "CAR-T for autoimmune disease",
+      "counts": {
+        "total": 28,
+        "curated": 0,
+        "registry": 6,
+        "edgar": 22,
+        "upcoming": 6
+      },
+      "nextDate": "2026-11-12",
+      "error": null
+    },
+    "KYTX": {
+      "name": "Kyverna Therapeutics",
+      "tier": "cell-therapy",
+      "focus": "CAR-T for autoimmune disease",
+      "counts": {
+        "total": 34,
+        "curated": 0,
+        "registry": 6,
+        "edgar": 28,
+        "upcoming": 3
+      },
+      "nextDate": "2026-10-23",
+      "error": null
+    },
+    "VIR": {
+      "name": "Vir Biotechnology",
+      "tier": "infectious",
+      "focus": "Hepatitis B/D, infectious disease",
+      "counts": {
+        "total": 39,
+        "curated": 0,
+        "registry": 21,
+        "edgar": 18,
+        "upcoming": 7
+      },
+      "nextDate": "2026-10-16",
+      "error": null
+    },
+    "ARCT": {
+      "name": "Arcturus Therapeutics",
+      "tier": "infectious",
+      "focus": "self-amplifying mRNA, cystic fibrosis",
+      "counts": {
+        "total": 28,
+        "curated": 0,
+        "registry": 13,
+        "edgar": 15,
+        "upcoming": 2
+      },
+      "nextDate": "2026-11-05",
+      "error": null
+    },
+    "ABUS": {
+      "name": "Arbutus Biopharma",
+      "tier": "infectious",
+      "focus": "Chronic hepatitis B",
+      "counts": {
+        "total": 32,
+        "curated": 0,
+        "registry": 9,
+        "edgar": 23,
+        "upcoming": 1
+      },
+      "nextDate": "2026-11-11",
+      "error": null
+    },
+    "VXRT": {
+      "name": "Vaxart, Inc.",
+      "tier": "infectious",
+      "focus": "Oral vaccines",
+      "counts": {
+        "total": 64,
+        "curated": 0,
+        "registry": 22,
+        "edgar": 42,
+        "upcoming": 2
+      },
+      "nextDate": "2026-11-06",
+      "error": null
+    },
+    "OCGN": {
+      "name": "Ocugen, Inc.",
+      "tier": "infectious",
+      "focus": "Ophthalmic gene therapy, vaccines",
+      "counts": {
+        "total": 45,
+        "curated": 0,
+        "registry": 9,
+        "edgar": 36,
+        "upcoming": 4
+      },
+      "nextDate": "2026-10-06",
+      "error": null
+    },
+    "SNDX": {
+      "name": "Syndax Pharmaceuticals",
+      "tier": "oncology",
+      "focus": "Menin inhibitors, GVHD",
+      "counts": {
+        "total": 43,
+        "curated": 0,
+        "registry": 28,
+        "edgar": 15,
+        "upcoming": 4
+      },
+      "nextDate": "2026-10-13",
+      "error": null
+    },
+    "MIRM": {
+      "name": "Mirum Pharmaceuticals",
+      "tier": "mid-cap",
+      "focus": "Rare liver disease",
+      "counts": {
+        "total": 50,
+        "curated": 0,
+        "registry": 33,
+        "edgar": 17,
+        "upcoming": 9
+      },
+      "nextDate": "2026-10-14",
+      "error": null
+    },
+    "TVTX": {
+      "name": "Travere Therapeutics",
+      "tier": "mid-cap",
+      "focus": "Rare kidney disease, IgAN",
+      "counts": {
+        "total": 32,
+        "curated": 0,
+        "registry": 11,
+        "edgar": 21,
+        "upcoming": 6
+      },
+      "nextDate": "2026-10-17",
+      "error": null
+    },
+    "AURA": {
+      "name": "Aura Biosciences",
+      "tier": "oncology",
+      "focus": "Ocular oncology",
+      "counts": {
+        "total": 18,
+        "curated": 0,
+        "registry": 5,
+        "edgar": 13,
+        "upcoming": 4
+      },
+      "nextDate": "2026-11-11",
+      "error": null
+    },
+    "SAVA": {
+      "name": "Cassava Sciences",
+      "tier": "mid-cap",
+      "focus": "Alzheimer's disease",
+      "counts": {
+        "total": 9,
+        "curated": 0,
+        "registry": 9,
+        "edgar": 0,
+        "upcoming": 0
+      },
+      "nextDate": null,
+      "error": null
+    },
+    "ANVS": {
+      "name": "Annovis Bio",
+      "tier": "mid-cap",
+      "focus": "Neurodegeneration",
+      "counts": {
+        "total": 27,
+        "curated": 0,
+        "registry": 8,
+        "edgar": 19,
+        "upcoming": 4
+      },
+      "nextDate": "2026-11-13",
+      "error": null
+    },
+    "LXRX": {
+      "name": "Lexicon Pharmaceuticals",
+      "tier": "mid-cap",
+      "focus": "Diabetes, heart failure",
+      "counts": {
+        "total": 77,
+        "curated": 0,
+        "registry": 60,
+        "edgar": 17,
+        "upcoming": 2
+      },
+      "nextDate": "2026-10-29",
+      "error": null
+    },
+    "AKRO": {
+      "name": "Akero Therapeutics",
+      "tier": "metabolic",
+      "focus": "MASH (efruxifermin)",
+      "counts": {
+        "total": 6,
+        "curated": 0,
+        "registry": 6,
+        "edgar": 0,
+        "upcoming": 2
+      },
+      "nextDate": "2030-02-15",
+      "error": null
+    },
+    "NGNE": {
+      "name": "Neurogene Inc.",
+      "tier": "gene-editing",
+      "focus": "Neurological gene therapy",
+      "counts": {
+        "total": 23,
+        "curated": 0,
+        "registry": 3,
+        "edgar": 20,
+        "upcoming": 3
+      },
+      "nextDate": "2026-11-13",
+      "error": null
+    },
+    "TSHA": {
+      "name": "Taysha Gene Therapies",
+      "tier": "gene-editing",
+      "focus": "Rett syndrome gene therapy",
+      "counts": {
+        "total": 18,
+        "curated": 0,
+        "registry": 3,
+        "edgar": 15,
+        "upcoming": 4
+      },
+      "nextDate": "2026-11-08",
+      "error": null
+    }
+  }
+}
