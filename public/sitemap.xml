@@ -1285,6 +1285,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://melemai25.github.io/biotech-catalyst-calendar/ticker/RNXT/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://melemai25.github.io/biotech-catalyst-calendar/ticker/CATX/</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
@@ -1369,6 +1375,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://melemai25.github.io/biotech-catalyst-calendar/ticker/BRVE/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://melemai25.github.io/biotech-catalyst-calendar/ticker/KYMR/</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
@@ -1382,6 +1394,12 @@
   </url>
   <url>
     <loc>https://melemai25.github.io/biotech-catalyst-calendar/ticker/OGN/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://melemai25.github.io/biotech-catalyst-calendar/ticker/COYA/</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -1406,6 +1424,12 @@
   </url>
   <url>
     <loc>https://melemai25.github.io/biotech-catalyst-calendar/ticker/ALDX/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://melemai25.github.io/biotech-catalyst-calendar/ticker/RVPH/</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -1562,6 +1586,12 @@
   </url>
   <url>
     <loc>https://melemai25.github.io/biotech-catalyst-calendar/ticker/SPRB/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://melemai25.github.io/biotech-catalyst-calendar/ticker/TMCI/</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -1807,6 +1837,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://melemai25.github.io/biotech-catalyst-calendar/calendar/2026-03/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://melemai25.github.io/biotech-catalyst-calendar/calendar/2026-04/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://melemai25.github.io/biotech-catalyst-calendar/calendar/2026-05/</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -1832,6 +1874,12 @@
   </url>
   <url>
     <loc>https://melemai25.github.io/biotech-catalyst-calendar/calendar/2026-09/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://melemai25.github.io/biotech-catalyst-calendar/calendar/2026-10/</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1868,24 +1916,6 @@
   </url>
   <url>
     <loc>https://melemai25.github.io/biotech-catalyst-calendar/calendar/2028-04/</loc>
-    <lastmod>2026-10-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://melemai25.github.io/biotech-catalyst-calendar/calendar/2026-03/</loc>
-    <lastmod>2026-10-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://melemai25.github.io/biotech-catalyst-calendar/calendar/2026-04/</loc>
-    <lastmod>2026-10-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://melemai25.github.io/biotech-catalyst-calendar/calendar/2026-10/</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

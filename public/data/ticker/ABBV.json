@@ -13,6 +13,43 @@
   "phase2": 55,
   "generatedDate": "2026-10-10",
   "metrics": {
+    "reportingCurrency": "USD",
+    "taxonomy": "us-gaap",
+    "isUsd": true,
+    "cashUsd": 6569000000,
+    "shortTermInvestmentsUsd": 28000000,
+    "totalCashUsd": 6597000000,
+    "cashAsOf": "2026-06-30",
+    "longTermDebtUsd": 64503000000,
+    "netCashUsd": -57906000000,
+    "stockholdersEquityUsd": -5935000000,
+    "accumulatedDeficitUsd": -17333000000,
+    "operatingCashFlowUsd": 3829000000,
+    "quarterlyBurnUsd": null,
+    "burnPeriod": "2026-01-01 to 2026-03-31",
+    "burnDerived": false,
+    "burnBasis": "quarter",
+    "burnScaled": false,
+    "runwayMonths": null,
+    "cashStatus": "cash-generating",
+    "capexQuarterlyUsd": 265000000,
+    "freeCashFlowQuarterlyUsd": 3564000000,
+    "freeCashFlowTtmUsd": 12829000000,
+    "revenueQuarterlyUsd": 15290000000,
+    "revenueTtmUsd": 31443000000,
+    "rndQuarterlyUsd": null,
+    "sgaQuarterlyUsd": 3632000000,
+    "operatingIncomeQuarterlyUsd": 6432000000,
+    "netIncomeQuarterlyUsd": 3613000000,
+    "sharesOutstanding": 1767117285,
+    "dilutionPctYoy": 0,
+    "dilutionFrom": "2025-07-29",
+    "stockIssuanceQuarterlyUsd": null,
+    "cashPerShare": 3.73,
+    "rndIntensityPct": null,
+    "fcfMarginPct": 40.8,
+    "marketCapUsd": null,
+    "entityName": "AbbVie Inc.",
     "activeTrials": 274,
     "phase3Count": 107,
     "phase2Count": 70,
@@ -2506,6 +2543,21 @@
       "status": "past"
     },
     {
+      "id": "edgar-ABBV-0001551152-25-000026",
+      "ticker": "ABBV",
+      "date": "2025-04-25",
+      "title": "Quarterly results filed (8-K)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
+      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
+      "source": "SEC EDGAR 8-K 2025-04-25",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1551152/000155115225000026/abbv-20250425.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "ct-ABBV-NCT05748483",
       "ticker": "ABBV",
       "date": "2025-04-28",
@@ -2521,6 +2573,21 @@
       "status": "past"
     },
     {
+      "id": "edgar-ABBV-0001104659-25-047402",
+      "ticker": "ABBV",
+      "date": "2025-05-13",
+      "title": "8-K filed: Leadership change",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 5.02, 5.07. Leadership change. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2025-05-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1551152/000110465925047402/tm2513856d1_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "ct-ABBV-NCT06632938",
       "ticker": "ABBV",
       "date": "2025-05-15",
@@ -2533,6 +2600,21 @@
       "source": "ClinicalTrials.gov NCT06632938",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06632938",
       "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "edgar-ABBV-0001551152-25-000034",
+      "ticker": "ABBV",
+      "date": "2025-07-03",
+      "title": "Quarterly results filed (8-K)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
+      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
+      "source": "SEC EDGAR 8-K 2025-07-03",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1551152/000155115225000034/abbv-20250703.htm",
+      "origin": "edgar",
       "status": "past"
     },
     {
@@ -2563,6 +2645,21 @@
       "source": "ClinicalTrials.gov NCT06137287",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06137287",
       "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "edgar-ABBV-0001551152-25-000036",
+      "ticker": "ABBV",
+      "date": "2025-07-31",
+      "title": "Quarterly results filed (8-K)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
+      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
+      "source": "SEC EDGAR 8-K 2025-07-31",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1551152/000155115225000036/abbv-20250731.htm",
+      "origin": "edgar",
       "status": "past"
     },
     {
@@ -2611,6 +2708,21 @@
       "status": "past"
     },
     {
+      "id": "edgar-ABBV-0001104659-25-089245",
+      "ticker": "ABBV",
+      "date": "2025-09-11",
+      "title": "8-K filed: Reg FD disclosure",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 7.01, 9.01. Reg FD disclosure. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2025-09-11",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1551152/000110465925089245/tm2525781d1_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "ct-ABBV-NCT06032546",
       "ticker": "ABBV",
       "date": "2025-09-22",
@@ -2638,6 +2750,36 @@
       "source": "ClinicalTrials.gov NCT06618118",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06618118",
       "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "edgar-ABBV-0001551152-25-000043",
+      "ticker": "ABBV",
+      "date": "2025-10-03",
+      "title": "Quarterly results filed (8-K)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
+      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
+      "source": "SEC EDGAR 8-K 2025-10-03",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1551152/000155115225000043/abbv-20251003.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-ABBV-0001551152-25-000047",
+      "ticker": "ABBV",
+      "date": "2025-10-31",
+      "title": "Quarterly results filed (8-K)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
+      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
+      "source": "SEC EDGAR 8-K 2025-10-31",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1551152/000155115225000047/abbv-20251031.htm",
+      "origin": "edgar",
       "status": "past"
     },
     {
@@ -2701,6 +2843,21 @@
       "status": "past"
     },
     {
+      "id": "edgar-ABBV-0001551152-26-000002",
+      "ticker": "ABBV",
+      "date": "2026-01-07",
+      "title": "Quarterly results filed (8-K)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
+      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
+      "source": "SEC EDGAR 8-K 2026-01-07",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1551152/000155115226000002/abbv-20260107.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "ct-ABBV-NCT06698926",
       "ticker": "ABBV",
       "date": "2026-01-09",
@@ -2731,6 +2888,21 @@
       "status": "past"
     },
     {
+      "id": "edgar-ABBV-0001551152-26-000004",
+      "ticker": "ABBV",
+      "date": "2026-02-04",
+      "title": "Quarterly results filed (8-K)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
+      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
+      "source": "SEC EDGAR 8-K 2026-02-04",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1551152/000155115226000004/abbv-20260204.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "ct-ABBV-NCT04721015",
       "ticker": "ABBV",
       "date": "2026-02-15",
@@ -2743,6 +2915,36 @@
       "source": "ClinicalTrials.gov NCT04721015",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04721015",
       "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "edgar-ABBV-0001104659-26-020643",
+      "ticker": "ABBV",
+      "date": "2026-02-26",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-02-26",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1551152/000110465926020643/tm266774d4_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-ABBV-0001104659-26-023534",
+      "ticker": "ABBV",
+      "date": "2026-03-04",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-03-04",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1551152/000110465926023534/tm266774d4_8k.htm",
+      "origin": "edgar",
       "status": "past"
     },
     {
@@ -2806,6 +3008,21 @@
       "status": "past"
     },
     {
+      "id": "edgar-ABBV-0001551152-26-000011",
+      "ticker": "ABBV",
+      "date": "2026-04-03",
+      "title": "Quarterly results filed (8-K)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
+      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
+      "source": "SEC EDGAR 8-K 2026-04-03",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1551152/000155115226000011/abbv-20260403.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "ct-ABBV-NCT06774313",
       "ticker": "ABBV",
       "date": "2026-04-08",
@@ -2818,6 +3035,21 @@
       "source": "ClinicalTrials.gov NCT06774313",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06774313",
       "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "edgar-ABBV-0001551152-26-000013",
+      "ticker": "ABBV",
+      "date": "2026-04-29",
+      "title": "Quarterly results filed (8-K)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
+      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
+      "source": "SEC EDGAR 8-K 2026-04-29",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1551152/000155115226000013/abbv-20260429.htm",
+      "origin": "edgar",
       "status": "past"
     },
     {
@@ -2881,6 +3113,21 @@
       "status": "past"
     },
     {
+      "id": "edgar-ABBV-0001104659-26-076067",
+      "ticker": "ABBV",
+      "date": "2026-06-22",
+      "title": "8-K filed: Reg FD disclosure",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 7.01, 9.01. Reg FD disclosure. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-06-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1551152/000110465926076067/tm2618365d1_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "ct-ABBV-NCT07502417",
       "ticker": "ABBV",
       "date": "2026-07-02",
@@ -2893,6 +3140,21 @@
       "source": "ClinicalTrials.gov NCT07502417",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07502417",
       "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "edgar-ABBV-0001551152-26-000021",
+      "ticker": "ABBV",
+      "date": "2026-07-06",
+      "title": "Quarterly results filed (8-K)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
+      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
+      "source": "SEC EDGAR 8-K 2026-07-06",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1551152/000155115226000021/abbv-20260706.htm",
+      "origin": "edgar",
       "status": "past"
     },
     {
@@ -2971,6 +3233,36 @@
       "status": "past"
     },
     {
+      "id": "edgar-ABBV-0001551152-26-000023",
+      "ticker": "ABBV",
+      "date": "2026-07-31",
+      "title": "Quarterly results filed (8-K)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
+      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
+      "source": "SEC EDGAR 8-K 2026-07-31",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1551152/000155115226000023/abbv-20260731.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-ABBV-0001104659-26-091269",
+      "ticker": "ABBV",
+      "date": "2026-08-05",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-08-05",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1551152/000110465926091269/tm2621452d4_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "ct-ABBV-NCT02099058",
       "ticker": "ABBV",
       "date": "2026-08-15",
@@ -3001,6 +3293,21 @@
       "status": "past"
     },
     {
+      "id": "edgar-ABBV-0001104659-26-098367",
+      "ticker": "ABBV",
+      "date": "2026-08-18",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-08-18",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1551152/000110465926098367/tm2623337d1_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "ct-ABBV-NCT07284381",
       "ticker": "ABBV",
       "date": "2026-08-21",
@@ -3013,6 +3320,21 @@
       "source": "ClinicalTrials.gov NCT07284381",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07284381",
       "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "edgar-ABBV-0001104659-26-104940",
+      "ticker": "ABBV",
+      "date": "2026-09-03",
+      "title": "8-K filed: Reg FD disclosure",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 7.01, 9.01. Reg FD disclosure. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-09-03",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1551152/000110465926104940/tm2624674d1_8k.htm",
+      "origin": "edgar",
       "status": "past"
     },
     {
@@ -3043,6 +3365,21 @@
       "source": "ClinicalTrials.gov NCT07222709",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07222709",
       "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "edgar-ABBV-0001551152-26-000030",
+      "ticker": "ABBV",
+      "date": "2026-10-05",
+      "title": "Quarterly results filed (8-K)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
+      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
+      "source": "SEC EDGAR 8-K 2026-10-05",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1551152/000155115226000030/abbv-20261005.htm",
+      "origin": "edgar",
       "status": "past"
     },
     {
