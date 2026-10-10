@@ -1,0 +1,14 @@
+{
+  "_comment": "Manual control over the generated ticker universe. discover.js reads this and applies it last, so these always win. Use alwaysInclude for companies you want tracked even if discovery misses them (no active Phase 2/3 trials, name match failed, etc). Use neverInclude for tickers you do not want.",
+
+  "alwaysInclude": {
+    "ILMN": {
+      "name": "Illumina, Inc.",
+      "sponsorQuery": "Illumina",
+      "tier": "tools",
+      "focus": "DNA sequencing and genomics"
+    }
+  },
+
+  "neverInclude": []
+}

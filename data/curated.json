@@ -1,0 +1,182 @@
+{
+  "_comment": "Hand-maintained catalysts. ClinicalTrials.gov does not carry PDUFA dates, earnings dates, or plain-language outcomes, so these live here. Edit this file to add or correct events; run `npm run build` to regenerate the site data.",
+  "tickers": {
+    "MRNA": {
+      "name": "Moderna, Inc.",
+      "sponsorQuery": "Moderna",
+      "note": "Clinical-stage vaccine and therapeutics developer. Catalysts are trial readouts, FDA decisions, and earnings."
+    },
+    "ILMN": {
+      "name": "Illumina, Inc.",
+      "sponsorQuery": "Illumina",
+      "note": "Genomics tools and diagnostics company, not a drug developer. Catalysts are regulatory clearances, reimbursement decisions, platform launches, and earnings."
+    }
+  },
+  "events": [
+    {
+      "id": "mrna-asco-2026",
+      "ticker": "MRNA",
+      "date": "2026-06-01",
+      "title": "Intismeran + KEYTRUDA — 5-Year Phase 2b Melanoma Data",
+      "type": "Conference",
+      "phase": "Phase 2b",
+      "summary": "Five-year follow-up from the adjuvant melanoma cohort, presented in an oral session at the ASCO 2026 Annual Meeting.",
+      "result": "Sustained benefit: intismeran combined with KEYTRUDA reduced the risk of recurrence or death by 49% versus KEYTRUDA alone.",
+      "source": "Moderna press release",
+      "sourceUrl": "https://investors.modernatx.com/"
+    },
+    {
+      "id": "mrna-vrbpac-2026",
+      "ticker": "MRNA",
+      "date": "2026-06-18",
+      "title": "mFLUSIVA (mRNA-1010) — FDA Advisory Committee Vote",
+      "type": "Regulatory",
+      "phase": "BLA review",
+      "summary": "The Vaccines and Related Biological Products Advisory Committee reviewed the benefit-risk profile of the seasonal influenza vaccine for adults 50 and older.",
+      "result": "Voted 9-0 that benefits outweigh risks for adults 50-64, and separately 9-0 for adults 65 and older.",
+      "source": "BioPharm International",
+      "sourceUrl": "https://www.biopharminternational.com/view/fda-advisory-panel-votes-9-0-in-favor-of-moderna-s-mrna-flu-vaccine-setting-stage-for-august-decision"
+    },
+    {
+      "id": "mrna-q2-2026",
+      "ticker": "MRNA",
+      "date": "2026-07-31",
+      "title": "Q2 2026 Earnings + Norovirus Interim Analysis",
+      "type": "Earnings",
+      "phase": "Phase 3 interim",
+      "summary": "Quarterly results reported alongside a Phase 3 interim analysis for the norovirus vaccine candidate mRNA-1403.",
+      "result": "Q2 revenue $0.1B, GAAP EPS -$1.97. mRNA-1403 did not meet statistical criteria for early success at the interim; an additional cohort is being enrolled. FY26 opex outlook improved by ~$0.2B.",
+      "source": "Moderna 8-K",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001682852&type=8-K"
+    },
+    {
+      "id": "mrna-pdufa-1010",
+      "ticker": "MRNA",
+      "date": "2026-08-05",
+      "title": "mFLUSIVA (mRNA-1010) — FDA PDUFA Decision",
+      "type": "Regulatory",
+      "phase": "BLA",
+      "summary": "FDA target action date for the seasonal influenza vaccine BLA in adults 50 and older, following a February 2026 refusal-to-file that was reversed after a Type A meeting.",
+      "result": "Approved — the first mRNA-based seasonal flu vaccine licensed in the US. The 65+ indication was granted accelerated approval contingent on a postmarketing study spanning two flu seasons. Phase 3 showed 26.6% relative vaccine efficacy vs a standard-dose comparator.",
+      "source": "BioPharma Dive",
+      "sourceUrl": "https://www.biopharmadive.com/news/moderna-fda-approve-mflusiva-seasonal-influenza/826864/"
+    },
+    {
+      "id": "mrna-interpath-001",
+      "ticker": "MRNA",
+      "date": "2026-08-19",
+      "title": "Intismeran Autogene — Phase 3 INTerpath-001 (Melanoma)",
+      "type": "Trial Readout",
+      "phase": "Phase 3",
+      "summary": "Pivotal adjuvant high-risk melanoma trial run with Merck in over 1,100 patients, testing the personalized mRNA cancer vaccine alongside KEYTRUDA.",
+      "result": "Met primary and key secondary endpoints — the first positive Phase 3 readout for an mRNA cancer therapy. MRNA rose 177% intraday, then gave back roughly 8% the following session.",
+      "source": "Investing.com",
+      "sourceUrl": "https://www.investing.com/news/stock-market-news/finding-the-next-moderna-5-biotech-stocks-with-imminent-fda-and-trial-catalysts-93CH-4869919"
+    },
+    {
+      "id": "mrna-q3-2026",
+      "ticker": "MRNA",
+      "date": "2026-10-29",
+      "title": "Q3 2026 Earnings",
+      "type": "Earnings",
+      "summary": "Quarterly results and pipeline update. Management guided that Q3 should represent roughly 55% of second-half revenue. Watch for firmer timing on the propionic acidemia and mRNA-4359 readouts.",
+      "result": null,
+      "source": "Investing.com earnings calendar",
+      "sourceUrl": "https://www.investing.com/equities/moderna-earnings"
+    },
+    {
+      "id": "mrna-4359-ph2",
+      "ticker": "MRNA",
+      "date": "2026-11-10",
+      "title": "mRNA-4359 — Phase 2 Cancer Antigen Therapy Readout",
+      "type": "Trial Readout",
+      "phase": "Phase 2",
+      "estimated": true,
+      "summary": "Wholly-owned cancer antigen therapy designed to elicit T-cell responses against tumor and immunosuppressive cells. Phase 2 includes first-line and second-line+ metastatic melanoma and first-line metastatic NSCLC cohorts.",
+      "result": null,
+      "source": "Moderna Analyst Day — guided to 2026, exact date unconfirmed",
+      "sourceUrl": "https://investors.modernatx.com/events-presentations"
+    },
+    {
+      "id": "mrna-3927-pa",
+      "ticker": "MRNA",
+      "date": "2026-12-10",
+      "title": "Propionic Acidemia (mRNA-3927) — Registrational Data",
+      "type": "Trial Readout",
+      "phase": "Registrational",
+      "estimated": true,
+      "summary": "Rare disease therapeutic. Target enrollment has been reached in the registrational study. A decision on the sister MMA program (mRNA-3705) is being deferred until this reads out.",
+      "result": null,
+      "source": "Moderna Q2 2026 update — guided to 2026, exact date unconfirmed",
+      "sourceUrl": "https://investors.modernatx.com/quarterly-results"
+    },
+    {
+      "id": "ilmn-cmo",
+      "ticker": "ILMN",
+      "date": "2026-01-08",
+      "title": "Dr. Eric Green Appointed Chief Medical Officer",
+      "type": "Corporate",
+      "summary": "Former NHGRI director named CMO to lead global medical strategy and expand clinical adoption of genomics.",
+      "result": "Appointment confirmed, effective February 2, 2026, reporting to the CEO.",
+      "source": "Illumina 8-K",
+      "sourceUrl": "https://www.illumina.com/company/news-center/press-releases.html"
+    },
+    {
+      "id": "ilmn-tso-cms",
+      "ticker": "ILMN",
+      "date": "2026-01-20",
+      "title": "TruSight Oncology Comprehensive — CMS Reimbursement",
+      "type": "Regulatory",
+      "summary": "Medicare reimbursement granted for the FDA-approved in vitro diagnostic, opening access across hospitals and regional reference labs.",
+      "result": "Effective January 1, 2026, reimbursed under the Clinical Laboratory Fee Schedule at $2,989.55 via PLA code 0543U.",
+      "source": "Illumina press release",
+      "sourceUrl": "https://www.illumina.com/company/news-center/press-releases.html"
+    },
+    {
+      "id": "ilmn-somalogic",
+      "ticker": "ILMN",
+      "date": "2026-01-30",
+      "title": "SomaLogic & Sengenics Acquisition Closed",
+      "type": "Corporate",
+      "summary": "Acquisition from Standard BioTools completed, expanding the proteomics and multiomics portfolio.",
+      "result": "Closed January 30, 2026, funded with cash on hand.",
+      "source": "Simply Wall St",
+      "sourceUrl": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-ilmn/illumina"
+    },
+    {
+      "id": "ilmn-board",
+      "ticker": "ILMN",
+      "date": "2026-06-16",
+      "title": "Daniel Skovronsky (Lilly CSO) Joins Board",
+      "type": "Corporate",
+      "summary": "Eli Lilly's Chief Scientific and Product Officer appointed to the Board, adding drug development and translational medicine perspective.",
+      "result": "Effective June 16, 2026.",
+      "source": "Illumina 8-K",
+      "sourceUrl": "https://www.illumina.com/company/news-center/press-releases.html"
+    },
+    {
+      "id": "ilmn-q2-2026",
+      "ticker": "ILMN",
+      "date": "2026-07-30",
+      "title": "Q2 2026 Earnings",
+      "type": "Earnings",
+      "estimated": true,
+      "summary": "Clinical sequencing strength and NovaSeq X adoption were the stated growth drivers.",
+      "result": "Revenue approximately $1.16B with non-GAAP EPS near $1.31. FY2026 revenue guidance raised to $4.60-4.64B. Net margin compressed year over year.",
+      "source": "Simply Wall St / Webull",
+      "sourceUrl": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-ilmn/illumina"
+    },
+    {
+      "id": "ilmn-q3-2026",
+      "ticker": "ILMN",
+      "date": "2026-11-05",
+      "title": "Q3 2026 Earnings",
+      "type": "Earnings",
+      "estimated": true,
+      "summary": "Watch for clinical consumables growth, MRD and comprehensive genomic profiling reimbursement progress, and China export-control commentary.",
+      "result": null,
+      "source": "Estimated from historical reporting cadence — not yet confirmed",
+      "sourceUrl": "https://investor.illumina.com/"
+    }
+  ]
+}

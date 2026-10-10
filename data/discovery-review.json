@@ -1,0 +1,3866 @@
+{
+  "generatedAt": "2026-10-10T05:44:33.082Z",
+  "acceptedCount": 301,
+  "reviewCount": 1068,
+  "review": [
+    {
+      "sponsorName": "Hoffmann-La Roche",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 156,
+        "phase3": 92,
+        "phase2": 64
+      }
+    },
+    {
+      "sponsorName": "Sichuan Baili Pharmaceutical Co., Ltd.",
+      "ticker": "SKBBY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "headword",
+      "counts": {
+        "total": 90,
+        "phase3": 35,
+        "phase2": 55
+      }
+    },
+    {
+      "sponsorName": "Qilu Pharmaceutical Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 71,
+        "phase3": 42,
+        "phase2": 29
+      }
+    },
+    {
+      "sponsorName": "Jiangsu HengRui Medicine Co., Ltd.",
+      "ticker": "JHPCY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "overlap",
+      "counts": {
+        "total": 70,
+        "phase3": 28,
+        "phase2": 42
+      }
+    },
+    {
+      "sponsorName": "Akeso",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 65,
+        "phase3": 23,
+        "phase2": 42
+      }
+    },
+    {
+      "sponsorName": "Suzhou Suncadia Biopharmaceuticals Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 53,
+        "phase3": 24,
+        "phase2": 29
+      }
+    },
+    {
+      "sponsorName": "Boehringer Ingelheim",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 45,
+        "phase3": 25,
+        "phase2": 20
+      }
+    },
+    {
+      "sponsorName": "Chia Tai Tianqing Pharmaceutical Group Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 45,
+        "phase3": 20,
+        "phase2": 25
+      }
+    },
+    {
+      "sponsorName": "Daiichi Sankyo",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 35,
+        "phase3": 20,
+        "phase2": 15
+      }
+    },
+    {
+      "sponsorName": "Innovent Biologics (Suzhou) Co. Ltd.",
+      "ticker": "IVBXF",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "headword",
+      "counts": {
+        "total": 38,
+        "phase3": 15,
+        "phase2": 23
+      }
+    },
+    {
+      "sponsorName": "Shanghai Henlius Biotech",
+      "ticker": "SFDMY",
+      "reason": "SIC 8880 (American Depositary Receipts) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 36,
+        "phase3": 14,
+        "phase2": 22
+      }
+    },
+    {
+      "sponsorName": "Genmab",
+      "ticker": "GMAB",
+      "reason": "ambiguous name match",
+      "alternatives": [
+        "GMAB",
+        "GNMSF"
+      ],
+      "counts": {
+        "total": 26,
+        "phase3": 15,
+        "phase2": 11
+      }
+    },
+    {
+      "sponsorName": "Shanghai JMT-Bio Inc.",
+      "ticker": "SFDMY",
+      "reason": "SIC 8880 (American Depositary Receipts) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 25,
+        "phase3": 15,
+        "phase2": 10
+      }
+    },
+    {
+      "sponsorName": "Sichuan Kelun-Biotech Biopharmaceutical Co., Ltd.",
+      "ticker": "SKBBY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "headword",
+      "counts": {
+        "total": 35,
+        "phase3": 10,
+        "phase2": 25
+      }
+    },
+    {
+      "sponsorName": "CSPC ZhongQi Pharmaceutical Technology Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 27,
+        "phase3": 14,
+        "phase2": 13
+      }
+    },
+    {
+      "sponsorName": "CSPC Megalith Biopharmaceutical Co.,Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 29,
+        "phase3": 12,
+        "phase2": 17
+      }
+    },
+    {
+      "sponsorName": "Haisco Pharmaceutical Group Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 29,
+        "phase3": 11,
+        "phase2": 18
+      }
+    },
+    {
+      "sponsorName": "RemeGen Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 26,
+        "phase3": 12,
+        "phase2": 14
+      }
+    },
+    {
+      "sponsorName": "Vertex Pharmaceuticals Incorporated",
+      "ticker": "VERX",
+      "reason": "SIC 7372 (Services-Prepackaged Software) is not life sciences",
+      "confidence": "exact",
+      "counts": {
+        "total": 19,
+        "phase3": 14,
+        "phase2": 5
+      }
+    },
+    {
+      "sponsorName": "Biocad",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 21,
+        "phase3": 13,
+        "phase2": 8
+      }
+    },
+    {
+      "sponsorName": "Shandong Suncadia Medicine Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 27,
+        "phase3": 10,
+        "phase2": 17
+      }
+    },
+    {
+      "sponsorName": "UCB Biopharma SRL",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 17,
+        "phase3": 14,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Sinocelltech Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 25,
+        "phase3": 9,
+        "phase2": 16
+      }
+    },
+    {
+      "sponsorName": "Astellas Pharma Global Development, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 22,
+        "phase3": 10,
+        "phase2": 12
+      }
+    },
+    {
+      "sponsorName": "EMS",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 14,
+        "phase3": 14,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Gan & Lee Pharmaceuticals.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 15,
+        "phase3": 13,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Hansoh BioMedical R&D Company",
+      "ticker": "HNPHY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 20,
+        "phase3": 10,
+        "phase2": 10
+      }
+    },
+    {
+      "sponsorName": "Bayer",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 19,
+        "phase3": 10,
+        "phase2": 9
+      }
+    },
+    {
+      "sponsorName": "Ipsen",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 19,
+        "phase3": 10,
+        "phase2": 9
+      }
+    },
+    {
+      "sponsorName": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+      "ticker": "JHPCY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 19,
+        "phase3": 10,
+        "phase2": 9
+      }
+    },
+    {
+      "sponsorName": "Fujian Shengdi Pharmaceutical Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 22,
+        "phase3": 8,
+        "phase2": 14
+      }
+    },
+    {
+      "sponsorName": "Guangdong Hengrui Pharmaceutical Co., Ltd",
+      "ticker": "GDHRY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 24,
+        "phase3": 7,
+        "phase2": 17
+      }
+    },
+    {
+      "sponsorName": "Ono Pharmaceutical Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 21,
+        "phase3": 8,
+        "phase2": 13
+      }
+    },
+    {
+      "sponsorName": "Changchun GeneScience Pharmaceutical Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 19,
+        "phase3": 9,
+        "phase2": 10
+      }
+    },
+    {
+      "sponsorName": "Beijing InnoCare Pharma Tech Co., Ltd.",
+      "ticker": "BJGPY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 21,
+        "phase3": 8,
+        "phase2": 13
+      }
+    },
+    {
+      "sponsorName": "Otsuka Pharmaceutical Development & Commercialization, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 14,
+        "phase3": 11,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Hangzhou Zhongmei Huadong Pharmaceutical Co., Ltd.",
+      "ticker": "HGZDY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "headword",
+      "counts": {
+        "total": 16,
+        "phase3": 10,
+        "phase2": 6
+      }
+    },
+    {
+      "sponsorName": "Chia Tai Tianqing Pharmaceutical Group Nanjing Shunxin Pharmaceutical Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 21,
+        "phase3": 7,
+        "phase2": 14
+      }
+    },
+    {
+      "sponsorName": "MediLink Therapeutics (Suzhou) Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 19,
+        "phase3": 7,
+        "phase2": 12
+      }
+    },
+    {
+      "sponsorName": "Tasly Pharmaceutical Group Co., Ltd",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 13,
+        "phase3": 9,
+        "phase2": 4
+      }
+    },
+    {
+      "sponsorName": "Minghui Pharmaceutical (Hangzhou) Ltd",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 16,
+        "phase3": 7,
+        "phase2": 9
+      }
+    },
+    {
+      "sponsorName": "Suzhou Zelgen Biopharmaceuticals Co.,Ltd",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 20,
+        "phase3": 5,
+        "phase2": 15
+      }
+    },
+    {
+      "sponsorName": "Keymed Biosciences Co.Ltd",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 21,
+        "phase3": 4,
+        "phase2": 17
+      }
+    },
+    {
+      "sponsorName": "Beijing Biotech",
+      "ticker": "BJGPY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 28,
+        "phase3": 0,
+        "phase2": 28
+      }
+    },
+    {
+      "sponsorName": "Intra-Cellular Therapies, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 12,
+        "phase3": 8,
+        "phase2": 4
+      }
+    },
+    {
+      "sponsorName": "Sunshine Guojian Pharmaceutical (Shanghai) Co., Ltd.",
+      "ticker": "SSMR",
+      "reason": "SIC 1040 (Gold and Silver Ores) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 14,
+        "phase3": 7,
+        "phase2": 7
+      }
+    },
+    {
+      "sponsorName": "Mabwell (Shanghai) Bioscience Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 18,
+        "phase3": 5,
+        "phase2": 13
+      }
+    },
+    {
+      "sponsorName": "Hutchmed",
+      "ticker": "HCM",
+      "reason": "ambiguous name match",
+      "alternatives": [
+        "HCM",
+        "HMDCF"
+      ],
+      "counts": {
+        "total": 11,
+        "phase3": 8,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Chiesi Farmaceutici S.p.A.",
+      "ticker": "BSP",
+      "reason": "SIC 7370 (Services-Computer Programming, Data Processing, Etc.) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 11,
+        "phase3": 8,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "CSL Behring",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 11,
+        "phase3": 7,
+        "phase2": 4
+      }
+    },
+    {
+      "sponsorName": "Dizal Pharmaceuticals",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 16,
+        "phase3": 4,
+        "phase2": 12
+      }
+    },
+    {
+      "sponsorName": "Allist Pharmaceuticals, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 12,
+        "phase3": 6,
+        "phase2": 6
+      }
+    },
+    {
+      "sponsorName": "Shanghai Fosun Pharmaceutical Industrial Development Co. Ltd.",
+      "ticker": "SFDMY",
+      "reason": "SIC 8880 (American Depositary Receipts) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 14,
+        "phase3": 5,
+        "phase2": 9
+      }
+    },
+    {
+      "sponsorName": "Otsuka Pharmaceutical Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 8,
+        "phase3": 8,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Acerta Pharma BV",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 12,
+        "phase3": 6,
+        "phase2": 6
+      }
+    },
+    {
+      "sponsorName": "Colgate Palmolive",
+      "ticker": "CL",
+      "reason": "SIC 2844 (Perfumes, Cosmetics & Other Toilet Preparations) is not life sciences",
+      "confidence": "exact",
+      "counts": {
+        "total": 8,
+        "phase3": 8,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Shanghai Chia Tai Tianqing Pharmaceutical Technology Development Co., Ltd.",
+      "ticker": "SFDMY",
+      "reason": "SIC 8880 (American Depositary Receipts) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 12,
+        "phase3": 6,
+        "phase2": 6
+      }
+    },
+    {
+      "sponsorName": "Shanghai Hengrui Pharmaceutical Co., Ltd.",
+      "ticker": "SFDMY",
+      "reason": "SIC 8880 (American Depositary Receipts) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 19,
+        "phase3": 2,
+        "phase2": 17
+      }
+    },
+    {
+      "sponsorName": "Shanghai Mabgeek Biotech.Co.Ltd",
+      "ticker": "SFDMY",
+      "reason": "SIC 8880 (American Depositary Receipts) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 9,
+        "phase3": 6,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Genrix (Shanghai) Biopharmaceutical Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 11,
+        "phase3": 4,
+        "phase2": 7
+      }
+    },
+    {
+      "sponsorName": "Jiangsu Alphamab Biopharmaceuticals Co., Ltd",
+      "ticker": "JHPCY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 11,
+        "phase3": 4,
+        "phase2": 7
+      }
+    },
+    {
+      "sponsorName": "Daewoong Pharmaceutical Co. LTD.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 7,
+        "phase3": 6,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Jiangsu vcare pharmaceutical technology co., LTD",
+      "ticker": "JHPCY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 9,
+        "phase3": 5,
+        "phase2": 4
+      }
+    },
+    {
+      "sponsorName": "CSPC Ouyi Pharmaceutical Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 9,
+        "phase3": 5,
+        "phase2": 4
+      }
+    },
+    {
+      "sponsorName": "Octapharma",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 6,
+        "phase3": 6,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "BeiGene",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 10,
+        "phase3": 4,
+        "phase2": 6
+      }
+    },
+    {
+      "sponsorName": "EMD Serono Research & Development Institute, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 8,
+        "phase3": 5,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Genentech, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 14,
+        "phase3": 2,
+        "phase2": 12
+      }
+    },
+    {
+      "sponsorName": "Innovent Biopharmaceutical Technology (Hangzhou) Co., LTD.",
+      "ticker": "IVBXF",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "headword",
+      "counts": {
+        "total": 6,
+        "phase3": 6,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Eurofarma Laboratorios S.A.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 6,
+        "phase3": 6,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "CSPC Zhongnuo Pharmaceutical (Shijiazhuang) Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 8,
+        "phase3": 5,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Guangdong Raynovent Biotech Co., Ltd",
+      "ticker": "GDHRY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 8,
+        "phase3": 5,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Beijing Mabworks Biotech Co., Ltd.",
+      "ticker": "BJGPY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 10,
+        "phase3": 4,
+        "phase2": 6
+      }
+    },
+    {
+      "sponsorName": "H. Lundbeck A/S",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 9,
+        "phase3": 4,
+        "phase2": 5
+      }
+    },
+    {
+      "sponsorName": "Taiho Oncology, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 9,
+        "phase3": 4,
+        "phase2": 5
+      }
+    },
+    {
+      "sponsorName": "The United Bio-Technology (Hengqin) Co., Ltd.",
+      "ticker": "UNH",
+      "reason": "SIC 6324 (Hospital & Medical Service Plans) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 7,
+        "phase3": 5,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Lepu Biopharma Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 10,
+        "phase3": 3,
+        "phase2": 7
+      }
+    },
+    {
+      "sponsorName": "InventisBio Co., Ltd",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 10,
+        "phase3": 3,
+        "phase2": 7
+      }
+    },
+    {
+      "sponsorName": "Shandong New Time Pharmaceutical Co., LTD",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 8,
+        "phase3": 4,
+        "phase2": 4
+      }
+    },
+    {
+      "sponsorName": "Chengdu Zenitar Biomedical Technology Co., Ltd",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 12,
+        "phase3": 2,
+        "phase2": 10
+      }
+    },
+    {
+      "sponsorName": "Sunshine Lake Pharma Co., Ltd.",
+      "ticker": "SSMR",
+      "reason": "SIC 1040 (Gold and Silver Ores) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 8,
+        "phase3": 4,
+        "phase2": 4
+      }
+    },
+    {
+      "sponsorName": "R-Pharm International, LLC",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 8,
+        "phase3": 4,
+        "phase2": 4
+      }
+    },
+    {
+      "sponsorName": "Nanjing Chia-tai Tianqing Pharmaceutical",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 7,
+        "phase3": 4,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Kite, A Gilead Company",
+      "ticker": "KRG",
+      "reason": "SIC 6798 (Real Estate Investment Trusts) is not life sciences",
+      "confidence": "headword",
+      "counts": {
+        "total": 7,
+        "phase3": 4,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "LaNova Medicines Limited",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 13,
+        "phase3": 1,
+        "phase2": 12
+      }
+    },
+    {
+      "sponsorName": "Galderma R&D",
+      "ticker": "GALDY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 7,
+        "phase3": 4,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "MAXVAX Biotechnology Limited Liability Company",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 7,
+        "phase3": 4,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Materia Medica Holding",
+      "ticker": "MTLS",
+      "reason": "SIC 7372 (Services-Prepackaged Software) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 5,
+        "phase3": 5,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Inmunotek S.L.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 5,
+        "phase3": 5,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Beijing Suncadia Pharmaceuticals Co., Ltd",
+      "ticker": "BJGPY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 7,
+        "phase3": 4,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Celltrion",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 5,
+        "phase3": 5,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Telix Pharmaceuticals (Innovations) Pty Limited",
+      "ticker": "TLX",
+      "reason": "ambiguous name match",
+      "alternatives": [
+        "TLX",
+        "TLPPF"
+      ],
+      "counts": {
+        "total": 5,
+        "phase3": 5,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Biotheus Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 10,
+        "phase3": 2,
+        "phase2": 8
+      }
+    },
+    {
+      "sponsorName": "Evopoint Biosciences Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 10,
+        "phase3": 2,
+        "phase2": 8
+      }
+    },
+    {
+      "sponsorName": "BrightGene Bio-Medical Technology Co., Ltd.",
+      "ticker": "BFAM",
+      "reason": "SIC 8351 (Services-Child Day Care Services) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 6,
+        "phase3": 4,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "DualityBio Inc.",
+      "ticker": "DYBTY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 10,
+        "phase3": 2,
+        "phase2": 8
+      }
+    },
+    {
+      "sponsorName": "CanSino Biologics Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 6,
+        "phase3": 4,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Nanjing Leads Biolabs Co.,Ltd",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 12,
+        "phase3": 1,
+        "phase2": 11
+      }
+    },
+    {
+      "sponsorName": "Chipscreen Biosciences, Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 6,
+        "phase3": 4,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Philogen S.p.A.",
+      "ticker": "STVN",
+      "reason": "ambiguous name match",
+      "alternatives": [
+        "STVN"
+      ],
+      "counts": {
+        "total": 10,
+        "phase3": 2,
+        "phase2": 8
+      }
+    },
+    {
+      "sponsorName": "Genfleet Therapeutics (Shanghai) Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 10,
+        "phase3": 2,
+        "phase2": 8
+      }
+    },
+    {
+      "sponsorName": "Eisai Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 8,
+        "phase3": 3,
+        "phase2": 5
+      }
+    },
+    {
+      "sponsorName": "Hangzhou Sciwind Biosciences Co., Ltd.",
+      "ticker": "HGZDY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "headword",
+      "counts": {
+        "total": 6,
+        "phase3": 4,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Sun Pharmaceutical Industries Limited",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 6,
+        "phase3": 4,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Wuhan Createrna Science and Technology Co., Ltd",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 6,
+        "phase3": 4,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Applied Biology, Inc.",
+      "ticker": "AMAT",
+      "reason": "SIC 3674 (Semiconductors & Related Devices) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 6,
+        "phase3": 4,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Shanghai Pharmaceuticals Holding Co., Ltd",
+      "ticker": "SFDMY",
+      "reason": "SIC 8880 (American Depositary Receipts) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 9,
+        "phase3": 2,
+        "phase2": 7
+      }
+    },
+    {
+      "sponsorName": "Zhaoke (Guangzhou) Ophthalmology Pharmaceutical Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 5,
+        "phase3": 4,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Shionogi",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 9,
+        "phase3": 2,
+        "phase2": 7
+      }
+    },
+    {
+      "sponsorName": "BeBetter Med Inc",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 7,
+        "phase3": 3,
+        "phase2": 4
+      }
+    },
+    {
+      "sponsorName": "Sinotau Pharmaceutical Group",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 5,
+        "phase3": 4,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Beijing Continent Pharmaceutical Co, Ltd.",
+      "ticker": "BJGPY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 5,
+        "phase3": 4,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Deciphera Pharmaceuticals, LLC",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 7,
+        "phase3": 3,
+        "phase2": 4
+      }
+    },
+    {
+      "sponsorName": "Xuanzhu Biopharmaceutical Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 5,
+        "phase3": 4,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Jemincare",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 7,
+        "phase3": 3,
+        "phase2": 4
+      }
+    },
+    {
+      "sponsorName": "Swedish Orphan Biovitrum",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 5,
+        "phase3": 4,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Shanghai Jiaolian Drug Research and Development Co., Ltd",
+      "ticker": "SFDMY",
+      "reason": "SIC 8880 (American Depositary Receipts) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 5,
+        "phase3": 4,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Bavarian Nordic",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 6,
+        "phase3": 3,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Onconic Therapeutics Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 6,
+        "phase3": 3,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Shenyang Sunshine Pharmaceutical Co., LTD.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 10,
+        "phase3": 1,
+        "phase2": 9
+      }
+    },
+    {
+      "sponsorName": "Amicus Therapeutics",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 4,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Guangzhou JOYO Pharma Co., Ltd",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 6,
+        "phase3": 3,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Suzhou Alphamab Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 6,
+        "phase3": 3,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Alfasigma S.p.A.",
+      "ticker": "STVN",
+      "reason": "ambiguous name match",
+      "alternatives": [
+        "STVN"
+      ],
+      "counts": {
+        "total": 4,
+        "phase3": 4,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "NewAmsterdam Pharma",
+      "ticker": "NAMS",
+      "reason": "ambiguous name match",
+      "alternatives": [
+        "NAMS",
+        "NAMSW"
+      ],
+      "counts": {
+        "total": 6,
+        "phase3": 3,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Crinetics Pharmaceuticals Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 6,
+        "phase3": 3,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Viking Therapeutics, Inc.",
+      "ticker": "VIK",
+      "reason": "SIC 4400 (Water Transportation) is not life sciences",
+      "confidence": "exact",
+      "counts": {
+        "total": 4,
+        "phase3": 4,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Sun Pharmaceutical Industries, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 4,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "SUNHO（China）BioPharmaceutical CO., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 8,
+        "phase3": 2,
+        "phase2": 6
+      }
+    },
+    {
+      "sponsorName": "Hangzhou Highlightll Pharmaceutical Co., Ltd",
+      "ticker": "HGZDY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "headword",
+      "counts": {
+        "total": 6,
+        "phase3": 3,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Aragon Pharmaceuticals, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 4,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Kedrion S.p.A.",
+      "ticker": "STVN",
+      "reason": "ambiguous name match",
+      "alternatives": [
+        "STVN"
+      ],
+      "counts": {
+        "total": 4,
+        "phase3": 4,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Ollin Biosciences, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 4,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Pharmazz, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 6,
+        "phase3": 3,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Taisho Pharmaceutical Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 4,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Pierre Fabre Medicament",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 7,
+        "phase3": 2,
+        "phase2": 5
+      }
+    },
+    {
+      "sponsorName": "PTC Therapeutics",
+      "ticker": "PTC",
+      "reason": "SIC 7372 (Services-Prepackaged Software) is not life sciences",
+      "confidence": "exact",
+      "counts": {
+        "total": 5,
+        "phase3": 3,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Italfarmaco",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 5,
+        "phase3": 3,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Hanmi Pharmaceutical Company Limited",
+      "ticker": "HAFC",
+      "reason": "SIC 6021 (National Commercial Banks) is not life sciences",
+      "confidence": "headword",
+      "counts": {
+        "total": 7,
+        "phase3": 2,
+        "phase2": 5
+      }
+    },
+    {
+      "sponsorName": "PharmaEssentia",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 5,
+        "phase3": 3,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Ferring Pharmaceuticals",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 5,
+        "phase3": 3,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "GC Biopharma Corp",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 5,
+        "phase3": 3,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Caliway Biopharmaceuticals Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 5,
+        "phase3": 3,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Abbisko Therapeutics Co, Ltd",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 9,
+        "phase3": 1,
+        "phase2": 8
+      }
+    },
+    {
+      "sponsorName": "Azafaros B.V.",
+      "ticker": "INBT",
+      "reason": "SIC 3690 (Miscellaneous Electrical Machinery, Equipment & Supplies) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 5,
+        "phase3": 3,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Beijing Biostar Pharmaceuticals Co., Ltd.",
+      "ticker": "BJGPY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 7,
+        "phase3": 2,
+        "phase2": 5
+      }
+    },
+    {
+      "sponsorName": "LEO Pharma",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 5,
+        "phase3": 3,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Xiamen Amoytop Biotech Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 5,
+        "phase3": 3,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Jiangxi Kvvit Pharmaceutical Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 3,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Shanghai Vitalgen BioPharma Co., Ltd.",
+      "ticker": "SFDMY",
+      "reason": "SIC 8880 (American Depositary Receipts) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 6,
+        "phase3": 2,
+        "phase2": 4
+      }
+    },
+    {
+      "sponsorName": "Dompé Farmaceutici S.p.A",
+      "ticker": "BSP",
+      "reason": "SIC 7370 (Services-Computer Programming, Data Processing, Etc.) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 4,
+        "phase3": 3,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Bausch Health Americas, Inc.",
+      "ticker": "BLCO",
+      "reason": "SIC 3851 (Ophthalmic Goods) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 4,
+        "phase3": 3,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Beijing Pearl Biotechnology Limited Liability Company",
+      "ticker": "BJGPY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 4,
+        "phase3": 3,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Shanghai Huaota Biopharmaceutical Co., Ltd.",
+      "ticker": "SFDMY",
+      "reason": "SIC 8880 (American Depositary Receipts) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 6,
+        "phase3": 2,
+        "phase2": 4
+      }
+    },
+    {
+      "sponsorName": "Shanghai Huilun Pharmaceutical Co., Ltd.",
+      "ticker": "SFDMY",
+      "reason": "SIC 8880 (American Depositary Receipts) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 4,
+        "phase3": 3,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Shanghai Shengdi Pharmaceutical Co., Ltd",
+      "ticker": "SFDMY",
+      "reason": "SIC 8880 (American Depositary Receipts) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 4,
+        "phase3": 3,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Addpharma Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 3,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Shanghai Runshi Pharmaceutical Technology Co., Ltd",
+      "ticker": "SFDMY",
+      "reason": "SIC 8880 (American Depositary Receipts) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 6,
+        "phase3": 2,
+        "phase2": 4
+      }
+    },
+    {
+      "sponsorName": "Il-Yang Pharm. Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 3,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Kind Pharmaceuticals LLC",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 6,
+        "phase3": 2,
+        "phase2": 4
+      }
+    },
+    {
+      "sponsorName": "Luye Pharma Group Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 6,
+        "phase3": 2,
+        "phase2": 4
+      }
+    },
+    {
+      "sponsorName": "AB Science",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 3,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "InxMed (Shanghai) Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 8,
+        "phase3": 1,
+        "phase2": 7
+      }
+    },
+    {
+      "sponsorName": "AFT Pharmaceuticals, Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 3,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Zydus Therapeutics Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 3,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Jiangsu Simcere Pharmaceutical Co., Ltd.",
+      "ticker": "JHPCY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 4,
+        "phase3": 3,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Hudson Biotech",
+      "ticker": "HPP",
+      "reason": "SIC 6500 (Real Estate) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 8,
+        "phase3": 1,
+        "phase2": 7
+      }
+    },
+    {
+      "sponsorName": "Beijing Konruns Pharmaceutical Co., Ltd.",
+      "ticker": "BJGPY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 6,
+        "phase3": 2,
+        "phase2": 4
+      }
+    },
+    {
+      "sponsorName": "Idorsia Pharmaceuticals Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 3,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Zai Lab (Shanghai) Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 3,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "JCR Pharmaceuticals Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 6,
+        "phase3": 2,
+        "phase2": 4
+      }
+    },
+    {
+      "sponsorName": "Pharmacosmos A/S",
+      "ticker": "VALE",
+      "reason": "SIC 1000 (Metal Mining) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 4,
+        "phase3": 3,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Eidos Therapeutics, a BridgeBio company",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 3,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Actelion",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 3,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Norroy Bioscience Co., LTD",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 3,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "PT Bio Farma",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 3,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "PT. Prodia Stem Cell Indonesia",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 7,
+        "phase3": 1,
+        "phase2": 6
+      }
+    },
+    {
+      "sponsorName": "Natureceuticals Sdn Bhd",
+      "ticker": "NMHI",
+      "reason": "SIC 3523 (Farm Machinery & Equipment) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 3,
+        "phase3": 3,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Zhejiang Sunshine Mandi Pharmaceutical Co.,Ltd.",
+      "ticker": "ZGJLY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 3,
+        "phase3": 3,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Priovant Therapeutics, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 3,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Miltenyi Biomedicine GmbH",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 9,
+        "phase3": 0,
+        "phase2": 9
+      }
+    },
+    {
+      "sponsorName": "Hangzhou Gensciences Biopharmaceutical Co., Ltd.",
+      "ticker": "HGZDY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "headword",
+      "counts": {
+        "total": 3,
+        "phase3": 3,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Longbio Pharma",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 7,
+        "phase3": 1,
+        "phase2": 6
+      }
+    },
+    {
+      "sponsorName": "DBV Technologies",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 3,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Kyowa Kirin Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 7,
+        "phase3": 1,
+        "phase2": 6
+      }
+    },
+    {
+      "sponsorName": "FutureGen Biopharmaceutical (Beijing) Co., Ltd",
+      "ticker": "FMAC",
+      "reason": "SIC 6770 (Blank Checks) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 5,
+        "phase3": 2,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "BioRay Pharmaceutical Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 5,
+        "phase3": 2,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "RHEACELL GmbH & Co. KG",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 3,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Shenzhen Salubris Pharmaceuticals Co., Ltd.",
+      "ticker": "SZWOY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 9,
+        "phase3": 0,
+        "phase2": 9
+      }
+    },
+    {
+      "sponsorName": "RDC Clinical Pty Ltd",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 7,
+        "phase3": 1,
+        "phase2": 6
+      }
+    },
+    {
+      "sponsorName": "Almirall, S.A.",
+      "ticker": "VALE",
+      "reason": "SIC 1000 (Metal Mining) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 5,
+        "phase3": 2,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Harmony Biosciences Management, Inc.",
+      "ticker": "HMY",
+      "reason": "SIC 1040 (Gold and Silver Ores) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 3,
+        "phase3": 3,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Shanghai Jiatan Pharmatech Co., Ltd",
+      "ticker": "SFDMY",
+      "reason": "SIC 8880 (American Depositary Receipts) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 5,
+        "phase3": 2,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Zhejiang Doer Biologics Co., Ltd.",
+      "ticker": "ZGJLY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 5,
+        "phase3": 2,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Ausper Biopharma Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 7,
+        "phase3": 1,
+        "phase2": 6
+      }
+    },
+    {
+      "sponsorName": "Calcilytix Therapeutics, Inc., a BridgeBio company",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 3,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Shenzhen TargetRx Co., Ltd.",
+      "ticker": "SZWOY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 5,
+        "phase3": 2,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "GeneCradle Inc",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 7,
+        "phase3": 1,
+        "phase2": 6
+      }
+    },
+    {
+      "sponsorName": "FutureChem",
+      "ticker": "FMAC",
+      "reason": "SIC 6770 (Blank Checks) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 3,
+        "phase3": 3,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Shanghai Ark Biopharmaceutical Co., Ltd.",
+      "ticker": "SFDMY",
+      "reason": "SIC 8880 (American Depositary Receipts) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 3,
+        "phase3": 3,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Kallyope Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 3,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "TYK Medicines, Inc",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 7,
+        "phase3": 1,
+        "phase2": 6
+      }
+    },
+    {
+      "sponsorName": "Tesaro, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 3,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Kexing Biopharm Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 3,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Akero Therapeutics, Inc",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 3,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "TransThera Sciences (Nanjing), Inc.",
+      "ticker": "GRPS",
+      "reason": "SIC 0200 (Agricultural Prod-Livestock & Animal Specialties) is not life sciences",
+      "confidence": "headword",
+      "counts": {
+        "total": 5,
+        "phase3": 2,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Lunan Better Pharmaceutical Co., LTD.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 3,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "IntraBio Inc",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 3,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Chengdu Kanghong Pharmaceutical Group Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 3,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "HTA Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 3,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Beijing Zhifei Lvzhu Biopharmaceutical Co., Ltd",
+      "ticker": "BJGPY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 3,
+        "phase3": 3,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Viridian Therapeutics, Inc.",
+      "ticker": "VRDN",
+      "reason": "ambiguous name match",
+      "alternatives": [
+        "VRDN",
+        "VIRMF"
+      ],
+      "counts": {
+        "total": 3,
+        "phase3": 3,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Innostellar Biotherapeutics Co.,Ltd",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 2,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Beijing Tide Pharmaceutical Co., Ltd",
+      "ticker": "BJGPY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 6,
+        "phase3": 1,
+        "phase2": 5
+      }
+    },
+    {
+      "sponsorName": "Staidson (Beijing) Biopharmaceuticals Co., Ltd",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 2,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "HK inno.N Corporation",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 2,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Shanghai Zhimeng Biopharma, Inc.",
+      "ticker": "SFDMY",
+      "reason": "SIC 8880 (American Depositary Receipts) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 4,
+        "phase3": 2,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Avistone Biotechnology Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 6,
+        "phase3": 1,
+        "phase2": 5
+      }
+    },
+    {
+      "sponsorName": "Guangzhou Lupeng Pharmaceutical Company LTD.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 6,
+        "phase3": 1,
+        "phase2": 5
+      }
+    },
+    {
+      "sponsorName": "NovelMed Therapeutics",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 8,
+        "phase3": 0,
+        "phase2": 8
+      }
+    },
+    {
+      "sponsorName": "Laboratoires Thea",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 6,
+        "phase3": 1,
+        "phase2": 5
+      }
+    },
+    {
+      "sponsorName": "Stemline Therapeutics, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 6,
+        "phase3": 1,
+        "phase2": 5
+      }
+    },
+    {
+      "sponsorName": "TJ Biopharma Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 2,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Ganzhou Hemay Pharmaceutical Co., Ltd",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 2,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Hangzhou Sumgen Biotech Co., Ltd.",
+      "ticker": "HGZDY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "headword",
+      "counts": {
+        "total": 6,
+        "phase3": 1,
+        "phase2": 5
+      }
+    },
+    {
+      "sponsorName": "Kartos Therapeutics, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 2,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Betta Pharmaceuticals Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 6,
+        "phase3": 1,
+        "phase2": 5
+      }
+    },
+    {
+      "sponsorName": "Jina Pharmaceuticals Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 2,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Fujian Akeylink Biotechnology Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 2,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Debiopharm International SA",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 2,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "3D Medicines (Sichuan) Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 6,
+        "phase3": 1,
+        "phase2": 5
+      }
+    },
+    {
+      "sponsorName": "Spinogenix",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 2,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Lumos Pharma",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 2,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Apellis Pharmaceuticals, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 2,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "TBF Genie Tissulaire",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 2,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "CStone Pharmaceuticals",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 2,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Gasherbrum Bio, Inc., a wholly owned subsidiary of Structure Therapeutics",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 2,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Avidity Biosciences, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 2,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Adverum Biotechnologies, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 2,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Xynomic Pharmaceuticals, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 6,
+        "phase3": 1,
+        "phase2": 5
+      }
+    },
+    {
+      "sponsorName": "Joincare Pharmaceutical Group Industry Co., Ltd",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 2,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Merus B.V.",
+      "ticker": "INBT",
+      "reason": "SIC 3690 (Miscellaneous Electrical Machinery, Equipment & Supplies) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 4,
+        "phase3": 2,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Chong Kun Dang Pharmaceutical",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 2,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Anhui Zhifei Longcom Biologic Pharmacy Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 2,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Crystalys Therapeutics",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 2,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Multitude Therapeutics Inc.",
+      "ticker": "MWG",
+      "reason": "SIC 3990 (Miscellaneous Manufacturing Industries) is not life sciences",
+      "confidence": "headword",
+      "counts": {
+        "total": 5,
+        "phase3": 1,
+        "phase2": 4
+      }
+    },
+    {
+      "sponsorName": "OncoC4, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 5,
+        "phase3": 1,
+        "phase2": 4
+      }
+    },
+    {
+      "sponsorName": "CatalYm GmbH",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 5,
+        "phase3": 1,
+        "phase2": 4
+      }
+    },
+    {
+      "sponsorName": "Celcuity Inc",
+      "ticker": "CELC",
+      "reason": "SIC 8071 (Services-Medical Laboratories) is not life sciences",
+      "confidence": "exact",
+      "counts": {
+        "total": 3,
+        "phase3": 2,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Nacuity Pharmaceuticals, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 2,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Guangzhou Gloria Biosciences Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 2,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Rakuten Medical, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 2,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "AO GENERIUM",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 2,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Transcenta Therapeutics (Hangzhou) Co., Ltd.",
+      "ticker": "GRPS",
+      "reason": "SIC 0200 (Agricultural Prod-Livestock & Animal Specialties) is not life sciences",
+      "confidence": "headword",
+      "counts": {
+        "total": 5,
+        "phase3": 1,
+        "phase2": 4
+      }
+    },
+    {
+      "sponsorName": "HELP Therapeutics Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 5,
+        "phase3": 1,
+        "phase2": 4
+      }
+    },
+    {
+      "sponsorName": "Yuhan Corporation",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 5,
+        "phase3": 1,
+        "phase2": 4
+      }
+    },
+    {
+      "sponsorName": "Chengdu Kangnuoxing Biopharma,Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 2,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Jacobio Pharmaceuticals Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 7,
+        "phase3": 0,
+        "phase2": 7
+      }
+    },
+    {
+      "sponsorName": "GE Healthcare",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 2,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Shanghai Bovax Biotechnology Co., Ltd.",
+      "ticker": "SFDMY",
+      "reason": "SIC 8880 (American Depositary Receipts) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 3,
+        "phase3": 2,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Nanjing IASO Biotechnology Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 5,
+        "phase3": 1,
+        "phase2": 4
+      }
+    },
+    {
+      "sponsorName": "medac GmbH",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 2,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Dermavon Holdings Limited",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 2,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Insud Pharma",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 2,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Clarity Pharmaceuticals Ltd",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 2,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Bharat Biotech International Limited",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 2,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Dr. Falk Pharma GmbH",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 2,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Kissei Pharmaceutical Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 2,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Shanghai Minwei Biotechnology Co., Ltd",
+      "ticker": "SFDMY",
+      "reason": "SIC 8880 (American Depositary Receipts) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 5,
+        "phase3": 1,
+        "phase2": 4
+      }
+    },
+    {
+      "sponsorName": "Alcon Research",
+      "ticker": "ALC",
+      "reason": "SIC 3851 (Ophthalmic Goods) is not life sciences",
+      "confidence": "exact",
+      "counts": {
+        "total": 3,
+        "phase3": 2,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Shanghai Kechow Pharma, Inc.",
+      "ticker": "SFDMY",
+      "reason": "SIC 8880 (American Depositary Receipts) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 3,
+        "phase3": 2,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "Tanabe Pharma Corporation",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 2,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "InSilico Medicine Hong Kong Limited",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 5,
+        "phase3": 1,
+        "phase2": 4
+      }
+    },
+    {
+      "sponsorName": "Orchard Therapeutics",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 2,
+        "phase2": 1
+      }
+    },
+    {
+      "sponsorName": "ARJ Medical, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "SANGMYUNG innovation",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Han Xu, M.D., Ph.D., FAPCR, Medical Director,, IRB Chair",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Brainfarma Industria Química e Farmacêutica S/A",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Basilea Pharmaceutica",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Prime Gene Therapeutics Co., Ltd.",
+      "ticker": "PRI",
+      "reason": "SIC 6311 (Life Insurance) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Longboard Pharmaceuticals",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Chengdu Suncadia Medicine Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 1,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Moleac Pte Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "VivaVision Biotech, Inc",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Ache Laboratorios Farmaceuticos S.A.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Novadip Biosciences",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 1,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Jiangsu Aosaikang Pharmaceutical Co., Ltd.",
+      "ticker": "JHPCY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 4,
+        "phase3": 1,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Trust Bio-sonics, Inc.",
+      "ticker": "TRMK",
+      "reason": "SIC 6021 (National Commercial Banks) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Zealand Pharma",
+      "ticker": "ZLDPF",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "headword",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Camurus AB",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Supergene, LLC",
+      "ticker": "SMCI",
+      "reason": "SIC 3571 (Electronic Computers) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Chongqing Claruvis Pharmaceutical Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Shanghai Yidian Pharmaceutical Technology Development Co., Ltd.",
+      "ticker": "SFDMY",
+      "reason": "SIC 8880 (American Depositary Receipts) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 6,
+        "phase3": 0,
+        "phase2": 6
+      }
+    },
+    {
+      "sponsorName": "Ambros Therapeutics, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "GT Medical Technologies, Inc.",
+      "ticker": "KMTS",
+      "reason": "ambiguous name match",
+      "alternatives": [
+        "KMTS"
+      ],
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Hinova Pharmaceuticals Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 1,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "SK Life Science, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Kriya Therapeutics, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 6,
+        "phase3": 0,
+        "phase2": 6
+      }
+    },
+    {
+      "sponsorName": "Resilience",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "JW Pharmaceutical",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Ascletis Pharma (China) Co., Limited",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "InnoPharmax Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Bostal Drug Delivery Co., Ltd",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Ablative Solutions, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Sling Therapeutics, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "TR Therapeutics",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Aesculap Biologics, LLC",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Suven Life Sciences Limited",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Servier Bio-Innovation LLC",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 1,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Transcend Therapeutics",
+      "ticker": "GRPS",
+      "reason": "SIC 0200 (Agricultural Prod-Livestock & Animal Specialties) is not life sciences",
+      "confidence": "headword",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Laboratorios Silanes S.A. de C.V.",
+      "ticker": "VIST",
+      "reason": "SIC 1311 (Crude Petroleum & Natural Gas) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "JYAMS PET Research & Development Limited",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "OBI Pharma, Inc",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 1,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Shanghai Xinzhi BioMed Co., Ltd.",
+      "ticker": "SFDMY",
+      "reason": "SIC 8880 (American Depositary Receipts) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "CSPC Baike (Shandong) Biopharmaceutical Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Lee's Pharmaceutical Limited",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "CanariaBio Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 1,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Sichuan Huiyu Pharmaceutical Co., Ltd",
+      "ticker": "SKBBY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "headword",
+      "counts": {
+        "total": 6,
+        "phase3": 0,
+        "phase2": 6
+      }
+    },
+    {
+      "sponsorName": "Valenta Pharm JSC",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 1,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Merz Therapeutics GmbH",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Castle Creek Biosciences, LLC.",
+      "ticker": "CSTL",
+      "reason": "SIC 8071 (Services-Medical Laboratories) is not life sciences",
+      "confidence": "headword",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Changchun BCHT Biotechnology Co.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "AUG Therapeutics",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Endo USA Inc., a Keenova Therapeutics Company",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Paradigm Therapeutics",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Fenix Innovation Group",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Suzhou Abogen Biosciences Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 1,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Cybin IRL Limited",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Intra-IMMUSG Pte Ltd",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 1,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Jiangxi Qingfeng Pharmaceutical Co. Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "VectivBio AG",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Brise Pharmaceuticals Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Blueprint Medicines Corporation",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 1,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Nanjing Sanhome Pharmaceutical, Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Han Xu, M.D., Ph.D., FAPCR, Sponsor-Investigator, IRB Chair",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Ebima Clifford Okundaye",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Servier",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 1,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "AMAG Pharmaceuticals, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Beacon Therapeutics",
+      "ticker": "BBT",
+      "reason": "SIC 6036 (Savings Institutions, Not Federally Chartered) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 4,
+        "phase3": 1,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Albireo, an Ipsen Company",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Price Vision Group",
+      "ticker": "TROW",
+      "reason": "SIC 6282 (Investment Advice) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Skyhawk Therapeutics, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Biocodex",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Prilenia",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Lynk Pharmaceuticals Co., Ltd",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Carnot Laboratories",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "mAbxience Research S.L.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Laboratorios Sophia S.A de C.V.",
+      "ticker": "VIST",
+      "reason": "SIC 1311 (Crude Petroleum & Natural Gas) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Azidus Brasil",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "AOP Orphan Pharmaceuticals AG",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Beijing Union Pharmaceutical Factory Ltd",
+      "ticker": "BJGPY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Taizhou Mabtech Pharmaceutical Co.,Ltd",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Beijing Dongfang Biotech Co., Ltd.",
+      "ticker": "BJGPY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "89bio, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Cook MyoSite",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "ITM Solucin GmbH",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Epygenix",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "GIE Medical",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Neuren Pharmaceuticals Limited",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "SOFIE",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Lupin Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Saol Therapeutics Inc",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Binhui Biopharmaceutical Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 4,
+        "phase3": 1,
+        "phase2": 3
+      }
+    },
+    {
+      "sponsorName": "Beijing Kanghong Biological Medicine Co., Ltd.",
+      "ticker": "BJGPY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Kringle Pharma, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Santen Pharmaceutical Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Sichuan Jishengtang Pharmaceutical Co., Ltd.",
+      "ticker": "SKBBY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "headword",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "National Vaccine and Serum Institute, China",
+      "ticker": "NGG",
+      "reason": "SIC 4922 (Natural Gas Transmission) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "AgelessRx",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Curium US LLC",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Servier Affaires Médicales",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 2,
+        "phase3": 2,
+        "phase2": 0
+      }
+    },
+    {
+      "sponsorName": "Polaris Group",
+      "ticker": "PII",
+      "reason": "SIC 3790 (Miscellaneous Transportation Equipment) is not life sciences",
+      "confidence": "exact",
+      "counts": {
+        "total": 3,
+        "phase3": 1,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Haihe Biopharma Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 5,
+        "phase3": 0,
+        "phase2": 5
+      }
+    },
+    {
+      "sponsorName": "BioInvent International AB",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 5,
+        "phase3": 0,
+        "phase2": 5
+      }
+    },
+    {
+      "sponsorName": "Direct Biologics, LLC",
+      "ticker": "ZDAI",
+      "reason": "SIC 1540 (General Bldg Contractors - Nonresidential Bldgs) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 3,
+        "phase3": 1,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Aveta Biomics, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 1,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Spark Therapeutics, Inc.",
+      "ticker": "SPKL",
+      "reason": "SIC 3690 (Miscellaneous Electrical Machinery, Equipment & Supplies) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 3,
+        "phase3": 1,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Rapa Therapeutics LLC",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 1,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "AskBio Inc",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 5,
+        "phase3": 0,
+        "phase2": 5
+      }
+    },
+    {
+      "sponsorName": "NS Pharma, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 5,
+        "phase3": 0,
+        "phase2": 5
+      }
+    },
+    {
+      "sponsorName": "Grand Theravac Life Sciences (Nanjing) Co., Ltd.",
+      "ticker": "LOPE",
+      "reason": "SIC 8200 (Services-Educational Services) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 3,
+        "phase3": 1,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Neurodawn Pharmaceutical Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 1,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Oneness Biotech Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 1,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Transdermal Delivery Solutions Corp",
+      "ticker": "GRPS",
+      "reason": "SIC 0200 (Agricultural Prod-Livestock & Animal Specialties) is not life sciences",
+      "confidence": "headword",
+      "counts": {
+        "total": 3,
+        "phase3": 1,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "AskGene Pharma, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 1,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Mercator MedSystems, Inc.",
+      "ticker": "MRCO",
+      "reason": "SIC 6770 (Blank Checks) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 3,
+        "phase3": 1,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "CellSight Technologies, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 5,
+        "phase3": 0,
+        "phase2": 5
+      }
+    },
+    {
+      "sponsorName": "Elpida Therapeutics SPC",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 1,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Beijing QL Biopharmaceutical Co.,Ltd",
+      "ticker": "BJGPY",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 3,
+        "phase3": 1,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Innovent Biologics Technology Limited (Shanghai R&D Center)",
+      "ticker": "IVBXF",
+      "reason": "SIC null (null) is not life sciences",
+      "confidence": "headword",
+      "counts": {
+        "total": 3,
+        "phase3": 1,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Chongqing Peg-Bio Biopharm Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 1,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Centessa Pharmaceuticals (UK) Limited",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 1,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "InSightec",
+      "ticker": "NSIT",
+      "reason": "SIC 5961 (Retail-Catalog & Mail-Order Houses) is not life sciences",
+      "confidence": "ambiguous",
+      "counts": {
+        "total": 3,
+        "phase3": 1,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "VelaVigo Bio Inc",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 5,
+        "phase3": 0,
+        "phase2": 5
+      }
+    },
+    {
+      "sponsorName": "Shaanxi Micot Pharmaceutical Technology Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 1,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "PharmaMar",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 1,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Ever Supreme Bio Technology Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 5,
+        "phase3": 0,
+        "phase2": 5
+      }
+    },
+    {
+      "sponsorName": "Convalife (Shanghai) Co., Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 5,
+        "phase3": 0,
+        "phase2": 5
+      }
+    },
+    {
+      "sponsorName": "CellCentric Ltd.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 1,
+        "phase2": 2
+      }
+    },
+    {
+      "sponsorName": "Pulmovant, Inc.",
+      "reason": "no ticker match (likely private)",
+      "counts": {
+        "total": 3,
+        "phase3": 1,
+        "phase2": 2
+      }
+    }
+  ]
+}

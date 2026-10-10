@@ -1,0 +1,66 @@
+name: Refresh data and deploy
+
+on:
+  schedule:
+    - cron: '14 11 * * *'    # daily, 11:14 UTC
+  workflow_dispatch:          # run it by hand from the Actions tab
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    env:
+      # The SEC rejects unidentified requests. Set this at
+      # Settings -> Secrets and variables -> Actions -> Variables.
+      EDGAR_USER_AGENT: ${{ vars.EDGAR_USER_AGENT }}
+      # Used for canonical tags and sitemap.xml. Defaults to the Pages URL.
+      SITE_BASE_URL: ${{ vars.SITE_BASE_URL || format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Check SEC contact string
+        run: |
+          if [ -z "$EDGAR_USER_AGENT" ]; then
+            echo "::warning::EDGAR_USER_AGENT is not set. SEC filings and financial"
+            echo "::warning::metrics will be skipped. Add it under Settings ->"
+            echo "::warning::Secrets and variables -> Actions -> Variables."
+          else
+            echo "SEC contact string is set."
+          fi
+
+      - name: Fetch trials, filings and financials
+        run: node scripts/build-data.js
+
+      - name: Generate static pages and sitemap
+        run: node scripts/build-pages.js --base "$SITE_BASE_URL"
+
+      - name: Commit refreshed data and pages
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data public/ticker public/calendar public/sitemap.xml public/robots.txt
+          git diff --staged --quiet || git commit -m "chore: refresh data and pages"
+          git push
+        continue-on-error: true
+
+      - uses: actions/configure-pages@v4
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - id: deployment
+        uses: actions/deploy-pages@v4
