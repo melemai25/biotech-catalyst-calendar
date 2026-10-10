@@ -4,3 +4,5 @@ Allow: /
 # The watchlist is one page with a query string for sharing. It is not
 # indexed: every ticker combination would be the same content at a new URL.
 Disallow: /*?tickers=
+
+Sitemap: https://melemai25.github.io/biotech-catalyst-calendar/sitemap.xml
