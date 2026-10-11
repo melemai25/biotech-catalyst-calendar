@@ -11,7 +11,7 @@
   "activeTrials": 13,
   "phase3": 7,
   "phase2": 6,
-  "generatedDate": "2026-10-10",
+  "generatedDate": "2026-10-11",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 19,
     "nextCatalystDate": "2026-10-12",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 2
+    "daysToNextCatalyst": 1
   },
   "trialStats": {
     "completed": 132,
@@ -995,21 +995,6 @@
       "source": "ClinicalTrials.gov NCT05875974",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05875974",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-JAZZ-0001193125-25-075871",
-      "ticker": "JAZZ",
-      "date": "2025-04-08",
-      "title": "8-K filed: Material agreement",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 1.01, 9.01. Material agreement. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-08",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1232524/000119312525075871/d901769d8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

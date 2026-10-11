@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 1,
   "phase2": 4,
-  "generatedDate": "2026-10-10",
+  "generatedDate": "2026-10-11",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2026-11-05",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 26
+    "daysToNextCatalyst": 25
   },
   "trialStats": {
     "completed": 1,
@@ -179,21 +179,6 @@
       "source": "ClinicalTrials.gov NCT05113342",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05113342",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-RNAC-0001453687-25-000064",
-      "ticker": "RNAC",
-      "date": "2025-04-08",
-      "title": "8-K filed: Reg FD disclosure, Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 7.01, 8.01, 9.01. Reg FD disclosure; Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-08",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1453687/000145368725000064/rnac-20250408.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

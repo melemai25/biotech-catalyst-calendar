@@ -11,7 +11,7 @@
   "activeTrials": 57,
   "phase3": 27,
   "phase2": 30,
-  "generatedDate": "2026-10-10",
+  "generatedDate": "2026-10-11",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -50,14 +50,14 @@
     "fcfMarginPct": 26.4,
     "marketCapUsd": null,
     "entityName": "GILEAD SCIENCES, INC.",
-    "activeTrials": 133,
-    "phase3Count": 58,
+    "activeTrials": 132,
+    "phase3Count": 57,
     "phase2Count": 54,
     "leadPhase": 4,
     "upcomingCount": 26,
     "nextCatalystDate": "2026-11-01",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 22
+    "daysToNextCatalyst": 21
   },
   "trialStats": {
     "completed": 234,
@@ -97,21 +97,6 @@
     "resultsPostedPct": 87
   },
   "events": [
-    {
-      "id": "ct-GILD-NCT02607800",
-      "ticker": "GILD",
-      "date": "2016-10-10",
-      "title": "Safety and Efficacy of Sofosbuvir/Velpatasvir/Voxilaprevir and Sofosbuvir/Velpatasvir in Adults With Chronic HCV Infection Who Have Not Previously Received Treatment With Direct-Acting Antiviral Therapy",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Hepatitis C · 943 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02607800",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02607800",
-      "origin": "registry",
-      "status": "past"
-    },
     {
       "id": "ct-GILD-NCT02276612",
       "ticker": "GILD",

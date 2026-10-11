@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-10-10",
+  "generatedDate": "2026-10-11",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 2,
     "leadPhase": 3,
     "upcomingCount": 3,
-    "nextCatalystDate": "2026-10-11",
+    "nextCatalystDate": "2026-12-18",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 68
   },
   "trialStats": {
     "completed": 5,
@@ -460,7 +460,7 @@
     {
       "id": "edgar-LRMR-next-earnings",
       "ticker": "LRMR",
-      "date": "2026-10-11",
+      "date": "2026-12-18",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

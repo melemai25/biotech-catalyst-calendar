@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-10",
+  "generatedDate": "2026-10-11",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-10-13",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 3
+    "daysToNextCatalyst": 2
   },
   "trialStats": {
     "completed": 4,
@@ -137,21 +137,6 @@
       "source": "ClinicalTrials.gov NCT06190093",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06190093",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-OTLK-0001558370-25-004606",
-      "ticker": "OTLK",
-      "date": "2025-04-08",
-      "title": "8-K filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 8.01. Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-08",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1649989/000155837025004606/otlk-20250408x8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

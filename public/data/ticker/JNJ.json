@@ -11,7 +11,7 @@
   "activeTrials": 119,
   "phase3": 78,
   "phase2": 41,
-  "generatedDate": "2026-10-10",
+  "generatedDate": "2026-10-11",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -50,14 +50,14 @@
     "fcfMarginPct": 10.4,
     "marketCapUsd": null,
     "entityName": "Johnson & Johnson",
-    "activeTrials": 294,
-    "phase3Count": 74,
+    "activeTrials": 293,
+    "phase3Count": 73,
     "phase2Count": 82,
     "leadPhase": 4,
     "upcomingCount": 47,
     "nextCatalystDate": "2026-10-12",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 2
+    "daysToNextCatalyst": 1
   },
   "trialStats": {
     "completed": 365,
@@ -97,21 +97,6 @@
     "resultsPostedPct": 40
   },
   "events": [
-    {
-      "id": "ct-JNJ-NCT02289716",
-      "ticker": "JNJ",
-      "date": "2016-10-10",
-      "title": "Study of Efficacy, Safety of Fulranumab Monotherapy for OA of Hip or Knee, PAI3003",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Osteoarthritis, Pain · 41 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT02289716",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02289716",
-      "origin": "registry",
-      "status": "past"
-    },
     {
       "id": "ct-JNJ-NCT02846506",
       "ticker": "JNJ",

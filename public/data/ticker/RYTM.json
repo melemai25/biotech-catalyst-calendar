@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 2,
   "phase2": 2,
-  "generatedDate": "2026-10-10",
+  "generatedDate": "2026-10-11",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 10,
     "leadPhase": 4,
     "upcomingCount": 5,
-    "nextCatalystDate": "2026-10-11",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "nextCatalystDate": "2026-10-31",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 20
   },
   "trialStats": {
     "completed": 23,
@@ -623,21 +623,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-RYTM-next-earnings",
-      "ticker": "RYTM",
-      "date": "2026-10-11",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001649904&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-RYTM-NCT06772597",
       "ticker": "RYTM",
       "date": "2026-10-31",
@@ -650,6 +635,21 @@
       "source": "ClinicalTrials.gov NCT06772597",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06772597",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-RYTM-next-earnings",
+      "ticker": "RYTM",
+      "date": "2026-12-18",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001649904&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {
