@@ -11,7 +11,7 @@
   "activeTrials": 119,
   "phase3": 78,
   "phase2": 41,
-  "generatedDate": "2026-10-11",
+  "generatedDate": "2026-10-12",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -54,10 +54,10 @@
     "phase3Count": 73,
     "phase2Count": 82,
     "leadPhase": 4,
-    "upcomingCount": 47,
-    "nextCatalystDate": "2026-10-12",
-    "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 1
+    "upcomingCount": 46,
+    "nextCatalystDate": "2026-10-15",
+    "nextCatalystType": "Earnings",
+    "daysToNextCatalyst": 3
   },
   "trialStats": {
     "completed": 365,
@@ -3995,7 +3995,7 @@
       "source": "ClinicalTrials.gov NCT05884398",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05884398",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "edgar-JNJ-next-earnings",

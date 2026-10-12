@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-11T16:46:39.197Z",
-  "generatedDate": "2026-10-11",
+  "generatedAt": "2026-10-12T20:19:36.588Z",
+  "generatedDate": "2026-10-12",
   "tickerCount": 301,
-  "totalEvents": 13016,
+  "totalEvents": 13005,
   "tickers": {
     "AZN": {
       "name": "ASTRAZENECA PLC",
@@ -64,7 +64,7 @@
         "upcomingCount": 20,
         "nextCatalystDate": "2026-11-11",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 31
+        "daysToNextCatalyst": 30
       },
       "trialStats": {
         "completed": 347,
@@ -165,7 +165,7 @@
         "upcomingCount": 24,
         "nextCatalystDate": "2026-10-22",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 11
+        "daysToNextCatalyst": 10
       },
       "trialStats": {
         "completed": 239,
@@ -266,7 +266,7 @@
         "upcomingCount": 40,
         "nextCatalystDate": "2026-10-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 4
+        "daysToNextCatalyst": 3
       },
       "trialStats": {
         "completed": 341,
@@ -367,7 +367,7 @@
         "upcomingCount": 43,
         "nextCatalystDate": "2026-10-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 4
+        "daysToNextCatalyst": 3
       },
       "trialStats": {
         "completed": 359,
@@ -468,7 +468,7 @@
         "upcomingCount": 16,
         "nextCatalystDate": "2026-11-03",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 23
+        "daysToNextCatalyst": 22
       },
       "trialStats": {
         "completed": 350,
@@ -569,7 +569,7 @@
         "upcomingCount": 23,
         "nextCatalystDate": "2026-10-19",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 8
+        "daysToNextCatalyst": 7
       },
       "trialStats": {
         "completed": 244,
@@ -618,10 +618,10 @@
       "activeTrials": 135,
       "phase3": 72,
       "counts": {
-        "total": 553,
+        "total": 552,
         "curated": 0,
         "registry": 80,
-        "edgar": 473,
+        "edgar": 472,
         "upcoming": 14
       },
       "nextDate": "2026-12-14",
@@ -670,7 +670,7 @@
         "upcomingCount": 14,
         "nextCatalystDate": "2026-12-14",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 64
+        "daysToNextCatalyst": 63
       },
       "trialStats": {
         "completed": 384,
@@ -723,9 +723,9 @@
         "curated": 0,
         "registry": 293,
         "edgar": 13,
-        "upcoming": 47
+        "upcoming": 46
       },
-      "nextDate": "2026-10-12",
+      "nextDate": "2026-10-15",
       "metrics": {
         "reportingCurrency": "USD",
         "taxonomy": "us-gaap",
@@ -768,10 +768,10 @@
         "phase3Count": 73,
         "phase2Count": 82,
         "leadPhase": 4,
-        "upcomingCount": 47,
-        "nextCatalystDate": "2026-10-12",
-        "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 1
+        "upcomingCount": 46,
+        "nextCatalystDate": "2026-10-15",
+        "nextCatalystType": "Earnings",
+        "daysToNextCatalyst": 3
       },
       "trialStats": {
         "completed": 365,
@@ -872,7 +872,7 @@
         "upcomingCount": 75,
         "nextCatalystDate": "2026-10-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 4
+        "daysToNextCatalyst": 3
       },
       "trialStats": {
         "completed": 339,
@@ -973,7 +973,7 @@
         "upcomingCount": 17,
         "nextCatalystDate": "2027-01-07",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 88
+        "daysToNextCatalyst": 87
       },
       "trialStats": {
         "completed": 292,
@@ -1074,7 +1074,7 @@
         "upcomingCount": 41,
         "nextCatalystDate": "2026-10-31",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 20
+        "daysToNextCatalyst": 19
       },
       "trialStats": {
         "completed": 307,
@@ -1127,9 +1127,9 @@
         "curated": 0,
         "registry": 198,
         "edgar": 13,
-        "upcoming": 78
+        "upcoming": 77
       },
-      "nextDate": "2026-10-12",
+      "nextDate": "2026-11-02",
       "metrics": {
         "reportingCurrency": "USD",
         "taxonomy": "us-gaap",
@@ -1172,10 +1172,10 @@
         "phase3Count": 61,
         "phase2Count": 83,
         "leadPhase": 4,
-        "upcomingCount": 78,
-        "nextCatalystDate": "2026-10-12",
+        "upcomingCount": 77,
+        "nextCatalystDate": "2026-11-02",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 1
+        "daysToNextCatalyst": 21
       },
       "trialStats": {
         "completed": 165,
@@ -1276,7 +1276,7 @@
         "upcomingCount": 15,
         "nextCatalystDate": "2026-10-31",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 20
+        "daysToNextCatalyst": 19
       },
       "trialStats": {
         "completed": 236,
@@ -1377,7 +1377,7 @@
         "upcomingCount": 27,
         "nextCatalystDate": "2026-12-14",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 64
+        "daysToNextCatalyst": 63
       },
       "trialStats": {
         "completed": 415,
@@ -1478,7 +1478,7 @@
         "upcomingCount": 26,
         "nextCatalystDate": "2026-11-01",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 21
+        "daysToNextCatalyst": 20
       },
       "trialStats": {
         "completed": 234,
@@ -1579,7 +1579,7 @@
         "upcomingCount": 46,
         "nextCatalystDate": "2026-10-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 4
+        "daysToNextCatalyst": 3
       },
       "trialStats": {
         "completed": 143,
@@ -1680,7 +1680,7 @@
         "upcomingCount": 30,
         "nextCatalystDate": "2026-11-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 35
+        "daysToNextCatalyst": 34
       },
       "trialStats": {
         "completed": 34,
@@ -1781,7 +1781,7 @@
         "upcomingCount": 47,
         "nextCatalystDate": "2026-10-31",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 20
+        "daysToNextCatalyst": 19
       },
       "trialStats": {
         "completed": 4,
@@ -1882,7 +1882,7 @@
         "upcomingCount": 10,
         "nextCatalystDate": "2026-11-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 35
+        "daysToNextCatalyst": 34
       },
       "trialStats": {
         "completed": 65,
@@ -1983,7 +1983,7 @@
         "upcomingCount": 19,
         "nextCatalystDate": "2026-10-20",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 9
+        "daysToNextCatalyst": 8
       },
       "trialStats": {
         "completed": 320,
@@ -2084,7 +2084,7 @@
         "upcomingCount": 28,
         "nextCatalystDate": "2026-10-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 4
+        "daysToNextCatalyst": 3
       },
       "trialStats": {
         "completed": 35,
@@ -2139,7 +2139,7 @@
         "edgar": 28,
         "upcoming": 18
       },
-      "nextDate": "2026-10-12",
+      "nextDate": "2026-12-15",
       "metrics": {
         "reportingCurrency": "USD",
         "taxonomy": "us-gaap",
@@ -2183,9 +2183,9 @@
         "phase2Count": 30,
         "leadPhase": 3,
         "upcomingCount": 18,
-        "nextCatalystDate": "2026-10-12",
-        "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 1
+        "nextCatalystDate": "2026-12-15",
+        "nextCatalystType": "Trial Milestone",
+        "daysToNextCatalyst": 64
       },
       "trialStats": {
         "completed": 86,
@@ -2286,7 +2286,7 @@
         "upcomingCount": 17,
         "nextCatalystDate": "2026-10-24",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 13
+        "daysToNextCatalyst": 12
       },
       "trialStats": {
         "completed": 55,
@@ -2387,7 +2387,7 @@
         "upcomingCount": 13,
         "nextCatalystDate": "2026-10-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 4
+        "daysToNextCatalyst": 3
       },
       "trialStats": {
         "completed": 53,
@@ -2488,7 +2488,7 @@
         "upcomingCount": 7,
         "nextCatalystDate": "2026-10-29",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 18
+        "daysToNextCatalyst": 17
       },
       "trialStats": {
         "completed": 31,
@@ -2589,7 +2589,7 @@
         "upcomingCount": 14,
         "nextCatalystDate": "2026-10-28",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 17
+        "daysToNextCatalyst": 16
       },
       "trialStats": {
         "completed": 18,
@@ -2690,7 +2690,7 @@
         "upcomingCount": 16,
         "nextCatalystDate": "2026-12-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 65
+        "daysToNextCatalyst": 64
       },
       "trialStats": {
         "completed": 9,
@@ -2791,7 +2791,7 @@
         "upcomingCount": 10,
         "nextCatalystDate": "2026-10-25",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 14
+        "daysToNextCatalyst": 13
       },
       "trialStats": {
         "completed": 27,
@@ -2846,7 +2846,7 @@
         "edgar": 21,
         "upcoming": 19
       },
-      "nextDate": "2026-10-12",
+      "nextDate": "2026-12-21",
       "metrics": {
         "reportingCurrency": "USD",
         "taxonomy": "us-gaap",
@@ -2890,9 +2890,9 @@
         "phase2Count": 37,
         "leadPhase": 4,
         "upcomingCount": 19,
-        "nextCatalystDate": "2026-10-12",
+        "nextCatalystDate": "2026-12-21",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 1
+        "daysToNextCatalyst": 70
       },
       "trialStats": {
         "completed": 132,
@@ -2993,7 +2993,7 @@
         "upcomingCount": 15,
         "nextCatalystDate": "2026-11-04",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 24
+        "daysToNextCatalyst": 23
       },
       "trialStats": {
         "completed": 3,
@@ -3094,7 +3094,7 @@
         "upcomingCount": 14,
         "nextCatalystDate": "2026-12-06",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 56
+        "daysToNextCatalyst": 55
       },
       "trialStats": {
         "completed": 61,
@@ -3195,7 +3195,7 @@
         "upcomingCount": 11,
         "nextCatalystDate": "2026-10-19",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 8
+        "daysToNextCatalyst": 7
       },
       "trialStats": {
         "completed": 20,
@@ -3296,7 +3296,7 @@
         "upcomingCount": 16,
         "nextCatalystDate": "2026-10-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 4
+        "daysToNextCatalyst": 3
       },
       "trialStats": {
         "completed": 18,
@@ -3397,7 +3397,7 @@
         "upcomingCount": 20,
         "nextCatalystDate": "2026-10-15",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 4
+        "daysToNextCatalyst": 3
       },
       "trialStats": {
         "completed": 43,
@@ -3498,7 +3498,7 @@
         "upcomingCount": 9,
         "nextCatalystDate": "2026-11-12",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 32
+        "daysToNextCatalyst": 31
       },
       "trialStats": {
         "completed": 33,
@@ -3599,7 +3599,7 @@
         "upcomingCount": 28,
         "nextCatalystDate": "2026-10-13",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 2
+        "daysToNextCatalyst": 1
       },
       "trialStats": {
         "completed": 76,
@@ -3700,7 +3700,7 @@
         "upcomingCount": 9,
         "nextCatalystDate": "2026-10-14",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 3
+        "daysToNextCatalyst": 2
       },
       "trialStats": {
         "completed": 22,
@@ -3801,7 +3801,7 @@
         "upcomingCount": 12,
         "nextCatalystDate": "2026-11-01",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 21
+        "daysToNextCatalyst": 20
       },
       "trialStats": {
         "completed": 23,
@@ -3902,7 +3902,7 @@
         "upcomingCount": 8,
         "nextCatalystDate": "2026-11-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 35
+        "daysToNextCatalyst": 34
       },
       "trialStats": {
         "completed": 68,
@@ -4003,7 +4003,7 @@
         "upcomingCount": 5,
         "nextCatalystDate": "2026-10-22",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 11
+        "daysToNextCatalyst": 10
       },
       "trialStats": {
         "completed": 7,
@@ -4104,7 +4104,7 @@
         "upcomingCount": 8,
         "nextCatalystDate": "2026-10-15",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 4
+        "daysToNextCatalyst": 3
       },
       "trialStats": {
         "completed": 4,
@@ -4205,7 +4205,7 @@
         "upcomingCount": 8,
         "nextCatalystDate": "2026-11-05",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 25
+        "daysToNextCatalyst": 24
       },
       "trialStats": {
         "completed": 12,
@@ -4300,7 +4300,7 @@
         "upcomingCount": 5,
         "nextCatalystDate": "2026-12-10",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 60
+        "daysToNextCatalyst": 59
       },
       "trialStats": {
         "completed": 5,
@@ -4395,7 +4395,7 @@
         "upcomingCount": 9,
         "nextCatalystDate": "2026-10-31",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 20
+        "daysToNextCatalyst": 19
       },
       "trialStats": {
         "completed": 15,
@@ -4496,7 +4496,7 @@
         "upcomingCount": 9,
         "nextCatalystDate": "2026-11-05",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 25
+        "daysToNextCatalyst": 24
       },
       "trialStats": {
         "completed": 36,
@@ -4597,7 +4597,7 @@
         "upcomingCount": 7,
         "nextCatalystDate": "2027-03-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 155
+        "daysToNextCatalyst": 154
       },
       "trialStats": {
         "completed": 0,
@@ -4698,7 +4698,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-11-08",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 28
+        "daysToNextCatalyst": 27
       },
       "trialStats": {
         "completed": 0,
@@ -4793,7 +4793,7 @@
         "upcomingCount": 6,
         "nextCatalystDate": "2026-10-22",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 11
+        "daysToNextCatalyst": 10
       },
       "trialStats": {
         "completed": 12,
@@ -4894,7 +4894,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2030-06-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 1343
+        "daysToNextCatalyst": 1342
       },
       "trialStats": {
         "completed": 4,
@@ -4943,7 +4943,7 @@
         "edgar": 25,
         "upcoming": 3
       },
-      "nextDate": "2026-10-12",
+      "nextDate": "2026-12-18",
       "metrics": {
         "reportingCurrency": "USD",
         "taxonomy": "us-gaap",
@@ -4987,9 +4987,9 @@
         "phase2Count": 3,
         "leadPhase": 3,
         "upcomingCount": 3,
-        "nextCatalystDate": "2026-10-12",
+        "nextCatalystDate": "2026-12-18",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 1
+        "daysToNextCatalyst": 67
       },
       "trialStats": {
         "completed": 3,
@@ -5084,7 +5084,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-11-13",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 33
+        "daysToNextCatalyst": 32
       },
       "trialStats": {
         "completed": 0,
@@ -5167,7 +5167,7 @@
         "upcomingCount": 6,
         "nextCatalystDate": "2027-06-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 247
+        "daysToNextCatalyst": 246
       },
       "trialStats": {
         "completed": 9,
@@ -5262,7 +5262,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-11-02",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 22
+        "daysToNextCatalyst": 21
       },
       "trialStats": {
         "completed": 24,
@@ -5363,7 +5363,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-10-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 4
+        "daysToNextCatalyst": 3
       },
       "trialStats": {
         "completed": 10,
@@ -5464,7 +5464,7 @@
         "upcomingCount": 12,
         "nextCatalystDate": "2026-10-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 4
+        "daysToNextCatalyst": 3
       },
       "trialStats": {
         "completed": 0,
@@ -5559,7 +5559,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-11-13",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 33
+        "daysToNextCatalyst": 32
       },
       "trialStats": {
         "completed": 3,
@@ -5648,7 +5648,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2027-09-30",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 354
+        "daysToNextCatalyst": 353
       },
       "trialStats": {
         "completed": 35,
@@ -5749,7 +5749,7 @@
         "upcomingCount": 6,
         "nextCatalystDate": "2027-05-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 216
+        "daysToNextCatalyst": 215
       },
       "trialStats": {
         "completed": 2,
@@ -5844,7 +5844,7 @@
         "upcomingCount": 6,
         "nextCatalystDate": "2026-10-13",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 2
+        "daysToNextCatalyst": 1
       },
       "trialStats": {
         "completed": 24,
@@ -5939,7 +5939,7 @@
         "upcomingCount": 8,
         "nextCatalystDate": "2026-10-29",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 18
+        "daysToNextCatalyst": 17
       },
       "trialStats": {
         "completed": 13,
@@ -6040,7 +6040,7 @@
         "upcomingCount": 8,
         "nextCatalystDate": "2027-01-22",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 103
+        "daysToNextCatalyst": 102
       },
       "trialStats": {
         "completed": 0,
@@ -6135,7 +6135,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-12-06",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 56
+        "daysToNextCatalyst": 55
       },
       "trialStats": {
         "completed": 2,
@@ -6236,7 +6236,7 @@
         "upcomingCount": 6,
         "nextCatalystDate": "2026-10-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 4
+        "daysToNextCatalyst": 3
       },
       "trialStats": {
         "completed": 27,
@@ -6285,10 +6285,10 @@
       "activeTrials": 5,
       "phase3": 3,
       "counts": {
-        "total": 75,
+        "total": 74,
         "curated": 0,
         "registry": 8,
-        "edgar": 67,
+        "edgar": 66,
         "upcoming": 4
       },
       "nextDate": "2027-08-15",
@@ -6337,7 +6337,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2027-08-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 308
+        "daysToNextCatalyst": 307
       },
       "trialStats": {
         "completed": 7,
@@ -6438,7 +6438,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-11-07",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 27
+        "daysToNextCatalyst": 26
       },
       "trialStats": {
         "completed": 28,
@@ -6533,7 +6533,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-11-01",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 21
+        "daysToNextCatalyst": 20
       },
       "trialStats": {
         "completed": 1,
@@ -6634,7 +6634,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-12-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 65
+        "daysToNextCatalyst": 64
       },
       "trialStats": {
         "completed": 1,
@@ -6723,7 +6723,7 @@
         "upcomingCount": 7,
         "nextCatalystDate": "2026-11-15",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 35
+        "daysToNextCatalyst": 34
       },
       "trialStats": {
         "completed": 4,
@@ -6818,7 +6818,7 @@
         "upcomingCount": 9,
         "nextCatalystDate": "2026-11-05",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 25
+        "daysToNextCatalyst": 24
       },
       "trialStats": {
         "completed": 3,
@@ -6919,7 +6919,7 @@
         "upcomingCount": 6,
         "nextCatalystDate": "2026-11-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 35
+        "daysToNextCatalyst": 34
       },
       "trialStats": {
         "completed": 12,
@@ -7014,7 +7014,7 @@
         "upcomingCount": 8,
         "nextCatalystDate": "2026-10-28",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 17
+        "daysToNextCatalyst": 16
       },
       "trialStats": {
         "completed": 7,
@@ -7115,7 +7115,7 @@
         "upcomingCount": 8,
         "nextCatalystDate": "2026-10-31",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 20
+        "daysToNextCatalyst": 19
       },
       "trialStats": {
         "completed": 0,
@@ -7216,7 +7216,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-12-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 65
+        "daysToNextCatalyst": 64
       },
       "trialStats": {
         "completed": 1,
@@ -7305,7 +7305,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-11-13",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 33
+        "daysToNextCatalyst": 32
       },
       "trialStats": {
         "completed": 3,
@@ -7406,7 +7406,7 @@
         "upcomingCount": 6,
         "nextCatalystDate": "2026-11-04",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 24
+        "daysToNextCatalyst": 23
       },
       "trialStats": {
         "completed": 4,
@@ -7501,7 +7501,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-10-28",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 17
+        "daysToNextCatalyst": 16
       },
       "trialStats": {
         "completed": 257,
@@ -7602,7 +7602,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-11-05",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 25
+        "daysToNextCatalyst": 24
       },
       "trialStats": {
         "completed": 6,
@@ -7691,7 +7691,7 @@
         "upcomingCount": 9,
         "nextCatalystDate": "2026-10-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 4
+        "daysToNextCatalyst": 3
       },
       "trialStats": {
         "completed": 5,
@@ -7780,7 +7780,7 @@
         "upcomingCount": 7,
         "nextCatalystDate": "2026-10-16",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 5
+        "daysToNextCatalyst": 4
       },
       "trialStats": {
         "completed": 12,
@@ -7881,7 +7881,7 @@
         "upcomingCount": 10,
         "nextCatalystDate": "2026-10-14",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 3
+        "daysToNextCatalyst": 2
       },
       "trialStats": {
         "completed": 23,
@@ -7982,7 +7982,7 @@
         "upcomingCount": 6,
         "nextCatalystDate": "2026-11-12",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 32
+        "daysToNextCatalyst": 31
       },
       "trialStats": {
         "completed": 1,
@@ -8077,7 +8077,7 @@
         "upcomingCount": 7,
         "nextCatalystDate": "2026-10-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 4
+        "daysToNextCatalyst": 3
       },
       "trialStats": {
         "completed": 17,
@@ -8172,7 +8172,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-11-01",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 21
+        "daysToNextCatalyst": 20
       },
       "trialStats": {
         "completed": 4,
@@ -8267,7 +8267,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-11-09",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 29
+        "daysToNextCatalyst": 28
       },
       "trialStats": {
         "completed": 5,
@@ -8362,7 +8362,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-10-15",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 4
+        "daysToNextCatalyst": 3
       },
       "trialStats": {
         "completed": 7,
@@ -8457,7 +8457,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-11-13",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 33
+        "daysToNextCatalyst": 32
       },
       "trialStats": {
         "completed": 4,
@@ -8552,7 +8552,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-11-04",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 24
+        "daysToNextCatalyst": 23
       },
       "trialStats": {
         "completed": 9,
@@ -8653,7 +8653,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-11-14",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 34
+        "daysToNextCatalyst": 33
       },
       "trialStats": {
         "completed": 12,
@@ -8748,7 +8748,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2027-08-31",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 324
+        "daysToNextCatalyst": 323
       },
       "trialStats": {
         "completed": 14,
@@ -8837,7 +8837,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-11-04",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 24
+        "daysToNextCatalyst": 23
       },
       "trialStats": {
         "completed": 1,
@@ -8926,7 +8926,7 @@
         "upcomingCount": 5,
         "nextCatalystDate": "2026-10-31",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 20
+        "daysToNextCatalyst": 19
       },
       "trialStats": {
         "completed": 23,
@@ -9027,7 +9027,7 @@
         "upcomingCount": 5,
         "nextCatalystDate": "2026-10-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 4
+        "daysToNextCatalyst": 3
       },
       "trialStats": {
         "completed": 58,
@@ -9128,7 +9128,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-12-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 65
+        "daysToNextCatalyst": 64
       },
       "trialStats": {
         "completed": 0,
@@ -9217,7 +9217,7 @@
         "upcomingCount": 6,
         "nextCatalystDate": "2026-12-30",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 80
+        "daysToNextCatalyst": 79
       },
       "trialStats": {
         "completed": 47,
@@ -9318,7 +9318,7 @@
         "upcomingCount": 9,
         "nextCatalystDate": "2026-11-05",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 25
+        "daysToNextCatalyst": 24
       },
       "trialStats": {
         "completed": 24,
@@ -9413,7 +9413,7 @@
         "upcomingCount": 6,
         "nextCatalystDate": "2026-10-17",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 6
+        "daysToNextCatalyst": 5
       },
       "trialStats": {
         "completed": 7,
@@ -9514,7 +9514,7 @@
         "upcomingCount": 7,
         "nextCatalystDate": "2026-10-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 4
+        "daysToNextCatalyst": 3
       },
       "trialStats": {
         "completed": 3,
@@ -9615,7 +9615,7 @@
         "upcomingCount": 6,
         "nextCatalystDate": "2026-10-29",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 18
+        "daysToNextCatalyst": 17
       },
       "trialStats": {
         "completed": 0,
@@ -9698,7 +9698,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-10-31",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 20
+        "daysToNextCatalyst": 19
       },
       "trialStats": {
         "completed": 5,
@@ -9787,7 +9787,7 @@
         "upcomingCount": 5,
         "nextCatalystDate": "2026-12-16",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 66
+        "daysToNextCatalyst": 65
       },
       "trialStats": {
         "completed": 0,
@@ -9876,7 +9876,7 @@
         "upcomingCount": 5,
         "nextCatalystDate": "2026-11-10",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 30
+        "daysToNextCatalyst": 29
       },
       "trialStats": {
         "completed": 3,
@@ -9977,7 +9977,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-11-05",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 25
+        "daysToNextCatalyst": 24
       },
       "trialStats": {
         "completed": 20,
@@ -10078,7 +10078,7 @@
         "upcomingCount": 1,
         "nextCatalystDate": "2026-11-13",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 33
+        "daysToNextCatalyst": 32
       },
       "trialStats": {
         "completed": 4,
@@ -10173,7 +10173,7 @@
         "upcomingCount": 6,
         "nextCatalystDate": "2026-10-13",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 2
+        "daysToNextCatalyst": 1
       },
       "trialStats": {
         "completed": 39,
@@ -10268,7 +10268,7 @@
         "upcomingCount": 10,
         "nextCatalystDate": "2026-11-05",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 25
+        "daysToNextCatalyst": 24
       },
       "trialStats": {
         "completed": 10,
@@ -10369,7 +10369,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-10-28",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 17
+        "daysToNextCatalyst": 16
       },
       "trialStats": {
         "completed": 6,
@@ -10412,10 +10412,10 @@
       "activeTrials": 3,
       "phase3": 2,
       "counts": {
-        "total": 37,
+        "total": 36,
         "curated": 0,
         "registry": 6,
-        "edgar": 31,
+        "edgar": 30,
         "upcoming": 3
       },
       "nextDate": "2026-11-15",
@@ -10464,7 +10464,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-11-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 35
+        "daysToNextCatalyst": 34
       },
       "trialStats": {
         "completed": 1,
@@ -10559,7 +10559,7 @@
         "upcomingCount": 5,
         "nextCatalystDate": "2026-11-13",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 33
+        "daysToNextCatalyst": 32
       },
       "trialStats": {
         "completed": 9,
@@ -10660,7 +10660,7 @@
         "upcomingCount": 7,
         "nextCatalystDate": "2026-11-01",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 21
+        "daysToNextCatalyst": 20
       },
       "trialStats": {
         "completed": 3,
@@ -10761,7 +10761,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-11-12",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 32
+        "daysToNextCatalyst": 31
       },
       "trialStats": {
         "completed": 27,
@@ -10856,7 +10856,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-11-12",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 32
+        "daysToNextCatalyst": 31
       },
       "trialStats": {
         "completed": 2,
@@ -10951,7 +10951,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-11-10",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 30
+        "daysToNextCatalyst": 29
       },
       "trialStats": {
         "completed": 3,
@@ -11046,7 +11046,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-10-29",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 18
+        "daysToNextCatalyst": 17
       },
       "trialStats": {
         "completed": 1,
@@ -11147,7 +11147,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-11-04",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 24
+        "daysToNextCatalyst": 23
       },
       "trialStats": {
         "completed": 2,
@@ -11242,7 +11242,7 @@
         "upcomingCount": 5,
         "nextCatalystDate": "2026-11-05",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 25
+        "daysToNextCatalyst": 24
       },
       "trialStats": {
         "completed": 1,
@@ -11337,7 +11337,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-11-07",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 27
+        "daysToNextCatalyst": 26
       },
       "trialStats": {
         "completed": 14,
@@ -11432,7 +11432,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-10-30",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 19
+        "daysToNextCatalyst": 18
       },
       "trialStats": {
         "completed": 3,
@@ -11527,7 +11527,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-12-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 65
+        "daysToNextCatalyst": 64
       },
       "trialStats": {
         "completed": 8,
@@ -11622,7 +11622,7 @@
         "upcomingCount": 1,
         "nextCatalystDate": "2027-06-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 247
+        "daysToNextCatalyst": 246
       },
       "trialStats": {
         "completed": 6,
@@ -11723,7 +11723,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-11-08",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 28
+        "daysToNextCatalyst": 27
       },
       "trialStats": {
         "completed": 2,
@@ -11824,7 +11824,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-11-11",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 31
+        "daysToNextCatalyst": 30
       },
       "trialStats": {
         "completed": 1,
@@ -11919,7 +11919,7 @@
         "upcomingCount": 5,
         "nextCatalystDate": "2026-10-31",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 20
+        "daysToNextCatalyst": 19
       },
       "trialStats": {
         "completed": 13,
@@ -12008,7 +12008,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-11-21",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 41
+        "daysToNextCatalyst": 40
       },
       "trialStats": {
         "completed": 4,
@@ -12103,7 +12103,7 @@
         "upcomingCount": 1,
         "nextCatalystDate": "2029-02-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 858
+        "daysToNextCatalyst": 857
       },
       "trialStats": {
         "completed": 1,
@@ -12198,7 +12198,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-11-04",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 24
+        "daysToNextCatalyst": 23
       },
       "trialStats": {
         "completed": 2,
@@ -12293,7 +12293,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2027-06-30",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 262
+        "daysToNextCatalyst": 261
       },
       "trialStats": {
         "completed": 2,
@@ -12336,7 +12336,7 @@
         "edgar": 18,
         "upcoming": 5
       },
-      "nextDate": "2026-10-12",
+      "nextDate": "2026-10-31",
       "metrics": {
         "reportingCurrency": "USD",
         "taxonomy": "us-gaap",
@@ -12380,9 +12380,9 @@
         "phase2Count": 1,
         "leadPhase": 3,
         "upcomingCount": 5,
-        "nextCatalystDate": "2026-10-12",
-        "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 1
+        "nextCatalystDate": "2026-10-31",
+        "nextCatalystType": "Trial Milestone",
+        "daysToNextCatalyst": 19
       },
       "trialStats": {
         "completed": 1,
@@ -12477,7 +12477,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-12-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 65
+        "daysToNextCatalyst": 64
       },
       "trialStats": {
         "completed": 7,
@@ -12566,7 +12566,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2027-05-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 216
+        "daysToNextCatalyst": 215
       },
       "trialStats": {
         "completed": 1,
@@ -12655,7 +12655,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-10-13",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 2
+        "daysToNextCatalyst": 1
       },
       "trialStats": {
         "completed": 18,
@@ -12756,7 +12756,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2027-05-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 216
+        "daysToNextCatalyst": 215
       },
       "trialStats": {
         "completed": 0,
@@ -12851,7 +12851,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-10-19",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 8
+        "daysToNextCatalyst": 7
       },
       "trialStats": {
         "completed": 25,
@@ -12946,7 +12946,7 @@
         "upcomingCount": 1,
         "nextCatalystDate": "2026-11-05",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 25
+        "daysToNextCatalyst": 24
       },
       "trialStats": {
         "completed": 10,
@@ -13041,7 +13041,7 @@
         "upcomingCount": 1,
         "nextCatalystDate": "2026-10-22",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 11
+        "daysToNextCatalyst": 10
       },
       "trialStats": {
         "completed": 2,
@@ -13136,7 +13136,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-11-11",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 31
+        "daysToNextCatalyst": 30
       },
       "trialStats": {
         "completed": 0,
@@ -13225,7 +13225,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2027-06-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 247
+        "daysToNextCatalyst": 246
       },
       "trialStats": {
         "completed": 2,
@@ -13320,7 +13320,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-11-05",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 25
+        "daysToNextCatalyst": 24
       },
       "trialStats": {
         "completed": 12,
@@ -13421,7 +13421,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-12-17",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 67
+        "daysToNextCatalyst": 66
       },
       "trialStats": {
         "completed": 10,
@@ -13516,7 +13516,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-12-18",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 68
+        "daysToNextCatalyst": 67
       },
       "trialStats": {
         "completed": 4,
@@ -13559,10 +13559,10 @@
       "activeTrials": 2,
       "phase3": 2,
       "counts": {
-        "total": 76,
+        "total": 75,
         "curated": 0,
         "registry": 3,
-        "edgar": 73,
+        "edgar": 72,
         "upcoming": 2
       },
       "nextDate": "2027-07-15",
@@ -13611,7 +13611,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2027-07-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 277
+        "daysToNextCatalyst": 276
       },
       "trialStats": {
         "completed": 12,
@@ -13648,10 +13648,10 @@
       "activeTrials": 2,
       "phase3": 2,
       "counts": {
-        "total": 23,
+        "total": 22,
         "curated": 0,
         "registry": 4,
-        "edgar": 19,
+        "edgar": 18,
         "upcoming": 1
       },
       "nextDate": "2026-11-12",
@@ -13700,7 +13700,7 @@
         "upcomingCount": 1,
         "nextCatalystDate": "2026-11-12",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 32
+        "daysToNextCatalyst": 31
       },
       "trialStats": {
         "completed": 5,
@@ -13795,7 +13795,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-11-01",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 21
+        "daysToNextCatalyst": 20
       },
       "trialStats": {
         "completed": 4,
@@ -13890,7 +13890,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-10-14",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 3
+        "daysToNextCatalyst": 2
       },
       "trialStats": {
         "completed": 3,
@@ -13985,7 +13985,7 @@
         "upcomingCount": 6,
         "nextCatalystDate": "2026-11-04",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 24
+        "daysToNextCatalyst": 23
       },
       "trialStats": {
         "completed": 43,
@@ -14086,7 +14086,7 @@
         "upcomingCount": 5,
         "nextCatalystDate": "2026-11-16",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 36
+        "daysToNextCatalyst": 35
       },
       "trialStats": {
         "completed": 2,
@@ -14175,7 +14175,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-11-10",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 30
+        "daysToNextCatalyst": 29
       },
       "trialStats": {
         "completed": 7,
@@ -14270,7 +14270,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-12-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 65
+        "daysToNextCatalyst": 64
       },
       "trialStats": {
         "completed": 17,
@@ -14365,7 +14365,7 @@
         "upcomingCount": 5,
         "nextCatalystDate": "2026-10-22",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 11
+        "daysToNextCatalyst": 10
       },
       "trialStats": {
         "completed": 2,
@@ -14454,7 +14454,7 @@
         "upcomingCount": 5,
         "nextCatalystDate": "2026-10-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 4
+        "daysToNextCatalyst": 3
       },
       "trialStats": {
         "completed": 1,
@@ -14555,7 +14555,7 @@
         "upcomingCount": 5,
         "nextCatalystDate": "2027-01-09",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 90
+        "daysToNextCatalyst": 89
       },
       "trialStats": {
         "completed": 3,
@@ -14650,7 +14650,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-10-21",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 10
+        "daysToNextCatalyst": 9
       },
       "trialStats": {
         "completed": 9,
@@ -14745,7 +14745,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-11-06",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 26
+        "daysToNextCatalyst": 25
       },
       "trialStats": {
         "completed": 0,
@@ -14846,7 +14846,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-11-10",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 30
+        "daysToNextCatalyst": 29
       },
       "trialStats": {
         "completed": 1,
@@ -14935,7 +14935,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-11-01",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 21
+        "daysToNextCatalyst": 20
       },
       "trialStats": {
         "completed": 4,
@@ -15036,7 +15036,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-11-12",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 32
+        "daysToNextCatalyst": 31
       },
       "trialStats": {
         "completed": 6,
@@ -15137,7 +15137,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-11-05",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 25
+        "daysToNextCatalyst": 24
       },
       "trialStats": {
         "completed": 6,
@@ -15238,7 +15238,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-10-15",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 4
+        "daysToNextCatalyst": 3
       },
       "trialStats": {
         "completed": 0,
@@ -15321,7 +15321,7 @@
         "upcomingCount": 6,
         "nextCatalystDate": "2026-11-05",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 25
+        "daysToNextCatalyst": 24
       },
       "trialStats": {
         "completed": 12,
@@ -15410,7 +15410,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-10-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 4
+        "daysToNextCatalyst": 3
       },
       "trialStats": {
         "completed": 11,
@@ -15465,7 +15465,7 @@
         "edgar": 23,
         "upcoming": 4
       },
-      "nextDate": "2026-10-12",
+      "nextDate": "2026-10-30",
       "metrics": {
         "reportingCurrency": "USD",
         "taxonomy": "us-gaap",
@@ -15509,9 +15509,9 @@
         "phase2Count": 3,
         "leadPhase": 3,
         "upcomingCount": 4,
-        "nextCatalystDate": "2026-10-12",
-        "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 1
+        "nextCatalystDate": "2026-10-30",
+        "nextCatalystType": "Trial Milestone",
+        "daysToNextCatalyst": 18
       },
       "trialStats": {
         "completed": 5,
@@ -15606,7 +15606,7 @@
         "upcomingCount": 5,
         "nextCatalystDate": "2026-10-15",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 4
+        "daysToNextCatalyst": 3
       },
       "trialStats": {
         "completed": 0,
@@ -15701,7 +15701,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-10-30",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 19
+        "daysToNextCatalyst": 18
       },
       "trialStats": {
         "completed": 1,
@@ -15790,7 +15790,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2028-01-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 461
+        "daysToNextCatalyst": 460
       },
       "trialStats": {
         "completed": 4,
@@ -15891,7 +15891,7 @@
         "upcomingCount": 1,
         "nextCatalystDate": "2028-12-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 796
+        "daysToNextCatalyst": 795
       },
       "trialStats": {
         "completed": 0,
@@ -16075,7 +16075,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2027-04-01",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 172
+        "daysToNextCatalyst": 171
       },
       "trialStats": {
         "completed": 2,
@@ -16170,7 +16170,7 @@
         "upcomingCount": 1,
         "nextCatalystDate": "2029-11-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 1131
+        "daysToNextCatalyst": 1130
       },
       "trialStats": {
         "completed": 5,
@@ -16265,7 +16265,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-11-05",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 25
+        "daysToNextCatalyst": 24
       },
       "trialStats": {
         "completed": 3,
@@ -16360,7 +16360,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-11-04",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 24
+        "daysToNextCatalyst": 23
       },
       "trialStats": {
         "completed": 4,
@@ -16455,7 +16455,7 @@
         "upcomingCount": 1,
         "nextCatalystDate": "2026-11-12",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 32
+        "daysToNextCatalyst": 31
       },
       "trialStats": {
         "completed": 6,
@@ -16556,7 +16556,7 @@
         "upcomingCount": 5,
         "nextCatalystDate": "2026-11-07",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 27
+        "daysToNextCatalyst": 26
       },
       "trialStats": {
         "completed": 1,
@@ -16651,7 +16651,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-11-06",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 26
+        "daysToNextCatalyst": 25
       },
       "trialStats": {
         "completed": 1,
@@ -16688,10 +16688,10 @@
       "activeTrials": 2,
       "phase3": 1,
       "counts": {
-        "total": 28,
+        "total": 27,
         "curated": 0,
         "registry": 11,
-        "edgar": 17,
+        "edgar": 16,
         "upcoming": 4
       },
       "nextDate": "2026-11-05",
@@ -16740,7 +16740,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-11-05",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 25
+        "daysToNextCatalyst": 24
       },
       "trialStats": {
         "completed": 6,
@@ -16835,7 +16835,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-11-09",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 29
+        "daysToNextCatalyst": 28
       },
       "trialStats": {
         "completed": 0,
@@ -16930,7 +16930,7 @@
         "upcomingCount": 1,
         "nextCatalystDate": "2026-12-30",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 80
+        "daysToNextCatalyst": 79
       },
       "trialStats": {
         "completed": 4,
@@ -17025,7 +17025,7 @@
         "upcomingCount": 7,
         "nextCatalystDate": "2026-10-20",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 9
+        "daysToNextCatalyst": 8
       },
       "trialStats": {
         "completed": 5,
@@ -17126,7 +17126,7 @@
         "upcomingCount": 6,
         "nextCatalystDate": "2026-10-26",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 15
+        "daysToNextCatalyst": 14
       },
       "trialStats": {
         "completed": 0,
@@ -17215,7 +17215,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-10-31",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 20
+        "daysToNextCatalyst": 19
       },
       "trialStats": {
         "completed": 8,
@@ -17310,7 +17310,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-11-11",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 31
+        "daysToNextCatalyst": 30
       },
       "trialStats": {
         "completed": 2,
@@ -17411,7 +17411,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-11-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 35
+        "daysToNextCatalyst": 34
       },
       "trialStats": {
         "completed": 73,
@@ -17512,7 +17512,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-11-11",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 31
+        "daysToNextCatalyst": 30
       },
       "trialStats": {
         "completed": 16,
@@ -17613,7 +17613,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-11-04",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 24
+        "daysToNextCatalyst": 23
       },
       "trialStats": {
         "completed": 1,
@@ -17702,7 +17702,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-12-18",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 68
+        "daysToNextCatalyst": 67
       },
       "trialStats": {
         "completed": 5,
@@ -17803,7 +17803,7 @@
         "upcomingCount": 5,
         "nextCatalystDate": "2026-10-23",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 12
+        "daysToNextCatalyst": 11
       },
       "trialStats": {
         "completed": 6,
@@ -17852,7 +17852,7 @@
         "edgar": 14,
         "upcoming": 3
       },
-      "nextDate": "2026-10-12",
+      "nextDate": "2026-12-27",
       "metrics": {
         "reportingCurrency": "USD",
         "taxonomy": "us-gaap",
@@ -17896,9 +17896,9 @@
         "phase2Count": 4,
         "leadPhase": 3,
         "upcomingCount": 3,
-        "nextCatalystDate": "2026-10-12",
+        "nextCatalystDate": "2026-12-27",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 1
+        "daysToNextCatalyst": 76
       },
       "trialStats": {
         "completed": 1,
@@ -17993,7 +17993,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-10-23",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 12
+        "daysToNextCatalyst": 11
       },
       "trialStats": {
         "completed": 1,
@@ -18088,7 +18088,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-11-13",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 33
+        "daysToNextCatalyst": 32
       },
       "trialStats": {
         "completed": 2,
@@ -18143,7 +18143,7 @@
         "edgar": 18,
         "upcoming": 3
       },
-      "nextDate": "2026-10-12",
+      "nextDate": "2026-12-12",
       "metrics": {
         "reportingCurrency": "USD",
         "taxonomy": "us-gaap",
@@ -18187,9 +18187,9 @@
         "phase2Count": 10,
         "leadPhase": 2,
         "upcomingCount": 3,
-        "nextCatalystDate": "2026-10-12",
+        "nextCatalystDate": "2026-12-12",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 1
+        "daysToNextCatalyst": 61
       },
       "trialStats": {
         "completed": 6,
@@ -18278,7 +18278,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-12-31",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 81
+        "daysToNextCatalyst": 80
       },
       "trialStats": {
         "completed": 14,
@@ -18373,7 +18373,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2027-07-31",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 293
+        "daysToNextCatalyst": 292
       },
       "trialStats": {
         "completed": 0,
@@ -18462,7 +18462,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-11-12",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 32
+        "daysToNextCatalyst": 31
       },
       "trialStats": {
         "completed": 28,
@@ -18563,7 +18563,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-12-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 65
+        "daysToNextCatalyst": 64
       },
       "trialStats": {
         "completed": 2,
@@ -18664,7 +18664,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-11-13",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 33
+        "daysToNextCatalyst": 32
       },
       "trialStats": {
         "completed": 6,
@@ -18759,7 +18759,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-11-08",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 28
+        "daysToNextCatalyst": 27
       },
       "trialStats": {
         "completed": 4,
@@ -18860,7 +18860,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-11-10",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 30
+        "daysToNextCatalyst": 29
       },
       "trialStats": {
         "completed": 1,
@@ -18949,7 +18949,7 @@
         "upcomingCount": 5,
         "nextCatalystDate": "2026-10-15",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 4
+        "daysToNextCatalyst": 3
       },
       "trialStats": {
         "completed": 1,
@@ -19044,7 +19044,7 @@
         "upcomingCount": 5,
         "nextCatalystDate": "2026-11-04",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 24
+        "daysToNextCatalyst": 23
       },
       "trialStats": {
         "completed": 1,
@@ -19139,7 +19139,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-11-13",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 33
+        "daysToNextCatalyst": 32
       },
       "trialStats": {
         "completed": 24,
@@ -19234,7 +19234,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-12-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 65
+        "daysToNextCatalyst": 64
       },
       "trialStats": {
         "completed": 0,
@@ -19317,7 +19317,7 @@
         "upcomingCount": 5,
         "nextCatalystDate": "2026-10-31",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 20
+        "daysToNextCatalyst": 19
       },
       "trialStats": {
         "completed": 3,
@@ -19406,7 +19406,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-11-05",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 25
+        "daysToNextCatalyst": 24
       },
       "trialStats": {
         "completed": 32,
@@ -19507,7 +19507,7 @@
         "upcomingCount": 1,
         "nextCatalystDate": "2026-10-17",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 6
+        "daysToNextCatalyst": 5
       },
       "trialStats": {
         "completed": 2,
@@ -19596,7 +19596,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2027-01-02",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 83
+        "daysToNextCatalyst": 82
       },
       "trialStats": {
         "completed": 8,
@@ -19691,7 +19691,7 @@
         "upcomingCount": 1,
         "nextCatalystDate": "2027-04-25",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 196
+        "daysToNextCatalyst": 195
       },
       "trialStats": {
         "completed": 10,
@@ -19780,7 +19780,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-11-11",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 31
+        "daysToNextCatalyst": 30
       },
       "trialStats": {
         "completed": 5,
@@ -19875,7 +19875,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-11-05",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 25
+        "daysToNextCatalyst": 24
       },
       "trialStats": {
         "completed": 1,
@@ -19964,7 +19964,7 @@
         "upcomingCount": 5,
         "nextCatalystDate": "2026-11-02",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 22
+        "daysToNextCatalyst": 21
       },
       "trialStats": {
         "completed": 2,
@@ -20059,7 +20059,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2027-07-30",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 292
+        "daysToNextCatalyst": 291
       },
       "trialStats": {
         "completed": 10,
@@ -20160,7 +20160,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-11-03",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 23
+        "daysToNextCatalyst": 22
       },
       "trialStats": {
         "completed": 16,
@@ -20261,7 +20261,7 @@
         "upcomingCount": 1,
         "nextCatalystDate": "2027-12-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 430
+        "daysToNextCatalyst": 429
       },
       "trialStats": {
         "completed": 2,
@@ -20350,7 +20350,7 @@
         "upcomingCount": 1,
         "nextCatalystDate": "2026-11-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 35
+        "daysToNextCatalyst": 34
       },
       "trialStats": {
         "completed": 5,
@@ -20451,7 +20451,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2027-04-30",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 201
+        "daysToNextCatalyst": 200
       },
       "trialStats": {
         "completed": 0,
@@ -20546,7 +20546,7 @@
         "upcomingCount": 1,
         "nextCatalystDate": "2026-12-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 65
+        "daysToNextCatalyst": 64
       },
       "trialStats": {
         "completed": 1,
@@ -20635,7 +20635,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-11-12",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 32
+        "daysToNextCatalyst": 31
       },
       "trialStats": {
         "completed": 2,
@@ -20730,7 +20730,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2027-12-31",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 446
+        "daysToNextCatalyst": 445
       },
       "trialStats": {
         "completed": 1,
@@ -20819,7 +20819,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-11-13",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 33
+        "daysToNextCatalyst": 32
       },
       "trialStats": {
         "completed": 1,
@@ -20908,7 +20908,7 @@
         "upcomingCount": 5,
         "nextCatalystDate": "2026-10-28",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 17
+        "daysToNextCatalyst": 16
       },
       "trialStats": {
         "completed": 2,
@@ -20939,10 +20939,10 @@
       "activeTrials": 1,
       "phase3": 1,
       "counts": {
-        "total": 60,
+        "total": 59,
         "curated": 0,
         "registry": 12,
-        "edgar": 48,
+        "edgar": 47,
         "upcoming": 0
       },
       "nextDate": null,
@@ -21092,7 +21092,7 @@
         "upcomingCount": 1,
         "nextCatalystDate": "2031-12-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 1891
+        "daysToNextCatalyst": 1890
       },
       "trialStats": {
         "completed": 0,
@@ -21175,7 +21175,7 @@
         "upcomingCount": 5,
         "nextCatalystDate": "2026-11-02",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 22
+        "daysToNextCatalyst": 21
       },
       "trialStats": {
         "completed": 0,
@@ -21264,7 +21264,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-10-31",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 20
+        "daysToNextCatalyst": 19
       },
       "trialStats": {
         "completed": 29,
@@ -21365,7 +21365,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-11-10",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 30
+        "daysToNextCatalyst": 29
       },
       "trialStats": {
         "completed": 6,
@@ -21460,7 +21460,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-10-15",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 4
+        "daysToNextCatalyst": 3
       },
       "trialStats": {
         "completed": 26,
@@ -21561,7 +21561,7 @@
         "upcomingCount": 1,
         "nextCatalystDate": "2027-07-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 277
+        "daysToNextCatalyst": 276
       },
       "trialStats": {
         "completed": 2,
@@ -21656,7 +21656,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-11-09",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 29
+        "daysToNextCatalyst": 28
       },
       "trialStats": {
         "completed": 6,
@@ -21751,7 +21751,7 @@
         "upcomingCount": 5,
         "nextCatalystDate": "2027-08-30",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 323
+        "daysToNextCatalyst": 322
       },
       "trialStats": {
         "completed": 0,
@@ -21846,7 +21846,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-10-13",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 2
+        "daysToNextCatalyst": 1
       },
       "trialStats": {
         "completed": 37,
@@ -22030,7 +22030,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-11-10",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 30
+        "daysToNextCatalyst": 29
       },
       "trialStats": {
         "completed": 5,
@@ -22131,7 +22131,7 @@
         "upcomingCount": 1,
         "nextCatalystDate": "2026-11-11",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 31
+        "daysToNextCatalyst": 30
       },
       "trialStats": {
         "completed": 5,
@@ -22220,7 +22220,7 @@
         "upcomingCount": 1,
         "nextCatalystDate": "2028-10-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 735
+        "daysToNextCatalyst": 734
       },
       "trialStats": {
         "completed": 0,
@@ -22303,7 +22303,7 @@
         "upcomingCount": 6,
         "nextCatalystDate": "2026-10-14",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 3
+        "daysToNextCatalyst": 2
       },
       "trialStats": {
         "completed": 7,
@@ -22493,7 +22493,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-10-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 4
+        "daysToNextCatalyst": 3
       },
       "trialStats": {
         "completed": 473,
@@ -22594,7 +22594,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-11-10",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 30
+        "daysToNextCatalyst": 29
       },
       "trialStats": {
         "completed": 0,
@@ -22677,7 +22677,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-12-03",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 53
+        "daysToNextCatalyst": 52
       },
       "trialStats": {
         "completed": 3,
@@ -22772,7 +22772,7 @@
         "upcomingCount": 1,
         "nextCatalystDate": "2027-05-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 216
+        "daysToNextCatalyst": 215
       },
       "trialStats": {
         "completed": 1,
@@ -22809,10 +22809,10 @@
       "activeTrials": 1,
       "phase3": 1,
       "counts": {
-        "total": 15,
+        "total": 14,
         "curated": 0,
         "registry": 2,
-        "edgar": 13,
+        "edgar": 12,
         "upcoming": 1
       },
       "nextDate": "2028-11-15",
@@ -22861,7 +22861,7 @@
         "upcomingCount": 1,
         "nextCatalystDate": "2028-11-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 766
+        "daysToNextCatalyst": 765
       },
       "trialStats": {
         "completed": 1,
@@ -22950,7 +22950,7 @@
         "upcomingCount": 1,
         "nextCatalystDate": "2026-12-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 65
+        "daysToNextCatalyst": 64
       },
       "trialStats": {
         "completed": 33,
@@ -23039,7 +23039,7 @@
         "upcomingCount": 1,
         "nextCatalystDate": "2026-11-11",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 31
+        "daysToNextCatalyst": 30
       },
       "trialStats": {
         "completed": 1,
@@ -23128,7 +23128,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-11-13",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 33
+        "daysToNextCatalyst": 32
       },
       "trialStats": {
         "completed": 5,
@@ -23223,7 +23223,7 @@
         "upcomingCount": 6,
         "nextCatalystDate": "2026-10-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 4
+        "daysToNextCatalyst": 3
       },
       "trialStats": {
         "completed": 5,
@@ -23324,7 +23324,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-11-04",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 24
+        "daysToNextCatalyst": 23
       },
       "trialStats": {
         "completed": 17,
@@ -23419,7 +23419,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2028-01-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 461
+        "daysToNextCatalyst": 460
       },
       "trialStats": {
         "completed": 2,
@@ -23514,7 +23514,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-10-29",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 18
+        "daysToNextCatalyst": 17
       },
       "trialStats": {
         "completed": 55,
@@ -23609,7 +23609,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-11-28",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 48
+        "daysToNextCatalyst": 47
       },
       "trialStats": {
         "completed": 8,
@@ -23710,7 +23710,7 @@
         "upcomingCount": 1,
         "nextCatalystDate": "2039-07-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 4660
+        "daysToNextCatalyst": 4659
       },
       "trialStats": {
         "completed": 96,
@@ -23842,10 +23842,10 @@
       "activeTrials": 1,
       "phase3": 1,
       "counts": {
-        "total": 38,
+        "total": 37,
         "curated": 0,
         "registry": 3,
-        "edgar": 35,
+        "edgar": 34,
         "upcoming": 2
       },
       "nextDate": "2026-11-11",
@@ -23894,7 +23894,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-11-11",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 31
+        "daysToNextCatalyst": 30
       },
       "trialStats": {
         "completed": 2,
@@ -23983,7 +23983,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-11-02",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 22
+        "daysToNextCatalyst": 21
       },
       "trialStats": {
         "completed": 2,
@@ -24072,7 +24072,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-10-14",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 3
+        "daysToNextCatalyst": 2
       },
       "trialStats": {
         "completed": 0,
@@ -24161,7 +24161,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-11-10",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 30
+        "daysToNextCatalyst": 29
       },
       "trialStats": {
         "completed": 27,
@@ -24256,7 +24256,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-10-19",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 8
+        "daysToNextCatalyst": 7
       },
       "trialStats": {
         "completed": 4,
@@ -24351,7 +24351,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-11-01",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 21
+        "daysToNextCatalyst": 20
       },
       "trialStats": {
         "completed": 8,
@@ -24440,7 +24440,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2027-06-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 247
+        "daysToNextCatalyst": 246
       },
       "trialStats": {
         "completed": 1,
@@ -24529,7 +24529,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-11-15",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 35
+        "daysToNextCatalyst": 34
       },
       "trialStats": {
         "completed": 4,
@@ -24618,7 +24618,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-11-13",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 33
+        "daysToNextCatalyst": 32
       },
       "trialStats": {
         "completed": 7,
@@ -24713,7 +24713,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-10-13",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 2
+        "daysToNextCatalyst": 1
       },
       "trialStats": {
         "completed": 4,
@@ -24796,7 +24796,7 @@
         "upcomingCount": 1,
         "nextCatalystDate": "2026-12-14",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 64
+        "daysToNextCatalyst": 63
       },
       "trialStats": {
         "completed": 2,
@@ -24968,7 +24968,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-11-18",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 38
+        "daysToNextCatalyst": 37
       },
       "trialStats": {
         "completed": 3,
@@ -25063,7 +25063,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-11-13",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 33
+        "daysToNextCatalyst": 32
       },
       "trialStats": {
         "completed": 3,
@@ -25158,7 +25158,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-10-22",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 11
+        "daysToNextCatalyst": 10
       },
       "trialStats": {
         "completed": 0,
@@ -25247,7 +25247,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-11-10",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 30
+        "daysToNextCatalyst": 29
       },
       "trialStats": {
         "completed": 4,
@@ -25284,10 +25284,10 @@
       "activeTrials": 1,
       "phase3": 1,
       "counts": {
-        "total": 86,
+        "total": 85,
         "curated": 0,
         "registry": 7,
-        "edgar": 79,
+        "edgar": 78,
         "upcoming": 2
       },
       "nextDate": "2026-11-13",
@@ -25336,7 +25336,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-11-13",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 33
+        "daysToNextCatalyst": 32
       },
       "trialStats": {
         "completed": 6,
@@ -25431,7 +25431,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-10-16",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 5
+        "daysToNextCatalyst": 4
       },
       "trialStats": {
         "completed": 2,
@@ -25526,7 +25526,7 @@
         "upcomingCount": 1,
         "nextCatalystDate": "2027-12-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 430
+        "daysToNextCatalyst": 429
       },
       "trialStats": {
         "completed": 1,
@@ -25615,7 +25615,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-11-04",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 24
+        "daysToNextCatalyst": 23
       },
       "trialStats": {
         "completed": 45,
@@ -25716,7 +25716,7 @@
         "upcomingCount": 1,
         "nextCatalystDate": "2029-07-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 1008
+        "daysToNextCatalyst": 1007
       },
       "trialStats": {
         "completed": 1,
@@ -25805,7 +25805,7 @@
         "upcomingCount": 1,
         "nextCatalystDate": "2026-11-05",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 25
+        "daysToNextCatalyst": 24
       },
       "trialStats": {
         "completed": 1,
@@ -25894,7 +25894,7 @@
         "upcomingCount": 6,
         "nextCatalystDate": "2026-11-13",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 33
+        "daysToNextCatalyst": 32
       },
       "trialStats": {
         "completed": 7,
@@ -25989,7 +25989,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-11-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 35
+        "daysToNextCatalyst": 34
       },
       "trialStats": {
         "completed": 2,
@@ -26084,7 +26084,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-10-14",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 3
+        "daysToNextCatalyst": 2
       },
       "trialStats": {
         "completed": 30,
@@ -26179,7 +26179,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-11-05",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 25
+        "daysToNextCatalyst": 24
       },
       "trialStats": {
         "completed": 15,
@@ -26280,7 +26280,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-10-30",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 19
+        "daysToNextCatalyst": 18
       },
       "trialStats": {
         "completed": 0,
@@ -26369,7 +26369,7 @@
         "upcomingCount": 1,
         "nextCatalystDate": "2027-08-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 308
+        "daysToNextCatalyst": 307
       },
       "trialStats": {
         "completed": 0,
@@ -26458,7 +26458,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-10-21",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 10
+        "daysToNextCatalyst": 9
       },
       "trialStats": {
         "completed": 0,
@@ -26541,7 +26541,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-10-26",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 15
+        "daysToNextCatalyst": 14
       },
       "trialStats": {
         "completed": 0,
@@ -26636,7 +26636,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-12-11",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 61
+        "daysToNextCatalyst": 60
       },
       "trialStats": {
         "completed": 11,
@@ -26737,7 +26737,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-11-10",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 30
+        "daysToNextCatalyst": 29
       },
       "trialStats": {
         "completed": 8,
@@ -26826,7 +26826,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-11-06",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 26
+        "daysToNextCatalyst": 25
       },
       "trialStats": {
         "completed": 2,
@@ -26909,7 +26909,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-11-03",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 23
+        "daysToNextCatalyst": 22
       },
       "trialStats": {
         "completed": 1,
@@ -27004,7 +27004,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-11-13",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 33
+        "daysToNextCatalyst": 32
       },
       "trialStats": {
         "completed": 0,
@@ -27093,7 +27093,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-11-08",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 28
+        "daysToNextCatalyst": 27
       },
       "trialStats": {
         "completed": 0,
@@ -27182,7 +27182,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-11-09",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 29
+        "daysToNextCatalyst": 28
       },
       "trialStats": {
         "completed": 1,
@@ -27271,7 +27271,7 @@
         "upcomingCount": 8,
         "nextCatalystDate": "2026-12-11",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 61
+        "daysToNextCatalyst": 60
       },
       "trialStats": {
         "completed": 16,
@@ -27360,7 +27360,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-12-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 65
+        "daysToNextCatalyst": 64
       },
       "trialStats": {
         "completed": 2,
@@ -27449,7 +27449,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2027-01-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 96
+        "daysToNextCatalyst": 95
       },
       "trialStats": {
         "completed": 5,
@@ -27538,7 +27538,7 @@
         "upcomingCount": 1,
         "nextCatalystDate": "2026-11-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 35
+        "daysToNextCatalyst": 34
       },
       "trialStats": {
         "completed": 1,
@@ -27627,7 +27627,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2027-01-20",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 101
+        "daysToNextCatalyst": 100
       },
       "trialStats": {
         "completed": 0,
@@ -27716,7 +27716,7 @@
         "upcomingCount": 3,
         "nextCatalystDate": "2026-11-05",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 25
+        "daysToNextCatalyst": 24
       },
       "trialStats": {
         "completed": 1,
@@ -27805,7 +27805,7 @@
         "upcomingCount": 8,
         "nextCatalystDate": "2026-11-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 35
+        "daysToNextCatalyst": 34
       },
       "trialStats": {
         "completed": 0,
@@ -27842,10 +27842,10 @@
       "activeTrials": 2,
       "phase3": 0,
       "counts": {
-        "total": 23,
+        "total": 22,
         "curated": 0,
         "registry": 4,
-        "edgar": 19,
+        "edgar": 18,
         "upcoming": 2
       },
       "nextDate": "2027-02-15",
@@ -27894,7 +27894,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2027-02-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 127
+        "daysToNextCatalyst": 126
       },
       "trialStats": {
         "completed": 2,
@@ -27983,7 +27983,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-10-22",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 11
+        "daysToNextCatalyst": 10
       },
       "trialStats": {
         "completed": 1,
@@ -28066,7 +28066,7 @@
         "upcomingCount": 5,
         "nextCatalystDate": "2026-11-11",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 31
+        "daysToNextCatalyst": 30
       },
       "trialStats": {
         "completed": 2,
@@ -28161,7 +28161,7 @@
         "upcomingCount": 1,
         "nextCatalystDate": "2026-11-05",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 25
+        "daysToNextCatalyst": 24
       },
       "trialStats": {
         "completed": 1,
@@ -28250,7 +28250,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2026-11-03",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 23
+        "daysToNextCatalyst": 22
       },
       "trialStats": {
         "completed": 0,
@@ -28339,7 +28339,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2027-03-01",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 141
+        "daysToNextCatalyst": 140
       },
       "trialStats": {
         "completed": 2,
@@ -28434,7 +28434,7 @@
         "upcomingCount": 2,
         "nextCatalystDate": "2027-12-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 430
+        "daysToNextCatalyst": 429
       },
       "trialStats": {
         "completed": 0,
@@ -28477,7 +28477,7 @@
         "edgar": 15,
         "upcoming": 4
       },
-      "nextDate": "2026-10-12",
+      "nextDate": "2026-12-20",
       "metrics": {
         "reportingCurrency": "USD",
         "taxonomy": "us-gaap",
@@ -28521,9 +28521,9 @@
         "phase2Count": 4,
         "leadPhase": 4,
         "upcomingCount": 4,
-        "nextCatalystDate": "2026-10-12",
+        "nextCatalystDate": "2026-12-20",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 1
+        "daysToNextCatalyst": 69
       },
       "trialStats": {
         "completed": 19,
@@ -28624,7 +28624,7 @@
         "upcomingCount": 4,
         "nextCatalystDate": "2026-10-22",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 11
+        "daysToNextCatalyst": 10
       },
       "trialStats": {
         "completed": 12,

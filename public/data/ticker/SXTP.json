@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-10-11",
+  "generatedDate": "2026-10-12",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-02-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 127
+    "daysToNextCatalyst": 126
   },
   "trialStats": {
     "completed": 2,
@@ -113,21 +113,6 @@
       "source": "ClinicalTrials.gov NCT04533347",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04533347",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-SXTP-0001213900-25-030102",
-      "ticker": "SXTP",
-      "date": "2025-04-09",
-      "title": "8-K filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 8.01. Other event. CURRENT REPORT.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-09",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1946563/000121390025030102/ea0237280-8k_60degrees.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

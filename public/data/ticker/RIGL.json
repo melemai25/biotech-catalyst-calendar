@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-10-11",
+  "generatedDate": "2026-10-12",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 4,
     "leadPhase": 4,
     "upcomingCount": 4,
-    "nextCatalystDate": "2026-10-12",
+    "nextCatalystDate": "2026-12-20",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 69
   },
   "trialStats": {
     "completed": 19,
@@ -415,7 +415,7 @@
     {
       "id": "edgar-RIGL-next-earnings",
       "ticker": "RIGL",
-      "date": "2026-10-12",
+      "date": "2026-12-20",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

@@ -11,7 +11,7 @@
   "activeTrials": 88,
   "phase3": 37,
   "phase2": 51,
-  "generatedDate": "2026-10-11",
+  "generatedDate": "2026-10-12",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -54,10 +54,10 @@
     "phase3Count": 61,
     "phase2Count": 83,
     "leadPhase": 4,
-    "upcomingCount": 78,
-    "nextCatalystDate": "2026-10-12",
+    "upcomingCount": 77,
+    "nextCatalystDate": "2026-11-02",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 21
   },
   "trialStats": {
     "completed": 165,
@@ -2105,7 +2105,7 @@
       "source": "ClinicalTrials.gov NCT05133531",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05133531",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-REGN-NCT06190951",

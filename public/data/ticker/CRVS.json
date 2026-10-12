@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-10-11",
+  "generatedDate": "2026-10-12",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-11-05",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 25
+    "daysToNextCatalyst": 24
   },
   "trialStats": {
     "completed": 6,
@@ -179,21 +179,6 @@
       "source": "ClinicalTrials.gov NCT03454451",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03454451",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-CRVS-0001171843-25-002110",
-      "ticker": "CRVS",
-      "date": "2025-04-09",
-      "title": "8-K filed: Leadership change",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.02. Leadership change. FORM 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-09",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1626971/000117184325002110/f8k_040825.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

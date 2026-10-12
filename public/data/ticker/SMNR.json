@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-11",
+  "generatedDate": "2026-10-12",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2028-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 766
+    "daysToNextCatalyst": 765
   },
   "trialStats": {
     "completed": 1,
@@ -98,21 +98,6 @@
       "source": "ClinicalTrials.gov NCT03613662",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03613662",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-SMNR-0001213900-25-030048",
-      "ticker": "SMNR",
-      "date": "2025-04-09",
-      "title": "8-K filed: Listing / standard notice",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 3.01. Listing / standard notice. CURRENT REPORT.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-09",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1913577/000121390025030048/ea0237665-8k425_denali.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

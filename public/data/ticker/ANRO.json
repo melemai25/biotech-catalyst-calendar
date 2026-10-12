@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 0,
   "phase2": 4,
-  "generatedDate": "2026-10-11",
+  "generatedDate": "2026-10-12",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 10,
     "leadPhase": 2,
     "upcomingCount": 3,
-    "nextCatalystDate": "2026-10-12",
+    "nextCatalystDate": "2026-12-12",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 61
   },
   "trialStats": {
     "completed": 6,
@@ -463,7 +463,7 @@
     {
       "id": "edgar-ANRO-next-earnings",
       "ticker": "ANRO",
-      "date": "2026-10-12",
+      "date": "2026-12-12",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

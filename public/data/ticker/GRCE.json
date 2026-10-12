@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-10-11",
+  "generatedDate": "2026-10-12",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2026-11-12",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 32
+    "daysToNextCatalyst": 31
   },
   "trialStats": {
     "completed": 5,
@@ -149,21 +149,6 @@
       "source": "ClinicalTrials.gov NCT05995405",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05995405",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-GRCE-0001140361-25-012944",
-      "ticker": "GRCE",
-      "date": "2025-04-09",
-      "title": "8-K filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-09",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1444192/000114036125012944/ef20047157_8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

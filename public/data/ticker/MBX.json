@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-10-11",
+  "generatedDate": "2026-10-12",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 3,
     "leadPhase": 3,
     "upcomingCount": 4,
-    "nextCatalystDate": "2026-10-12",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "nextCatalystDate": "2026-10-30",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 18
   },
   "trialStats": {
     "completed": 5,
@@ -497,21 +497,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-MBX-next-earnings",
-      "ticker": "MBX",
-      "date": "2026-10-12",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001776111&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-MBX-NCT07142707",
       "ticker": "MBX",
       "date": "2026-10-30",
@@ -524,6 +509,21 @@
       "source": "ClinicalTrials.gov NCT07142707",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07142707",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-MBX-next-earnings",
+      "ticker": "MBX",
+      "date": "2026-12-18",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001776111&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {
