@@ -67,11 +67,11 @@
     "ongoing": 6,
     "withResults": 3,
     "byPhase": {
-      "other": {
-        "completed": 0,
-        "terminated": 2,
-        "total": 2,
-        "completionRatePct": null
+      "phase1": {
+        "completed": 6,
+        "terminated": 8,
+        "total": 19,
+        "completionRatePct": 43
       },
       "phase2": {
         "completed": 1,
@@ -79,11 +79,11 @@
         "total": 4,
         "completionRatePct": null
       },
-      "phase1": {
-        "completed": 6,
-        "terminated": 8,
-        "total": 19,
-        "completionRatePct": 43
+      "other": {
+        "completed": 0,
+        "terminated": 2,
+        "total": 2,
+        "completionRatePct": null
       }
     },
     "concluded": 19,
@@ -182,21 +182,6 @@
       "status": "past"
     },
     {
-      "id": "ct-FATE-NCT05395052",
-      "ticker": "FATE",
-      "date": "2023-08-11",
-      "title": "FT536 Monotherapy and in Combination With Monoclonal Antibodies in Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Non Small Cell Lung Cancer, Colorectal Cancer, Breast Cancer · 5 participants · Status: Terminated",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05395052",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05395052",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-FATE-NCT05069935",
       "ticker": "FATE",
       "date": "2023-08-11",
@@ -223,6 +208,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04551885",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04551885",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-FATE-NCT05395052",
+      "ticker": "FATE",
+      "date": "2023-08-11",
+      "title": "FT536 Monotherapy and in Combination With Monoclonal Antibodies in Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Non Small Cell Lung Cancer, Colorectal Cancer, Breast Cancer · 5 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05395052",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05395052",
       "origin": "registry",
       "status": "past"
     },

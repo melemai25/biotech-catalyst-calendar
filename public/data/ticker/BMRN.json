@@ -67,17 +67,17 @@
     "ongoing": 31,
     "withResults": 46,
     "byPhase": {
-      "other": {
-        "completed": 16,
-        "terminated": 5,
-        "total": 35,
-        "completionRatePct": 76
-      },
       "phase2": {
         "completed": 22,
         "terminated": 11,
         "total": 43,
         "completionRatePct": 67
+      },
+      "other": {
+        "completed": 16,
+        "terminated": 5,
+        "total": 35,
+        "completionRatePct": 76
       },
       "phase3": {
         "completed": 19,
@@ -938,21 +938,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BMRN-NCT04554940",
-      "ticker": "BMRN",
-      "date": "2027-12-15",
-      "title": "A Clinical Trial to Evaluate Safety of Vosoritide in At-risk Infants With Achondroplasia",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Achondroplasia · 20 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04554940",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04554940",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BMRN-NCT02724228",
       "ticker": "BMRN",
       "date": "2027-12-15",
@@ -979,6 +964,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04480567",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04480567",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BMRN-NCT04554940",
+      "ticker": "BMRN",
+      "date": "2027-12-15",
+      "title": "A Clinical Trial to Evaluate Safety of Vosoritide in At-risk Infants With Achondroplasia",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Achondroplasia · 20 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04554940",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04554940",
       "origin": "registry",
       "status": "upcoming"
     },

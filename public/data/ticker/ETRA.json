@@ -55,9 +55,9 @@
     "phase2Count": 1,
     "leadPhase": 3,
     "upcomingCount": 2,
-    "nextCatalystDate": "2027-06-15",
+    "nextCatalystDate": "2028-03-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 245
+    "daysToNextCatalyst": 519
   },
   "trialStats": {
     "completed": 1,
@@ -118,7 +118,7 @@
     {
       "id": "ct-ETRA-NCT05416307",
       "ticker": "ETRA",
-      "date": "2027-06-15",
+      "date": "2028-03-15",
       "title": "Open-label Study of ELA026 in Participants With Secondary Hemophagocytic Lymphohistiocytosis (sHLH)",
       "type": "Trial Milestone",
       "phase": "Phase 2/Phase 3",

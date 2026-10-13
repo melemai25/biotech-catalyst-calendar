@@ -73,17 +73,17 @@
         "total": 4,
         "completionRatePct": null
       },
-      "phase3": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 9,
         "terminated": 0,
         "total": 12,
         "completionRatePct": 100
+      },
+      "phase3": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 2,
+        "completionRatePct": null
       },
       "other": {
         "completed": 1,
@@ -593,21 +593,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-DNLI-NCT06181136",
-      "ticker": "DNLI",
-      "date": "2028-08-15",
-      "title": "Study of DNL126 in Pediatric Participants With Mucopolysaccharidosis Type IIIA (Sanfilippo Syndrome Type A)",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Mucopolysaccharidosis Type IIIA · 20 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06181136",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06181136",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-DNLI-NCT07354724",
       "ticker": "DNLI",
       "date": "2028-08-15",
@@ -619,6 +604,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07354724",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07354724",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-DNLI-NCT06181136",
+      "ticker": "DNLI",
+      "date": "2028-08-15",
+      "title": "Study of DNL126 in Pediatric Participants With Mucopolysaccharidosis Type IIIA (Sanfilippo Syndrome Type A)",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Mucopolysaccharidosis Type IIIA · 20 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06181136",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06181136",
       "origin": "registry",
       "status": "upcoming"
     },

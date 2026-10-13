@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-13T06:42:57.735Z",
+  "generatedAt": "2026-10-13T18:17:50.476Z",
   "generatedDate": "2026-10-13",
   "tickerCount": 301,
-  "totalEvents": 13000,
+  "totalEvents": 13028,
   "tickers": {
     "AZN": {
       "name": "ASTRAZENECA PLC",
@@ -12,13 +12,13 @@
       "activeTrials": 318,
       "phase3": 191,
       "counts": {
-        "total": 297,
+        "total": 296,
         "curated": 0,
-        "registry": 133,
+        "registry": 132,
         "edgar": 164,
-        "upcoming": 20
+        "upcoming": 36
       },
-      "nextDate": "2026-11-11",
+      "nextDate": "2026-10-19",
       "metrics": {
         "reportingCurrency": "USD",
         "taxonomy": "ifrs-full",
@@ -57,51 +57,51 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "ASTRAZENECA PLC",
-        "activeTrials": 133,
-        "phase3Count": 46,
-        "phase2Count": 30,
+        "activeTrials": 132,
+        "phase3Count": 34,
+        "phase2Count": 40,
         "leadPhase": 4,
-        "upcomingCount": 20,
-        "nextCatalystDate": "2026-11-11",
+        "upcomingCount": 36,
+        "nextCatalystDate": "2026-10-19",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 29
+        "daysToNextCatalyst": 6
       },
       "trialStats": {
-        "completed": 347,
-        "terminated": 27,
-        "withdrawn": 7,
+        "completed": 342,
+        "terminated": 28,
+        "withdrawn": 8,
         "suspended": 2,
-        "ongoing": 56,
-        "withResults": 103,
+        "ongoing": 65,
+        "withResults": 125,
         "byPhase": {
-          "other": {
-            "completed": 126,
-            "terminated": 6,
-            "total": 154,
-            "completionRatePct": 95
-          },
           "phase1": {
-            "completed": 105,
-            "terminated": 11,
-            "total": 122,
-            "completionRatePct": 91
-          },
-          "phase2": {
-            "completed": 47,
-            "terminated": 6,
-            "total": 65,
+            "completed": 97,
+            "terminated": 12,
+            "total": 120,
             "completionRatePct": 89
           },
+          "other": {
+            "completed": 124,
+            "terminated": 5,
+            "total": 150,
+            "completionRatePct": 96
+          },
           "phase3": {
-            "completed": 69,
-            "terminated": 4,
-            "total": 98,
-            "completionRatePct": 95
+            "completed": 73,
+            "terminated": 6,
+            "total": 102,
+            "completionRatePct": 92
+          },
+          "phase2": {
+            "completed": 48,
+            "terminated": 5,
+            "total": 73,
+            "completionRatePct": 91
           }
         },
-        "concluded": 381,
-        "completionRatePct": 91,
-        "resultsPostedPct": 30
+        "concluded": 378,
+        "completionRatePct": 90,
+        "resultsPostedPct": 37
       },
       "error": null
     },
@@ -113,13 +113,13 @@
       "activeTrials": 199,
       "phase3": 111,
       "counts": {
-        "total": 116,
+        "total": 113,
         "curated": 0,
-        "registry": 106,
-        "edgar": 10,
+        "registry": 102,
+        "edgar": 11,
         "upcoming": 24
       },
-      "nextDate": "2026-10-22",
+      "nextDate": "2026-11-08",
       "metrics": {
         "reportingCurrency": "USD",
         "taxonomy": "us-gaap",
@@ -158,51 +158,51 @@
         "fcfMarginPct": 10.1,
         "marketCapUsd": null,
         "entityName": "Merck & Co., Inc.",
-        "activeTrials": 106,
-        "phase3Count": 49,
-        "phase2Count": 24,
+        "activeTrials": 102,
+        "phase3Count": 37,
+        "phase2Count": 29,
         "leadPhase": 4,
         "upcomingCount": 24,
-        "nextCatalystDate": "2026-10-22",
-        "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 9
+        "nextCatalystDate": "2026-11-08",
+        "nextCatalystType": "Earnings",
+        "daysToNextCatalyst": 26
       },
       "trialStats": {
-        "completed": 239,
-        "terminated": 37,
-        "withdrawn": 8,
+        "completed": 219,
+        "terminated": 41,
+        "withdrawn": 4,
         "suspended": 0,
-        "ongoing": 30,
-        "withResults": 191,
+        "ongoing": 26,
+        "withResults": 187,
         "byPhase": {
+          "phase3": {
+            "completed": 70,
+            "terminated": 9,
+            "total": 89,
+            "completionRatePct": 89
+          },
           "phase1": {
-            "completed": 64,
-            "terminated": 12,
-            "total": 79,
-            "completionRatePct": 84
+            "completed": 72,
+            "terminated": 11,
+            "total": 88,
+            "completionRatePct": 87
           },
           "phase2": {
-            "completed": 59,
-            "terminated": 14,
-            "total": 84,
-            "completionRatePct": 81
-          },
-          "phase3": {
-            "completed": 86,
-            "terminated": 10,
-            "total": 116,
-            "completionRatePct": 90
+            "completed": 50,
+            "terminated": 18,
+            "total": 81,
+            "completionRatePct": 74
           },
           "other": {
-            "completed": 30,
-            "terminated": 1,
-            "total": 35,
-            "completionRatePct": 97
+            "completed": 27,
+            "terminated": 3,
+            "total": 32,
+            "completionRatePct": 90
           }
         },
-        "concluded": 284,
-        "completionRatePct": 84,
-        "resultsPostedPct": 80
+        "concluded": 264,
+        "completionRatePct": 83,
+        "resultsPostedPct": 85
       },
       "error": null
     },
@@ -214,13 +214,13 @@
       "activeTrials": 188,
       "phase3": 92,
       "counts": {
-        "total": 202,
+        "total": 222,
         "curated": 0,
-        "registry": 181,
+        "registry": 201,
         "edgar": 21,
-        "upcoming": 40
+        "upcoming": 42
       },
-      "nextDate": "2026-10-15",
+      "nextDate": "2026-10-26",
       "metrics": {
         "reportingCurrency": "USD",
         "taxonomy": "ifrs-full",
@@ -259,51 +259,51 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Novartis AG",
-        "activeTrials": 181,
-        "phase3Count": 51,
-        "phase2Count": 71,
+        "activeTrials": 201,
+        "phase3Count": 69,
+        "phase2Count": 76,
         "leadPhase": 4,
-        "upcomingCount": 40,
-        "nextCatalystDate": "2026-10-15",
+        "upcomingCount": 42,
+        "nextCatalystDate": "2026-10-26",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 2
+        "daysToNextCatalyst": 13
       },
       "trialStats": {
-        "completed": 341,
-        "terminated": 55,
-        "withdrawn": 21,
+        "completed": 346,
+        "terminated": 62,
+        "withdrawn": 15,
         "suspended": 0,
-        "ongoing": 79,
-        "withResults": 218,
+        "ongoing": 82,
+        "withResults": 233,
         "byPhase": {
           "other": {
-            "completed": 87,
-            "terminated": 13,
-            "total": 134,
-            "completionRatePct": 87
-          },
-          "phase3": {
             "completed": 93,
-            "terminated": 12,
-            "total": 131,
-            "completionRatePct": 89
-          },
-          "phase1": {
-            "completed": 59,
-            "terminated": 9,
-            "total": 78,
-            "completionRatePct": 87
+            "terminated": 10,
+            "total": 139,
+            "completionRatePct": 90
           },
           "phase2": {
-            "completed": 102,
-            "terminated": 21,
-            "total": 153,
-            "completionRatePct": 83
+            "completed": 98,
+            "terminated": 27,
+            "total": 149,
+            "completionRatePct": 78
+          },
+          "phase3": {
+            "completed": 103,
+            "terminated": 16,
+            "total": 142,
+            "completionRatePct": 87
+          },
+          "phase1": {
+            "completed": 52,
+            "terminated": 9,
+            "total": 75,
+            "completionRatePct": 85
           }
         },
-        "concluded": 417,
+        "concluded": 423,
         "completionRatePct": 82,
-        "resultsPostedPct": 64
+        "resultsPostedPct": 67
       },
       "error": null
     },
@@ -315,11 +315,11 @@
       "activeTrials": 148,
       "phase3": 98,
       "counts": {
-        "total": 197,
+        "total": 206,
         "curated": 0,
-        "registry": 187,
+        "registry": 196,
         "edgar": 10,
-        "upcoming": 43
+        "upcoming": 40
       },
       "nextDate": "2026-10-15",
       "metrics": {
@@ -360,51 +360,51 @@
         "fcfMarginPct": 11.5,
         "marketCapUsd": null,
         "entityName": "ELI LILLY AND COMPANY",
-        "activeTrials": 187,
-        "phase3Count": 47,
-        "phase2Count": 23,
+        "activeTrials": 196,
+        "phase3Count": 54,
+        "phase2Count": 28,
         "leadPhase": 4,
-        "upcomingCount": 43,
+        "upcomingCount": 40,
         "nextCatalystDate": "2026-10-15",
         "nextCatalystType": "Trial Milestone",
         "daysToNextCatalyst": 2
       },
       "trialStats": {
-        "completed": 359,
+        "completed": 345,
         "terminated": 33,
         "withdrawn": 4,
         "suspended": 0,
-        "ongoing": 49,
-        "withResults": 247,
+        "ongoing": 51,
+        "withResults": 251,
         "byPhase": {
-          "phase3": {
-            "completed": 90,
-            "terminated": 7,
-            "total": 114,
-            "completionRatePct": 93
-          },
-          "phase1": {
-            "completed": 146,
-            "terminated": 14,
-            "total": 182,
-            "completionRatePct": 91
-          },
           "phase2": {
             "completed": 78,
-            "terminated": 11,
+            "terminated": 10,
             "total": 99,
-            "completionRatePct": 88
+            "completionRatePct": 89
+          },
+          "phase3": {
+            "completed": 92,
+            "terminated": 5,
+            "total": 120,
+            "completionRatePct": 95
+          },
+          "phase1": {
+            "completed": 140,
+            "terminated": 17,
+            "total": 170,
+            "completionRatePct": 89
           },
           "other": {
-            "completed": 45,
+            "completed": 35,
             "terminated": 1,
-            "total": 50,
-            "completionRatePct": 98
+            "total": 44,
+            "completionRatePct": 97
           }
         },
-        "concluded": 396,
-        "completionRatePct": 91,
-        "resultsPostedPct": 69
+        "concluded": 382,
+        "completionRatePct": 90,
+        "resultsPostedPct": 73
       },
       "error": null
     },
@@ -416,11 +416,11 @@
       "activeTrials": 145,
       "phase3": 98,
       "counts": {
-        "total": 104,
+        "total": 113,
         "curated": 0,
-        "registry": 91,
+        "registry": 100,
         "edgar": 13,
-        "upcoming": 16
+        "upcoming": 22
       },
       "nextDate": "2026-11-03",
       "metrics": {
@@ -461,51 +461,51 @@
         "fcfMarginPct": 4.4,
         "marketCapUsd": null,
         "entityName": "PFIZER INC",
-        "activeTrials": 91,
-        "phase3Count": 24,
-        "phase2Count": 20,
+        "activeTrials": 100,
+        "phase3Count": 22,
+        "phase2Count": 23,
         "leadPhase": 4,
-        "upcomingCount": 16,
+        "upcomingCount": 22,
         "nextCatalystDate": "2026-11-03",
         "nextCatalystType": "Earnings",
         "daysToNextCatalyst": 21
       },
       "trialStats": {
-        "completed": 350,
+        "completed": 325,
         "terminated": 49,
         "withdrawn": 10,
         "suspended": 0,
-        "ongoing": 29,
-        "withResults": 194,
+        "ongoing": 33,
+        "withResults": 187,
         "byPhase": {
-          "other": {
-            "completed": 106,
-            "terminated": 9,
-            "total": 131,
-            "completionRatePct": 92
-          },
           "phase1": {
-            "completed": 121,
-            "terminated": 11,
-            "total": 138,
-            "completionRatePct": 92
+            "completed": 124,
+            "terminated": 9,
+            "total": 143,
+            "completionRatePct": 93
           },
-          "phase2": {
-            "completed": 39,
-            "terminated": 14,
-            "total": 59,
-            "completionRatePct": 74
+          "other": {
+            "completed": 94,
+            "terminated": 13,
+            "total": 122,
+            "completionRatePct": 88
           },
           "phase3": {
-            "completed": 84,
-            "terminated": 15,
-            "total": 110,
-            "completionRatePct": 85
+            "completed": 65,
+            "terminated": 10,
+            "total": 85,
+            "completionRatePct": 87
+          },
+          "phase2": {
+            "completed": 42,
+            "terminated": 17,
+            "total": 67,
+            "completionRatePct": 71
           }
         },
-        "concluded": 409,
-        "completionRatePct": 86,
-        "resultsPostedPct": 55
+        "concluded": 384,
+        "completionRatePct": 85,
+        "resultsPostedPct": 58
       },
       "error": null
     },
@@ -517,9 +517,9 @@
       "activeTrials": 134,
       "phase3": 82,
       "counts": {
-        "total": 145,
+        "total": 132,
         "curated": 0,
-        "registry": 133,
+        "registry": 120,
         "edgar": 12,
         "upcoming": 23
       },
@@ -562,9 +562,9 @@
         "fcfMarginPct": 15.7,
         "marketCapUsd": null,
         "entityName": "BRISTOL-MYERS SQUIBB COMPANY",
-        "activeTrials": 133,
+        "activeTrials": 120,
         "phase3Count": 25,
-        "phase2Count": 44,
+        "phase2Count": 41,
         "leadPhase": 4,
         "upcomingCount": 23,
         "nextCatalystDate": "2026-10-19",
@@ -572,40 +572,40 @@
         "daysToNextCatalyst": 6
       },
       "trialStats": {
-        "completed": 244,
-        "terminated": 22,
-        "withdrawn": 13,
+        "completed": 242,
+        "terminated": 24,
+        "withdrawn": 16,
         "suspended": 0,
-        "ongoing": 47,
-        "withResults": 101,
+        "ongoing": 45,
+        "withResults": 100,
         "byPhase": {
-          "phase2": {
-            "completed": 58,
-            "terminated": 10,
-            "total": 76,
-            "completionRatePct": 85
-          },
           "other": {
-            "completed": 57,
+            "completed": 60,
             "terminated": 2,
-            "total": 83,
+            "total": 81,
             "completionRatePct": 97
           },
           "phase1": {
-            "completed": 95,
+            "completed": 87,
             "terminated": 7,
-            "total": 113,
+            "total": 105,
             "completionRatePct": 93
+          },
+          "phase2": {
+            "completed": 61,
+            "terminated": 14,
+            "total": 89,
+            "completionRatePct": 81
           },
           "phase3": {
             "completed": 34,
-            "terminated": 3,
-            "total": 54,
-            "completionRatePct": 92
+            "terminated": 1,
+            "total": 52,
+            "completionRatePct": 97
           }
         },
-        "concluded": 279,
-        "completionRatePct": 87,
+        "concluded": 282,
+        "completionRatePct": 86,
         "resultsPostedPct": 41
       },
       "error": null
@@ -618,13 +618,13 @@
       "activeTrials": 135,
       "phase3": 72,
       "counts": {
-        "total": 551,
+        "total": 553,
         "curated": 0,
         "registry": 80,
-        "edgar": 471,
-        "upcoming": 14
+        "edgar": 473,
+        "upcoming": 12
       },
-      "nextDate": "2026-12-14",
+      "nextDate": "2026-11-23",
       "metrics": {
         "reportingCurrency": "GBP",
         "taxonomy": "ifrs-full",
@@ -665,49 +665,49 @@
         "entityName": "GSK plc",
         "activeTrials": 80,
         "phase3Count": 23,
-        "phase2Count": 28,
+        "phase2Count": 26,
         "leadPhase": 4,
-        "upcomingCount": 14,
-        "nextCatalystDate": "2026-12-14",
+        "upcomingCount": 12,
+        "nextCatalystDate": "2026-11-23",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 62
+        "daysToNextCatalyst": 41
       },
       "trialStats": {
-        "completed": 384,
-        "terminated": 29,
-        "withdrawn": 11,
+        "completed": 388,
+        "terminated": 24,
+        "withdrawn": 17,
         "suspended": 0,
         "ongoing": 21,
-        "withResults": 220,
+        "withResults": 206,
         "byPhase": {
           "phase2": {
-            "completed": 82,
-            "terminated": 10,
-            "total": 101,
+            "completed": 75,
+            "terminated": 9,
+            "total": 96,
             "completionRatePct": 89
           },
-          "phase3": {
-            "completed": 102,
-            "terminated": 6,
-            "total": 120,
-            "completionRatePct": 94
+          "other": {
+            "completed": 88,
+            "terminated": 3,
+            "total": 99,
+            "completionRatePct": 97
           },
           "phase1": {
-            "completed": 95,
-            "terminated": 10,
-            "total": 111,
-            "completionRatePct": 90
+            "completed": 112,
+            "terminated": 6,
+            "total": 127,
+            "completionRatePct": 95
           },
-          "other": {
-            "completed": 105,
-            "terminated": 3,
-            "total": 113,
-            "completionRatePct": 97
+          "phase3": {
+            "completed": 113,
+            "terminated": 6,
+            "total": 128,
+            "completionRatePct": 95
           }
         },
-        "concluded": 424,
-        "completionRatePct": 91,
-        "resultsPostedPct": 57
+        "concluded": 429,
+        "completionRatePct": 90,
+        "resultsPostedPct": 53
       },
       "error": null
     },
@@ -719,13 +719,13 @@
       "activeTrials": 119,
       "phase3": 78,
       "counts": {
-        "total": 306,
+        "total": 308,
         "curated": 0,
-        "registry": 293,
-        "edgar": 13,
-        "upcoming": 46
+        "registry": 294,
+        "edgar": 14,
+        "upcoming": 61
       },
-      "nextDate": "2026-10-15",
+      "nextDate": "2026-11-19",
       "metrics": {
         "reportingCurrency": "USD",
         "taxonomy": "us-gaap",
@@ -764,51 +764,51 @@
         "fcfMarginPct": 10.4,
         "marketCapUsd": null,
         "entityName": "Johnson & Johnson",
-        "activeTrials": 293,
-        "phase3Count": 73,
-        "phase2Count": 82,
+        "activeTrials": 294,
+        "phase3Count": 79,
+        "phase2Count": 86,
         "leadPhase": 4,
-        "upcomingCount": 46,
-        "nextCatalystDate": "2026-10-15",
-        "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 2
+        "upcomingCount": 61,
+        "nextCatalystDate": "2026-11-19",
+        "nextCatalystType": "Trial Milestone",
+        "daysToNextCatalyst": 37
       },
       "trialStats": {
-        "completed": 365,
-        "terminated": 44,
-        "withdrawn": 15,
+        "completed": 344,
+        "terminated": 45,
+        "withdrawn": 19,
         "suspended": 0,
-        "ongoing": 87,
-        "withResults": 145,
+        "ongoing": 100,
+        "withResults": 146,
         "byPhase": {
-          "phase1": {
-            "completed": 194,
-            "terminated": 10,
-            "total": 228,
-            "completionRatePct": 95
-          },
           "phase2": {
-            "completed": 67,
-            "terminated": 20,
-            "total": 115,
-            "completionRatePct": 77
+            "completed": 70,
+            "terminated": 19,
+            "total": 122,
+            "completionRatePct": 79
           },
           "phase3": {
-            "completed": 62,
-            "terminated": 11,
-            "total": 107,
-            "completionRatePct": 85
+            "completed": 66,
+            "terminated": 13,
+            "total": 114,
+            "completionRatePct": 84
+          },
+          "phase1": {
+            "completed": 169,
+            "terminated": 12,
+            "total": 214,
+            "completionRatePct": 93
           },
           "other": {
-            "completed": 42,
-            "terminated": 3,
-            "total": 61,
-            "completionRatePct": 93
+            "completed": 39,
+            "terminated": 1,
+            "total": 58,
+            "completionRatePct": 98
           }
         },
-        "concluded": 424,
-        "completionRatePct": 86,
-        "resultsPostedPct": 40
+        "concluded": 408,
+        "completionRatePct": 84,
+        "resultsPostedPct": 42
       },
       "error": null
     },
@@ -820,11 +820,11 @@
       "activeTrials": 122,
       "phase3": 67,
       "counts": {
-        "total": 294,
+        "total": 282,
         "curated": 0,
-        "registry": 274,
+        "registry": 262,
         "edgar": 20,
-        "upcoming": 75
+        "upcoming": 56
       },
       "nextDate": "2026-10-15",
       "metrics": {
@@ -865,51 +865,51 @@
         "fcfMarginPct": 40.8,
         "marketCapUsd": null,
         "entityName": "AbbVie Inc.",
-        "activeTrials": 274,
-        "phase3Count": 107,
-        "phase2Count": 70,
+        "activeTrials": 262,
+        "phase3Count": 97,
+        "phase2Count": 76,
         "leadPhase": 4,
-        "upcomingCount": 75,
+        "upcomingCount": 56,
         "nextCatalystDate": "2026-10-15",
         "nextCatalystType": "Trial Milestone",
         "daysToNextCatalyst": 2
       },
       "trialStats": {
         "completed": 339,
-        "terminated": 41,
-        "withdrawn": 12,
-        "suspended": 0,
-        "ongoing": 107,
-        "withResults": 204,
+        "terminated": 38,
+        "withdrawn": 10,
+        "suspended": 1,
+        "ongoing": 89,
+        "withResults": 191,
         "byPhase": {
-          "other": {
-            "completed": 115,
-            "terminated": 11,
-            "total": 153,
-            "completionRatePct": 91
-          },
           "phase3": {
-            "completed": 99,
-            "terminated": 4,
-            "total": 134,
-            "completionRatePct": 96
-          },
-          "phase1": {
-            "completed": 66,
-            "terminated": 18,
-            "total": 112,
-            "completionRatePct": 79
+            "completed": 98,
+            "terminated": 6,
+            "total": 124,
+            "completionRatePct": 94
           },
           "phase2": {
-            "completed": 59,
-            "terminated": 8,
-            "total": 100,
-            "completionRatePct": 88
+            "completed": 71,
+            "terminated": 11,
+            "total": 106,
+            "completionRatePct": 87
+          },
+          "other": {
+            "completed": 99,
+            "terminated": 6,
+            "total": 138,
+            "completionRatePct": 94
+          },
+          "phase1": {
+            "completed": 71,
+            "terminated": 15,
+            "total": 109,
+            "completionRatePct": 83
           }
         },
-        "concluded": 392,
-        "completionRatePct": 86,
-        "resultsPostedPct": 60
+        "concluded": 387,
+        "completionRatePct": 88,
+        "resultsPostedPct": 56
       },
       "error": null
     },
@@ -921,13 +921,13 @@
       "activeTrials": 106,
       "phase3": 53,
       "counts": {
-        "total": 173,
+        "total": 193,
         "curated": 0,
-        "registry": 99,
+        "registry": 119,
         "edgar": 74,
-        "upcoming": 17
+        "upcoming": 23
       },
-      "nextDate": "2027-01-07",
+      "nextDate": "2026-11-03",
       "metrics": {
         "reportingCurrency": "EUR",
         "taxonomy": "ifrs-full",
@@ -966,51 +966,51 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Sanofi",
-        "activeTrials": 99,
-        "phase3Count": 37,
+        "activeTrials": 119,
+        "phase3Count": 45,
         "phase2Count": 33,
         "leadPhase": 4,
-        "upcomingCount": 17,
-        "nextCatalystDate": "2027-01-07",
+        "upcomingCount": 23,
+        "nextCatalystDate": "2026-11-03",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 86
+        "daysToNextCatalyst": 21
       },
       "trialStats": {
-        "completed": 292,
-        "terminated": 44,
-        "withdrawn": 7,
+        "completed": 336,
+        "terminated": 37,
+        "withdrawn": 4,
         "suspended": 0,
-        "ongoing": 37,
-        "withResults": 103,
+        "ongoing": 39,
+        "withResults": 115,
         "byPhase": {
-          "phase3": {
-            "completed": 96,
-            "terminated": 9,
-            "total": 119,
+          "phase1": {
+            "completed": 53,
+            "terminated": 5,
+            "total": 59,
             "completionRatePct": 91
-          },
-          "other": {
-            "completed": 74,
-            "terminated": 8,
-            "total": 97,
-            "completionRatePct": 90
           },
           "phase2": {
-            "completed": 72,
-            "terminated": 22,
-            "total": 107,
-            "completionRatePct": 77
+            "completed": 73,
+            "terminated": 15,
+            "total": 104,
+            "completionRatePct": 83
           },
-          "phase1": {
-            "completed": 50,
-            "terminated": 5,
-            "total": 57,
-            "completionRatePct": 91
+          "other": {
+            "completed": 90,
+            "terminated": 3,
+            "total": 109,
+            "completionRatePct": 97
+          },
+          "phase3": {
+            "completed": 120,
+            "terminated": 14,
+            "total": 144,
+            "completionRatePct": 90
           }
         },
-        "concluded": 343,
-        "completionRatePct": 85,
-        "resultsPostedPct": 35
+        "concluded": 377,
+        "completionRatePct": 89,
+        "resultsPostedPct": 34
       },
       "error": null
     },
@@ -1022,11 +1022,11 @@
       "activeTrials": 66,
       "phase3": 49,
       "counts": {
-        "total": 171,
+        "total": 163,
         "curated": 0,
-        "registry": 161,
+        "registry": 153,
         "edgar": 10,
-        "upcoming": 41
+        "upcoming": 38
       },
       "nextDate": "2026-10-31",
       "metrics": {
@@ -1067,51 +1067,51 @@
         "fcfMarginPct": 9.7,
         "marketCapUsd": null,
         "entityName": "Amgen Inc.",
-        "activeTrials": 161,
-        "phase3Count": 58,
-        "phase2Count": 28,
+        "activeTrials": 153,
+        "phase3Count": 49,
+        "phase2Count": 32,
         "leadPhase": 4,
-        "upcomingCount": 41,
+        "upcomingCount": 38,
         "nextCatalystDate": "2026-10-31",
         "nextCatalystType": "Trial Milestone",
         "daysToNextCatalyst": 18
       },
       "trialStats": {
-        "completed": 307,
-        "terminated": 40,
+        "completed": 284,
+        "terminated": 45,
         "withdrawn": 7,
-        "suspended": 0,
-        "ongoing": 52,
+        "suspended": 1,
+        "ongoing": 48,
         "withResults": 189,
         "byPhase": {
           "phase1": {
-            "completed": 75,
-            "terminated": 14,
-            "total": 100,
-            "completionRatePct": 84
-          },
-          "phase2": {
-            "completed": 89,
-            "terminated": 12,
-            "total": 117,
+            "completed": 81,
+            "terminated": 11,
+            "total": 106,
             "completionRatePct": 88
           },
+          "phase2": {
+            "completed": 76,
+            "terminated": 19,
+            "total": 111,
+            "completionRatePct": 80
+          },
           "phase3": {
-            "completed": 91,
-            "terminated": 9,
-            "total": 121,
-            "completionRatePct": 91
+            "completed": 73,
+            "terminated": 11,
+            "total": 103,
+            "completionRatePct": 87
           },
           "other": {
-            "completed": 52,
-            "terminated": 5,
-            "total": 68,
-            "completionRatePct": 91
+            "completed": 54,
+            "terminated": 4,
+            "total": 65,
+            "completionRatePct": 93
           }
         },
-        "concluded": 354,
-        "completionRatePct": 87,
-        "resultsPostedPct": 62
+        "concluded": 336,
+        "completionRatePct": 85,
+        "resultsPostedPct": 67
       },
       "error": null
     },
@@ -1123,11 +1123,11 @@
       "activeTrials": 88,
       "phase3": 37,
       "counts": {
-        "total": 211,
+        "total": 206,
         "curated": 0,
-        "registry": 198,
+        "registry": 193,
         "edgar": 13,
-        "upcoming": 77
+        "upcoming": 74
       },
       "nextDate": "2026-11-02",
       "metrics": {
@@ -1168,51 +1168,51 @@
         "fcfMarginPct": 27.6,
         "marketCapUsd": null,
         "entityName": "REGENERON PHARMACEUTICALS, INC.",
-        "activeTrials": 198,
-        "phase3Count": 61,
-        "phase2Count": 83,
+        "activeTrials": 193,
+        "phase3Count": 53,
+        "phase2Count": 84,
         "leadPhase": 4,
-        "upcomingCount": 77,
+        "upcomingCount": 74,
         "nextCatalystDate": "2026-11-02",
         "nextCatalystType": "Trial Milestone",
         "daysToNextCatalyst": 20
       },
       "trialStats": {
-        "completed": 165,
+        "completed": 163,
         "terminated": 33,
-        "withdrawn": 13,
+        "withdrawn": 12,
         "suspended": 0,
-        "ongoing": 106,
-        "withResults": 92,
+        "ongoing": 101,
+        "withResults": 90,
         "byPhase": {
           "phase1": {
             "completed": 68,
-            "terminated": 7,
-            "total": 89,
-            "completionRatePct": 91
+            "terminated": 8,
+            "total": 90,
+            "completionRatePct": 89
+          },
+          "phase2": {
+            "completed": 40,
+            "terminated": 16,
+            "total": 103,
+            "completionRatePct": 71
+          },
+          "phase3": {
+            "completed": 37,
+            "terminated": 6,
+            "total": 70,
+            "completionRatePct": 86
           },
           "other": {
             "completed": 18,
-            "terminated": 1,
-            "total": 47,
-            "completionRatePct": 95
-          },
-          "phase3": {
-            "completed": 42,
-            "terminated": 7,
-            "total": 80,
+            "terminated": 3,
+            "total": 46,
             "completionRatePct": 86
-          },
-          "phase2": {
-            "completed": 37,
-            "terminated": 18,
-            "total": 101,
-            "completionRatePct": 67
           }
         },
-        "concluded": 211,
+        "concluded": 208,
         "completionRatePct": 78,
-        "resultsPostedPct": 56
+        "resultsPostedPct": 55
       },
       "error": null
     },
@@ -1224,13 +1224,13 @@
       "activeTrials": 68,
       "phase3": 44,
       "counts": {
-        "total": 170,
+        "total": 166,
         "curated": 0,
-        "registry": 106,
+        "registry": 102,
         "edgar": 64,
-        "upcoming": 15
+        "upcoming": 16
       },
-      "nextDate": "2026-10-31",
+      "nextDate": "2026-11-30",
       "metrics": {
         "reportingCurrency": "JPY",
         "taxonomy": "ifrs-full",
@@ -1269,51 +1269,51 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Takeda Pharmaceutical Company Limited",
-        "activeTrials": 106,
-        "phase3Count": 40,
-        "phase2Count": 28,
+        "activeTrials": 102,
+        "phase3Count": 43,
+        "phase2Count": 29,
         "leadPhase": 4,
-        "upcomingCount": 15,
-        "nextCatalystDate": "2026-10-31",
+        "upcomingCount": 16,
+        "nextCatalystDate": "2026-11-30",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 18
+        "daysToNextCatalyst": 48
       },
       "trialStats": {
-        "completed": 236,
-        "terminated": 25,
-        "withdrawn": 10,
+        "completed": 248,
+        "terminated": 28,
+        "withdrawn": 15,
         "suspended": 0,
-        "ongoing": 35,
-        "withResults": 188,
+        "ongoing": 36,
+        "withResults": 177,
         "byPhase": {
-          "phase3": {
-            "completed": 71,
-            "terminated": 9,
-            "total": 92,
-            "completionRatePct": 89
+          "other": {
+            "completed": 88,
+            "terminated": 4,
+            "total": 119,
+            "completionRatePct": 96
           },
           "phase1": {
-            "completed": 45,
-            "terminated": 8,
-            "total": 54,
-            "completionRatePct": 85
-          },
-          "phase2": {
-            "completed": 37,
-            "terminated": 6,
-            "total": 53,
+            "completed": 43,
+            "terminated": 7,
+            "total": 52,
             "completionRatePct": 86
           },
-          "other": {
-            "completed": 83,
-            "terminated": 2,
-            "total": 107,
-            "completionRatePct": 98
+          "phase2": {
+            "completed": 38,
+            "terminated": 11,
+            "total": 58,
+            "completionRatePct": 78
+          },
+          "phase3": {
+            "completed": 79,
+            "terminated": 6,
+            "total": 98,
+            "completionRatePct": 93
           }
         },
-        "concluded": 271,
-        "completionRatePct": 87,
-        "resultsPostedPct": 80
+        "concluded": 291,
+        "completionRatePct": 85,
+        "resultsPostedPct": 71
       },
       "error": null
     },
@@ -1327,11 +1327,11 @@
       "counts": {
         "total": 247,
         "curated": 0,
-        "registry": 157,
-        "edgar": 90,
-        "upcoming": 27
+        "registry": 156,
+        "edgar": 91,
+        "upcoming": 40
       },
-      "nextDate": "2026-12-14",
+      "nextDate": "2026-12-09",
       "metrics": {
         "reportingCurrency": "DKK",
         "taxonomy": "ifrs-full",
@@ -1370,51 +1370,51 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "NOVO NORDISK A/S",
-        "activeTrials": 157,
-        "phase3Count": 56,
-        "phase2Count": 16,
+        "activeTrials": 156,
+        "phase3Count": 52,
+        "phase2Count": 14,
         "leadPhase": 4,
-        "upcomingCount": 27,
-        "nextCatalystDate": "2026-12-14",
+        "upcomingCount": 40,
+        "nextCatalystDate": "2026-12-09",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 62
+        "daysToNextCatalyst": 57
       },
       "trialStats": {
-        "completed": 415,
-        "terminated": 13,
-        "withdrawn": 9,
+        "completed": 396,
+        "terminated": 18,
+        "withdrawn": 8,
         "suspended": 0,
-        "ongoing": 41,
-        "withResults": 88,
+        "ongoing": 57,
+        "withResults": 92,
         "byPhase": {
-          "phase1": {
-            "completed": 158,
-            "terminated": 3,
-            "total": 177,
-            "completionRatePct": 98
-          },
           "phase3": {
-            "completed": 89,
-            "terminated": 5,
-            "total": 107,
-            "completionRatePct": 95
+            "completed": 95,
+            "terminated": 6,
+            "total": 122,
+            "completionRatePct": 94
           },
           "other": {
-            "completed": 138,
-            "terminated": 1,
-            "total": 156,
-            "completionRatePct": 99
+            "completed": 144,
+            "terminated": 4,
+            "total": 167,
+            "completionRatePct": 97
+          },
+          "phase1": {
+            "completed": 133,
+            "terminated": 6,
+            "total": 161,
+            "completionRatePct": 96
           },
           "phase2": {
-            "completed": 30,
-            "terminated": 4,
-            "total": 38,
-            "completionRatePct": 88
+            "completed": 24,
+            "terminated": 2,
+            "total": 29,
+            "completionRatePct": 92
           }
         },
-        "concluded": 437,
-        "completionRatePct": 95,
-        "resultsPostedPct": 21
+        "concluded": 422,
+        "completionRatePct": 94,
+        "resultsPostedPct": 23
       },
       "error": null
     },
@@ -1426,13 +1426,13 @@
       "activeTrials": 57,
       "phase3": 27,
       "counts": {
-        "total": 145,
+        "total": 146,
         "curated": 0,
-        "registry": 132,
+        "registry": 133,
         "edgar": 13,
-        "upcoming": 26
+        "upcoming": 21
       },
-      "nextDate": "2026-11-01",
+      "nextDate": "2026-10-15",
       "metrics": {
         "reportingCurrency": "USD",
         "taxonomy": "us-gaap",
@@ -1471,51 +1471,51 @@
         "fcfMarginPct": 26.4,
         "marketCapUsd": null,
         "entityName": "GILEAD SCIENCES, INC.",
-        "activeTrials": 132,
-        "phase3Count": 57,
-        "phase2Count": 54,
+        "activeTrials": 133,
+        "phase3Count": 48,
+        "phase2Count": 61,
         "leadPhase": 4,
-        "upcomingCount": 26,
-        "nextCatalystDate": "2026-11-01",
-        "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 19
+        "upcomingCount": 21,
+        "nextCatalystDate": "2026-10-15",
+        "nextCatalystType": "Trial Milestone",
+        "daysToNextCatalyst": 2
       },
       "trialStats": {
-        "completed": 234,
-        "terminated": 60,
-        "withdrawn": 8,
+        "completed": 229,
+        "terminated": 59,
+        "withdrawn": 9,
         "suspended": 0,
-        "ongoing": 38,
-        "withResults": 203,
+        "ongoing": 41,
+        "withResults": 192,
         "byPhase": {
-          "phase3": {
-            "completed": 80,
-            "terminated": 20,
-            "total": 115,
-            "completionRatePct": 80
-          },
-          "phase2": {
-            "completed": 76,
-            "terminated": 24,
-            "total": 115,
-            "completionRatePct": 76
+          "phase1": {
+            "completed": 38,
+            "terminated": 13,
+            "total": 62,
+            "completionRatePct": 75
           },
           "other": {
             "completed": 35,
-            "terminated": 6,
-            "total": 46,
+            "terminated": 7,
+            "total": 47,
+            "completionRatePct": 83
+          },
+          "phase3": {
+            "completed": 74,
+            "terminated": 13,
+            "total": 104,
             "completionRatePct": 85
           },
-          "phase1": {
-            "completed": 43,
-            "terminated": 10,
-            "total": 64,
-            "completionRatePct": 81
+          "phase2": {
+            "completed": 82,
+            "terminated": 26,
+            "total": 125,
+            "completionRatePct": 76
           }
         },
-        "concluded": 302,
+        "concluded": 297,
         "completionRatePct": 77,
-        "resultsPostedPct": 87
+        "resultsPostedPct": 84
       },
       "error": null
     },
@@ -1589,6 +1589,12 @@
         "ongoing": 69,
         "withResults": 126,
         "byPhase": {
+          "other": {
+            "completed": 4,
+            "terminated": 1,
+            "total": 18,
+            "completionRatePct": 80
+          },
           "phase2": {
             "completed": 67,
             "terminated": 42,
@@ -1606,12 +1612,6 @@
             "terminated": 9,
             "total": 62,
             "completionRatePct": 74
-          },
-          "other": {
-            "completed": 4,
-            "terminated": 1,
-            "total": 18,
-            "completionRatePct": 80
           }
         },
         "concluded": 219,
@@ -1696,17 +1696,17 @@
             "total": 33,
             "completionRatePct": 73
           },
-          "phase1": {
-            "completed": 13,
-            "terminated": 0,
-            "total": 19,
-            "completionRatePct": 100
-          },
           "phase2": {
             "completed": 9,
             "terminated": 3,
             "total": 25,
             "completionRatePct": 75
+          },
+          "phase1": {
+            "completed": 13,
+            "terminated": 0,
+            "total": 19,
+            "completionRatePct": 100
           },
           "other": {
             "completed": 1,
@@ -1892,16 +1892,16 @@
         "ongoing": 25,
         "withResults": 0,
         "byPhase": {
-          "phase3": {
-            "completed": 16,
-            "terminated": 0,
-            "total": 27,
-            "completionRatePct": 100
-          },
           "other": {
             "completed": 36,
             "terminated": 0,
             "total": 47,
+            "completionRatePct": 100
+          },
+          "phase3": {
+            "completed": 16,
+            "terminated": 0,
+            "total": 27,
             "completionRatePct": 100
           },
           "phase1": {
@@ -1931,11 +1931,11 @@
       "activeTrials": 18,
       "phase3": 14,
       "counts": {
-        "total": 164,
+        "total": 166,
         "curated": 0,
-        "registry": 148,
+        "registry": 150,
         "edgar": 16,
-        "upcoming": 19
+        "upcoming": 21
       },
       "nextDate": "2026-10-20",
       "metrics": {
@@ -1976,51 +1976,51 @@
         "fcfMarginPct": 17,
         "marketCapUsd": null,
         "entityName": "BIOGEN INC.",
-        "activeTrials": 148,
-        "phase3Count": 48,
-        "phase2Count": 32,
+        "activeTrials": 150,
+        "phase3Count": 49,
+        "phase2Count": 38,
         "leadPhase": 4,
-        "upcomingCount": 19,
+        "upcomingCount": 21,
         "nextCatalystDate": "2026-10-20",
         "nextCatalystType": "Trial Milestone",
         "daysToNextCatalyst": 7
       },
       "trialStats": {
-        "completed": 320,
-        "terminated": 80,
-        "withdrawn": 19,
+        "completed": 319,
+        "terminated": 83,
+        "withdrawn": 18,
         "suspended": 0,
-        "ongoing": 38,
-        "withResults": 107,
+        "ongoing": 36,
+        "withResults": 117,
         "byPhase": {
-          "phase3": {
-            "completed": 47,
-            "terminated": 21,
-            "total": 86,
-            "completionRatePct": 69
-          },
-          "phase1": {
-            "completed": 120,
-            "terminated": 17,
-            "total": 145,
-            "completionRatePct": 88
-          },
           "other": {
-            "completed": 94,
+            "completed": 93,
             "terminated": 18,
-            "total": 134,
+            "total": 130,
             "completionRatePct": 84
           },
+          "phase1": {
+            "completed": 119,
+            "terminated": 15,
+            "total": 142,
+            "completionRatePct": 89
+          },
+          "phase3": {
+            "completed": 45,
+            "terminated": 25,
+            "total": 87,
+            "completionRatePct": 64
+          },
           "phase2": {
-            "completed": 59,
-            "terminated": 24,
-            "total": 92,
+            "completed": 62,
+            "terminated": 25,
+            "total": 97,
             "completionRatePct": 71
           }
         },
-        "concluded": 419,
+        "concluded": 420,
         "completionRatePct": 76,
-        "resultsPostedPct": 33
+        "resultsPostedPct": 37
       },
       "error": null
     },
@@ -2094,18 +2094,6 @@
         "ongoing": 31,
         "withResults": 30,
         "byPhase": {
-          "phase1": {
-            "completed": 8,
-            "terminated": 0,
-            "total": 14,
-            "completionRatePct": 100
-          },
-          "other": {
-            "completed": 2,
-            "terminated": 0,
-            "total": 3,
-            "completionRatePct": null
-          },
           "phase3": {
             "completed": 13,
             "terminated": 0,
@@ -2117,6 +2105,18 @@
             "terminated": 6,
             "total": 36,
             "completionRatePct": 67
+          },
+          "phase1": {
+            "completed": 8,
+            "terminated": 0,
+            "total": 14,
+            "completionRatePct": 100
+          },
+          "other": {
+            "completed": 2,
+            "terminated": 0,
+            "total": 3,
+            "completionRatePct": null
           }
         },
         "concluded": 43,
@@ -2201,17 +2201,17 @@
             "total": 26,
             "completionRatePct": 96
           },
-          "phase3": {
-            "completed": 14,
-            "terminated": 0,
-            "total": 26,
-            "completionRatePct": 100
-          },
           "phase2": {
             "completed": 44,
             "terminated": 4,
             "total": 55,
             "completionRatePct": 92
+          },
+          "phase3": {
+            "completed": 14,
+            "terminated": 0,
+            "total": 26,
+            "completionRatePct": 100
           },
           "other": {
             "completed": 5,
@@ -2296,18 +2296,6 @@
         "ongoing": 19,
         "withResults": 40,
         "byPhase": {
-          "phase1": {
-            "completed": 19,
-            "terminated": 1,
-            "total": 21,
-            "completionRatePct": 95
-          },
-          "phase2": {
-            "completed": 24,
-            "terminated": 7,
-            "total": 36,
-            "completionRatePct": 77
-          },
           "other": {
             "completed": 5,
             "terminated": 0,
@@ -2319,6 +2307,18 @@
             "terminated": 2,
             "total": 22,
             "completionRatePct": 78
+          },
+          "phase1": {
+            "completed": 19,
+            "terminated": 1,
+            "total": 21,
+            "completionRatePct": 95
+          },
+          "phase2": {
+            "completed": 24,
+            "terminated": 7,
+            "total": 36,
+            "completionRatePct": 77
           }
         },
         "concluded": 67,
@@ -2397,11 +2397,11 @@
         "ongoing": 24,
         "withResults": 31,
         "byPhase": {
-          "phase1": {
-            "completed": 18,
-            "terminated": 0,
-            "total": 19,
-            "completionRatePct": 100
+          "phase2": {
+            "completed": 15,
+            "terminated": 2,
+            "total": 23,
+            "completionRatePct": 88
           },
           "phase3": {
             "completed": 17,
@@ -2409,11 +2409,11 @@
             "total": 32,
             "completionRatePct": 89
           },
-          "phase2": {
-            "completed": 15,
-            "terminated": 2,
-            "total": 23,
-            "completionRatePct": 88
+          "phase1": {
+            "completed": 18,
+            "terminated": 0,
+            "total": 19,
+            "completionRatePct": 100
           },
           "other": {
             "completed": 3,
@@ -2504,10 +2504,10 @@
             "total": 29,
             "completionRatePct": 93
           },
-          "phase2": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 5,
+          "other": {
+            "completed": 2,
+            "terminated": 1,
+            "total": 6,
             "completionRatePct": null
           },
           "phase3": {
@@ -2516,10 +2516,10 @@
             "total": 12,
             "completionRatePct": null
           },
-          "other": {
-            "completed": 2,
-            "terminated": 1,
-            "total": 6,
+          "phase2": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 5,
             "completionRatePct": null
           }
         },
@@ -2611,17 +2611,17 @@
             "total": 15,
             "completionRatePct": 80
           },
-          "other": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 2,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 4,
             "terminated": 2,
             "total": 8,
             "completionRatePct": 67
+          },
+          "other": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 2,
+            "completionRatePct": null
           }
         },
         "concluded": 33,
@@ -2700,17 +2700,17 @@
         "ongoing": 37,
         "withResults": 0,
         "byPhase": {
-          "phase2": {
-            "completed": 1,
-            "terminated": 3,
-            "total": 22,
-            "completionRatePct": 25
-          },
           "phase1": {
             "completed": 8,
             "terminated": 2,
             "total": 22,
             "completionRatePct": 80
+          },
+          "phase2": {
+            "completed": 1,
+            "terminated": 3,
+            "total": 22,
+            "completionRatePct": 25
           },
           "phase3": {
             "completed": 0,
@@ -2902,29 +2902,29 @@
         "ongoing": 35,
         "withResults": 111,
         "byPhase": {
-          "phase3": {
-            "completed": 56,
-            "terminated": 10,
-            "total": 74,
-            "completionRatePct": 85
-          },
           "phase2": {
             "completed": 40,
             "terminated": 12,
             "total": 67,
             "completionRatePct": 77
           },
-          "other": {
-            "completed": 17,
-            "terminated": 2,
-            "total": 36,
-            "completionRatePct": 89
-          },
           "phase1": {
             "completed": 19,
             "terminated": 4,
             "total": 29,
             "completionRatePct": 83
+          },
+          "phase3": {
+            "completed": 56,
+            "terminated": 10,
+            "total": 74,
+            "completionRatePct": 85
+          },
+          "other": {
+            "completed": 17,
+            "terminated": 2,
+            "total": 36,
+            "completionRatePct": 89
           }
         },
         "concluded": 171,
@@ -3003,6 +3003,12 @@
         "ongoing": 17,
         "withResults": 2,
         "byPhase": {
+          "phase1": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 5,
+            "completionRatePct": null
+          },
           "phase3": {
             "completed": 0,
             "terminated": 0,
@@ -3013,12 +3019,6 @@
             "completed": 2,
             "terminated": 0,
             "total": 7,
-            "completionRatePct": null
-          },
-          "phase1": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 5,
             "completionRatePct": null
           },
           "other": {
@@ -3104,17 +3104,17 @@
         "ongoing": 31,
         "withResults": 46,
         "byPhase": {
-          "other": {
-            "completed": 16,
-            "terminated": 5,
-            "total": 35,
-            "completionRatePct": 76
-          },
           "phase2": {
             "completed": 22,
             "terminated": 11,
             "total": 43,
             "completionRatePct": 67
+          },
+          "other": {
+            "completed": 16,
+            "terminated": 5,
+            "total": 35,
+            "completionRatePct": 76
           },
           "phase3": {
             "completed": 19,
@@ -3211,11 +3211,11 @@
             "total": 28,
             "completionRatePct": 94
           },
-          "phase1": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 1,
-            "completionRatePct": null
+          "phase2": {
+            "completed": 3,
+            "terminated": 1,
+            "total": 5,
+            "completionRatePct": 75
           },
           "other": {
             "completed": 1,
@@ -3223,11 +3223,11 @@
             "total": 3,
             "completionRatePct": null
           },
-          "phase2": {
-            "completed": 3,
-            "terminated": 1,
-            "total": 5,
-            "completionRatePct": 75
+          "phase1": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 1,
+            "completionRatePct": null
           }
         },
         "concluded": 22,
@@ -3407,18 +3407,6 @@
         "ongoing": 30,
         "withResults": 24,
         "byPhase": {
-          "phase2": {
-            "completed": 16,
-            "terminated": 5,
-            "total": 30,
-            "completionRatePct": 76
-          },
-          "phase1": {
-            "completed": 14,
-            "terminated": 3,
-            "total": 24,
-            "completionRatePct": 82
-          },
           "phase3": {
             "completed": 10,
             "terminated": 0,
@@ -3430,6 +3418,18 @@
             "terminated": 2,
             "total": 15,
             "completionRatePct": 60
+          },
+          "phase1": {
+            "completed": 14,
+            "terminated": 3,
+            "total": 24,
+            "completionRatePct": 82
+          },
+          "phase2": {
+            "completed": 16,
+            "terminated": 5,
+            "total": 30,
+            "completionRatePct": 76
           }
         },
         "concluded": 54,
@@ -3446,9 +3446,9 @@
       "activeTrials": 10,
       "phase3": 5,
       "counts": {
-        "total": 93,
+        "total": 94,
         "curated": 0,
-        "registry": 48,
+        "registry": 49,
         "edgar": 45,
         "upcoming": 9
       },
@@ -3491,21 +3491,21 @@
         "fcfMarginPct": -222.2,
         "marketCapUsd": null,
         "entityName": "INTELLIGENT BIO SOLUTIONS INC.",
-        "activeTrials": 48,
+        "activeTrials": 49,
         "phase3Count": 12,
         "phase2Count": 9,
-        "leadPhase": 3,
+        "leadPhase": 4,
         "upcomingCount": 9,
         "nextCatalystDate": "2026-11-12",
         "nextCatalystType": "Earnings",
         "daysToNextCatalyst": 30
       },
       "trialStats": {
-        "completed": 33,
+        "completed": 34,
         "terminated": 7,
         "withdrawn": 2,
         "suspended": 0,
-        "ongoing": 15,
+        "ongoing": 14,
         "withResults": 1,
         "byPhase": {
           "phase2": {
@@ -3520,20 +3520,20 @@
             "total": 33,
             "completionRatePct": 82
           },
+          "other": {
+            "completed": 2,
+            "terminated": 0,
+            "total": 2,
+            "completionRatePct": null
+          },
           "phase3": {
             "completed": 7,
             "terminated": 2,
             "total": 13,
             "completionRatePct": 78
-          },
-          "other": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 2,
-            "completionRatePct": null
           }
         },
-        "concluded": 42,
+        "concluded": 43,
         "completionRatePct": 79,
         "resultsPostedPct": 3
       },
@@ -3547,11 +3547,11 @@
       "activeTrials": 15,
       "phase3": 2,
       "counts": {
-        "total": 116,
+        "total": 117,
         "curated": 8,
-        "registry": 92,
+        "registry": 93,
         "edgar": 16,
-        "upcoming": 27
+        "upcoming": 28
       },
       "nextDate": "2026-10-16",
       "metrics": {
@@ -3592,11 +3592,11 @@
         "fcfMarginPct": -258.2,
         "marketCapUsd": null,
         "entityName": "Moderna, Inc.",
-        "activeTrials": 92,
+        "activeTrials": 93,
         "phase3Count": 23,
         "phase2Count": 42,
         "leadPhase": 4,
-        "upcomingCount": 27,
+        "upcomingCount": 28,
         "nextCatalystDate": "2026-10-16",
         "nextCatalystType": "Earnings",
         "daysToNextCatalyst": 3
@@ -3606,25 +3606,19 @@
         "terminated": 6,
         "withdrawn": 4,
         "suspended": 0,
-        "ongoing": 29,
+        "ongoing": 30,
         "withResults": 36,
         "byPhase": {
-          "phase2": {
-            "completed": 21,
-            "terminated": 3,
-            "total": 40,
-            "completionRatePct": 88
-          },
-          "phase1": {
-            "completed": 18,
-            "terminated": 1,
-            "total": 28,
-            "completionRatePct": 95
-          },
           "phase3": {
             "completed": 20,
             "terminated": 1,
             "total": 23,
+            "completionRatePct": 95
+          },
+          "phase1": {
+            "completed": 18,
+            "terminated": 1,
+            "total": 29,
             "completionRatePct": 95
           },
           "other": {
@@ -3632,6 +3626,12 @@
             "terminated": 1,
             "total": 24,
             "completionRatePct": 94
+          },
+          "phase2": {
+            "completed": 21,
+            "terminated": 3,
+            "total": 40,
+            "completionRatePct": 88
           }
         },
         "concluded": 86,
@@ -3648,10 +3648,10 @@
       "activeTrials": 9,
       "phase3": 5,
       "counts": {
-        "total": 42,
+        "total": 43,
         "curated": 0,
         "registry": 24,
-        "edgar": 18,
+        "edgar": 19,
         "upcoming": 9
       },
       "nextDate": "2026-10-14",
@@ -3710,29 +3710,29 @@
         "ongoing": 13,
         "withResults": 20,
         "byPhase": {
-          "phase2": {
-            "completed": 11,
-            "terminated": 2,
-            "total": 18,
-            "completionRatePct": 85
-          },
-          "other": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 5,
-            "completionRatePct": null
-          },
           "phase3": {
             "completed": 6,
             "terminated": 0,
             "total": 12,
             "completionRatePct": 100
           },
+          "phase2": {
+            "completed": 11,
+            "terminated": 2,
+            "total": 18,
+            "completionRatePct": 85
+          },
           "phase1": {
             "completed": 4,
             "terminated": 0,
             "total": 4,
             "completionRatePct": 100
+          },
+          "other": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 5,
+            "completionRatePct": null
           }
         },
         "concluded": 26,
@@ -3753,7 +3753,7 @@
         "curated": 0,
         "registry": 44,
         "edgar": 16,
-        "upcoming": 12
+        "upcoming": 13
       },
       "nextDate": "2026-11-01",
       "metrics": {
@@ -3798,7 +3798,7 @@
         "phase3Count": 8,
         "phase2Count": 26,
         "leadPhase": 3,
-        "upcomingCount": 12,
+        "upcomingCount": 13,
         "nextCatalystDate": "2026-11-01",
         "nextCatalystType": "Earnings",
         "daysToNextCatalyst": 19
@@ -3811,6 +3811,12 @@
         "ongoing": 13,
         "withResults": 21,
         "byPhase": {
+          "phase3": {
+            "completed": 4,
+            "terminated": 0,
+            "total": 8,
+            "completionRatePct": 100
+          },
           "phase1": {
             "completed": 8,
             "terminated": 2,
@@ -3822,12 +3828,6 @@
             "terminated": 9,
             "total": 28,
             "completionRatePct": 55
-          },
-          "phase3": {
-            "completed": 4,
-            "terminated": 0,
-            "total": 8,
-            "completionRatePct": 100
           },
           "other": {
             "completed": 0,
@@ -4013,10 +4013,10 @@
         "ongoing": 8,
         "withResults": 1,
         "byPhase": {
-          "phase3": {
-            "completed": 2,
+          "other": {
+            "completed": 1,
             "terminated": 0,
-            "total": 8,
+            "total": 1,
             "completionRatePct": null
           },
           "phase2": {
@@ -4031,10 +4031,10 @@
             "total": 1,
             "completionRatePct": null
           },
-          "other": {
-            "completed": 1,
+          "phase3": {
+            "completed": 2,
             "terminated": 0,
-            "total": 1,
+            "total": 8,
             "completionRatePct": null
           }
         },
@@ -4114,11 +4114,11 @@
         "ongoing": 10,
         "withResults": 0,
         "byPhase": {
-          "phase3": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 4,
-            "completionRatePct": null
+          "phase1": {
+            "completed": 4,
+            "terminated": 2,
+            "total": 7,
+            "completionRatePct": 67
           },
           "phase2": {
             "completed": 0,
@@ -4126,11 +4126,11 @@
             "total": 7,
             "completionRatePct": null
           },
-          "phase1": {
-            "completed": 4,
-            "terminated": 2,
-            "total": 7,
-            "completionRatePct": 67
+          "phase3": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 4,
+            "completionRatePct": null
           },
           "other": {
             "completed": 0,
@@ -4157,9 +4157,9 @@
         "curated": 0,
         "registry": 18,
         "edgar": 17,
-        "upcoming": 8
+        "upcoming": 9
       },
-      "nextDate": "2026-11-05",
+      "nextDate": "2026-10-15",
       "metrics": {
         "reportingCurrency": "USD",
         "taxonomy": "us-gaap",
@@ -4202,10 +4202,10 @@
         "phase3Count": 11,
         "phase2Count": 3,
         "leadPhase": 3,
-        "upcomingCount": 8,
-        "nextCatalystDate": "2026-11-05",
-        "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 23
+        "upcomingCount": 9,
+        "nextCatalystDate": "2026-10-15",
+        "nextCatalystType": "Trial Milestone",
+        "daysToNextCatalyst": 2
       },
       "trialStats": {
         "completed": 12,
@@ -4215,6 +4215,12 @@
         "ongoing": 9,
         "withResults": 7,
         "byPhase": {
+          "phase2": {
+            "completed": 6,
+            "terminated": 0,
+            "total": 7,
+            "completionRatePct": 100
+          },
           "phase3": {
             "completed": 1,
             "terminated": 2,
@@ -4225,12 +4231,6 @@
             "completed": 5,
             "terminated": 0,
             "total": 5,
-            "completionRatePct": 100
-          },
-          "phase2": {
-            "completed": 6,
-            "terminated": 0,
-            "total": 7,
             "completionRatePct": 100
           }
         },
@@ -4310,12 +4310,6 @@
         "ongoing": 5,
         "withResults": 3,
         "byPhase": {
-          "phase1": {
-            "completed": 2,
-            "terminated": 0,
-            "total": 2,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 2,
             "terminated": 1,
@@ -4326,6 +4320,12 @@
             "completed": 1,
             "terminated": 1,
             "total": 7,
+            "completionRatePct": null
+          },
+          "phase1": {
+            "completed": 2,
+            "terminated": 0,
+            "total": 2,
             "completionRatePct": null
           }
         },
@@ -4405,11 +4405,11 @@
         "ongoing": 12,
         "withResults": 11,
         "byPhase": {
-          "other": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 4,
-            "completionRatePct": null
+          "phase1": {
+            "completed": 7,
+            "terminated": 4,
+            "total": 12,
+            "completionRatePct": 64
           },
           "phase2": {
             "completed": 5,
@@ -4423,11 +4423,11 @@
             "total": 10,
             "completionRatePct": 50
           },
-          "phase1": {
-            "completed": 7,
-            "terminated": 4,
-            "total": 12,
-            "completionRatePct": 64
+          "other": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 4,
+            "completionRatePct": null
           }
         },
         "concluded": 28,
@@ -4506,12 +4506,6 @@
         "ongoing": 10,
         "withResults": 17,
         "byPhase": {
-          "phase3": {
-            "completed": 9,
-            "terminated": 0,
-            "total": 15,
-            "completionRatePct": 100
-          },
           "phase1": {
             "completed": 14,
             "terminated": 0,
@@ -4523,6 +4517,12 @@
             "terminated": 3,
             "total": 16,
             "completionRatePct": 81
+          },
+          "phase3": {
+            "completed": 9,
+            "terminated": 0,
+            "total": 15,
+            "completionRatePct": 100
           },
           "other": {
             "completed": 0,
@@ -4607,28 +4607,28 @@
         "ongoing": 10,
         "withResults": 0,
         "byPhase": {
-          "other": {
-            "completed": 0,
-            "terminated": 1,
-            "total": 1,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 0,
             "terminated": 0,
             "total": 6,
             "completionRatePct": null
           },
-          "phase3": {
+          "other": {
             "completed": 0,
-            "terminated": 0,
-            "total": 3,
+            "terminated": 1,
+            "total": 1,
             "completionRatePct": null
           },
           "phase1": {
             "completed": 0,
             "terminated": 0,
             "total": 1,
+            "completionRatePct": null
+          },
+          "phase3": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 3,
             "completionRatePct": null
           }
         },
@@ -4803,17 +4803,17 @@
         "ongoing": 9,
         "withResults": 20,
         "byPhase": {
+          "phase1": {
+            "completed": 3,
+            "terminated": 2,
+            "total": 5,
+            "completionRatePct": 60
+          },
           "phase2": {
             "completed": 6,
             "terminated": 8,
             "total": 25,
             "completionRatePct": 43
-          },
-          "other": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 1,
-            "completionRatePct": null
           },
           "phase3": {
             "completed": 3,
@@ -4821,11 +4821,11 @@
             "total": 6,
             "completionRatePct": null
           },
-          "phase1": {
-            "completed": 3,
-            "terminated": 2,
-            "total": 5,
-            "completionRatePct": 60
+          "other": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 1,
+            "completionRatePct": null
           }
         },
         "concluded": 28,
@@ -4842,10 +4842,10 @@
       "activeTrials": 6,
       "phase3": 4,
       "counts": {
-        "total": 25,
+        "total": 26,
         "curated": 0,
         "registry": 10,
-        "edgar": 15,
+        "edgar": 16,
         "upcoming": 2
       },
       "nextDate": "2030-06-15",
@@ -4910,16 +4910,16 @@
             "total": 4,
             "completionRatePct": 100
           },
-          "phase2": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 2,
-            "completionRatePct": null
-          },
           "phase3": {
             "completed": 0,
             "terminated": 0,
             "total": 4,
+            "completionRatePct": null
+          },
+          "phase2": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 2,
             "completionRatePct": null
           }
         },
@@ -4999,6 +4999,12 @@
         "ongoing": 5,
         "withResults": 2,
         "byPhase": {
+          "phase2": {
+            "completed": 2,
+            "terminated": 0,
+            "total": 3,
+            "completionRatePct": null
+          },
           "phase3": {
             "completed": 0,
             "terminated": 0,
@@ -5009,12 +5015,6 @@
             "completed": 1,
             "terminated": 0,
             "total": 1,
-            "completionRatePct": null
-          },
-          "phase2": {
-            "completed": 2,
-            "terminated": 0,
-            "total": 3,
             "completionRatePct": null
           }
         },
@@ -5272,22 +5272,16 @@
         "ongoing": 7,
         "withResults": 14,
         "byPhase": {
-          "phase2": {
-            "completed": 8,
-            "terminated": 0,
-            "total": 8,
-            "completionRatePct": 100
-          },
           "phase3": {
             "completed": 10,
             "terminated": 0,
             "total": 14,
             "completionRatePct": 100
           },
-          "phase1": {
-            "completed": 4,
+          "phase2": {
+            "completed": 8,
             "terminated": 0,
-            "total": 6,
+            "total": 8,
             "completionRatePct": 100
           },
           "other": {
@@ -5295,6 +5289,12 @@
             "terminated": 1,
             "total": 5,
             "completionRatePct": null
+          },
+          "phase1": {
+            "completed": 4,
+            "terminated": 0,
+            "total": 6,
+            "completionRatePct": 100
           }
         },
         "concluded": 26,
@@ -5373,17 +5373,17 @@
         "ongoing": 4,
         "withResults": 10,
         "byPhase": {
-          "other": {
-            "completed": 1,
-            "terminated": 1,
-            "total": 2,
-            "completionRatePct": null
-          },
           "phase3": {
             "completed": 3,
             "terminated": 1,
             "total": 10,
             "completionRatePct": 75
+          },
+          "other": {
+            "completed": 1,
+            "terminated": 1,
+            "total": 2,
+            "completionRatePct": null
           },
           "phase2": {
             "completed": 5,
@@ -5670,17 +5670,17 @@
             "total": 17,
             "completionRatePct": 92
           },
-          "other": {
-            "completed": 3,
-            "terminated": 1,
-            "total": 5,
-            "completionRatePct": 75
-          },
           "phase1": {
             "completed": 2,
             "terminated": 0,
             "total": 2,
             "completionRatePct": null
+          },
+          "other": {
+            "completed": 3,
+            "terminated": 1,
+            "total": 5,
+            "completionRatePct": 75
           }
         },
         "concluded": 42,
@@ -5949,28 +5949,28 @@
         "ongoing": 8,
         "withResults": 2,
         "byPhase": {
-          "phase1": {
-            "completed": 10,
-            "terminated": 0,
-            "total": 11,
-            "completionRatePct": 100
-          },
           "phase3": {
             "completed": 1,
             "terminated": 0,
             "total": 4,
             "completionRatePct": null
           },
-          "phase2": {
-            "completed": 2,
+          "phase1": {
+            "completed": 10,
             "terminated": 0,
-            "total": 4,
-            "completionRatePct": null
+            "total": 11,
+            "completionRatePct": 100
           },
           "other": {
             "completed": 0,
             "terminated": 0,
             "total": 2,
+            "completionRatePct": null
+          },
+          "phase2": {
+            "completed": 2,
+            "terminated": 0,
+            "total": 4,
             "completionRatePct": null
           }
         },
@@ -6050,10 +6050,10 @@
         "ongoing": 9,
         "withResults": 0,
         "byPhase": {
-          "phase2": {
+          "phase3": {
             "completed": 0,
             "terminated": 0,
-            "total": 5,
+            "total": 2,
             "completionRatePct": null
           },
           "phase1": {
@@ -6062,10 +6062,10 @@
             "total": 2,
             "completionRatePct": null
           },
-          "phase3": {
+          "phase2": {
             "completed": 0,
             "terminated": 0,
-            "total": 2,
+            "total": 5,
             "completionRatePct": null
           }
         },
@@ -6145,6 +6145,12 @@
         "ongoing": 9,
         "withResults": 3,
         "byPhase": {
+          "phase3": {
+            "completed": 1,
+            "terminated": 1,
+            "total": 6,
+            "completionRatePct": null
+          },
           "other": {
             "completed": 0,
             "terminated": 0,
@@ -6155,12 +6161,6 @@
             "completed": 1,
             "terminated": 0,
             "total": 3,
-            "completionRatePct": null
-          },
-          "phase3": {
-            "completed": 1,
-            "terminated": 1,
-            "total": 6,
             "completionRatePct": null
           },
           "phase1": {
@@ -6353,12 +6353,6 @@
             "total": 7,
             "completionRatePct": 80
           },
-          "other": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 3,
-            "completionRatePct": null
-          },
           "phase3": {
             "completed": 1,
             "terminated": 0,
@@ -6369,6 +6363,12 @@
             "completed": 1,
             "terminated": 1,
             "total": 2,
+            "completionRatePct": null
+          },
+          "other": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 3,
             "completionRatePct": null
           }
         },
@@ -6448,12 +6448,6 @@
         "ongoing": 5,
         "withResults": 21,
         "byPhase": {
-          "phase1": {
-            "completed": 7,
-            "terminated": 2,
-            "total": 9,
-            "completionRatePct": 78
-          },
           "phase3": {
             "completed": 6,
             "terminated": 2,
@@ -6465,6 +6459,12 @@
             "terminated": 2,
             "total": 19,
             "completionRatePct": 88
+          },
+          "phase1": {
+            "completed": 7,
+            "terminated": 2,
+            "total": 9,
+            "completionRatePct": 78
           }
         },
         "concluded": 36,
@@ -6543,9 +6543,9 @@
         "ongoing": 6,
         "withResults": 1,
         "byPhase": {
-          "phase3": {
+          "phase2": {
             "completed": 0,
-            "terminated": 0,
+            "terminated": 1,
             "total": 3,
             "completionRatePct": null
           },
@@ -6555,9 +6555,9 @@
             "total": 2,
             "completionRatePct": null
           },
-          "phase2": {
+          "phase3": {
             "completed": 0,
-            "terminated": 1,
+            "terminated": 0,
             "total": 3,
             "completionRatePct": null
           },
@@ -6828,7 +6828,7 @@
         "ongoing": 10,
         "withResults": 3,
         "byPhase": {
-          "other": {
+          "phase3": {
             "completed": 0,
             "terminated": 0,
             "total": 1,
@@ -6840,16 +6840,16 @@
             "total": 12,
             "completionRatePct": 50
           },
+          "other": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 1,
+            "completionRatePct": null
+          },
           "phase1": {
             "completed": 1,
             "terminated": 0,
             "total": 2,
-            "completionRatePct": null
-          },
-          "phase3": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 1,
             "completionRatePct": null
           }
         },
@@ -7024,17 +7024,17 @@
         "ongoing": 10,
         "withResults": 9,
         "byPhase": {
+          "phase3": {
+            "completed": 2,
+            "terminated": 0,
+            "total": 4,
+            "completionRatePct": null
+          },
           "phase1": {
             "completed": 4,
             "terminated": 1,
             "total": 9,
             "completionRatePct": 80
-          },
-          "other": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 2,
-            "completionRatePct": null
           },
           "phase2": {
             "completed": 0,
@@ -7042,10 +7042,10 @@
             "total": 7,
             "completionRatePct": null
           },
-          "phase3": {
-            "completed": 2,
+          "other": {
+            "completed": 1,
             "terminated": 0,
-            "total": 4,
+            "total": 2,
             "completionRatePct": null
           }
         },
@@ -7131,7 +7131,7 @@
             "total": 6,
             "completionRatePct": null
           },
-          "other": {
+          "phase3": {
             "completed": 0,
             "terminated": 0,
             "total": 2,
@@ -7143,7 +7143,7 @@
             "total": 2,
             "completionRatePct": null
           },
-          "phase3": {
+          "other": {
             "completed": 0,
             "terminated": 0,
             "total": 2,
@@ -7315,12 +7315,6 @@
         "ongoing": 6,
         "withResults": 1,
         "byPhase": {
-          "phase2": {
-            "completed": 1,
-            "terminated": 1,
-            "total": 3,
-            "completionRatePct": null
-          },
           "phase3": {
             "completed": 1,
             "terminated": 0,
@@ -7331,6 +7325,12 @@
             "completed": 0,
             "terminated": 0,
             "total": 2,
+            "completionRatePct": null
+          },
+          "phase2": {
+            "completed": 1,
+            "terminated": 1,
+            "total": 3,
             "completionRatePct": null
           },
           "phase1": {
@@ -7416,17 +7416,17 @@
         "ongoing": 5,
         "withResults": 3,
         "byPhase": {
-          "phase2": {
-            "completed": 4,
-            "terminated": 0,
-            "total": 5,
-            "completionRatePct": 100
-          },
           "phase3": {
             "completed": 0,
             "terminated": 0,
             "total": 3,
             "completionRatePct": null
+          },
+          "phase2": {
+            "completed": 4,
+            "terminated": 0,
+            "total": 5,
+            "completionRatePct": 100
           },
           "phase1": {
             "completed": 0,
@@ -7453,7 +7453,7 @@
         "curated": 0,
         "registry": 12,
         "edgar": 23,
-        "upcoming": 3
+        "upcoming": 2
       },
       "nextDate": "2026-10-28",
       "metrics": {
@@ -7495,50 +7495,50 @@
         "marketCapUsd": null,
         "entityName": "BOSTON SCIENTIFIC CORPORATION",
         "activeTrials": 12,
-        "phase3Count": 5,
+        "phase3Count": 8,
         "phase2Count": 1,
         "leadPhase": 4,
-        "upcomingCount": 3,
+        "upcomingCount": 2,
         "nextCatalystDate": "2026-10-28",
         "nextCatalystType": "Earnings",
         "daysToNextCatalyst": 15
       },
       "trialStats": {
-        "completed": 257,
-        "terminated": 41,
-        "withdrawn": 16,
+        "completed": 273,
+        "terminated": 47,
+        "withdrawn": 14,
         "suspended": 1,
-        "ongoing": 55,
-        "withResults": 191,
+        "ongoing": 52,
+        "withResults": 200,
         "byPhase": {
-          "other": {
-            "completed": 214,
-            "terminated": 32,
-            "total": 311,
-            "completionRatePct": 87
-          },
           "phase3": {
             "completed": 32,
-            "terminated": 2,
-            "total": 36,
-            "completionRatePct": 94
+            "terminated": 4,
+            "total": 38,
+            "completionRatePct": 89
           },
-          "phase1": {
-            "completed": 2,
-            "terminated": 2,
-            "total": 6,
-            "completionRatePct": 50
+          "other": {
+            "completed": 229,
+            "terminated": 38,
+            "total": 328,
+            "completionRatePct": 86
           },
           "phase2": {
-            "completed": 9,
-            "terminated": 5,
-            "total": 17,
-            "completionRatePct": 64
+            "completed": 7,
+            "terminated": 3,
+            "total": 13,
+            "completionRatePct": 70
+          },
+          "phase1": {
+            "completed": 5,
+            "terminated": 2,
+            "total": 8,
+            "completionRatePct": 71
           }
         },
-        "concluded": 314,
+        "concluded": 334,
         "completionRatePct": 82,
-        "resultsPostedPct": 74
+        "resultsPostedPct": 73
       },
       "error": null
     },
@@ -7612,17 +7612,17 @@
         "ongoing": 3,
         "withResults": 6,
         "byPhase": {
-          "phase3": {
-            "completed": 2,
-            "terminated": 0,
-            "total": 5,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 4,
             "terminated": 0,
             "total": 4,
             "completionRatePct": 100
+          },
+          "phase3": {
+            "completed": 2,
+            "terminated": 0,
+            "total": 5,
+            "completionRatePct": null
           }
         },
         "concluded": 6,
@@ -7790,17 +7790,17 @@
         "ongoing": 7,
         "withResults": 10,
         "byPhase": {
-          "phase2": {
-            "completed": 5,
-            "terminated": 1,
-            "total": 9,
-            "completionRatePct": 83
-          },
           "phase1": {
             "completed": 6,
             "terminated": 1,
             "total": 8,
             "completionRatePct": 86
+          },
+          "phase2": {
+            "completed": 5,
+            "terminated": 1,
+            "total": 9,
+            "completionRatePct": 83
           },
           "phase3": {
             "completed": 1,
@@ -7903,17 +7903,17 @@
             "total": 19,
             "completionRatePct": 65
           },
-          "phase1": {
-            "completed": 9,
-            "terminated": 7,
-            "total": 20,
-            "completionRatePct": 56
-          },
           "other": {
             "completed": 0,
             "terminated": 0,
             "total": 4,
             "completionRatePct": null
+          },
+          "phase1": {
+            "completed": 9,
+            "terminated": 7,
+            "total": 20,
+            "completionRatePct": 56
           }
         },
         "concluded": 39,
@@ -7992,6 +7992,12 @@
         "ongoing": 5,
         "withResults": 0,
         "byPhase": {
+          "phase1": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 1,
+            "completionRatePct": null
+          },
           "phase3": {
             "completed": 0,
             "terminated": 0,
@@ -8002,12 +8008,6 @@
             "completed": 0,
             "terminated": 0,
             "total": 4,
-            "completionRatePct": null
-          },
-          "phase1": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 1,
             "completionRatePct": null
           }
         },
@@ -8087,11 +8087,11 @@
         "ongoing": 6,
         "withResults": 4,
         "byPhase": {
-          "phase2": {
-            "completed": 4,
-            "terminated": 0,
-            "total": 4,
-            "completionRatePct": 100
+          "phase1": {
+            "completed": 13,
+            "terminated": 1,
+            "total": 15,
+            "completionRatePct": 93
           },
           "phase3": {
             "completed": 0,
@@ -8099,11 +8099,11 @@
             "total": 5,
             "completionRatePct": null
           },
-          "phase1": {
-            "completed": 13,
-            "terminated": 1,
-            "total": 15,
-            "completionRatePct": 93
+          "phase2": {
+            "completed": 4,
+            "terminated": 0,
+            "total": 4,
+            "completionRatePct": 100
           }
         },
         "concluded": 18,
@@ -8283,16 +8283,16 @@
             "total": 7,
             "completionRatePct": null
           },
-          "phase1": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 1,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 2,
             "terminated": 0,
             "total": 2,
+            "completionRatePct": null
+          },
+          "phase1": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 1,
             "completionRatePct": null
           }
         },
@@ -8562,16 +8562,16 @@
         "ongoing": 6,
         "withResults": 6,
         "byPhase": {
-          "phase2": {
-            "completed": 3,
-            "terminated": 1,
-            "total": 5,
-            "completionRatePct": 75
-          },
           "phase3": {
             "completed": 2,
             "terminated": 1,
             "total": 7,
+            "completionRatePct": null
+          },
+          "phase1": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 2,
             "completionRatePct": null
           },
           "other": {
@@ -8580,11 +8580,11 @@
             "total": 6,
             "completionRatePct": null
           },
-          "phase1": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 2,
-            "completionRatePct": null
+          "phase2": {
+            "completed": 3,
+            "terminated": 1,
+            "total": 5,
+            "completionRatePct": 75
           }
         },
         "concluded": 14,
@@ -8847,16 +8847,16 @@
         "ongoing": 4,
         "withResults": 0,
         "byPhase": {
-          "phase3": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 2,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 1,
             "terminated": 0,
             "total": 3,
+            "completionRatePct": null
+          },
+          "phase3": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 2,
             "completionRatePct": null
           }
         },
@@ -8936,16 +8936,16 @@
         "ongoing": 6,
         "withResults": 14,
         "byPhase": {
-          "phase1": {
-            "completed": 3,
-            "terminated": 0,
-            "total": 3,
-            "completionRatePct": null
-          },
           "other": {
             "completed": 4,
             "terminated": 0,
             "total": 5,
+            "completionRatePct": 100
+          },
+          "phase2": {
+            "completed": 8,
+            "terminated": 0,
+            "total": 11,
             "completionRatePct": 100
           },
           "phase3": {
@@ -8954,11 +8954,11 @@
             "total": 10,
             "completionRatePct": 100
           },
-          "phase2": {
-            "completed": 8,
+          "phase1": {
+            "completed": 3,
             "terminated": 0,
-            "total": 11,
-            "completionRatePct": 100
+            "total": 3,
+            "completionRatePct": null
           }
         },
         "concluded": 23,
@@ -9037,6 +9037,12 @@
         "ongoing": 7,
         "withResults": 16,
         "byPhase": {
+          "other": {
+            "completed": 5,
+            "terminated": 2,
+            "total": 7,
+            "completionRatePct": 71
+          },
           "phase1": {
             "completed": 36,
             "terminated": 0,
@@ -9048,12 +9054,6 @@
             "terminated": 2,
             "total": 14,
             "completionRatePct": 83
-          },
-          "other": {
-            "completed": 5,
-            "terminated": 2,
-            "total": 7,
-            "completionRatePct": 71
           },
           "phase2": {
             "completed": 7,
@@ -9138,13 +9138,13 @@
         "ongoing": 4,
         "withResults": 0,
         "byPhase": {
-          "phase3": {
+          "phase2": {
             "completed": 0,
             "terminated": 0,
             "total": 2,
             "completionRatePct": null
           },
-          "phase2": {
+          "phase3": {
             "completed": 0,
             "terminated": 0,
             "total": 2,
@@ -9227,12 +9227,6 @@
         "ongoing": 11,
         "withResults": 37,
         "byPhase": {
-          "other": {
-            "completed": 7,
-            "terminated": 1,
-            "total": 13,
-            "completionRatePct": 88
-          },
           "phase3": {
             "completed": 14,
             "terminated": 3,
@@ -9250,6 +9244,12 @@
             "terminated": 1,
             "total": 22,
             "completionRatePct": 94
+          },
+          "other": {
+            "completed": 7,
+            "terminated": 1,
+            "total": 13,
+            "completionRatePct": 88
           }
         },
         "concluded": 53,
@@ -9423,6 +9423,12 @@
         "ongoing": 6,
         "withResults": 6,
         "byPhase": {
+          "phase3": {
+            "completed": 1,
+            "terminated": 1,
+            "total": 5,
+            "completionRatePct": null
+          },
           "other": {
             "completed": 3,
             "terminated": 0,
@@ -9433,12 +9439,6 @@
             "completed": 2,
             "terminated": 0,
             "total": 4,
-            "completionRatePct": null
-          },
-          "phase3": {
-            "completed": 1,
-            "terminated": 1,
-            "total": 5,
             "completionRatePct": null
           },
           "phase1": {
@@ -9524,28 +9524,28 @@
         "ongoing": 7,
         "withResults": 5,
         "byPhase": {
-          "phase2": {
-            "completed": 2,
-            "terminated": 2,
-            "total": 8,
-            "completionRatePct": 50
-          },
           "phase1": {
             "completed": 1,
             "terminated": 0,
             "total": 4,
             "completionRatePct": null
           },
-          "phase3": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 2,
-            "completionRatePct": null
+          "phase2": {
+            "completed": 2,
+            "terminated": 2,
+            "total": 8,
+            "completionRatePct": 50
           },
           "other": {
             "completed": 0,
             "terminated": 0,
             "total": 1,
+            "completionRatePct": null
+          },
+          "phase3": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 2,
             "completionRatePct": null
           }
         },
@@ -9797,13 +9797,13 @@
         "ongoing": 4,
         "withResults": 0,
         "byPhase": {
-          "phase3": {
+          "phase2": {
             "completed": 0,
             "terminated": 0,
             "total": 2,
             "completionRatePct": null
           },
-          "phase2": {
+          "phase3": {
             "completed": 0,
             "terminated": 0,
             "total": 2,
@@ -9886,12 +9886,6 @@
         "ongoing": 4,
         "withResults": 0,
         "byPhase": {
-          "other": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 1,
-            "completionRatePct": null
-          },
           "phase1": {
             "completed": 2,
             "terminated": 0,
@@ -9908,6 +9902,12 @@
             "completed": 0,
             "terminated": 0,
             "total": 2,
+            "completionRatePct": null
+          },
+          "other": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 1,
             "completionRatePct": null
           }
         },
@@ -10088,16 +10088,16 @@
         "ongoing": 5,
         "withResults": 4,
         "byPhase": {
-          "phase3": {
-            "completed": 1,
-            "terminated": 2,
-            "total": 5,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 2,
             "terminated": 0,
             "total": 4,
+            "completionRatePct": null
+          },
+          "phase3": {
+            "completed": 1,
+            "terminated": 2,
+            "total": 5,
             "completionRatePct": null
           },
           "phase1": {
@@ -10189,17 +10189,17 @@
             "total": 40,
             "completionRatePct": 89
           },
-          "phase2": {
-            "completed": 5,
-            "terminated": 2,
-            "total": 13,
-            "completionRatePct": 71
-          },
           "phase3": {
             "completed": 10,
             "terminated": 1,
             "total": 14,
             "completionRatePct": 91
+          },
+          "phase2": {
+            "completed": 5,
+            "terminated": 2,
+            "total": 13,
+            "completionRatePct": 71
           }
         },
         "concluded": 46,
@@ -10284,17 +10284,17 @@
             "total": 4,
             "completionRatePct": null
           },
-          "phase3": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 2,
-            "completionRatePct": null
-          },
           "phase1": {
             "completed": 9,
             "terminated": 0,
             "total": 12,
             "completionRatePct": 100
+          },
+          "phase3": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 2,
+            "completionRatePct": null
           },
           "other": {
             "completed": 1,
@@ -10379,17 +10379,17 @@
         "ongoing": 3,
         "withResults": 3,
         "byPhase": {
-          "phase3": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 3,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 4,
             "terminated": 0,
             "total": 5,
             "completionRatePct": 100
+          },
+          "phase3": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 3,
+            "completionRatePct": null
           },
           "other": {
             "completed": 1,
@@ -10474,12 +10474,6 @@
         "ongoing": 4,
         "withResults": 3,
         "byPhase": {
-          "phase1": {
-            "completed": 0,
-            "terminated": 1,
-            "total": 1,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 0,
             "terminated": 1,
@@ -10490,6 +10484,12 @@
             "completed": 1,
             "terminated": 0,
             "total": 3,
+            "completionRatePct": null
+          },
+          "phase1": {
+            "completed": 0,
+            "terminated": 1,
+            "total": 1,
             "completionRatePct": null
           }
         },
@@ -10569,12 +10569,6 @@
         "ongoing": 6,
         "withResults": 4,
         "byPhase": {
-          "phase2": {
-            "completed": 2,
-            "terminated": 0,
-            "total": 3,
-            "completionRatePct": null
-          },
           "other": {
             "completed": 3,
             "terminated": 0,
@@ -10591,6 +10585,12 @@
             "completed": 3,
             "terminated": 0,
             "total": 5,
+            "completionRatePct": null
+          },
+          "phase2": {
+            "completed": 2,
+            "terminated": 0,
+            "total": 3,
             "completionRatePct": null
           }
         },
@@ -10670,18 +10670,6 @@
         "ongoing": 13,
         "withResults": 2,
         "byPhase": {
-          "phase1": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 4,
-            "completionRatePct": null
-          },
-          "other": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 4,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 1,
             "terminated": 0,
@@ -10692,6 +10680,18 @@
             "completed": 2,
             "terminated": 0,
             "total": 3,
+            "completionRatePct": null
+          },
+          "phase1": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 4,
+            "completionRatePct": null
+          },
+          "other": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 4,
             "completionRatePct": null
           }
         },
@@ -10771,17 +10771,17 @@
         "ongoing": 3,
         "withResults": 23,
         "byPhase": {
-          "phase2": {
-            "completed": 12,
-            "terminated": 3,
-            "total": 16,
-            "completionRatePct": 80
-          },
           "phase1": {
             "completed": 11,
             "terminated": 1,
             "total": 13,
             "completionRatePct": 92
+          },
+          "phase2": {
+            "completed": 12,
+            "terminated": 3,
+            "total": 16,
+            "completionRatePct": 80
           },
           "phase3": {
             "completed": 4,
@@ -10866,6 +10866,12 @@
         "ongoing": 3,
         "withResults": 0,
         "byPhase": {
+          "other": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 1,
+            "completionRatePct": null
+          },
           "phase3": {
             "completed": 1,
             "terminated": 0,
@@ -10874,12 +10880,6 @@
           },
           "phase2": {
             "completed": 0,
-            "terminated": 0,
-            "total": 1,
-            "completionRatePct": null
-          },
-          "other": {
-            "completed": 1,
             "terminated": 0,
             "total": 1,
             "completionRatePct": null
@@ -11056,25 +11056,25 @@
         "ongoing": 5,
         "withResults": 0,
         "byPhase": {
-          "other": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 2,
-            "completionRatePct": null
-          },
           "phase3": {
             "completed": 0,
             "terminated": 0,
             "total": 2,
             "completionRatePct": null
           },
-          "phase2": {
+          "other": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 2,
+            "completionRatePct": null
+          },
+          "phase1": {
             "completed": 0,
             "terminated": 0,
             "total": 1,
             "completionRatePct": null
           },
-          "phase1": {
+          "phase2": {
             "completed": 0,
             "terminated": 0,
             "total": 1,
@@ -11157,12 +11157,6 @@
         "ongoing": 4,
         "withResults": 0,
         "byPhase": {
-          "phase2": {
-            "completed": 2,
-            "terminated": 0,
-            "total": 4,
-            "completionRatePct": null
-          },
           "phase3": {
             "completed": 0,
             "terminated": 1,
@@ -11173,6 +11167,12 @@
             "completed": 0,
             "terminated": 0,
             "total": 1,
+            "completionRatePct": null
+          },
+          "phase2": {
+            "completed": 2,
+            "terminated": 0,
+            "total": 4,
             "completionRatePct": null
           }
         },
@@ -11252,17 +11252,17 @@
         "ongoing": 5,
         "withResults": 4,
         "byPhase": {
-          "phase2": {
-            "completed": 1,
-            "terminated": 1,
-            "total": 6,
-            "completionRatePct": null
-          },
           "phase1": {
             "completed": 0,
             "terminated": 5,
             "total": 5,
             "completionRatePct": 0
+          },
+          "phase2": {
+            "completed": 1,
+            "terminated": 1,
+            "total": 6,
+            "completionRatePct": null
           },
           "phase3": {
             "completed": 0,
@@ -11347,12 +11347,6 @@
         "ongoing": 3,
         "withResults": 10,
         "byPhase": {
-          "phase1": {
-            "completed": 6,
-            "terminated": 0,
-            "total": 6,
-            "completionRatePct": 100
-          },
           "phase3": {
             "completed": 5,
             "terminated": 0,
@@ -11364,6 +11358,12 @@
             "terminated": 0,
             "total": 4,
             "completionRatePct": null
+          },
+          "phase1": {
+            "completed": 6,
+            "terminated": 0,
+            "total": 6,
+            "completionRatePct": 100
           }
         },
         "concluded": 14,
@@ -11442,17 +11442,17 @@
         "ongoing": 4,
         "withResults": 4,
         "byPhase": {
-          "phase3": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 4,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 2,
             "terminated": 2,
             "total": 4,
             "completionRatePct": 50
+          },
+          "phase3": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 4,
+            "completionRatePct": null
           },
           "other": {
             "completed": 0,
@@ -11632,17 +11632,17 @@
         "ongoing": 3,
         "withResults": 8,
         "byPhase": {
-          "phase2": {
-            "completed": 3,
-            "terminated": 1,
-            "total": 4,
-            "completionRatePct": 75
-          },
           "phase3": {
             "completed": 1,
             "terminated": 1,
             "total": 4,
             "completionRatePct": null
+          },
+          "phase2": {
+            "completed": 3,
+            "terminated": 1,
+            "total": 4,
+            "completionRatePct": 75
           },
           "phase1": {
             "completed": 2,
@@ -11733,16 +11733,16 @@
         "ongoing": 8,
         "withResults": 1,
         "byPhase": {
+          "phase1": {
+            "completed": 1,
+            "terminated": 3,
+            "total": 6,
+            "completionRatePct": 25
+          },
           "phase2": {
             "completed": 1,
             "terminated": 0,
             "total": 4,
-            "completionRatePct": null
-          },
-          "other": {
-            "completed": 0,
-            "terminated": 1,
-            "total": 3,
             "completionRatePct": null
           },
           "phase3": {
@@ -11751,11 +11751,11 @@
             "total": 1,
             "completionRatePct": null
           },
-          "phase1": {
-            "completed": 1,
-            "terminated": 3,
-            "total": 6,
-            "completionRatePct": 25
+          "other": {
+            "completed": 0,
+            "terminated": 1,
+            "total": 3,
+            "completionRatePct": null
           }
         },
         "concluded": 6,
@@ -11834,12 +11834,6 @@
         "ongoing": 2,
         "withResults": 0,
         "byPhase": {
-          "phase3": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 2,
-            "completionRatePct": null
-          },
           "phase1": {
             "completed": 1,
             "terminated": 0,
@@ -11850,6 +11844,12 @@
             "completed": 0,
             "terminated": 0,
             "total": 1,
+            "completionRatePct": null
+          },
+          "phase3": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 2,
             "completionRatePct": null
           }
         },
@@ -11929,16 +11929,16 @@
         "ongoing": 4,
         "withResults": 13,
         "byPhase": {
-          "phase2": {
-            "completed": 6,
-            "terminated": 0,
-            "total": 9,
-            "completionRatePct": 100
-          },
           "phase3": {
             "completed": 7,
             "terminated": 0,
             "total": 8,
+            "completionRatePct": 100
+          },
+          "phase2": {
+            "completed": 6,
+            "terminated": 0,
+            "total": 9,
             "completionRatePct": 100
           }
         },
@@ -12018,16 +12018,16 @@
         "ongoing": 2,
         "withResults": 4,
         "byPhase": {
-          "phase2": {
-            "completed": 2,
-            "terminated": 0,
-            "total": 2,
-            "completionRatePct": null
-          },
           "phase3": {
             "completed": 1,
             "terminated": 0,
             "total": 3,
+            "completionRatePct": null
+          },
+          "phase2": {
+            "completed": 2,
+            "terminated": 0,
+            "total": 2,
             "completionRatePct": null
           },
           "phase1": {
@@ -12113,6 +12113,12 @@
         "ongoing": 3,
         "withResults": 0,
         "byPhase": {
+          "phase2": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 3,
+            "completionRatePct": null
+          },
           "phase3": {
             "completed": 0,
             "terminated": 0,
@@ -12123,12 +12129,6 @@
             "completed": 0,
             "terminated": 1,
             "total": 1,
-            "completionRatePct": null
-          },
-          "phase2": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 3,
             "completionRatePct": null
           }
         },
@@ -12208,17 +12208,17 @@
         "ongoing": 5,
         "withResults": 0,
         "byPhase": {
-          "phase1": {
-            "completed": 2,
-            "terminated": 2,
-            "total": 5,
-            "completionRatePct": 50
-          },
           "phase3": {
             "completed": 0,
             "terminated": 0,
             "total": 1,
             "completionRatePct": null
+          },
+          "phase1": {
+            "completed": 2,
+            "terminated": 2,
+            "total": 5,
+            "completionRatePct": 50
           },
           "phase2": {
             "completed": 0,
@@ -12303,16 +12303,16 @@
         "ongoing": 2,
         "withResults": 0,
         "byPhase": {
-          "phase3": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 3,
-            "completionRatePct": null
-          },
           "phase1": {
             "completed": 1,
             "terminated": 0,
             "total": 1,
+            "completionRatePct": null
+          },
+          "phase3": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 3,
             "completionRatePct": null
           }
         },
@@ -12392,10 +12392,10 @@
         "ongoing": 5,
         "withResults": 1,
         "byPhase": {
-          "phase3": {
-            "completed": 0,
+          "phase2": {
+            "completed": 1,
             "terminated": 0,
-            "total": 2,
+            "total": 1,
             "completionRatePct": null
           },
           "phase1": {
@@ -12404,10 +12404,10 @@
             "total": 3,
             "completionRatePct": null
           },
-          "phase2": {
-            "completed": 1,
+          "phase3": {
+            "completed": 0,
             "terminated": 0,
-            "total": 1,
+            "total": 2,
             "completionRatePct": null
           }
         },
@@ -12487,17 +12487,17 @@
         "ongoing": 2,
         "withResults": 4,
         "byPhase": {
-          "phase3": {
-            "completed": 3,
-            "terminated": 1,
-            "total": 6,
-            "completionRatePct": 75
-          },
           "phase2": {
             "completed": 4,
             "terminated": 0,
             "total": 4,
             "completionRatePct": 100
+          },
+          "phase3": {
+            "completed": 3,
+            "terminated": 1,
+            "total": 6,
+            "completionRatePct": 75
           }
         },
         "concluded": 8,
@@ -12665,17 +12665,17 @@
         "ongoing": 6,
         "withResults": 12,
         "byPhase": {
-          "phase2": {
-            "completed": 7,
-            "terminated": 4,
-            "total": 15,
-            "completionRatePct": 64
-          },
           "phase1": {
             "completed": 11,
             "terminated": 1,
             "total": 13,
             "completionRatePct": 92
+          },
+          "phase2": {
+            "completed": 7,
+            "terminated": 4,
+            "total": 15,
+            "completionRatePct": 64
           },
           "phase3": {
             "completed": 0,
@@ -12766,16 +12766,16 @@
         "ongoing": 2,
         "withResults": 0,
         "byPhase": {
-          "phase3": {
-            "completed": 0,
-            "terminated": 1,
-            "total": 4,
-            "completionRatePct": null
-          },
           "other": {
             "completed": 0,
             "terminated": 1,
             "total": 1,
+            "completionRatePct": null
+          },
+          "phase3": {
+            "completed": 0,
+            "terminated": 1,
+            "total": 4,
             "completionRatePct": null
           },
           "phase2": {
@@ -13084,10 +13084,10 @@
       "activeTrials": 2,
       "phase3": 2,
       "counts": {
-        "total": 20,
+        "total": 21,
         "curated": 0,
         "registry": 5,
-        "edgar": 15,
+        "edgar": 16,
         "upcoming": 4
       },
       "nextDate": "2026-11-11",
@@ -13241,16 +13241,16 @@
             "total": 2,
             "completionRatePct": null
           },
-          "phase3": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 5,
-            "completionRatePct": null
-          },
           "other": {
             "completed": 0,
             "terminated": 0,
             "total": 1,
+            "completionRatePct": null
+          },
+          "phase3": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 5,
             "completionRatePct": null
           }
         },
@@ -13336,17 +13336,17 @@
             "total": 7,
             "completionRatePct": 100
           },
-          "phase2": {
-            "completed": 6,
-            "terminated": 0,
-            "total": 6,
-            "completionRatePct": 100
-          },
           "phase3": {
             "completed": 0,
             "terminated": 0,
             "total": 2,
             "completionRatePct": null
+          },
+          "phase2": {
+            "completed": 6,
+            "terminated": 0,
+            "total": 6,
+            "completionRatePct": 100
           },
           "other": {
             "completed": 0,
@@ -13431,17 +13431,17 @@
         "ongoing": 2,
         "withResults": 2,
         "byPhase": {
-          "phase2": {
-            "completed": 4,
-            "terminated": 2,
-            "total": 6,
-            "completionRatePct": 67
-          },
           "other": {
             "completed": 3,
             "terminated": 0,
             "total": 3,
             "completionRatePct": null
+          },
+          "phase2": {
+            "completed": 4,
+            "terminated": 2,
+            "total": 6,
+            "completionRatePct": 67
           },
           "phase3": {
             "completed": 3,
@@ -13526,6 +13526,12 @@
         "ongoing": 3,
         "withResults": 1,
         "byPhase": {
+          "other": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 2,
+            "completionRatePct": null
+          },
           "phase2": {
             "completed": 1,
             "terminated": 2,
@@ -13536,12 +13542,6 @@
             "completed": 2,
             "terminated": 0,
             "total": 4,
-            "completionRatePct": null
-          },
-          "other": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 2,
             "completionRatePct": null
           }
         },
@@ -13559,10 +13559,10 @@
       "activeTrials": 2,
       "phase3": 2,
       "counts": {
-        "total": 75,
+        "total": 76,
         "curated": 0,
         "registry": 3,
-        "edgar": 72,
+        "edgar": 73,
         "upcoming": 2
       },
       "nextDate": "2027-07-15",
@@ -13621,17 +13621,17 @@
         "ongoing": 2,
         "withResults": 1,
         "byPhase": {
-          "phase2": {
-            "completed": 10,
-            "terminated": 0,
-            "total": 11,
-            "completionRatePct": 100
-          },
           "phase3": {
             "completed": 2,
             "terminated": 0,
             "total": 4,
             "completionRatePct": null
+          },
+          "phase2": {
+            "completed": 10,
+            "terminated": 0,
+            "total": 11,
+            "completionRatePct": 100
           }
         },
         "concluded": 13,
@@ -13716,14 +13716,14 @@
             "total": 2,
             "completionRatePct": null
           },
-          "phase1": {
-            "completed": 1,
+          "phase3": {
+            "completed": 2,
             "terminated": 0,
             "total": 3,
             "completionRatePct": null
           },
-          "phase3": {
-            "completed": 2,
+          "phase1": {
+            "completed": 1,
             "terminated": 0,
             "total": 3,
             "completionRatePct": null
@@ -13805,12 +13805,6 @@
         "ongoing": 3,
         "withResults": 4,
         "byPhase": {
-          "phase3": {
-            "completed": 1,
-            "terminated": 1,
-            "total": 3,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 2,
             "terminated": 2,
@@ -13821,6 +13815,12 @@
             "completed": 1,
             "terminated": 0,
             "total": 1,
+            "completionRatePct": null
+          },
+          "phase3": {
+            "completed": 1,
+            "terminated": 1,
+            "total": 3,
             "completionRatePct": null
           }
         },
@@ -13900,12 +13900,6 @@
         "ongoing": 6,
         "withResults": 1,
         "byPhase": {
-          "phase3": {
-            "completed": 2,
-            "terminated": 0,
-            "total": 4,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 1,
             "terminated": 1,
@@ -13916,6 +13910,12 @@
             "completed": 0,
             "terminated": 0,
             "total": 2,
+            "completionRatePct": null
+          },
+          "phase3": {
+            "completed": 2,
+            "terminated": 0,
+            "total": 4,
             "completionRatePct": null
           }
         },
@@ -13995,12 +13995,6 @@
         "ongoing": 9,
         "withResults": 39,
         "byPhase": {
-          "phase1": {
-            "completed": 10,
-            "terminated": 2,
-            "total": 13,
-            "completionRatePct": 83
-          },
           "phase3": {
             "completed": 14,
             "terminated": 8,
@@ -14012,6 +14006,12 @@
             "terminated": 3,
             "total": 17,
             "completionRatePct": 73
+          },
+          "phase1": {
+            "completed": 10,
+            "terminated": 2,
+            "total": 13,
+            "completionRatePct": 83
           },
           "other": {
             "completed": 11,
@@ -14096,16 +14096,16 @@
         "ongoing": 5,
         "withResults": 0,
         "byPhase": {
-          "phase1": {
-            "completed": 2,
-            "terminated": 0,
-            "total": 2,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 0,
             "terminated": 0,
             "total": 5,
+            "completionRatePct": null
+          },
+          "phase1": {
+            "completed": 2,
+            "terminated": 0,
+            "total": 2,
             "completionRatePct": null
           }
         },
@@ -14185,16 +14185,16 @@
         "ongoing": 5,
         "withResults": 3,
         "byPhase": {
-          "phase2": {
-            "completed": 2,
-            "terminated": 1,
-            "total": 9,
-            "completionRatePct": null
-          },
           "phase3": {
             "completed": 2,
             "terminated": 0,
             "total": 3,
+            "completionRatePct": null
+          },
+          "phase2": {
+            "completed": 2,
+            "terminated": 1,
+            "total": 9,
             "completionRatePct": null
           },
           "phase1": {
@@ -14280,6 +14280,12 @@
         "ongoing": 4,
         "withResults": 11,
         "byPhase": {
+          "phase3": {
+            "completed": 3,
+            "terminated": 1,
+            "total": 6,
+            "completionRatePct": 75
+          },
           "phase1": {
             "completed": 4,
             "terminated": 0,
@@ -14291,12 +14297,6 @@
             "terminated": 0,
             "total": 12,
             "completionRatePct": 100
-          },
-          "phase3": {
-            "completed": 3,
-            "terminated": 1,
-            "total": 6,
-            "completionRatePct": 75
           }
         },
         "concluded": 19,
@@ -14375,16 +14375,16 @@
         "ongoing": 5,
         "withResults": 0,
         "byPhase": {
-          "phase2": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 7,
-            "completionRatePct": null
-          },
           "other": {
             "completed": 1,
             "terminated": 0,
             "total": 1,
+            "completionRatePct": null
+          },
+          "phase2": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 7,
             "completionRatePct": null
           }
         },
@@ -14464,10 +14464,10 @@
         "ongoing": 5,
         "withResults": 0,
         "byPhase": {
-          "phase1": {
-            "completed": 0,
+          "other": {
+            "completed": 1,
             "terminated": 0,
-            "total": 2,
+            "total": 1,
             "completionRatePct": null
           },
           "phase2": {
@@ -14482,10 +14482,10 @@
             "total": 1,
             "completionRatePct": null
           },
-          "other": {
-            "completed": 1,
+          "phase1": {
+            "completed": 0,
             "terminated": 0,
-            "total": 1,
+            "total": 2,
             "completionRatePct": null
           }
         },
@@ -14503,49 +14503,49 @@
       "activeTrials": 3,
       "phase3": 1,
       "counts": {
-        "total": 27,
+        "total": 28,
         "curated": 0,
         "registry": 10,
-        "edgar": 17,
+        "edgar": 18,
         "upcoming": 5
       },
-      "nextDate": "2027-01-09",
+      "nextDate": "2027-01-13",
       "metrics": {
         "reportingCurrency": "USD",
         "taxonomy": "us-gaap",
         "isUsd": true,
-        "cashUsd": 67685000,
+        "cashUsd": 720242000,
         "shortTermInvestmentsUsd": null,
-        "totalCashUsd": 67685000,
-        "cashAsOf": "2026-05-31",
+        "totalCashUsd": 720242000,
+        "cashAsOf": "2026-08-31",
         "longTermDebtUsd": null,
-        "netCashUsd": 67685000,
-        "stockholdersEquityUsd": 402627000,
-        "accumulatedDeficitUsd": -1179935000,
+        "netCashUsd": 720242000,
+        "stockholdersEquityUsd": 968311000,
+        "accumulatedDeficitUsd": -630128000,
         "operatingCashFlowUsd": -71914000,
         "quarterlyBurnUsd": 71914000,
         "burnPeriod": "2025-12-01 to 2026-02-28",
         "burnDerived": false,
         "burnBasis": "quarter",
         "burnScaled": false,
-        "runwayMonths": 2.8,
-        "cashStatus": "under-12mo",
+        "runwayMonths": 30,
+        "cashStatus": "well-funded",
         "capexQuarterlyUsd": 1045000,
         "freeCashFlowQuarterlyUsd": -72959000,
         "freeCashFlowTtmUsd": -233095000,
-        "revenueQuarterlyUsd": 9043000,
-        "revenueTtmUsd": 67245000,
-        "rndQuarterlyUsd": 87653000,
-        "sgaQuarterlyUsd": 15594000,
-        "operatingIncomeQuarterlyUsd": -94204000,
-        "netIncomeQuarterlyUsd": -89535000,
-        "sharesOutstanding": 103781683,
-        "dilutionPctYoy": 35.8,
-        "dilutionFrom": "2025-06-30",
+        "revenueQuarterlyUsd": 673064000,
+        "revenueTtmUsd": 696253000,
+        "rndQuarterlyUsd": 79260000,
+        "sgaQuarterlyUsd": 34353000,
+        "operatingIncomeQuarterlyUsd": 559451000,
+        "netIncomeQuarterlyUsd": 549807000,
+        "sharesOutstanding": 109249814,
+        "dilutionPctYoy": 42.1,
+        "dilutionFrom": "2025-09-30",
         "stockIssuanceQuarterlyUsd": 18004000,
-        "cashPerShare": 0.65,
-        "rndIntensityPct": 85,
-        "fcfMarginPct": -346.6,
+        "cashPerShare": 6.59,
+        "rndIntensityPct": 70,
+        "fcfMarginPct": -33.5,
         "marketCapUsd": null,
         "entityName": "NURIX THERAPEUTICS, INC.",
         "activeTrials": 10,
@@ -14553,9 +14553,9 @@
         "phase2Count": 2,
         "leadPhase": 3,
         "upcomingCount": 5,
-        "nextCatalystDate": "2027-01-09",
+        "nextCatalystDate": "2027-01-13",
         "nextCatalystType": "Earnings",
-        "daysToNextCatalyst": 88
+        "daysToNextCatalyst": 92
       },
       "trialStats": {
         "completed": 3,
@@ -14767,16 +14767,16 @@
             "total": 1,
             "completionRatePct": null
           },
-          "phase3": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 1,
-            "completionRatePct": null
-          },
           "phase1": {
             "completed": 0,
             "terminated": 2,
             "total": 2,
+            "completionRatePct": null
+          },
+          "phase3": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 1,
             "completionRatePct": null
           }
         },
@@ -14957,16 +14957,16 @@
             "total": 2,
             "completionRatePct": null
           },
-          "phase2": {
-            "completed": 2,
-            "terminated": 0,
-            "total": 4,
-            "completionRatePct": null
-          },
           "other": {
             "completed": 0,
             "terminated": 0,
             "total": 1,
+            "completionRatePct": null
+          },
+          "phase2": {
+            "completed": 2,
+            "terminated": 0,
+            "total": 4,
             "completionRatePct": null
           }
         },
@@ -15046,20 +15046,14 @@
         "ongoing": 3,
         "withResults": 4,
         "byPhase": {
-          "phase2": {
-            "completed": 1,
+          "phase1": {
+            "completed": 2,
             "terminated": 0,
             "total": 2,
             "completionRatePct": null
           },
-          "phase3": {
-            "completed": 3,
-            "terminated": 0,
-            "total": 6,
-            "completionRatePct": null
-          },
-          "phase1": {
-            "completed": 2,
+          "phase2": {
+            "completed": 1,
             "terminated": 0,
             "total": 2,
             "completionRatePct": null
@@ -15068,6 +15062,12 @@
             "completed": 0,
             "terminated": 0,
             "total": 1,
+            "completionRatePct": null
+          },
+          "phase3": {
+            "completed": 3,
+            "terminated": 0,
+            "total": 6,
             "completionRatePct": null
           }
         },
@@ -15147,13 +15147,19 @@
         "ongoing": 7,
         "withResults": 3,
         "byPhase": {
-          "phase2": {
+          "other": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 2,
+            "completionRatePct": null
+          },
+          "phase3": {
             "completed": 3,
             "terminated": 0,
             "total": 5,
             "completionRatePct": null
           },
-          "phase3": {
+          "phase2": {
             "completed": 3,
             "terminated": 0,
             "total": 5,
@@ -15163,12 +15169,6 @@
             "completed": 0,
             "terminated": 0,
             "total": 1,
-            "completionRatePct": null
-          },
-          "other": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 2,
             "completionRatePct": null
           }
         },
@@ -15331,17 +15331,17 @@
         "ongoing": 5,
         "withResults": 1,
         "byPhase": {
-          "phase2": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 6,
-            "completionRatePct": null
-          },
           "phase1": {
             "completed": 11,
             "terminated": 0,
             "total": 11,
             "completionRatePct": 100
+          },
+          "phase2": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 6,
+            "completionRatePct": null
           }
         },
         "concluded": 12,
@@ -15362,9 +15362,9 @@
         "curated": 0,
         "registry": 13,
         "edgar": 17,
-        "upcoming": 3
+        "upcoming": 2
       },
-      "nextDate": "2026-10-15",
+      "nextDate": "2026-12-15",
       "metrics": {
         "reportingCurrency": "USD",
         "taxonomy": "us-gaap",
@@ -15407,10 +15407,10 @@
         "phase3Count": 4,
         "phase2Count": 2,
         "leadPhase": 3,
-        "upcomingCount": 3,
-        "nextCatalystDate": "2026-10-15",
-        "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 2
+        "upcomingCount": 2,
+        "nextCatalystDate": "2026-12-15",
+        "nextCatalystType": "Earnings",
+        "daysToNextCatalyst": 63
       },
       "trialStats": {
         "completed": 11,
@@ -15426,11 +15426,11 @@
             "total": 4,
             "completionRatePct": null
           },
-          "other": {
-            "completed": 0,
+          "phase1": {
+            "completed": 7,
             "terminated": 0,
-            "total": 1,
-            "completionRatePct": null
+            "total": 8,
+            "completionRatePct": 100
           },
           "phase2": {
             "completed": 1,
@@ -15438,11 +15438,11 @@
             "total": 2,
             "completionRatePct": null
           },
-          "phase1": {
-            "completed": 7,
+          "other": {
+            "completed": 0,
             "terminated": 0,
-            "total": 8,
-            "completionRatePct": 100
+            "total": 1,
+            "completionRatePct": null
           }
         },
         "concluded": 12,
@@ -15521,10 +15521,10 @@
         "ongoing": 3,
         "withResults": 0,
         "byPhase": {
-          "phase2": {
-            "completed": 2,
+          "phase3": {
+            "completed": 0,
             "terminated": 0,
-            "total": 3,
+            "total": 1,
             "completionRatePct": null
           },
           "phase1": {
@@ -15533,10 +15533,10 @@
             "total": 4,
             "completionRatePct": null
           },
-          "phase3": {
-            "completed": 0,
+          "phase2": {
+            "completed": 2,
             "terminated": 0,
-            "total": 1,
+            "total": 3,
             "completionRatePct": null
           }
         },
@@ -15622,13 +15622,13 @@
             "total": 4,
             "completionRatePct": null
           },
-          "other": {
+          "phase1": {
             "completed": 0,
             "terminated": 0,
             "total": 1,
             "completionRatePct": null
           },
-          "phase1": {
+          "other": {
             "completed": 0,
             "terminated": 0,
             "total": 1,
@@ -15711,16 +15711,16 @@
         "ongoing": 2,
         "withResults": 0,
         "byPhase": {
-          "phase3": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 1,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 1,
             "terminated": 0,
             "total": 2,
+            "completionRatePct": null
+          },
+          "phase3": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 1,
             "completionRatePct": null
           }
         },
@@ -15800,26 +15800,26 @@
         "ongoing": 3,
         "withResults": 0,
         "byPhase": {
-          "phase3": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 1,
-            "completionRatePct": null
-          },
-          "phase2": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 1,
-            "completionRatePct": null
-          },
           "phase1": {
             "completed": 3,
             "terminated": 0,
             "total": 4,
             "completionRatePct": null
           },
+          "phase3": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 1,
+            "completionRatePct": null
+          },
           "other": {
             "completed": 1,
+            "terminated": 0,
+            "total": 1,
+            "completionRatePct": null
+          },
+          "phase2": {
+            "completed": 0,
             "terminated": 0,
             "total": 1,
             "completionRatePct": null
@@ -15839,10 +15839,10 @@
       "activeTrials": 2,
       "phase3": 1,
       "counts": {
-        "total": 22,
+        "total": 23,
         "curated": 0,
         "registry": 2,
-        "edgar": 20,
+        "edgar": 21,
         "upcoming": 1
       },
       "nextDate": "2028-12-15",
@@ -15901,16 +15901,16 @@
         "ongoing": 3,
         "withResults": 0,
         "byPhase": {
-          "phase2": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 2,
-            "completionRatePct": null
-          },
           "phase3": {
             "completed": 0,
             "terminated": 0,
             "total": 1,
+            "completionRatePct": null
+          },
+          "phase2": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 2,
             "completionRatePct": null
           }
         },
@@ -15990,10 +15990,10 @@
         "ongoing": 3,
         "withResults": 2,
         "byPhase": {
-          "phase2": {
-            "completed": 2,
+          "phase3": {
+            "completed": 0,
             "terminated": 0,
-            "total": 3,
+            "total": 2,
             "completionRatePct": null
           },
           "phase1": {
@@ -16002,10 +16002,10 @@
             "total": 2,
             "completionRatePct": null
           },
-          "phase3": {
-            "completed": 0,
+          "phase2": {
+            "completed": 2,
             "terminated": 0,
-            "total": 2,
+            "total": 3,
             "completionRatePct": null
           }
         },
@@ -16091,16 +16091,16 @@
             "total": 10,
             "completionRatePct": null
           },
-          "phase1": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 3,
-            "completionRatePct": null
-          },
           "other": {
             "completed": 0,
             "terminated": 0,
             "total": 1,
+            "completionRatePct": null
+          },
+          "phase1": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 3,
             "completionRatePct": null
           }
         },
@@ -16180,17 +16180,17 @@
         "ongoing": 2,
         "withResults": 3,
         "byPhase": {
-          "phase1": {
-            "completed": 3,
-            "terminated": 0,
-            "total": 3,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 2,
             "terminated": 2,
             "total": 5,
             "completionRatePct": 50
+          },
+          "phase1": {
+            "completed": 3,
+            "terminated": 0,
+            "total": 3,
+            "completionRatePct": null
           },
           "phase3": {
             "completed": 0,
@@ -16275,10 +16275,10 @@
         "ongoing": 3,
         "withResults": 2,
         "byPhase": {
-          "phase2": {
-            "completed": 0,
+          "phase3": {
+            "completed": 1,
             "terminated": 0,
-            "total": 1,
+            "total": 2,
             "completionRatePct": null
           },
           "phase1": {
@@ -16287,10 +16287,10 @@
             "total": 3,
             "completionRatePct": null
           },
-          "phase3": {
-            "completed": 1,
+          "phase2": {
+            "completed": 0,
             "terminated": 0,
-            "total": 2,
+            "total": 1,
             "completionRatePct": null
           }
         },
@@ -16465,17 +16465,17 @@
         "ongoing": 4,
         "withResults": 6,
         "byPhase": {
-          "phase1": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 1,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 6,
             "terminated": 1,
             "total": 8,
             "completionRatePct": 86
+          },
+          "other": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 1,
+            "completionRatePct": null
           },
           "phase3": {
             "completed": 0,
@@ -16483,7 +16483,7 @@
             "total": 1,
             "completionRatePct": null
           },
-          "other": {
+          "phase1": {
             "completed": 0,
             "terminated": 0,
             "total": 1,
@@ -16566,16 +16566,16 @@
         "ongoing": 4,
         "withResults": 0,
         "byPhase": {
-          "phase1": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 3,
-            "completionRatePct": null
-          },
           "phase3": {
             "completed": 0,
             "terminated": 0,
             "total": 1,
+            "completionRatePct": null
+          },
+          "phase1": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 3,
             "completionRatePct": null
           },
           "phase2": {
@@ -16661,16 +16661,16 @@
         "ongoing": 3,
         "withResults": 0,
         "byPhase": {
-          "phase3": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 1,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 1,
             "terminated": 1,
             "total": 5,
+            "completionRatePct": null
+          },
+          "phase3": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 1,
             "completionRatePct": null
           }
         },
@@ -16750,17 +16750,17 @@
         "ongoing": 4,
         "withResults": 1,
         "byPhase": {
-          "phase3": {
-            "completed": 0,
-            "terminated": 1,
-            "total": 2,
-            "completionRatePct": null
-          },
           "phase1": {
             "completed": 6,
             "terminated": 0,
             "total": 8,
             "completionRatePct": 100
+          },
+          "phase3": {
+            "completed": 0,
+            "terminated": 1,
+            "total": 2,
+            "completionRatePct": null
           },
           "phase2": {
             "completed": 0,
@@ -16851,13 +16851,13 @@
             "total": 1,
             "completionRatePct": null
           },
-          "phase2": {
+          "phase1": {
             "completed": 0,
             "terminated": 0,
             "total": 1,
             "completionRatePct": null
           },
-          "phase1": {
+          "phase2": {
             "completed": 0,
             "terminated": 0,
             "total": 1,
@@ -16940,6 +16940,12 @@
         "ongoing": 3,
         "withResults": 4,
         "byPhase": {
+          "phase2": {
+            "completed": 4,
+            "terminated": 0,
+            "total": 5,
+            "completionRatePct": 100
+          },
           "other": {
             "completed": 0,
             "terminated": 0,
@@ -16951,12 +16957,6 @@
             "terminated": 0,
             "total": 1,
             "completionRatePct": null
-          },
-          "phase2": {
-            "completed": 4,
-            "terminated": 0,
-            "total": 5,
-            "completionRatePct": 100
           }
         },
         "concluded": 4,
@@ -17035,6 +17035,12 @@
         "ongoing": 8,
         "withResults": 5,
         "byPhase": {
+          "phase2": {
+            "completed": 5,
+            "terminated": 1,
+            "total": 7,
+            "completionRatePct": 83
+          },
           "phase1": {
             "completed": 0,
             "terminated": 2,
@@ -17046,12 +17052,6 @@
             "terminated": 0,
             "total": 2,
             "completionRatePct": null
-          },
-          "phase2": {
-            "completed": 5,
-            "terminated": 1,
-            "total": 7,
-            "completionRatePct": 83
           },
           "phase3": {
             "completed": 0,
@@ -17320,10 +17320,10 @@
         "ongoing": 6,
         "withResults": 1,
         "byPhase": {
-          "phase3": {
-            "completed": 0,
+          "phase2": {
+            "completed": 2,
             "terminated": 0,
-            "total": 1,
+            "total": 3,
             "completionRatePct": null
           },
           "other": {
@@ -17338,10 +17338,10 @@
             "total": 1,
             "completionRatePct": null
           },
-          "phase2": {
-            "completed": 2,
+          "phase3": {
+            "completed": 0,
             "terminated": 0,
-            "total": 3,
+            "total": 1,
             "completionRatePct": null
           }
         },
@@ -17421,6 +17421,12 @@
         "ongoing": 7,
         "withResults": 67,
         "byPhase": {
+          "other": {
+            "completed": 27,
+            "terminated": 9,
+            "total": 41,
+            "completionRatePct": 75
+          },
           "phase1": {
             "completed": 10,
             "terminated": 2,
@@ -17438,12 +17444,6 @@
             "terminated": 5,
             "total": 23,
             "completionRatePct": 77
-          },
-          "other": {
-            "completed": 27,
-            "terminated": 9,
-            "total": 41,
-            "completionRatePct": 75
           }
         },
         "concluded": 95,
@@ -17522,12 +17522,6 @@
         "ongoing": 2,
         "withResults": 5,
         "byPhase": {
-          "phase1": {
-            "completed": 10,
-            "terminated": 0,
-            "total": 10,
-            "completionRatePct": 100
-          },
           "phase2": {
             "completed": 4,
             "terminated": 2,
@@ -17539,6 +17533,12 @@
             "terminated": 0,
             "total": 2,
             "completionRatePct": null
+          },
+          "phase1": {
+            "completed": 10,
+            "terminated": 0,
+            "total": 10,
+            "completionRatePct": 100
           },
           "phase3": {
             "completed": 0,
@@ -17623,16 +17623,16 @@
         "ongoing": 2,
         "withResults": 0,
         "byPhase": {
-          "phase2": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 2,
-            "completionRatePct": null
-          },
           "phase3": {
             "completed": 0,
             "terminated": 0,
             "total": 1,
+            "completionRatePct": null
+          },
+          "phase2": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 2,
             "completionRatePct": null
           }
         },
@@ -17712,10 +17712,10 @@
         "ongoing": 2,
         "withResults": 0,
         "byPhase": {
-          "phase1": {
-            "completed": 2,
-            "terminated": 1,
-            "total": 3,
+          "phase2": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 2,
             "completionRatePct": null
           },
           "other": {
@@ -17724,16 +17724,16 @@
             "total": 2,
             "completionRatePct": null
           },
+          "phase1": {
+            "completed": 2,
+            "terminated": 1,
+            "total": 3,
+            "completionRatePct": null
+          },
           "phase3": {
             "completed": 0,
             "terminated": 0,
             "total": 1,
-            "completionRatePct": null
-          },
-          "phase2": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 2,
             "completionRatePct": null
           }
         },
@@ -17813,16 +17813,16 @@
         "ongoing": 5,
         "withResults": 1,
         "byPhase": {
-          "phase2": {
-            "completed": 2,
-            "terminated": 1,
-            "total": 5,
-            "completionRatePct": null
-          },
           "phase1": {
             "completed": 3,
             "terminated": 0,
             "total": 6,
+            "completionRatePct": null
+          },
+          "phase2": {
+            "completed": 2,
+            "terminated": 1,
+            "total": 5,
             "completionRatePct": null
           },
           "phase3": {
@@ -17908,15 +17908,15 @@
         "ongoing": 3,
         "withResults": 1,
         "byPhase": {
-          "phase3": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 2,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 0,
             "terminated": 1,
+            "total": 2,
+            "completionRatePct": null
+          },
+          "phase3": {
+            "completed": 1,
+            "terminated": 0,
             "total": 2,
             "completionRatePct": null
           },
@@ -18009,13 +18009,13 @@
             "total": 5,
             "completionRatePct": 25
           },
-          "other": {
+          "phase3": {
             "completed": 0,
             "terminated": 0,
             "total": 1,
             "completionRatePct": null
           },
-          "phase3": {
+          "other": {
             "completed": 0,
             "terminated": 0,
             "total": 1,
@@ -18098,18 +18098,6 @@
         "ongoing": 2,
         "withResults": 0,
         "byPhase": {
-          "phase1": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 1,
-            "completionRatePct": null
-          },
-          "phase3": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 1,
-            "completionRatePct": null
-          },
           "other": {
             "completed": 1,
             "terminated": 2,
@@ -18117,6 +18105,18 @@
             "completionRatePct": null
           },
           "phase2": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 1,
+            "completionRatePct": null
+          },
+          "phase1": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 1,
+            "completionRatePct": null
+          },
+          "phase3": {
             "completed": 0,
             "terminated": 0,
             "total": 1,
@@ -18141,7 +18141,7 @@
         "curated": 0,
         "registry": 10,
         "edgar": 18,
-        "upcoming": 3
+        "upcoming": 4
       },
       "nextDate": "2026-12-12",
       "metrics": {
@@ -18186,7 +18186,7 @@
         "phase3Count": 0,
         "phase2Count": 10,
         "leadPhase": 2,
-        "upcomingCount": 3,
+        "upcomingCount": 4,
         "nextCatalystDate": "2026-12-12",
         "nextCatalystType": "Earnings",
         "daysToNextCatalyst": 60
@@ -18199,17 +18199,17 @@
         "ongoing": 4,
         "withResults": 0,
         "byPhase": {
-          "other": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 2,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 6,
             "terminated": 0,
             "total": 10,
             "completionRatePct": 100
+          },
+          "other": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 2,
+            "completionRatePct": null
           }
         },
         "concluded": 8,
@@ -18288,17 +18288,17 @@
         "ongoing": 2,
         "withResults": 9,
         "byPhase": {
-          "phase2": {
-            "completed": 10,
-            "terminated": 1,
-            "total": 12,
-            "completionRatePct": 91
-          },
           "phase1": {
             "completed": 4,
             "terminated": 0,
             "total": 4,
             "completionRatePct": 100
+          },
+          "phase2": {
+            "completed": 10,
+            "terminated": 1,
+            "total": 12,
+            "completionRatePct": 91
           },
           "phase3": {
             "completed": 0,
@@ -18383,13 +18383,13 @@
         "ongoing": 2,
         "withResults": 0,
         "byPhase": {
-          "phase3": {
+          "phase2": {
             "completed": 0,
             "terminated": 0,
             "total": 1,
             "completionRatePct": null
           },
-          "phase2": {
+          "phase3": {
             "completed": 0,
             "terminated": 0,
             "total": 1,
@@ -18472,11 +18472,11 @@
         "ongoing": 2,
         "withResults": 21,
         "byPhase": {
-          "phase1": {
-            "completed": 5,
-            "terminated": 1,
-            "total": 6,
-            "completionRatePct": 83
+          "phase2": {
+            "completed": 12,
+            "terminated": 4,
+            "total": 17,
+            "completionRatePct": 75
           },
           "phase3": {
             "completed": 10,
@@ -18484,11 +18484,11 @@
             "total": 17,
             "completionRatePct": 67
           },
-          "phase2": {
-            "completed": 12,
-            "terminated": 4,
-            "total": 17,
-            "completionRatePct": 75
+          "phase1": {
+            "completed": 5,
+            "terminated": 1,
+            "total": 6,
+            "completionRatePct": 83
           },
           "other": {
             "completed": 1,
@@ -18579,14 +18579,14 @@
             "total": 2,
             "completionRatePct": null
           },
-          "phase1": {
-            "completed": 1,
+          "other": {
+            "completed": 0,
             "terminated": 0,
             "total": 1,
             "completionRatePct": null
           },
-          "other": {
-            "completed": 0,
+          "phase1": {
+            "completed": 1,
             "terminated": 0,
             "total": 1,
             "completionRatePct": null
@@ -18674,12 +18674,6 @@
         "ongoing": 1,
         "withResults": 4,
         "byPhase": {
-          "phase3": {
-            "completed": 1,
-            "terminated": 1,
-            "total": 3,
-            "completionRatePct": null
-          },
           "phase1": {
             "completed": 4,
             "terminated": 0,
@@ -18690,6 +18684,12 @@
             "completed": 1,
             "terminated": 1,
             "total": 2,
+            "completionRatePct": null
+          },
+          "phase3": {
+            "completed": 1,
+            "terminated": 1,
+            "total": 3,
             "completionRatePct": null
           }
         },
@@ -18769,18 +18769,6 @@
         "ongoing": 3,
         "withResults": 2,
         "byPhase": {
-          "other": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 2,
-            "completionRatePct": null
-          },
-          "phase3": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 2,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 3,
             "terminated": 1,
@@ -18790,6 +18778,18 @@
           "phase1": {
             "completed": 1,
             "terminated": 1,
+            "total": 2,
+            "completionRatePct": null
+          },
+          "phase3": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 2,
+            "completionRatePct": null
+          },
+          "other": {
+            "completed": 0,
+            "terminated": 0,
             "total": 2,
             "completionRatePct": null
           }
@@ -18870,14 +18870,14 @@
         "ongoing": 1,
         "withResults": 1,
         "byPhase": {
-          "phase3": {
-            "completed": 0,
+          "phase2": {
+            "completed": 1,
             "terminated": 0,
             "total": 1,
             "completionRatePct": null
           },
-          "phase2": {
-            "completed": 1,
+          "phase3": {
+            "completed": 0,
             "terminated": 0,
             "total": 1,
             "completionRatePct": null
@@ -18959,16 +18959,16 @@
         "ongoing": 7,
         "withResults": 0,
         "byPhase": {
-          "phase2": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 4,
-            "completionRatePct": null
-          },
           "other": {
             "completed": 0,
             "terminated": 0,
             "total": 3,
+            "completionRatePct": null
+          },
+          "phase2": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 4,
             "completionRatePct": null
           },
           "phase1": {
@@ -19060,16 +19060,16 @@
             "total": 3,
             "completionRatePct": null
           },
-          "other": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 1,
-            "completionRatePct": null
-          },
           "phase1": {
             "completed": 0,
             "terminated": 0,
             "total": 2,
+            "completionRatePct": null
+          },
+          "other": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 1,
             "completionRatePct": null
           }
         },
@@ -19149,12 +19149,6 @@
         "ongoing": 6,
         "withResults": 1,
         "byPhase": {
-          "phase2": {
-            "completed": 8,
-            "terminated": 0,
-            "total": 13,
-            "completionRatePct": 100
-          },
           "phase1": {
             "completed": 13,
             "terminated": 2,
@@ -19166,6 +19160,12 @@
             "terminated": 1,
             "total": 4,
             "completionRatePct": 75
+          },
+          "phase2": {
+            "completed": 8,
+            "terminated": 0,
+            "total": 13,
+            "completionRatePct": 100
           }
         },
         "concluded": 29,
@@ -19327,14 +19327,14 @@
         "ongoing": 5,
         "withResults": 0,
         "byPhase": {
-          "phase2": {
-            "completed": 0,
+          "phase1": {
+            "completed": 3,
             "terminated": 0,
             "total": 4,
             "completionRatePct": null
           },
-          "phase1": {
-            "completed": 3,
+          "phase2": {
+            "completed": 0,
             "terminated": 0,
             "total": 4,
             "completionRatePct": null
@@ -19416,17 +19416,17 @@
         "ongoing": 3,
         "withResults": 21,
         "byPhase": {
-          "phase2": {
-            "completed": 12,
-            "terminated": 1,
-            "total": 16,
-            "completionRatePct": 92
-          },
           "phase1": {
             "completed": 17,
             "terminated": 0,
             "total": 18,
             "completionRatePct": 100
+          },
+          "phase2": {
+            "completed": 12,
+            "terminated": 1,
+            "total": 16,
+            "completionRatePct": 92
           },
           "other": {
             "completed": 1,
@@ -19796,16 +19796,16 @@
             "total": 4,
             "completionRatePct": null
           },
-          "phase2": {
-            "completed": 2,
-            "terminated": 1,
-            "total": 3,
-            "completionRatePct": null
-          },
           "other": {
             "completed": 0,
             "terminated": 1,
             "total": 4,
+            "completionRatePct": null
+          },
+          "phase2": {
+            "completed": 2,
+            "terminated": 1,
+            "total": 3,
             "completionRatePct": null
           }
         },
@@ -19974,17 +19974,17 @@
         "ongoing": 5,
         "withResults": 1,
         "byPhase": {
-          "phase1": {
-            "completed": 1,
-            "terminated": 4,
-            "total": 6,
-            "completionRatePct": 20
-          },
           "phase2": {
             "completed": 1,
             "terminated": 1,
             "total": 5,
             "completionRatePct": null
+          },
+          "phase1": {
+            "completed": 1,
+            "terminated": 4,
+            "total": 6,
+            "completionRatePct": 20
           },
           "other": {
             "completed": 0,
@@ -20007,10 +20007,10 @@
       "activeTrials": 3,
       "phase3": 0,
       "counts": {
-        "total": 65,
+        "total": 66,
         "curated": 0,
         "registry": 6,
-        "edgar": 59,
+        "edgar": 60,
         "upcoming": 2
       },
       "nextDate": "2027-07-30",
@@ -20081,15 +20081,15 @@
             "total": 4,
             "completionRatePct": null
           },
-          "other": {
-            "completed": 0,
-            "terminated": 1,
-            "total": 1,
-            "completionRatePct": null
-          },
           "phase3": {
             "completed": 1,
             "terminated": 0,
+            "total": 1,
+            "completionRatePct": null
+          },
+          "other": {
+            "completed": 0,
+            "terminated": 1,
             "total": 1,
             "completionRatePct": null
           }
@@ -20182,16 +20182,16 @@
             "total": 11,
             "completionRatePct": 75
           },
-          "other": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 1,
-            "completionRatePct": null
-          },
           "phase1": {
             "completed": 2,
             "terminated": 0,
             "total": 2,
+            "completionRatePct": null
+          },
+          "other": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 1,
             "completionRatePct": null
           }
         },
@@ -20271,16 +20271,16 @@
         "ongoing": 2,
         "withResults": 1,
         "byPhase": {
-          "phase3": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 1,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 2,
             "terminated": 0,
             "total": 3,
+            "completionRatePct": null
+          },
+          "phase3": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 1,
             "completionRatePct": null
           }
         },
@@ -20366,12 +20366,6 @@
             "total": 4,
             "completionRatePct": 75
           },
-          "phase1": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 1,
-            "completionRatePct": null
-          },
           "phase3": {
             "completed": 1,
             "terminated": 0,
@@ -20380,6 +20374,12 @@
           },
           "other": {
             "completed": 0,
+            "terminated": 0,
+            "total": 1,
+            "completionRatePct": null
+          },
+          "phase1": {
+            "completed": 1,
             "terminated": 0,
             "total": 1,
             "completionRatePct": null
@@ -20556,14 +20556,14 @@
         "ongoing": 3,
         "withResults": 1,
         "byPhase": {
-          "phase3": {
-            "completed": 1,
+          "other": {
+            "completed": 0,
             "terminated": 0,
             "total": 2,
             "completionRatePct": null
           },
-          "other": {
-            "completed": 0,
+          "phase3": {
+            "completed": 1,
             "terminated": 0,
             "total": 2,
             "completionRatePct": null
@@ -20651,16 +20651,16 @@
             "total": 1,
             "completionRatePct": null
           },
-          "phase3": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 1,
-            "completionRatePct": null
-          },
           "other": {
             "completed": 1,
             "terminated": 0,
             "total": 2,
+            "completionRatePct": null
+          },
+          "phase3": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 1,
             "completionRatePct": null
           }
         },
@@ -20829,14 +20829,14 @@
         "ongoing": 1,
         "withResults": 0,
         "byPhase": {
-          "phase2": {
-            "completed": 1,
+          "phase3": {
+            "completed": 0,
             "terminated": 0,
             "total": 1,
             "completionRatePct": null
           },
-          "phase3": {
-            "completed": 0,
+          "phase2": {
+            "completed": 1,
             "terminated": 0,
             "total": 1,
             "completionRatePct": null
@@ -21001,12 +21001,6 @@
         "ongoing": 5,
         "withResults": 21,
         "byPhase": {
-          "phase1": {
-            "completed": 6,
-            "terminated": 0,
-            "total": 7,
-            "completionRatePct": 100
-          },
           "phase3": {
             "completed": 19,
             "terminated": 0,
@@ -21015,6 +21009,12 @@
           },
           "phase2": {
             "completed": 7,
+            "terminated": 0,
+            "total": 7,
+            "completionRatePct": 100
+          },
+          "phase1": {
+            "completed": 6,
             "terminated": 0,
             "total": 7,
             "completionRatePct": 100
@@ -21274,11 +21274,11 @@
         "ongoing": 1,
         "withResults": 22,
         "byPhase": {
-          "phase2": {
-            "completed": 9,
-            "terminated": 0,
-            "total": 9,
-            "completionRatePct": 100
+          "phase1": {
+            "completed": 12,
+            "terminated": 2,
+            "total": 14,
+            "completionRatePct": 86
           },
           "other": {
             "completed": 7,
@@ -21286,17 +21286,17 @@
             "total": 7,
             "completionRatePct": 100
           },
+          "phase2": {
+            "completed": 9,
+            "terminated": 0,
+            "total": 9,
+            "completionRatePct": 100
+          },
           "phase3": {
             "completed": 1,
             "terminated": 1,
             "total": 3,
             "completionRatePct": null
-          },
-          "phase1": {
-            "completed": 12,
-            "terminated": 2,
-            "total": 14,
-            "completionRatePct": 86
           }
         },
         "concluded": 32,
@@ -21375,6 +21375,12 @@
         "ongoing": 2,
         "withResults": 2,
         "byPhase": {
+          "phase1": {
+            "completed": 4,
+            "terminated": 0,
+            "total": 5,
+            "completionRatePct": 100
+          },
           "phase2": {
             "completed": 2,
             "terminated": 0,
@@ -21386,12 +21392,6 @@
             "terminated": 0,
             "total": 3,
             "completionRatePct": null
-          },
-          "phase1": {
-            "completed": 4,
-            "terminated": 0,
-            "total": 5,
-            "completionRatePct": 100
           }
         },
         "concluded": 8,
@@ -21470,29 +21470,29 @@
         "ongoing": 2,
         "withResults": 13,
         "byPhase": {
-          "phase1": {
-            "completed": 10,
-            "terminated": 0,
-            "total": 10,
-            "completionRatePct": 100
-          },
           "phase2": {
             "completed": 6,
             "terminated": 1,
             "total": 7,
             "completionRatePct": 86
           },
-          "other": {
-            "completed": 2,
+          "phase1": {
+            "completed": 10,
             "terminated": 0,
-            "total": 2,
-            "completionRatePct": null
+            "total": 10,
+            "completionRatePct": 100
           },
           "phase3": {
             "completed": 8,
             "terminated": 0,
             "total": 10,
             "completionRatePct": 100
+          },
+          "other": {
+            "completed": 2,
+            "terminated": 0,
+            "total": 2,
+            "completionRatePct": null
           }
         },
         "concluded": 27,
@@ -21571,14 +21571,14 @@
         "ongoing": 1,
         "withResults": 0,
         "byPhase": {
-          "phase3": {
-            "completed": 0,
+          "phase1": {
+            "completed": 1,
             "terminated": 0,
             "total": 1,
             "completionRatePct": null
           },
-          "phase1": {
-            "completed": 1,
+          "phase3": {
+            "completed": 0,
             "terminated": 0,
             "total": 1,
             "completionRatePct": null
@@ -21761,12 +21761,6 @@
         "ongoing": 7,
         "withResults": 0,
         "byPhase": {
-          "other": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 2,
-            "completionRatePct": null
-          },
           "phase1": {
             "completed": 0,
             "terminated": 0,
@@ -21777,6 +21771,12 @@
             "completed": 0,
             "terminated": 0,
             "total": 3,
+            "completionRatePct": null
+          },
+          "other": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 2,
             "completionRatePct": null
           }
         },
@@ -21856,6 +21856,12 @@
         "ongoing": 4,
         "withResults": 21,
         "byPhase": {
+          "phase1": {
+            "completed": 12,
+            "terminated": 2,
+            "total": 15,
+            "completionRatePct": 86
+          },
           "phase2": {
             "completed": 18,
             "terminated": 6,
@@ -21867,12 +21873,6 @@
             "terminated": 3,
             "total": 14,
             "completionRatePct": 70
-          },
-          "phase1": {
-            "completed": 12,
-            "terminated": 2,
-            "total": 15,
-            "completionRatePct": 86
           },
           "other": {
             "completed": 0,
@@ -22046,7 +22046,7 @@
             "total": 2,
             "completionRatePct": null
           },
-          "phase3": {
+          "other": {
             "completed": 0,
             "terminated": 0,
             "total": 1,
@@ -22058,7 +22058,7 @@
             "total": 3,
             "completionRatePct": null
           },
-          "other": {
+          "phase3": {
             "completed": 0,
             "terminated": 0,
             "total": 1,
@@ -22313,12 +22313,6 @@
         "ongoing": 5,
         "withResults": 0,
         "byPhase": {
-          "other": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 1,
-            "completionRatePct": null
-          },
           "phase1": {
             "completed": 6,
             "terminated": 0,
@@ -22329,6 +22323,12 @@
             "completed": 0,
             "terminated": 0,
             "total": 3,
+            "completionRatePct": null
+          },
+          "other": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 1,
             "completionRatePct": null
           }
         },
@@ -22408,17 +22408,17 @@
         "ongoing": 2,
         "withResults": 8,
         "byPhase": {
-          "phase1": {
-            "completed": 3,
-            "terminated": 1,
-            "total": 4,
-            "completionRatePct": 75
-          },
           "phase2": {
             "completed": 9,
             "terminated": 2,
             "total": 12,
             "completionRatePct": 82
+          },
+          "phase1": {
+            "completed": 3,
+            "terminated": 1,
+            "total": 4,
+            "completionRatePct": 75
           },
           "phase3": {
             "completed": 0,
@@ -22509,12 +22509,6 @@
             "total": 297,
             "completionRatePct": 96
           },
-          "phase1": {
-            "completed": 20,
-            "terminated": 0,
-            "total": 20,
-            "completionRatePct": 100
-          },
           "other": {
             "completed": 143,
             "terminated": 7,
@@ -22526,6 +22520,12 @@
             "terminated": 2,
             "total": 35,
             "completionRatePct": 94
+          },
+          "phase1": {
+            "completed": 20,
+            "terminated": 0,
+            "total": 20,
+            "completionRatePct": 100
           }
         },
         "concluded": 503,
@@ -22687,12 +22687,6 @@
         "ongoing": 4,
         "withResults": 8,
         "byPhase": {
-          "phase1": {
-            "completed": 2,
-            "terminated": 0,
-            "total": 2,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 1,
             "terminated": 6,
@@ -22703,6 +22697,12 @@
             "completed": 0,
             "terminated": 1,
             "total": 1,
+            "completionRatePct": null
+          },
+          "phase1": {
+            "completed": 2,
+            "terminated": 0,
+            "total": 2,
             "completionRatePct": null
           }
         },
@@ -22782,16 +22782,16 @@
         "ongoing": 1,
         "withResults": 0,
         "byPhase": {
-          "phase3": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 1,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 1,
             "terminated": 1,
             "total": 2,
+            "completionRatePct": null
+          },
+          "phase3": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 1,
             "completionRatePct": null
           }
         },
@@ -22871,14 +22871,14 @@
         "ongoing": 1,
         "withResults": 1,
         "byPhase": {
-          "phase3": {
-            "completed": 0,
+          "phase2": {
+            "completed": 1,
             "terminated": 0,
             "total": 1,
             "completionRatePct": null
           },
-          "phase2": {
-            "completed": 1,
+          "phase3": {
+            "completed": 0,
             "terminated": 0,
             "total": 1,
             "completionRatePct": null
@@ -23049,14 +23049,14 @@
         "ongoing": 1,
         "withResults": 1,
         "byPhase": {
-          "phase2": {
-            "completed": 1,
+          "phase3": {
+            "completed": 0,
             "terminated": 0,
             "total": 1,
             "completionRatePct": null
           },
-          "phase3": {
-            "completed": 0,
+          "phase2": {
+            "completed": 1,
             "terminated": 0,
             "total": 1,
             "completionRatePct": null
@@ -23144,17 +23144,17 @@
             "total": 2,
             "completionRatePct": null
           },
-          "other": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 1,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 4,
             "terminated": 0,
             "total": 4,
             "completionRatePct": 100
+          },
+          "other": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 1,
+            "completionRatePct": null
           }
         },
         "concluded": 5,
@@ -23239,16 +23239,16 @@
             "total": 4,
             "completionRatePct": null
           },
-          "other": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 1,
-            "completionRatePct": null
-          },
           "phase3": {
             "completed": 1,
             "terminated": 0,
             "total": 2,
+            "completionRatePct": null
+          },
+          "other": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 1,
             "completionRatePct": null
           },
           "phase2": {
@@ -23334,6 +23334,12 @@
         "ongoing": 1,
         "withResults": 8,
         "byPhase": {
+          "phase1": {
+            "completed": 2,
+            "terminated": 1,
+            "total": 3,
+            "completionRatePct": null
+          },
           "phase3": {
             "completed": 6,
             "terminated": 2,
@@ -23345,12 +23351,6 @@
             "terminated": 2,
             "total": 11,
             "completionRatePct": 82
-          },
-          "phase1": {
-            "completed": 2,
-            "terminated": 1,
-            "total": 3,
-            "completionRatePct": null
           }
         },
         "concluded": 23,
@@ -23429,12 +23429,6 @@
         "ongoing": 3,
         "withResults": 1,
         "byPhase": {
-          "phase3": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 3,
-            "completionRatePct": null
-          },
           "other": {
             "completed": 0,
             "terminated": 0,
@@ -23445,6 +23439,12 @@
             "completed": 1,
             "terminated": 0,
             "total": 1,
+            "completionRatePct": null
+          },
+          "phase3": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 3,
             "completionRatePct": null
           }
         },
@@ -23530,17 +23530,17 @@
             "total": 26,
             "completionRatePct": 100
           },
-          "phase2": {
-            "completed": 16,
-            "terminated": 1,
-            "total": 17,
-            "completionRatePct": 94
-          },
           "phase3": {
             "completed": 14,
             "terminated": 3,
             "total": 18,
             "completionRatePct": 82
+          },
+          "phase2": {
+            "completed": 16,
+            "terminated": 1,
+            "total": 17,
+            "completionRatePct": 94
           }
         },
         "concluded": 59,
@@ -23619,12 +23619,6 @@
         "ongoing": 1,
         "withResults": 3,
         "byPhase": {
-          "other": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 1,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 3,
             "terminated": 1,
@@ -23641,6 +23635,12 @@
             "completed": 1,
             "terminated": 0,
             "total": 2,
+            "completionRatePct": null
+          },
+          "other": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 1,
             "completionRatePct": null
           }
         },
@@ -23815,17 +23815,17 @@
         "ongoing": 3,
         "withResults": 1,
         "byPhase": {
-          "phase1": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 3,
-            "completionRatePct": null
-          },
           "phase3": {
             "completed": 8,
             "terminated": 0,
             "total": 9,
             "completionRatePct": 100
+          },
+          "phase1": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 3,
+            "completionRatePct": null
           }
         },
         "concluded": 9,
@@ -23904,16 +23904,16 @@
         "ongoing": 1,
         "withResults": 0,
         "byPhase": {
-          "phase1": {
-            "completed": 2,
-            "terminated": 0,
-            "total": 2,
-            "completionRatePct": null
-          },
           "phase3": {
             "completed": 0,
             "terminated": 0,
             "total": 1,
+            "completionRatePct": null
+          },
+          "phase1": {
+            "completed": 2,
+            "terminated": 0,
+            "total": 2,
             "completionRatePct": null
           }
         },
@@ -23993,16 +23993,16 @@
         "ongoing": 1,
         "withResults": 1,
         "byPhase": {
-          "phase2": {
-            "completed": 2,
-            "terminated": 0,
-            "total": 2,
-            "completionRatePct": null
-          },
           "phase3": {
             "completed": 0,
             "terminated": 0,
             "total": 1,
+            "completionRatePct": null
+          },
+          "phase2": {
+            "completed": 2,
+            "terminated": 0,
+            "total": 2,
             "completionRatePct": null
           }
         },
@@ -24082,16 +24082,16 @@
         "ongoing": 3,
         "withResults": 0,
         "byPhase": {
-          "other": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 1,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 0,
             "terminated": 0,
             "total": 3,
+            "completionRatePct": null
+          },
+          "other": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 1,
             "completionRatePct": null
           }
         },
@@ -24171,12 +24171,6 @@
         "ongoing": 1,
         "withResults": 10,
         "byPhase": {
-          "phase1": {
-            "completed": 10,
-            "terminated": 0,
-            "total": 10,
-            "completionRatePct": 100
-          },
           "phase2": {
             "completed": 11,
             "terminated": 1,
@@ -24188,6 +24182,12 @@
             "terminated": 2,
             "total": 9,
             "completionRatePct": 75
+          },
+          "phase1": {
+            "completed": 10,
+            "terminated": 0,
+            "total": 10,
+            "completionRatePct": 100
           }
         },
         "concluded": 30,
@@ -24266,12 +24266,6 @@
         "ongoing": 4,
         "withResults": 0,
         "byPhase": {
-          "phase2": {
-            "completed": 2,
-            "terminated": 0,
-            "total": 3,
-            "completionRatePct": null
-          },
           "phase1": {
             "completed": 2,
             "terminated": 0,
@@ -24282,6 +24276,12 @@
             "completed": 0,
             "terminated": 0,
             "total": 1,
+            "completionRatePct": null
+          },
+          "phase2": {
+            "completed": 2,
+            "terminated": 0,
+            "total": 3,
             "completionRatePct": null
           }
         },
@@ -24394,7 +24394,7 @@
         "edgar": 1,
         "upcoming": 2
       },
-      "nextDate": "2027-06-15",
+      "nextDate": "2028-03-15",
       "metrics": {
         "reportingCurrency": null,
         "taxonomy": null,
@@ -24438,9 +24438,9 @@
         "phase2Count": 1,
         "leadPhase": 3,
         "upcomingCount": 2,
-        "nextCatalystDate": "2027-06-15",
+        "nextCatalystDate": "2028-03-15",
         "nextCatalystType": "Trial Milestone",
-        "daysToNextCatalyst": 245
+        "daysToNextCatalyst": 519
       },
       "trialStats": {
         "completed": 1,
@@ -24889,15 +24889,15 @@
         "ongoing": 1,
         "withResults": 3,
         "byPhase": {
-          "phase3": {
-            "completed": 0,
-            "terminated": 1,
-            "total": 2,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 2,
             "terminated": 0,
+            "total": 2,
+            "completionRatePct": null
+          },
+          "phase3": {
+            "completed": 0,
+            "terminated": 1,
             "total": 2,
             "completionRatePct": null
           }
@@ -24984,16 +24984,16 @@
             "total": 6,
             "completionRatePct": null
           },
-          "phase1": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 2,
-            "completionRatePct": null
-          },
           "phase3": {
             "completed": 0,
             "terminated": 0,
             "total": 1,
+            "completionRatePct": null
+          },
+          "phase1": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 2,
             "completionRatePct": null
           }
         },
@@ -25168,15 +25168,15 @@
         "ongoing": 1,
         "withResults": 0,
         "byPhase": {
-          "phase2": {
-            "completed": 0,
-            "terminated": 1,
-            "total": 1,
-            "completionRatePct": null
-          },
           "phase3": {
             "completed": 0,
             "terminated": 0,
+            "total": 1,
+            "completionRatePct": null
+          },
+          "phase2": {
+            "completed": 0,
+            "terminated": 1,
             "total": 1,
             "completionRatePct": null
           }
@@ -25447,13 +25447,13 @@
             "total": 6,
             "completionRatePct": 33
           },
-          "phase3": {
+          "other": {
             "completed": 0,
             "terminated": 0,
             "total": 1,
             "completionRatePct": null
           },
-          "other": {
+          "phase3": {
             "completed": 0,
             "terminated": 0,
             "total": 1,
@@ -25536,16 +25536,16 @@
         "ongoing": 8,
         "withResults": 0,
         "byPhase": {
-          "other": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 8,
-            "completionRatePct": null
-          },
           "phase3": {
             "completed": 0,
             "terminated": 0,
             "total": 1,
+            "completionRatePct": null
+          },
+          "other": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 8,
             "completionRatePct": null
           }
         },
@@ -25625,6 +25625,12 @@
         "ongoing": 4,
         "withResults": 16,
         "byPhase": {
+          "phase1": {
+            "completed": 21,
+            "terminated": 0,
+            "total": 22,
+            "completionRatePct": 100
+          },
           "phase2": {
             "completed": 11,
             "terminated": 2,
@@ -25636,12 +25642,6 @@
             "terminated": 5,
             "total": 13,
             "completionRatePct": 62
-          },
-          "phase1": {
-            "completed": 21,
-            "terminated": 0,
-            "total": 22,
-            "completionRatePct": 100
           },
           "other": {
             "completed": 5,
@@ -25726,16 +25726,16 @@
         "ongoing": 2,
         "withResults": 0,
         "byPhase": {
-          "phase2": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 4,
-            "completionRatePct": null
-          },
           "phase1": {
             "completed": 0,
             "terminated": 1,
             "total": 1,
+            "completionRatePct": null
+          },
+          "phase2": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 4,
             "completionRatePct": null
           }
         },
@@ -25904,11 +25904,11 @@
         "ongoing": 6,
         "withResults": 3,
         "byPhase": {
-          "other": {
-            "completed": 0,
-            "terminated": 2,
-            "total": 2,
-            "completionRatePct": null
+          "phase1": {
+            "completed": 6,
+            "terminated": 8,
+            "total": 19,
+            "completionRatePct": 43
           },
           "phase2": {
             "completed": 1,
@@ -25916,11 +25916,11 @@
             "total": 4,
             "completionRatePct": null
           },
-          "phase1": {
-            "completed": 6,
-            "terminated": 8,
-            "total": 19,
-            "completionRatePct": 43
+          "other": {
+            "completed": 0,
+            "terminated": 2,
+            "total": 2,
+            "completionRatePct": null
           }
         },
         "concluded": 19,
@@ -25999,12 +25999,6 @@
         "ongoing": 5,
         "withResults": 2,
         "byPhase": {
-          "phase2": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 4,
-            "completionRatePct": null
-          },
           "other": {
             "completed": 0,
             "terminated": 0,
@@ -26015,6 +26009,12 @@
             "completed": 1,
             "terminated": 0,
             "total": 2,
+            "completionRatePct": null
+          },
+          "phase2": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 4,
             "completionRatePct": null
           }
         },
@@ -26094,6 +26094,12 @@
         "ongoing": 3,
         "withResults": 17,
         "byPhase": {
+          "phase3": {
+            "completed": 7,
+            "terminated": 0,
+            "total": 10,
+            "completionRatePct": 100
+          },
           "phase2": {
             "completed": 10,
             "terminated": 1,
@@ -26104,12 +26110,6 @@
             "completed": 13,
             "terminated": 0,
             "total": 14,
-            "completionRatePct": 100
-          },
-          "phase3": {
-            "completed": 7,
-            "terminated": 0,
-            "total": 10,
             "completionRatePct": 100
           }
         },
@@ -26195,11 +26195,11 @@
             "total": 16,
             "completionRatePct": 58
           },
-          "phase3": {
-            "completed": 2,
-            "terminated": 1,
-            "total": 4,
-            "completionRatePct": null
+          "phase1": {
+            "completed": 6,
+            "terminated": 2,
+            "total": 9,
+            "completionRatePct": 75
           },
           "other": {
             "completed": 0,
@@ -26207,11 +26207,11 @@
             "total": 2,
             "completionRatePct": null
           },
-          "phase1": {
-            "completed": 6,
-            "terminated": 2,
-            "total": 9,
-            "completionRatePct": 75
+          "phase3": {
+            "completed": 2,
+            "terminated": 1,
+            "total": 4,
+            "completionRatePct": null
           }
         },
         "concluded": 26,
@@ -26551,6 +26551,12 @@
         "ongoing": 5,
         "withResults": 0,
         "byPhase": {
+          "phase1": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 2,
+            "completionRatePct": null
+          },
           "phase2": {
             "completed": 0,
             "terminated": 0,
@@ -26561,12 +26567,6 @@
             "completed": 0,
             "terminated": 0,
             "total": 1,
-            "completionRatePct": null
-          },
-          "phase1": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 2,
             "completionRatePct": null
           }
         },
@@ -26652,17 +26652,17 @@
             "total": 8,
             "completionRatePct": 80
           },
-          "other": {
-            "completed": 2,
-            "terminated": 0,
-            "total": 3,
-            "completionRatePct": null
-          },
           "phase3": {
             "completed": 5,
             "terminated": 0,
             "total": 5,
             "completionRatePct": 100
+          },
+          "other": {
+            "completed": 2,
+            "terminated": 0,
+            "total": 3,
+            "completionRatePct": null
           },
           "phase1": {
             "completed": 0,
@@ -26747,17 +26747,17 @@
         "ongoing": 2,
         "withResults": 2,
         "byPhase": {
-          "phase1": {
-            "completed": 7,
-            "terminated": 2,
-            "total": 9,
-            "completionRatePct": 78
-          },
           "phase2": {
             "completed": 1,
             "terminated": 0,
             "total": 4,
             "completionRatePct": null
+          },
+          "phase1": {
+            "completed": 7,
+            "terminated": 2,
+            "total": 9,
+            "completionRatePct": 78
           }
         },
         "concluded": 10,
@@ -26919,12 +26919,6 @@
         "ongoing": 2,
         "withResults": 1,
         "byPhase": {
-          "phase1": {
-            "completed": 0,
-            "terminated": 1,
-            "total": 1,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 0,
             "terminated": 1,
@@ -26935,6 +26929,12 @@
             "completed": 1,
             "terminated": 0,
             "total": 2,
+            "completionRatePct": null
+          },
+          "phase1": {
+            "completed": 0,
+            "terminated": 1,
+            "total": 1,
             "completionRatePct": null
           }
         },
@@ -27103,13 +27103,13 @@
         "ongoing": 4,
         "withResults": 0,
         "byPhase": {
-          "phase2": {
+          "phase1": {
             "completed": 0,
             "terminated": 0,
             "total": 2,
             "completionRatePct": null
           },
-          "phase1": {
+          "phase2": {
             "completed": 0,
             "terminated": 0,
             "total": 2,
@@ -27281,17 +27281,17 @@
         "ongoing": 8,
         "withResults": 4,
         "byPhase": {
-          "phase1": {
-            "completed": 13,
-            "terminated": 3,
-            "total": 22,
-            "completionRatePct": 81
-          },
           "phase2": {
             "completed": 3,
             "terminated": 3,
             "total": 8,
             "completionRatePct": 50
+          },
+          "phase1": {
+            "completed": 13,
+            "terminated": 3,
+            "total": 22,
+            "completionRatePct": 81
           }
         },
         "concluded": 22,
@@ -27370,16 +27370,16 @@
         "ongoing": 2,
         "withResults": 1,
         "byPhase": {
-          "phase1": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 1,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 1,
             "terminated": 0,
             "total": 3,
+            "completionRatePct": null
+          },
+          "phase1": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 1,
             "completionRatePct": null
           }
         },
@@ -27637,13 +27637,13 @@
         "ongoing": 4,
         "withResults": 0,
         "byPhase": {
-          "other": {
+          "phase2": {
             "completed": 0,
             "terminated": 0,
             "total": 2,
             "completionRatePct": null
           },
-          "phase2": {
+          "other": {
             "completed": 0,
             "terminated": 0,
             "total": 2,
@@ -27815,16 +27815,16 @@
         "ongoing": 10,
         "withResults": 1,
         "byPhase": {
-          "phase2": {
-            "completed": 0,
-            "terminated": 1,
-            "total": 3,
-            "completionRatePct": null
-          },
           "phase1": {
             "completed": 0,
             "terminated": 1,
             "total": 9,
+            "completionRatePct": null
+          },
+          "phase2": {
+            "completed": 0,
+            "terminated": 1,
+            "total": 3,
             "completionRatePct": null
           }
         },
@@ -28076,12 +28076,6 @@
         "ongoing": 5,
         "withResults": 1,
         "byPhase": {
-          "phase2": {
-            "completed": 0,
-            "terminated": 2,
-            "total": 4,
-            "completionRatePct": null
-          },
           "phase1": {
             "completed": 2,
             "terminated": 0,
@@ -28092,6 +28086,12 @@
             "completed": 0,
             "terminated": 0,
             "total": 1,
+            "completionRatePct": null
+          },
+          "phase2": {
+            "completed": 0,
+            "terminated": 2,
+            "total": 4,
             "completionRatePct": null
           }
         },
@@ -28171,16 +28171,16 @@
         "ongoing": 2,
         "withResults": 0,
         "byPhase": {
-          "phase1": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 1,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 0,
             "terminated": 0,
             "total": 2,
+            "completionRatePct": null
+          },
+          "phase1": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 1,
             "completionRatePct": null
           }
         },
@@ -28349,12 +28349,6 @@
         "ongoing": 4,
         "withResults": 0,
         "byPhase": {
-          "phase1": {
-            "completed": 1,
-            "terminated": 1,
-            "total": 3,
-            "completionRatePct": null
-          },
           "phase2": {
             "completed": 1,
             "terminated": 0,
@@ -28365,6 +28359,12 @@
             "completed": 0,
             "terminated": 0,
             "total": 1,
+            "completionRatePct": null
+          },
+          "phase1": {
+            "completed": 1,
+            "terminated": 1,
+            "total": 3,
             "completionRatePct": null
           }
         },
@@ -28545,16 +28545,16 @@
             "total": 6,
             "completionRatePct": 100
           },
-          "phase1": {
-            "completed": 1,
-            "terminated": 0,
-            "total": 1,
-            "completionRatePct": null
-          },
           "other": {
             "completed": 0,
             "terminated": 1,
             "total": 4,
+            "completionRatePct": null
+          },
+          "phase1": {
+            "completed": 1,
+            "terminated": 0,
+            "total": 1,
             "completionRatePct": null
           }
         },
@@ -28640,16 +28640,16 @@
             "total": 13,
             "completionRatePct": 100
           },
-          "phase2": {
-            "completed": 0,
-            "terminated": 0,
-            "total": 4,
-            "completionRatePct": null
-          },
           "phase3": {
             "completed": 1,
             "terminated": 0,
             "total": 1,
+            "completionRatePct": null
+          },
+          "phase2": {
+            "completed": 0,
+            "terminated": 0,
+            "total": 4,
             "completionRatePct": null
           }
         },

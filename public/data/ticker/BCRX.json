@@ -67,6 +67,12 @@
     "ongoing": 4,
     "withResults": 21,
     "byPhase": {
+      "phase1": {
+        "completed": 12,
+        "terminated": 2,
+        "total": 15,
+        "completionRatePct": 86
+      },
       "phase2": {
         "completed": 18,
         "terminated": 6,
@@ -78,12 +84,6 @@
         "terminated": 3,
         "total": 14,
         "completionRatePct": 70
-      },
-      "phase1": {
-        "completed": 12,
-        "terminated": 2,
-        "total": 15,
-        "completionRatePct": 86
       },
       "other": {
         "completed": 0,
@@ -113,21 +113,6 @@
       "status": "past"
     },
     {
-      "id": "ct-BCRX-NCT02870972",
-      "ticker": "BCRX",
-      "date": "2017-08-15",
-      "title": "Efficacy and Safety of BCX7353 to Prevent Angioedema Attacks in Subjects With Hereditary Angioedema",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Hereditary Angioedema (HAE) · 75 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02870972",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02870972",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-BCRX-NCT03136237",
       "ticker": "BCRX",
       "date": "2017-08-15",
@@ -139,6 +124,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT03136237",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03136237",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-BCRX-NCT02870972",
+      "ticker": "BCRX",
+      "date": "2017-08-15",
+      "title": "Efficacy and Safety of BCX7353 to Prevent Angioedema Attacks in Subjects With Hereditary Angioedema",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Hereditary Angioedema (HAE) · 75 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT02870972",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02870972",
       "origin": "registry",
       "status": "past"
     },

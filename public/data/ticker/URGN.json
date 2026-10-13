@@ -67,16 +67,16 @@
     "ongoing": 6,
     "withResults": 6,
     "byPhase": {
-      "phase2": {
-        "completed": 3,
-        "terminated": 1,
-        "total": 5,
-        "completionRatePct": 75
-      },
       "phase3": {
         "completed": 2,
         "terminated": 1,
         "total": 7,
+        "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 2,
         "completionRatePct": null
       },
       "other": {
@@ -85,11 +85,11 @@
         "total": 6,
         "completionRatePct": null
       },
-      "phase1": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
+      "phase2": {
+        "completed": 3,
+        "terminated": 1,
+        "total": 5,
+        "completionRatePct": 75
       }
     },
     "concluded": 14,
@@ -435,7 +435,7 @@
       "type": "Trial Milestone",
       "phase": "Phase 1",
       "estimated": false,
-      "summary": "Bladder (Urothelial, Transitional Cell) Cancer, NMIBC, Urothelial Carcinoma Bladder · 30 participants · Status: Not Yet Recruiting",
+      "summary": "Bladder (Urothelial, Transitional Cell) Cancer, NMIBC, Urothelial Carcinoma Bladder · 30 participants · Status: Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT07725796",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07725796",

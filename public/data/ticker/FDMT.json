@@ -67,28 +67,28 @@
     "ongoing": 10,
     "withResults": 0,
     "byPhase": {
-      "other": {
-        "completed": 0,
-        "terminated": 1,
-        "total": 1,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 0,
         "terminated": 0,
         "total": 6,
         "completionRatePct": null
       },
-      "phase3": {
+      "other": {
         "completed": 0,
-        "terminated": 0,
-        "total": 3,
+        "terminated": 1,
+        "total": 1,
         "completionRatePct": null
       },
       "phase1": {
         "completed": 0,
         "terminated": 0,
         "total": 1,
+        "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 3,
         "completionRatePct": null
       }
     },
@@ -491,7 +491,7 @@
       "id": "ct-FDMT-NCT07867080",
       "ticker": "FDMT",
       "date": "2029-01-15",
-      "title": "Phase 3 Study of Intravitreal 4D-150 in Adults With Diabetic Macular Edema (DME) (4D-150-C005)",
+      "title": "A Phase 3 Trial for Intravitreal Injection of 4D-150 in Adults With Diabetic Macular Edema (DME).",
       "type": "Trial Milestone",
       "phase": "Phase 3",
       "estimated": false,

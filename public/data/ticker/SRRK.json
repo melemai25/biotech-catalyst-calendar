@@ -79,16 +79,16 @@
         "total": 2,
         "completionRatePct": null
       },
-      "phase2": {
-        "completed": 2,
-        "terminated": 0,
-        "total": 4,
-        "completionRatePct": null
-      },
       "other": {
         "completed": 0,
         "terminated": 0,
         "total": 1,
+        "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 2,
+        "terminated": 0,
+        "total": 4,
         "completionRatePct": null
       }
     },

@@ -67,16 +67,16 @@
     "ongoing": 3,
     "withResults": 0,
     "byPhase": {
-      "phase2": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
-      },
       "phase3": {
         "completed": 0,
         "terminated": 0,
         "total": 1,
+        "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 2,
         "completionRatePct": null
       }
     },
@@ -397,6 +397,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-08-04",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/908259/000149315226035999/form8-k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-OTLC-0001493152-26-046751",
+      "ticker": "OTLC",
+      "date": "2026-10-13",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/908259/000149315226046751/form8-k.htm",
       "origin": "edgar",
       "status": "past"
     },

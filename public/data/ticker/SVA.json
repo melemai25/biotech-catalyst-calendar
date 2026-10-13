@@ -67,16 +67,16 @@
     "ongoing": 25,
     "withResults": 0,
     "byPhase": {
-      "phase3": {
-        "completed": 16,
-        "terminated": 0,
-        "total": 27,
-        "completionRatePct": 100
-      },
       "other": {
         "completed": 36,
         "terminated": 0,
         "total": 47,
+        "completionRatePct": 100
+      },
+      "phase3": {
+        "completed": 16,
+        "terminated": 0,
+        "total": 27,
         "completionRatePct": 100
       },
       "phase1": {
@@ -368,21 +368,6 @@
       "status": "past"
     },
     {
-      "id": "ct-SVA-NCT05499351",
-      "ticker": "SVA",
-      "date": "2021-12-05",
-      "title": "A Study of Booster Immunization With COVID-19 Vaccine,Inactivated Co -Administration With Influenza Vaccine and Pneumococcal Polysaccharide Vaccine",
-      "type": "Trial Milestone",
-      "phase": "Phase 4",
-      "estimated": false,
-      "summary": "COVID-19 · 3,000 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05499351",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05499351",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-SVA-NCT05107557",
       "ticker": "SVA",
       "date": "2021-12-05",
@@ -394,6 +379,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05107557",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05107557",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-SVA-NCT05499351",
+      "ticker": "SVA",
+      "date": "2021-12-05",
+      "title": "A Study of Booster Immunization With COVID-19 Vaccine,Inactivated Co -Administration With Influenza Vaccine and Pneumococcal Polysaccharide Vaccine",
+      "type": "Trial Milestone",
+      "phase": "Phase 4",
+      "estimated": false,
+      "summary": "COVID-19 · 3,000 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05499351",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05499351",
       "origin": "registry",
       "status": "past"
     },

@@ -67,12 +67,6 @@
     "ongoing": 11,
     "withResults": 37,
     "byPhase": {
-      "other": {
-        "completed": 7,
-        "terminated": 1,
-        "total": 13,
-        "completionRatePct": 88
-      },
       "phase3": {
         "completed": 14,
         "terminated": 3,
@@ -90,6 +84,12 @@
         "terminated": 1,
         "total": 22,
         "completionRatePct": 94
+      },
+      "other": {
+        "completed": 7,
+        "terminated": 1,
+        "total": 13,
+        "completionRatePct": 88
       }
     },
     "concluded": 53,
@@ -428,21 +428,6 @@
       "status": "past"
     },
     {
-      "id": "ct-SUPN-NCT04476017",
-      "ticker": "SUPN",
-      "date": "2022-03-25",
-      "title": "A Study to Evaluate the Safety and Tolerability of SAGE-718 in Participants With Parkinson's Disease Mild Cognitive Impairment (PD-MCI)",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Parkinson Disease, Cognitive Dysfunction · 18 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT04476017",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04476017",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-SUPN-NCT05102552",
       "ticker": "SUPN",
       "date": "2022-03-25",
@@ -454,6 +439,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05102552",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05102552",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-SUPN-NCT04476017",
+      "ticker": "SUPN",
+      "date": "2022-03-25",
+      "title": "A Study to Evaluate the Safety and Tolerability of SAGE-718 in Participants With Parkinson's Disease Mild Cognitive Impairment (PD-MCI)",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Parkinson Disease, Cognitive Dysfunction · 18 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT04476017",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04476017",
       "origin": "registry",
       "status": "past"
     },
@@ -1013,21 +1013,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-SUPN-NCT07141329",
-      "ticker": "SUPN",
-      "date": "2027-12-31",
-      "title": "SPN-817 Open-Label Extension Study in Adults With Focal Onset Seizures",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Focal Onset Seizures · 100 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07141329",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07141329",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-SUPN-NCT05518578",
       "ticker": "SUPN",
       "date": "2027-12-31",
@@ -1039,6 +1024,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05518578",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05518578",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-SUPN-NCT07141329",
+      "ticker": "SUPN",
+      "date": "2027-12-31",
+      "title": "SPN-817 Open-Label Extension Study in Adults With Focal Onset Seizures",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Focal Onset Seizures · 100 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07141329",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07141329",
       "origin": "registry",
       "status": "upcoming"
     },

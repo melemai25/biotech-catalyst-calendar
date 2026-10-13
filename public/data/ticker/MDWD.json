@@ -452,21 +452,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-MDWD-NCT06690177",
-      "ticker": "MDWD",
-      "date": "2027-12-30",
-      "title": "Clinical Study to Evaluate the Safety and the Efficacy of EscharEx Drug Product (EX-03 Formulation) and Its Placebo Compared to Collagenase, Non-surgical Standard of Care, in Patients With Venous Leg Ulcers",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Venus Leg Ulcers · 45 participants · Status: Not Yet Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06690177",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06690177",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-MDWD-NCT07692178",
       "ticker": "MDWD",
       "date": "2028-08-15",
@@ -478,6 +463,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07692178",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07692178",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-MDWD-NCT06690177",
+      "ticker": "MDWD",
+      "date": "2028-11-04",
+      "title": "A Multicenter, Prospective, Randomized, Placebo and Non-Surgical Standard of Care (NSSOC) Controlled Study, Performed to Evaluate the Safety and Efficacy of EscharEx and Its Placebo (Gel Vehicle) Compared to NSSOC in Participants With Venous Leg Ulcers (VLU)",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Venus Leg Ulcers · 45 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06690177",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06690177",
       "origin": "registry",
       "status": "upcoming"
     }

@@ -79,15 +79,15 @@
         "total": 4,
         "completionRatePct": null
       },
-      "other": {
-        "completed": 0,
-        "terminated": 1,
-        "total": 1,
-        "completionRatePct": null
-      },
       "phase3": {
         "completed": 1,
         "terminated": 0,
+        "total": 1,
+        "completionRatePct": null
+      },
+      "other": {
+        "completed": 0,
+        "terminated": 1,
         "total": 1,
         "completionRatePct": null
       }
@@ -1039,6 +1039,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-09-29",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1129928/000112992826000059/oncy-20260929.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-ONCY-0001129928-26-000070",
+      "ticker": "ONCY",
+      "date": "2026-10-13",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 8.01. Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1129928/000112992826000070/oncy-20261012.htm",
       "origin": "edgar",
       "status": "past"
     },

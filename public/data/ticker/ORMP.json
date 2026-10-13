@@ -191,21 +191,6 @@
       "status": "past"
     },
     {
-      "id": "ct-ORMP-NCT04754334",
-      "ticker": "ORMP",
-      "date": "2023-01-13",
-      "title": "A Phase 3 Study to Evaluate the Efficacy and Safety of ORMD-0801 in Subjects With Type 2 Diabetes Mellitus",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "T2DM (Type 2 Diabetes Mellitus) · 346 participants · Status: Terminated",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04754334",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04754334",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-ORMP-NCT04606576",
       "ticker": "ORMP",
       "date": "2023-01-13",
@@ -217,6 +202,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04606576",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04606576",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-ORMP-NCT04754334",
+      "ticker": "ORMP",
+      "date": "2023-01-13",
+      "title": "A Phase 3 Study to Evaluate the Efficacy and Safety of ORMD-0801 in Subjects With Type 2 Diabetes Mellitus",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "T2DM (Type 2 Diabetes Mellitus) · 346 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04754334",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04754334",
       "origin": "registry",
       "status": "past"
     },

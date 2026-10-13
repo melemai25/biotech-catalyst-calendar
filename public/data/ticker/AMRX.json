@@ -67,17 +67,17 @@
     "ongoing": 3,
     "withResults": 1,
     "byPhase": {
-      "phase1": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 3,
-        "completionRatePct": null
-      },
       "phase3": {
         "completed": 8,
         "terminated": 0,
         "total": 9,
         "completionRatePct": 100
+      },
+      "phase1": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 3,
+        "completionRatePct": null
       }
     },
     "concluded": 9,

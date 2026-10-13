@@ -67,12 +67,6 @@
     "ongoing": 5,
     "withResults": 21,
     "byPhase": {
-      "phase1": {
-        "completed": 7,
-        "terminated": 2,
-        "total": 9,
-        "completionRatePct": 78
-      },
       "phase3": {
         "completed": 6,
         "terminated": 2,
@@ -84,6 +78,12 @@
         "terminated": 2,
         "total": 19,
         "completionRatePct": 88
+      },
+      "phase1": {
+        "completed": 7,
+        "terminated": 2,
+        "total": 9,
+        "completionRatePct": 78
       }
     },
     "concluded": 36,
@@ -724,7 +724,7 @@
     {
       "id": "ct-CYTK-NCT04848506",
       "ticker": "CYTK",
-      "date": "2028-03-15",
+      "date": "2029-03-15",
       "title": "Open-label Extension Study to Evaluate the Long-term Safety and Tolerability of Aficamten in Adults With HCM",
       "type": "Trial Milestone",
       "phase": "Phase 2/Phase 3",

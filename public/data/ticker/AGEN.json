@@ -73,11 +73,11 @@
         "total": 16,
         "completionRatePct": 58
       },
-      "phase3": {
-        "completed": 2,
-        "terminated": 1,
-        "total": 4,
-        "completionRatePct": null
+      "phase1": {
+        "completed": 6,
+        "terminated": 2,
+        "total": 9,
+        "completionRatePct": 75
       },
       "other": {
         "completed": 0,
@@ -85,11 +85,11 @@
         "total": 2,
         "completionRatePct": null
       },
-      "phase1": {
-        "completed": 6,
-        "terminated": 2,
-        "total": 9,
-        "completionRatePct": 75
+      "phase3": {
+        "completed": 2,
+        "terminated": 1,
+        "total": 4,
+        "completionRatePct": null
       }
     },
     "concluded": 26,

@@ -67,6 +67,12 @@
     "ongoing": 69,
     "withResults": 126,
     "byPhase": {
+      "other": {
+        "completed": 4,
+        "terminated": 1,
+        "total": 18,
+        "completionRatePct": 80
+      },
       "phase2": {
         "completed": 67,
         "terminated": 42,
@@ -84,12 +90,6 @@
         "terminated": 9,
         "total": 62,
         "completionRatePct": 74
-      },
-      "other": {
-        "completed": 4,
-        "terminated": 1,
-        "total": 18,
-        "completionRatePct": 80
       }
     },
     "concluded": 219,
@@ -188,21 +188,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT02431260",
-      "ticker": "INCY",
-      "date": "2018-01-31",
-      "title": "An Open-Label, Dose-Escalation Study of INCB054329 in Patients With Advanced Malignancies",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Solid Tumors and Hematologic Malignancy · 69 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02431260",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02431260",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT02953678",
       "ticker": "INCY",
       "date": "2018-01-31",
@@ -214,6 +199,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT02953678",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02953678",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT02431260",
+      "ticker": "INCY",
+      "date": "2018-01-31",
+      "title": "An Open-Label, Dose-Escalation Study of INCB054329 in Patients With Advanced Malignancies",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Solid Tumors and Hematologic Malignancy · 69 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT02431260",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02431260",
       "origin": "registry",
       "status": "past"
     },
@@ -1148,21 +1148,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT02924376",
-      "ticker": "INCY",
-      "date": "2022-02-01",
-      "title": "Efficacy and Safety of Pemigatinib in Subjects With Advanced/Metastatic or Surgically Unresectable Cholangiocarcinoma Who Failed Previous Therapy - (FIGHT-202)",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Cholangiocarcinoma · 147 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02924376",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02924376",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT02872714",
       "ticker": "INCY",
       "date": "2022-02-01",
@@ -1174,6 +1159,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT02872714",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02872714",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT02924376",
+      "ticker": "INCY",
+      "date": "2022-02-01",
+      "title": "Efficacy and Safety of Pemigatinib in Subjects With Advanced/Metastatic or Surgically Unresectable Cholangiocarcinoma Who Failed Previous Therapy - (FIGHT-202)",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Cholangiocarcinoma · 147 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT02924376",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02924376",
       "origin": "registry",
       "status": "past"
     },
@@ -2003,21 +2003,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT05909995",
-      "ticker": "INCY",
-      "date": "2024-09-19",
-      "title": "Interventional Study of INCB 99280 With Ipilimumab in Participants With Select Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Melanoma, Hepatocellular Carcinoma (HCC), Renal Cell Carcinoma (RCC) · 8 participants · Status: Terminated",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05909995",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05909995",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT04989387",
       "ticker": "INCY",
       "date": "2024-09-19",
@@ -2029,6 +2014,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04989387",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04989387",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT05909995",
+      "ticker": "INCY",
+      "date": "2024-09-19",
+      "title": "Interventional Study of INCB 99280 With Ipilimumab in Participants With Select Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Melanoma, Hepatocellular Carcinoma (HCC), Renal Cell Carcinoma (RCC) · 8 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05909995",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05909995",
       "origin": "registry",
       "status": "past"
     },
@@ -2318,21 +2318,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT05949632",
-      "ticker": "INCY",
-      "date": "2025-06-06",
-      "title": "A Study of INCB099280 in Combination With Axitinib in Adults With Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Advanced Solid Tumors · 5 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT05949632",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05949632",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT06713590",
       "ticker": "INCY",
       "date": "2025-06-06",
@@ -2344,6 +2329,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06713590",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06713590",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT05949632",
+      "ticker": "INCY",
+      "date": "2025-06-06",
+      "title": "A Study of INCB099280 in Combination With Axitinib in Adults With Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Advanced Solid Tumors · 5 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT05949632",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05949632",
       "origin": "registry",
       "status": "past"
     },
@@ -2963,21 +2963,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT06959225",
-      "ticker": "INCY",
-      "date": "2026-10-09",
-      "title": "Study to Evaluate the Efficacy and Safety of Ruxolitinib Cream in Participants With Hidradenitis Suppurativa (TRuE-HS1)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Hidradenitis Suppurativa · 580 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06959225",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06959225",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT06958211",
       "ticker": "INCY",
       "date": "2026-10-09",
@@ -2989,6 +2974,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06958211",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06958211",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT06959225",
+      "ticker": "INCY",
+      "date": "2026-10-09",
+      "title": "Study to Evaluate the Efficacy and Safety of Ruxolitinib Cream in Participants With Hidradenitis Suppurativa (TRuE-HS1)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Hidradenitis Suppurativa · 580 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06959225",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06959225",
       "origin": "registry",
       "status": "past"
     },
@@ -3023,21 +3023,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-INCY-NCT06516965",
-      "ticker": "INCY",
-      "date": "2026-10-19",
-      "title": "A Study to Evaluate the Efficacy and Safety Study of Povorcitinib in Participants With Prurigo Nodularis (STOP-PN2)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Prurigo Nodularis · 346 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06516965",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06516965",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-INCY-NCT06516952",
       "ticker": "INCY",
       "date": "2026-10-19",
@@ -3049,6 +3034,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06516952",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06516952",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-INCY-NCT06516965",
+      "ticker": "INCY",
+      "date": "2026-10-19",
+      "title": "A Study to Evaluate the Efficacy and Safety Study of Povorcitinib in Participants With Prurigo Nodularis (STOP-PN2)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Prurigo Nodularis · 346 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06516965",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06516965",
       "origin": "registry",
       "status": "upcoming"
     },

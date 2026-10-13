@@ -67,17 +67,17 @@
     "ongoing": 37,
     "withResults": 0,
     "byPhase": {
-      "phase2": {
-        "completed": 1,
-        "terminated": 3,
-        "total": 22,
-        "completionRatePct": 25
-      },
       "phase1": {
         "completed": 8,
         "terminated": 2,
         "total": 22,
         "completionRatePct": 80
+      },
+      "phase2": {
+        "completed": 1,
+        "terminated": 3,
+        "total": 22,
+        "completionRatePct": 25
       },
       "phase3": {
         "completed": 0,
@@ -1058,21 +1058,6 @@
       "status": "past"
     },
     {
-      "id": "ct-AAPG-NCT06182969",
-      "ticker": "AAPG",
-      "date": "2026-04-15",
-      "title": "A Study of APG-2575 in Patients With Mild-to-moderate Systemic Lupus Erythematosus.",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "SLE · 40 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06182969",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06182969",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-AAPG-NCT04785196",
       "ticker": "AAPG",
       "date": "2026-04-15",
@@ -1084,6 +1069,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04785196",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04785196",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-AAPG-NCT06182969",
+      "ticker": "AAPG",
+      "date": "2026-04-15",
+      "title": "A Study of APG-2575 in Patients With Mild-to-moderate Systemic Lupus Erythematosus.",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "SLE · 40 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06182969",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06182969",
       "origin": "registry",
       "status": "past"
     },
@@ -1568,21 +1568,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-AAPG-NCT03917043",
-      "ticker": "AAPG",
-      "date": "2027-12-15",
-      "title": "APG-2449 in Patients With Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Advanced Solid Cancer, Non Small Cell Lung Cancer, Esophageal Cancer · 165 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT03917043",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT03917043",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-AAPG-NCT03594422",
       "ticker": "AAPG",
       "date": "2027-12-15",
@@ -1594,6 +1579,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT03594422",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03594422",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-AAPG-NCT03917043",
+      "ticker": "AAPG",
+      "date": "2027-12-15",
+      "title": "APG-2449 in Patients With Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Advanced Solid Cancer, Non Small Cell Lung Cancer, Esophageal Cancer · 165 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT03917043",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03917043",
       "origin": "registry",
       "status": "upcoming"
     },

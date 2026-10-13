@@ -67,29 +67,29 @@
     "ongoing": 13,
     "withResults": 20,
     "byPhase": {
-      "phase2": {
-        "completed": 11,
-        "terminated": 2,
-        "total": 18,
-        "completionRatePct": 85
-      },
-      "other": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 5,
-        "completionRatePct": null
-      },
       "phase3": {
         "completed": 6,
         "terminated": 0,
         "total": 12,
         "completionRatePct": 100
       },
+      "phase2": {
+        "completed": 11,
+        "terminated": 2,
+        "total": 18,
+        "completionRatePct": 85
+      },
       "phase1": {
         "completed": 4,
         "terminated": 0,
         "total": 4,
         "completionRatePct": 100
+      },
+      "other": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 5,
+        "completionRatePct": null
       }
     },
     "concluded": 26,
@@ -589,6 +589,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-09-28",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000049/mirm-20260925.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-MIRM-0001759425-26-000051",
+      "ticker": "MIRM",
+      "date": "2026-10-13",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 8.01. Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000051/mirm-20261012.htm",
       "origin": "edgar",
       "status": "past"
     },

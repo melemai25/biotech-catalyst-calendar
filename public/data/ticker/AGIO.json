@@ -73,10 +73,10 @@
         "total": 29,
         "completionRatePct": 93
       },
-      "phase2": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 5,
+      "other": {
+        "completed": 2,
+        "terminated": 1,
+        "total": 6,
         "completionRatePct": null
       },
       "phase3": {
@@ -85,10 +85,10 @@
         "total": 12,
         "completionRatePct": null
       },
-      "other": {
-        "completed": 2,
-        "terminated": 1,
-        "total": 6,
+      "phase2": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 5,
         "completionRatePct": null
       }
     },
@@ -833,21 +833,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-AGIO-NCT05777993",
-      "ticker": "AGIO",
-      "date": "2029-08-15",
-      "title": "A Study to Provide Access to Mitapivat for Participants Who Previously Participated in an Agios-Sponsored Mitapivat Study",
-      "type": "Trial Milestone",
-      "phase": "Phase 4",
-      "estimated": false,
-      "summary": "Pyruvate Kinase Deficiency, Anemia, Hemolytic, Sickle Cell Disease · 59 participants · Status: Enrolling By Invitation",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05777993",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05777993",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-AGIO-NCT07656415",
       "ticker": "AGIO",
       "date": "2029-08-15",
@@ -859,6 +844,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07656415",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07656415",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-AGIO-NCT05777993",
+      "ticker": "AGIO",
+      "date": "2029-08-15",
+      "title": "A Study to Provide Access to Mitapivat for Participants Who Previously Participated in an Agios-Sponsored Mitapivat Study",
+      "type": "Trial Milestone",
+      "phase": "Phase 4",
+      "estimated": false,
+      "summary": "Pyruvate Kinase Deficiency, Anemia, Hemolytic, Sickle Cell Disease · 59 participants · Status: Enrolling By Invitation",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05777993",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05777993",
       "origin": "registry",
       "status": "upcoming"
     },

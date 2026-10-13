@@ -67,28 +67,28 @@
     "ongoing": 8,
     "withResults": 2,
     "byPhase": {
-      "phase1": {
-        "completed": 10,
-        "terminated": 0,
-        "total": 11,
-        "completionRatePct": 100
-      },
       "phase3": {
         "completed": 1,
         "terminated": 0,
         "total": 4,
         "completionRatePct": null
       },
-      "phase2": {
-        "completed": 2,
+      "phase1": {
+        "completed": 10,
         "terminated": 0,
-        "total": 4,
-        "completionRatePct": null
+        "total": 11,
+        "completionRatePct": 100
       },
       "other": {
         "completed": 0,
         "terminated": 0,
         "total": 2,
+        "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 2,
+        "terminated": 0,
+        "total": 4,
         "completionRatePct": null
       }
     },

@@ -455,21 +455,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-TNGX-NCT06922591",
-      "ticker": "TNGX",
-      "date": "2027-06-15",
-      "title": "Study to Evaluate the Safety, Tolerability & Efficacy of TNG462 in Combination in PDAC & NSCLC Patients",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "PDAC, PDAC - Pancreatic Ductal Adenocarcinoma, NSCLC · 183 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06922591",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06922591",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-TNGX-NCT05732831",
       "ticker": "TNGX",
       "date": "2027-06-15",
@@ -481,6 +466,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05732831",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05732831",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-TNGX-NCT06922591",
+      "ticker": "TNGX",
+      "date": "2027-06-15",
+      "title": "Study to Evaluate the Safety, Tolerability & Efficacy of TNG462 in Combination in PDAC & NSCLC Patients",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "PDAC, PDAC - Pancreatic Ductal Adenocarcinoma, NSCLC · 183 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06922591",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06922591",
       "origin": "registry",
       "status": "upcoming"
     }

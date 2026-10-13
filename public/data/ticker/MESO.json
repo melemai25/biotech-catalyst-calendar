@@ -67,17 +67,17 @@
     "ongoing": 2,
     "withResults": 1,
     "byPhase": {
-      "phase2": {
-        "completed": 10,
-        "terminated": 0,
-        "total": 11,
-        "completionRatePct": 100
-      },
       "phase3": {
         "completed": 2,
         "terminated": 0,
         "total": 4,
         "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 10,
+        "terminated": 0,
+        "total": 11,
+        "completionRatePct": 100
       }
     },
     "concluded": 13,
@@ -1177,6 +1177,21 @@
       "result": null,
       "source": "SEC EDGAR 6-K 2026-09-24",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1345099/000134509926000085/form6-kxpressreleasecoverf.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-MESO-0001345099-26-000087",
+      "ticker": "MESO",
+      "date": "2026-10-13",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-10-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1345099/000134509926000087/form6-kxpressreleasecoverf.htm",
       "origin": "edgar",
       "status": "past"
     },

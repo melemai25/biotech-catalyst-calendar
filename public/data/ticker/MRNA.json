@@ -50,11 +50,11 @@
     "fcfMarginPct": -258.2,
     "marketCapUsd": null,
     "entityName": "Moderna, Inc.",
-    "activeTrials": 92,
+    "activeTrials": 93,
     "phase3Count": 23,
     "phase2Count": 42,
     "leadPhase": 4,
-    "upcomingCount": 27,
+    "upcomingCount": 28,
     "nextCatalystDate": "2026-10-16",
     "nextCatalystType": "Earnings",
     "daysToNextCatalyst": 3
@@ -64,25 +64,19 @@
     "terminated": 6,
     "withdrawn": 4,
     "suspended": 0,
-    "ongoing": 29,
+    "ongoing": 30,
     "withResults": 36,
     "byPhase": {
-      "phase2": {
-        "completed": 21,
-        "terminated": 3,
-        "total": 40,
-        "completionRatePct": 88
-      },
-      "phase1": {
-        "completed": 18,
-        "terminated": 1,
-        "total": 28,
-        "completionRatePct": 95
-      },
       "phase3": {
         "completed": 20,
         "terminated": 1,
         "total": 23,
+        "completionRatePct": 95
+      },
+      "phase1": {
+        "completed": 18,
+        "terminated": 1,
+        "total": 29,
         "completionRatePct": 95
       },
       "other": {
@@ -90,6 +84,12 @@
         "terminated": 1,
         "total": 24,
         "completionRatePct": 94
+      },
+      "phase2": {
+        "completed": 21,
+        "terminated": 3,
+        "total": 40,
+        "completionRatePct": 88
       }
     },
     "concluded": 86,
@@ -1699,6 +1699,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT03313778",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03313778",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-MRNA-NCT07870330",
+      "ticker": "MRNA",
+      "date": "2027-12-07",
+      "title": "A Study to Evaluate the Safety, Reactogenicity, and Immunogenicity of mRNA-1010 in Healthy Children",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Seasonal Influenza · 96 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07870330",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07870330",
       "origin": "registry",
       "status": "upcoming"
     },

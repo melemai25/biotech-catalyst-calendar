@@ -67,18 +67,6 @@
     "ongoing": 19,
     "withResults": 40,
     "byPhase": {
-      "phase1": {
-        "completed": 19,
-        "terminated": 1,
-        "total": 21,
-        "completionRatePct": 95
-      },
-      "phase2": {
-        "completed": 24,
-        "terminated": 7,
-        "total": 36,
-        "completionRatePct": 77
-      },
       "other": {
         "completed": 5,
         "terminated": 0,
@@ -90,6 +78,18 @@
         "terminated": 2,
         "total": 22,
         "completionRatePct": 78
+      },
+      "phase1": {
+        "completed": 19,
+        "terminated": 1,
+        "total": 21,
+        "completionRatePct": 95
+      },
+      "phase2": {
+        "completed": 24,
+        "terminated": 7,
+        "total": 36,
+        "completionRatePct": 77
       }
     },
     "concluded": 67,
@@ -1073,17 +1073,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-NBIX-NCT06963021",
+      "id": "ct-NBIX-NCT06786624",
       "ticker": "NBIX",
       "date": "2027-07-15",
-      "title": "NBI-1065845-MDD3026: Study to Assess the Efficacy and Safety of NBI-1065845 as an Adjunctive Treatment in Participants With Major Depressive Disorder (MDD)",
+      "title": "Study to Assess the Efficacy and Safety of NBI-1065845 as an Adjunctive Treatment in Participants With Major Depressive Disorder (MDD)",
       "type": "Trial Milestone",
       "phase": "Phase 3",
       "estimated": false,
       "summary": "Major Depressive Disorder · 200 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT06963021",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06963021",
+      "source": "ClinicalTrials.gov NCT06786624",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06786624",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1103,17 +1103,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-NBIX-NCT06786624",
+      "id": "ct-NBIX-NCT06963021",
       "ticker": "NBIX",
       "date": "2027-07-15",
-      "title": "Study to Assess the Efficacy and Safety of NBI-1065845 as an Adjunctive Treatment in Participants With Major Depressive Disorder (MDD)",
+      "title": "NBI-1065845-MDD3026: Study to Assess the Efficacy and Safety of NBI-1065845 as an Adjunctive Treatment in Participants With Major Depressive Disorder (MDD)",
       "type": "Trial Milestone",
       "phase": "Phase 3",
       "estimated": false,
       "summary": "Major Depressive Disorder · 200 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT06786624",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06786624",
+      "source": "ClinicalTrials.gov NCT06963021",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06963021",
       "origin": "registry",
       "status": "upcoming"
     },

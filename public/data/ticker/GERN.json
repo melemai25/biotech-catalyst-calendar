@@ -73,17 +73,17 @@
         "total": 7,
         "completionRatePct": 100
       },
-      "phase2": {
-        "completed": 6,
-        "terminated": 0,
-        "total": 6,
-        "completionRatePct": 100
-      },
       "phase3": {
         "completed": 0,
         "terminated": 0,
         "total": 2,
         "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 6,
+        "terminated": 0,
+        "total": 6,
+        "completionRatePct": 100
       },
       "other": {
         "completed": 0,

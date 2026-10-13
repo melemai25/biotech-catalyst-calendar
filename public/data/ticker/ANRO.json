@@ -54,7 +54,7 @@
     "phase3Count": 0,
     "phase2Count": 10,
     "leadPhase": 2,
-    "upcomingCount": 3,
+    "upcomingCount": 4,
     "nextCatalystDate": "2026-12-12",
     "nextCatalystType": "Earnings",
     "daysToNextCatalyst": 60
@@ -67,17 +67,17 @@
     "ongoing": 4,
     "withResults": 0,
     "byPhase": {
-      "other": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 6,
         "terminated": 0,
         "total": 10,
         "completionRatePct": 100
+      },
+      "other": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 2,
+        "completionRatePct": null
       }
     },
     "concluded": 8,
@@ -431,21 +431,6 @@
       "status": "past"
     },
     {
-      "id": "ct-ANRO-NCT06656416",
-      "ticker": "ANRO",
-      "date": "2026-08-15",
-      "title": "ALTO-100 in Bipolar Disorder With Depression (BD-D)",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Bipolar Disorder I or II With a Major Depressive Episode · 200 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06656416",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06656416",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "edgar-ANRO-0001999480-26-000024",
       "ticker": "ANRO",
       "date": "2026-08-27",
@@ -487,6 +472,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05922878",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05922878",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ANRO-NCT06656416",
+      "ticker": "ANRO",
+      "date": "2027-09-15",
+      "title": "ALTO-100 in Bipolar Disorder With Depression (BD-D)",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Bipolar Disorder I or II With a Major Depressive Episode · 200 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06656416",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06656416",
       "origin": "registry",
       "status": "upcoming"
     },

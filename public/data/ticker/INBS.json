@@ -50,21 +50,21 @@
     "fcfMarginPct": -222.2,
     "marketCapUsd": null,
     "entityName": "INTELLIGENT BIO SOLUTIONS INC.",
-    "activeTrials": 48,
+    "activeTrials": 49,
     "phase3Count": 12,
     "phase2Count": 9,
-    "leadPhase": 3,
+    "leadPhase": 4,
     "upcomingCount": 9,
     "nextCatalystDate": "2026-11-12",
     "nextCatalystType": "Earnings",
     "daysToNextCatalyst": 30
   },
   "trialStats": {
-    "completed": 33,
+    "completed": 34,
     "terminated": 7,
     "withdrawn": 2,
     "suspended": 0,
-    "ongoing": 15,
+    "ongoing": 14,
     "withResults": 1,
     "byPhase": {
       "phase2": {
@@ -79,20 +79,20 @@
         "total": 33,
         "completionRatePct": 82
       },
+      "other": {
+        "completed": 2,
+        "terminated": 0,
+        "total": 2,
+        "completionRatePct": null
+      },
       "phase3": {
         "completed": 7,
         "terminated": 2,
         "total": 13,
         "completionRatePct": 78
-      },
-      "other": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
       }
     },
-    "concluded": 42,
+    "concluded": 43,
     "completionRatePct": 79,
     "resultsPostedPct": 3
   },
@@ -754,6 +754,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06280196",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06280196",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INBS-NCT05180526",
+      "ticker": "INBS",
+      "date": "2025-08-05",
+      "title": "Assessment of Safety , Clinical Efficacy With QLETLI in Non-infectious Uveitis (UV)",
+      "type": "Trial Milestone",
+      "phase": "Phase 4",
+      "estimated": false,
+      "summary": "Uveitis · 60 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05180526",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05180526",
       "origin": "registry",
       "status": "past"
     },

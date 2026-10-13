@@ -73,17 +73,17 @@
         "total": 33,
         "completionRatePct": 73
       },
-      "phase1": {
-        "completed": 13,
-        "terminated": 0,
-        "total": 19,
-        "completionRatePct": 100
-      },
       "phase2": {
         "completed": 9,
         "terminated": 3,
         "total": 25,
         "completionRatePct": 75
+      },
+      "phase1": {
+        "completed": 13,
+        "terminated": 0,
+        "total": 19,
+        "completionRatePct": 100
       },
       "other": {
         "completed": 1,
@@ -1448,21 +1448,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ARGX-NCT04833894",
-      "ticker": "ARGX",
-      "date": "2027-03-15",
-      "title": "Evaluating the Pharmacokinetics, Pharmacodynamics, and Safety of Efgartigimod Administered Intravenously in Children With Generalized Myasthenia Gravis",
-      "type": "Trial Milestone",
-      "phase": "Phase 2/Phase 3",
-      "estimated": false,
-      "summary": "Generalized Myasthenia Gravis · 12 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04833894",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04833894",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ARGX-NCT07612020",
       "ticker": "ARGX",
       "date": "2027-03-15",
@@ -1474,6 +1459,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07612020",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07612020",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ARGX-NCT04833894",
+      "ticker": "ARGX",
+      "date": "2027-03-15",
+      "title": "Evaluating the Pharmacokinetics, Pharmacodynamics, and Safety of Efgartigimod Administered Intravenously in Children With Generalized Myasthenia Gravis",
+      "type": "Trial Milestone",
+      "phase": "Phase 2/Phase 3",
+      "estimated": false,
+      "summary": "Generalized Myasthenia Gravis · 12 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04833894",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04833894",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1658,21 +1658,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ARGX-NCT07596849",
-      "ticker": "ARGX",
-      "date": "2028-06-15",
-      "title": "A Study to Assess Efficacy and Safety of Efgartigimod PH20 SC PFS in Adult Participants With Graves' Disease.",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Graves Disease · 230 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07596849",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07596849",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ARGX-NCT06544499",
       "ticker": "ARGX",
       "date": "2028-06-15",
@@ -1684,6 +1669,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06544499",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06544499",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ARGX-NCT07596849",
+      "ticker": "ARGX",
+      "date": "2028-06-15",
+      "title": "A Study to Assess Efficacy and Safety of Efgartigimod PH20 SC PFS in Adult Participants With Graves' Disease.",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Graves Disease · 230 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07596849",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07596849",
       "origin": "registry",
       "status": "upcoming"
     },
