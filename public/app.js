@@ -47,6 +47,10 @@ const state = {
   macroLoading: false,
   macroGroup: 'all',
   macroWindow: 60,
+  // One setting for every tab. The macro tab used to force the sidebar away,
+  // which meant walking left to right across the tabs made the layout jump
+  // and then jump back — it read as a glitch rather than a choice.
+  sidebarOpen: readSidebarPref(),
   cache: {},
   loading: false,
   modalDate: null,
@@ -56,6 +60,26 @@ const state = {
   sortDir: 'asc',
   error: null,
 };
+
+/**
+ * Sidebar open/closed, remembered between visits.
+ *
+ * Wrapped because localStorage throws outright in a private window and in a
+ * few embedded contexts — a preference is not worth a blank page, so a failure
+ * just means the default.
+ */
+function readSidebarPref(){
+  try {
+    const v = localStorage.getItem('sidebarOpen');
+    return v === null ? true : v === '1';
+  } catch { return true; }
+}
+
+function toggleSidebar(){
+  state.sidebarOpen = !state.sidebarOpen;
+  try { localStorage.setItem('sidebarOpen', state.sidebarOpen ? '1' : '0'); } catch {}
+  render();
+}
 
 function startOfMonth(d){ return new Date(d.getFullYear(), d.getMonth(), 1); }
 function iso(d){
@@ -185,13 +209,12 @@ function render(){
     root.appendChild(el('div',{class:'loading'},['Loading catalyst data…']));
     return;
   }
-  // The macro page is market-wide, so a watchlist sidebar would be dead space.
-  const wide = state.tab === 'macro';
+  // Every tab behaves the same way now; the reader decides, not the tab.
   root.appendChild(el('div',{class:'app'},[
     masthead(),
-    wide
-      ? el('div',{class:'layout layout-wide'},[ main() ])
-      : el('div',{class:'layout'},[ sidebar(), main() ])
+    state.sidebarOpen
+      ? el('div',{class:'layout'},[ sidebar(), main() ])
+      : el('div',{class:'layout collapsed'},[ main() ])
   ]));
 }
 
@@ -202,8 +225,22 @@ function masthead(){
       el('p',{class:'eyebrow'},['Trial & Regulatory Tracker']),
       el('h1',{},['Biotech ', el('span',{class:'accent'},['Tracker'])]),
     ]),
-    el('div',{class:'masthead-right'},[
-      el('div',{},[el('span',{class:'dot'}), 'Data built ' + (d.generatedDate || '\u2014')]),
+    // The toggle sits beside the build-date pill rather than inside it \u2014
+    // nested, it was a white bordered button on a white pill.
+    el('div',{class:'masthead-tools'},[
+      el('button',{
+        class:'panel-toggle', type:'button',
+        'aria-expanded': String(state.sidebarOpen),
+        'aria-controls':'sidebar',
+        title: state.sidebarOpen ? 'Hide the watchlist panel' : 'Show the watchlist panel',
+        onclick: toggleSidebar,
+      },[
+        el('span',{class:'pt-chev'},[state.sidebarOpen ? '\u2039' : '\u203a']),
+        state.sidebarOpen ? 'Hide panel' : 'Show panel',
+      ]),
+      el('div',{class:'masthead-right'},[
+        el('span',{class:'dot'}), 'Data built ' + (d.generatedDate || '\u2014')
+      ]),
     ]),
   ]);
 }
@@ -268,7 +305,7 @@ function removeTicker(t){
 
 function sidebar(){
   const d = state.data;
-  const sb = el('div',{},[]);
+  const sb = el('div',{id:'sidebar'},[]);
 
   /* ---------------------------- watchlist ---------------------------- */
   sb.appendChild(el('div',{class:'panel'},[
@@ -412,8 +449,8 @@ function longDate(s){
 const TABS = [
   {id:'calendar', label:'Calendar'},
   {id:'analysis', label:'Analysis'},
-  {id:'data',     label:'Data'},
   {id:'macro',    label:'Macro'},
+  {id:'data',     label:'Data'},
 ];
 
 function tabBar(){

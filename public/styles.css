@@ -70,6 +70,18 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
   color:var(--ink);
 }
 .masthead h1 .accent{color:var(--teal);}
+.masthead-tools{display:flex;align-items:center;gap:10px;flex-wrap:wrap;justify-content:flex-end;}
+.panel-toggle{
+  display:inline-flex;align-items:center;gap:6px;
+  padding:7px 15px;
+  background:var(--surface);border:1px solid var(--line);
+  border-radius:var(--r-pill);cursor:pointer;font-family:inherit;
+  font-size:12.5px;font-weight:600;color:var(--ink-soft);
+}
+.panel-toggle:hover{border-color:var(--teal);color:var(--teal-dark);background:var(--teal-wash);}
+.panel-toggle:focus-visible{outline:2px solid var(--teal);outline-offset:2px;}
+.pt-chev{font-size:15px;line-height:1;}
+
 .masthead-right{
   font-size:12.5px;color:var(--ink-soft);text-align:right;line-height:1.6;
   background:var(--surface);border-radius:var(--r-pill);
@@ -85,6 +97,7 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
 @media (max-width:920px){
   .layout{grid-template-columns:1fr;}
   .masthead-right{text-align:left;}
+  .masthead-tools{justify-content:flex-start;}
   .app{padding:18px 14px 64px;}
 }
 
@@ -576,8 +589,8 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
 .about-text a{color:var(--teal-dark);font-weight:600;text-decoration:none;}
 .about-text a:hover{text-decoration:underline;}
 
-/* The macro page is market-wide, so it drops the watchlist column. */
-.layout-wide{grid-template-columns:minmax(0,1fr);}
+/* Collapsed sidebar — available on every tab, remembered between visits. */
+.layout.collapsed{grid-template-columns:minmax(0,1fr);}
 
 .head-blurb{font-size:12px;font-weight:500;color:var(--ink-faint);letter-spacing:0;}
 
