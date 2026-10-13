@@ -412,8 +412,8 @@ function longDate(s){
 const TABS = [
   {id:'calendar', label:'Calendar'},
   {id:'analysis', label:'Analysis'},
-  {id:'macro',    label:'Macro'},
   {id:'data',     label:'Data'},
+  {id:'macro',    label:'Macro'},
 ];
 
 function tabBar(){
