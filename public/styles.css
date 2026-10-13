@@ -70,7 +70,8 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
   color:var(--ink);
 }
 .masthead h1 .accent{color:var(--teal);}
-.masthead-tools{display:flex;align-items:center;gap:10px;flex-wrap:wrap;justify-content:flex-end;}
+/* Its own row, left-aligned with the sidebar column it controls. */
+.panel-bar{display:flex;margin:0 0 10px;}
 .panel-toggle{
   display:inline-flex;align-items:center;gap:6px;
   padding:7px 15px;
@@ -97,7 +98,6 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
 @media (max-width:920px){
   .layout{grid-template-columns:1fr;}
   .masthead-right{text-align:left;}
-  .masthead-tools{justify-content:flex-start;}
   .app{padding:18px 14px 64px;}
 }
 

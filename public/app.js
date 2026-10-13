@@ -212,6 +212,7 @@ function render(){
   // Every tab behaves the same way now; the reader decides, not the tab.
   root.appendChild(el('div',{class:'app'},[
     masthead(),
+    panelBar(),
     state.sidebarOpen
       ? el('div',{class:'layout'},[ sidebar(), main() ])
       : el('div',{class:'layout collapsed'},[ main() ])
@@ -225,22 +226,31 @@ function masthead(){
       el('p',{class:'eyebrow'},['Trial & Regulatory Tracker']),
       el('h1',{},['Biotech ', el('span',{class:'accent'},['Tracker'])]),
     ]),
-    // The toggle sits beside the build-date pill rather than inside it \u2014
-    // nested, it was a white bordered button on a white pill.
-    el('div',{class:'masthead-tools'},[
-      el('button',{
-        class:'panel-toggle', type:'button',
-        'aria-expanded': String(state.sidebarOpen),
-        'aria-controls':'sidebar',
-        title: state.sidebarOpen ? 'Hide the watchlist panel' : 'Show the watchlist panel',
-        onclick: toggleSidebar,
-      },[
-        el('span',{class:'pt-chev'},[state.sidebarOpen ? '\u2039' : '\u203a']),
-        state.sidebarOpen ? 'Hide panel' : 'Show panel',
-      ]),
-      el('div',{class:'masthead-right'},[
-        el('span',{class:'dot'}), 'Data built ' + (d.generatedDate || '\u2014')
-      ]),
+    el('div',{class:'masthead-right'},[
+      el('span',{class:'dot'}), 'Data built ' + (d.generatedDate || '\u2014')
+    ]),
+  ]);
+}
+
+/**
+ * The sidebar toggle, on its own row directly above the sidebar column.
+ *
+ * It started in the masthead, which put it at the far right of the screen
+ * controlling a panel on the far left \u2014 nothing tied the two together. Here it
+ * sits at the same spot whether the panel is open or closed, so it reads as
+ * that panel's own control rather than a stray button.
+ */
+function panelBar(){
+  return el('div',{class:'panel-bar'},[
+    el('button',{
+      class:'panel-toggle', type:'button',
+      'aria-expanded': String(state.sidebarOpen),
+      'aria-controls':'sidebar',
+      title: state.sidebarOpen ? 'Hide the watchlist panel' : 'Show the watchlist panel',
+      onclick: toggleSidebar,
+    },[
+      el('span',{class:'pt-chev'},[state.sidebarOpen ? '\u2039' : '\u203a']),
+      state.sidebarOpen ? 'Hide panel' : 'Show panel',
     ]),
   ]);
 }
