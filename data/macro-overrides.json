@@ -1,0 +1,17 @@
+{
+  "_comment": "Hand corrections for the macro page. Applied last, so they always win. Everything here is optional — an empty file is the normal state.",
+
+  "_fomc": "The Fed publishes meeting dates only as a web page, with no feed. build-macro.js parses that page and refuses to publish a parse it cannot validate, so if the layout changes you get a warning and no FOMC events rather than wrong dates on a calendar people plan around. If that happens, paste the dates here and they are used instead. `date` is the FINAL day of the meeting, which is when the decision and press conference land. `sep` marks the meetings that carry the Summary of Economic Projections and dot plot.",
+  "fomc": [],
+
+  "_hide": "Indicator ids from scripts/macro-spec.js to leave off the page entirely. Their series are not even fetched.",
+  "hide": [],
+
+  "_example": {
+    "fomc": [
+      { "date": "2027-01-27", "startDate": "2027-01-26", "twoDay": true, "sep": false },
+      { "date": "2027-03-17", "startDate": "2027-03-16", "twoDay": true, "sep": true }
+    ],
+    "hide": ["ig-oas", "quits"]
+  }
+}

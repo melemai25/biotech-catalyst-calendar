@@ -54,6 +54,7 @@ Catalyst Calendar — local server
 
   Data collection is separate:
     node scripts/build-data.js       fetch trials, filings, financials
+    node scripts/build-macro.js      fetch US economic data (needs FRED_API_KEY)
     node scripts/build-pages.js      regenerate the static SEO pages
     node scripts/discover.js         rebuild the ticker universe
 `);
@@ -117,6 +118,24 @@ function summarise() {
   }
   const next = d.events.filter((e) => e.status === 'upcoming')[0];
   if (next) console.log(`  Next catalyst: ${next.date}  ${next.ticker}  ${next.title}`);
+
+  // Macro is optional. Say plainly whether the tab has anything in it, so the
+  // page is never silently empty.
+  const mp = path.join(PUBLIC_DIR, 'data', 'macro.json');
+  if (fs.existsSync(mp)) {
+    try {
+      const m = JSON.parse(fs.readFileSync(mp, 'utf8'));
+      if (m.available) {
+        const up = (m.releases || []).filter((r) => r.status === 'upcoming');
+        console.log(`  Macro: ${(m.indicators || []).length} indicators, ${up.length} scheduled releases` +
+          (m.risk && m.risk.score !== null ? `, risk ${m.risk.score}/100 (${m.risk.label})` : ''));
+      } else if (m.reason === 'no-api-key') {
+        console.log(c.amber('  Macro: not built — no FRED key. Run: node scripts/build-macro.js'));
+      } else {
+        console.log(c.amber(`  Macro: not available (${m.reason || 'unknown'})`));
+      }
+    } catch { /* a malformed macro payload must not stop the server */ }
+  }
   console.log('');
 }
 

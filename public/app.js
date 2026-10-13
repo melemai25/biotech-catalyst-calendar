@@ -41,6 +41,12 @@ const state = {
   analyzeTicker: null,
   compareWith: [],
   sources: { curated:true, registry:true, edgar:true },
+  // Macro lives in its own payload and is fetched only when the tab is opened,
+  // so the biotech calendar never waits on it.
+  macro: null,
+  macroLoading: false,
+  macroGroup: 'all',
+  macroWindow: 60,
   cache: {},
   loading: false,
   modalDate: null,
@@ -179,9 +185,13 @@ function render(){
     root.appendChild(el('div',{class:'loading'},['Loading catalyst data…']));
     return;
   }
+  // The macro page is market-wide, so a watchlist sidebar would be dead space.
+  const wide = state.tab === 'macro';
   root.appendChild(el('div',{class:'app'},[
     masthead(),
-    el('div',{class:'layout'},[ sidebar(), main() ])
+    wide
+      ? el('div',{class:'layout layout-wide'},[ main() ])
+      : el('div',{class:'layout'},[ sidebar(), main() ])
   ]));
 }
 
@@ -402,6 +412,7 @@ function longDate(s){
 const TABS = [
   {id:'calendar', label:'Calendar'},
   {id:'analysis', label:'Analysis'},
+  {id:'macro',    label:'Macro'},
   {id:'data',     label:'Data'},
 ];
 
@@ -410,7 +421,11 @@ function tabBar(){
     el('button',{
       class:'tab' + (state.tab === t.id ? ' active' : ''),
       type:'button',
-      onclick:()=>{ state.tab = t.id; location.hash = t.id; render(); }
+      onclick:()=>{
+        state.tab = t.id; location.hash = t.id;
+        if(t.id === 'macro') loadMacro();
+        render();
+      }
     },[t.label])
   ));
 }
@@ -419,6 +434,7 @@ function main(){
   const kids = [ tabBar() ];
   kids.push(state.tab === 'data' ? dataTab()
           : state.tab === 'analysis' ? analysisTab()
+          : state.tab === 'macro' ? macroTab()
           : calendar());
   if(state.modalDate) kids.push(modal());
   return el('div',{}, kids);
@@ -946,8 +962,497 @@ function eventCard(e){
   return el('div',{class:'event-card'}, body);
 }
 
+/* ============================================================== Macro tab */
+
+/**
+ * Macro data is a separate payload on a separate build cadence, fetched the
+ * first time the tab is opened. A visitor who only wants the biotech calendar
+ * never downloads it.
+ */
+async function loadMacro(){
+  if(state.macro || state.macroLoading) return;
+  state.macroLoading = true;
+  try{
+    const res = await fetch('data/macro.json', {cache:'no-cache'});
+    if(!res.ok) throw new Error('HTTP ' + res.status);
+    state.macro = await res.json();
+  }catch(err){
+    state.macro = {
+      available: false,
+      reason: 'not-built',
+      detail: 'macro.json could not be loaded (' + err.message + '). Run: node scripts/build-macro.js',
+      releases: [], indicators: [], positioning: [], risk: null,
+    };
+  }
+  state.macroLoading = false;
+  render();
+}
+
+const MACRO_GROUP_TABS = [
+  {id:'all',       label:'All'},
+  {id:'inflation', label:'Inflation'},
+  {id:'jobs',      label:'Jobs'},
+  {id:'growth',    label:'Growth'},
+  {id:'fed',       label:'Fed'},
+];
+
+/**
+ * The second line of a release row. Normally the full release name, which
+ * expands the short one usefully — "CPI" into "Consumer Price Index".
+ *
+ * But some releases are already known by their full name, and printing
+ * "Existing home sales / Existing Home Sales" makes every such row look like
+ * a duplicate of itself. When the full name adds no word the short one does
+ * not already have, show the issuing agency instead: still informative, and
+ * it keeps the row from reading as an accident.
+ */
+function relSecondary(r){
+  const words = s => String(s || '').toLowerCase().replace(/[^a-z0-9 ]/g,' ').split(/\s+/).filter(Boolean);
+  const have = new Set(words(r.short));
+  const extra = words(r.name).filter(w => !have.has(w));
+  return extra.length ? r.name : (r.agency || '');
+}
+
+/** Importance 3 is a number that moves markets; 1 is context. */
+function impDots(n){
+  return el('span',{class:'imp imp-'+n, title: n===3 ? 'Market-moving' : n===2 ? 'Watched' : 'Context'},
+    [0,1,2].map(i => el('span',{class:'imp-dot' + (i < n ? ' on' : '')})));
+}
+
+function fmtMacro(ind){
+  if(ind.value === null || ind.value === undefined) return '—';
+  const v = ind.value.toLocaleString(undefined, {
+    minimumFractionDigits: ind.decimals, maximumFractionDigits: ind.decimals
+  });
+  if(ind.unit === '%') return v + '%';
+  if(ind.unit === '$') return '$' + v;
+  if(ind.unit === 'k') return v + 'k';
+  return v;
+}
+
+/**
+ * Signed change, with the sign kept — a fall of 0.2 must not read as 0.2.
+ * Shown to the same precision as the value itself: the payload carries an
+ * extra digit, but "+0.035pp" on a figure quoted to two places is noise.
+ */
+function fmtDelta(ind){
+  if(ind.change === null || ind.change === undefined) return null;
+  const suffix = ind.unit === '%' ? 'pp' : ind.unit === 'k' ? 'k' : '';
+  const sign = ind.change > 0 ? '+' : ind.change < 0 ? '−' : '';
+  const mag = Math.abs(ind.change);
+  const tick = Math.pow(10, -ind.decimals);
+
+  // A change too small to show at this precision renders as a bound, not as
+  // "+0" — which would read as no change when there was one.
+  if(mag > 0 && mag < tick / 2) return '<' + tick.toFixed(ind.decimals) + suffix;
+
+  const abs = mag.toLocaleString(undefined, {
+    minimumFractionDigits: 0, maximumFractionDigits: ind.decimals
+  });
+  return sign + abs + suffix;
+}
+
+/**
+ * Colours the change only where there is a defensible direction. Cross-asset
+ * moves get no colour: a rising VIX is information, not bad news, and painting
+ * it red would be the page taking a position it has no business taking.
+ */
+function deltaClass(ind){
+  if(!ind.goodDirection || !ind.direction || ind.direction === 'flat') return 'neutral';
+  return ind.direction === ind.goodDirection ? 'good' : 'bad';
+}
+
+function arrow(dir){
+  return dir === 'up' ? '↑' : dir === 'down' ? '↓' : '→';
+}
+
+/** Inline sparkline. Flat series get a centred line rather than a divide-by-zero. */
+function sparkline(history, w, h){
+  w = w || 92; h = h || 26;
+  const pts = (history || []).map(p => p[1]).filter(v => Number.isFinite(v));
+  if(pts.length < 3) return el('span',{class:'spark-empty'},[]);
+  const min = Math.min(...pts), max = Math.max(...pts);
+  const span = max - min;
+  const pad = 2;
+  const x = i => (i / (pts.length - 1)) * (w - pad*2) + pad;
+  const y = v => span === 0 ? h/2 : h - pad - ((v - min) / span) * (h - pad*2);
+  const d = pts.map((v,i) => (i ? 'L' : 'M') + x(i).toFixed(1) + ' ' + y(v).toFixed(1)).join(' ');
+  const rising = pts[pts.length-1] >= pts[0];
+
+  const svg = document.createElementNS('http://www.w3.org/2000/svg','svg');
+  svg.setAttribute('class','spark');
+  svg.setAttribute('viewBox','0 0 '+w+' '+h);
+  svg.setAttribute('width', w); svg.setAttribute('height', h);
+  svg.setAttribute('aria-hidden','true');
+  const path = document.createElementNS('http://www.w3.org/2000/svg','path');
+  path.setAttribute('d', d);
+  path.setAttribute('fill','none');
+  path.setAttribute('stroke-width','1.6');
+  path.setAttribute('stroke-linecap','round');
+  path.setAttribute('stroke', rising ? 'var(--teal)' : 'var(--ink-faint)');
+  svg.appendChild(path);
+  return svg;
+}
+
+function daysUntil(dateStr){
+  const d = new Date(dateStr + 'T00:00:00');
+  const t = new Date(TODAY_ISO + 'T00:00:00');
+  return Math.round((d - t) / 86400000);
+}
+
+function whenLabel(dateStr){
+  const n = daysUntil(dateStr);
+  if(n === 0) return 'Today';
+  if(n === 1) return 'Tomorrow';
+  if(n < 0) return Math.abs(n) + (Math.abs(n) === 1 ? ' day ago' : ' days ago');
+  if(n < 7) return 'in ' + n + ' days';
+  if(n < 14) return 'next week';
+  return 'in ' + Math.round(n / 7) + ' weeks';
+}
+
+function macroTab(){
+  if(state.macroLoading && !state.macro){
+    return el('div',{class:'loading'},['Loading economic data…']);
+  }
+  const m = state.macro;
+  if(!m) return el('div',{class:'loading'},['Loading economic data…']);
+
+  if(!m.available){
+    return el('div',{class:'panel'},[
+      el('div',{class:'panel-head'},['Economic data not built yet']),
+      el('div',{class:'panel-body'},[
+        el('p',{class:'about-text'},[
+          m.reason === 'no-api-key'
+            ? 'This page runs on FRED, the St. Louis Fed’s data service. It needs a free API key — about a minute to get, no payment details.'
+            : 'The macro payload has not been generated.'
+        ]),
+        el('p',{class:'about-text'},[m.detail || '']),
+        m.reason === 'no-api-key' ? el('p',{class:'about-text'},[
+          el('a',{href:'https://fredaccount.stlouisfed.org/apikeys', target:'_blank', rel:'noopener noreferrer'},
+            ['Get a FRED API key'])
+        ]) : null,
+      ])
+    ]);
+  }
+
+  const kids = [];
+  const g = state.macroGroup;
+  const inGroup = (x) => g === 'all' || x.group === g;
+
+  kids.push(macroHero(m));
+
+  kids.push(el('div',{class:'macro-subnav'}, MACRO_GROUP_TABS.map(t =>
+    el('button',{
+      class:'chip-tab' + (g === t.id ? ' active' : ''),
+      type:'button',
+      onclick:()=>{ state.macroGroup = t.id; render(); }
+    },[t.label])
+  )));
+
+  kids.push(macroCalendar(m, inGroup));
+
+  const inds = (m.indicators || []).filter(inGroup);
+  if(inds.length) kids.push(macroPrints(m, inds));
+
+  // Cross-asset is always shown: it is the "what is happening right now" strip
+  // and it does not belong to any one release group.
+  const cross = (m.indicators || []).filter(i => i.group === 'cross');
+  if(cross.length) kids.push(macroCross(cross));
+
+  if((m.positioning || []).length) kids.push(macroPositioning(m));
+
+  kids.push(macroNotes(m));
+  return el('div',{}, kids);
+}
+
+/* ---------- hero: next release + risk gauge ---------- */
+
+function macroHero(m){
+  const next = (m.releases || []).find(r => r.status === 'upcoming' && r.importance === 3)
+            || (m.releases || []).find(r => r.status === 'upcoming');
+
+  const left = el('div',{class:'hero-next'},[
+    el('p',{class:'hero-eyebrow'},['Next market-moving release']),
+    next ? el('h2',{class:'hero-title'},[next.name]) : el('h2',{class:'hero-title'},['Nothing scheduled']),
+    next ? el('div',{class:'hero-meta'},[
+      el('span',{class:'hero-when'},[whenLabel(next.date)]),
+      el('span',{class:'hero-sep'},['·']),
+      el('span',{},[longDate(next.date) + ', ' + next.time + ' ET']),
+      el('span',{class:'hero-sep'},['·']),
+      el('span',{},[next.agency]),
+    ]) : null,
+    next && next.note ? el('p',{class:'hero-note'},[next.note]) : null,
+    // The next few after it, so the card answers "what else is coming" without
+    // the reader having to scan the full calendar below.
+    (() => {
+      const then = (m.releases || [])
+        .filter(r => r.status === 'upcoming' && r.importance === 3 && (!next || r.key !== next.key))
+        .slice(0, 3);
+      if(!then.length) return null;
+      return el('div',{class:'hero-then'},[
+        el('span',{class:'hero-then-label'},['Then']),
+        el('div',{class:'hero-then-list'}, then.map(r =>
+          el('span',{class:'hero-then-item'},[
+            el('b',{},[r.short]),
+            ' ' + longDate(r.date).replace(', ' + r.date.slice(0,4), ''),
+          ])
+        )),
+      ]);
+    })(),
+  ]);
+
+  const r = m.risk;
+  const right = (r && r.score !== null)
+    ? el('div',{class:'hero-risk'},[
+        el('p',{class:'hero-eyebrow'},['Risk appetite']),
+        el('div',{class:'gauge'},[
+          el('div',{class:'gauge-score'},[String(r.score)]),
+          el('div',{class:'gauge-label'},[r.label]),
+        ]),
+        el('div',{class:'gauge-bar'},[
+          el('div',{class:'gauge-fill', style:'width:'+r.score+'%'}),
+        ]),
+        el('div',{class:'gauge-ends'},[
+          el('span',{},['Fear']), el('span',{},['Greed'])
+        ]),
+        el('details',{class:'gauge-details'},[
+          el('summary',{},['How this is built']),
+          el('div',{class:'gauge-comps'}, (r.components||[]).map(comp =>
+            el('div',{class:'gauge-comp'},[
+              el('div',{class:'gc-top'},[
+                el('span',{class:'gc-label'},[comp.label]),
+                el('span',{class:'gc-score'},[String(comp.score)]),
+              ]),
+              el('div',{class:'gc-track'},[el('div',{class:'gc-fill', style:'width:'+comp.score+'%'})]),
+              el('div',{class:'gc-detail'},[comp.detail]),
+            ])
+          )),
+          el('p',{class:'gauge-method'},[r.method || '']),
+        ]),
+      ])
+    : el('div',{class:'hero-risk'},[
+        el('p',{class:'hero-eyebrow'},['Risk appetite']),
+        el('div',{class:'empty-note'},[(r && r.note) || 'Not available.']),
+      ]);
+
+  return el('div',{class:'macro-hero'},[left, right]);
+}
+
+/* ---------- release calendar ---------- */
+
+function macroCalendar(m, inGroup){
+  const rows = (m.releases || [])
+    .filter(r => r.status === 'upcoming')
+    .filter(inGroup)
+    .slice(0, 40);
+
+  const byDate = new Map();
+  for(const r of rows){
+    if(!byDate.has(r.date)) byDate.set(r.date, []);
+    byDate.get(r.date).push(r);
+  }
+
+  const body = byDate.size
+    ? [...byDate.entries()].map(([date, items]) =>
+        el('div',{class:'rel-day'},[
+          el('div',{class:'rel-date'},[
+            el('span',{class:'rel-date-main'},[longDate(date)]),
+            el('span',{class:'rel-date-when'},[whenLabel(date)]),
+          ]),
+          el('div',{class:'rel-items'}, items.map(r =>
+            el('a',{
+              class:'rel-item', href:r.sourceUrl, target:'_blank', rel:'noopener noreferrer'
+            },[
+              impDots(r.importance),
+              el('span',{class:'rel-name'},[r.short]),
+              // A marker for what separates otherwise identical rows — the
+              // four FOMC meetings a year that carry the dot plot.
+              r.tag ? el('span',{class:'rel-tag', title:r.note || ''},[r.tag]) : null,
+              el('span',{class:'rel-full'},[relSecondary(r)]),
+              r.valueAvailable === false
+                ? el('span',{class:'badge est', title:r.note || ''},['date only'])
+                : null,
+              el('span',{class:'rel-time'},[r.time + ' ET']),
+            ])
+          )),
+        ])
+      )
+    : [el('div',{class:'empty-note'},['Nothing scheduled in this group over the next six months.'])];
+
+  return el('div',{class:'panel'},[
+    el('div',{class:'panel-head'},[
+      'Release calendar',
+      el('span',{class:'head-count'},[String(rows.length)]),
+    ]),
+    el('div',{class:'panel-body rel-body'}, body),
+  ]);
+}
+
+/* ---------- latest prints ---------- */
+
+function macroPrints(m, inds){
+  const groups = {};
+  for(const i of inds){
+    if(i.group === 'cross') continue;
+    (groups[i.group] = groups[i.group] || []).push(i);
+  }
+  const order = ['inflation','jobs','growth'];
+  const panels = order.filter(k => groups[k]).map(k => {
+    const meta = (m.groups || {})[k] || {label:k, blurb:''};
+    // macro-spec.js already lists these in reading order, and the payload keeps
+    // it. Re-sorting by importance split each indicator from its own variant.
+    const list = groups[k];
+    return el('div',{class:'panel'},[
+      el('div',{class:'panel-head'},[meta.label, el('span',{class:'head-blurb'},[meta.blurb || ''])]),
+      el('div',{class:'panel-body print-grid'}, list.map(printCard)),
+    ]);
+  });
+  return el('div',{}, panels);
+}
+
+function printCard(ind){
+  const delta = fmtDelta(ind);
+  return el('div',{class:'print-card'},[
+    el('div',{class:'print-top'},[
+      el('div',{},[
+        el('div',{class:'print-label'},[ind.label]),
+        ind.sub ? el('div',{class:'print-sub'},[ind.sub]) : null,
+      ]),
+      sparkline(ind.history),
+    ]),
+    el('div',{class:'print-mid'},[
+      el('span',{class:'print-value'},[fmtMacro(ind)]),
+      delta ? el('span',{class:'print-delta ' + deltaClass(ind)},[
+        arrow(ind.direction) + ' ' + delta
+      ]) : null,
+    ]),
+    el('div',{class:'print-foot'},[
+      el('span',{},[refLabel(ind)]),
+      el('a',{href:ind.sourceUrl, target:'_blank', rel:'noopener noreferrer', class:'print-src',
+              title: ind.seriesTitle || ind.series},[ind.series]),
+    ]),
+  ]);
+}
+
+/**
+ * The period the number describes, not the day it was published. Saying
+ * "September" for a CPI print released in October is the honest framing —
+ * it stops a reader treating a monthly figure as today's reading.
+ */
+function refLabel(ind){
+  const d = new Date(ind.asOf + 'T00:00:00');
+  if(ind.freq === 'quarterly') return 'Q' + (Math.floor(d.getMonth()/3)+1) + ' ' + d.getFullYear();
+  if(ind.freq === 'monthly') return MONTHS[d.getMonth()] + ' ' + d.getFullYear();
+  if(ind.freq === 'weekly') return 'week to ' + longDate(ind.asOf);
+  return longDate(ind.asOf);
+}
+
+/* ---------- cross-asset ---------- */
+
+function macroCross(cross){
+  const list = cross;   // spec order: volatility, equities, rates, curve, credit, FX, commodities
+
+  // These are all daily series that almost always share one as-of date, so it
+  // belongs in the header. Repeating it on twelve tiles is noise — but a tile
+  // that is genuinely stale still has to say so, so it keeps its own date.
+  const counts = {};
+  for(const i of list) counts[i.asOf] = (counts[i.asOf] || 0) + 1;
+  const common = Object.keys(counts).sort((a,b) => counts[b] - counts[a])[0];
+
+  return el('div',{class:'panel'},[
+    el('div',{class:'panel-head'},[
+      'Cross-asset',
+      el('span',{class:'head-blurb'},[
+        'What markets are pricing right now' + (common ? ' · ' + longDate(common) : '')
+      ]),
+    ]),
+    el('div',{class:'panel-body cross-grid'}, list.map(ind => {
+      const delta = fmtDelta(ind);
+      return el('div',{class:'cross-tile'},[
+        el('div',{class:'cross-label', title:ind.label},[ind.label]),
+        el('div',{class:'cross-value'},[fmtMacro(ind)]),
+        el('div',{class:'cross-foot'},[
+          delta ? el('span',{class:'cross-delta'},[arrow(ind.direction) + ' ' + delta]) : el('span',{},['']),
+          sparkline(ind.history, 54, 18),
+        ]),
+        ind.asOf !== common
+          ? el('div',{class:'cross-as-of stale'},[longDate(ind.asOf)])
+          : null,
+      ]);
+    })),
+  ]);
+}
+
+/* ---------- positioning ---------- */
+
+function macroPositioning(m){
+  return el('div',{class:'panel'},[
+    el('div',{class:'panel-head'},[
+      'Speculative positioning',
+      el('span',{class:'head-blurb'},[
+        'CFTC Commitments of Traders, non-commercial net' +
+        (m.positioningAsOf ? ' · as of ' + longDate(m.positioningAsOf) : '')
+      ]),
+    ]),
+    el('div',{class:'panel-body'},[
+      el('div',{class:'pos-grid'}, m.positioning.map(p =>
+        el('div',{class:'pos-row'},[
+          el('span',{class:'pos-label', title:p.contract},[p.label]),
+          el('span',{class:'pos-net ' + (p.net >= 0 ? 'long' : 'short')},[
+            (p.net >= 0 ? '+' : '−') + Math.abs(p.net).toLocaleString() +
+            (p.net >= 0 ? ' net long' : ' net short')
+          ]),
+          el('span',{class:'pos-change'},[
+            p.netChange === null ? '' :
+            (p.netChange > 0 ? '↑ ' : p.netChange < 0 ? '↓ ' : '→ ') +
+            Math.abs(p.netChange).toLocaleString() + ' on week'
+          ]),
+        ])
+      )),
+      el('p',{class:'about-text pos-note'},[
+        'Published each Friday for the preceding Tuesday, so this shows how speculators were ' +
+        'positioned going into the week rather than where they stand now.'
+      ]),
+    ]),
+  ]);
+}
+
+/* ---------- provenance and gaps ---------- */
+
+/**
+ * Attribution only. The build's own diagnostics and the list of licensed data
+ * we leave out are developer concerns — a visitor reading "rejected
+ * implausible parse for 2024" concludes the site is broken, which is the
+ * opposite of what that line was for. Those live in the build log now.
+ *
+ * What is NOT dropped is disclosure a reader needs to judge a number: the
+ * risk gauge still opens to show all four of its components and how they are
+ * weighted, and ISM rows still carry their badge. That belongs next to the
+ * number it qualifies, not in a footnote nobody scrolls to.
+ */
+function macroNotes(m){
+  const n = m.notes || {};
+  if(!(n.sources || []).length) return el('div',{});
+  return el('div',{class:'panel'},[
+    el('div',{class:'panel-head'},['Sources']),
+    el('div',{class:'panel-body'},[
+      el('div',{class:'src-list'}, n.sources.map(s =>
+        el('div',{class:'src-row'},[
+          el('a',{href:s.url, target:'_blank', rel:'noopener noreferrer', class:'src-name'},[s.name]),
+          el('span',{class:'src-covers'},[s.covers]),
+        ])
+      )),
+      el('p',{class:'about-text src-foot'},[
+        'Updated ' + (m.generatedDate || '—') + '. This is an information tool, not investment advice.'
+      ]),
+    ]),
+  ]);
+}
+
 document.addEventListener('keydown', (ev)=>{
   if(ev.key === 'Escape' && state.modalDate){ state.modalDate = null; render(); }
 });
 
 load();
+// A visitor arriving on #macro should not have to click the tab to start the fetch.
+if(state.tab === 'macro') loadMacro();

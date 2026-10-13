@@ -65,7 +65,7 @@ ${canonical && BASE ? `<link rel="canonical" href="${esc(BASE + canonical)}" />`
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="${up}styles.css?v=11" />
+<link rel="stylesheet" href="${up}styles.css?v=13" />
 ${jsonLd ? `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>` : ''}
 </head>
 <body>
@@ -105,6 +105,133 @@ function eventsJsonLd(events, limit = 25){
     description: e.summary || '',
     organizer: { '@type':'Organization', name: e.ticker },
   }));
+}
+
+/* ------------------------------------------------ economic calendar page */
+
+/**
+ * "Economic calendar" is a phrase people actually type into a search box, so
+ * this gets a real indexable page with the schedule already in the HTML —
+ * crawlers see the dates without running the app.
+ *
+ * Returns null when macro.json has not been built, so the page is simply
+ * absent rather than published empty.
+ */
+function economicCalendarPage(macro, today){
+  const upcoming = (macro.releases || [])
+    .filter(r => r.status === 'upcoming')
+    .slice(0, 60);
+  if(upcoming.length < 5) return null;
+
+  const rows = `<table class="seo-table">
+<thead><tr><th>Date</th><th>Time (ET)</th><th>Release</th><th>Agency</th></tr></thead>
+<tbody>
+${upcoming.map(r => `<tr>
+<td class="seo-date">${esc(longDate(r.date))}</td>
+<td>${esc(r.time)}</td>
+<td>${r.sourceUrl ? `<a href="${esc(r.sourceUrl)}" rel="nofollow noopener" target="_blank">${esc(r.name)}</a>` : esc(r.name)}${
+  r.valueAvailable === false ? ' <span class="seo-est">date only</span>' : ''}</td>
+<td>${esc(r.agency)}</td>
+</tr>`).join('\n')}
+</tbody></table>`;
+
+  const key = (macro.indicators || []).filter(i => i.importance === 3 && i.group !== 'cross');
+  const latest = key.length ? `<h2>Latest readings</h2>
+<table class="seo-table">
+<thead><tr><th>Indicator</th><th>Latest</th><th>Period</th><th>Prior</th></tr></thead>
+<tbody>
+${key.map(i => `<tr>
+<td><strong>${esc(i.label)}</strong>${i.sub ? ` <span class="seo-est">${esc(i.sub)}</span>` : ''}</td>
+<td>${esc(fmtSeoValue(i))}</td>
+<td>${esc(i.asOf)}</td>
+<td>${i.prior === null ? '—' : esc(fmtSeoValue({ ...i, value: i.prior }))}</td>
+</tr>`).join('\n')}
+</tbody></table>` : '';
+
+  const first = upcoming[0];
+  const body = `<div class="masthead">
+  <div><h1>Economic <span class="accent">Calendar</span></h1></div>
+  <div class="masthead-right"><span class="dot"></span>Updated ${esc(macro.generatedDate || today)}</div>
+</div>
+
+<div class="panel"><div class="panel-body seo-about">
+<p>Scheduled US economic releases with their official release times, plus the
+latest reading for each of the numbers that move markets. Every release links
+to the issuing agency.</p>
+<p>Next up: <strong>${esc(first.name)}</strong>, ${esc(longDate(first.date))} at ${esc(first.time)} ET.</p>
+</div></div>
+
+<div class="panel">
+  <div class="panel-head">Upcoming releases</div>
+  <div class="panel-body">${rows}</div>
+</div>
+
+${latest ? `<div class="panel"><div class="panel-head">Latest readings</div><div class="panel-body">${latest.replace('<h2>Latest readings</h2>','')}</div></div>` : ''}
+
+<div class="panel seo-cta">
+  <p>Track these alongside clinical trial readouts, FDA decisions and earnings
+  for the biotech names you follow.</p>
+  <a class="seo-btn" href="../#macro">Open the tracker</a>
+</div>
+
+<div class="panel"><div class="panel-body seo-about">
+<p>Release values and the schedule come from
+<a href="https://fred.stlouisfed.org/" rel="nofollow noopener" target="_blank">FRED</a>,
+the Federal Reserve Bank of St. Louis. FOMC dates come from the
+<a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" rel="nofollow noopener" target="_blank">Federal Reserve</a>.</p>
+<p>This is an information tool, not investment advice.</p>
+</div></div>`;
+
+  // schema.org Event markup for the scheduled releases, so dates can surface
+  // directly in search results.
+  const jsonLd = upcoming.slice(0, 25).map(r => ({
+    '@context':'https://schema.org',
+    '@type':'Event',
+    name: r.name,
+    startDate: `${r.date}T${r.time}:00${etOffset(r.date)}`,
+    eventStatus: 'https://schema.org/EventScheduled',
+    eventAttendanceMode: 'https://schema.org/OnlineEventAttendanceMode',
+    location: { '@type':'VirtualLocation', url: r.sourceUrl || BASE || 'https://example.com' },
+    organizer: { '@type':'Organization', name: r.agency },
+  }));
+
+  return page({
+    title: 'US Economic Calendar — CPI, Jobs, GDP and FOMC Dates',
+    description: `Scheduled US economic releases with official times. Next: ${first.name} on ${longDate(first.date)} at ${first.time} ET.`,
+    canonical: '/economic-calendar/',
+    depth: 1,
+    body,
+    jsonLd,
+  });
+}
+
+/**
+ * The UTC offset for US Eastern time on a given date. Release times are quoted
+ * in ET, and schema.org startDate needs a real offset — hardcoding -05:00 puts
+ * every event an hour out for the roughly eight months of daylight time.
+ *
+ * DST runs from the second Sunday in March to the first Sunday in November.
+ */
+function etOffset(isoDate){
+  const [y, m, d] = isoDate.split('-').map(Number);
+  const nthSunday = (month, n) => {
+    const first = new Date(Date.UTC(y, month, 1));
+    return 1 + ((7 - first.getUTCDay()) % 7) + (n - 1) * 7;
+  };
+  const dstStart = { month: 2, day: nthSunday(2, 2) };   // March
+  const dstEnd   = { month: 10, day: nthSunday(10, 1) }; // November
+  const after  = (mo, dy) => m - 1 > mo || (m - 1 === mo && d >= dy);
+  const before = (mo, dy) => m - 1 < mo || (m - 1 === mo && d < dy);
+  const inDst = after(dstStart.month, dstStart.day) && before(dstEnd.month, dstEnd.day);
+  return inDst ? '-04:00' : '-05:00';
+}
+
+function fmtSeoValue(i){
+  if(i.value === null || i.value === undefined) return '—';
+  const v = Number(i.value).toLocaleString(undefined, {
+    minimumFractionDigits: i.decimals, maximumFractionDigits: i.decimals
+  });
+  return i.unit === '%' ? v + '%' : i.unit === '$' ? '$' + v : i.unit === 'k' ? v + 'k' : v;
 }
 
 /* -------------------------------------------------------- ticker pages */
@@ -282,6 +409,28 @@ function main(){
     months++;
   }
 
+  // Economic calendar. Skipped silently when macro.json has not been built —
+  // an empty page is worse than no page.
+  let econ = false;
+  const macroPath = path.join(DATA,'macro.json');
+  if(fs.existsSync(macroPath)){
+    try{
+      const macro = JSON.parse(fs.readFileSync(macroPath,'utf8'));
+      if(macro.available){
+        const html = economicCalendarPage(macro, today);
+        if(html){
+          const dir = path.join(PUBLIC,'economic-calendar');
+          fs.mkdirSync(dir,{recursive:true});
+          fs.writeFileSync(path.join(dir,'index.html'), html);
+          urls.push({ loc:'/economic-calendar/', priority:'0.9', changefreq:'daily' });
+          econ = true;
+        }
+      }
+    }catch(e){
+      log('NOTE: macro.json could not be read (' + e.message + '); economic calendar page skipped.');
+    }
+  }
+
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map(u => `  <url>
@@ -303,7 +452,7 @@ Allow: /
 Disallow: /*?tickers=
 ${BASE ? `\nSitemap: ${BASE}/sitemap.xml\n` : ''}`);
 
-  log(`Wrote ${written} ticker pages, ${months} month pages`);
+  log(`Wrote ${written} ticker pages, ${months} month pages` + (econ ? ', 1 economic calendar page' : ''));
   log(`      sitemap.xml with ${urls.length} URLs, robots.txt`);
   log(`\nSkipped ${tickers.length - written} tickers with fewer than 2 events (thin content).`);
   if(!BASE) log('\nRe-run with --base once you know your live URL, or the sitemap will be wrong.');

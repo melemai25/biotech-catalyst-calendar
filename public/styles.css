@@ -568,3 +568,220 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
 .seo-about p{font-size:13px;line-height:1.65;color:var(--ink-faint);max-width:72ch;margin:0 0 10px;}
 .seo-about a{color:var(--teal-dark);font-weight:600;text-decoration:none;}
 .seo-about a:hover{text-decoration:underline;}
+
+/* ================================================================= macro */
+
+/* .about-text is used across the app but was never defined. */
+.about-text{font-size:13.5px;line-height:1.65;color:var(--ink-soft);margin:0 0 10px;max-width:72ch;}
+.about-text a{color:var(--teal-dark);font-weight:600;text-decoration:none;}
+.about-text a:hover{text-decoration:underline;}
+
+/* The macro page is market-wide, so it drops the watchlist column. */
+.layout-wide{grid-template-columns:minmax(0,1fr);}
+
+.head-blurb{font-size:12px;font-weight:500;color:var(--ink-faint);letter-spacing:0;}
+
+/* The masthead's .eyebrow is deliberately display:none, so the hero needs its own. */
+.hero-eyebrow{
+  margin:0;font-size:11px;font-weight:700;letter-spacing:.07em;
+  text-transform:uppercase;color:var(--ink-faint);
+}
+
+/* ---- hero ---- */
+.macro-hero{
+  display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:18px;
+  margin-bottom:18px;
+  /* Without this the left card stretches to match the expanded gauge. */
+  align-items:start;
+}
+@media (max-width:900px){ .macro-hero{grid-template-columns:minmax(0,1fr);} }
+
+.hero-next,.hero-risk{
+  background:var(--surface);border:1px solid var(--line-soft);
+  border-radius:var(--r-lg);box-shadow:var(--shadow-sm);
+  padding:20px 22px;min-width:0;
+}
+.hero-next{
+  background:linear-gradient(135deg,var(--teal-wash) 0%,var(--surface) 62%);
+}
+.hero-title{
+  font-size:22px;font-weight:800;letter-spacing:-.03em;
+  margin:6px 0 10px;line-height:1.2;color:var(--ink);
+}
+.hero-meta{
+  display:flex;align-items:center;gap:8px;flex-wrap:wrap;
+  font-size:13px;color:var(--ink-soft);
+}
+.hero-when{
+  background:var(--surface);border:1px solid var(--teal);color:var(--teal-dark);
+  border-radius:var(--r-pill);padding:3px 12px;font-weight:700;font-size:12.5px;
+}
+.hero-sep{color:var(--ink-faint);}
+.hero-note{font-size:12.5px;color:var(--ink-soft);margin:12px 0 0;line-height:1.55;}
+.hero-then{
+  display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;
+  margin-top:18px;padding-top:14px;border-top:1px solid var(--line-soft);
+}
+.hero-then-label{
+  font-size:10.5px;font-weight:700;letter-spacing:.07em;
+  text-transform:uppercase;color:var(--ink-faint);
+}
+.hero-then-list{display:flex;gap:16px;flex-wrap:wrap;}
+.hero-then-item{font-size:12.5px;color:var(--ink-soft);white-space:nowrap;}
+.hero-then-item b{color:var(--ink);font-weight:700;}
+
+/* ---- risk gauge ---- */
+.gauge{display:flex;align-items:baseline;gap:10px;margin:8px 0 12px;}
+.gauge-score{font-size:40px;font-weight:800;letter-spacing:-.04em;line-height:1;color:var(--teal-dark);}
+.gauge-label{font-size:14px;font-weight:700;color:var(--ink-soft);}
+.gauge-bar{
+  height:8px;background:var(--surface-tint);border-radius:var(--r-pill);
+  overflow:hidden;margin-bottom:6px;
+}
+.gauge-fill{
+  height:100%;border-radius:var(--r-pill);
+  background:linear-gradient(90deg,var(--teal) 0%,var(--green) 100%);
+}
+.gauge-ends{
+  display:flex;justify-content:space-between;
+  font-size:11px;color:var(--ink-faint);font-weight:600;
+}
+.gauge-details{margin-top:14px;}
+.gauge-details summary{
+  font-size:12.5px;font-weight:600;color:var(--teal-dark);
+  cursor:pointer;list-style:none;
+}
+.gauge-details summary::-webkit-details-marker{display:none;}
+.gauge-details summary::before{content:'\25B8 ';font-size:10px;}
+.gauge-details[open] summary::before{content:'\25BE ';}
+.gauge-comps{margin-top:12px;display:flex;flex-direction:column;gap:12px;}
+.gc-top{display:flex;justify-content:space-between;align-items:baseline;}
+.gc-label{font-size:12.5px;font-weight:600;color:var(--ink);}
+.gc-score{font-size:12.5px;font-weight:700;color:var(--teal-dark);}
+.gc-track{height:4px;background:var(--surface-tint);border-radius:var(--r-pill);margin:4px 0 4px;overflow:hidden;}
+.gc-fill{height:100%;background:var(--teal);border-radius:var(--r-pill);}
+.gc-detail{font-size:11.5px;color:var(--ink-faint);line-height:1.45;}
+.gauge-method{font-size:11.5px;color:var(--ink-faint);line-height:1.5;margin:14px 0 0;}
+
+/* ---- group sub-nav ---- */
+.macro-subnav{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:16px;padding:0 2px;}
+.chip-tab{
+  background:var(--surface);border:1px solid var(--line-soft);
+  border-radius:var(--r-pill);padding:7px 16px;
+  font-size:12.5px;font-weight:600;color:var(--ink-soft);
+  cursor:pointer;font-family:inherit;
+}
+.chip-tab:hover{color:var(--teal-dark);border-color:var(--line);}
+.chip-tab.active{background:var(--surface-tint);border-color:var(--teal);color:var(--teal-dark);}
+
+/* ---- release calendar ---- */
+.rel-body{padding-bottom:10px;}
+.rel-day{
+  display:grid;grid-template-columns:168px minmax(0,1fr);gap:14px;
+  padding:12px 4px;border-bottom:1px solid var(--line-soft);
+}
+.rel-day:last-child{border-bottom:none;}
+@media (max-width:620px){ .rel-day{grid-template-columns:minmax(0,1fr);gap:6px;} }
+.rel-date-main{display:block;font-size:13.5px;font-weight:700;color:var(--ink);}
+.rel-date-when{display:block;font-size:11.5px;color:var(--ink-faint);margin-top:2px;}
+.rel-items{display:flex;flex-direction:column;gap:6px;min-width:0;}
+.rel-item{
+  display:flex;align-items:center;gap:10px;min-width:0;
+  padding:8px 12px;border-radius:var(--r-md);
+  background:var(--surface-soft);border:1px solid var(--line-soft);
+  text-decoration:none;color:inherit;
+}
+.rel-item:hover{background:var(--teal-wash);border-color:var(--teal);}
+.rel-name{font-size:13.5px;font-weight:700;color:var(--ink);white-space:nowrap;}
+.rel-full{
+  font-size:12px;color:var(--ink-faint);flex:1;min-width:0;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+}
+.rel-time{font-size:12px;font-weight:600;color:var(--ink-soft);white-space:nowrap;}
+.rel-tag{
+  font-size:10.5px;font-weight:700;letter-spacing:.02em;white-space:nowrap;
+  background:var(--amber-wash);color:#9A6411;
+  border-radius:var(--r-pill);padding:2px 9px;flex-shrink:0;
+}
+
+/* Three dots, filled by importance. Colour alone would not carry it. */
+.imp{display:inline-flex;gap:2.5px;flex-shrink:0;}
+.imp-dot{width:5px;height:5px;border-radius:50%;background:var(--line);}
+.imp-dot.on{background:var(--ink-faint);}
+.imp-3 .imp-dot.on{background:var(--teal);}
+.imp-2 .imp-dot.on{background:var(--ink-soft);}
+
+/* ---- latest prints ---- */
+.print-grid{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(236px,1fr));
+  gap:12px;padding:6px 4px 10px;
+}
+.print-card{
+  background:var(--surface-soft);border:1px solid var(--line-soft);
+  border-radius:var(--r-md);padding:14px 15px;min-width:0;
+}
+.print-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;}
+.print-label{font-size:13px;font-weight:700;color:var(--ink);line-height:1.25;}
+.print-sub{font-size:11px;color:var(--ink-faint);margin-top:2px;}
+.print-mid{display:flex;align-items:baseline;gap:9px;margin:10px 0 8px;flex-wrap:wrap;}
+.print-value{font-size:26px;font-weight:800;letter-spacing:-.035em;line-height:1;}
+.print-delta{font-size:12px;font-weight:700;border-radius:var(--r-pill);padding:2px 9px;}
+.print-delta.good{background:var(--green-wash);color:#1D7A51;}
+.print-delta.bad{background:var(--rose-wash);color:#A8403C;}
+.print-delta.neutral{background:var(--surface-tint);color:var(--ink-soft);}
+.print-foot{
+  display:flex;justify-content:space-between;align-items:center;gap:8px;
+  font-size:11px;color:var(--ink-faint);
+}
+.print-src{color:var(--ink-faint);text-decoration:none;font-weight:600;}
+.print-src:hover{color:var(--teal-dark);text-decoration:underline;}
+.spark{flex-shrink:0;}
+.spark-empty{display:inline-block;width:92px;height:26px;}
+
+/* ---- cross-asset ---- */
+.cross-grid{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(152px,1fr));
+  gap:10px;padding:6px 4px 10px;
+}
+.cross-tile{
+  background:var(--surface-soft);border:1px solid var(--line-soft);
+  border-radius:var(--r-md);padding:12px 13px;min-width:0;
+}
+/* Wraps to two lines rather than truncating: "Investment-grade spread" told
+   the reader nothing as "Investment-grade spr…". */
+.cross-label{
+  font-size:11.5px;font-weight:600;color:var(--ink-soft);line-height:1.3;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;
+  overflow:hidden;min-height:2.6em;
+}
+.cross-value{font-size:20px;font-weight:800;letter-spacing:-.03em;margin:5px 0 4px;}
+.cross-foot{display:flex;justify-content:space-between;align-items:center;gap:6px;}
+.cross-delta{font-size:11px;font-weight:700;color:var(--ink-soft);}
+/* Only shown when a tile is out of step with the rest of the strip. */
+.cross-as-of.stale{
+  font-size:10.5px;color:var(--amber);font-weight:600;margin-top:5px;
+}
+
+/* ---- positioning ---- */
+.pos-grid{display:flex;flex-direction:column;gap:2px;padding:4px 4px 0;}
+.pos-row{
+  display:grid;grid-template-columns:minmax(0,1fr) auto auto;
+  gap:14px;align-items:center;
+  padding:11px 12px;border-radius:var(--r-md);
+}
+.pos-row:nth-child(odd){background:var(--surface-soft);}
+.pos-label{font-size:13px;font-weight:600;color:var(--ink);min-width:0;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.pos-net{font-size:12.5px;font-weight:700;white-space:nowrap;}
+.pos-net.long{color:#1D7A51;}
+.pos-net.short{color:#A8403C;}
+.pos-change{font-size:11.5px;color:var(--ink-faint);white-space:nowrap;}
+.pos-note{margin-top:14px;padding:0 12px;}
+
+/* ---- sources and gaps ---- */
+.src-list{display:flex;flex-direction:column;gap:8px;padding:4px 4px 0;}
+.src-row{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap;}
+.src-name{font-size:13px;font-weight:700;color:var(--teal-dark);text-decoration:none;white-space:nowrap;}
+.src-name:hover{text-decoration:underline;}
+.src-covers{font-size:12.5px;color:var(--ink-faint);}
+.src-foot{margin-top:16px;padding:0 4px;font-size:12.5px;color:var(--ink-faint);}

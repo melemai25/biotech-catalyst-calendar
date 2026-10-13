@@ -53,9 +53,22 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/data public/ticker public/calendar public/sitemap.xml public/robots.txt
-          git diff --staged --quiet || git commit -m "chore: refresh data and pages"
-          git push
+          # macro.json belongs to the macro workflow. Adding the whole data
+          # directory would let this job revert a fresher macro payload.
+          git add public/data/index.json public/data/events.json public/data/ticker \
+                  public/ticker public/calendar public/economic-calendar \
+                  public/sitemap.xml public/robots.txt
+          git diff --staged --quiet && echo "No change." && exit 0
+          git commit -m "chore: refresh data and pages"
+          # The macro workflow pushes to this branch too, so a plain push loses
+          # the race often enough to matter. Rebase and retry rather than force.
+          for i in 1 2 3; do
+            if git push; then exit 0; fi
+            echo "Push rejected, rebasing onto origin/${GITHUB_REF_NAME} (attempt $i)"
+            git pull --rebase origin "${GITHUB_REF_NAME}" || exit 1
+          done
+          echo "::error::Could not push after 3 attempts."
+          exit 1
         continue-on-error: true
 
       - uses: actions/configure-pages@v4

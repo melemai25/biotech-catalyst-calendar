@@ -2,9 +2,11 @@
 
 A static website showing a navigable calendar of clinical trial dates, FDA
 decisions, and earnings catalysts across the biotech sector. Click any
-highlighted date for details; past events show their outcome. A second tab
-gives a searchable, filterable table of every event with composable filters
-such as `phase:3 status:upcoming runway:<12`.
+highlighted date for details; past events show their outcome. A **Macro** tab
+carries the US economic calendar — CPI, jobs, GDP, FOMC — with the latest
+readings and a cross-asset strip. A **Data** tab gives a searchable, filterable
+table of every event with composable filters such as
+`phase:3 status:upcoming runway:<12`.
 
 The ticker universe, trial data, SEC filings and financial metrics are all
 collected by scripts. The only thing still maintained by hand is
@@ -80,12 +82,123 @@ Most entries there are private companies with no ticker, which is expected.
 **To force a ticker in or out**, edit `data/overrides.json`. It is applied last,
 so it always wins. That is the only file you hand-maintain for the universe.
 
+## The Macro tab
+
+US economic data — the release calendar, the latest prints, and what markets
+are pricing. It runs on its own payload (`public/data/macro.json`) built by its
+own script on its own schedule, so it shares nothing with the biotech pipeline
+and a failure in one never touches the other.
+
+### Required: a free FRED key
+
+```bash
+# Windows
+setx FRED_API_KEY "your32charkey"
+# macOS / Linux
+export FRED_API_KEY="your32charkey"
+```
+
+Get one at <https://fredaccount.stlouisfed.org/apikeys> — about a minute, no
+payment details. Or put it in `data/config.json` as `fredApiKey`.
+
+Without a key the build writes an `available: false` payload, the Macro tab
+explains what is missing, and nothing else on the site is affected.
+
+```bash
+npm run macro        # build it
+npm run macro:dry    # fetch and report, write nothing
+```
+
+### Why FRED does nearly all of it
+
+FRED's `releases/dates` endpoint returns **future** release dates when called
+with `include_release_dates_with_no_data=true` — the default omits them,
+because a future date has no data attached. That one flag turns the endpoint
+from a history into a schedule, and FRED serves the values too. So the calendar
+and the numbers come from one source with one key.
+
+Two small adapters cover the rest: the Fed's FOMC calendar page, and the CFTC's
+free Socrata API for speculative positioning.
+
+### What is deliberately missing, and why
+
+This is the part worth understanding before promising anyone a feature.
+
+| Not included | Why | What is there instead |
+|---|---|---|
+| **Consensus forecasts** | Licensed (Econoday / Refinitiv / Bloomberg). No free source exists. | Atlanta Fed **GDPNow**, a free published nowcast |
+| **ISM Manufacturing / Services PMI** | Licensed. [Removed from FRED in 2016](https://news.research.stlouisfed.org/2016/06/institute-for-supply-management-data-to-be-removed-from-fred/) at ISM's request; S&P Global's PMI is licensed too. | The release *date*, which is mechanical — first and third business day of the month — badged `date only` |
+| **CNN Fear & Greed Index** | Proprietary composite, no public API. | An own composite from four free FRED inputs, with every component and its reasoning shown |
+| **AAII sentiment** | Members-only, redistribution prohibited. | — |
+| **CBOE put/call archive** | Moved behind CBOE DataShop. | — |
+
+Consensus is the real gap: traders react to the surprise against consensus, not
+to the raw number. GDPNow is a genuine substitute rather than a downgrade —
+most free calendars do not carry it — but it is not the same thing, and the
+page says so.
+
+### The risk composite
+
+A transparent stand-in for Fear & Greed, scored 0–100 where 100 is maximum risk
+appetite. Four equally weighted components, each scored against its own
+two-year range:
+
+| Component | Input | Direction |
+|---|---|---|
+| Volatility | `VIXCLS` percentile | Inverted — a low VIX is complacency |
+| Credit spreads | `BAMLH0A0HYM2` percentile | Inverted — tight spreads are risk-on |
+| Equity momentum | S&P 500 against its 125-day average | ±10% spans the scale |
+| Yield curve | `T10Y2Y` percentile | Steeper reads as confidence |
+
+It will not match CNN's number and is not trying to. The point is that a reader
+can open "How this is built" and check the workings, which a licensed black box
+never allows.
+
+### Adding an indicator
+
+One line in `scripts/macro-spec.js`. Give it a FRED series id, a transform
+(`level`, `yoy`, `mom`, `diff`, `pca`), a frequency and a group. Series marked
+`critical` log loudly on failure; everything else degrades with a warning so an
+upstream rename cannot take down an unattended build.
+
+### Timing matters more than you would think
+
+The biotech build runs at 11:14 UTC — 07:14 ET, *before* the 08:30 ET window
+that CPI, PPI, PCE, GDP, retail sales and the jobs report all land in. A
+once-daily job would always show yesterday's number on the morning it counts.
+
+So macro has its own workflow on a release-aware schedule, at times that clear
+the release in both halves of the year, since cron is UTC and ET shifts:
+
+| UTC | EST | EDT | Catches |
+|---|---|---|---|
+| 13:45 | 08:45 | 09:45 | The 08:30 ET releases |
+| 15:20 | 10:20 | 11:20 | The 10:00 ET releases — JOLTS, sentiment, ISM |
+| 22:30 | 17:30 | 18:30 | The close, and Friday's COT |
+
+Weekdays only; about 15 runs a week, well inside the free tier for a public
+repo. Add `FRED_API_KEY` under **Settings → Secrets and variables → Actions →
+Secrets**.
+
+One limit you cannot engineer around: GitHub's scheduler is best-effort and can
+run several minutes late under load. Fine for a calendar and for "what did CPI
+print at". It is not a wire feed and should never be described as one.
+
+### Hand corrections
+
+`data/macro-overrides.json`, applied last so it always wins. Normally empty.
+It exists for one case: the Fed publishes FOMC dates only as a web page, and if
+that page's layout changes the parser refuses to publish a result it cannot
+validate — a warning and no events, rather than plausible wrong dates on a
+calendar people plan around. Paste the dates there and they are used instead.
+
 ### Suggested cadence
 
 | Command | How often | Why |
 |---|---|---|
 | `npm run discover` | monthly | The universe changes slowly |
 | `npm run build` | daily | Trials and filings move |
+| `npm run macro` | several times a weekday | Releases land at fixed times |
 
 ## Run it
 
@@ -95,6 +208,7 @@ Three independent steps. Only the first touches the network.
 |---|---|---|---|
 | `node scripts/discover.js` | Rebuild the ticker universe | ~3 min | Monthly |
 | `node scripts/build-data.js` | Fetch trials, filings, financials | ~6 min | Daily |
+| `node scripts/build-macro.js` | Fetch US economic data | ~30 s | Several times a weekday |
 | `node scripts/build-pages.js` | Regenerate the static SEO pages | <1 s | After data, or after editing the page template |
 | `node scripts/serve.js` | Serve what is already on disk | instant | Whenever |
 
@@ -129,6 +243,12 @@ Instead `build-pages.js` generates the pages people actually search for:
 | `/?tickers=LLY,MRNA` | The same app, shareable | No — canonical to `/` |
 | `/ticker/MRNA/` | One company: catalysts, runway, history | Yes |
 | `/calendar/2026-11/` | Every company that month | Yes |
+| `/economic-calendar/` | US economic releases and latest readings | Yes |
+
+`/economic-calendar/` is generated only when `macro.json` has been built, since
+an empty page is worse than no page. "Economic calendar" is a phrase people
+type into a search box, which is why it gets a page of its own rather than
+living only behind a tab.
 
 Each generated page is real HTML with its content already in it, so crawlers
 see the events without running JavaScript, and each carries schema.org `Event`
