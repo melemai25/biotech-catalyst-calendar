@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 3,
   "phase2": 2,
-  "generatedDate": "2026-10-12",
+  "generatedDate": "2026-10-13",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 14,
     "leadPhase": 4,
     "upcomingCount": 6,
-    "nextCatalystDate": "2026-10-13",
+    "nextCatalystDate": "2026-12-22",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 70
   },
   "trialStats": {
     "completed": 24,
@@ -709,7 +709,7 @@
     {
       "id": "edgar-ACAD-next-earnings",
       "ticker": "ACAD",
-      "date": "2026-10-13",
+      "date": "2026-12-22",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 1,
   "phase2": 3,
-  "generatedDate": "2026-10-12",
+  "generatedDate": "2026-10-13",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 9,
     "leadPhase": 3,
     "upcomingCount": 4,
-    "nextCatalystDate": "2026-10-13",
+    "nextCatalystDate": "2026-12-22",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 70
   },
   "trialStats": {
     "completed": 18,
@@ -580,7 +580,7 @@
     {
       "id": "edgar-SNDX-next-earnings",
       "ticker": "SNDX",
-      "date": "2026-10-13",
+      "date": "2026-12-22",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

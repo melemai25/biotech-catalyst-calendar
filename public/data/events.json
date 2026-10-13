@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-12T20:19:36.591Z",
-  "generatedDate": "2026-10-12",
+  "generatedAt": "2026-10-13T06:17:04.482Z",
+  "generatedDate": "2026-10-13",
   "tickers": {
     "AZN": {
       "name": "ASTRAZENECA PLC",
@@ -1209,10 +1209,10 @@
   },
   "warnings": [],
   "counts": {
-    "total": 13005,
+    "total": 13000,
     "curated": 14,
     "registry": 6298,
-    "edgar": 6693
+    "edgar": 6688
   },
   "events": [
     {
@@ -58591,36 +58591,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-GSK-0001654954-25-004091",
-      "ticker": "GSK",
-      "date": "2025-04-10",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. TRANSACTION IN OWN SHARES.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-10",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1131399/000165495425004091/a4051e.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-SNY-0001193125-25-077305",
-      "ticker": "SNY",
-      "date": "2025-04-10",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-10",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1121404/000119312525077305/d942506d6k.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
       "id": "ct-NVO-NCT06326060",
       "ticker": "NVO",
       "date": "2025-04-10",
@@ -58633,51 +58603,6 @@
       "source": "ClinicalTrials.gov NCT06326060",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06326060",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ONCY-0001104659-25-033825",
-      "ticker": "ONCY",
-      "date": "2025-04-10",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. FORM 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-10",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1129928/000110465925033825/tm2512020d2_6k.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ONCY-0001129928-25-000021",
-      "ticker": "ONCY",
-      "date": "2025-04-10",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-10",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1129928/000112992825000021/form6kkolevent.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-BCRX-0001171843-25-002147",
-      "ticker": "BCRX",
-      "date": "2025-04-10",
-      "title": "8-K filed: Leadership change",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.02. Leadership change. FORM 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-10",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/882796/000117184325002147/f8k_040625.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {
@@ -168403,82 +168328,7 @@
       "source": "ClinicalTrials.gov NCT05831111",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05831111",
       "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "edgar-ACAD-next-earnings",
-      "ticker": "ACAD",
-      "date": "2026-10-13",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001070494&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
-      "id": "edgar-GKOS-next-earnings",
-      "ticker": "GKOS",
-      "date": "2026-10-13",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001192448&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
-      "id": "edgar-SNDX-next-earnings",
-      "ticker": "SNDX",
-      "date": "2026-10-13",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001395937&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
-      "id": "edgar-BCRX-next-earnings",
-      "ticker": "BCRX",
-      "date": "2026-10-13",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000882796&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
-      "id": "edgar-OTLK-next-earnings",
-      "ticker": "OTLK",
-      "date": "2026-10-13",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001649989&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "edgar-MIRM-next-earnings",
@@ -173146,6 +172996,21 @@
       "status": "upcoming"
     },
     {
+      "id": "edgar-OTLK-next-earnings",
+      "ticker": "OTLK",
+      "date": "2026-12-12",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001649989&type=8-K",
+      "origin": "edgar",
+      "status": "upcoming"
+    },
+    {
       "id": "edgar-REGN-next-earnings",
       "ticker": "REGN",
       "date": "2026-12-13",
@@ -174346,6 +174211,51 @@
       "status": "upcoming"
     },
     {
+      "id": "edgar-BCRX-next-earnings",
+      "ticker": "BCRX",
+      "date": "2026-12-21",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000882796&type=8-K",
+      "origin": "edgar",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-ACAD-next-earnings",
+      "ticker": "ACAD",
+      "date": "2026-12-22",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001070494&type=8-K",
+      "origin": "edgar",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-SNDX-next-earnings",
+      "ticker": "SNDX",
+      "date": "2026-12-22",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001395937&type=8-K",
+      "origin": "edgar",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-ENSC-NCT06500793",
       "ticker": "ENSC",
       "date": "2026-12-22",
@@ -174418,6 +174328,21 @@
       "source": "ClinicalTrials.gov NCT06551324",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06551324",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-GKOS-next-earnings",
+      "ticker": "GKOS",
+      "date": "2026-12-28",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001192448&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {

@@ -11,7 +11,7 @@
   "activeTrials": 15,
   "phase3": 2,
   "phase2": 13,
-  "generatedDate": "2026-10-12",
+  "generatedDate": "2026-10-13",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -54,10 +54,10 @@
     "phase3Count": 23,
     "phase2Count": 42,
     "leadPhase": 4,
-    "upcomingCount": 28,
-    "nextCatalystDate": "2026-10-13",
-    "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 1
+    "upcomingCount": 27,
+    "nextCatalystDate": "2026-10-16",
+    "nextCatalystType": "Earnings",
+    "daysToNextCatalyst": 3
   },
   "trialStats": {
     "completed": 76,
@@ -1430,7 +1430,7 @@
       "source": "ClinicalTrials.gov NCT05831111",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05831111",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "edgar-MRNA-next-earnings",

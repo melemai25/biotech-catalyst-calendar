@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 1,
   "phase2": 4,
-  "generatedDate": "2026-10-12",
+  "generatedDate": "2026-10-13",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 10,
     "leadPhase": 4,
     "upcomingCount": 6,
-    "nextCatalystDate": "2026-10-13",
+    "nextCatalystDate": "2026-12-28",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 76
   },
   "trialStats": {
     "completed": 39,
@@ -544,7 +544,7 @@
     {
       "id": "edgar-GKOS-next-earnings",
       "ticker": "GKOS",
-      "date": "2026-10-13",
+      "date": "2026-12-28",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

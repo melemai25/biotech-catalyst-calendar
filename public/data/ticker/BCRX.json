@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-12",
+  "generatedDate": "2026-10-13",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 9,
     "leadPhase": 3,
     "upcomingCount": 3,
-    "nextCatalystDate": "2026-10-13",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "nextCatalystDate": "2026-10-15",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 2
   },
   "trialStats": {
     "completed": 37,
@@ -380,21 +380,6 @@
       "source": "ClinicalTrials.gov NCT05741346",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05741346",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-BCRX-0001171843-25-002147",
-      "ticker": "BCRX",
-      "date": "2025-04-10",
-      "title": "8-K filed: Leadership change",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.02. Leadership change. FORM 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-10",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/882796/000117184325002147/f8k_040625.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {
@@ -833,21 +818,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-BCRX-next-earnings",
-      "ticker": "BCRX",
-      "date": "2026-10-13",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000882796&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BCRX-NCT06539507",
       "ticker": "BCRX",
       "date": "2026-10-15",
@@ -860,6 +830,21 @@
       "source": "ClinicalTrials.gov NCT06539507",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06539507",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-BCRX-next-earnings",
+      "ticker": "BCRX",
+      "date": "2026-12-21",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000882796&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {
