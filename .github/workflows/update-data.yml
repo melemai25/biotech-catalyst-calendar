@@ -33,7 +33,16 @@ jobs:
         with:
           node-version: '20'
 
+      # A push is someone changing the code. The data did not change, so there
+      # is nothing to refetch — and refetching anyway meant every push kicked
+      # off a six-minute job that committed data back to main, which is what
+      # kept rejecting the next push with "fetch first".
+      #
+      # On push: regenerate the pages from the data already in the repo and
+      # deploy. A few seconds, no commit, nothing to race against.
+      # On schedule or manual dispatch: the full refresh, as before.
       - name: Check SEC contact string
+        if: github.event_name != 'push'
         run: |
           if [ -z "$EDGAR_USER_AGENT" ]; then
             echo "::warning::EDGAR_USER_AGENT is not set. SEC filings and financial"
@@ -44,12 +53,14 @@ jobs:
           fi
 
       - name: Fetch trials, filings and financials
+        if: github.event_name != 'push'
         run: node scripts/build-data.js
 
       - name: Generate static pages and sitemap
         run: node scripts/build-pages.js --base "$SITE_BASE_URL"
 
       - name: Commit refreshed data and pages
+        if: github.event_name != 'push'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
