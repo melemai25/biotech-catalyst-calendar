@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 3,
   "phase2": 1,
-  "generatedDate": "2026-10-13",
+  "generatedDate": "2026-10-14",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-11-13",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 31
+    "daysToNextCatalyst": 30
   },
   "trialStats": {
     "completed": 3,
@@ -73,12 +73,6 @@
         "total": 4,
         "completionRatePct": null
       },
-      "other": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 1,
         "terminated": 1,
@@ -89,6 +83,12 @@
         "completed": 1,
         "terminated": 0,
         "total": 1,
+        "completionRatePct": null
+      },
+      "other": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 2,
         "completionRatePct": null
       }
     },
@@ -469,6 +469,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-09-30",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1819576/000110465926112420/tm2626740d1_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-LQDA-0001104659-26-115672",
+      "ticker": "LQDA",
+      "date": "2026-10-14",
+      "title": "8-K filed: Material agreement, Reg FD disclosure, Other event",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 1.01, 1.02, 7.01, 8.01, 9.01. Material agreement; Reg FD disclosure; Other event. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-14",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1819576/000110465926115672/tm2627557d1_8k.htm",
       "origin": "edgar",
       "status": "past"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-10-13",
+  "generatedDate": "2026-10-14",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2027-12-31",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 444
+    "daysToNextCatalyst": 443
   },
   "trialStats": {
     "completed": 1,
@@ -98,21 +98,6 @@
       "source": "ClinicalTrials.gov NCT04904120",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04904120",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-CATX-0000950170-25-053023",
-      "ticker": "CATX",
-      "date": "2025-04-11",
-      "title": "8-K filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-11",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/728387/000095017025053023/catx-20250411.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 3,
   "phase2": 2,
-  "generatedDate": "2026-10-13",
+  "generatedDate": "2026-10-14",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -50,14 +50,14 @@
     "fcfMarginPct": -13132.7,
     "marketCapUsd": null,
     "entityName": "Celldex Therapeutics, Inc.",
-    "activeTrials": 31,
+    "activeTrials": 30,
     "phase3Count": 5,
     "phase2Count": 10,
     "leadPhase": 3,
     "upcomingCount": 6,
     "nextCatalystDate": "2026-10-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 2
+    "daysToNextCatalyst": 1
   },
   "trialStats": {
     "completed": 27,
@@ -73,17 +73,17 @@
         "total": 22,
         "completionRatePct": 81
       },
-      "phase2": {
-        "completed": 9,
-        "terminated": 5,
-        "total": 16,
-        "completionRatePct": 64
-      },
       "phase3": {
         "completed": 1,
         "terminated": 0,
         "total": 5,
         "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 9,
+        "terminated": 5,
+        "total": 16,
+        "completionRatePct": 64
       },
       "other": {
         "completed": 0,
@@ -97,21 +97,6 @@
     "resultsPostedPct": 11
   },
   "events": [
-    {
-      "id": "ct-CLDX-NCT02456701",
-      "ticker": "CLDX",
-      "date": "2016-10-13",
-      "title": "Enhancing Radioiodine Incorporation Into BRAF Mutant Thyroid Cancers With the Combination of Vemurafenib and KTN3379",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Thyroid Cancer · 7 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT02456701",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02456701",
-      "origin": "registry",
-      "status": "past"
-    },
     {
       "id": "ct-CLDX-NCT02413827",
       "ticker": "CLDX",

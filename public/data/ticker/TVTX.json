@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 2,
   "phase2": 2,
-  "generatedDate": "2026-10-13",
+  "generatedDate": "2026-10-14",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,30 +57,30 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2026-10-17",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 4
+    "daysToNextCatalyst": 3
   },
   "trialStats": {
-    "completed": 7,
+    "completed": 8,
     "terminated": 1,
     "withdrawn": 0,
     "suspended": 0,
-    "ongoing": 6,
+    "ongoing": 5,
     "withResults": 6,
     "byPhase": {
+      "phase2": {
+        "completed": 2,
+        "terminated": 0,
+        "total": 4,
+        "completionRatePct": null
+      },
       "phase3": {
-        "completed": 1,
+        "completed": 2,
         "terminated": 1,
         "total": 5,
         "completionRatePct": null
       },
       "other": {
         "completed": 3,
-        "terminated": 0,
-        "total": 4,
-        "completionRatePct": null
-      },
-      "phase2": {
-        "completed": 2,
         "terminated": 0,
         "total": 4,
         "completionRatePct": null
@@ -92,9 +92,9 @@
         "completionRatePct": null
       }
     },
-    "concluded": 8,
-    "completionRatePct": 88,
-    "resultsPostedPct": 86
+    "concluded": 9,
+    "completionRatePct": 89,
+    "resultsPostedPct": 75
   },
   "events": [
     {
@@ -150,7 +150,7 @@
       "type": "Trial Milestone",
       "phase": "Phase 3",
       "estimated": false,
-      "summary": "Immunoglobulin A Nephropathy · 406 participants · Status: Active Not Recruiting",
+      "summary": "Immunoglobulin A Nephropathy · 406 participants · Status: Completed",
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT03762850",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03762850",

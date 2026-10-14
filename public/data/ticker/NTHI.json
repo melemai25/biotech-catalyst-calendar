@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-10-13",
+  "generatedDate": "2026-10-14",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2026-11-02",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 20
+    "daysToNextCatalyst": 19
   },
   "trialStats": {
     "completed": 0,
@@ -85,21 +85,6 @@
     "resultsPostedPct": null
   },
   "events": [
-    {
-      "id": "edgar-NTHI-0001829126-25-002595",
-      "ticker": "NTHI",
-      "date": "2025-04-11",
-      "title": "8-K filed: Material agreement, Leadership change, Reg FD disclosure",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 1.01, 5.02, 7.01, 9.01. Material agreement; Leadership change; Reg FD disclosure. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-11",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1979414/000182912625002595/neonctechnologies_8k.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
     {
       "id": "edgar-NTHI-0001829126-25-004186",
       "ticker": "NTHI",

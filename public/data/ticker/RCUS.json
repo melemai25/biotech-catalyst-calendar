@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 2,
   "phase2": 2,
-  "generatedDate": "2026-10-13",
+  "generatedDate": "2026-10-14",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 9,
     "nextCatalystDate": "2026-11-05",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 23
+    "daysToNextCatalyst": 22
   },
   "trialStats": {
     "completed": 24,
@@ -67,17 +67,17 @@
     "ongoing": 8,
     "withResults": 0,
     "byPhase": {
-      "phase2": {
-        "completed": 3,
-        "terminated": 0,
-        "total": 5,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 20,
         "terminated": 0,
         "total": 24,
         "completionRatePct": 100
+      },
+      "phase2": {
+        "completed": 3,
+        "terminated": 0,
+        "total": 5,
+        "completionRatePct": null
       },
       "phase3": {
         "completed": 1,
@@ -722,21 +722,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-RCUS-NCT07751250",
-      "ticker": "RCUS",
-      "date": "2027-05-15",
-      "title": "Comparative PK Assessment Study of Casdatifan in Moderate Hepatically Impaired Participants Versus Matched Participants With Normal Hepatic Function",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Healthy Participants, Hepatic Impairment · 16 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07751250",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07751250",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-RCUS-NCT04736173",
       "ticker": "RCUS",
       "date": "2027-05-15",
@@ -748,6 +733,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04736173",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04736173",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-RCUS-NCT07751250",
+      "ticker": "RCUS",
+      "date": "2027-05-15",
+      "title": "Comparative PK Assessment Study of Casdatifan in Moderate Hepatically Impaired Participants Versus Matched Participants With Normal Hepatic Function",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Healthy Participants, Hepatic Impairment · 16 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07751250",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07751250",
       "origin": "registry",
       "status": "upcoming"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-13",
+  "generatedDate": "2026-10-14",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-11-10",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 28
+    "daysToNextCatalyst": 27
   },
   "trialStats": {
     "completed": 0,
@@ -361,6 +361,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-10-05",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1835022/000119312526413218/d95167d8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-COYA-0001193125-26-421066",
+      "ticker": "COYA",
+      "date": "2026-10-14",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 8.01. Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-14",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1835022/000119312526421066/d172621d8k.htm",
       "origin": "edgar",
       "status": "past"
     },

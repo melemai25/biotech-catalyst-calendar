@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 0,
   "phase2": 4,
-  "generatedDate": "2026-10-13",
+  "generatedDate": "2026-10-14",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2026-11-05",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 23
+    "daysToNextCatalyst": 22
   },
   "trialStats": {
     "completed": 12,
@@ -67,17 +67,17 @@
     "ongoing": 5,
     "withResults": 1,
     "byPhase": {
-      "phase1": {
-        "completed": 11,
-        "terminated": 0,
-        "total": 11,
-        "completionRatePct": 100
-      },
       "phase2": {
         "completed": 1,
         "terminated": 0,
         "total": 6,
         "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 11,
+        "terminated": 0,
+        "total": 11,
+        "completionRatePct": 100
       }
     },
     "concluded": 12,
@@ -476,21 +476,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-EWTX-NCT06347159",
-      "ticker": "EWTX",
-      "date": "2027-12-15",
-      "title": "A Study of EDG-7500 in Adults With Hypertrophic Cardiomyopathy (CIRRUS-HCM)",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Hypertrophic Cardiomyopathy · 79 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06347159",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06347159",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-EWTX-NCT07795814",
       "ticker": "EWTX",
       "date": "2027-12-15",
@@ -502,6 +487,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07795814",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07795814",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-EWTX-NCT06347159",
+      "ticker": "EWTX",
+      "date": "2027-12-15",
+      "title": "A Study of EDG-7500 in Adults With Hypertrophic Cardiomyopathy (CIRRUS-HCM)",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Hypertrophic Cardiomyopathy · 79 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06347159",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06347159",
       "origin": "registry",
       "status": "upcoming"
     },

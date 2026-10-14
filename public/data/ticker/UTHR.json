@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 1,
   "phase2": 2,
-  "generatedDate": "2026-10-13",
+  "generatedDate": "2026-10-14",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2026-11-04",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 22
+    "daysToNextCatalyst": 21
   },
   "trialStats": {
     "completed": 43,
@@ -73,17 +73,17 @@
         "total": 31,
         "completionRatePct": 64
       },
-      "phase2": {
-        "completed": 8,
-        "terminated": 3,
-        "total": 17,
-        "completionRatePct": 73
-      },
       "phase1": {
         "completed": 10,
         "terminated": 2,
         "total": 13,
         "completionRatePct": 83
+      },
+      "phase2": {
+        "completed": 8,
+        "terminated": 3,
+        "total": 17,
+        "completionRatePct": 73
       },
       "other": {
         "completed": 11,
@@ -679,6 +679,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-09-08",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1082554/000110465926105953/tm2624887d1_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-UTHR-0001104659-26-115723",
+      "ticker": "UTHR",
+      "date": "2026-10-14",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-14",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1082554/000110465926115723/tm2627546d1_8k.htm",
       "origin": "edgar",
       "status": "past"
     },

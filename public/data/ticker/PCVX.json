@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 3,
   "phase2": 1,
-  "generatedDate": "2026-10-13",
+  "generatedDate": "2026-10-14",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2026-11-04",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 22
+    "daysToNextCatalyst": 21
   },
   "trialStats": {
     "completed": 4,
@@ -67,17 +67,17 @@
     "ongoing": 5,
     "withResults": 3,
     "byPhase": {
-      "phase3": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 3,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 4,
         "terminated": 0,
         "total": 5,
         "completionRatePct": 100
+      },
+      "phase3": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 3,
+        "completionRatePct": null
       },
       "phase1": {
         "completed": 0,
@@ -422,21 +422,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-PCVX-NCT07365826",
-      "ticker": "PCVX",
-      "date": "2027-03-15",
-      "title": "A Clinical Study to Evaluate the Safety, Tolerability, and Immunogenicity of VAX-31 With Influenza Vaccine in Adults ≥ 50 Years of Age",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Pneumococcal Vaccines · 1,390 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07365826",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07365826",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-PCVX-NCT07425392",
       "ticker": "PCVX",
       "date": "2027-03-15",
@@ -448,6 +433,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07425392",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07425392",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-PCVX-NCT07365826",
+      "ticker": "PCVX",
+      "date": "2027-03-15",
+      "title": "A Clinical Study to Evaluate the Safety, Tolerability, and Immunogenicity of VAX-31 With Influenza Vaccine in Adults ≥ 50 Years of Age",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Pneumococcal Vaccines · 1,390 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07365826",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07365826",
       "origin": "registry",
       "status": "upcoming"
     },

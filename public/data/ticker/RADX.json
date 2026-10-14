@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-10-13",
+  "generatedDate": "2026-10-14",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -57,7 +57,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2027-08-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 321
+    "daysToNextCatalyst": 320
   },
   "trialStats": {
     "completed": 0,
@@ -67,12 +67,6 @@
     "ongoing": 7,
     "withResults": 0,
     "byPhase": {
-      "phase1": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 0,
         "terminated": 0,
@@ -80,6 +74,12 @@
         "completionRatePct": null
       },
       "other": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 2,
+        "completionRatePct": null
+      },
+      "phase1": {
         "completed": 0,
         "terminated": 0,
         "total": 2,
@@ -1262,6 +1262,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-RADX-NCT06305962",
+      "ticker": "RADX",
+      "date": "2027-12-15",
+      "title": "177Lu-anti-PD-L1 sdAb in Metastatic Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "EARLY_Phase 1",
+      "estimated": false,
+      "summary": "PDL1 Gene Mutation, Non Small Cell Lung Cancer, Small Cell Lung Cancer ( SCLC ) · 30 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06305962",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06305962",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-RADX-NCT06824155",
       "ticker": "RADX",
       "date": "2027-12-15",
@@ -1288,21 +1303,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07189871",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07189871",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-RADX-NCT06305962",
-      "ticker": "RADX",
-      "date": "2027-12-15",
-      "title": "177Lu-anti-PD-L1 sdAb in Metastatic Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "EARLY_Phase 1",
-      "estimated": false,
-      "summary": "PDL1 Gene Mutation, Non Small Cell Lung Cancer, Small Cell Lung Cancer ( SCLC ) · 30 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06305962",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06305962",
       "origin": "registry",
       "status": "upcoming"
     },

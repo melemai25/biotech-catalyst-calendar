@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 3,
   "phase2": 0,
-  "generatedDate": "2026-10-13",
+  "generatedDate": "2026-10-14",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 13,
     "leadPhase": 4,
     "upcomingCount": 10,
-    "nextCatalystDate": "2026-10-14",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "nextCatalystDate": "2026-10-31",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 17
   },
   "trialStats": {
     "completed": 23,
@@ -73,6 +73,12 @@
         "total": 9,
         "completionRatePct": 75
       },
+      "phase1": {
+        "completed": 9,
+        "terminated": 7,
+        "total": 20,
+        "completionRatePct": 56
+      },
       "phase2": {
         "completed": 11,
         "terminated": 6,
@@ -84,12 +90,6 @@
         "terminated": 0,
         "total": 4,
         "completionRatePct": null
-      },
-      "phase1": {
-        "completed": 9,
-        "terminated": 7,
-        "total": 20,
-        "completionRatePct": 56
       }
     },
     "concluded": 39,
@@ -698,21 +698,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-SRPT-next-earnings",
-      "ticker": "SRPT",
-      "date": "2026-10-14",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000873303&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-SRPT-NCT03992430",
       "ticker": "SRPT",
       "date": "2026-10-31",
@@ -725,6 +710,21 @@
       "source": "ClinicalTrials.gov NCT03992430",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03992430",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-SRPT-next-earnings",
+      "ticker": "SRPT",
+      "date": "2026-12-23",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000873303&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {

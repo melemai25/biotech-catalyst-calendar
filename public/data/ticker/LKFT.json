@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-13",
+  "generatedDate": "2026-10-14",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -57,7 +57,7 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2039-07-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 4658
+    "daysToNextCatalyst": 4657
   },
   "trialStats": {
     "completed": 96,
@@ -67,12 +67,6 @@
     "ongoing": 1,
     "withResults": 21,
     "byPhase": {
-      "phase2": {
-        "completed": 25,
-        "terminated": 9,
-        "total": 34,
-        "completionRatePct": 74
-      },
       "phase1": {
         "completed": 70,
         "terminated": 3,
@@ -84,6 +78,12 @@
         "terminated": 4,
         "total": 6,
         "completionRatePct": 20
+      },
+      "phase2": {
+        "completed": 25,
+        "terminated": 9,
+        "total": 34,
+        "completionRatePct": 74
       }
     },
     "concluded": 112,
@@ -2128,6 +2128,21 @@
       "result": null,
       "source": "SEC EDGAR 6-K 2026-10-09",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1421876/000117184326006564/f6k_100926.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-LKFT-0001171843-26-006602",
+      "ticker": "LKFT",
+      "date": "2026-10-13",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. FORM 6-K.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-10-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1421876/000117184326006602/f6k_101326.htm",
       "origin": "edgar",
       "status": "past"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 10,
   "phase3": 5,
   "phase2": 5,
-  "generatedDate": "2026-10-13",
+  "generatedDate": "2026-10-14",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 9,
     "nextCatalystDate": "2026-11-12",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 30
+    "daysToNextCatalyst": 29
   },
   "trialStats": {
     "completed": 34,
@@ -67,11 +67,11 @@
     "ongoing": 14,
     "withResults": 1,
     "byPhase": {
-      "phase2": {
-        "completed": 2,
-        "terminated": 0,
-        "total": 9,
-        "completionRatePct": null
+      "phase3": {
+        "completed": 7,
+        "terminated": 2,
+        "total": 13,
+        "completionRatePct": 78
       },
       "phase1": {
         "completed": 23,
@@ -79,17 +79,17 @@
         "total": 33,
         "completionRatePct": 82
       },
+      "phase2": {
+        "completed": 2,
+        "terminated": 0,
+        "total": 9,
+        "completionRatePct": null
+      },
       "other": {
         "completed": 2,
         "terminated": 0,
         "total": 2,
         "completionRatePct": null
-      },
-      "phase3": {
-        "completed": 7,
-        "terminated": 2,
-        "total": 13,
-        "completionRatePct": 78
       }
     },
     "concluded": 43,
@@ -1370,6 +1370,21 @@
       "source": "ClinicalTrials.gov NCT06123884",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06123884",
       "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "edgar-INBS-0001493152-26-046863",
+      "ticker": "INBS",
+      "date": "2026-10-13",
+      "title": "8-K filed: Reg FD disclosure",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 5.03, 7.01, 9.01. Reg FD disclosure. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1725430/000149315226046863/form8-k.htm",
+      "origin": "edgar",
       "status": "past"
     },
     {

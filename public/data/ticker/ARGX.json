@@ -11,7 +11,7 @@
   "activeTrials": 28,
   "phase3": 15,
   "phase2": 13,
-  "generatedDate": "2026-10-13",
+  "generatedDate": "2026-10-14",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -57,14 +57,14 @@
     "upcomingCount": 30,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 33
+    "daysToNextCatalyst": 32
   },
   "trialStats": {
-    "completed": 34,
+    "completed": 35,
     "terminated": 7,
     "withdrawn": 1,
     "suspended": 0,
-    "ongoing": 45,
+    "ongoing": 44,
     "withResults": 19,
     "byPhase": {
       "phase3": {
@@ -80,7 +80,7 @@
         "completionRatePct": 75
       },
       "phase1": {
-        "completed": 13,
+        "completed": 14,
         "terminated": 0,
         "total": 19,
         "completionRatePct": 100
@@ -92,9 +92,9 @@
         "completionRatePct": null
       }
     },
-    "concluded": 42,
+    "concluded": 43,
     "completionRatePct": 81,
-    "resultsPostedPct": 56
+    "resultsPostedPct": 54
   },
   "events": [
     {
@@ -575,21 +575,6 @@
       "source": "ClinicalTrials.gov NCT05681481",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05681481",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ARGX-0001104659-25-033857",
-      "ticker": "ARGX",
-      "date": "2025-04-11",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. FORM 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-11",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1697862/000110465925033857/tm2511923d1_6k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {
@@ -1330,12 +1315,12 @@
     {
       "id": "ct-ARGX-NCT07782775",
       "ticker": "ARGX",
-      "date": "2026-09-18",
+      "date": "2026-09-23",
       "title": "A Study to Assess the Bioequivalence of Efgartigimod PH20 SC Between Autoinjector and Prefilled Syringe in Healthy Adult Participants",
       "type": "Trial Milestone",
       "phase": "Phase 1",
       "estimated": false,
-      "summary": "Healthy Volunteer, Healthy Adult Participants · 32 participants · Status: Recruiting",
+      "summary": "Healthy Volunteer, Healthy Adult Participants · 32 participants · Status: Completed",
       "result": null,
       "source": "ClinicalTrials.gov NCT07782775",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07782775",
@@ -1448,21 +1433,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ARGX-NCT07612020",
-      "ticker": "ARGX",
-      "date": "2027-03-15",
-      "title": "A Study to Assess the Absolute Bioavailability of Empasiprubart SC Administered With an Autoinjector and the Pharmacokinetic Noninferiority of Empasiprubart SC Versus Intravenous (IV) in Healthy Adult Participants",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Healthy Volunteers · 130 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07612020",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07612020",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ARGX-NCT04833894",
       "ticker": "ARGX",
       "date": "2027-03-15",
@@ -1474,6 +1444,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04833894",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04833894",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ARGX-NCT07612020",
+      "ticker": "ARGX",
+      "date": "2027-03-15",
+      "title": "A Study to Assess the Absolute Bioavailability of Empasiprubart SC Administered With an Autoinjector and the Pharmacokinetic Noninferiority of Empasiprubart SC Versus Intravenous (IV) in Healthy Adult Participants",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Healthy Volunteers · 130 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07612020",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07612020",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1523,21 +1508,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ARGX-NCT06920004",
-      "ticker": "ARGX",
-      "date": "2027-09-15",
-      "title": "A Study to Assess Efficacy and Safety of Empasiprubart Versus IVIg in Adults With CIDP",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Chronic Inflammatory Demyelinating Polyneuropathy, CIDP, CIDP - Chronic Inflammatory Demyelinating Polyneuropathy · 218 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06920004",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06920004",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ARGX-NCT06392386",
       "ticker": "ARGX",
       "date": "2027-09-15",
@@ -1549,6 +1519,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06392386",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06392386",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ARGX-NCT06920004",
+      "ticker": "ARGX",
+      "date": "2027-09-15",
+      "title": "A Study to Assess Efficacy and Safety of Empasiprubart Versus IVIg in Adults With CIDP",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Chronic Inflammatory Demyelinating Polyneuropathy, CIDP, CIDP - Chronic Inflammatory Demyelinating Polyneuropathy · 218 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06920004",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06920004",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1673,21 +1658,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ARGX-NCT07596849",
-      "ticker": "ARGX",
-      "date": "2028-06-15",
-      "title": "A Study to Assess Efficacy and Safety of Efgartigimod PH20 SC PFS in Adult Participants With Graves' Disease.",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Graves Disease · 230 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07596849",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07596849",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ARGX-NCT07570316",
       "ticker": "ARGX",
       "date": "2028-06-15",
@@ -1699,6 +1669,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07570316",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07570316",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ARGX-NCT07596849",
+      "ticker": "ARGX",
+      "date": "2028-06-15",
+      "title": "A Study to Assess Efficacy and Safety of Efgartigimod PH20 SC PFS in Adult Participants With Graves' Disease.",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Graves Disease · 230 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07596849",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07596849",
       "origin": "registry",
       "status": "upcoming"
     },

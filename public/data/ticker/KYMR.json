@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-10-13",
+  "generatedDate": "2026-10-14",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 3,
     "leadPhase": 2,
     "upcomingCount": 6,
-    "nextCatalystDate": "2026-10-14",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "nextCatalystDate": "2026-12-15",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 62
   },
   "trialStats": {
     "completed": 7,
@@ -482,21 +482,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-KYMR-next-earnings",
-      "ticker": "KYMR",
-      "date": "2026-10-14",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001815442&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-KYMR-NCT07412288",
       "ticker": "KYMR",
       "date": "2026-12-15",
@@ -509,6 +494,21 @@
       "source": "ClinicalTrials.gov NCT07412288",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07412288",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-KYMR-next-earnings",
+      "ticker": "KYMR",
+      "date": "2026-12-23",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001815442&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {

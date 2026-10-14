@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-10-13",
+  "generatedDate": "2026-10-14",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 8,
     "leadPhase": 3,
     "upcomingCount": 4,
-    "nextCatalystDate": "2026-10-14",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "nextCatalystDate": "2026-12-15",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 62
   },
   "trialStats": {
     "completed": 30,
@@ -73,17 +73,17 @@
         "total": 10,
         "completionRatePct": 100
       },
-      "phase2": {
-        "completed": 10,
-        "terminated": 1,
-        "total": 13,
-        "completionRatePct": 91
-      },
       "phase1": {
         "completed": 13,
         "terminated": 0,
         "total": 14,
         "completionRatePct": 100
+      },
+      "phase2": {
+        "completed": 10,
+        "terminated": 1,
+        "total": 13,
+        "completionRatePct": 91
       }
     },
     "concluded": 34,
@@ -632,19 +632,19 @@
       "status": "past"
     },
     {
-      "id": "edgar-AKBA-next-earnings",
+      "id": "edgar-AKBA-0001517022-26-000071",
       "ticker": "AKBA",
       "date": "2026-10-14",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
+      "title": "8-K filed: Leadership change",
+      "type": "Corporate",
       "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 5.02. Leadership change. 8-K.",
       "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001517022&type=8-K",
+      "source": "SEC EDGAR 8-K 2026-10-14",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1517022/000151702226000071/akba-20261007.htm",
       "origin": "edgar",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-AKBA-NCT07429006",
@@ -659,6 +659,21 @@
       "source": "ClinicalTrials.gov NCT07429006",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07429006",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-AKBA-next-earnings",
+      "ticker": "AKBA",
+      "date": "2026-12-23",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001517022&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {

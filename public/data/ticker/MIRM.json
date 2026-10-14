@@ -11,7 +11,7 @@
   "activeTrials": 9,
   "phase3": 5,
   "phase2": 4,
-  "generatedDate": "2026-10-13",
+  "generatedDate": "2026-10-14",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,8 +55,8 @@
     "phase2Count": 16,
     "leadPhase": 4,
     "upcomingCount": 9,
-    "nextCatalystDate": "2026-10-14",
-    "nextCatalystType": "Earnings",
+    "nextCatalystDate": "2026-10-15",
+    "nextCatalystType": "Trial Milestone",
     "daysToNextCatalyst": 1
   },
   "trialStats": {
@@ -67,17 +67,17 @@
     "ongoing": 13,
     "withResults": 20,
     "byPhase": {
-      "phase3": {
-        "completed": 6,
-        "terminated": 0,
-        "total": 12,
-        "completionRatePct": 100
-      },
       "phase2": {
         "completed": 11,
         "terminated": 2,
         "total": 18,
         "completionRatePct": 85
+      },
+      "other": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 5,
+        "completionRatePct": null
       },
       "phase1": {
         "completed": 4,
@@ -85,11 +85,11 @@
         "total": 4,
         "completionRatePct": 100
       },
-      "other": {
-        "completed": 1,
+      "phase3": {
+        "completed": 6,
         "terminated": 0,
-        "total": 5,
-        "completionRatePct": null
+        "total": 12,
+        "completionRatePct": 100
       }
     },
     "concluded": 26,
@@ -608,21 +608,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-MIRM-next-earnings",
-      "ticker": "MIRM",
-      "date": "2026-10-14",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001759425&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-MIRM-NCT06553768",
       "ticker": "MIRM",
       "date": "2026-10-15",
@@ -635,6 +620,21 @@
       "source": "ClinicalTrials.gov NCT06553768",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06553768",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-MIRM-next-earnings",
+      "ticker": "MIRM",
+      "date": "2026-12-23",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001759425&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {

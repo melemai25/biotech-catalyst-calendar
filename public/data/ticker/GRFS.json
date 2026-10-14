@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 4,
   "phase2": 0,
-  "generatedDate": "2026-10-13",
+  "generatedDate": "2026-10-14",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -57,7 +57,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2027-09-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 352
+    "daysToNextCatalyst": 351
   },
   "trialStats": {
     "completed": 35,
@@ -73,6 +73,12 @@
         "total": 22,
         "completionRatePct": 86
       },
+      "other": {
+        "completed": 3,
+        "terminated": 1,
+        "total": 5,
+        "completionRatePct": 75
+      },
       "phase3": {
         "completed": 11,
         "terminated": 1,
@@ -84,12 +90,6 @@
         "terminated": 0,
         "total": 2,
         "completionRatePct": null
-      },
-      "other": {
-        "completed": 3,
-        "terminated": 1,
-        "total": 5,
-        "completionRatePct": 75
       }
     },
     "concluded": 42,
@@ -380,21 +380,6 @@
       "source": "ClinicalTrials.gov NCT03451292",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03451292",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-GRFS-0001104659-25-034245",
-      "ticker": "GRFS",
-      "date": "2025-04-11",
-      "title": "Results filed (20-F)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 20-F. Annual report. FORM 20-F.",
-      "result": "Results were furnished with this filing. Open the 20-F for the earnings release exhibit.",
-      "source": "SEC EDGAR 20-F 2025-04-11",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1438569/000110465925034245/grfs-20241231x20f.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

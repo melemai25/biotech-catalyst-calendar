@@ -11,7 +11,7 @@
   "activeTrials": 8,
   "phase3": 3,
   "phase2": 5,
-  "generatedDate": "2026-10-13",
+  "generatedDate": "2026-10-14",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2026-10-22",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 9
+    "daysToNextCatalyst": 8
   },
   "trialStats": {
     "completed": 12,
@@ -67,17 +67,17 @@
     "ongoing": 9,
     "withResults": 20,
     "byPhase": {
-      "phase1": {
-        "completed": 3,
-        "terminated": 2,
-        "total": 5,
-        "completionRatePct": 60
-      },
       "phase2": {
         "completed": 6,
         "terminated": 8,
         "total": 25,
         "completionRatePct": 43
+      },
+      "phase1": {
+        "completed": 3,
+        "terminated": 2,
+        "total": 5,
+        "completionRatePct": 60
       },
       "phase3": {
         "completed": 3,
@@ -668,6 +668,21 @@
       "status": "past"
     },
     {
+      "id": "edgar-KPTI-0001193125-26-421025",
+      "ticker": "KPTI",
+      "date": "2026-10-14",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 8.01. Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-14",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1503802/000119312526421025/d451522d8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "edgar-KPTI-next-earnings",
       "ticker": "KPTI",
       "date": "2026-10-22",
@@ -683,21 +698,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-KPTI-NCT02227251",
-      "ticker": "KPTI",
-      "date": "2026-12-15",
-      "title": "Selinexor (KPT-330) in Patients With Relapsed/Refractory Diffuse Large B-Cell Lymphoma (DLBCL)",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Diffuse Large B-cell Lymphoma · 244 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT02227251",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02227251",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-KPTI-NCT04442022",
       "ticker": "KPTI",
       "date": "2026-12-15",
@@ -709,6 +709,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04442022",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04442022",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-KPTI-NCT02227251",
+      "ticker": "KPTI",
+      "date": "2026-12-15",
+      "title": "Selinexor (KPT-330) in Patients With Relapsed/Refractory Diffuse Large B-Cell Lymphoma (DLBCL)",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Diffuse Large B-cell Lymphoma · 244 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT02227251",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02227251",
       "origin": "registry",
       "status": "upcoming"
     },

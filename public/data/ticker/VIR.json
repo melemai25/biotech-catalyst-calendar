@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 2,
   "phase2": 3,
-  "generatedDate": "2026-10-13",
+  "generatedDate": "2026-10-14",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 7,
     "nextCatalystDate": "2026-10-16",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 3
+    "daysToNextCatalyst": 2
   },
   "trialStats": {
     "completed": 12,
@@ -604,6 +604,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-10-08",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1706431/000162828026065408/vir-20261008.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-VIR-0001628280-26-065826",
+      "ticker": "VIR",
+      "date": "2026-10-14",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 3.02, 8.01, 9.01. Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-14",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1706431/000162828026065826/vir-20261009.htm",
       "origin": "edgar",
       "status": "past"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 13,
   "phase3": 7,
   "phase2": 6,
-  "generatedDate": "2026-10-13",
+  "generatedDate": "2026-10-14",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 19,
     "nextCatalystDate": "2026-12-21",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 69
+    "daysToNextCatalyst": 68
   },
   "trialStats": {
     "completed": 132,
@@ -73,12 +73,6 @@
         "total": 67,
         "completionRatePct": 77
       },
-      "phase1": {
-        "completed": 19,
-        "terminated": 4,
-        "total": 29,
-        "completionRatePct": 83
-      },
       "phase3": {
         "completed": 56,
         "terminated": 10,
@@ -90,6 +84,12 @@
         "terminated": 2,
         "total": 36,
         "completionRatePct": 89
+      },
+      "phase1": {
+        "completed": 19,
+        "terminated": 4,
+        "total": 29,
+        "completionRatePct": 83
       }
     },
     "concluded": 171,
@@ -698,21 +698,6 @@
       "status": "past"
     },
     {
-      "id": "ct-JAZZ-NCT03416530",
-      "ticker": "JAZZ",
-      "date": "2022-12-31",
-      "title": "ONC201 in Pediatric H3 K27M Gliomas",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Diffuse Intrinsic Pontine Glioma, Glioma, Malignant · 134 participants · Status: Terminated",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT03416530",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT03416530",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-JAZZ-NCT03295396",
       "ticker": "JAZZ",
       "date": "2022-12-31",
@@ -724,6 +709,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT03295396",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03295396",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-JAZZ-NCT03416530",
+      "ticker": "JAZZ",
+      "date": "2022-12-31",
+      "title": "ONC201 in Pediatric H3 K27M Gliomas",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Diffuse Intrinsic Pontine Glioma, Glioma, Malignant · 134 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT03416530",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03416530",
       "origin": "registry",
       "status": "past"
     },

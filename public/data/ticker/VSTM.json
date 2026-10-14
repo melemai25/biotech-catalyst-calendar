@@ -11,7 +11,7 @@
   "activeTrials": 10,
   "phase3": 1,
   "phase2": 9,
-  "generatedDate": "2026-10-13",
+  "generatedDate": "2026-10-14",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2027-06-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 245
+    "daysToNextCatalyst": 244
   },
   "trialStats": {
     "completed": 9,
@@ -587,19 +587,19 @@
       "status": "past"
     },
     {
-      "id": "ct-VSTM-NCT07659795",
+      "id": "edgar-VSTM-0001104659-26-115687",
       "ticker": "VSTM",
-      "date": "2027-06-15",
-      "title": "A Phase 2 Study of VS-7375 in Patients With KRAS G12D-Mutated Colorectal Cancer",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
+      "date": "2026-10-14",
+      "title": "Quarterly results filed (8-K)",
+      "type": "Earnings",
+      "phase": null,
       "estimated": false,
-      "summary": "Colorectal Cancer · 150 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07659795",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07659795",
-      "origin": "registry",
-      "status": "upcoming"
+      "summary": "SEC Form 8-K, items 2.02, 5.02, 7.01, 8.01, 9.01. Quarterly results; Leadership change; Reg FD disclosure; Other event. FORM 8-K.",
+      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
+      "source": "SEC EDGAR 8-K 2026-10-14",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1526119/000110465926115687/tm2627537d4_8k.htm",
+      "origin": "edgar",
+      "status": "past"
     },
     {
       "id": "ct-VSTM-NCT07644559",
@@ -628,6 +628,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07659782",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07659782",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-VSTM-NCT07659795",
+      "ticker": "VSTM",
+      "date": "2027-06-15",
+      "title": "A Phase 2 Study of VS-7375 in Patients With KRAS G12D-Mutated Colorectal Cancer",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Colorectal Cancer · 150 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07659795",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07659795",
       "origin": "registry",
       "status": "upcoming"
     },

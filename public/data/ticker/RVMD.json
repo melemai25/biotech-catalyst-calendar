@@ -11,7 +11,7 @@
   "activeTrials": 12,
   "phase3": 7,
   "phase2": 5,
-  "generatedDate": "2026-10-13",
+  "generatedDate": "2026-10-14",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 15,
     "nextCatalystDate": "2026-11-04",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 22
+    "daysToNextCatalyst": 21
   },
   "trialStats": {
     "completed": 3,
@@ -67,16 +67,16 @@
     "ongoing": 17,
     "withResults": 2,
     "byPhase": {
-      "phase1": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 5,
-        "completionRatePct": null
-      },
       "phase3": {
         "completed": 0,
         "terminated": 0,
         "total": 7,
+        "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 5,
         "completionRatePct": null
       },
       "phase2": {
@@ -394,6 +394,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-09-01",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1628171/000119312526377362/rvmd-20260827.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-RVMD-0001628171-26-000004",
+      "ticker": "RVMD",
+      "date": "2026-10-13",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 2.03, 8.01. Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1628171/000162817126000004/rvmd-20261008.htm",
       "origin": "edgar",
       "status": "past"
     },

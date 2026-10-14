@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-10-13",
+  "generatedDate": "2026-10-14",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 3,
     "leadPhase": 2,
     "upcomingCount": 4,
-    "nextCatalystDate": "2026-10-14",
+    "nextCatalystDate": "2026-12-23",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 70
   },
   "trialStats": {
     "completed": 0,
@@ -236,9 +236,24 @@
       "status": "past"
     },
     {
-      "id": "edgar-TRDA-next-earnings",
+      "id": "edgar-TRDA-0001689375-26-000057",
       "ticker": "TRDA",
       "date": "2026-10-14",
+      "title": "8-K filed: Reg FD disclosure, Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 7.01, 8.01, 9.01. Reg FD disclosure; Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-14",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1689375/000168937526000057/trda-20261014.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-TRDA-next-earnings",
+      "ticker": "TRDA",
+      "date": "2026-12-23",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

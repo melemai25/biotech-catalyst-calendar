@@ -9,7 +9,7 @@
   "activeTrials": 0,
   "phase3": 0,
   "phase2": 0,
-  "generatedDate": "2026-10-13",
+  "generatedDate": "2026-10-14",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,7 +55,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-10-22",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 9
+    "daysToNextCatalyst": 8
   },
   "trialStats": {
     "completed": 12,
@@ -71,16 +71,16 @@
         "total": 13,
         "completionRatePct": 100
       },
-      "phase3": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 1,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 0,
         "terminated": 0,
         "total": 4,
+        "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 1,
         "completionRatePct": null
       }
     },
@@ -476,6 +476,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-08-17",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1110803/000119312526354010/d51146d8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-ILMN-0001110803-26-000195",
+      "ticker": "ILMN",
+      "date": "2026-10-13",
+      "title": "8-K filed: Material agreement",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 1.01, 2.03, 9.01. Material agreement. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1110803/000111080326000195/ilmn-20261013.htm",
       "origin": "edgar",
       "status": "past"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 25,
   "phase3": 8,
   "phase2": 17,
-  "generatedDate": "2026-10-13",
+  "generatedDate": "2026-10-14",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -57,7 +57,7 @@
     "upcomingCount": 28,
     "nextCatalystDate": "2026-10-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 2
+    "daysToNextCatalyst": 1
   },
   "trialStats": {
     "completed": 35,
@@ -67,10 +67,10 @@
     "ongoing": 31,
     "withResults": 30,
     "byPhase": {
-      "phase3": {
-        "completed": 13,
+      "phase1": {
+        "completed": 8,
         "terminated": 0,
-        "total": 21,
+        "total": 14,
         "completionRatePct": 100
       },
       "phase2": {
@@ -79,17 +79,17 @@
         "total": 36,
         "completionRatePct": 67
       },
-      "phase1": {
-        "completed": 8,
-        "terminated": 0,
-        "total": 14,
-        "completionRatePct": 100
-      },
       "other": {
         "completed": 2,
         "terminated": 0,
         "total": 3,
         "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 13,
+        "terminated": 0,
+        "total": 21,
+        "completionRatePct": 100
       }
     },
     "concluded": 43,
@@ -1613,6 +1613,21 @@
       "status": "past"
     },
     {
+      "id": "edgar-BNTX-0001776985-26-000067",
+      "ticker": "BNTX",
+      "date": "2026-10-13",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-10-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1776985/000177698526000067/form6-kbnt113primaryanalys.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "ct-BNTX-NCT05432583",
       "ticker": "BNTX",
       "date": "2026-10-15",
@@ -1673,21 +1688,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BNTX-NCT07379580",
-      "ticker": "BNTX",
-      "date": "2027-06-15",
-      "title": "A Randomized Clinical Trial Investigating the Safety, Reactogenicity, and Immunogenicity After Immunization With an mRNA-based Mpox Vaccine Candidate in Africa",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Mpox (Monkeypox), Smallpox, Orthopoxvirus Infection · 310 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07379580",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07379580",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BNTX-NCT06449209",
       "ticker": "BNTX",
       "date": "2027-06-15",
@@ -1699,6 +1699,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06449209",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06449209",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BNTX-NCT07379580",
+      "ticker": "BNTX",
+      "date": "2027-06-15",
+      "title": "A Randomized Clinical Trial Investigating the Safety, Reactogenicity, and Immunogenicity After Immunization With an mRNA-based Mpox Vaccine Candidate in Africa",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Mpox (Monkeypox), Smallpox, Orthopoxvirus Infection · 310 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07379580",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07379580",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1778,21 +1793,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BNTX-NCT06340568",
-      "ticker": "BNTX",
-      "date": "2028-03-15",
-      "title": "A Clinical Study of the Anti-cancer Effects of an Investigational Therapy or Chemotherapy in Patients With Recurring Uterine Cancer",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Endometrial Cancer · 480 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06340568",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06340568",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BNTX-NCT07070232",
       "ticker": "BNTX",
       "date": "2028-03-15",
@@ -1808,17 +1808,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BNTX-NCT04534205",
+      "id": "ct-BNTX-NCT06340568",
       "ticker": "BNTX",
-      "date": "2028-08-15",
-      "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
+      "date": "2028-03-15",
+      "title": "A Clinical Study of the Anti-cancer Effects of an Investigational Therapy or Chemotherapy in Patients With Recurring Uterine Cancer",
       "type": "Trial Milestone",
-      "phase": "Phase 2/Phase 3",
+      "phase": "Phase 3",
       "estimated": false,
-      "summary": "Unresectable Head and Neck Squamous Cell Carcinoma, Metastatic Head and Neck Cancer, Recurrent Head and Neck Cancer · 358 participants · Status: Active Not Recruiting",
+      "summary": "Endometrial Cancer · 480 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT04534205",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04534205",
+      "source": "ClinicalTrials.gov NCT06340568",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06340568",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1834,6 +1834,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06449222",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06449222",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BNTX-NCT04534205",
+      "ticker": "BNTX",
+      "date": "2028-08-15",
+      "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
+      "type": "Trial Milestone",
+      "phase": "Phase 2/Phase 3",
+      "estimated": false,
+      "summary": "Unresectable Head and Neck Squamous Cell Carcinoma, Metastatic Head and Neck Cancer, Recurrent Head and Neck Cancer · 358 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04534205",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04534205",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1883,21 +1898,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BNTX-NCT06712355",
-      "ticker": "BNTX",
-      "date": "2028-12-15",
-      "title": "Safety and Efficacy of BNT327, an Investigational Therapy in Combination With Chemotherapy for Patients With Untreated Small-cell Lung Cancer",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Extensive-stage Small-cell Lung Cancer · 621 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06712355",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06712355",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BNTX-NCT06712316",
       "ticker": "BNTX",
       "date": "2029-01-15",
@@ -1909,6 +1909,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06712316",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06712316",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BNTX-NCT06712355",
+      "ticker": "BNTX",
+      "date": "2029-04-15",
+      "title": "Safety and Efficacy of BNT327, an Investigational Therapy in Combination With Chemotherapy for Patients With Untreated Small-cell Lung Cancer",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Extensive-stage Small-cell Lung Cancer · 621 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06712355",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06712355",
       "origin": "registry",
       "status": "upcoming"
     },
