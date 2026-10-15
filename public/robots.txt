@@ -5,4 +5,4 @@ Allow: /
 # indexed: every ticker combination would be the same content at a new URL.
 Disallow: /*?tickers=
 
-Sitemap: https://melemai25.github.io/biotech-catalyst-calendar/sitemap.xml
+Sitemap: https://biolyst.org/sitemap.xml
