@@ -20,12 +20,33 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
  * Drops missing observations. FRED writes a gap as "." (already nulled by the
  * client), and daily series are full of them for holidays.
  *
- * Compacting first is what makes "12 observations back" mean "12 months back"
- * on a monthly series. Indexing into the raw array instead would silently
- * shift the comparison period whenever a value was missing.
+ * Compacting does NOT make "12 observations back" mean "12 months back". It
+ * makes it mean twelve *surviving rows* back, which is the same thing only
+ * while every month exists. October 2025 CPI does not exist — BLS cancelled
+ * the release outright during the shutdown, the first time in the index's
+ * history — so twelve rows back from September 2026 landed on August 2025 and
+ * the dashboard printed a 13-month change as the annual rate. Comparisons on a
+ * calendar frequency are resolved by date below, never by position.
  */
 function compact(obs) {
   return obs.filter((o) => o.value !== null && Number.isFinite(o.value));
+}
+
+/**
+ * Months between consecutive observations, for the frequencies that sit on a
+ * calendar grid. Daily and weekly are deliberately absent: there is no
+ * canonical "same day last year", and missing holidays are expected rather
+ * than meaningful, so those stay positional.
+ */
+const MONTHS_PER_PERIOD = { monthly: 1, quarterly: 3, annual: 12 };
+
+/** Shifts an ISO date by whole months, clamping the day in a shorter month. */
+function shiftMonths(isoDate, months) {
+  const [y, m, d] = isoDate.split('-').map(Number);
+  const t = new Date(Date.UTC(y, m - 1 + months, 1));
+  const span = new Date(Date.UTC(t.getUTCFullYear(), t.getUTCMonth() + 1, 0)).getUTCDate();
+  t.setUTCDate(Math.min(d, span));
+  return t.toISOString().slice(0, 10);
 }
 
 /** Guards every ratio transform: a zero or negative base makes % change meaningless. */
@@ -41,32 +62,50 @@ function pctChange(now, then) {
 function transformSeries(obs, transform, freq, scale = 1) {
   const clean = compact(obs).map((o) => ({ date: o.date, value: o.value * scale }));
   const ppy = PERIODS_PER_YEAR[freq] || 12;
+  const months = MONTHS_PER_PERIOD[freq] || null;
+  const byDate = months ? new Map(clean.map((o) => [o.date, o.value])) : null;
   const out = [];
+
+  /**
+   * The value `steps` periods before clean[i]. On a calendar frequency this is
+   * a date lookup, so a period that was never published yields null and the
+   * point is dropped, rather than the period before it quietly standing in.
+   */
+  const base = (i, steps) => {
+    if (byDate) {
+      const want = shiftMonths(clean[i].date, -steps * months);
+      return byDate.has(want) ? byDate.get(want) : null;
+    }
+    const j = i - steps;
+    return j >= 0 ? clean[j].value : null;
+  };
 
   for (let i = 0; i < clean.length; i++) {
     const v = clean[i].value;
     let t = null;
+    let b = null;
 
     switch (transform) {
       case 'level':
         t = v;
         break;
       case 'mom':
-        if (i >= 1) t = pctChange(v, clean[i - 1].value);
+        b = base(i, 1);
+        if (b !== null) t = pctChange(v, b);
         break;
       case 'yoy':
-        if (i >= ppy) t = pctChange(v, clean[i - ppy].value);
+        b = base(i, ppy);
+        if (b !== null) t = pctChange(v, b);
         break;
       case 'diff':
-        if (i >= 1) t = v - clean[i - 1].value;
+        b = base(i, 1);
+        if (b !== null) t = v - b;
         break;
       case 'pca': {
         // Compounded annual rate: how fast the economy grew if this period's
         // pace continued for a year. The convention GDP is quoted in.
-        if (i >= 1) {
-          const prev = clean[i - 1].value;
-          if (prev > 0) t = (Math.pow(v / prev, ppy) - 1) * 100;
-        }
+        b = base(i, 1);
+        if (b !== null && b > 0) t = (Math.pow(v / b, ppy) - 1) * 100;
         break;
       }
       default:
@@ -88,7 +127,7 @@ function buildIndicator(spec, obs, meta = null) {
   if (!series.length) return null;
 
   const last = series[series.length - 1];
-  const prior = series.length > 1 ? series[series.length - 2] : null;
+  const prior = findPrior(series, spec.freq);
   const yearAgo = findYearAgo(series, spec.freq);
 
   // Round BEFORE deriving the direction. Taking the arrow from the raw change
@@ -127,9 +166,27 @@ function buildIndicator(spec, obs, meta = null) {
   };
 }
 
+/**
+ * The point one period before the latest one. Date-checked on a calendar
+ * frequency, because without that a hole in the series turns a two-month move
+ * into a reported one-month change — complete with an arrow.
+ */
+function findPrior(series, freq) {
+  if (series.length < 2) return null;
+  const cand = series[series.length - 2];
+  const months = MONTHS_PER_PERIOD[freq];
+  if (!months) return cand;
+  return cand.date === shiftMonths(series[series.length - 1].date, -months) ? cand : null;
+}
+
 function findYearAgo(series, freq) {
-  const ppy = PERIODS_PER_YEAR[freq] || 12;
-  const i = series.length - 1 - ppy;
+  if (!series.length) return null;
+  const last = series[series.length - 1];
+  if (MONTHS_PER_PERIOD[freq]) {
+    const want = shiftMonths(last.date, -12);
+    return series.find((p) => p.date === want) || null;
+  }
+  const i = series.length - 1 - (PERIODS_PER_YEAR[freq] || 12);
   return i >= 0 ? series[i] : null;
 }
 
@@ -749,7 +806,10 @@ module.exports = {
   // transforms
   compact,
   pctChange,
+  shiftMonths,
   transformSeries,
+  findPrior,
+  findYearAgo,
   buildIndicator,
   round,
   // composite
