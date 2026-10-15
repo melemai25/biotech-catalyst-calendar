@@ -31,10 +31,30 @@
  */
 const INDICATORS = [
   // ---- Inflation -------------------------------------------------
-  { id: 'cpi-yoy',       series: 'CPIAUCSL',      transform: 'yoy',   group: 'inflation', label: 'CPI',                   sub: 'year over year',    unit: '%',  decimals: 1, freq: 'monthly',   importance: 3, goodDirection: 'down', critical: true },
-  { id: 'cpi-mom',       series: 'CPIAUCSL',      transform: 'mom',   group: 'inflation', label: 'CPI',                   sub: 'month over month',  unit: '%',  decimals: 2, freq: 'monthly',   importance: 2, goodDirection: 'down', reuse: 'CPIAUCSL' },
-  { id: 'core-cpi-yoy',  series: 'CPILFESL',      transform: 'yoy',   group: 'inflation', label: 'Core CPI',              sub: 'year over year',    unit: '%',  decimals: 1, freq: 'monthly',   importance: 3, goodDirection: 'down', critical: true },
-  { id: 'core-cpi-mom',  series: 'CPILFESL',      transform: 'mom',   group: 'inflation', label: 'Core CPI',              sub: 'month over month',  unit: '%',  decimals: 2, freq: 'monthly',   importance: 2, goodDirection: 'down', reuse: 'CPILFESL' },
+  //
+  // Seasonal adjustment is picked per TRANSFORM, not per series, and getting
+  // this backwards is how the dashboard reported 4.0% on a day CPI printed 3.7%.
+  //
+  //   year-over-year  -> NOT seasonally adjusted (CPIAUCNS, CPILFENS)
+  //                      This is what BLS publishes as "the" inflation rate and
+  //                      what every headline quotes. Seasonal factors repeat
+  //                      annually so they should wash out over twelve months —
+  //                      but the factors themselves get revised, and in a given
+  //                      year the SA and NSA twelve-month changes can differ by
+  //                      a few tenths. Those tenths are the whole story on
+  //                      release day.
+  //
+  //   month-over-month -> seasonally adjusted (CPIAUCSL, CPILFESL)
+  //                      An unadjusted monthly change is dominated by the
+  //                      season rather than by inflation, so it is not a
+  //                      number anyone quotes.
+  //
+  // PCE stays seasonally adjusted throughout: BEA publishes it that way and
+  // the twelve-month change is quoted from the adjusted index.
+  { id: 'cpi-yoy',       series: 'CPIAUCNS',      transform: 'yoy',   group: 'inflation', label: 'CPI',                   sub: 'year over year',    unit: '%',  decimals: 1, freq: 'monthly',   importance: 3, goodDirection: 'down', critical: true },
+  { id: 'cpi-mom',       series: 'CPIAUCSL',      transform: 'mom',   group: 'inflation', label: 'CPI',                   sub: 'month over month',  unit: '%',  decimals: 2, freq: 'monthly',   importance: 2, goodDirection: 'down' },
+  { id: 'core-cpi-yoy',  series: 'CPILFENS',      transform: 'yoy',   group: 'inflation', label: 'Core CPI',              sub: 'year over year',    unit: '%',  decimals: 1, freq: 'monthly',   importance: 3, goodDirection: 'down', critical: true },
+  { id: 'core-cpi-mom',  series: 'CPILFESL',      transform: 'mom',   group: 'inflation', label: 'Core CPI',              sub: 'month over month',  unit: '%',  decimals: 2, freq: 'monthly',   importance: 2, goodDirection: 'down' },
   { id: 'pce-yoy',       series: 'PCEPI',         transform: 'yoy',   group: 'inflation', label: 'PCE',                   sub: 'year over year',    unit: '%',  decimals: 1, freq: 'monthly',   importance: 2, goodDirection: 'down' },
   { id: 'core-pce-yoy',  series: 'PCEPILFE',      transform: 'yoy',   group: 'inflation', label: 'Core PCE',              sub: "the Fed's target",  unit: '%',  decimals: 1, freq: 'monthly',   importance: 3, goodDirection: 'down', critical: true },
   { id: 'ppi-yoy',       series: 'PPIFIS',        transform: 'yoy',   group: 'inflation', label: 'PPI',                   sub: 'final demand, y/y', unit: '%',  decimals: 1, freq: 'monthly',   importance: 2, goodDirection: 'down' },
@@ -160,6 +180,35 @@ const FIXED_EVENTS = [
     note: 'Scheduled release time. The reading itself is published by ISM.',
   },
 ];
+
+/* ------------------------------------------------------------------ *
+ * Self-check
+ * ------------------------------------------------------------------ *
+ *
+ * Runs on require, because the failure it catches is silent: a CPI year-over-
+ * year taken from the seasonally adjusted series produces a number that looks
+ * entirely reasonable and is simply not the one the world is quoting. There is
+ * no error, no warning, and no way to notice except by reading the news.
+ */
+for (const i of INDICATORS) {
+  const isCpi = /^CPIAUC|^CPILFE/.test(i.series);
+  if (!isCpi) continue;
+  const nsa = i.series.endsWith('NS');
+  if (i.transform === 'yoy' && !nsa) {
+    throw new Error(
+      `macro-spec: ${i.id} takes a year-over-year change from ${i.series}, which is ` +
+      'seasonally adjusted. BLS publishes the headline 12-month change from the ' +
+      'unadjusted series — use CPIAUCNS or CPILFENS.'
+    );
+  }
+  if (i.transform === 'mom' && nsa) {
+    throw new Error(
+      `macro-spec: ${i.id} takes a month-over-month change from ${i.series}, which is ` +
+      'unadjusted. An unadjusted monthly change measures the season, not inflation — ' +
+      'use CPIAUCSL or CPILFESL.'
+    );
+  }
+}
 
 module.exports = {
   INDICATORS,
