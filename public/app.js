@@ -56,6 +56,17 @@ const state = {
   modalDate: null,
   tab: (location.hash.replace('#','') || 'calendar'),
   q: '',
+  // Dropdown state for the Data tab. Separate from `q` so the controls and
+  // the typed query can coexist: the controls are the discoverable path, the
+  // text box still takes `runway:<12` for anyone who likes typing.
+  filters: { status:'', type:'', phase:'', runway:'', source:'', when:'' },
+  // The Data tab can look at the watchlist or the whole universe. Scoped to a
+  // watchlist, the runway filters find nothing — the default watchlist is the
+  // two most active companies, which are mega-caps with no runway concern —
+  // so the most useful question the site can answer was unreachable.
+  dataScope: 'watchlist',
+  allEvents: null,
+  allLoading: false,
   sortKey: 'date',
   sortDir: 'asc',
   error: null,
@@ -801,6 +812,133 @@ const COLUMNS = [
   {key:'status',  label:'Status',  get: e => e.status},
 ];
 
+/* ---------------------------------------------- Data tab filter controls */
+
+/**
+ * The combined events file is ~8MB, so it is fetched only when someone
+ * deliberately switches to the whole-universe view — never on page load.
+ */
+async function loadAllEvents(){
+  if(state.allEvents || state.allLoading) return;
+  state.allLoading = true; render();
+  try{
+    const res = await fetch('data/events.json', {cache:'no-cache'});
+    if(!res.ok) throw new Error('HTTP ' + res.status);
+    const d = await res.json();
+    state.allEvents = (d.events || []).map(e => ({
+      ...e,
+      status: e.status || (e.date < TODAY_ISO ? 'past' : 'upcoming'),
+    }));
+  }catch(err){
+    state.allEvents = [];
+    console.warn('Could not load the full event set:', err.message);
+  }
+  state.allLoading = false;
+  render();
+}
+
+/** The rows the Data tab works from, honouring scope and the source toggles. */
+function dataRows(){
+  if(state.dataScope !== 'all') return visibleEvents();
+  if(!state.allEvents) return [];
+  return state.allEvents.filter(e => state.sources[e.origin] !== false);
+}
+
+function setDataScope(scope){
+  state.dataScope = scope;
+  if(scope === 'all') loadAllEvents();
+  render();
+}
+
+/**
+ * Dropdown definitions. Options are grouped rather than taken raw from the
+ * data: the registry records twelve distinct phase strings — "Phase 2b",
+ * "Phase 2/Phase 3", "BLA review", "Registrational" — and a select listing
+ * all of them is worse than no select at all.
+ *
+ * Each option carries its own predicate, so adding a filter is one entry here
+ * and nothing else.
+ */
+const PHASE_GROUPS = {
+  '1':   { label: 'Phase 1',      test: p => /phase 1/i.test(p) },
+  '2':   { label: 'Phase 2',      test: p => /phase 2/i.test(p) },
+  '3':   { label: 'Phase 3',      test: p => /phase 3/i.test(p) },
+  '4':   { label: 'Phase 4',      test: p => /phase 4/i.test(p) },
+  'reg': { label: 'Registration / BLA', test: p => /\bbla\b|registrational/i.test(p) },
+};
+
+const RUNWAY_OPTS = {
+  '<6':   'Under 6 months',
+  '<12':  'Under 12 months',
+  '<24':  'Under 24 months',
+  '>24':  'Over 24 months',
+  'gap':  'Event lands after cash runs out',
+  'none': 'No runway data',
+};
+
+const WHEN_OPTS = {
+  '30':   'Next 30 days',
+  '90':   'Next 90 days',
+  '180':  'Next 6 months',
+  'past': 'Already reported',
+};
+
+/** Days from today to a date string. Negative for the past. */
+function daysOut(dateStr){
+  return Math.round((new Date(dateStr + 'T00:00:00') - new Date(TODAY_ISO + 'T00:00:00')) / 86400000);
+}
+
+/**
+ * Applies the dropdown state. Runs alongside the typed query rather than
+ * replacing it — both have to pass, so a control and a typed term combine
+ * the way a reader would expect.
+ */
+function matchesFilters(e, f, tickerMeta){
+  if(f.status && e.status !== f.status) return false;
+  if(f.type && e.type !== f.type) return false;
+  if(f.source && e.origin !== f.source) return false;
+
+  if(f.phase){
+    const g = PHASE_GROUPS[f.phase];
+    if(!g || !g.test(e.phase || '')) return false;
+  }
+
+  if(f.when){
+    const d = daysOut(e.date);
+    if(f.when === 'past'){ if(e.status !== 'past') return false; }
+    else if(!(d >= 0 && d <= Number(f.when))) return false;
+  }
+
+  if(f.runway){
+    const m = (tickerMeta[e.ticker] || {}).metrics || {};
+    const r = m.runwayMonths;
+    if(f.runway === 'none') return r === null || r === undefined;
+    if(r === null || r === undefined) return false;
+
+    if(f.runway === 'gap'){
+      // The reason this filter exists: an event scheduled for after the money
+      // runs out means the company has to raise BEFORE it has the news, which
+      // is a different situation from the same event at a funded company.
+      const d = daysOut(e.date);
+      return d > 0 && d > r * 30;
+    }
+    const n = parseFloat(f.runway.slice(1));
+    if(f.runway[0] === '<' && !(r < n)) return false;
+    if(f.runway[0] === '>' && !(r > n)) return false;
+  }
+  return true;
+}
+
+function activeFilterCount(f){
+  return Object.values(f).filter(Boolean).length;
+}
+
+function clearFilters(){
+  state.filters = { status:'', type:'', phase:'', runway:'', source:'', when:'' };
+  state.q = '';
+  render();
+}
+
 /**
  * Structured filters compose: `phase:3 type:earnings before:2027-01-01`.
  * Anything not matching a key:value pair is treated as free text.
@@ -847,10 +985,78 @@ function matches(e, terms, tickerMeta){
   return true;
 }
 
+/** One labelled dropdown. `opts` is {value: label}; '' is always "Any". */
+function filterSelect(key, label, anyLabel, opts){
+  return el('label',{class:'fsel'},[
+    el('span',{class:'fsel-label'},[label]),
+    el('select',{
+      class:'fsel-input' + (state.filters[key] ? ' set' : ''),
+      onchange:(ev)=>{ state.filters[key] = ev.target.value; render(); }
+    }, [
+      el('option',{value:'', selected: state.filters[key] === '' ? 'selected' : null},[anyLabel]),
+      ...Object.entries(opts).map(([v, l]) =>
+        el('option',{value:v, selected: state.filters[key] === v ? 'selected' : null},[l])
+      ),
+    ]),
+  ]);
+}
+
+/**
+ * One-click combinations worth more than their parts. "Event after cash runs
+ * out" in particular is the question the site can answer that others cannot,
+ * and it was previously reachable only by knowing the query syntax.
+ */
+const PRESETS = [
+  { label:'Upcoming readouts',  set:{ status:'upcoming', type:'Trial Readout', phase:'', runway:'', source:'', when:'' } },
+  { label:'Phase 3, next 90 days', set:{ status:'upcoming', type:'', phase:'3', runway:'', source:'', when:'90' } },
+  // These two are market-wide questions. Run against a watchlist they return
+  // nothing and look broken, so they switch scope themselves.
+  { label:'Short runway',       scope:'all', set:{ status:'upcoming', type:'', phase:'', runway:'<12', source:'', when:'' } },
+  { label:'Event after cash runs out', scope:'all', set:{ status:'upcoming', type:'', phase:'', runway:'gap', source:'', when:'' } },
+  { label:'FDA decisions',      set:{ status:'upcoming', type:'Regulatory', phase:'', runway:'', source:'', when:'' } },
+];
+
+function presetActive(p){
+  if(p.scope && state.dataScope !== p.scope) return false;
+  return Object.keys(p.set).every(k => state.filters[k] === p.set[k]);
+}
+
+/** Removable chips, so what is actually applied is visible without re-reading every dropdown. */
+function activeChips(){
+  const labels = {
+    status: v => v === 'upcoming' ? 'Upcoming' : 'Already reported',
+    type:   v => v,
+    phase:  v => (PHASE_GROUPS[v] || {}).label || v,
+    runway: v => RUNWAY_OPTS[v] || v,
+    source: v => ({curated:'Curated', registry:'ClinicalTrials.gov', edgar:'SEC EDGAR'})[v] || v,
+    when:   v => WHEN_OPTS[v] || v,
+  };
+  const chips = Object.entries(state.filters)
+    .filter(([, v]) => v)
+    .map(([k, v]) => el('button',{
+      class:'fchip', type:'button', title:'Remove this filter',
+      onclick:()=>{ state.filters[k] = ''; render(); }
+    },[ labels[k](v), el('span',{class:'fchip-x'},['×']) ]));
+
+  if(state.q.trim()){
+    chips.push(el('button',{
+      class:'fchip', type:'button', title:'Clear the search text',
+      onclick:()=>{ state.q = ''; render(); }
+    },[ '"' + state.q.trim() + '"', el('span',{class:'fchip-x'},['×']) ]));
+  }
+  if(!chips.length) return null;
+
+  chips.push(el('button',{class:'fchip clear', type:'button', onclick:clearFilters},['Clear all']));
+  return el('div',{class:'fchips'}, chips);
+}
+
 function dataTab(){
   const tickerMeta = state.data.tickers || {};
   const terms = parseQuery(state.q);
-  let rows = visibleEvents().filter(e => matches(e, terms, tickerMeta));
+  const pool = dataRows();
+  let rows = pool.filter(e =>
+    matchesFilters(e, state.filters, tickerMeta) && matches(e, terms, tickerMeta)
+  );
 
   const col = COLUMNS.find(c => c.key === state.sortKey) || COLUMNS[0];
   rows.sort((a,b)=>{
@@ -864,21 +1070,57 @@ function dataTab(){
     el('div',{class:'data-head'},[
       el('input',{
         type:'search', class:'data-search', value: state.q,
-        placeholder:'Search, or filter: phase:3 type:earnings runway:<12 after:2026-10-01',
+        placeholder:'Search events by name, company or keyword…',
         oninput:(e)=>{ state.q = e.target.value; const p=e.target.selectionStart; render();
           const b=document.querySelector('.data-search'); if(b){ b.focus(); b.setSelectionRange(p,p); } }
       }),
       el('div',{class:'data-count'},[
-        rows.length.toLocaleString() + ' of ' + visibleEvents().length.toLocaleString() + ' events'
-        + (rows.length > 250 ? ' — showing first 250' : '')
+        state.allLoading && state.dataScope === 'all'
+          ? 'Loading every company\u2026'
+          : rows.length.toLocaleString() + ' of ' + pool.length.toLocaleString() + ' events'
+            + (state.dataScope === 'all' ? ' across all companies' : ' in your watchlist')
+            + (rows.length > 250 ? ' \u2014 showing first 250' : '')
       ]),
     ]),
-    el('div',{class:'data-hints'},[
-      'Filters: ',
-      ...['phase:3','type:earnings','status:upcoming','source:edgar','runway:<12','tier:oncology','after:2026-10-01']
-        .map(h => el('button',{class:'hint', type:'button',
-          onclick:()=>{ state.q = (state.q ? state.q.trim()+' ' : '') + h; render(); }},[h]))
+    el('div',{class:'scope-row'},[
+      el('span',{class:'presets-label'},['Looking at']),
+      el('div',{class:'scope-seg'},[
+        el('button',{
+          class:'scope-btn' + (state.dataScope === 'watchlist' ? ' on' : ''), type:'button',
+          onclick:()=>setDataScope('watchlist')
+        },['Your watchlist']),
+        el('button',{
+          class:'scope-btn' + (state.dataScope === 'all' ? ' on' : ''), type:'button',
+          title:'Loads every tracked company — about 8MB, fetched once',
+          onclick:()=>setDataScope('all')
+        },['All companies']),
+      ]),
     ]),
+    el('div',{class:'filter-bar'},[
+      filterSelect('status', 'Status', 'Any', { upcoming:'Upcoming', past:'Already reported' }),
+      filterSelect('type', 'Type', 'All types', Object.fromEntries(
+        // Taken from the data so the list can never drift from what exists.
+        [...new Set(pool.map(e => e.type))].sort().map(t => [t, t])
+      )),
+      filterSelect('phase', 'Phase', 'Any phase', Object.fromEntries(
+        Object.entries(PHASE_GROUPS).map(([k, g]) => [k, g.label])
+      )),
+      filterSelect('runway', 'Cash runway', 'Any', RUNWAY_OPTS),
+      filterSelect('when', 'When', 'Any time', WHEN_OPTS),
+      filterSelect('source', 'Source', 'All sources',
+        { curated:'Curated', registry:'ClinicalTrials.gov', edgar:'SEC EDGAR' }),
+    ]),
+    el('div',{class:'presets'},[
+      el('span',{class:'presets-label'},['Quick views']),
+      ...PRESETS.map(p => el('button',{
+        class:'preset' + (presetActive(p) ? ' active' : ''), type:'button',
+        onclick:()=>{
+          state.filters = { ...p.set };
+          if(p.scope) setDataScope(p.scope); else render();
+        }
+      },[p.label])),
+    ]),
+    activeChips(),
     el('div',{class:'table-wrap'},[
       el('table',{class:'data-table'},[
         el('thead',{},[ el('tr',{}, COLUMNS.map(c =>
@@ -901,7 +1143,7 @@ function dataTab(){
         )),
       ])
     ]),
-    shown.length === 0 ? el('div',{class:'detail-empty'},['No events match that query.']) : null,
+    shown.length === 0 ? el('div',{class:'detail-empty'},['No events match these filters.']) : null,
   ]);
 }
 
