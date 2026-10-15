@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 3,
   "phase2": 0,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -54,10 +54,10 @@
     "phase3Count": 5,
     "phase2Count": 4,
     "leadPhase": 3,
-    "upcomingCount": 7,
-    "nextCatalystDate": "2026-10-15",
-    "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 1
+    "upcomingCount": 6,
+    "nextCatalystDate": "2026-11-05",
+    "nextCatalystType": "Earnings",
+    "daysToNextCatalyst": 21
   },
   "trialStats": {
     "completed": 17,
@@ -73,17 +73,17 @@
         "total": 15,
         "completionRatePct": 93
       },
-      "phase2": {
-        "completed": 4,
-        "terminated": 0,
-        "total": 4,
-        "completionRatePct": 100
-      },
       "phase3": {
         "completed": 0,
         "terminated": 0,
         "total": 5,
         "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 4,
+        "terminated": 0,
+        "total": 4,
+        "completionRatePct": 100
       }
     },
     "concluded": 18,
@@ -614,7 +614,7 @@
       "source": "ClinicalTrials.gov NCT07615868",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07615868",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "edgar-VTRS-next-earnings",

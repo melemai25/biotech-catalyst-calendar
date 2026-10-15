@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 2,
     "leadPhase": 3,
     "upcomingCount": 2,
-    "nextCatalystDate": "2027-05-15",
+    "nextCatalystDate": "2027-03-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 213
+    "daysToNextCatalyst": 151
   },
   "trialStats": {
     "completed": 0,
@@ -73,16 +73,16 @@
         "total": 4,
         "completionRatePct": null
       },
-      "other": {
-        "completed": 0,
-        "terminated": 1,
-        "total": 1,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 0,
         "terminated": 2,
         "total": 2,
+        "completionRatePct": null
+      },
+      "other": {
+        "completed": 0,
+        "terminated": 1,
+        "total": 1,
         "completionRatePct": null
       }
     },
@@ -439,12 +439,12 @@
     {
       "id": "ct-VOR-NCT06456580",
       "ticker": "VOR",
-      "date": "2027-05-15",
+      "date": "2027-03-15",
       "title": "A Study of Telitacicept for the Treatment of Generalized Myasthenia Gravis (UPSTREAM MG)",
       "type": "Trial Milestone",
       "phase": "Phase 3",
       "estimated": false,
-      "summary": "Generalized Myasthenia Gravis · 180 participants · Status: Recruiting",
+      "summary": "Generalized Myasthenia Gravis · 191 participants · Status: Active Not Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT06456580",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06456580",

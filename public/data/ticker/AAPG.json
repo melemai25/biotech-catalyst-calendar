@@ -11,7 +11,7 @@
   "activeTrials": 15,
   "phase3": 7,
   "phase2": 8,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -57,7 +57,7 @@
     "upcomingCount": 16,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 62
+    "daysToNextCatalyst": 61
   },
   "trialStats": {
     "completed": 9,
@@ -67,12 +67,6 @@
     "ongoing": 37,
     "withResults": 0,
     "byPhase": {
-      "phase2": {
-        "completed": 1,
-        "terminated": 3,
-        "total": 22,
-        "completionRatePct": 25
-      },
       "phase1": {
         "completed": 8,
         "terminated": 2,
@@ -84,6 +78,12 @@
         "terminated": 0,
         "total": 7,
         "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 1,
+        "terminated": 3,
+        "total": 22,
+        "completionRatePct": 25
       },
       "other": {
         "completed": 0,
@@ -293,21 +293,6 @@
       "status": "past"
     },
     {
-      "id": "ct-AAPG-NCT04494503",
-      "ticker": "AAPG",
-      "date": "2024-10-20",
-      "title": "Study of APG2575 Single Agent and Combination Therapy in Patients With Relapsed/Refractory CLL/SLL",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma · 123 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04494503",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04494503",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-AAPG-NCT03913949",
       "ticker": "AAPG",
       "date": "2024-10-20",
@@ -319,6 +304,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT03913949",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03913949",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-AAPG-NCT04494503",
+      "ticker": "AAPG",
+      "date": "2024-10-20",
+      "title": "Study of APG2575 Single Agent and Combination Therapy in Patients With Relapsed/Refractory CLL/SLL",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma · 123 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04494503",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04494503",
       "origin": "registry",
       "status": "past"
     },
@@ -1463,6 +1463,21 @@
       "status": "past"
     },
     {
+      "id": "edgar-AAPG-0001213900-26-109623",
+      "ticker": "AAPG",
+      "date": "2026-10-15",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. REPORT OF FOREIGN PRIVATE ISSUER.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-10-15",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2023311/000121390026109623/ea0308726-6k_ascentage.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "ct-AAPG-NCT05147467",
       "ticker": "AAPG",
       "date": "2026-12-15",
@@ -1598,21 +1613,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-AAPG-NCT05773586",
-      "ticker": "AAPG",
-      "date": "2027-12-31",
-      "title": "A Study to Evaluate the Safety, Pharmacokinetics and Preliminary Efficacy of APG-5918.",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Anemia · 105 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05773586",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05773586",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-AAPG-NCT06051409",
       "ticker": "AAPG",
       "date": "2027-12-31",
@@ -1624,6 +1624,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06051409",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06051409",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-AAPG-NCT05773586",
+      "ticker": "AAPG",
+      "date": "2027-12-31",
+      "title": "A Study to Evaluate the Safety, Pharmacokinetics and Preliminary Efficacy of APG-5918.",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Anemia · 105 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05773586",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05773586",
       "origin": "registry",
       "status": "upcoming"
     },

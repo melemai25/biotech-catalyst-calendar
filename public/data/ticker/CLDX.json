@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 3,
   "phase2": 2,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -54,10 +54,10 @@
     "phase3Count": 5,
     "phase2Count": 10,
     "leadPhase": 3,
-    "upcomingCount": 6,
-    "nextCatalystDate": "2026-10-15",
-    "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 1
+    "upcomingCount": 4,
+    "nextCatalystDate": "2026-11-05",
+    "nextCatalystType": "Earnings",
+    "daysToNextCatalyst": 21
   },
   "trialStats": {
     "completed": 27,
@@ -67,6 +67,12 @@
     "ongoing": 9,
     "withResults": 3,
     "byPhase": {
+      "phase2": {
+        "completed": 9,
+        "terminated": 5,
+        "total": 16,
+        "completionRatePct": 64
+      },
       "phase1": {
         "completed": 17,
         "terminated": 4,
@@ -78,12 +84,6 @@
         "terminated": 0,
         "total": 5,
         "completionRatePct": null
-      },
-      "phase2": {
-        "completed": 9,
-        "terminated": 5,
-        "total": 16,
-        "completionRatePct": 64
       },
       "other": {
         "completed": 0,
@@ -653,21 +653,6 @@
       "status": "past"
     },
     {
-      "id": "ct-CLDX-NCT06445023",
-      "ticker": "CLDX",
-      "date": "2026-10-15",
-      "title": "A Phase 3 Study of Barzolvolimab in Participants With Chronic Spontaneous Urticaria",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Chronic Spontaneous Urticaria · 963 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06445023",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06445023",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-CLDX-NCT06455202",
       "ticker": "CLDX",
       "date": "2026-10-15",
@@ -680,7 +665,22 @@
       "source": "ClinicalTrials.gov NCT06455202",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06455202",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
+    },
+    {
+      "id": "ct-CLDX-NCT06445023",
+      "ticker": "CLDX",
+      "date": "2026-10-15",
+      "title": "A Phase 3 Study of Barzolvolimab in Participants With Chronic Spontaneous Urticaria",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Chronic Spontaneous Urticaria · 963 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06445023",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06445023",
+      "origin": "registry",
+      "status": "past"
     },
     {
       "id": "edgar-CLDX-next-earnings",

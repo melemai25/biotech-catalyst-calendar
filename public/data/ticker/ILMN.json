@@ -9,7 +9,7 @@
   "activeTrials": 0,
   "phase3": 0,
   "phase2": 0,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -52,10 +52,10 @@
     "phase3Count": 1,
     "phase2Count": 3,
     "leadPhase": 3,
-    "upcomingCount": 4,
+    "upcomingCount": 3,
     "nextCatalystDate": "2026-10-22",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 8
+    "daysToNextCatalyst": 7
   },
   "trialStats": {
     "completed": 12,
@@ -210,21 +210,6 @@
       "status": "past"
     },
     {
-      "id": "ilmn-cmo",
-      "ticker": "ILMN",
-      "date": "2026-01-08",
-      "title": "Dr. Eric Green Appointed Chief Medical Officer",
-      "type": "Corporate",
-      "summary": "Former NHGRI director named CMO to lead global medical strategy and expand clinical adoption of genomics.",
-      "result": "Appointment confirmed, effective February 2, 2026, reporting to the CEO.",
-      "source": "Illumina 8-K",
-      "sourceUrl": "https://www.illumina.com/company/news-center/press-releases.html",
-      "origin": "curated",
-      "status": "past",
-      "estimated": false,
-      "phase": null
-    },
-    {
       "id": "edgar-ILMN-0001110803-26-000006",
       "ticker": "ILMN",
       "date": "2026-01-08",
@@ -253,36 +238,6 @@
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1110803/000111080326000009/ilmn-20260113.htm",
       "origin": "edgar",
       "status": "past"
-    },
-    {
-      "id": "ilmn-tso-cms",
-      "ticker": "ILMN",
-      "date": "2026-01-20",
-      "title": "TruSight Oncology Comprehensive — CMS Reimbursement",
-      "type": "Regulatory",
-      "summary": "Medicare reimbursement granted for the FDA-approved in vitro diagnostic, opening access across hospitals and regional reference labs.",
-      "result": "Effective January 1, 2026, reimbursed under the Clinical Laboratory Fee Schedule at $2,989.55 via PLA code 0543U.",
-      "source": "Illumina press release",
-      "sourceUrl": "https://www.illumina.com/company/news-center/press-releases.html",
-      "origin": "curated",
-      "status": "past",
-      "estimated": false,
-      "phase": null
-    },
-    {
-      "id": "ilmn-somalogic",
-      "ticker": "ILMN",
-      "date": "2026-01-30",
-      "title": "SomaLogic & Sengenics Acquisition Closed",
-      "type": "Corporate",
-      "summary": "Acquisition from Standard BioTools completed, expanding the proteomics and multiomics portfolio.",
-      "result": "Closed January 30, 2026, funded with cash on hand.",
-      "source": "Simply Wall St",
-      "sourceUrl": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-ilmn/illumina",
-      "origin": "curated",
-      "status": "past",
-      "estimated": false,
-      "phase": null
     },
     {
       "id": "edgar-ILMN-0001110803-26-000014",
@@ -345,21 +300,6 @@
       "status": "past"
     },
     {
-      "id": "ilmn-board",
-      "ticker": "ILMN",
-      "date": "2026-06-16",
-      "title": "Daniel Skovronsky (Lilly CSO) Joins Board",
-      "type": "Corporate",
-      "summary": "Eli Lilly's Chief Scientific and Product Officer appointed to the Board, adding drug development and translational medicine perspective.",
-      "result": "Effective June 16, 2026.",
-      "source": "Illumina 8-K",
-      "sourceUrl": "https://www.illumina.com/company/news-center/press-releases.html",
-      "origin": "curated",
-      "status": "past",
-      "estimated": false,
-      "phase": null
-    },
-    {
       "id": "edgar-ILMN-0001110803-26-000138",
       "ticker": "ILMN",
       "date": "2026-06-23",
@@ -373,21 +313,6 @@
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1110803/000111080326000138/ilmn-20260616.htm",
       "origin": "edgar",
       "status": "past"
-    },
-    {
-      "id": "ilmn-q2-2026",
-      "ticker": "ILMN",
-      "date": "2026-07-30",
-      "title": "Q2 2026 Earnings",
-      "type": "Earnings",
-      "estimated": true,
-      "summary": "Clinical sequencing strength and NovaSeq X adoption were the stated growth drivers.",
-      "result": "Revenue approximately $1.16B with non-GAAP EPS near $1.31. FY2026 revenue guidance raised to $4.60-4.64B. Net margin compressed year over year.",
-      "source": "Simply Wall St / Webull",
-      "sourceUrl": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-ilmn/illumina",
-      "origin": "curated",
-      "status": "past",
-      "phase": null
     },
     {
       "id": "ct-ILMN-NCT04724369",
@@ -538,21 +463,6 @@
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07176286",
       "origin": "registry",
       "status": "upcoming"
-    },
-    {
-      "id": "ilmn-q3-2026",
-      "ticker": "ILMN",
-      "date": "2026-11-05",
-      "title": "Q3 2026 Earnings",
-      "type": "Earnings",
-      "estimated": true,
-      "summary": "Watch for clinical consumables growth, MRD and comprehensive genomic profiling reimbursement progress, and China export-control commentary.",
-      "result": null,
-      "source": "Estimated from historical reporting cadence — not yet confirmed",
-      "sourceUrl": "https://investor.illumina.com/",
-      "origin": "curated",
-      "status": "upcoming",
-      "phase": null
     }
   ]
 }

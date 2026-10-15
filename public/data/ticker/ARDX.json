@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 4,
     "leadPhase": 4,
     "upcomingCount": 3,
-    "nextCatalystDate": "2026-10-15",
+    "nextCatalystDate": "2026-12-24",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 70
   },
   "trialStats": {
     "completed": 26,
@@ -67,14 +67,14 @@
     "ongoing": 2,
     "withResults": 13,
     "byPhase": {
-      "phase3": {
-        "completed": 8,
+      "phase1": {
+        "completed": 10,
         "terminated": 0,
         "total": 10,
         "completionRatePct": 100
       },
-      "phase1": {
-        "completed": 10,
+      "phase3": {
+        "completed": 8,
         "terminated": 0,
         "total": 10,
         "completionRatePct": 100
@@ -505,7 +505,7 @@
     {
       "id": "edgar-ARDX-next-earnings",
       "ticker": "ARDX",
-      "date": "2026-10-15",
+      "date": "2026-12-24",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

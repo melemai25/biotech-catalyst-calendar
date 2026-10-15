@@ -11,7 +11,7 @@
   "activeTrials": 13,
   "phase3": 7,
   "phase2": 6,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 19,
     "nextCatalystDate": "2026-12-21",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 68
+    "daysToNextCatalyst": 67
   },
   "trialStats": {
     "completed": 132,
@@ -73,11 +73,11 @@
         "total": 67,
         "completionRatePct": 77
       },
-      "phase3": {
-        "completed": 56,
-        "terminated": 10,
-        "total": 74,
-        "completionRatePct": 85
+      "phase1": {
+        "completed": 19,
+        "terminated": 4,
+        "total": 29,
+        "completionRatePct": 83
       },
       "other": {
         "completed": 17,
@@ -85,11 +85,11 @@
         "total": 36,
         "completionRatePct": 89
       },
-      "phase1": {
-        "completed": 19,
-        "terminated": 4,
-        "total": 29,
-        "completionRatePct": 83
+      "phase3": {
+        "completed": 56,
+        "terminated": 10,
+        "total": 74,
+        "completionRatePct": 85
       }
     },
     "concluded": 171,
@@ -128,21 +128,6 @@
       "status": "past"
     },
     {
-      "id": "ct-JAZZ-NCT02348593",
-      "ticker": "JAZZ",
-      "date": "2017-02-15",
-      "title": "\"Twelve-week Study of the Safety and Efficacy of JZP-110 in the Treatment of Excessive Sleepiness in Narcolepsy\"",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Narcolepsy · 239 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02348593",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02348593",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-JAZZ-NCT02221869",
       "ticker": "JAZZ",
       "date": "2017-02-15",
@@ -154,6 +139,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT02221869",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02221869",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-JAZZ-NCT02348593",
+      "ticker": "JAZZ",
+      "date": "2017-02-15",
+      "title": "\"Twelve-week Study of the Safety and Efficacy of JZP-110 in the Treatment of Excessive Sleepiness in Narcolepsy\"",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Narcolepsy · 239 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT02348593",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02348593",
       "origin": "registry",
       "status": "past"
     },
@@ -698,21 +698,6 @@
       "status": "past"
     },
     {
-      "id": "ct-JAZZ-NCT03295396",
-      "ticker": "JAZZ",
-      "date": "2022-12-31",
-      "title": "ONC201 in Adults With Recurrent H3 K27M-mutant Glioma",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Glioma · 73 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT03295396",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT03295396",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-JAZZ-NCT03416530",
       "ticker": "JAZZ",
       "date": "2022-12-31",
@@ -724,6 +709,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT03416530",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03416530",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-JAZZ-NCT03295396",
+      "ticker": "JAZZ",
+      "date": "2022-12-31",
+      "title": "ONC201 in Adults With Recurrent H3 K27M-mutant Glioma",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Glioma · 73 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT03295396",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03295396",
       "origin": "registry",
       "status": "past"
     },
@@ -1253,21 +1253,6 @@
       "status": "past"
     },
     {
-      "id": "ct-JAZZ-NCT04541082",
-      "ticker": "JAZZ",
-      "date": "2026-07-15",
-      "title": "Phase I Study of Oral ONC206 in Recurrent and Rare Primary Central Nervous System Neoplasms",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Central Nervous System Neoplasms, Glioblastoma, Gliosarcoma, Adult · 102 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04541082",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04541082",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-JAZZ-NCT05152147",
       "ticker": "JAZZ",
       "date": "2026-07-15",
@@ -1279,6 +1264,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05152147",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05152147",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-JAZZ-NCT04541082",
+      "ticker": "JAZZ",
+      "date": "2026-07-15",
+      "title": "Phase I Study of Oral ONC206 in Recurrent and Rare Primary Central Nervous System Neoplasms",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Central Nervous System Neoplasms, Glioblastoma, Gliosarcoma, Adult · 102 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04541082",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04541082",
       "origin": "registry",
       "status": "past"
     },

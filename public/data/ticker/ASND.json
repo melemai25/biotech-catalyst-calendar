@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 3,
   "phase2": 2,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -57,7 +57,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2027-08-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 305
+    "daysToNextCatalyst": 304
   },
   "trialStats": {
     "completed": 7,
@@ -73,7 +73,7 @@
         "total": 7,
         "completionRatePct": 80
       },
-      "phase3": {
+      "other": {
         "completed": 1,
         "terminated": 0,
         "total": 3,
@@ -85,7 +85,7 @@
         "total": 2,
         "completionRatePct": null
       },
-      "other": {
+      "phase3": {
         "completed": 1,
         "terminated": 0,
         "total": 3,
@@ -1144,6 +1144,21 @@
       "result": null,
       "source": "SEC EDGAR 6-K 2026-09-29",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526407293/d153773d6k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-ASND-0001193125-26-421789",
+      "ticker": "ASND",
+      "date": "2026-10-14",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-10-14",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526421789/d743945d6k.htm",
       "origin": "edgar",
       "status": "past"
     },

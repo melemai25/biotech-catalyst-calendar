@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -67,17 +67,17 @@
     "ongoing": 3,
     "withResults": 1,
     "byPhase": {
-      "phase3": {
-        "completed": 8,
-        "terminated": 0,
-        "total": 9,
-        "completionRatePct": 100
-      },
       "phase1": {
         "completed": 1,
         "terminated": 0,
         "total": 3,
         "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 8,
+        "terminated": 0,
+        "total": 9,
+        "completionRatePct": 100
       }
     },
     "concluded": 9,

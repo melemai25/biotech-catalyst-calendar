@@ -11,7 +11,7 @@
   "activeTrials": 25,
   "phase3": 8,
   "phase2": 17,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -54,10 +54,10 @@
     "phase3Count": 21,
     "phase2Count": 41,
     "leadPhase": 4,
-    "upcomingCount": 28,
-    "nextCatalystDate": "2026-10-15",
+    "upcomingCount": 27,
+    "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 31
   },
   "trialStats": {
     "completed": 35,
@@ -67,12 +67,6 @@
     "ongoing": 31,
     "withResults": 30,
     "byPhase": {
-      "phase1": {
-        "completed": 8,
-        "terminated": 0,
-        "total": 14,
-        "completionRatePct": 100
-      },
       "phase2": {
         "completed": 12,
         "terminated": 6,
@@ -89,6 +83,12 @@
         "completed": 13,
         "terminated": 0,
         "total": 21,
+        "completionRatePct": 100
+      },
+      "phase1": {
+        "completed": 8,
+        "terminated": 0,
+        "total": 14,
         "completionRatePct": 100
       }
     },
@@ -1640,6 +1640,21 @@
       "source": "ClinicalTrials.gov NCT05432583",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05432583",
       "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-BNTX-NCT04486378",
+      "ticker": "BNTX",
+      "date": "2026-11-15",
+      "title": "A Phase II Clinical Trial Comparing the Efficacy of RO7198457 Versus Watchful Waiting in Patients With ctDNA-positive, Resected Stage II (High Risk) and Stage III Colorectal Cancer",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Colorectal Cancer Stage II, Colorectal Cancer Stage III · 327 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04486378",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04486378",
+      "origin": "registry",
       "status": "upcoming"
     },
     {
@@ -1654,21 +1669,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07392372",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07392372",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-BNTX-NCT04486378",
-      "ticker": "BNTX",
-      "date": "2026-11-15",
-      "title": "A Phase II Clinical Trial Comparing the Efficacy of RO7198457 Versus Watchful Waiting in Patients With ctDNA-positive, Resected Stage II (High Risk) and Stage III Colorectal Cancer",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Colorectal Cancer Stage II, Colorectal Cancer Stage III · 327 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04486378",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04486378",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1793,21 +1793,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BNTX-NCT07070232",
-      "ticker": "BNTX",
-      "date": "2028-03-15",
-      "title": "A Clinical Study to Test if an Investigational Treatment Called BNT326 is Safe and Potentially Beneficial When Used Alone or in Combination With Other Investigational Treatments Such as BNT327, for People With Advanced Malignant Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Advanced Solid Tumor · 1,438 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07070232",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07070232",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BNTX-NCT06340568",
       "ticker": "BNTX",
       "date": "2028-03-15",
@@ -1823,17 +1808,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BNTX-NCT06449222",
+      "id": "ct-BNTX-NCT07070232",
       "ticker": "BNTX",
-      "date": "2028-08-15",
-      "title": "Safety and Preliminary Effectiveness of BNT327, an Investigational Therapy for Breast Cancer, When Given in Combination With Chemotherapy",
+      "date": "2028-03-15",
+      "title": "A Clinical Study to Test if an Investigational Treatment Called BNT326 is Safe and Potentially Beneficial When Used Alone or in Combination With Other Investigational Treatments Such as BNT327, for People With Advanced Malignant Tumors",
       "type": "Trial Milestone",
-      "phase": "Phase 2",
+      "phase": "Phase 1/Phase 2",
       "estimated": false,
-      "summary": "Locally Advanced Breast Cancer, Triple Negative Breast Cancer, Metastatic Triple Negative Breast Cancers · 83 participants · Status: Active Not Recruiting",
+      "summary": "Advanced Solid Tumor · 1,438 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT06449222",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06449222",
+      "source": "ClinicalTrials.gov NCT07070232",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07070232",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1849,6 +1834,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04534205",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04534205",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BNTX-NCT06449222",
+      "ticker": "BNTX",
+      "date": "2028-08-15",
+      "title": "Safety and Preliminary Effectiveness of BNT327, an Investigational Therapy for Breast Cancer, When Given in Combination With Chemotherapy",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Locally Advanced Breast Cancer, Triple Negative Breast Cancer, Metastatic Triple Negative Breast Cancers · 83 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06449222",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06449222",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1901,7 +1901,7 @@
       "id": "ct-BNTX-NCT06712316",
       "ticker": "BNTX",
       "date": "2029-01-15",
-      "title": "Safety, Efficacy, and Pharmacokinetics of BNT327 in Combination With Chemotherapy and Other Investigational Agents for Lung Cancer",
+      "title": "Safety, Efficacy, and Pharmacokinetics of BNT327 in Combination With Chemotherapy and Other Investigational Agents for Lung Cancer (ROSETTA Lung-02)",
       "type": "Trial Milestone",
       "phase": "Phase 2/Phase 3",
       "estimated": false,

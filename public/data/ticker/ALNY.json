@@ -11,7 +11,7 @@
   "activeTrials": 12,
   "phase3": 4,
   "phase2": 8,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 22,
     "leadPhase": 3,
     "upcomingCount": 20,
-    "nextCatalystDate": "2026-10-15",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "nextCatalystDate": "2026-12-29",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 75
   },
   "trialStats": {
     "completed": 43,
@@ -73,6 +73,12 @@
         "total": 24,
         "completionRatePct": 82
       },
+      "phase2": {
+        "completed": 16,
+        "terminated": 5,
+        "total": 30,
+        "completionRatePct": 76
+      },
       "phase3": {
         "completed": 10,
         "terminated": 0,
@@ -84,12 +90,6 @@
         "terminated": 2,
         "total": 15,
         "completionRatePct": 60
-      },
-      "phase2": {
-        "completed": 16,
-        "terminated": 5,
-        "total": 30,
-        "completionRatePct": 76
       }
     },
     "concluded": 54,
@@ -818,21 +818,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-ALNY-next-earnings",
-      "ticker": "ALNY",
-      "date": "2026-10-15",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001178670&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ALNY-NCT07295717",
       "ticker": "ALNY",
       "date": "2026-12-29",
@@ -845,6 +830,21 @@
       "source": "ClinicalTrials.gov NCT07295717",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07295717",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-ALNY-next-earnings",
+      "ticker": "ALNY",
+      "date": "2026-12-31",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001178670&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {
@@ -900,7 +900,7 @@
       "type": "Trial Milestone",
       "phase": "Phase 1",
       "estimated": false,
-      "summary": "Healthy Volunteers · 44 participants · Status: Recruiting",
+      "summary": "Healthy Volunteers · 36 participants · Status: Active Not Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT07535606",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07535606",

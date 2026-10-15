@@ -11,7 +11,7 @@
   "activeTrials": 7,
   "phase3": 1,
   "phase2": 6,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -54,10 +54,10 @@
     "phase3Count": 5,
     "phase2Count": 14,
     "leadPhase": 3,
-    "upcomingCount": 9,
-    "nextCatalystDate": "2026-10-15",
-    "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 1
+    "upcomingCount": 8,
+    "nextCatalystDate": "2026-11-02",
+    "nextCatalystType": "Earnings",
+    "daysToNextCatalyst": 18
   },
   "trialStats": {
     "completed": 5,
@@ -443,7 +443,7 @@
       "source": "ClinicalTrials.gov NCT06980805",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06980805",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "edgar-IMVT-next-earnings",

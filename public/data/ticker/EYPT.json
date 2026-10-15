@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 4,
   "phase2": 0,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -54,10 +54,10 @@
     "phase3Count": 8,
     "phase2Count": 6,
     "leadPhase": 4,
-    "upcomingCount": 4,
-    "nextCatalystDate": "2026-10-15",
-    "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 1
+    "upcomingCount": 3,
+    "nextCatalystDate": "2026-12-09",
+    "nextCatalystType": "Earnings",
+    "daysToNextCatalyst": 55
   },
   "trialStats": {
     "completed": 10,
@@ -67,11 +67,11 @@
     "ongoing": 4,
     "withResults": 10,
     "byPhase": {
-      "phase2": {
-        "completed": 5,
+      "other": {
+        "completed": 1,
         "terminated": 1,
-        "total": 6,
-        "completionRatePct": 83
+        "total": 2,
+        "completionRatePct": null
       },
       "phase3": {
         "completed": 3,
@@ -79,11 +79,11 @@
         "total": 10,
         "completionRatePct": 75
       },
-      "other": {
-        "completed": 1,
+      "phase2": {
+        "completed": 5,
         "terminated": 1,
-        "total": 2,
-        "completionRatePct": null
+        "total": 6,
+        "completionRatePct": 83
       },
       "phase1": {
         "completed": 1,
@@ -665,7 +665,7 @@
       "source": "ClinicalTrials.gov NCT06683742",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06683742",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "edgar-EYPT-next-earnings",
@@ -683,21 +683,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-EYPT-NCT07449923",
-      "ticker": "EYPT",
-      "date": "2027-10-15",
-      "title": "CAPRI: A Phase 3 Randomized, Double-Masked Study Comparing the Efficacy of EYP-1901 Against Aflibercept in DME",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Diabetic Macular Edema, DME, Diabetic Macular Edema (DME) · 240 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07449923",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07449923",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-EYPT-NCT07449936",
       "ticker": "EYPT",
       "date": "2027-10-15",
@@ -709,6 +694,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07449936",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07449936",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-EYPT-NCT07449923",
+      "ticker": "EYPT",
+      "date": "2027-10-15",
+      "title": "CAPRI: A Phase 3 Randomized, Double-Masked Study Comparing the Efficacy of EYP-1901 Against Aflibercept in DME",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Diabetic Macular Edema, DME, Diabetic Macular Edema (DME) · 240 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07449923",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07449923",
       "origin": "registry",
       "status": "upcoming"
     }

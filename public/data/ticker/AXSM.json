@@ -11,7 +11,7 @@
   "activeTrials": 7,
   "phase3": 7,
   "phase2": 0,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 11,
     "nextCatalystDate": "2026-10-19",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 5
+    "daysToNextCatalyst": 4
   },
   "trialStats": {
     "completed": 20,
@@ -743,6 +743,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-AXSM-NCT06413433",
+      "ticker": "AXSM",
+      "date": "2026-12-15",
+      "title": "Elucidating TAAR-1, Dopamine, and Norepinephrine in Binge Eating Disorder Using Solriamfetol",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Binge-Eating Disorder · 450 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06413433",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06413433",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-AXSM-NCT06568367",
       "ticker": "AXSM",
       "date": "2026-12-15",
@@ -758,17 +773,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-AXSM-NCT06413433",
+      "id": "ct-AXSM-NCT07766655",
       "ticker": "AXSM",
-      "date": "2026-12-15",
-      "title": "Elucidating TAAR-1, Dopamine, and Norepinephrine in Binge Eating Disorder Using Solriamfetol",
+      "date": "2027-12-15",
+      "title": "Studying NMDA and Sigma-1 in Smoking Cessation Treatment (SUMMIT)",
       "type": "Trial Milestone",
       "phase": "Phase 3",
       "estimated": false,
-      "summary": "Binge-Eating Disorder · 450 participants · Status: Recruiting",
+      "summary": "Smoking Cessation · 705 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT06413433",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06413433",
+      "source": "ClinicalTrials.gov NCT07766655",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07766655",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -803,21 +818,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-AXSM-NCT07766655",
-      "ticker": "AXSM",
-      "date": "2027-12-15",
-      "title": "Studying NMDA and Sigma-1 in Smoking Cessation Treatment (SUMMIT)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Smoking Cessation · 705 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07766655",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07766655",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-AXSM-NCT07398417",
       "ticker": "AXSM",
       "date": "2028-03-15",
@@ -848,21 +848,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-AXSM-NCT07717879",
-      "ticker": "AXSM",
-      "date": "2028-06-30",
-      "title": "Forward Treatment of Attention Deficit and Hyperactivity Using Solriamfetol (FOCUS-2)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "ADHD · 468 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07717879",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07717879",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-AXSM-NCT07717892",
       "ticker": "AXSM",
       "date": "2028-06-30",
@@ -874,6 +859,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07717892",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07717892",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-AXSM-NCT07717879",
+      "ticker": "AXSM",
+      "date": "2028-06-30",
+      "title": "Forward Treatment of Attention Deficit and Hyperactivity Using Solriamfetol (FOCUS-2)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "ADHD · 468 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07717879",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07717879",
       "origin": "registry",
       "status": "upcoming"
     },

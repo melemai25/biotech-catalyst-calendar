@@ -11,7 +11,7 @@
   "activeTrials": 10,
   "phase3": 5,
   "phase2": 5,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -50,40 +50,40 @@
     "fcfMarginPct": -222.2,
     "marketCapUsd": null,
     "entityName": "INTELLIGENT BIO SOLUTIONS INC.",
-    "activeTrials": 49,
+    "activeTrials": 50,
     "phase3Count": 12,
     "phase2Count": 9,
     "leadPhase": 4,
     "upcomingCount": 9,
     "nextCatalystDate": "2026-11-12",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 29
+    "daysToNextCatalyst": 28
   },
   "trialStats": {
-    "completed": 34,
+    "completed": 35,
     "terminated": 7,
     "withdrawn": 2,
     "suspended": 0,
-    "ongoing": 14,
+    "ongoing": 13,
     "withResults": 1,
     "byPhase": {
-      "phase3": {
-        "completed": 7,
-        "terminated": 2,
-        "total": 13,
-        "completionRatePct": 78
-      },
       "phase1": {
-        "completed": 23,
+        "completed": 24,
         "terminated": 5,
         "total": 33,
-        "completionRatePct": 82
+        "completionRatePct": 83
       },
       "phase2": {
         "completed": 2,
         "terminated": 0,
         "total": 9,
         "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 7,
+        "terminated": 2,
+        "total": 13,
+        "completionRatePct": 78
       },
       "other": {
         "completed": 2,
@@ -92,8 +92,8 @@
         "completionRatePct": null
       }
     },
-    "concluded": 43,
-    "completionRatePct": 79,
+    "concluded": 44,
+    "completionRatePct": 80,
     "resultsPostedPct": 3
   },
   "events": [
@@ -935,6 +935,21 @@
       "source": "SEC EDGAR 8-K 2025-11-12",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1725430/000149315225022005/form8-k.htm",
       "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "ct-INBS-NCT06139536",
+      "ticker": "INBS",
+      "date": "2025-12-02",
+      "title": "Assessment of Safety, Tolerability and Pharmacokinetics With BAT4706 and BAT1308 in Advanced Solid Tumors Patients",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Advanced Solid Tumor · 35 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06139536",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06139536",
+      "origin": "registry",
       "status": "past"
     },
     {

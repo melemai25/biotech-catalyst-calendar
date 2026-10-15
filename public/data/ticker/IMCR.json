@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 2,
   "phase2": 2,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -54,10 +54,10 @@
     "phase3Count": 2,
     "phase2Count": 6,
     "leadPhase": 3,
-    "upcomingCount": 7,
-    "nextCatalystDate": "2026-10-15",
+    "upcomingCount": 6,
+    "nextCatalystDate": "2026-11-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 46
   },
   "trialStats": {
     "completed": 3,
@@ -67,28 +67,28 @@
     "ongoing": 7,
     "withResults": 5,
     "byPhase": {
-      "phase1": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 4,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 2,
         "terminated": 2,
         "total": 8,
         "completionRatePct": 50
       },
-      "other": {
-        "completed": 0,
+      "phase1": {
+        "completed": 1,
         "terminated": 0,
-        "total": 1,
+        "total": 4,
         "completionRatePct": null
       },
       "phase3": {
         "completed": 0,
         "terminated": 0,
         "total": 2,
+        "completionRatePct": null
+      },
+      "other": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 1,
         "completionRatePct": null
       }
     },
@@ -320,22 +320,7 @@
       "source": "ClinicalTrials.gov NCT04262466",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04262466",
       "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "edgar-IMCR-next-earnings",
-      "ticker": "IMCR",
-      "date": "2026-10-15",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001671927&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-IMCR-NCT06840119",
@@ -350,6 +335,21 @@
       "source": "ClinicalTrials.gov NCT06840119",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06840119",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-IMCR-next-earnings",
+      "ticker": "IMCR",
+      "date": "2026-12-24",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001671927&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {

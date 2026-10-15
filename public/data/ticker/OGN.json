@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -54,10 +54,10 @@
     "phase3Count": 15,
     "phase2Count": 3,
     "leadPhase": 4,
-    "upcomingCount": 2,
-    "nextCatalystDate": "2026-10-15",
-    "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 1
+    "upcomingCount": 1,
+    "nextCatalystDate": "2026-11-04",
+    "nextCatalystType": "Earnings",
+    "daysToNextCatalyst": 20
   },
   "trialStats": {
     "completed": 473,
@@ -67,17 +67,17 @@
     "ongoing": 1,
     "withResults": 264,
     "byPhase": {
-      "other": {
-        "completed": 143,
-        "terminated": 7,
-        "total": 153,
-        "completionRatePct": 95
-      },
       "phase3": {
         "completed": 279,
         "terminated": 12,
         "total": 297,
         "completionRatePct": 96
+      },
+      "other": {
+        "completed": 143,
+        "terminated": 7,
+        "total": 153,
+        "completionRatePct": 95
       },
       "phase2": {
         "completed": 31,
@@ -665,7 +665,7 @@
       "source": "ClinicalTrials.gov NCT05172726",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05172726",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "edgar-OGN-next-earnings",

@@ -11,7 +11,7 @@
   "activeTrials": 14,
   "phase3": 10,
   "phase2": 4,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -54,10 +54,10 @@
     "phase3Count": 22,
     "phase2Count": 19,
     "leadPhase": 4,
-    "upcomingCount": 13,
-    "nextCatalystDate": "2026-10-15",
-    "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 1
+    "upcomingCount": 12,
+    "nextCatalystDate": "2026-11-03",
+    "nextCatalystType": "Earnings",
+    "daysToNextCatalyst": 19
   },
   "trialStats": {
     "completed": 53,
@@ -67,11 +67,11 @@
     "ongoing": 24,
     "withResults": 31,
     "byPhase": {
-      "phase2": {
-        "completed": 15,
-        "terminated": 2,
-        "total": 23,
-        "completionRatePct": 88
+      "other": {
+        "completed": 3,
+        "terminated": 0,
+        "total": 8,
+        "completionRatePct": null
       },
       "phase3": {
         "completed": 17,
@@ -79,17 +79,17 @@
         "total": 32,
         "completionRatePct": 89
       },
+      "phase2": {
+        "completed": 15,
+        "terminated": 2,
+        "total": 23,
+        "completionRatePct": 88
+      },
       "phase1": {
         "completed": 18,
         "terminated": 0,
         "total": 19,
         "completionRatePct": 100
-      },
-      "other": {
-        "completed": 3,
-        "terminated": 0,
-        "total": 8,
-        "completionRatePct": null
       }
     },
     "concluded": 58,
@@ -920,7 +920,7 @@
       "source": "ClinicalTrials.gov NCT07090161",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07090161",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "edgar-VNDA-next-earnings",
@@ -998,21 +998,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-VNDA-NCT06961968",
-      "ticker": "VNDA",
-      "date": "2027-11-15",
-      "title": "Randomized Withdrawal Study in Patients With Schizophrenia",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Schizophrenia · 400 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06961968",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06961968",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-VNDA-NCT06953869",
       "ticker": "VNDA",
       "date": "2027-11-15",
@@ -1024,6 +1009,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06953869",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06953869",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-VNDA-NCT06961968",
+      "ticker": "VNDA",
+      "date": "2027-11-15",
+      "title": "Randomized Withdrawal Study in Patients With Schizophrenia",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Schizophrenia · 400 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06961968",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06961968",
       "origin": "registry",
       "status": "upcoming"
     },

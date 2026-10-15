@@ -11,7 +11,7 @@
   "activeTrials": 9,
   "phase3": 5,
   "phase2": 4,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -54,10 +54,10 @@
     "phase3Count": 8,
     "phase2Count": 16,
     "leadPhase": 4,
-    "upcomingCount": 9,
-    "nextCatalystDate": "2026-10-15",
-    "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 1
+    "upcomingCount": 8,
+    "nextCatalystDate": "2026-12-23",
+    "nextCatalystType": "Earnings",
+    "daysToNextCatalyst": 69
   },
   "trialStats": {
     "completed": 22,
@@ -67,17 +67,17 @@
     "ongoing": 13,
     "withResults": 20,
     "byPhase": {
+      "phase3": {
+        "completed": 6,
+        "terminated": 0,
+        "total": 12,
+        "completionRatePct": 100
+      },
       "phase2": {
         "completed": 11,
         "terminated": 2,
         "total": 18,
         "completionRatePct": 85
-      },
-      "other": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 5,
-        "completionRatePct": null
       },
       "phase1": {
         "completed": 4,
@@ -85,11 +85,11 @@
         "total": 4,
         "completionRatePct": 100
       },
-      "phase3": {
-        "completed": 6,
+      "other": {
+        "completed": 1,
         "terminated": 0,
-        "total": 12,
-        "completionRatePct": 100
+        "total": 5,
+        "completionRatePct": null
       }
     },
     "concluded": 26,
@@ -620,7 +620,7 @@
       "source": "ClinicalTrials.gov NCT06553768",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06553768",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "edgar-MIRM-next-earnings",

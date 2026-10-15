@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -49,7 +49,7 @@
     "rndIntensityPct": 67,
     "fcfMarginPct": -123.3,
     "marketCapUsd": null,
-    "entityName": "WAVE LIFE SCIENCES LTD.",
+    "entityName": "WAVE LIFE SCIENCES, INC.",
     "activeTrials": 14,
     "phase3Count": 1,
     "phase2Count": 12,
@@ -57,7 +57,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-12-03",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 50
+    "daysToNextCatalyst": 49
   },
   "trialStats": {
     "completed": 3,
@@ -67,12 +67,6 @@
     "ongoing": 4,
     "withResults": 8,
     "byPhase": {
-      "phase3": {
-        "completed": 0,
-        "terminated": 1,
-        "total": 1,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 1,
         "terminated": 6,
@@ -83,6 +77,12 @@
         "completed": 2,
         "terminated": 0,
         "total": 2,
+        "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 0,
+        "terminated": 1,
+        "total": 1,
         "completionRatePct": null
       }
     },

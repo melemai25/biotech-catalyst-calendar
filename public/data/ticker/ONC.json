@@ -11,7 +11,7 @@
   "activeTrials": 27,
   "phase3": 15,
   "phase2": 12,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 47,
     "nextCatalystDate": "2026-10-31",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 17
+    "daysToNextCatalyst": 16
   },
   "trialStats": {
     "completed": 4,
@@ -67,12 +67,6 @@
     "ongoing": 52,
     "withResults": 1,
     "byPhase": {
-      "other": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 1,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 3,
         "terminated": 5,
@@ -89,6 +83,12 @@
         "completed": 1,
         "terminated": 0,
         "total": 16,
+        "completionRatePct": null
+      },
+      "other": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 1,
         "completionRatePct": null
       }
     },
@@ -563,21 +563,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT06637501",
-      "ticker": "ONC",
-      "date": "2026-11-15",
-      "title": "A Study to Investigate Sonrotoclax Combined With Zanubrutinib Versus Zanubrutinib Alone in Participants With Previously Untreated Chronic Lymphocytic Leukemia",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Chronic Lymphocytic Leukemia · 94 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06637501",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06637501",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ONC-NCT04973605",
       "ticker": "ONC",
       "date": "2026-11-15",
@@ -589,6 +574,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04973605",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04973605",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ONC-NCT06637501",
+      "ticker": "ONC",
+      "date": "2026-11-15",
+      "title": "A Study to Investigate Sonrotoclax Combined With Zanubrutinib Versus Zanubrutinib Alone in Participants With Previously Untreated Chronic Lymphocytic Leukemia",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Chronic Lymphocytic Leukemia · 94 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06637501",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06637501",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -968,21 +968,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT07746141",
-      "ticker": "ONC",
-      "date": "2028-09-30",
-      "title": "A First-in-Human Study Investigating BG-85738 Alone or in Combination With Other Antitumor Agents in Patients With Advanced or Metastatic Solid Tumors With Rat Sarcoma Virus (RAS) Mutations",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "RAS Mutation, Advanced Solid Tumor, Metastatic Solid Tumor · 100 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07746141",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07746141",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ONC-NCT07619287",
       "ticker": "ONC",
       "date": "2028-09-30",
@@ -1009,6 +994,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06598800",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06598800",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ONC-NCT07746141",
+      "ticker": "ONC",
+      "date": "2028-09-30",
+      "title": "A First-in-Human Study Investigating BG-85738 Alone or in Combination With Other Antitumor Agents in Patients With Advanced or Metastatic Solid Tumors With Rat Sarcoma Virus (RAS) Mutations",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "RAS Mutation, Advanced Solid Tumor, Metastatic Solid Tumor · 100 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07746141",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07746141",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1103,6 +1103,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-ONC-NCT06943872",
+      "ticker": "ONC",
+      "date": "2029-09-30",
+      "title": "A Study to Investigate Progression-Free Survival With Sonrotoclax Plus Obinutuzumab Or Sonrotoclax Plus Rituximab Compared With Venetoclax Plus Rituximab Treatment In Patients With Relapsed and/or Refractory Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (CELESTIAL-RRCLL)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma · 630 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06943872",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06943872",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-ONC-NCT07222267",
       "ticker": "ONC",
       "date": "2029-09-30",
@@ -1118,17 +1133,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT06943872",
+      "id": "ct-ONC-NCT06970743",
       "ticker": "ONC",
-      "date": "2029-09-30",
-      "title": "A Study to Investigate Progression-Free Survival With Sonrotoclax Plus Obinutuzumab Or Sonrotoclax Plus Rituximab Compared With Venetoclax Plus Rituximab Treatment In Patients With Relapsed and/or Refractory Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (CELESTIAL-RRCLL)",
+      "date": "2029-11-30",
+      "title": "A Study of BGB-16673 Compared to Investigator's Choice in Participants With Relapsed/Refractory Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma Previously Exposed to Covalent Bruton Tyrosine Kinase (BTK) Inhibitors",
       "type": "Trial Milestone",
       "phase": "Phase 3",
       "estimated": false,
-      "summary": "Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma · 630 participants · Status: Recruiting",
+      "summary": "Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma · 153 participants · Status: Active Not Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT06943872",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06943872",
+      "source": "ClinicalTrials.gov NCT06970743",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06970743",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1159,21 +1174,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06697184",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06697184",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-ONC-NCT06970743",
-      "ticker": "ONC",
-      "date": "2029-11-30",
-      "title": "A Study of BGB-16673 Compared to Investigator's Choice in Participants With Relapsed/Refractory Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma Previously Exposed to Covalent Bruton Tyrosine Kinase (BTK) Inhibitors",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma · 153 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06970743",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06970743",
       "origin": "registry",
       "status": "upcoming"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2027-04-25",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 193
+    "daysToNextCatalyst": 192
   },
   "trialStats": {
     "completed": 10,
@@ -191,21 +191,6 @@
       "status": "past"
     },
     {
-      "id": "ct-ORMP-NCT04606576",
-      "ticker": "ORMP",
-      "date": "2023-01-13",
-      "title": "Study to Evaluate the Efficacy and Safety of ORMD-0801 in Subjects With Type 2 Diabetes Mellitus",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Type 2 Diabetes Mellitus · 710 participants · Status: Terminated",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04606576",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04606576",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-ORMP-NCT04754334",
       "ticker": "ORMP",
       "date": "2023-01-13",
@@ -217,6 +202,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04754334",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04754334",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-ORMP-NCT04606576",
+      "ticker": "ORMP",
+      "date": "2023-01-13",
+      "title": "Study to Evaluate the Efficacy and Safety of ORMD-0801 in Subjects With Type 2 Diabetes Mellitus",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Type 2 Diabetes Mellitus · 710 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04606576",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04606576",
       "origin": "registry",
       "status": "past"
     },

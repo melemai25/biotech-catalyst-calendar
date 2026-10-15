@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -57,7 +57,7 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2039-07-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 4657
+    "daysToNextCatalyst": 4656
   },
   "trialStats": {
     "completed": 96,
@@ -73,17 +73,17 @@
         "total": 73,
         "completionRatePct": 96
       },
-      "phase3": {
-        "completed": 1,
-        "terminated": 4,
-        "total": 6,
-        "completionRatePct": 20
-      },
       "phase2": {
         "completed": 25,
         "terminated": 9,
         "total": 34,
         "completionRatePct": 74
+      },
+      "phase3": {
+        "completed": 1,
+        "terminated": 4,
+        "total": 6,
+        "completionRatePct": 20
       }
     },
     "concluded": 112,
@@ -617,21 +617,6 @@
       "status": "past"
     },
     {
-      "id": "ct-LKFT-NCT04708184",
-      "ticker": "LKFT",
-      "date": "2021-02-25",
-      "title": "A Study to Assess Relative Bioavailability of and Effect of Food on a New Oral Tablet Formulation of GLPG3970",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Healthy · 12 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04708184",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04708184",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-LKFT-NCT04736927",
       "ticker": "LKFT",
       "date": "2021-02-25",
@@ -643,6 +628,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04736927",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04736927",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-LKFT-NCT04708184",
+      "ticker": "LKFT",
+      "date": "2021-02-25",
+      "title": "A Study to Assess Relative Bioavailability of and Effect of Food on a New Oral Tablet Formulation of GLPG3970",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Healthy · 12 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04708184",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04708184",
       "origin": "registry",
       "status": "past"
     },
@@ -2143,6 +2143,21 @@
       "result": null,
       "source": "SEC EDGAR 6-K 2026-10-13",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1421876/000117184326006602/f6k_101326.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-LKFT-0001171843-26-006634",
+      "ticker": "LKFT",
+      "date": "2026-10-15",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. FORM 6-K.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-10-15",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1421876/000117184326006634/f6k_101426.htm",
       "origin": "edgar",
       "status": "past"
     },

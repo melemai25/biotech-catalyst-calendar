@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 1,
   "phase2": 2,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2026-11-04",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 21
+    "daysToNextCatalyst": 20
   },
   "trialStats": {
     "completed": 43,
@@ -65,36 +65,36 @@
     "withdrawn": 12,
     "suspended": 0,
     "ongoing": 9,
-    "withResults": 39,
+    "withResults": 40,
     "byPhase": {
-      "phase3": {
-        "completed": 14,
-        "terminated": 8,
-        "total": 31,
-        "completionRatePct": 64
-      },
-      "phase1": {
-        "completed": 10,
-        "terminated": 2,
-        "total": 13,
-        "completionRatePct": 83
-      },
       "phase2": {
         "completed": 8,
         "terminated": 3,
         "total": 17,
         "completionRatePct": 73
       },
+      "phase3": {
+        "completed": 14,
+        "terminated": 8,
+        "total": 31,
+        "completionRatePct": 64
+      },
       "other": {
         "completed": 11,
         "terminated": 6,
         "total": 22,
         "completionRatePct": 65
+      },
+      "phase1": {
+        "completed": 10,
+        "terminated": 2,
+        "total": 13,
+        "completionRatePct": 83
       }
     },
     "concluded": 74,
     "completionRatePct": 58,
-    "resultsPostedPct": 91
+    "resultsPostedPct": 93
   },
   "events": [
     {
@@ -421,7 +421,7 @@
       "phase": "Phase 3",
       "estimated": false,
       "summary": "Idiopathic Pulmonary Fibrosis, Interstitial Lung Disease · 597 participants · Status: Completed",
-      "result": null,
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT05255991",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05255991",
       "origin": "registry",

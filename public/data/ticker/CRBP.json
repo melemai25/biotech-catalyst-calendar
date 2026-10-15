@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 1,
   "phase2": 2,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-11-01",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 18
+    "daysToNextCatalyst": 17
   },
   "trialStats": {
     "completed": 4,
@@ -67,17 +67,17 @@
     "ongoing": 3,
     "withResults": 4,
     "byPhase": {
-      "phase1": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 1,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 2,
         "terminated": 2,
         "total": 6,
         "completionRatePct": 50
+      },
+      "phase1": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 1,
+        "completionRatePct": null
       },
       "phase3": {
         "completed": 1,
@@ -538,6 +538,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-09-14",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1595097/000119312526389829/crbp-20260914.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-CRBP-0001193125-26-422437",
+      "ticker": "CRBP",
+      "date": "2026-10-15",
+      "title": "8-K filed: Reg FD disclosure",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 7.01, 9.01. Reg FD disclosure. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-15",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1595097/000119312526422437/crbp-20261015.htm",
       "origin": "edgar",
       "status": "past"
     },

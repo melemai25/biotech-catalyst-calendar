@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 7,
     "leadPhase": 3,
     "upcomingCount": 4,
-    "nextCatalystDate": "2026-11-05",
+    "nextCatalystDate": "2027-01-14",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 22
+    "daysToNextCatalyst": 91
   },
   "trialStats": {
     "completed": 1,
@@ -401,9 +401,24 @@
       "status": "past"
     },
     {
+      "id": "edgar-RXRX-0001601830-26-000128",
+      "ticker": "RXRX",
+      "date": "2026-10-15",
+      "title": "Quarterly results filed (8-K)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 1.01, 2.02, 7.01, 8.01, 9.01. Material agreement; Quarterly results; Reg FD disclosure; Other event. 8-K.",
+      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
+      "source": "SEC EDGAR 8-K 2026-10-15",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1601830/000160183026000128/rxrx-20261015.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "edgar-RXRX-next-earnings",
       "ticker": "RXRX",
-      "date": "2026-11-05",
+      "date": "2027-01-14",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

@@ -11,7 +11,7 @@
   "activeTrials": 28,
   "phase3": 15,
   "phase2": 13,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -57,7 +57,7 @@
     "upcomingCount": 30,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 32
+    "daysToNextCatalyst": 31
   },
   "trialStats": {
     "completed": 35,
@@ -67,6 +67,12 @@
     "ongoing": 44,
     "withResults": 19,
     "byPhase": {
+      "phase1": {
+        "completed": 14,
+        "terminated": 0,
+        "total": 19,
+        "completionRatePct": 100
+      },
       "phase3": {
         "completed": 11,
         "terminated": 4,
@@ -78,12 +84,6 @@
         "terminated": 3,
         "total": 25,
         "completionRatePct": 75
-      },
-      "phase1": {
-        "completed": 14,
-        "terminated": 0,
-        "total": 19,
-        "completionRatePct": 100
       },
       "other": {
         "completed": 1,
@@ -848,21 +848,6 @@
       "status": "past"
     },
     {
-      "id": "ct-ARGX-NCT06307613",
-      "ticker": "ARGX",
-      "date": "2025-12-15",
-      "title": "A Study of Efgartigimod PH20 SC Given by Prefilled Syringe in Adults With Thyroid Eye Disease",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Thyroid Eye Disease · 102 participants · Status: Terminated",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06307613",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06307613",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-ARGX-NCT06307626",
       "ticker": "ARGX",
       "date": "2025-12-15",
@@ -874,6 +859,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06307626",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06307626",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-ARGX-NCT06307613",
+      "ticker": "ARGX",
+      "date": "2025-12-15",
+      "title": "A Study of Efgartigimod PH20 SC Given by Prefilled Syringe in Adults With Thyroid Eye Disease",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Thyroid Eye Disease · 102 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06307613",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06307613",
       "origin": "registry",
       "status": "past"
     },
@@ -1643,17 +1643,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ARGX-NCT06544499",
+      "id": "ct-ARGX-NCT07596849",
       "ticker": "ARGX",
       "date": "2028-06-15",
-      "title": "A Study to Assess the Efficacy and Safety of Efgartigimod IV in Adult Participants With Primary Immune Thrombocytopenia",
+      "title": "A Study to Assess Efficacy and Safety of Efgartigimod PH20 SC PFS in Adult Participants With Graves' Disease.",
       "type": "Trial Milestone",
       "phase": "Phase 3",
       "estimated": false,
-      "summary": "Primary Immune Thrombocytopenia (ITP) · 69 participants · Status: Recruiting",
+      "summary": "Graves Disease · 230 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT06544499",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06544499",
+      "source": "ClinicalTrials.gov NCT07596849",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07596849",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1673,17 +1673,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ARGX-NCT07596849",
+      "id": "ct-ARGX-NCT06544499",
       "ticker": "ARGX",
       "date": "2028-06-15",
-      "title": "A Study to Assess Efficacy and Safety of Efgartigimod PH20 SC PFS in Adult Participants With Graves' Disease.",
+      "title": "A Study to Assess the Efficacy and Safety of Efgartigimod IV in Adult Participants With Primary Immune Thrombocytopenia",
       "type": "Trial Milestone",
       "phase": "Phase 3",
       "estimated": false,
-      "summary": "Graves Disease · 230 participants · Status: Recruiting",
+      "summary": "Primary Immune Thrombocytopenia (ITP) · 69 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT07596849",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07596849",
+      "source": "ClinicalTrials.gov NCT06544499",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06544499",
       "origin": "registry",
       "status": "upcoming"
     },

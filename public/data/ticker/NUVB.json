@@ -11,7 +11,7 @@
   "activeTrials": 8,
   "phase3": 4,
   "phase2": 4,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 5,
     "leadPhase": 3,
     "upcomingCount": 8,
-    "nextCatalystDate": "2026-10-15",
+    "nextCatalystDate": "2026-12-24",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 70
   },
   "trialStats": {
     "completed": 4,
@@ -67,22 +67,10 @@
     "ongoing": 10,
     "withResults": 0,
     "byPhase": {
-      "phase2": {
-        "completed": 0,
-        "terminated": 1,
-        "total": 7,
-        "completionRatePct": null
-      },
       "other": {
         "completed": 0,
         "terminated": 0,
         "total": 1,
-        "completionRatePct": null
-      },
-      "phase3": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 4,
         "completionRatePct": null
       },
       "phase1": {
@@ -90,6 +78,18 @@
         "terminated": 2,
         "total": 7,
         "completionRatePct": 67
+      },
+      "phase2": {
+        "completed": 0,
+        "terminated": 1,
+        "total": 7,
+        "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 4,
+        "completionRatePct": null
       }
     },
     "concluded": 9,
@@ -415,7 +415,7 @@
     {
       "id": "edgar-NUVB-next-earnings",
       "ticker": "NUVB",
-      "date": "2026-10-15",
+      "date": "2026-12-24",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

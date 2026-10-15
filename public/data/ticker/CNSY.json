@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -54,10 +54,10 @@
     "phase3Count": 0,
     "phase2Count": 2,
     "leadPhase": 2,
-    "upcomingCount": 3,
+    "upcomingCount": 4,
     "nextCatalystDate": "2026-10-30",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 16
+    "daysToNextCatalyst": 15
   },
   "trialStats": {
     "completed": 0,
@@ -308,21 +308,6 @@
       "source": "SEC EDGAR 8-K 2025-11-17",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1095981/000119312525283935/d55484d8k.htm",
       "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "ct-CNSY-NCT01906385",
-      "ticker": "CNSY",
-      "date": "2025-12-15",
-      "title": "Maximum Tolerated Dose, Safety, and Efficacy of Rhenium Nanoliposomes in Recurrent Glioma (ReSPECT)",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Glioma · 55 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT01906385",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT01906385",
-      "origin": "registry",
       "status": "past"
     },
     {
@@ -593,6 +578,21 @@
       "source": "Projected from SEC EDGAR filing cadence",
       "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001095981&type=8-K",
       "origin": "edgar",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-CNSY-NCT01906385",
+      "ticker": "CNSY",
+      "date": "2027-04-15",
+      "title": "Maximum Tolerated Dose, Safety, and Efficacy of Rhenium Nanoliposomes in Recurrent Glioma (ReSPECT)",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Glioma · 55 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT01906385",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT01906385",
+      "origin": "registry",
       "status": "upcoming"
     },
     {

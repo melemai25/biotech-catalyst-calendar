@@ -11,7 +11,7 @@
   "activeTrials": 15,
   "phase3": 2,
   "phase2": 13,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -54,10 +54,10 @@
     "phase3Count": 23,
     "phase2Count": 42,
     "leadPhase": 4,
-    "upcomingCount": 28,
+    "upcomingCount": 25,
     "nextCatalystDate": "2026-10-16",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 2
+    "daysToNextCatalyst": 1
   },
   "trialStats": {
     "completed": 76,
@@ -73,12 +73,6 @@
         "total": 40,
         "completionRatePct": 88
       },
-      "phase1": {
-        "completed": 18,
-        "terminated": 1,
-        "total": 29,
-        "completionRatePct": 95
-      },
       "phase3": {
         "completed": 20,
         "terminated": 1,
@@ -90,6 +84,12 @@
         "terminated": 1,
         "total": 24,
         "completionRatePct": 94
+      },
+      "phase1": {
+        "completed": 18,
+        "terminated": 1,
+        "total": 29,
+        "completionRatePct": 95
       }
     },
     "concluded": 86,
@@ -308,21 +308,6 @@
       "status": "past"
     },
     {
-      "id": "ct-MRNA-NCT04470427",
-      "ticker": "MRNA",
-      "date": "2022-12-29",
-      "title": "A Study to Evaluate Efficacy, Safety, and Immunogenicity of mRNA-1273 Vaccine in Adults Aged 18 Years and Older to Prevent COVID-19",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "SARS-CoV-2 · 30,415 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT04470427",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04470427",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-MRNA-NCT05375838",
       "ticker": "MRNA",
       "date": "2022-12-29",
@@ -334,6 +319,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT05375838",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05375838",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-MRNA-NCT04470427",
+      "ticker": "MRNA",
+      "date": "2022-12-29",
+      "title": "A Study to Evaluate Efficacy, Safety, and Immunogenicity of mRNA-1273 Vaccine in Adults Aged 18 Years and Older to Prevent COVID-19",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "SARS-CoV-2 · 30,415 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT04470427",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04470427",
       "origin": "registry",
       "status": "past"
     },
@@ -1223,21 +1223,6 @@
       "status": "past"
     },
     {
-      "id": "mrna-asco-2026",
-      "ticker": "MRNA",
-      "date": "2026-06-01",
-      "title": "Intismeran + KEYTRUDA — 5-Year Phase 2b Melanoma Data",
-      "type": "Conference",
-      "phase": "Phase 2b",
-      "summary": "Five-year follow-up from the adjuvant melanoma cohort, presented in an oral session at the ASCO 2026 Annual Meeting.",
-      "result": "Sustained benefit: intismeran combined with KEYTRUDA reduced the risk of recurrence or death by 49% versus KEYTRUDA alone.",
-      "source": "Moderna press release",
-      "sourceUrl": "https://investors.modernatx.com/",
-      "origin": "curated",
-      "status": "past",
-      "estimated": false
-    },
-    {
       "id": "ct-MRNA-NCT07089706",
       "ticker": "MRNA",
       "date": "2026-06-16",
@@ -1251,21 +1236,6 @@
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07089706",
       "origin": "registry",
       "status": "past"
-    },
-    {
-      "id": "mrna-vrbpac-2026",
-      "ticker": "MRNA",
-      "date": "2026-06-18",
-      "title": "mFLUSIVA (mRNA-1010) — FDA Advisory Committee Vote",
-      "type": "Regulatory",
-      "phase": "BLA review",
-      "summary": "The Vaccines and Related Biological Products Advisory Committee reviewed the benefit-risk profile of the seasonal influenza vaccine for adults 50 and older.",
-      "result": "Voted 9-0 that benefits outweigh risks for adults 50-64, and separately 9-0 for adults 65 and older.",
-      "source": "BioPharm International",
-      "sourceUrl": "https://www.biopharminternational.com/view/fda-advisory-panel-votes-9-0-in-favor-of-moderna-s-mrna-flu-vaccine-setting-stage-for-august-decision",
-      "origin": "curated",
-      "status": "past",
-      "estimated": false
     },
     {
       "id": "edgar-MRNA-0001682852-26-000134",
@@ -1298,21 +1268,6 @@
       "status": "past"
     },
     {
-      "id": "mrna-q2-2026",
-      "ticker": "MRNA",
-      "date": "2026-07-31",
-      "title": "Q2 2026 Earnings + Norovirus Interim Analysis",
-      "type": "Earnings",
-      "phase": "Phase 3 interim",
-      "summary": "Quarterly results reported alongside a Phase 3 interim analysis for the norovirus vaccine candidate mRNA-1403.",
-      "result": "Q2 revenue $0.1B, GAAP EPS -$1.97. mRNA-1403 did not meet statistical criteria for early success at the interim; an additional cohort is being enrolled. FY26 opex outlook improved by ~$0.2B.",
-      "source": "Moderna 8-K",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001682852&type=8-K",
-      "origin": "curated",
-      "status": "past",
-      "estimated": false
-    },
-    {
       "id": "edgar-MRNA-0001682852-26-000147",
       "ticker": "MRNA",
       "date": "2026-07-31",
@@ -1326,36 +1281,6 @@
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000147/mrna-20260731.htm",
       "origin": "edgar",
       "status": "past"
-    },
-    {
-      "id": "mrna-pdufa-1010",
-      "ticker": "MRNA",
-      "date": "2026-08-05",
-      "title": "mFLUSIVA (mRNA-1010) — FDA PDUFA Decision",
-      "type": "Regulatory",
-      "phase": "BLA",
-      "summary": "FDA target action date for the seasonal influenza vaccine BLA in adults 50 and older, following a February 2026 refusal-to-file that was reversed after a Type A meeting.",
-      "result": "Approved — the first mRNA-based seasonal flu vaccine licensed in the US. The 65+ indication was granted accelerated approval contingent on a postmarketing study spanning two flu seasons. Phase 3 showed 26.6% relative vaccine efficacy vs a standard-dose comparator.",
-      "source": "BioPharma Dive",
-      "sourceUrl": "https://www.biopharmadive.com/news/moderna-fda-approve-mflusiva-seasonal-influenza/826864/",
-      "origin": "curated",
-      "status": "past",
-      "estimated": false
-    },
-    {
-      "id": "mrna-interpath-001",
-      "ticker": "MRNA",
-      "date": "2026-08-19",
-      "title": "Intismeran Autogene — Phase 3 INTerpath-001 (Melanoma)",
-      "type": "Trial Readout",
-      "phase": "Phase 3",
-      "summary": "Pivotal adjuvant high-risk melanoma trial run with Merck in over 1,100 patients, testing the personalized mRNA cancer vaccine alongside KEYTRUDA.",
-      "result": "Met primary and key secondary endpoints — the first positive Phase 3 readout for an mRNA cancer therapy. MRNA rose 177% intraday, then gave back roughly 8% the following session.",
-      "source": "Investing.com",
-      "sourceUrl": "https://www.investing.com/news/stock-market-news/finding-the-next-moderna-5-biotech-stocks-with-imminent-fda-and-trial-catalysts-93CH-4869919",
-      "origin": "curated",
-      "status": "past",
-      "estimated": false
     },
     {
       "id": "edgar-MRNA-0001193125-26-378505",
@@ -1448,36 +1373,6 @@
       "status": "upcoming"
     },
     {
-      "id": "mrna-q3-2026",
-      "ticker": "MRNA",
-      "date": "2026-10-29",
-      "title": "Q3 2026 Earnings",
-      "type": "Earnings",
-      "summary": "Quarterly results and pipeline update. Management guided that Q3 should represent roughly 55% of second-half revenue. Watch for firmer timing on the propionic acidemia and mRNA-4359 readouts.",
-      "result": null,
-      "source": "Investing.com earnings calendar",
-      "sourceUrl": "https://www.investing.com/equities/moderna-earnings",
-      "origin": "curated",
-      "status": "upcoming",
-      "estimated": false,
-      "phase": null
-    },
-    {
-      "id": "mrna-4359-ph2",
-      "ticker": "MRNA",
-      "date": "2026-11-10",
-      "title": "mRNA-4359 — Phase 2 Cancer Antigen Therapy Readout",
-      "type": "Trial Readout",
-      "phase": "Phase 2",
-      "estimated": true,
-      "summary": "Wholly-owned cancer antigen therapy designed to elicit T-cell responses against tumor and immunosuppressive cells. Phase 2 includes first-line and second-line+ metastatic melanoma and first-line metastatic NSCLC cohorts.",
-      "result": null,
-      "source": "Moderna Analyst Day — guided to 2026, exact date unconfirmed",
-      "sourceUrl": "https://investors.modernatx.com/events-presentations",
-      "origin": "curated",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-MRNA-NCT05095727",
       "ticker": "MRNA",
       "date": "2026-11-30",
@@ -1490,21 +1385,6 @@
       "source": "ClinicalTrials.gov NCT05095727",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05095727",
       "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "mrna-3927-pa",
-      "ticker": "MRNA",
-      "date": "2026-12-10",
-      "title": "Propionic Acidemia (mRNA-3927) — Registrational Data",
-      "type": "Trial Readout",
-      "phase": "Registrational",
-      "estimated": true,
-      "summary": "Rare disease therapeutic. Target enrollment has been reached in the registrational study. A decision on the sister MMA program (mRNA-3705) is being deferred until this reads out.",
-      "result": null,
-      "source": "Moderna Q2 2026 update — guided to 2026, exact date unconfirmed",
-      "sourceUrl": "https://investors.modernatx.com/quarterly-results",
-      "origin": "curated",
       "status": "upcoming"
     },
     {

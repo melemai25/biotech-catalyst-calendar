@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 0,
   "phase2": 4,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 6,
     "leadPhase": 2,
     "upcomingCount": 4,
-    "nextCatalystDate": "2026-10-15",
+    "nextCatalystDate": "2026-12-19",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 65
   },
   "trialStats": {
     "completed": 0,
@@ -427,7 +427,7 @@
     {
       "id": "edgar-TNGX-next-earnings",
       "ticker": "TNGX",
-      "date": "2026-10-15",
+      "date": "2026-12-19",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,
@@ -455,21 +455,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-TNGX-NCT05732831",
-      "ticker": "TNGX",
-      "date": "2027-06-15",
-      "title": "Safety and Tolerability of TNG462 in Patients With MTAP-deleted Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Locally Advanced Solid Tumor · 225 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05732831",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05732831",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-TNGX-NCT06922591",
       "ticker": "TNGX",
       "date": "2027-06-15",
@@ -481,6 +466,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06922591",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06922591",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-TNGX-NCT05732831",
+      "ticker": "TNGX",
+      "date": "2027-06-15",
+      "title": "Safety and Tolerability of TNG462 in Patients With MTAP-deleted Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Locally Advanced Solid Tumor · 225 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05732831",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05732831",
       "origin": "registry",
       "status": "upcoming"
     }

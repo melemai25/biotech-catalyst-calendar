@@ -11,7 +11,7 @@
   "activeTrials": 21,
   "phase3": 17,
   "phase2": 4,
-  "generatedDate": "2026-10-14",
+  "generatedDate": "2026-10-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 10,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 32
+    "daysToNextCatalyst": 31
   },
   "trialStats": {
     "completed": 65,
@@ -73,6 +73,12 @@
         "total": 47,
         "completionRatePct": 100
       },
+      "phase1": {
+        "completed": 6,
+        "terminated": 0,
+        "total": 7,
+        "completionRatePct": 100
+      },
       "phase3": {
         "completed": 16,
         "terminated": 0,
@@ -83,12 +89,6 @@
         "completed": 7,
         "terminated": 0,
         "total": 10,
-        "completionRatePct": 100
-      },
-      "phase1": {
-        "completed": 6,
-        "terminated": 0,
-        "total": 7,
         "completionRatePct": 100
       }
     },
@@ -1298,21 +1298,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-SVA-NCT07505810",
-      "ticker": "SVA",
-      "date": "2027-04-15",
-      "title": "Phase Ⅲ Trial of Group ACYW135 Meningococcal Conjugate Vaccine in Children Aged 3-5 Months",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Epidemic Meningitis, Meningococcal Vaccines · 880 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07505810",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07505810",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-SVA-NCT07505823",
       "ticker": "SVA",
       "date": "2027-04-15",
@@ -1324,6 +1309,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07505823",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07505823",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-SVA-NCT07505810",
+      "ticker": "SVA",
+      "date": "2027-04-15",
+      "title": "Phase Ⅲ Trial of Group ACYW135 Meningococcal Conjugate Vaccine in Children Aged 3-5 Months",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Epidemic Meningitis, Meningococcal Vaccines · 880 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07505810",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07505810",
       "origin": "registry",
       "status": "upcoming"
     },
