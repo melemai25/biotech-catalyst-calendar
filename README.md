@@ -8,20 +8,19 @@ readings and a cross-asset strip. A **Data** tab gives a searchable, filterable
 table of every event with composable filters such as
 `phase:3 status:upcoming runway:<12`.
 
-The ticker universe, trial data, SEC filings and financial metrics are all
-collected by scripts. The only thing still maintained by hand is
-`data/curated.json`, which holds PDUFA dates and plain-language trial outcomes
-— neither exists in any free structured feed.
+Every event on the site comes from a machine-readable source and links back to
+it. Nothing is hand-entered, which means coverage is identical across all
+tracked companies rather than good for the handful someone got round to typing
+up. The cost of that rule is stated under Known limits.
 
 ## How the data works
 
-Three sources, merged at build time:
+Two sources, merged at build time:
 
 | Source | Provides | Key needed |
 |---|---|---|
 | **ClinicalTrials.gov v2** | Registered trials: phase, status, enrollment, primary completion dates | None |
 | **SEC EDGAR** | 8-K filings: earnings dates, corporate events, material disclosures — plus a *projected* next earnings date from filing cadence | None, but a contact string is required (below) |
-| **`data/curated.json`** | PDUFA dates and plain-language outcomes, which neither API publishes | Hand-edited by you |
 
 All fetching happens **server-side in the build step**, so there is no CORS
 involvement and nothing is exposed to the browser. If a source is unreachable
@@ -52,8 +51,10 @@ one forward-looking item is the projected next earnings date, derived from the
 median gap between recent item 2.02 filings. It is badged `est.` and is not a
 company-confirmed date.
 
-PDUFA dates and trial outcomes still have to be curated by hand, or extracted
-from filing text with an LLM. No free API publishes them.
+PDUFA dates are not included. No free structured feed publishes them, and the
+only honest routes are extracting them from 8-K text with an LLM or paying a
+licensed provider. A handful of hand-typed dates covering two companies was
+worse than none, because it implied a coverage level that did not exist.
 
 ### Tracked tickers — generated, not hand-written
 
@@ -294,50 +295,18 @@ For scheduled refreshes on these hosts, use their cron feature (Netlify Schedule
 
 Run `npm run build`, then upload the contents of `public/` anywhere — S3, nginx, a shared drive. It's four files plus a JSON.
 
-## Adding or fixing events
 
-Edit `data/curated.json` and re-run `npm run build`. Each event looks like:
-
-```json
-{
-  "id": "unique-slug",
-  "ticker": "MRNA",
-  "date": "2026-10-29",
-  "title": "Q3 2026 Earnings",
-  "type": "Earnings",
-  "phase": "Phase 3",
-  "estimated": true,
-  "summary": "One or two sentences of context.",
-  "result": "Outcome, or null if it hasn't happened yet.",
-  "source": "Where this came from",
-  "sourceUrl": "https://..."
-}
-```
-
-- `type` — `Trial Readout`, `Regulatory`, `Earnings`, `Conference`, or `Corporate`
-- `estimated: true` renders a dashed **est.** badge for dates that aren't officially confirmed
-- `status` (past/upcoming) is computed at build time from the date — don't set it yourself
-- Curated entries override registry entries if IDs collide
-
-## Adding another ticker
-
-Add an entry under `tickers` in `data/curated.json`:
-
-```json
-"PFE": {
-  "name": "Pfizer Inc.",
-  "sponsorQuery": "Pfizer",
-  "note": "Short description shown in the sidebar."
-}
-```
-
-Then add a color for it in `public/styles.css` (copy the `--mrna` / `--ilmn` pattern, plus the matching `.tick.PFE` and `.badge.PFE` rules) and in the `COLORS` map at the top of `public/app.js`.
 
 ## Known limits
 
 - **Registry dates move.** ClinicalTrials.gov primary completion dates are sponsor-estimated and get revised often. They're a rough guide to timing, not a schedule. Estimated ones are badged.
 - **Month-only dates** in the registry (`2026-11`) are anchored to the 15th so they have somewhere to sit on the grid.
-- **Illumina is not a drug developer.** It's a genomics tools and diagnostics company, so it has few registered interventional trials. Most of its catalysts are curated regulatory, reimbursement, and earnings events.
+- **No FDA decision dates.** PDUFA dates are the highest-value catalyst in this
+  sector and the one thing no free feed carries. Everything here is registry or
+  filing data, so a company's regulatory milestones only appear once they have
+  been filed with the SEC — after the fact, not before.
+- **Tools companies look quiet.** Illumina and similar genomics firms run few
+  registered interventional trials, so their calendars are mostly filings.
 - **`query.spons` matches collaborators too**, so the build filters to studies where the *lead* sponsor name matches. Without that, Illumina would pull in every trial that merely uses its sequencers.
 - Curated entries are a point-in-time snapshot. Verify anything you'd trade on against the primary source — every event links out to one.
 

@@ -1,13 +1,18 @@
 #!/usr/bin/env node
 /**
  * Fetches trial records from the ClinicalTrials.gov v2 API for every tracked
- * ticker, merges with hand-curated catalysts, and writes:
+ * ticker and writes:
  *
  *   public/data/index.json        - ticker list + counts (small, loaded first)
  *   public/data/ticker/<T>.json   - one file per ticker (loaded on demand)
  *   public/data/events.json       - combined file (back-compat with current UI)
  *
- * Runs server-side: no CORS, no API key. Network failures degrade to curated
+ * Runs server-side: no CORS, no API key. Every event on the site comes from a
+ * machine-readable source and links back to it — nothing is hand-entered, so
+ * coverage is the same for all 301 companies rather than good for the two
+ * someone happened to type up.
+ *
+ * Network failures degrade to
  * data rather than failing the build.
  *
  *   node scripts/build-data.js              build everything
@@ -22,7 +27,6 @@ const xbrl = require('./xbrl.js');
 
 const ROOT = path.join(__dirname, '..');
 const TICKERS_PATH = path.join(ROOT, 'data', 'tickers.json');
-const CURATED_PATH = path.join(ROOT, 'data', 'curated.json');
 const OUT_DIR = path.join(ROOT, 'public', 'data');
 const TICKER_DIR = path.join(OUT_DIR, 'ticker');
 
@@ -254,7 +258,6 @@ function studyToEvent(study, ticker, sponsorQuery, allowUnphased, oldestAllowed)
 
 async function main() {
   const tickerFile = JSON.parse(fs.readFileSync(TICKERS_PATH, 'utf8'));
-  const curated = JSON.parse(fs.readFileSync(CURATED_PATH, 'utf8'));
   const today = new Date().toISOString().slice(0, 10);
   const calendarCutoff = CALENDAR_MAX_AGE_YEARS > 0
     ? new Date(Date.now() - CALENDAR_MAX_AGE_YEARS * 365.25 * 86400000).toISOString().slice(0, 10)
@@ -263,12 +266,7 @@ async function main() {
   let entries = Object.entries(tickerFile.tickers);
   if (ONLY) entries = entries.filter(([t]) => ONLY.includes(t));
 
-  const curatedByTicker = {};
-  for (const e of curated.events) {
-    (curatedByTicker[e.ticker] = curatedByTicker[e.ticker] || []).push({ ...e, origin: 'curated' });
-  }
-
-  log(`Building ${entries.length} tickers (${curated.events.length} curated catalysts on file)`);
+  log(`Building ${entries.length} tickers`);
 
   // ---- EDGAR setup (optional; skipped cleanly if no contact string is set) ----
   let edgarUA = null;
@@ -389,7 +387,7 @@ async function main() {
       }
     }
 
-    const events = [...(curatedByTicker[ticker] || []), ...registryEvents, ...edgarEvents]
+    const events = [...registryEvents, ...edgarEvents]
       .map(e => ({
         ...e,
         status: e.date <= today ? 'past' : 'upcoming',
@@ -422,7 +420,6 @@ async function main() {
       phase3: meta.phase3 ?? null,
       counts: {
         total: events.length,
-        curated: events.filter(e => e.origin === 'curated').length,
         registry: events.filter(e => e.origin === 'registry').length,
         edgar: events.filter(e => e.origin === 'edgar').length,
         upcoming: events.filter(e => e.status === 'upcoming').length,
@@ -444,7 +441,6 @@ async function main() {
   log('\n' + '='.repeat(64));
   log(`Tickers processed : ${report.length}`);
   log(`Total events      : ${allEvents.length}`);
-  log(`  curated         : ${allEvents.filter(e => e.origin === 'curated').length}`);
   log(`  registry        : ${allEvents.filter(e => e.origin === 'registry').length}`);
   log(`  edgar           : ${allEvents.filter(e => e.origin === 'edgar').length}`);
   if (calendarCutoff) {
@@ -519,7 +515,6 @@ async function main() {
     warnings: failed.map(r => `${r.ticker}: ${r.error}`),
     counts: {
       total: allEvents.length,
-      curated: allEvents.filter(e => e.origin === 'curated').length,
       registry: allEvents.filter(e => e.origin === 'registry').length,
       edgar: allEvents.filter(e => e.origin === 'edgar').length,
     },

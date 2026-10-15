@@ -40,7 +40,7 @@ const state = {
   addOpen: false,
   analyzeTicker: null,
   compareWith: [],
-  sources: { curated:true, registry:true, edgar:true },
+  sources: { registry:true, edgar:true },
   // Macro lives in its own payload and is fetched only when the tab is opened,
   // so the biotech calendar never waits on it.
   macro: null,
@@ -146,7 +146,7 @@ async function load(){
       const idx = await res.json();
       if(idx.tickers && Object.keys(idx.tickers).length){
         data = { generatedDate: idx.generatedDate, tickers: idx.tickers, perTicker: true,
-                 counts: { total: idx.totalEvents||0, curated:0, registry:0, edgar:0 } };
+                 counts: { total: idx.totalEvents||0, registry:0, edgar:0 } };
       }
     }
     if(!data){
@@ -422,7 +422,6 @@ function sidebar(){
   sb.appendChild(el('div',{class:'panel'},[
     el('div',{class:'panel-head'},['Sources']),
     el('div',{class:'panel-body'},[
-      ['curated','Curated catalysts'],
       ['registry','ClinicalTrials.gov'],
       ['edgar','SEC EDGAR filings'],
     ].map(([k, label]) =>
@@ -1038,7 +1037,7 @@ function activeChips(){
     type:   v => v,
     phase:  v => (PHASE_GROUPS[v] || {}).label || v,
     runway: v => RUNWAY_OPTS[v] || v,
-    source: v => ({curated:'Curated', registry:'ClinicalTrials.gov', edgar:'SEC EDGAR'})[v] || v,
+    source: v => ({registry:'ClinicalTrials.gov', edgar:'SEC EDGAR'})[v] || v,
     when:   v => WHEN_OPTS[v] || v,
   };
   const chips = Object.entries(state.filters)
@@ -1118,7 +1117,7 @@ function dataTab(){
       filterSelect('runway', 'Cash runway', 'Any', RUNWAY_OPTS),
       filterSelect('when', 'When', 'Any time', WHEN_OPTS),
       filterSelect('source', 'Source', 'All sources',
-        { curated:'Curated', registry:'ClinicalTrials.gov', edgar:'SEC EDGAR' }),
+        { registry:'ClinicalTrials.gov', edgar:'SEC EDGAR' }),
     ]),
     el('div',{class:'presets'},[
       el('span',{class:'presets-label'},['Quick views']),
@@ -1244,7 +1243,7 @@ function eventCard(e){
     el('span',{class:'badge status-'+e.status},[e.status === 'past' ? 'Reported' : 'Upcoming']),
   ];
   if(e.estimated) badges.push(el('span',{class:'badge est'},['est.']));
-  const originLabel = {curated:'curated', registry:'ClinicalTrials.gov', edgar:'SEC EDGAR'}[e.origin];
+  const originLabel = {registry:'ClinicalTrials.gov', edgar:'SEC EDGAR'}[e.origin];
   if(originLabel) badges.push(el('span',{class:'badge type'},[originLabel]));
 
   const body = [

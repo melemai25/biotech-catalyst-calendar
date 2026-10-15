@@ -110,7 +110,7 @@ function summarise() {
   const past = d.events.filter((e) => e.status === 'past').length;
   const up = d.events.filter((e) => e.status === 'upcoming').length;
   console.log(`Data built ${d.generatedDate}  (today is ${today})`);
-  console.log(`  ${d.counts.total} events — ${d.counts.curated} curated, ${d.counts.registry} from ClinicalTrials.gov`);
+  console.log(`  ${d.counts.total} events — ${d.counts.registry} from ClinicalTrials.gov, ${d.counts.edgar} from SEC EDGAR`);
   console.log(`  ${past} already reported, ${up} still upcoming`);
   if ((d.warnings || []).length) {
     console.log(c.amber(`  NOTE: ${d.warnings.length} fetch warning(s) — registry milestones may be missing.`));
