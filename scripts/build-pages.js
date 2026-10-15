@@ -30,7 +30,7 @@ const baseIdx = args.indexOf('--base');
 let BASE = baseIdx !== -1 ? args[baseIdx + 1] : (process.env.SITE_BASE_URL || '');
 BASE = BASE.replace(/\/+$/, '');
 
-const SITE_NAME = 'Biotech Tracker';
+const SITE_NAME = 'Biolyst';
 const MONTHS = ['January','February','March','April','May','June',
                 'July','August','September','October','November','December'];
 
@@ -62,10 +62,14 @@ ${canonical && BASE ? `<link rel="canonical" href="${esc(BASE + canonical)}" />`
 <meta property="og:title" content="${esc(title)}" />
 <meta property="og:description" content="${esc(description)}" />
 <meta property="og:type" content="website" />
+<link rel="icon" href="${up}favicon.svg" type="image/svg+xml" />
+<link rel="icon" href="${up}favicon-32.png" sizes="32x32" type="image/png" />
+<link rel="apple-touch-icon" href="${up}apple-touch-icon.png" />
+<meta name="theme-color" content="#0E8C97" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="${up}styles.css?v=13" />
+<link rel="stylesheet" href="${up}styles.css?v=17" />
 ${jsonLd ? `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>` : ''}
 </head>
 <body>

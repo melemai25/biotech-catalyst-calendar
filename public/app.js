@@ -233,9 +233,19 @@ function render(){
 function masthead(){
   const d = state.data;
   return el('div',{class:'masthead'},[
-    el('div',{},[
-      el('p',{class:'eyebrow'},['Trial & Regulatory Tracker']),
-      el('h1',{},['Bio', el('span',{class:'accent'},['lyst'])]),
+    el('div',{class:'brand'},[
+      // Inline rather than an <img> so it inherits no load delay and can be
+      // recoloured from CSS later without touching a file.
+      el('span',{class:'logo-mark', 'aria-hidden':'true', html:
+        '<svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">' +
+        '<rect width="48" height="48" rx="11" fill="#0E8C97"/>' +
+        '<path d="M9 25h7.5l4-11 5.5 22 4.5-13h8.5" fill="none" stroke="#fff" ' +
+        'stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>'
+      }),
+      el('div',{},[
+        el('p',{class:'eyebrow'},['Trial & Regulatory Tracker']),
+        el('h1',{},['Bio', el('span',{class:'accent'},['lyst'])]),
+      ]),
     ]),
     el('div',{class:'masthead-right'},[
       el('span',{class:'dot'}), 'Data built ' + (d.generatedDate || '\u2014')
