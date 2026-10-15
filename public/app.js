@@ -235,7 +235,7 @@ function masthead(){
   return el('div',{class:'masthead'},[
     el('div',{},[
       el('p',{class:'eyebrow'},['Trial & Regulatory Tracker']),
-      el('h1',{},['Biotech ', el('span',{class:'accent'},['Tracker'])]),
+      el('h1',{},['Bio', el('span',{class:'accent'},['lyst'])]),
     ]),
     el('div',{class:'masthead-right'},[
       el('span',{class:'dot'}), 'Data built ' + (d.generatedDate || '\u2014')
