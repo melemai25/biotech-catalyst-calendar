@@ -27,8 +27,8 @@
   var FEEDBACK_EXTRA = {};
 
   /* --Supprt-------------------------------------------------------------- */
-  var BLURB = 'Biolyst.org is committed to staying ad-free and subscription-free. Your support helps us keep the lights on. Thank you!';
-  var SMALLPRINT = 'Biolyst.org is not a registered charity and contributions are not tax-deductible.';
+  var BLURB = 'Biolyst is ad-free and subscription-free. Support covers the domain, data, and general upkeep.';
+  var SMALLPRINT = 'Biolyst is not a registered charity and contributions are not tax-deductible.';
 
   var MAX_CHARS  = 4000;
   var THROTTLE_MS = 60 * 1000;          // one message a minute, per browser
