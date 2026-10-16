@@ -152,10 +152,10 @@
     modal.setAttribute('aria-modal', 'true');
     modal.setAttribute('aria-labelledby', 'blyst-fb-title');
 
-    var title = el('h2', null, 'Help us improve');
+    var title = el('h2', null, 'Give Feedback');
     title.id = 'blyst-fb-title';
     var lede = el('p', 'blyst-lede',
-      'Found something wrong, missing or confusing? Or have an idea that would make our site more useful? Let us know - we'd love to hear from you!');
+      "Found something wrong, missing or confusing? Or have an idea that would make our site more useful? Let us know - we'd love to hear from you!");
 
     var form = document.createElement('form');
     form.noValidate = true;
