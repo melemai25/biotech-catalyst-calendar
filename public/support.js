@@ -21,7 +21,7 @@
   var SUPPORT_URL = 'https://buy.stripe.com/fZu4gt17waui1Ee9Ltasg00';
 
   /** One honest line about where the money goes. Keep it concrete. */
-  var BLURB = 'Biolyst.org is commited to remaining ad and subscription free. Support helps us keep the lights on, but honestly we do it for a love of the game. Thank you for your engagement!';
+  var BLURB = 'Biolyst.org is committed to staying ad-free and subscription-free. Your support helps keep the lights on, but honestly, we do this for the love of the game. Thank you for your engagement!';
 
   /* Not a nonprofit, so this has to be said plainly rather than implied away. */
   var SMALLPRINT = 'Biolyst.org is not a registered charity and contributions are not tax-deductible.';
