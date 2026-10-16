@@ -21,10 +21,10 @@
   var SUPPORT_URL = 'https://buy.stripe.com/fZu4gt17waui1Ee9Ltasg00';
 
   /** One honest line about where the money goes. Keep it concrete. */
-  var BLURB = 'Biolyst is free and has no ads. Support covers the domain, data costs, and maintenance. Thank You!';
+  var BLURB = 'Biolyst.org is commited to remaining ad and subscription free. Support helps us keep the lights on, but honestly we do it for a love of the game. Thank you for your engagement!';
 
   /* Not a nonprofit, so this has to be said plainly rather than implied away. */
-  var SMALLPRINT = 'Biolyst is not a registered charity and contributions are not tax-deductible.';
+  var SMALLPRINT = 'Biolyst.org is not a registered charity and contributions are not tax-deductible.';
 
   if (!/^https:\/\//.test(SUPPORT_URL)) return;   // placeholder, or not https
 
