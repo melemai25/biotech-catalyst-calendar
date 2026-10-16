@@ -223,7 +223,6 @@ function render(){
   // Every tab behaves the same way now; the reader decides, not the tab.
   root.appendChild(el('div',{class:'app'},[
     masthead(),
-    panelBar(),
     state.sidebarOpen
       ? el('div',{class:'layout'},[ sidebar(), main() ])
       : el('div',{class:'layout collapsed'},[ main() ])
@@ -233,6 +232,7 @@ function render(){
 function masthead(){
   const d = state.data;
   return el('div',{class:'masthead'},[
+    panelBar(),
     el('div',{class:'brand'},[
       // Inline rather than an <img> so it inherits no load delay and can be
       // recoloured from CSS later without touching a file.
@@ -254,12 +254,8 @@ function masthead(){
 }
 
 /**
- * The sidebar toggle, on its own row directly above the sidebar column.
- *
- * It started in the masthead, which put it at the far right of the screen
- * controlling a panel on the far left \u2014 nothing tied the two together. Here it
- * sits at the same spot whether the panel is open or closed, so it reads as
- * that panel's own control rather than a stray button.
+ * The sidebar toggle. It sits in the masthead's left cell, which keeps it
+ * left-aligned with the panel it controls while the brand stays centred.
  */
 function panelBar(){
   return el('div',{class:'panel-bar'},[
