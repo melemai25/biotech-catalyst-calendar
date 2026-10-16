@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 2,
   "phase2": 1,
-  "generatedDate": "2026-10-15",
+  "generatedDate": "2026-10-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-11-12",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 28
+    "daysToNextCatalyst": 27
   },
   "trialStats": {
     "completed": 27,
@@ -65,7 +65,7 @@
     "withdrawn": 1,
     "suspended": 0,
     "ongoing": 3,
-    "withResults": 23,
+    "withResults": 24,
     "byPhase": {
       "phase1": {
         "completed": 11,
@@ -73,22 +73,22 @@
         "total": 13,
         "completionRatePct": 92
       },
-      "phase2": {
-        "completed": 12,
-        "terminated": 3,
-        "total": 16,
-        "completionRatePct": 80
-      },
       "phase3": {
         "completed": 4,
         "terminated": 4,
         "total": 10,
         "completionRatePct": 50
+      },
+      "phase2": {
+        "completed": 12,
+        "terminated": 3,
+        "total": 16,
+        "completionRatePct": 80
       }
     },
     "concluded": 36,
     "completionRatePct": 75,
-    "resultsPostedPct": 85
+    "resultsPostedPct": 89
   },
   "events": [
     {
@@ -490,7 +490,7 @@
       "phase": "Phase 2/Phase 3",
       "estimated": false,
       "summary": "Non-Hodgkin Lymphoma, Relapsed/Refractory Diffuse Large B-cell Lymphoma · 15 participants · Status: Terminated",
-      "result": null,
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT05664217",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05664217",
       "origin": "registry",

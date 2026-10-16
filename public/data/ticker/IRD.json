@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 1,
   "phase2": 3,
-  "generatedDate": "2026-10-15",
+  "generatedDate": "2026-10-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2026-10-31",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 16
+    "daysToNextCatalyst": 15
   },
   "trialStats": {
     "completed": 13,
@@ -622,6 +622,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-09-11",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1228627/000114036126036277/ef20081922_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-IRD-0001140361-26-039781",
+      "ticker": "IRD",
+      "date": "2026-10-15",
+      "title": "8-K filed: Reg FD disclosure",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 7.01, 9.01. Reg FD disclosure. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-15",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1228627/000114036126039781/ef20083857_8k.htm",
       "origin": "edgar",
       "status": "past"
     },

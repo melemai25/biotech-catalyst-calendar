@@ -11,7 +11,7 @@
   "activeTrials": 25,
   "phase3": 8,
   "phase2": 17,
-  "generatedDate": "2026-10-15",
+  "generatedDate": "2026-10-16",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -57,14 +57,14 @@
     "upcomingCount": 27,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 31
+    "daysToNextCatalyst": 30
   },
   "trialStats": {
-    "completed": 35,
+    "completed": 36,
     "terminated": 6,
     "withdrawn": 2,
     "suspended": 0,
-    "ongoing": 31,
+    "ongoing": 30,
     "withResults": 30,
     "byPhase": {
       "phase2": {
@@ -73,14 +73,8 @@
         "total": 36,
         "completionRatePct": 67
       },
-      "other": {
-        "completed": 2,
-        "terminated": 0,
-        "total": 3,
-        "completionRatePct": null
-      },
       "phase3": {
-        "completed": 13,
+        "completed": 14,
         "terminated": 0,
         "total": 21,
         "completionRatePct": 100
@@ -90,11 +84,17 @@
         "terminated": 0,
         "total": 14,
         "completionRatePct": 100
+      },
+      "other": {
+        "completed": 2,
+        "terminated": 0,
+        "total": 3,
+        "completionRatePct": null
       }
     },
-    "concluded": 43,
-    "completionRatePct": 81,
-    "resultsPostedPct": 86
+    "concluded": 44,
+    "completionRatePct": 82,
+    "resultsPostedPct": 83
   },
   "events": [
     {
@@ -1463,21 +1463,6 @@
       "status": "past"
     },
     {
-      "id": "ct-BNTX-NCT07300839",
-      "ticker": "BNTX",
-      "date": "2026-07-31",
-      "title": "A Study to Learn About a COVID-19 Vaccine in Healthy Adults 50 Through 64 Years of Age",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "COVID-19, SARS-COV-2 Infection · 5,240 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07300839",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07300839",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "edgar-BNTX-0001776985-26-000051",
       "ticker": "BNTX",
       "date": "2026-08-03",
@@ -1613,6 +1598,21 @@
       "status": "past"
     },
     {
+      "id": "ct-BNTX-NCT07300839",
+      "ticker": "BNTX",
+      "date": "2026-09-22",
+      "title": "A Study to Learn About a COVID-19 Vaccine in Healthy Adults 50 Through 64 Years of Age",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "COVID-19, SARS-COV-2 Infection · 5,240 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07300839",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07300839",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "edgar-BNTX-0001776985-26-000067",
       "ticker": "BNTX",
       "date": "2026-10-13",
@@ -1643,21 +1643,6 @@
       "status": "past"
     },
     {
-      "id": "ct-BNTX-NCT04486378",
-      "ticker": "BNTX",
-      "date": "2026-11-15",
-      "title": "A Phase II Clinical Trial Comparing the Efficacy of RO7198457 Versus Watchful Waiting in Patients With ctDNA-positive, Resected Stage II (High Risk) and Stage III Colorectal Cancer",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Colorectal Cancer Stage II, Colorectal Cancer Stage III · 327 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04486378",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04486378",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BNTX-NCT07392372",
       "ticker": "BNTX",
       "date": "2026-11-15",
@@ -1669,6 +1654,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07392372",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07392372",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BNTX-NCT04486378",
+      "ticker": "BNTX",
+      "date": "2026-11-15",
+      "title": "A Phase II Clinical Trial Comparing the Efficacy of RO7198457 Versus Watchful Waiting in Patients With ctDNA-positive, Resected Stage II (High Risk) and Stage III Colorectal Cancer",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Colorectal Cancer Stage II, Colorectal Cancer Stage III · 327 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04486378",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04486378",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1688,21 +1688,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BNTX-NCT06449209",
-      "ticker": "BNTX",
-      "date": "2027-06-15",
-      "title": "Safety, Preliminary Effectiveness of BNT327, an Investigational Therapy for Patients With Small-cell Lung Cancer in Combination With Chemotherapy",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Extensive-stage Small-cell Lung Cancer, Small-cell Lung Cancer · 110 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06449209",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06449209",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BNTX-NCT07379580",
       "ticker": "BNTX",
       "date": "2027-06-15",
@@ -1714,6 +1699,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07379580",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07379580",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BNTX-NCT06449209",
+      "ticker": "BNTX",
+      "date": "2027-06-15",
+      "title": "Safety, Preliminary Effectiveness of BNT327, an Investigational Therapy for Patients With Small-cell Lung Cancer in Combination With Chemotherapy",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Extensive-stage Small-cell Lung Cancer, Small-cell Lung Cancer · 110 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06449209",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06449209",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1793,21 +1793,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BNTX-NCT06340568",
-      "ticker": "BNTX",
-      "date": "2028-03-15",
-      "title": "A Clinical Study of the Anti-cancer Effects of an Investigational Therapy or Chemotherapy in Patients With Recurring Uterine Cancer",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Endometrial Cancer · 480 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06340568",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06340568",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BNTX-NCT07070232",
       "ticker": "BNTX",
       "date": "2028-03-15",
@@ -1823,17 +1808,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BNTX-NCT04534205",
+      "id": "ct-BNTX-NCT06340568",
       "ticker": "BNTX",
-      "date": "2028-08-15",
-      "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
+      "date": "2028-03-15",
+      "title": "A Clinical Study of the Anti-cancer Effects of an Investigational Therapy or Chemotherapy in Patients With Recurring Uterine Cancer",
       "type": "Trial Milestone",
-      "phase": "Phase 2/Phase 3",
+      "phase": "Phase 3",
       "estimated": false,
-      "summary": "Unresectable Head and Neck Squamous Cell Carcinoma, Metastatic Head and Neck Cancer, Recurrent Head and Neck Cancer · 358 participants · Status: Active Not Recruiting",
+      "summary": "Endometrial Cancer · 480 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT04534205",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04534205",
+      "source": "ClinicalTrials.gov NCT06340568",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06340568",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1849,6 +1834,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06449222",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06449222",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BNTX-NCT04534205",
+      "ticker": "BNTX",
+      "date": "2028-08-15",
+      "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
+      "type": "Trial Milestone",
+      "phase": "Phase 2/Phase 3",
+      "estimated": false,
+      "summary": "Unresectable Head and Neck Squamous Cell Carcinoma, Metastatic Head and Neck Cancer, Recurrent Head and Neck Cancer · 358 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04534205",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04534205",
       "origin": "registry",
       "status": "upcoming"
     },

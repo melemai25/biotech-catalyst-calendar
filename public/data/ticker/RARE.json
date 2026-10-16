@@ -11,7 +11,7 @@
   "activeTrials": 11,
   "phase3": 8,
   "phase2": 3,
-  "generatedDate": "2026-10-15",
+  "generatedDate": "2026-10-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 10,
     "nextCatalystDate": "2026-10-25",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 10
+    "daysToNextCatalyst": 9
   },
   "trialStats": {
     "completed": 27,
@@ -73,17 +73,17 @@
         "total": 25,
         "completionRatePct": 70
       },
-      "phase3": {
-        "completed": 4,
-        "terminated": 2,
-        "total": 15,
-        "completionRatePct": 67
-      },
       "other": {
         "completed": 8,
         "terminated": 5,
         "total": 22,
         "completionRatePct": 62
+      },
+      "phase3": {
+        "completed": 4,
+        "terminated": 2,
+        "total": 15,
+        "completionRatePct": 67
       },
       "phase1": {
         "completed": 1,
@@ -158,21 +158,6 @@
       "status": "past"
     },
     {
-      "id": "ct-RARE-NCT02731690",
-      "ticker": "RARE",
-      "date": "2018-01-10",
-      "title": "A Study to Evaluate the Safety of Aceneuramic Acid Extended Release (Ace-ER; UX001) Tablets in Glucosamine (UDP-N-acetyl)-2-Epimerase (GNE) Myopathy (GNEM) (Also Known as Hereditary Inclusion Body Myopathy [HIBM]) Patients With Severe Ambulatory Impairment",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Hereditary Inclusion Body Myopathy, Distal Myopathy With Rimmed Vacuoles, Distal Myopathy, Nonaka Type · 42 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02731690",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02731690",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-RARE-NCT02736188",
       "ticker": "RARE",
       "date": "2018-01-10",
@@ -184,6 +169,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT02736188",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02736188",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-RARE-NCT02731690",
+      "ticker": "RARE",
+      "date": "2018-01-10",
+      "title": "A Study to Evaluate the Safety of Aceneuramic Acid Extended Release (Ace-ER; UX001) Tablets in Glucosamine (UDP-N-acetyl)-2-Epimerase (GNE) Myopathy (GNEM) (Also Known as Hereditary Inclusion Body Myopathy [HIBM]) Patients With Severe Ambulatory Impairment",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Hereditary Inclusion Body Myopathy, Distal Myopathy With Rimmed Vacuoles, Distal Myopathy, Nonaka Type · 42 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT02731690",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02731690",
       "origin": "registry",
       "status": "past"
     },
@@ -983,21 +983,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-RARE-NCT02716246",
-      "ticker": "RARE",
-      "date": "2029-03-15",
-      "title": "Phase I/II/III Gene Transfer Clinical Trial of scAAV9.U1a.hSGSH",
-      "type": "Trial Milestone",
-      "phase": "Phase 2/Phase 3",
-      "estimated": false,
-      "summary": "MPS IIIA, Sanfilippo Syndrome, Sanfilippo A · 36 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT02716246",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02716246",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-RARE-NCT04884815",
       "ticker": "RARE",
       "date": "2029-03-15",
@@ -1009,6 +994,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04884815",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04884815",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-RARE-NCT02716246",
+      "ticker": "RARE",
+      "date": "2029-03-15",
+      "title": "Phase I/II/III Gene Transfer Clinical Trial of scAAV9.U1a.hSGSH",
+      "type": "Trial Milestone",
+      "phase": "Phase 2/Phase 3",
+      "estimated": false,
+      "summary": "MPS IIIA, Sanfilippo Syndrome, Sanfilippo A · 36 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT02716246",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02716246",
       "origin": "registry",
       "status": "upcoming"
     },

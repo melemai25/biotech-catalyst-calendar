@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 3,
   "phase2": 1,
-  "generatedDate": "2026-10-15",
+  "generatedDate": "2026-10-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -54,30 +54,30 @@
     "phase3Count": 3,
     "phase2Count": 5,
     "leadPhase": 3,
-    "upcomingCount": 6,
+    "upcomingCount": 5,
     "nextCatalystDate": "2026-11-04",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 20
+    "daysToNextCatalyst": 19
   },
   "trialStats": {
-    "completed": 4,
+    "completed": 5,
     "terminated": 0,
     "withdrawn": 0,
     "suspended": 0,
-    "ongoing": 5,
+    "ongoing": 4,
     "withResults": 3,
     "byPhase": {
-      "phase3": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 3,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 4,
         "terminated": 0,
         "total": 5,
         "completionRatePct": 100
+      },
+      "phase3": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 3,
+        "completionRatePct": null
       },
       "phase1": {
         "completed": 0,
@@ -86,9 +86,9 @@
         "completionRatePct": null
       }
     },
-    "concluded": 4,
-    "completionRatePct": null,
-    "resultsPostedPct": null
+    "concluded": 5,
+    "completionRatePct": 100,
+    "resultsPostedPct": 60
   },
   "events": [
     {
@@ -362,6 +362,21 @@
       "status": "past"
     },
     {
+      "id": "ct-PCVX-NCT07284654",
+      "ticker": "PCVX",
+      "date": "2026-09-17",
+      "title": "Safety, Tolerability, and Immunogenicity of VAX-31 in Adults ≥50 Years With Immunobridging to Adults 18-49",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Pneumococcal Disease · 4,049 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07284654",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07284654",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "edgar-PCVX-0001193125-26-413168",
       "ticker": "PCVX",
       "date": "2026-10-05",
@@ -407,17 +422,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-PCVX-NCT07284654",
+      "id": "ct-PCVX-NCT07365826",
       "ticker": "PCVX",
-      "date": "2027-01-15",
-      "title": "Safety, Tolerability, and Immunogenicity of VAX-31 in Adults ≥50 Years With Immunobridging to Adults 18-49",
+      "date": "2027-03-15",
+      "title": "A Clinical Study to Evaluate the Safety, Tolerability, and Immunogenicity of VAX-31 With Influenza Vaccine in Adults ≥ 50 Years of Age",
       "type": "Trial Milestone",
       "phase": "Phase 3",
       "estimated": false,
-      "summary": "Pneumococcal Vaccines · 4,049 participants · Status: Active Not Recruiting",
+      "summary": "Pneumococcal Vaccines · 1,390 participants · Status: Active Not Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT07284654",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07284654",
+      "source": "ClinicalTrials.gov NCT07365826",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07365826",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -437,17 +452,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-PCVX-NCT07365826",
+      "id": "ct-PCVX-NCT07616934",
       "ticker": "PCVX",
-      "date": "2027-03-15",
-      "title": "A Clinical Study to Evaluate the Safety, Tolerability, and Immunogenicity of VAX-31 With Influenza Vaccine in Adults ≥ 50 Years of Age",
+      "date": "2027-12-15",
+      "title": "A Clinical Study to Evaluate the Safety, Tolerability, and Immunogenicity of VAX-A1 in Healthy Young Adults",
       "type": "Trial Milestone",
-      "phase": "Phase 3",
+      "phase": "Phase 1",
       "estimated": false,
-      "summary": "Pneumococcal Vaccines · 1,390 participants · Status: Active Not Recruiting",
+      "summary": "Group A Streptococcal Infection · 80 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT07365826",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07365826",
+      "source": "ClinicalTrials.gov NCT07616934",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07616934",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -463,21 +478,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06720038",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06720038",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-PCVX-NCT07616934",
-      "ticker": "PCVX",
-      "date": "2027-12-15",
-      "title": "A Clinical Study to Evaluate the Safety, Tolerability, and Immunogenicity of VAX-A1 in Healthy Young Adults",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Group A Streptococcal Infection · 80 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07616934",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07616934",
       "origin": "registry",
       "status": "upcoming"
     }

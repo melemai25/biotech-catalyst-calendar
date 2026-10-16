@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-10-15",
+  "generatedDate": "2026-10-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -50,14 +50,14 @@
     "fcfMarginPct": 14.9,
     "marketCapUsd": null,
     "entityName": "PACIRA BIOSCIENCES, INC.",
-    "activeTrials": 33,
+    "activeTrials": 32,
     "phase3Count": 10,
-    "phase2Count": 8,
+    "phase2Count": 7,
     "leadPhase": 4,
     "upcomingCount": 4,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 31
+    "daysToNextCatalyst": 30
   },
   "trialStats": {
     "completed": 73,
@@ -67,18 +67,6 @@
     "ongoing": 7,
     "withResults": 67,
     "byPhase": {
-      "phase1": {
-        "completed": 10,
-        "terminated": 2,
-        "total": 15,
-        "completionRatePct": 83
-      },
-      "phase3": {
-        "completed": 19,
-        "terminated": 2,
-        "total": 23,
-        "completionRatePct": 90
-      },
       "other": {
         "completed": 27,
         "terminated": 9,
@@ -90,6 +78,18 @@
         "terminated": 5,
         "total": 23,
         "completionRatePct": 77
+      },
+      "phase1": {
+        "completed": 10,
+        "terminated": 2,
+        "total": 15,
+        "completionRatePct": 83
+      },
+      "phase3": {
+        "completed": 19,
+        "terminated": 2,
+        "total": 23,
+        "completionRatePct": 90
       }
     },
     "concluded": 95,
@@ -97,21 +97,6 @@
     "resultsPostedPct": 92
   },
   "events": [
-    {
-      "id": "ct-PCRX-NCT02762370",
-      "ticker": "PCRX",
-      "date": "2016-10-15",
-      "title": "Study to Assess the Effects of FX006 on Blood Glucose in Patients With OA of the Knee and Type 2 Diabetes",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Osteoarthritis of the Knee, Type 2 Diabetes Mellitus · 33 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02762370",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02762370",
-      "origin": "registry",
-      "status": "past"
-    },
     {
       "id": "ct-PCRX-NCT02713490",
       "ticker": "PCRX",

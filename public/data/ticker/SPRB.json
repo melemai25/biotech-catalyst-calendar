@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-15",
+  "generatedDate": "2026-10-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 6,
     "leadPhase": 3,
     "upcomingCount": 2,
-    "nextCatalystDate": "2026-10-16",
+    "nextCatalystDate": "2026-12-20",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 65
   },
   "trialStats": {
     "completed": 2,
@@ -73,17 +73,17 @@
         "total": 1,
         "completionRatePct": null
       },
-      "phase2": {
-        "completed": 2,
-        "terminated": 4,
-        "total": 6,
-        "completionRatePct": 33
-      },
       "phase3": {
         "completed": 0,
         "terminated": 0,
         "total": 1,
         "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 2,
+        "terminated": 4,
+        "total": 6,
+        "completionRatePct": 33
       }
     },
     "concluded": 6,
@@ -469,7 +469,7 @@
     {
       "id": "edgar-SPRB-next-earnings",
       "ticker": "SPRB",
-      "date": "2026-10-16",
+      "date": "2026-12-20",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

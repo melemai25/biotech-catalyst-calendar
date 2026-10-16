@@ -11,7 +11,7 @@
   "activeTrials": 14,
   "phase3": 10,
   "phase2": 4,
-  "generatedDate": "2026-10-15",
+  "generatedDate": "2026-10-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 12,
     "nextCatalystDate": "2026-11-03",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 19
+    "daysToNextCatalyst": 18
   },
   "trialStats": {
     "completed": 53,
@@ -998,21 +998,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-VNDA-NCT06953869",
-      "ticker": "VNDA",
-      "date": "2027-11-15",
-      "title": "Evaluating the Effects of Tasimelteon vs. Placebo in Treating Pediatric Insomnia",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Insomnia Disorder · 420 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06953869",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06953869",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-VNDA-NCT06961968",
       "ticker": "VNDA",
       "date": "2027-11-15",
@@ -1024,6 +1009,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06961968",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06961968",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-VNDA-NCT06953869",
+      "ticker": "VNDA",
+      "date": "2027-11-15",
+      "title": "Evaluating the Effects of Tasimelteon vs. Placebo in Treating Pediatric Insomnia",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Insomnia Disorder · 420 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06953869",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06953869",
       "origin": "registry",
       "status": "upcoming"
     },

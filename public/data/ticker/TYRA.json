@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 0,
   "phase2": 4,
-  "generatedDate": "2026-10-15",
+  "generatedDate": "2026-10-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 7,
     "nextCatalystDate": "2026-10-26",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 11
+    "daysToNextCatalyst": 10
   },
   "trialStats": {
     "completed": 0,
@@ -67,16 +67,16 @@
     "ongoing": 7,
     "withResults": 0,
     "byPhase": {
-      "phase2": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 4,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 0,
         "terminated": 0,
         "total": 3,
+        "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 4,
         "completionRatePct": null
       }
     },
@@ -408,7 +408,7 @@
       "type": "Trial Milestone",
       "phase": "Phase 2",
       "estimated": false,
-      "summary": "Low Grade Upper Tract Urothelial Carcinoma · 230 participants · Status: Recruiting",
+      "summary": "Low Grade Upper Tract Urothelial Carcinoma · 285 participants · Status: Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT07265947",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07265947",

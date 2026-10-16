@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-10-15",
+  "generatedDate": "2026-10-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -49,7 +49,7 @@
     "rndIntensityPct": 68,
     "fcfMarginPct": -1044.6,
     "marketCapUsd": null,
-    "entityName": "RECURSION PHARMACEUTICALS, INC.",
+    "entityName": "Recursion Pharmaceuticals, Inc.",
     "activeTrials": 7,
     "phase3Count": 1,
     "phase2Count": 7,
@@ -57,7 +57,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2027-01-14",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 91
+    "daysToNextCatalyst": 90
   },
   "trialStats": {
     "completed": 1,

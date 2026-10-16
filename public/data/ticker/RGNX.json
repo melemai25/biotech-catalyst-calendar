@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 3,
   "phase2": 0,
-  "generatedDate": "2026-10-15",
+  "generatedDate": "2026-10-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-11-01",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 17
+    "daysToNextCatalyst": 16
   },
   "trialStats": {
     "completed": 4,
@@ -418,6 +418,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-09-23",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1590877/000119312526399377/rgnx-20260923.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-RGNX-0001193125-26-423376",
+      "ticker": "RGNX",
+      "date": "2026-10-16",
+      "title": "8-K filed: Leadership change",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 5.02. Leadership change. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-16",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1590877/000119312526423376/rgnx-20261014.htm",
       "origin": "edgar",
       "status": "past"
     },

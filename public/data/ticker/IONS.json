@@ -11,7 +11,7 @@
   "activeTrials": 16,
   "phase3": 11,
   "phase2": 5,
-  "generatedDate": "2026-10-15",
+  "generatedDate": "2026-10-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 18,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 61
+    "daysToNextCatalyst": 60
   },
   "trialStats": {
     "completed": 86,
@@ -67,12 +67,6 @@
     "ongoing": 24,
     "withResults": 23,
     "byPhase": {
-      "phase1": {
-        "completed": 23,
-        "terminated": 1,
-        "total": 26,
-        "completionRatePct": 96
-      },
       "phase2": {
         "completed": 44,
         "terminated": 4,
@@ -84,6 +78,12 @@
         "terminated": 0,
         "total": 26,
         "completionRatePct": 100
+      },
+      "phase1": {
+        "completed": 23,
+        "terminated": 1,
+        "total": 26,
+        "completionRatePct": 96
       },
       "other": {
         "completed": 5,
@@ -113,21 +113,6 @@
       "status": "past"
     },
     {
-      "id": "ct-IONS-NCT02583919",
-      "ticker": "IONS",
-      "date": "2016-12-15",
-      "title": "Safety, Tolerability and Efficacy of ISIS-GCGRRx in Patients With Type 2 Diabetes",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Type 2 Diabetes · 79 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT02583919",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02583919",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-IONS-NCT02824003",
       "ticker": "IONS",
       "date": "2016-12-15",
@@ -139,6 +124,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT02824003",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02824003",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-IONS-NCT02583919",
+      "ticker": "IONS",
+      "date": "2016-12-15",
+      "title": "Safety, Tolerability and Efficacy of ISIS-GCGRRx in Patients With Type 2 Diabetes",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Type 2 Diabetes · 79 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT02583919",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02583919",
       "origin": "registry",
       "status": "past"
     },
@@ -1403,6 +1403,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-IONS-NCT06430385",
+      "ticker": "IONS",
+      "date": "2027-09-15",
+      "title": "ATTUNE: A Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of Intrathecally-Administered ION440 in Participants With Methyl CpG Binding Protein 2 (MECP2) Duplication Syndrome (MDS)",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Methyl CpG Binding Protein 2 (MECP2) Duplication Syndrome · 48 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06430385",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06430385",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-IONS-NCT04165486",
       "ticker": "IONS",
       "date": "2027-09-15",
@@ -1429,21 +1444,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07604974",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07604974",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-IONS-NCT06430385",
-      "ticker": "IONS",
-      "date": "2027-09-15",
-      "title": "ATTUNE: A Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of Intrathecally-Administered ION440 in Participants With Methyl CpG Binding Protein 2 (MECP2) Duplication Syndrome (MDS)",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Methyl CpG Binding Protein 2 (MECP2) Duplication Syndrome · 48 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06430385",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06430385",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1523,21 +1523,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-IONS-NCT05071300",
-      "ticker": "IONS",
-      "date": "2029-08-15",
-      "title": "A Study to Assess the Long-Term Safety and Efficacy of Eplontersen (Formerly Known as ION-682884, IONIS-TTR-LRx and AKCEA-TTR-LRx) in Patients With Hereditary Transthyretin-Mediated Amyloid Polyneuropathy",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Hereditary Transthyretin-Mediated Amyloid Polyneuropathy · 151 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05071300",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05071300",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-IONS-NCT05667493",
       "ticker": "IONS",
       "date": "2029-08-15",
@@ -1549,6 +1534,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05667493",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05667493",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-IONS-NCT05071300",
+      "ticker": "IONS",
+      "date": "2029-08-15",
+      "title": "A Study to Assess the Long-Term Safety and Efficacy of Eplontersen (Formerly Known as ION-682884, IONIS-TTR-LRx and AKCEA-TTR-LRx) in Patients With Hereditary Transthyretin-Mediated Amyloid Polyneuropathy",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Hereditary Transthyretin-Mediated Amyloid Polyneuropathy · 151 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05071300",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05071300",
       "origin": "registry",
       "status": "upcoming"
     },

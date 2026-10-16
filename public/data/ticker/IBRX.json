@@ -11,7 +11,7 @@
   "activeTrials": 16,
   "phase3": 2,
   "phase2": 14,
-  "generatedDate": "2026-10-15",
+  "generatedDate": "2026-10-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 15,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 31
+    "daysToNextCatalyst": 30
   },
   "trialStats": {
     "completed": 18,
@@ -67,17 +67,17 @@
     "ongoing": 24,
     "withResults": 24,
     "byPhase": {
-      "phase2": {
-        "completed": 7,
-        "terminated": 11,
-        "total": 51,
-        "completionRatePct": 39
-      },
       "phase1": {
         "completed": 10,
         "terminated": 4,
         "total": 21,
         "completionRatePct": 71
+      },
+      "phase2": {
+        "completed": 7,
+        "terminated": 11,
+        "total": 51,
+        "completionRatePct": 39
       },
       "phase3": {
         "completed": 1,
@@ -608,21 +608,6 @@
       "status": "past"
     },
     {
-      "id": "ct-IBRX-NCT04390399",
-      "ticker": "IBRX",
-      "date": "2025-10-13",
-      "title": "Combination Immunotherapy Plus Standard-of-Care Chemotherapy Versus Standard-of-Care Chemotherapy for the Treatment of Locally Advanced or Metastatic Pancreatic Cancer",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Pancreatic Cancer · 328 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04390399",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04390399",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-IBRX-NCT03520686",
       "ticker": "IBRX",
       "date": "2025-10-13",
@@ -634,6 +619,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT03520686",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03520686",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-IBRX-NCT04390399",
+      "ticker": "IBRX",
+      "date": "2025-10-13",
+      "title": "Combination Immunotherapy Plus Standard-of-Care Chemotherapy Versus Standard-of-Care Chemotherapy for the Treatment of Locally Advanced or Metastatic Pancreatic Cancer",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Pancreatic Cancer · 328 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04390399",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04390399",
       "origin": "registry",
       "status": "past"
     },

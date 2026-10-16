@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 5,
   "phase2": 0,
-  "generatedDate": "2026-10-15",
+  "generatedDate": "2026-10-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -50,21 +50,21 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "Summit Therapeutics Inc.",
-    "activeTrials": 8,
+    "activeTrials": 9,
     "phase3Count": 7,
-    "phase2Count": 2,
+    "phase2Count": 3,
     "leadPhase": 3,
-    "upcomingCount": 5,
+    "upcomingCount": 6,
     "nextCatalystDate": "2026-12-10",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 56
+    "daysToNextCatalyst": 55
   },
   "trialStats": {
     "completed": 5,
     "terminated": 2,
     "withdrawn": 0,
     "suspended": 0,
-    "ongoing": 5,
+    "ongoing": 6,
     "withResults": 3,
     "byPhase": {
       "phase3": {
@@ -73,16 +73,16 @@
         "total": 7,
         "completionRatePct": null
       },
+      "phase2": {
+        "completed": 2,
+        "terminated": 1,
+        "total": 4,
+        "completionRatePct": null
+      },
       "phase1": {
         "completed": 2,
         "terminated": 0,
         "total": 2,
-        "completionRatePct": null
-      },
-      "phase2": {
-        "completed": 2,
-        "terminated": 1,
-        "total": 3,
         "completionRatePct": null
       }
     },
@@ -613,6 +613,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05899608",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05899608",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-SMMT-NCT07877194",
+      "ticker": "SMMT",
+      "date": "2029-04-12",
+      "title": "A Clinical Study of Ivonescimab in Combination With Cadonilimab or Ipilimumab for Advanced Renal Cancer",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Renal Cell Carcinoma, Clear Cell · 100 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07877194",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07877194",
       "origin": "registry",
       "status": "upcoming"
     },

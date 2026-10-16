@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-15",
+  "generatedDate": "2026-10-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-10-19",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 4
+    "daysToNextCatalyst": 3
   },
   "trialStats": {
     "completed": 4,
@@ -67,16 +67,16 @@
     "ongoing": 4,
     "withResults": 0,
     "byPhase": {
-      "phase1": {
-        "completed": 2,
-        "terminated": 0,
-        "total": 5,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 2,
         "terminated": 0,
         "total": 3,
+        "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 2,
+        "terminated": 0,
+        "total": 5,
         "completionRatePct": null
       },
       "phase3": {
@@ -418,6 +418,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-08-24",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1761918/000119312526361895/eras-20260824.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-ERAS-0001193125-26-423433",
+      "ticker": "ERAS",
+      "date": "2026-10-16",
+      "title": "8-K filed: Leadership change",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 5.02. Leadership change. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-16",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1761918/000119312526423433/eras-20261015.htm",
       "origin": "edgar",
       "status": "past"
     },

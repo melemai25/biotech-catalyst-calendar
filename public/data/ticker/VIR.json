@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 2,
   "phase2": 3,
-  "generatedDate": "2026-10-15",
+  "generatedDate": "2026-10-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 10,
     "leadPhase": 3,
     "upcomingCount": 7,
-    "nextCatalystDate": "2026-10-16",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "nextCatalystDate": "2026-11-15",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 30
   },
   "trialStats": {
     "completed": 12,
@@ -65,14 +65,8 @@
     "withdrawn": 0,
     "suspended": 0,
     "ongoing": 7,
-    "withResults": 10,
+    "withResults": 11,
     "byPhase": {
-      "phase3": {
-        "completed": 1,
-        "terminated": 1,
-        "total": 4,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 6,
         "terminated": 1,
@@ -85,6 +79,12 @@
         "total": 9,
         "completionRatePct": 83
       },
+      "phase3": {
+        "completed": 1,
+        "terminated": 1,
+        "total": 4,
+        "completionRatePct": null
+      },
       "other": {
         "completed": 0,
         "terminated": 0,
@@ -94,7 +94,7 @@
     },
     "concluded": 15,
     "completionRatePct": 80,
-    "resultsPostedPct": 83
+    "resultsPostedPct": 92
   },
   "events": [
     {
@@ -286,7 +286,7 @@
       "phase": "Phase 1",
       "estimated": false,
       "summary": "Renal Impairment · 28 participants · Status: Completed",
-      "result": null,
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT05844228",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05844228",
       "origin": "registry",
@@ -623,21 +623,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-VIR-next-earnings",
-      "ticker": "VIR",
-      "date": "2026-10-16",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001706431&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-VIR-NCT07142811",
       "ticker": "VIR",
       "date": "2026-11-15",
@@ -665,6 +650,21 @@
       "source": "ClinicalTrials.gov NCT07128550",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07128550",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-VIR-next-earnings",
+      "ticker": "VIR",
+      "date": "2026-12-27",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001706431&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {

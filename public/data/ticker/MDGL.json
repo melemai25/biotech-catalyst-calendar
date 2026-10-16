@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 3,
   "phase2": 2,
-  "generatedDate": "2026-10-15",
+  "generatedDate": "2026-10-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 8,
     "nextCatalystDate": "2026-10-29",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 14
+    "daysToNextCatalyst": 13
   },
   "trialStats": {
     "completed": 13,
@@ -67,17 +67,17 @@
     "ongoing": 8,
     "withResults": 2,
     "byPhase": {
+      "phase3": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 4,
+        "completionRatePct": null
+      },
       "phase1": {
         "completed": 10,
         "terminated": 0,
         "total": 11,
         "completionRatePct": 100
-      },
-      "phase2": {
-        "completed": 2,
-        "terminated": 0,
-        "total": 4,
-        "completionRatePct": null
       },
       "other": {
         "completed": 0,
@@ -85,8 +85,8 @@
         "total": 2,
         "completionRatePct": null
       },
-      "phase3": {
-        "completed": 1,
+      "phase2": {
+        "completed": 2,
         "terminated": 0,
         "total": 4,
         "completionRatePct": null
@@ -495,7 +495,7 @@
       "type": "Trial Milestone",
       "phase": "Phase 1",
       "estimated": false,
-      "summary": "MASH - Metabolic Dysfunction-Associated Steatohepatitis, Heart Failure With Preserved Ejection Fraction (HFPEF) · 90 participants · Status: Not Yet Recruiting",
+      "summary": "MASH - Metabolic Dysfunction-Associated Steatohepatitis, Heart Failure With Preserved Ejection Fraction (HFPEF) · 90 participants · Status: Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT07830758",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07830758",
@@ -510,7 +510,7 @@
       "type": "Trial Milestone",
       "phase": "Phase 4",
       "estimated": false,
-      "summary": "MASH - Metabolic Dysfunction-Associated Steatohepatitis · 150 participants · Status: Not Yet Recruiting",
+      "summary": "MASH - Metabolic Dysfunction-Associated Steatohepatitis · 150 participants · Status: Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT07848191",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07848191",

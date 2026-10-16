@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-10-15",
+  "generatedDate": "2026-10-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2026-10-31",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 16
+    "daysToNextCatalyst": 15
   },
   "trialStats": {
     "completed": 1,
@@ -67,10 +67,10 @@
     "ongoing": 5,
     "withResults": 1,
     "byPhase": {
-      "phase1": {
+      "phase3": {
         "completed": 0,
         "terminated": 0,
-        "total": 3,
+        "total": 2,
         "completionRatePct": null
       },
       "phase2": {
@@ -79,10 +79,10 @@
         "total": 1,
         "completionRatePct": null
       },
-      "phase3": {
+      "phase1": {
         "completed": 0,
         "terminated": 0,
-        "total": 2,
+        "total": 3,
         "completionRatePct": null
       }
     },
@@ -373,6 +373,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-08-13",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1750284/000119312526347853/olma-20260813.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-OLMA-0001193125-26-423002",
+      "ticker": "OLMA",
+      "date": "2026-10-15",
+      "title": "8-K filed: Leadership change",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 5.02. Leadership change. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-15",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1750284/000119312526423002/olma-20261012.htm",
       "origin": "edgar",
       "status": "past"
     },

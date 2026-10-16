@@ -11,7 +11,7 @@
   "activeTrials": 6,
   "phase3": 1,
   "phase2": 5,
-  "generatedDate": "2026-10-15",
+  "generatedDate": "2026-10-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -54,25 +54,19 @@
     "phase3Count": 4,
     "phase2Count": 13,
     "leadPhase": 4,
-    "upcomingCount": 4,
+    "upcomingCount": 3,
     "nextCatalystDate": "2026-10-27",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 12
+    "daysToNextCatalyst": 11
   },
   "trialStats": {
-    "completed": 58,
+    "completed": 59,
     "terminated": 7,
     "withdrawn": 1,
     "suspended": 0,
-    "ongoing": 7,
+    "ongoing": 6,
     "withResults": 16,
     "byPhase": {
-      "other": {
-        "completed": 5,
-        "terminated": 2,
-        "total": 7,
-        "completionRatePct": 71
-      },
       "phase2": {
         "completed": 7,
         "terminated": 3,
@@ -85,16 +79,22 @@
         "total": 14,
         "completionRatePct": 83
       },
+      "other": {
+        "completed": 5,
+        "terminated": 2,
+        "total": 7,
+        "completionRatePct": 71
+      },
       "phase1": {
-        "completed": 36,
+        "completed": 37,
         "terminated": 0,
         "total": 37,
         "completionRatePct": 100
       }
     },
-    "concluded": 66,
+    "concluded": 67,
     "completionRatePct": 88,
-    "resultsPostedPct": 28
+    "resultsPostedPct": 27
   },
   "events": [
     {
@@ -1028,6 +1028,21 @@
       "status": "past"
     },
     {
+      "id": "ct-CORT-NCT07553663",
+      "ticker": "CORT",
+      "date": "2026-09-22",
+      "title": "Evaluating the Pharmacokinetics and Safety of Miricorilant",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Nonalcoholic Steatohepatitis (NASH), Metabolic Dysfunction-Associated Steatohepatitis (MASH) / Nonalcoholic Steatohepatitis (NASH) With Compensated Cirrhosis, Metabolic Dysfunction-associated Steatotic Liver Disease (MASLD) · 14 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07553663",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07553663",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "edgar-CORT-0001193125-26-398561",
       "ticker": "CORT",
       "date": "2026-09-23",
@@ -1070,21 +1085,6 @@
       "source": "Projected from SEC EDGAR filing cadence",
       "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001088856&type=8-K",
       "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-CORT-NCT07553663",
-      "ticker": "CORT",
-      "date": "2026-10-30",
-      "title": "Evaluating the Pharmacokinetics and Safety of Miricorilant",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Nonalcoholic Steatohepatitis (NASH), Metabolic Dysfunction-Associated Steatohepatitis (MASH) / Nonalcoholic Steatohepatitis (NASH) With Compensated Cirrhosis, Metabolic Dysfunction-associated Steatotic Liver Disease (MASLD) · 15 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07553663",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07553663",
-      "origin": "registry",
       "status": "upcoming"
     },
     {

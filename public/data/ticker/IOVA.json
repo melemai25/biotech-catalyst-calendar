@@ -11,7 +11,7 @@
   "activeTrials": 8,
   "phase3": 1,
   "phase2": 7,
-  "generatedDate": "2026-10-15",
+  "generatedDate": "2026-10-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,14 +57,14 @@
     "upcomingCount": 9,
     "nextCatalystDate": "2026-11-05",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 21
+    "daysToNextCatalyst": 20
   },
   "trialStats": {
     "completed": 3,
-    "terminated": 2,
+    "terminated": 3,
     "withdrawn": 1,
     "suspended": 0,
-    "ongoing": 10,
+    "ongoing": 9,
     "withResults": 3,
     "byPhase": {
       "phase2": {
@@ -73,15 +73,9 @@
         "total": 12,
         "completionRatePct": 50
       },
-      "other": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 1,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 1,
-        "terminated": 0,
+        "terminated": 1,
         "total": 2,
         "completionRatePct": null
       },
@@ -90,10 +84,16 @@
         "terminated": 0,
         "total": 1,
         "completionRatePct": null
+      },
+      "other": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 1,
+        "completionRatePct": null
       }
     },
-    "concluded": 6,
-    "completionRatePct": 50,
+    "concluded": 7,
+    "completionRatePct": 43,
     "resultsPostedPct": null
   },
   "events": [
@@ -383,6 +383,21 @@
       "status": "past"
     },
     {
+      "id": "ct-IOVA-NCT06566092",
+      "ticker": "IOVA",
+      "date": "2026-06-19",
+      "title": "Study of Autologous Tumor-Infiltrating Lymphocytes in Pediatric, Adolescent, and Young Adult Participants",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Soft Tissue Sarcoma, Primary Central Nervous System Carcinoma, Melanoma · 5 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06566092",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06566092",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "edgar-IOVA-0001104659-26-080409",
       "ticker": "IOVA",
       "date": "2026-07-02",
@@ -395,21 +410,6 @@
       "source": "SEC EDGAR 8-K 2026-07-02",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1425205/000110465926080409/tm2618989d1_8k.htm",
       "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "ct-IOVA-NCT06566092",
-      "ticker": "IOVA",
-      "date": "2026-07-15",
-      "title": "Study of Autologous Tumor-Infiltrating Lymphocytes in Pediatric, Adolescent, and Young Adult Participants",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Soft Tissue Sarcoma, Primary Central Nervous System Carcinoma, Melanoma · 40 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06566092",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06566092",
-      "origin": "registry",
       "status": "past"
     },
     {

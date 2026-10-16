@@ -11,7 +11,7 @@
   "activeTrials": 15,
   "phase3": 2,
   "phase2": 13,
-  "generatedDate": "2026-10-15",
+  "generatedDate": "2026-10-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 42,
     "leadPhase": 4,
     "upcomingCount": 25,
-    "nextCatalystDate": "2026-10-16",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "nextCatalystDate": "2026-11-30",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 45
   },
   "trialStats": {
     "completed": 76,
@@ -67,16 +67,10 @@
     "ongoing": 30,
     "withResults": 36,
     "byPhase": {
-      "phase2": {
-        "completed": 21,
-        "terminated": 3,
-        "total": 40,
-        "completionRatePct": 88
-      },
-      "phase3": {
-        "completed": 20,
+      "phase1": {
+        "completed": 18,
         "terminated": 1,
-        "total": 23,
+        "total": 29,
         "completionRatePct": 95
       },
       "other": {
@@ -85,11 +79,17 @@
         "total": 24,
         "completionRatePct": 94
       },
-      "phase1": {
-        "completed": 18,
+      "phase3": {
+        "completed": 20,
         "terminated": 1,
-        "total": 29,
+        "total": 23,
         "completionRatePct": 95
+      },
+      "phase2": {
+        "completed": 21,
+        "terminated": 3,
+        "total": 40,
+        "completionRatePct": 88
       }
     },
     "concluded": 86,
@@ -1358,21 +1358,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-MRNA-next-earnings",
-      "ticker": "MRNA",
-      "date": "2026-10-16",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001682852&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-MRNA-NCT05095727",
       "ticker": "MRNA",
       "date": "2026-11-30",
@@ -1415,6 +1400,21 @@
       "source": "ClinicalTrials.gov NCT06585241",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06585241",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-MRNA-next-earnings",
+      "ticker": "MRNA",
+      "date": "2027-01-01",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001682852&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {

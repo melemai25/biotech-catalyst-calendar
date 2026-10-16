@@ -11,7 +11,7 @@
   "activeTrials": 21,
   "phase3": 17,
   "phase2": 4,
-  "generatedDate": "2026-10-15",
+  "generatedDate": "2026-10-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 10,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 31
+    "daysToNextCatalyst": 30
   },
   "trialStats": {
     "completed": 65,
@@ -73,10 +73,10 @@
         "total": 47,
         "completionRatePct": 100
       },
-      "phase1": {
-        "completed": 6,
+      "phase2": {
+        "completed": 7,
         "terminated": 0,
-        "total": 7,
+        "total": 10,
         "completionRatePct": 100
       },
       "phase3": {
@@ -85,10 +85,10 @@
         "total": 27,
         "completionRatePct": 100
       },
-      "phase2": {
-        "completed": 7,
+      "phase1": {
+        "completed": 6,
         "terminated": 0,
-        "total": 10,
+        "total": 7,
         "completionRatePct": 100
       }
     },
@@ -368,21 +368,6 @@
       "status": "past"
     },
     {
-      "id": "ct-SVA-NCT05499351",
-      "ticker": "SVA",
-      "date": "2021-12-05",
-      "title": "A Study of Booster Immunization With COVID-19 Vaccine,Inactivated Co -Administration With Influenza Vaccine and Pneumococcal Polysaccharide Vaccine",
-      "type": "Trial Milestone",
-      "phase": "Phase 4",
-      "estimated": false,
-      "summary": "COVID-19 · 3,000 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05499351",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05499351",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-SVA-NCT05107557",
       "ticker": "SVA",
       "date": "2021-12-05",
@@ -394,6 +379,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05107557",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05107557",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-SVA-NCT05499351",
+      "ticker": "SVA",
+      "date": "2021-12-05",
+      "title": "A Study of Booster Immunization With COVID-19 Vaccine,Inactivated Co -Administration With Influenza Vaccine and Pneumococcal Polysaccharide Vaccine",
+      "type": "Trial Milestone",
+      "phase": "Phase 4",
+      "estimated": false,
+      "summary": "COVID-19 · 3,000 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05499351",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05499351",
       "origin": "registry",
       "status": "past"
     },
@@ -1298,21 +1298,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-SVA-NCT07505823",
-      "ticker": "SVA",
-      "date": "2027-04-15",
-      "title": "Phase Ⅲ Trial of Group ACYW135 Meningococcal Conjugate Vaccine in Children Aged 6-11 Months",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Epidemic Meningitis, Meningococcal Vaccines · 1,040 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07505823",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07505823",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-SVA-NCT07505810",
       "ticker": "SVA",
       "date": "2027-04-15",
@@ -1324,6 +1309,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07505810",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07505810",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-SVA-NCT07505823",
+      "ticker": "SVA",
+      "date": "2027-04-15",
+      "title": "Phase Ⅲ Trial of Group ACYW135 Meningococcal Conjugate Vaccine in Children Aged 6-11 Months",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Epidemic Meningitis, Meningococcal Vaccines · 1,040 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07505823",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07505823",
       "origin": "registry",
       "status": "upcoming"
     },

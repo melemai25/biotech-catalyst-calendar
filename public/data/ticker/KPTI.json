@@ -11,7 +11,7 @@
   "activeTrials": 8,
   "phase3": 3,
   "phase2": 5,
-  "generatedDate": "2026-10-15",
+  "generatedDate": "2026-10-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2026-10-22",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 7
+    "daysToNextCatalyst": 6
   },
   "trialStats": {
     "completed": 12,
@@ -67,11 +67,11 @@
     "ongoing": 9,
     "withResults": 20,
     "byPhase": {
-      "phase1": {
+      "phase3": {
         "completed": 3,
-        "terminated": 2,
-        "total": 5,
-        "completionRatePct": 60
+        "terminated": 0,
+        "total": 6,
+        "completionRatePct": null
       },
       "phase2": {
         "completed": 6,
@@ -79,11 +79,11 @@
         "total": 25,
         "completionRatePct": 43
       },
-      "phase3": {
+      "phase1": {
         "completed": 3,
-        "terminated": 0,
-        "total": 6,
-        "completionRatePct": null
+        "terminated": 2,
+        "total": 5,
+        "completionRatePct": 60
       },
       "other": {
         "completed": 0,
@@ -698,21 +698,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-KPTI-NCT04442022",
-      "ticker": "KPTI",
-      "date": "2026-12-15",
-      "title": "A Study of Rituximab-Gemcitabine-Dexamethasone-Platinum (R-GDP) With or Without Selinexor in Patients With Relapsed/Refractory Diffuse Large B-cell Lymphoma",
-      "type": "Trial Milestone",
-      "phase": "Phase 2/Phase 3",
-      "estimated": false,
-      "summary": "Relapsed/Refractory Diffuse Large B-cell Lymphoma · 501 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04442022",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04442022",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-KPTI-NCT02227251",
       "ticker": "KPTI",
       "date": "2026-12-15",
@@ -724,6 +709,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT02227251",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02227251",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-KPTI-NCT04442022",
+      "ticker": "KPTI",
+      "date": "2026-12-15",
+      "title": "A Study of Rituximab-Gemcitabine-Dexamethasone-Platinum (R-GDP) With or Without Selinexor in Patients With Relapsed/Refractory Diffuse Large B-cell Lymphoma",
+      "type": "Trial Milestone",
+      "phase": "Phase 2/Phase 3",
+      "estimated": false,
+      "summary": "Relapsed/Refractory Diffuse Large B-cell Lymphoma · 501 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04442022",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04442022",
       "origin": "registry",
       "status": "upcoming"
     },
