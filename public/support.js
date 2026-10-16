@@ -172,7 +172,7 @@
     msg.name = 'message';
     msg.maxLength = MAX_CHARS;
     msg.required = true;
-    msg.placeholder = 'A wrong date, a reccomendation, something now working…';
+    msg.placeholder = 'A wrong date, a recommendation, something not working…';
     rowMsg.appendChild(labMsg); rowMsg.appendChild(msg);
 
     // optional email
