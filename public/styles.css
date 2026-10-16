@@ -881,3 +881,20 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
   .scope-seg{width:100%;}
   .scope-btn{flex:1;text-align:center;padding:7px 8px;}
 }
+
+.masthead{
+  display:grid;
+  grid-template-columns:1fr auto 1fr;
+  align-items:center;
+  justify-content:initial;          /* release the flex rule above */
+}
+.masthead > .brand{grid-column:2;justify-self:center;}
+.masthead-right{grid-column:3;justify-self:end;}
+ 
+@media (max-width:760px){
+  /* Three columns in a phone's width leaves the pill a few characters wide and
+     it wraps into a blob. Below this the masthead stacks and centres instead. */
+  .masthead{grid-template-columns:minmax(0,1fr);justify-items:center;gap:10px;}
+  .masthead > .brand{grid-column:1;}
+  .masthead-right{grid-column:1;justify-self:center;text-align:center;}
+}
