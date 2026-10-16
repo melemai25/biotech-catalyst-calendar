@@ -16,10 +16,10 @@
 (function () {
   'use strict';
 
-  /* -- 1. Donations ------------------------------------------------------ *
+  /* -- 1. Donations ------------------------------------------------------ */
      var SUPPORT_URL = 'https://buy.stripe.com/fZu4gt17waui1Ee9Ltasg00';
 
-  /* -- 2. Feedback ------------------------------------------------------- *
+  /* -- 2. Feedback ------------------------------------------------------- */
  
   var FEEDBACK_ENDPOINT = 'https://formspree.io/f/xyeklall';
 
