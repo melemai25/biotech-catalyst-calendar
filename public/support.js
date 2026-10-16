@@ -154,7 +154,7 @@
     modal.setAttribute('aria-modal', 'true');
     modal.setAttribute('aria-labelledby', 'blyst-fb-title');
 
-    var title = el('h2', null, 'Give Feedback');
+    var title = el('h2', null, 'Help us improve');
     title.id = 'blyst-fb-title';
     var lede = el('p', 'blyst-lede',
       "Found something wrong, missing or confusing? Or have an idea that would make our site more useful? Let us know - we'd love to hear from you!");
@@ -172,7 +172,7 @@
     msg.name = 'message';
     msg.maxLength = MAX_CHARS;
     msg.required = true;
-    msg.placeholder = 'A wrong date, a company we are missing, something that did not work…';
+    msg.placeholder = 'A wrong date, a reccomendation, something now working…';
     rowMsg.appendChild(labMsg); rowMsg.appendChild(msg);
 
     // optional email
@@ -323,7 +323,7 @@
     var actions = el('div', 'blyst-actions');
 
     if (hasFeedback) {
-      var fb = el('button', 'blyst-btn blyst-btn-ghost', 'Help us improve');
+      var fb = el('button', 'blyst-btn blyst-btn-ghost', 'Feedback');
       fb.type = 'button';
       fb.addEventListener('click', function () { openFeedback(fb); });
       actions.appendChild(fb);
