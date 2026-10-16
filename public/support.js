@@ -22,7 +22,9 @@
   /* -- 2. Feedback ------------------------------------------------------- */
  
   var FEEDBACK_ENDPOINT = 'https://formspree.io/f/xyeklall';
-
+  
+  /* for webhook which we aren't using*/
+  var FEEDBACK_EXTRA = {};
 
   /* --Supprt-------------------------------------------------------------- */
   var BLURB = 'Biolyst.org is committed to staying ad-free and subscription-free. Your support helps us keep the lights on. Thank you!';
