@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-10-16",
+  "generatedDate": "2026-10-17",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-12-17",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 62
+    "daysToNextCatalyst": 61
   },
   "trialStats": {
     "completed": 10,
@@ -91,21 +91,6 @@
     "resultsPostedPct": 20
   },
   "events": [
-    {
-      "id": "edgar-VCEL-0001140361-25-013625",
-      "ticker": "VCEL",
-      "date": "2025-04-14",
-      "title": "8-K filed: Reg FD disclosure",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 7.01. Reg FD disclosure. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-14",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/887359/000114036125013625/ef20047328_8k.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
     {
       "id": "edgar-VCEL-0001140361-25-017110",
       "ticker": "VCEL",

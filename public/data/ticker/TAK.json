@@ -11,7 +11,7 @@
   "activeTrials": 68,
   "phase3": 44,
   "phase2": 24,
-  "generatedDate": "2026-10-16",
+  "generatedDate": "2026-10-17",
   "metrics": {
     "reportingCurrency": "JPY",
     "taxonomy": "ifrs-full",
@@ -57,7 +57,7 @@
     "upcomingCount": 21,
     "nextCatalystDate": "2026-10-31",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 15
+    "daysToNextCatalyst": 14
   },
   "trialStats": {
     "completed": 223,
@@ -1160,21 +1160,6 @@
       "source": "ClinicalTrials.gov NCT05164666",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05164666",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-TAK-0001395064-25-000044",
-      "ticker": "TAK",
-      "date": "2025-04-14",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-14",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1395064/000139506425000044/form6k_041425.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

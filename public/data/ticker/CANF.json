@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 2,
   "phase2": 2,
-  "generatedDate": "2026-10-16",
+  "generatedDate": "2026-10-17",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-08-31",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 319
+    "daysToNextCatalyst": 318
   },
   "trialStats": {
     "completed": 14,
@@ -173,66 +173,6 @@
       "source": "ClinicalTrials.gov NCT04333472",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04333472",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-CANF-0001213900-25-031598",
-      "ticker": "CANF",
-      "date": "2025-04-14",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. REPORT OF FOREIGN PRIVATE ISSUER.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-14",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1536196/000121390025031598/ea0238247-6k_canfite.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-CANF-0001213900-25-031308",
-      "ticker": "CANF",
-      "date": "2025-04-14",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. REPORT OF FOREIGN PRIVATE ISSUER.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-14",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1536196/000121390025031308/ea0238140-6k_canfite.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-CANF-0001213900-25-031300",
-      "ticker": "CANF",
-      "date": "2025-04-14",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. REPORT OF FOREIGN PRIVATE ISSUER.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-14",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1536196/000121390025031300/ea0237309-6k_canfite.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-CANF-0001213900-25-031298",
-      "ticker": "CANF",
-      "date": "2025-04-14",
-      "title": "Results filed (20-F)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 20-F. Annual report. ANNUAL REPORT.",
-      "result": "Results were furnished with this filing. Open the 20-F for the earnings release exhibit.",
-      "source": "SEC EDGAR 20-F 2025-04-14",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1536196/000121390025031298/ea0235093-20f_canfite.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

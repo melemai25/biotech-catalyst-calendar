@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-10-16",
+  "generatedDate": "2026-10-17",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-11-13",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 28
+    "daysToNextCatalyst": 27
   },
   "trialStats": {
     "completed": 2,
@@ -110,21 +110,6 @@
       "source": "ClinicalTrials.gov NCT04659629",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04659629",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-NGNE-0001404644-25-000029",
-      "ticker": "NGNE",
-      "date": "2025-04-14",
-      "title": "8-K filed: Material agreement, Other event",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 1.01, 8.01, 9.01. Material agreement; Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-14",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1404644/000140464425000029/ngne-20250414.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-10-16",
+  "generatedDate": "2026-10-17",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -149,21 +149,6 @@
       "source": "ClinicalTrials.gov NCT04123626",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04123626",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-PRQR-0001104659-25-034386",
-      "ticker": "PRQR",
-      "date": "2025-04-14",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. FORM 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-14",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1612940/000110465925034386/tm2512252d1_6k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {
