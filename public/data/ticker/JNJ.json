@@ -11,7 +11,7 @@
   "activeTrials": 119,
   "phase3": 78,
   "phase2": 41,
-  "generatedDate": "2026-10-17",
+  "generatedDate": "2026-10-18",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 55,
     "nextCatalystDate": "2026-10-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 13
+    "daysToNextCatalyst": 12
   },
   "trialStats": {
     "completed": 341,
@@ -3245,21 +3245,6 @@
       "source": "ClinicalTrials.gov NCT06635135",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06635135",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-JNJ-0000200406-25-000110",
-      "ticker": "JNJ",
-      "date": "2025-04-15",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 8.01, 9.01. Quarterly results; Other event. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-04-15",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000110/jnj-20250415.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

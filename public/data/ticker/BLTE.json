@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-10-17",
+  "generatedDate": "2026-10-18",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-06-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 256
+    "daysToNextCatalyst": 255
   },
   "trialStats": {
     "completed": 2,
@@ -98,21 +98,6 @@
       "source": "ClinicalTrials.gov NCT04005807",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04005807",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-BLTE-0001104659-25-035114",
-      "ticker": "BLTE",
-      "date": "2025-04-15",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. FORM 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-15",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1889109/000110465925035114/tm2511930d1_6k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

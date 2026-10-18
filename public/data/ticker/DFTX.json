@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 4,
   "phase2": 1,
-  "generatedDate": "2026-10-17",
+  "generatedDate": "2026-10-18",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-12-18",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 62
+    "daysToNextCatalyst": 61
   },
   "trialStats": {
     "completed": 3,
@@ -134,21 +134,6 @@
       "source": "ClinicalTrials.gov NCT05200936",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05200936",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-DFTX-0000950170-25-053953",
-      "ticker": "DFTX",
-      "date": "2025-04-15",
-      "title": "8-K filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-15",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1813814/000095017025053953/mnmd-20250415.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

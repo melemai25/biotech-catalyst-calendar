@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-10-17",
+  "generatedDate": "2026-10-18",
   "metrics": {
     "reportingCurrency": "CHF",
     "taxonomy": "ifrs-full",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 59
+    "daysToNextCatalyst": 58
   },
   "trialStats": {
     "completed": 7,
@@ -173,21 +173,6 @@
       "source": "ClinicalTrials.gov NCT04762017",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04762017",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-OCS-0000950170-25-054236",
-      "ticker": "OCS",
-      "date": "2025-04-15",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-15",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1953530/000095017025054236/2025_rd_day.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

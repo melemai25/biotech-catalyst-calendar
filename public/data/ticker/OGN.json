@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-17",
+  "generatedDate": "2026-10-18",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2026-11-04",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 18
+    "daysToNextCatalyst": 17
   },
   "trialStats": {
     "completed": 473,
@@ -395,21 +395,6 @@
       "source": "ClinicalTrials.gov NCT04626596",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04626596",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-OGN-0001104659-25-035173",
-      "ticker": "OGN",
-      "date": "2025-04-15",
-      "title": "8-K filed: Leadership change, Reg FD disclosure",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.02, 7.01. Leadership change; Reg FD disclosure. FORM 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-15",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1821825/000110465925035173/tm2512324d1_8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {
