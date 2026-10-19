@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-10-18",
+  "generatedDate": "2026-10-19",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-06-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 255
+    "daysToNextCatalyst": 254
   },
   "trialStats": {
     "completed": 2,
@@ -67,16 +67,16 @@
     "ongoing": 2,
     "withResults": 0,
     "byPhase": {
-      "phase1": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 1,
-        "completionRatePct": null
-      },
       "phase3": {
         "completed": 1,
         "terminated": 0,
         "total": 3,
+        "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 1,
         "completionRatePct": null
       }
     },
@@ -427,6 +427,21 @@
       "result": null,
       "source": "SEC EDGAR 6-K 2026-09-08",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1889109/000110465926105608/tm2624806d1_6k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-BLTE-0001104659-26-116685",
+      "ticker": "BLTE",
+      "date": "2026-10-19",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. FORM 6-K.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-10-19",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1889109/000110465926116685/tm2627719d1_6k.htm",
       "origin": "edgar",
       "status": "past"
     },

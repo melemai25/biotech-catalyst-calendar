@@ -11,7 +11,7 @@
   "activeTrials": 15,
   "phase3": 7,
   "phase2": 8,
-  "generatedDate": "2026-10-18",
+  "generatedDate": "2026-10-19",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -57,7 +57,7 @@
     "upcomingCount": 16,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 58
+    "daysToNextCatalyst": 57
   },
   "trialStats": {
     "completed": 9,
@@ -67,17 +67,17 @@
     "ongoing": 37,
     "withResults": 0,
     "byPhase": {
-      "phase1": {
-        "completed": 8,
-        "terminated": 2,
-        "total": 22,
-        "completionRatePct": 80
-      },
       "phase2": {
         "completed": 1,
         "terminated": 3,
         "total": 22,
         "completionRatePct": 25
+      },
+      "phase1": {
+        "completed": 8,
+        "terminated": 2,
+        "total": 22,
+        "completionRatePct": 80
       },
       "phase3": {
         "completed": 0,
@@ -335,21 +335,6 @@
       "source": "ClinicalTrials.gov NCT04284488",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04284488",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-AAPG-0001213900-25-032599",
-      "ticker": "AAPG",
-      "date": "2025-04-16",
-      "title": "Results filed (20-F)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 20-F. Annual report. ANNUAL REPORT.",
-      "result": "Results were furnished with this filing. Open the 20-F for the earnings release exhibit.",
-      "source": "SEC EDGAR 20-F 2025-04-16",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2023311/000121390025032599/ea0233422-20f_ascentage.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {
@@ -1058,21 +1043,6 @@
       "status": "past"
     },
     {
-      "id": "ct-AAPG-NCT06182969",
-      "ticker": "AAPG",
-      "date": "2026-04-15",
-      "title": "A Study of APG-2575 in Patients With Mild-to-moderate Systemic Lupus Erythematosus.",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "SLE · 40 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06182969",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06182969",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-AAPG-NCT04785196",
       "ticker": "AAPG",
       "date": "2026-04-15",
@@ -1084,6 +1054,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04785196",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04785196",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-AAPG-NCT06182969",
+      "ticker": "AAPG",
+      "date": "2026-04-15",
+      "title": "A Study of APG-2575 in Patients With Mild-to-moderate Systemic Lupus Erythematosus.",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "SLE · 40 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06182969",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06182969",
       "origin": "registry",
       "status": "past"
     },

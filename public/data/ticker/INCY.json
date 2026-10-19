@@ -11,7 +11,7 @@
   "activeTrials": 40,
   "phase3": 23,
   "phase2": 17,
-  "generatedDate": "2026-10-18",
+  "generatedDate": "2026-10-19",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -54,10 +54,10 @@
     "phase3Count": 51,
     "phase2Count": 97,
     "leadPhase": 4,
-    "upcomingCount": 44,
-    "nextCatalystDate": "2026-10-19",
-    "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 1
+    "upcomingCount": 41,
+    "nextCatalystDate": "2026-10-27",
+    "nextCatalystType": "Earnings",
+    "daysToNextCatalyst": 8
   },
   "trialStats": {
     "completed": 143,
@@ -67,12 +67,6 @@
     "ongoing": 69,
     "withResults": 126,
     "byPhase": {
-      "other": {
-        "completed": 4,
-        "terminated": 1,
-        "total": 18,
-        "completionRatePct": 80
-      },
       "phase3": {
         "completed": 25,
         "terminated": 9,
@@ -90,6 +84,12 @@
         "terminated": 42,
         "total": 128,
         "completionRatePct": 61
+      },
+      "other": {
+        "completed": 4,
+        "terminated": 1,
+        "total": 18,
+        "completionRatePct": 80
       }
     },
     "concluded": 219,
@@ -1448,21 +1448,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT04551066",
-      "ticker": "INCY",
-      "date": "2023-08-03",
-      "title": "To Evaluate the Efficacy and Safety of Parsaclisib and Ruxolitinib in Participants With Myelofibrosis (LIMBER-313)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Myelofibrosis, Primary Myelofibrosis, Post Essential Thrombocythemia Myelofibrosis · 252 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT04551066",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04551066",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT05127421",
       "ticker": "INCY",
       "date": "2023-08-03",
@@ -1474,6 +1459,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT05127421",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05127421",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT04551066",
+      "ticker": "INCY",
+      "date": "2023-08-03",
+      "title": "To Evaluate the Efficacy and Safety of Parsaclisib and Ruxolitinib in Participants With Myelofibrosis (LIMBER-313)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Myelofibrosis, Primary Myelofibrosis, Post Essential Thrombocythemia Myelofibrosis · 252 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT04551066",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04551066",
       "origin": "registry",
       "status": "past"
     },
@@ -1508,21 +1508,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT05253807",
-      "ticker": "INCY",
-      "date": "2023-08-16",
-      "title": "Study to Evaluate the Efficacy and Safety of Pemigatinib in Participants With Relapsed or Refractory Advanced Non-Small Cell Lung Cancer With an FGFR Alteration",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Non-Small Cell Lung Cancer (NSCLC) · 8 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT05253807",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05253807",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT04551053",
       "ticker": "INCY",
       "date": "2023-08-16",
@@ -1534,6 +1519,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT04551053",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04551053",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT05253807",
+      "ticker": "INCY",
+      "date": "2023-08-16",
+      "title": "Study to Evaluate the Efficacy and Safety of Pemigatinib in Participants With Relapsed or Refractory Advanced Non-Small Cell Lung Cancer With an FGFR Alteration",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Non-Small Cell Lung Cancer (NSCLC) · 8 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT05253807",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05253807",
       "origin": "registry",
       "status": "past"
     },
@@ -2318,21 +2318,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT06713590",
-      "ticker": "INCY",
-      "date": "2025-06-06",
-      "title": "A Study to Evaluate a Single-Dose Subcutaneous Axatilimab Compared With Intravenous Axatilimab in Healthy Participants",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Healthy Participants · 72 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06713590",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06713590",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT05949632",
       "ticker": "INCY",
       "date": "2025-06-06",
@@ -2344,6 +2329,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT05949632",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05949632",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT06713590",
+      "ticker": "INCY",
+      "date": "2025-06-06",
+      "title": "A Study to Evaluate a Single-Dose Subcutaneous Axatilimab Compared With Intravenous Axatilimab in Healthy Participants",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Healthy Participants · 72 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06713590",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06713590",
       "origin": "registry",
       "status": "past"
     },
@@ -3023,21 +3023,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT06516965",
-      "ticker": "INCY",
-      "date": "2026-10-19",
-      "title": "A Study to Evaluate the Efficacy and Safety Study of Povorcitinib in Participants With Prurigo Nodularis (STOP-PN2)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Prurigo Nodularis · 346 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06516965",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06516965",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-INCY-NCT06516952",
       "ticker": "INCY",
       "date": "2026-10-19",
@@ -3050,7 +3035,7 @@
       "source": "ClinicalTrials.gov NCT06516952",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06516952",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-INCY-NCT07448155",
@@ -3065,7 +3050,22 @@
       "source": "ClinicalTrials.gov NCT07448155",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07448155",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT06516965",
+      "ticker": "INCY",
+      "date": "2026-10-19",
+      "title": "A Study to Evaluate the Efficacy and Safety Study of Povorcitinib in Participants With Prurigo Nodularis (STOP-PN2)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Prurigo Nodularis · 346 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06516965",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06516965",
+      "origin": "registry",
+      "status": "past"
     },
     {
       "id": "edgar-INCY-next-earnings",
@@ -3263,21 +3263,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-INCY-NCT06804811",
-      "ticker": "INCY",
-      "date": "2027-04-30",
-      "title": "A Study to Evaluate the Efficacy and Safety of Ruxolitinib Cream in Children (6 to < 12 Years Old) With Nonsegmental Vitiligo",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "NonSegmental Vitiligo · 250 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06804811",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06804811",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-INCY-NCT04279847",
       "ticker": "INCY",
       "date": "2027-04-30",
@@ -3289,6 +3274,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04279847",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04279847",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-INCY-NCT06804811",
+      "ticker": "INCY",
+      "date": "2027-04-30",
+      "title": "A Study to Evaluate the Efficacy and Safety of Ruxolitinib Cream in Children (6 to < 12 Years Old) With Nonsegmental Vitiligo",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "NonSegmental Vitiligo · 250 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06804811",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06804811",
       "origin": "registry",
       "status": "upcoming"
     },

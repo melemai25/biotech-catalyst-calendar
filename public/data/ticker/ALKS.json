@@ -11,7 +11,7 @@
   "activeTrials": 7,
   "phase3": 5,
   "phase2": 2,
-  "generatedDate": "2026-10-18",
+  "generatedDate": "2026-10-19",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 8,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 28
+    "daysToNextCatalyst": 27
   },
   "trialStats": {
     "completed": 68,
@@ -67,6 +67,12 @@
     "ongoing": 9,
     "withResults": 35,
     "byPhase": {
+      "phase1": {
+        "completed": 22,
+        "terminated": 2,
+        "total": 24,
+        "completionRatePct": 92
+      },
       "phase3": {
         "completed": 25,
         "terminated": 3,
@@ -84,12 +90,6 @@
         "terminated": 0,
         "total": 7,
         "completionRatePct": 100
-      },
-      "phase1": {
-        "completed": 22,
-        "terminated": 2,
-        "total": 24,
-        "completionRatePct": 92
       }
     },
     "concluded": 73,
@@ -410,21 +410,6 @@
       "source": "ClinicalTrials.gov NCT03201757",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03201757",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ALKS-0000950170-25-054483",
-      "ticker": "ALKS",
-      "date": "2025-04-16",
-      "title": "8-K filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 8.01. Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-16",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1520262/000095017025054483/alks-20250414.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

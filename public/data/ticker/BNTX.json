@@ -11,7 +11,7 @@
   "activeTrials": 25,
   "phase3": 8,
   "phase2": 17,
-  "generatedDate": "2026-10-18",
+  "generatedDate": "2026-10-19",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -57,7 +57,7 @@
     "upcomingCount": 27,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 28
+    "daysToNextCatalyst": 27
   },
   "trialStats": {
     "completed": 36,
@@ -73,16 +73,16 @@
         "total": 36,
         "completionRatePct": 67
       },
-      "phase3": {
-        "completed": 14,
-        "terminated": 0,
-        "total": 21,
-        "completionRatePct": 100
-      },
       "phase1": {
         "completed": 8,
         "terminated": 0,
         "total": 14,
+        "completionRatePct": 100
+      },
+      "phase3": {
+        "completed": 14,
+        "terminated": 0,
+        "total": 21,
         "completionRatePct": 100
       },
       "other": {
@@ -1640,6 +1640,21 @@
       "source": "ClinicalTrials.gov NCT05432583",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05432583",
       "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "edgar-BNTX-0001776985-26-000069",
+      "ticker": "BNTX",
+      "date": "2026-10-19",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-10-19",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1776985/000177698526000069/form6-kesmo202619oct2026.htm",
+      "origin": "edgar",
       "status": "past"
     },
     {

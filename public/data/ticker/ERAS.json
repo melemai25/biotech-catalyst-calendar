@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-18",
+  "generatedDate": "2026-10-19",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 2,
     "leadPhase": 3,
     "upcomingCount": 4,
-    "nextCatalystDate": "2026-10-19",
+    "nextCatalystDate": "2026-12-27",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 69
   },
   "trialStats": {
     "completed": 4,
@@ -67,16 +67,16 @@
     "ongoing": 4,
     "withResults": 0,
     "byPhase": {
-      "phase2": {
-        "completed": 2,
-        "terminated": 0,
-        "total": 3,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 2,
         "terminated": 0,
         "total": 5,
+        "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 2,
+        "terminated": 0,
+        "total": 3,
         "completionRatePct": null
       },
       "phase3": {
@@ -439,7 +439,7 @@
     {
       "id": "edgar-ERAS-next-earnings",
       "ticker": "ERAS",
-      "date": "2026-10-19",
+      "date": "2026-12-27",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

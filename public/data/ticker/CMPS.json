@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 2,
   "phase2": 1,
-  "generatedDate": "2026-10-18",
+  "generatedDate": "2026-10-19",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-10-28",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 10
+    "daysToNextCatalyst": 9
   },
   "trialStats": {
     "completed": 6,
@@ -149,21 +149,6 @@
       "source": "ClinicalTrials.gov NCT05481736",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05481736",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-CMPS-0001816590-25-000042",
-      "ticker": "CMPS",
-      "date": "2025-04-16",
-      "title": "8-K filed: Leadership change",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 4.01, 5.02, 9.01. Leadership change. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-16",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1816590/000181659025000042/cmps-20250414.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

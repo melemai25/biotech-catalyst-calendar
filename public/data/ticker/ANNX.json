@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 3,
   "phase2": 0,
-  "generatedDate": "2026-10-18",
+  "generatedDate": "2026-10-19",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-11-14",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 27
+    "daysToNextCatalyst": 26
   },
   "trialStats": {
     "completed": 12,
@@ -67,17 +67,17 @@
     "ongoing": 3,
     "withResults": 2,
     "byPhase": {
-      "phase1": {
-        "completed": 7,
-        "terminated": 1,
-        "total": 8,
-        "completionRatePct": 88
-      },
       "phase2": {
         "completed": 4,
         "terminated": 0,
         "total": 4,
         "completionRatePct": 100
+      },
+      "phase1": {
+        "completed": 7,
+        "terminated": 1,
+        "total": 8,
+        "completionRatePct": 88
       },
       "phase3": {
         "completed": 1,
@@ -499,7 +499,7 @@
     {
       "id": "ct-ANNX-NCT07020819",
       "ticker": "ANNX",
-      "date": "2026-12-31",
+      "date": "2027-05-31",
       "title": "An Open Label Clinical Study to Evaluate Tanruprubart (Also Commonly Known as ANX005) in Participants With Guillain-Barré Syndrome (FORWARD Study)",
       "type": "Trial Milestone",
       "phase": "Phase 3",

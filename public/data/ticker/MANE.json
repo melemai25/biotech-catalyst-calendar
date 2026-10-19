@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 3,
   "phase2": 1,
-  "generatedDate": "2026-10-18",
+  "generatedDate": "2026-10-19",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 58
+    "daysToNextCatalyst": 57
   },
   "trialStats": {
     "completed": 1,
@@ -67,16 +67,16 @@
     "ongoing": 4,
     "withResults": 0,
     "byPhase": {
-      "phase2": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
-      },
       "phase3": {
         "completed": 0,
         "terminated": 0,
         "total": 3,
+        "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 2,
         "completionRatePct": null
       }
     },
@@ -233,6 +233,21 @@
       "source": "ClinicalTrials.gov NCT06527365",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06527365",
       "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "edgar-MANE-0001827635-26-000036",
+      "ticker": "MANE",
+      "date": "2026-10-19",
+      "title": "8-K filed: Reg FD disclosure, Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 7.01, 8.01, 9.01. Reg FD disclosure; Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-19",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000036/mane-20261019.htm",
+      "origin": "edgar",
       "status": "past"
     },
     {

@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-10-18",
+  "generatedDate": "2026-10-19",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -54,30 +54,30 @@
     "phase3Count": 0,
     "phase2Count": 8,
     "leadPhase": 2,
-    "upcomingCount": 3,
+    "upcomingCount": 2,
     "nextCatalystDate": "2026-11-05",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 18
+    "daysToNextCatalyst": 17
   },
   "trialStats": {
     "completed": 15,
-    "terminated": 8,
+    "terminated": 9,
     "withdrawn": 3,
     "suspended": 0,
-    "ongoing": 5,
+    "ongoing": 4,
     "withResults": 5,
     "byPhase": {
       "phase2": {
         "completed": 7,
-        "terminated": 5,
+        "terminated": 6,
         "total": 16,
-        "completionRatePct": 58
+        "completionRatePct": 54
       },
-      "other": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
+      "phase1": {
+        "completed": 6,
+        "terminated": 2,
+        "total": 9,
+        "completionRatePct": 75
       },
       "phase3": {
         "completed": 2,
@@ -85,15 +85,15 @@
         "total": 4,
         "completionRatePct": null
       },
-      "phase1": {
-        "completed": 6,
-        "terminated": 2,
-        "total": 9,
-        "completionRatePct": 75
+      "other": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 2,
+        "completionRatePct": null
       }
     },
-    "concluded": 26,
-    "completionRatePct": 58,
+    "concluded": 27,
+    "completionRatePct": 56,
     "resultsPostedPct": 33
   },
   "events": [
@@ -458,6 +458,21 @@
       "status": "past"
     },
     {
+      "id": "ct-AGEN-NCT05529316",
+      "ticker": "AGEN",
+      "date": "2026-04-27",
+      "title": "A Study of Botensilimab (AGEN1181) for the Treatment of Advanced Melanoma",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Advanced Melanoma · 150 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05529316",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05529316",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "edgar-AGEN-0001193125-26-215838",
       "ticker": "AGEN",
       "date": "2026-05-11",
@@ -604,21 +619,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05608044",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05608044",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-AGEN-NCT05529316",
-      "ticker": "AGEN",
-      "date": "2028-02-15",
-      "title": "A Study of Botensilimab (AGEN1181) for the Treatment of Advanced Melanoma",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Advanced Melanoma · 150 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05529316",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05529316",
       "origin": "registry",
       "status": "upcoming"
     }

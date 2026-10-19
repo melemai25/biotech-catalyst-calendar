@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-10-18",
+  "generatedDate": "2026-10-19",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-11-21",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 34
+    "daysToNextCatalyst": 33
   },
   "trialStats": {
     "completed": 4,
@@ -67,12 +67,6 @@
     "ongoing": 2,
     "withResults": 4,
     "byPhase": {
-      "phase1": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 1,
-        "completionRatePct": null
-      },
       "phase3": {
         "completed": 1,
         "terminated": 0,
@@ -83,6 +77,12 @@
         "completed": 2,
         "terminated": 0,
         "total": 2,
+        "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 1,
         "completionRatePct": null
       }
     },
@@ -149,21 +149,6 @@
       "source": "ClinicalTrials.gov NCT03633799",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03633799",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-AWHL-0001641172-25-005086",
-      "ticker": "AWHL",
-      "date": "2025-04-16",
-      "title": "8-K filed: Listing / standard notice",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 3.01, 9.01. Listing / standard notice.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-16",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/926617/000164117225005086/form8-k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

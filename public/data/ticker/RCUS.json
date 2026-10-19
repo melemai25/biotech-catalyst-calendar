@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 2,
   "phase2": 2,
-  "generatedDate": "2026-10-18",
+  "generatedDate": "2026-10-19",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -54,25 +54,19 @@
     "phase3Count": 3,
     "phase2Count": 5,
     "leadPhase": 3,
-    "upcomingCount": 9,
+    "upcomingCount": 8,
     "nextCatalystDate": "2026-11-05",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 18
+    "daysToNextCatalyst": 17
   },
   "trialStats": {
-    "completed": 24,
+    "completed": 25,
     "terminated": 0,
     "withdrawn": 0,
     "suspended": 0,
-    "ongoing": 8,
+    "ongoing": 7,
     "withResults": 0,
     "byPhase": {
-      "phase2": {
-        "completed": 3,
-        "terminated": 0,
-        "total": 5,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 20,
         "terminated": 0,
@@ -84,9 +78,15 @@
         "terminated": 0,
         "total": 3,
         "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 4,
+        "terminated": 0,
+        "total": 5,
+        "completionRatePct": 100
       }
     },
-    "concluded": 24,
+    "concluded": 25,
     "completionRatePct": 100,
     "resultsPostedPct": 0
   },
@@ -677,6 +677,21 @@
       "status": "past"
     },
     {
+      "id": "ct-RCUS-NCT04736173",
+      "ticker": "RCUS",
+      "date": "2026-09-17",
+      "title": "Study Evaluating Effectiveness and Safety of Zimberelimab and Domvanalimab in Lung Cancer",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Non Small Cell Lung Cancer, Nonsquamous Non Small Cell Lung Cancer, Squamous Non Small Cell Lung Cancer · 169 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04736173",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04736173",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "edgar-RCUS-next-earnings",
       "ticker": "RCUS",
       "date": "2026-11-05",
@@ -718,21 +733,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05329766",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05329766",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-RCUS-NCT04736173",
-      "ticker": "RCUS",
-      "date": "2027-05-15",
-      "title": "Study Evaluating Effectiveness and Safety of Zimberelimab and Domvanalimab in Lung Cancer",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Non Small Cell Lung Cancer, Nonsquamous Non Small Cell Lung Cancer, Squamous Non Small Cell Lung Cancer · 169 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04736173",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04736173",
       "origin": "registry",
       "status": "upcoming"
     },

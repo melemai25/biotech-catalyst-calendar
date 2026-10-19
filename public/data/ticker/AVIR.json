@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-10-18",
+  "generatedDate": "2026-10-19",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 4,
     "leadPhase": 3,
     "upcomingCount": 3,
-    "nextCatalystDate": "2026-10-19",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "nextCatalystDate": "2026-12-15",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 57
   },
   "trialStats": {
     "completed": 25,
@@ -67,12 +67,6 @@
     "ongoing": 4,
     "withResults": 4,
     "byPhase": {
-      "phase3": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 3,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 22,
         "terminated": 1,
@@ -84,6 +78,12 @@
         "terminated": 2,
         "total": 5,
         "completionRatePct": 50
+      },
+      "phase3": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 3,
+        "completionRatePct": null
       }
     },
     "concluded": 29,
@@ -662,18 +662,18 @@
       "status": "past"
     },
     {
-      "id": "edgar-AVIR-next-earnings",
+      "id": "ct-AVIR-NCT07728487",
       "ticker": "AVIR",
-      "date": "2026-10-19",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "date": "2026-12-15",
+      "title": "Study of AT-587 in Healthy Subjects",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Hepatitis E · 62 participants · Status: Recruiting",
       "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001593899&type=8-K",
-      "origin": "edgar",
+      "source": "ClinicalTrials.gov NCT07728487",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07728487",
+      "origin": "registry",
       "status": "upcoming"
     },
     {
@@ -692,18 +692,18 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-AVIR-NCT07728487",
+      "id": "edgar-AVIR-next-earnings",
       "ticker": "AVIR",
-      "date": "2026-12-15",
-      "title": "Study of AT-587 in Healthy Subjects",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Hepatitis E · 62 participants · Status: Recruiting",
+      "date": "2026-12-26",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
       "result": null,
-      "source": "ClinicalTrials.gov NCT07728487",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07728487",
-      "origin": "registry",
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001593899&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     }
   ]

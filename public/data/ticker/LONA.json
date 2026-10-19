@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-18",
+  "generatedDate": "2026-10-19",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-11-13",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 26
+    "daysToNextCatalyst": 25
   },
   "trialStats": {
     "completed": 6,
@@ -67,6 +67,12 @@
     "ongoing": 1,
     "withResults": 4,
     "byPhase": {
+      "phase1": {
+        "completed": 4,
+        "terminated": 0,
+        "total": 4,
+        "completionRatePct": 100
+      },
       "phase3": {
         "completed": 1,
         "terminated": 1,
@@ -78,12 +84,6 @@
         "terminated": 1,
         "total": 2,
         "completionRatePct": null
-      },
-      "phase1": {
-        "completed": 4,
-        "terminated": 0,
-        "total": 4,
-        "completionRatePct": 100
       }
     },
     "concluded": 8,
@@ -209,21 +209,6 @@
       "source": "ClinicalTrials.gov NCT06432647",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06432647",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-LONA-0000950170-25-054707",
-      "ticker": "LONA",
-      "date": "2025-04-16",
-      "title": "8-K filed: Listing / standard notice",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 3.01. Listing / standard notice. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-16",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1620463/000095017025054707/atha-20250415.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

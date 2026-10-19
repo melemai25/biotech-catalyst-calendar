@@ -11,7 +11,7 @@
   "activeTrials": 11,
   "phase3": 8,
   "phase2": 3,
-  "generatedDate": "2026-10-18",
+  "generatedDate": "2026-10-19",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 10,
     "nextCatalystDate": "2026-10-25",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 7
+    "daysToNextCatalyst": 6
   },
   "trialStats": {
     "completed": 27,
@@ -67,17 +67,17 @@
     "ongoing": 21,
     "withResults": 22,
     "byPhase": {
-      "phase2": {
-        "completed": 14,
-        "terminated": 6,
-        "total": 25,
-        "completionRatePct": 70
-      },
       "other": {
         "completed": 8,
         "terminated": 5,
         "total": 22,
         "completionRatePct": 62
+      },
+      "phase2": {
+        "completed": 14,
+        "terminated": 6,
+        "total": 25,
+        "completionRatePct": 70
       },
       "phase3": {
         "completed": 4,
@@ -878,6 +878,21 @@
       "status": "past"
     },
     {
+      "id": "edgar-RARE-0001193125-26-424739",
+      "ticker": "RARE",
+      "date": "2026-10-19",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 8.01. Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-19",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1515673/000119312526424739/rare-20261019.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "edgar-RARE-next-earnings",
       "ticker": "RARE",
       "date": "2026-10-25",
@@ -983,21 +998,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-RARE-NCT04884815",
-      "ticker": "RARE",
-      "date": "2029-03-15",
-      "title": "A Phase 1/2/3 Study of UX701 Gene Therapy in Adults With Wilson Disease",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Wilson Disease · 82 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04884815",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04884815",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-RARE-NCT02716246",
       "ticker": "RARE",
       "date": "2029-03-15",
@@ -1009,6 +1009,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT02716246",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02716246",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-RARE-NCT04884815",
+      "ticker": "RARE",
+      "date": "2029-03-15",
+      "title": "A Phase 1/2/3 Study of UX701 Gene Therapy in Adults With Wilson Disease",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Wilson Disease · 82 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04884815",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04884815",
       "origin": "registry",
       "status": "upcoming"
     },

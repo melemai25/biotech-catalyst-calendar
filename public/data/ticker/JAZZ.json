@@ -11,7 +11,7 @@
   "activeTrials": 13,
   "phase3": 7,
   "phase2": 6,
-  "generatedDate": "2026-10-18",
+  "generatedDate": "2026-10-19",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 19,
     "nextCatalystDate": "2026-12-21",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 64
+    "daysToNextCatalyst": 63
   },
   "trialStats": {
     "completed": 132,
@@ -67,29 +67,29 @@
     "ongoing": 35,
     "withResults": 111,
     "byPhase": {
-      "phase2": {
-        "completed": 40,
-        "terminated": 12,
-        "total": 67,
-        "completionRatePct": 77
-      },
       "phase3": {
         "completed": 56,
         "terminated": 10,
         "total": 74,
         "completionRatePct": 85
       },
-      "phase1": {
-        "completed": 19,
-        "terminated": 4,
-        "total": 29,
-        "completionRatePct": 83
+      "phase2": {
+        "completed": 40,
+        "terminated": 12,
+        "total": 67,
+        "completionRatePct": 77
       },
       "other": {
         "completed": 17,
         "terminated": 2,
         "total": 36,
         "completionRatePct": 89
+      },
+      "phase1": {
+        "completed": 19,
+        "terminated": 4,
+        "total": 29,
+        "completionRatePct": 83
       }
     },
     "concluded": 171,
@@ -128,21 +128,6 @@
       "status": "past"
     },
     {
-      "id": "ct-JAZZ-NCT02221869",
-      "ticker": "JAZZ",
-      "date": "2017-02-15",
-      "title": "A Multicenter Study of the Efficacy and Safety of Xyrem With an Open- Label Pharmacokinetic Evaluation and Safety Extension in Pediatric Subjects With Narcolepsy With Cataplexy",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Narcolepsy With Cataplexy · 106 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02221869",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02221869",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-JAZZ-NCT02348593",
       "ticker": "JAZZ",
       "date": "2017-02-15",
@@ -154,6 +139,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT02348593",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02348593",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-JAZZ-NCT02221869",
+      "ticker": "JAZZ",
+      "date": "2017-02-15",
+      "title": "A Multicenter Study of the Efficacy and Safety of Xyrem With an Open- Label Pharmacokinetic Evaluation and Safety Extension in Pediatric Subjects With Narcolepsy With Cataplexy",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Narcolepsy With Cataplexy · 106 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT02221869",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02221869",
       "origin": "registry",
       "status": "past"
     },
@@ -698,21 +698,6 @@
       "status": "past"
     },
     {
-      "id": "ct-JAZZ-NCT03295396",
-      "ticker": "JAZZ",
-      "date": "2022-12-31",
-      "title": "ONC201 in Adults With Recurrent H3 K27M-mutant Glioma",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Glioma · 73 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT03295396",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT03295396",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-JAZZ-NCT03416530",
       "ticker": "JAZZ",
       "date": "2022-12-31",
@@ -724,6 +709,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT03416530",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03416530",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-JAZZ-NCT03295396",
+      "ticker": "JAZZ",
+      "date": "2022-12-31",
+      "title": "ONC201 in Adults With Recurrent H3 K27M-mutant Glioma",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Glioma · 73 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT03295396",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03295396",
       "origin": "registry",
       "status": "past"
     },

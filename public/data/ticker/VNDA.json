@@ -11,7 +11,7 @@
   "activeTrials": 14,
   "phase3": 10,
   "phase2": 4,
-  "generatedDate": "2026-10-18",
+  "generatedDate": "2026-10-19",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,44 +57,44 @@
     "upcomingCount": 12,
     "nextCatalystDate": "2026-11-03",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 16
+    "daysToNextCatalyst": 15
   },
   "trialStats": {
-    "completed": 53,
+    "completed": 54,
     "terminated": 4,
     "withdrawn": 1,
     "suspended": 0,
-    "ongoing": 24,
+    "ongoing": 23,
     "withResults": 31,
     "byPhase": {
-      "other": {
-        "completed": 3,
-        "terminated": 0,
-        "total": 8,
-        "completionRatePct": null
-      },
       "phase3": {
-        "completed": 17,
+        "completed": 18,
         "terminated": 2,
         "total": 32,
-        "completionRatePct": 89
-      },
-      "phase2": {
-        "completed": 15,
-        "terminated": 2,
-        "total": 23,
-        "completionRatePct": 88
+        "completionRatePct": 90
       },
       "phase1": {
         "completed": 18,
         "terminated": 0,
         "total": 19,
         "completionRatePct": 100
+      },
+      "other": {
+        "completed": 3,
+        "terminated": 0,
+        "total": 8,
+        "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 15,
+        "terminated": 2,
+        "total": 23,
+        "completionRatePct": 88
       }
     },
-    "concluded": 58,
-    "completionRatePct": 91,
-    "resultsPostedPct": 58
+    "concluded": 59,
+    "completionRatePct": 92,
+    "resultsPostedPct": 57
   },
   "events": [
     {
@@ -698,21 +698,6 @@
       "status": "past"
     },
     {
-      "id": "ct-VNDA-NCT06836557",
-      "ticker": "VNDA",
-      "date": "2025-12-15",
-      "title": "Open Label Safety Study of Tradipitant in Idiopathic and Diabetic Gastroparesis",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Idiopathic Gastroparesis, Diabetic Gastroparesis, Gastroparesis · 100 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06836557",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06836557",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "edgar-VNDA-0001628280-25-059155",
       "ticker": "VNDA",
       "date": "2025-12-31",
@@ -803,6 +788,21 @@
       "status": "past"
     },
     {
+      "id": "ct-VNDA-NCT06836557",
+      "ticker": "VNDA",
+      "date": "2026-03-30",
+      "title": "Open Label Safety Study of Tradipitant in Idiopathic and Diabetic Gastroparesis",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Idiopathic Gastroparesis, Diabetic Gastroparesis, Gastroparesis · 17 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06836557",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06836557",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "edgar-VNDA-0001628280-26-023222",
       "ticker": "VNDA",
       "date": "2026-04-02",
@@ -878,21 +878,6 @@
       "status": "past"
     },
     {
-      "id": "ct-VNDA-NCT07065773",
-      "ticker": "VNDA",
-      "date": "2026-09-15",
-      "title": "Safety, Tolerability and Efficacy of Trichostatin A in Patients With Mild to Severe Onychomycosis",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Onychomycosis of Toenail · 50 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07065773",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07065773",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-VNDA-NCT07179055",
       "ticker": "VNDA",
       "date": "2026-09-15",
@@ -904,6 +889,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07179055",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07179055",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-VNDA-NCT07065773",
+      "ticker": "VNDA",
+      "date": "2026-09-15",
+      "title": "Safety, Tolerability and Efficacy of Trichostatin A in Patients With Mild to Severe Onychomycosis",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Onychomycosis of Toenail · 50 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07065773",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07065773",
       "origin": "registry",
       "status": "past"
     },

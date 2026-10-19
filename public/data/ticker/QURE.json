@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 0,
   "phase2": 5,
-  "generatedDate": "2026-10-18",
+  "generatedDate": "2026-10-19",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2026-10-22",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 4
+    "daysToNextCatalyst": 3
   },
   "trialStats": {
     "completed": 2,
@@ -98,21 +98,6 @@
       "source": "ClinicalTrials.gov NCT03300453",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03300453",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-QURE-0001558370-25-004867",
-      "ticker": "QURE",
-      "date": "2025-04-16",
-      "title": "8-K filed: Leadership change",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.02, 9.01. Leadership change. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-16",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1590560/000155837025004867/qure-20250415x8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

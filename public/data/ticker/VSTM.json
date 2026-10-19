@@ -11,7 +11,7 @@
   "activeTrials": 10,
   "phase3": 1,
   "phase2": 9,
-  "generatedDate": "2026-10-18",
+  "generatedDate": "2026-10-19",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2027-06-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 240
+    "daysToNextCatalyst": 239
   },
   "trialStats": {
     "completed": 9,
@@ -67,17 +67,17 @@
     "ongoing": 10,
     "withResults": 3,
     "byPhase": {
-      "phase2": {
-        "completed": 3,
-        "terminated": 2,
-        "total": 14,
-        "completionRatePct": 60
-      },
       "phase1": {
         "completed": 6,
         "terminated": 5,
         "total": 12,
         "completionRatePct": 55
+      },
+      "phase2": {
+        "completed": 3,
+        "terminated": 2,
+        "total": 14,
+        "completionRatePct": 60
       },
       "phase3": {
         "completed": 0,
@@ -632,21 +632,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-VSTM-NCT07659782",
-      "ticker": "VSTM",
-      "date": "2027-06-15",
-      "title": "A Phase 2 Study of VS-7375 in Patients With KRAS G12D-Mutated Non-Small Cell Lung Cancer",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Non-Small Cell Lung Cancer · 105 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07659782",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07659782",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-VSTM-NCT07659795",
       "ticker": "VSTM",
       "date": "2027-06-15",
@@ -658,6 +643,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07659795",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07659795",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-VSTM-NCT07659782",
+      "ticker": "VSTM",
+      "date": "2027-06-15",
+      "title": "A Phase 2 Study of VS-7375 in Patients With KRAS G12D-Mutated Non-Small Cell Lung Cancer",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Non-Small Cell Lung Cancer · 105 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07659782",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07659782",
       "origin": "registry",
       "status": "upcoming"
     },

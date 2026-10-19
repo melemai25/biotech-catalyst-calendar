@@ -11,7 +11,7 @@
   "activeTrials": 6,
   "phase3": 2,
   "phase2": 4,
-  "generatedDate": "2026-10-18",
+  "generatedDate": "2026-10-19",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -54,41 +54,41 @@
     "phase3Count": 3,
     "phase2Count": 9,
     "leadPhase": 3,
-    "upcomingCount": 6,
-    "nextCatalystDate": "2026-11-15",
+    "upcomingCount": 5,
+    "nextCatalystDate": "2026-11-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 28
+    "daysToNextCatalyst": 42
   },
   "trialStats": {
-    "completed": 12,
+    "completed": 13,
     "terminated": 2,
     "withdrawn": 1,
     "suspended": 0,
-    "ongoing": 7,
+    "ongoing": 6,
     "withResults": 8,
     "byPhase": {
       "phase2": {
-        "completed": 6,
+        "completed": 7,
         "terminated": 1,
         "total": 12,
-        "completionRatePct": 86
-      },
-      "phase3": {
-        "completed": 4,
-        "terminated": 1,
-        "total": 8,
-        "completionRatePct": 80
+        "completionRatePct": 88
       },
       "other": {
         "completed": 2,
         "terminated": 0,
         "total": 2,
         "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 4,
+        "terminated": 1,
+        "total": 8,
+        "completionRatePct": 80
       }
     },
-    "concluded": 15,
-    "completionRatePct": 80,
-    "resultsPostedPct": 67
+    "concluded": 16,
+    "completionRatePct": 81,
+    "resultsPostedPct": 62
   },
   "events": [
     {
@@ -572,6 +572,21 @@
       "status": "past"
     },
     {
+      "id": "ct-PHAR-NCT06549114",
+      "ticker": "PHAR",
+      "date": "2026-06-23",
+      "title": "Leniolisib for Immune Dysregulation in PIDs",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Primary Immunodeficiency Disorders (PIDs) · 13 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06549114",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06549114",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "edgar-PHAR-0001828316-26-000033",
       "ticker": "PHAR",
       "date": "2026-07-30",
@@ -690,21 +705,6 @@
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1828316/000182831626000045/pharmingpresentspositiveph.htm",
       "origin": "edgar",
       "status": "past"
-    },
-    {
-      "id": "ct-PHAR-NCT06549114",
-      "ticker": "PHAR",
-      "date": "2026-11-15",
-      "title": "Leniolisib for Immune Dysregulation in PIDs",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Primary Immunodeficiency Disorders (PIDs) · 12 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06549114",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06549114",
-      "origin": "registry",
-      "status": "upcoming"
     },
     {
       "id": "ct-PHAR-NCT05438407",

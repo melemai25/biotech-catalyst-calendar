@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-10-18",
+  "generatedDate": "2026-10-19",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 58
+    "daysToNextCatalyst": 57
   },
   "trialStats": {
     "completed": 11,
@@ -67,28 +67,28 @@
     "ongoing": 3,
     "withResults": 11,
     "byPhase": {
-      "phase3": {
-        "completed": 3,
-        "terminated": 0,
-        "total": 4,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 7,
         "terminated": 0,
         "total": 8,
         "completionRatePct": 100
       },
-      "phase2": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
-      },
       "other": {
         "completed": 0,
         "terminated": 0,
         "total": 1,
+        "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 3,
+        "terminated": 0,
+        "total": 4,
+        "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 2,
         "completionRatePct": null
       }
     },
@@ -260,21 +260,6 @@
       "source": "ClinicalTrials.gov NCT06831344",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06831344",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-PHAT-0001193125-25-082089",
-      "ticker": "PHAT",
-      "date": "2025-04-16",
-      "title": "8-K filed: Leadership change",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.02. Leadership change. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-16",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1783183/000119312525082089/d943974d8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 4,
   "phase2": 0,
-  "generatedDate": "2026-10-18",
+  "generatedDate": "2026-10-19",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 6,
     "leadPhase": 4,
     "upcomingCount": 3,
-    "nextCatalystDate": "2026-12-09",
+    "nextCatalystDate": "2026-12-21",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 52
+    "daysToNextCatalyst": 63
   },
   "trialStats": {
     "completed": 10,
@@ -67,28 +67,28 @@
     "ongoing": 4,
     "withResults": 10,
     "byPhase": {
-      "phase2": {
-        "completed": 5,
-        "terminated": 1,
-        "total": 6,
-        "completionRatePct": 83
-      },
       "phase3": {
         "completed": 3,
         "terminated": 1,
         "total": 10,
         "completionRatePct": 75
       },
-      "other": {
-        "completed": 1,
+      "phase2": {
+        "completed": 5,
         "terminated": 1,
-        "total": 2,
-        "completionRatePct": null
+        "total": 6,
+        "completionRatePct": 83
       },
       "phase1": {
         "completed": 1,
         "terminated": 0,
         "total": 1,
+        "completionRatePct": null
+      },
+      "other": {
+        "completed": 1,
+        "terminated": 1,
+        "total": 2,
         "completionRatePct": null
       }
     },
@@ -668,9 +668,39 @@
       "status": "past"
     },
     {
+      "id": "edgar-EYPT-0001193125-26-424755",
+      "ticker": "EYPT",
+      "date": "2026-10-19",
+      "title": "Quarterly results filed (8-K)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 2.02, 2.05, 8.01, 9.01. Quarterly results; Other event. 8-K.",
+      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
+      "source": "SEC EDGAR 8-K 2026-10-19",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1314102/000119312526424755/eypt-20261017.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-EYPT-0001193125-26-424644",
+      "ticker": "EYPT",
+      "date": "2026-10-19",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-19",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1314102/000119312526424644/eypt-20261019.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "edgar-EYPT-next-earnings",
       "ticker": "EYPT",
-      "date": "2026-12-09",
+      "date": "2026-12-21",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,
@@ -680,21 +710,6 @@
       "source": "Projected from SEC EDGAR filing cadence",
       "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001314102&type=8-K",
       "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-EYPT-NCT07449936",
-      "ticker": "EYPT",
-      "date": "2027-10-15",
-      "title": "COMO: A Phase 3 Randomized, Double-Masked Study Comparing the Efficacy of EYP-1901 Against Aflibercept in DME",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Diabetic Macular Edema, DME, Diabetic Macular Edema (DME) · 240 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07449936",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07449936",
-      "origin": "registry",
       "status": "upcoming"
     },
     {
@@ -709,6 +724,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07449923",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07449923",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-EYPT-NCT07449936",
+      "ticker": "EYPT",
+      "date": "2027-10-15",
+      "title": "COMO: A Phase 3 Randomized, Double-Masked Study Comparing the Efficacy of EYP-1901 Against Aflibercept in DME",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Diabetic Macular Edema, DME, Diabetic Macular Edema (DME) · 240 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07449936",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07449936",
       "origin": "registry",
       "status": "upcoming"
     }
