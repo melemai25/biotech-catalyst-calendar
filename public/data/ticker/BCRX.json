@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-19",
+  "generatedDate": "2026-10-20",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-12-21",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 63
+    "daysToNextCatalyst": 62
   },
   "trialStats": {
     "completed": 37,
@@ -67,17 +67,17 @@
     "ongoing": 4,
     "withResults": 21,
     "byPhase": {
-      "phase3": {
-        "completed": 7,
-        "terminated": 3,
-        "total": 14,
-        "completionRatePct": 70
-      },
       "phase2": {
         "completed": 18,
         "terminated": 6,
         "total": 24,
         "completionRatePct": 75
+      },
+      "phase3": {
+        "completed": 7,
+        "terminated": 3,
+        "total": 14,
+        "completionRatePct": 70
       },
       "phase1": {
         "completed": 12,
@@ -113,21 +113,6 @@
       "status": "past"
     },
     {
-      "id": "ct-BCRX-NCT03136237",
-      "ticker": "BCRX",
-      "date": "2017-08-15",
-      "title": "A Drug-Drug Interaction Study to Evaluate Drug Transporter Interactions",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Hereditary Angioedema · 54 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT03136237",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT03136237",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-BCRX-NCT02870972",
       "ticker": "BCRX",
       "date": "2017-08-15",
@@ -139,6 +124,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT02870972",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02870972",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-BCRX-NCT03136237",
+      "ticker": "BCRX",
+      "date": "2017-08-15",
+      "title": "A Drug-Drug Interaction Study to Evaluate Drug Transporter Interactions",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Hereditary Angioedema · 54 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT03136237",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03136237",
       "origin": "registry",
       "status": "past"
     },

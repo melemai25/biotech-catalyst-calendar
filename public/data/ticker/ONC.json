@@ -11,7 +11,7 @@
   "activeTrials": 27,
   "phase3": 15,
   "phase2": 12,
-  "generatedDate": "2026-10-19",
+  "generatedDate": "2026-10-20",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 48,
     "nextCatalystDate": "2026-10-31",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 12
+    "daysToNextCatalyst": 11
   },
   "trialStats": {
     "completed": 4,
@@ -73,16 +73,16 @@
         "total": 33,
         "completionRatePct": 38
       },
-      "phase3": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 16,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 0,
         "terminated": 0,
         "total": 12,
+        "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 16,
         "completionRatePct": null
       },
       "other": {
@@ -338,21 +338,6 @@
       "status": "past"
     },
     {
-      "id": "ct-ONC-NCT06253195",
-      "ticker": "ONC",
-      "date": "2026-04-23",
-      "title": "BGB-43395 Alone or as Part of Combination Therapies in Chinese Participants With HR+/HER2- Breast Cancer and Other Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Advanced Solid Tumor, Metastatic Solid Tumor, Hormone-receptor-positive Breast Cancer · 33 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06253195",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06253195",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-ONC-NCT06585488",
       "ticker": "ONC",
       "date": "2026-04-23",
@@ -364,6 +349,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06585488",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06585488",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-ONC-NCT06253195",
+      "ticker": "ONC",
+      "date": "2026-04-23",
+      "title": "BGB-43395 Alone or as Part of Combination Therapies in Chinese Participants With HR+/HER2- Breast Cancer and Other Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Advanced Solid Tumor, Metastatic Solid Tumor, Hormone-receptor-positive Breast Cancer · 33 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06253195",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06253195",
       "origin": "registry",
       "status": "past"
     },
@@ -563,21 +563,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT06637501",
-      "ticker": "ONC",
-      "date": "2026-11-15",
-      "title": "A Study to Investigate Sonrotoclax Combined With Zanubrutinib Versus Zanubrutinib Alone in Participants With Previously Untreated Chronic Lymphocytic Leukemia",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Chronic Lymphocytic Leukemia · 94 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06637501",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06637501",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ONC-NCT04973605",
       "ticker": "ONC",
       "date": "2026-11-15",
@@ -589,6 +574,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04973605",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04973605",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ONC-NCT06637501",
+      "ticker": "ONC",
+      "date": "2026-11-15",
+      "title": "A Study to Investigate Sonrotoclax Combined With Zanubrutinib Versus Zanubrutinib Alone in Participants With Previously Untreated Chronic Lymphocytic Leukemia",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Chronic Lymphocytic Leukemia · 94 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06637501",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06637501",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -773,21 +773,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT06589596",
-      "ticker": "ONC",
-      "date": "2027-09-30",
-      "title": "An Investigational Study of BGB-58067 As a Single Agent and in Combination With Anticancer Agents in Participants With Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Advanced Solid Tumor · 525 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06589596",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06589596",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ONC-NCT05707377",
       "ticker": "ONC",
       "date": "2027-10-15",
@@ -938,17 +923,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT06742996",
+      "id": "ct-ONC-NCT06589596",
       "ticker": "ONC",
       "date": "2028-08-31",
-      "title": "A Study to Investigate the Efficacy and Safety of Sonrotoclax Plus Zanubrutinib Compared With Placebo Plus Zanubrutinib in Adults With Relapsed/Refractory Mantle Cell Lymphoma (CELESTIAL-RRMCL)",
+      "title": "An Investigational Study of BGB-58067 As a Single Agent and in Combination With Anticancer Agents in Participants With Advanced Solid Tumors",
       "type": "Trial Milestone",
-      "phase": "Phase 3",
+      "phase": "Phase 1",
       "estimated": false,
-      "summary": "Mantle Cell Lymphoma, B Cell Lymphoma · 300 participants · Status: Recruiting",
+      "summary": "Advanced Solid Tumor · 695 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT06742996",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06742996",
+      "source": "ClinicalTrials.gov NCT06589596",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06589596",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -968,17 +953,32 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT06598800",
+      "id": "ct-ONC-NCT06742996",
+      "ticker": "ONC",
+      "date": "2028-08-31",
+      "title": "A Study to Investigate the Efficacy and Safety of Sonrotoclax Plus Zanubrutinib Compared With Placebo Plus Zanubrutinib in Adults With Relapsed/Refractory Mantle Cell Lymphoma (CELESTIAL-RRMCL)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Mantle Cell Lymphoma, B Cell Lymphoma · 300 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06742996",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06742996",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ONC-NCT07619287",
       "ticker": "ONC",
       "date": "2028-09-30",
-      "title": "Study of BG-T187 Alone and in Combination With Other Therapeutic Agents in Participants With Advanced Solid Tumors",
+      "title": "An Investigational Study of BG-75202 Alone and in Combination With Other Agents in Patients With Myeloid Malignancies",
       "type": "Trial Milestone",
       "phase": "Phase 1",
       "estimated": false,
-      "summary": "Advanced Solid Tumor · 153 participants · Status: Recruiting",
+      "summary": "Myeloid Malignancy · 118 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT06598800",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06598800",
+      "source": "ClinicalTrials.gov NCT07619287",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07619287",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -998,17 +998,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT07619287",
+      "id": "ct-ONC-NCT06598800",
       "ticker": "ONC",
       "date": "2028-09-30",
-      "title": "An Investigational Study of BG-75202 Alone and in Combination With Other Agents in Patients With Myeloid Malignancies",
+      "title": "Study of BG-T187 Alone and in Combination With Other Therapeutic Agents in Participants With Advanced Solid Tumors",
       "type": "Trial Milestone",
       "phase": "Phase 1",
       "estimated": false,
-      "summary": "Myeloid Malignancy · 118 participants · Status: Recruiting",
+      "summary": "Advanced Solid Tumor · 153 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT07619287",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07619287",
+      "source": "ClinicalTrials.gov NCT06598800",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06598800",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1103,21 +1103,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT07222267",
-      "ticker": "ONC",
-      "date": "2029-09-30",
-      "title": "An Investigational Study of BG-75202 Alone and in Combination With Other Therapeutic Agents in Adults With Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Breast Cancer, Advanced Solid Tumor · 86 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07222267",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07222267",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ONC-NCT06943872",
       "ticker": "ONC",
       "date": "2029-09-30",
@@ -1133,6 +1118,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-ONC-NCT07222267",
+      "ticker": "ONC",
+      "date": "2029-09-30",
+      "title": "An Investigational Study of BG-75202 Alone and in Combination With Other Therapeutic Agents in Adults With Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Breast Cancer, Advanced Solid Tumor · 86 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07222267",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07222267",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-ONC-NCT07881211",
       "ticker": "ONC",
       "date": "2029-10-31",
@@ -1144,21 +1144,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07881211",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07881211",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-ONC-NCT06697184",
-      "ticker": "ONC",
-      "date": "2029-11-30",
-      "title": "A Study to Investigate the Safety of Novel Dose Ramp-up Schedule(s) When Initiating Sonrotoclax in Participants Treated for Blood Cancers.",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Chronic Lymphocytic Leukemia, CLL, Mantle Cell Lymphoma · 258 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06697184",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06697184",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1189,6 +1174,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07811271",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07811271",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ONC-NCT06697184",
+      "ticker": "ONC",
+      "date": "2029-11-30",
+      "title": "A Study to Investigate the Safety of Novel Dose Ramp-up Schedule(s) When Initiating Sonrotoclax in Participants Treated for Blood Cancers.",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Chronic Lymphocytic Leukemia, CLL, Mantle Cell Lymphoma · 258 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06697184",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06697184",
       "origin": "registry",
       "status": "upcoming"
     },

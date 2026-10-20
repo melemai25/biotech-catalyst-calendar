@@ -11,7 +11,7 @@
   "activeTrials": 10,
   "phase3": 4,
   "phase2": 6,
-  "generatedDate": "2026-10-19",
+  "generatedDate": "2026-10-20",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 13,
     "nextCatalystDate": "2026-11-01",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 13
+    "daysToNextCatalyst": 12
   },
   "trialStats": {
     "completed": 23,
@@ -128,36 +128,6 @@
       "status": "past"
     },
     {
-      "id": "ct-ARWR-NCT02604212",
-      "ticker": "ARWR",
-      "date": "2016-12-15",
-      "title": "A Multi-dose Study of ARC-520 in Patients With Hepatitis B 'e' Antigen (HBeAg) Positive, Chronic Hepatitis B Virus Infection",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Hepatitis B · 32 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02604212",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02604212",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "ct-ARWR-NCT02452528",
-      "ticker": "ARWR",
-      "date": "2016-12-15",
-      "title": "Study of ARC-520 in Participants With Hepatitis B Virus e Antigen (HBeAg) Positive Chronic Hepatitis B Virus",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Chronic Hepatitis B · 4 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02452528",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02452528",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-ARWR-NCT02738008",
       "ticker": "ARWR",
       "date": "2016-12-15",
@@ -169,6 +139,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT02738008",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02738008",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-ARWR-NCT02604212",
+      "ticker": "ARWR",
+      "date": "2016-12-15",
+      "title": "A Multi-dose Study of ARC-520 in Patients With Hepatitis B 'e' Antigen (HBeAg) Positive, Chronic Hepatitis B Virus Infection",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Hepatitis B · 32 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT02604212",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02604212",
       "origin": "registry",
       "status": "past"
     },
@@ -188,17 +173,17 @@
       "status": "past"
     },
     {
-      "id": "ct-ARWR-NCT02065336",
+      "id": "ct-ARWR-NCT02452528",
       "ticker": "ARWR",
-      "date": "2017-01-15",
-      "title": "A Multicenter Study to Determine the Depth and Duration of Hepatitis B Surface Antigen (HBsAg) Reduction After Single or Multiple Doses of ARC-520, in Combination With Entecavir in Patients With Chronic Hepatitis B Virus (HBV) Infection",
+      "date": "2016-12-15",
+      "title": "Study of ARC-520 in Participants With Hepatitis B Virus e Antigen (HBeAg) Positive Chronic Hepatitis B Virus",
       "type": "Trial Milestone",
       "phase": "Phase 2",
       "estimated": false,
-      "summary": "Hepatitis B, Chronic · 58 participants · Status: Terminated",
+      "summary": "Chronic Hepatitis B · 4 participants · Status: Terminated",
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02065336",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02065336",
+      "source": "ClinicalTrials.gov NCT02452528",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02452528",
       "origin": "registry",
       "status": "past"
     },
@@ -214,6 +199,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT02604199",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02604199",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-ARWR-NCT02065336",
+      "ticker": "ARWR",
+      "date": "2017-01-15",
+      "title": "A Multicenter Study to Determine the Depth and Duration of Hepatitis B Surface Antigen (HBsAg) Reduction After Single or Multiple Doses of ARC-520, in Combination With Entecavir in Patients With Chronic Hepatitis B Virus (HBV) Infection",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Hepatitis B, Chronic · 58 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT02065336",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02065336",
       "origin": "registry",
       "status": "past"
     },
@@ -923,21 +923,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ARWR-NCT07473843",
-      "ticker": "ARWR",
-      "date": "2028-07-15",
-      "title": "Study of Zodasiran in Adolescent Participants With Homozygous Familial Hypercholesterolemia",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Homozygous Familial Hypercholesterolemia · 10 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07473843",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07473843",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ARWR-NCT06822790",
       "ticker": "ARWR",
       "date": "2028-07-15",
@@ -949,6 +934,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06822790",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06822790",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ARWR-NCT07473843",
+      "ticker": "ARWR",
+      "date": "2028-07-15",
+      "title": "Study of Zodasiran in Adolescent Participants With Homozygous Familial Hypercholesterolemia",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Homozygous Familial Hypercholesterolemia · 10 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07473843",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07473843",
       "origin": "registry",
       "status": "upcoming"
     },

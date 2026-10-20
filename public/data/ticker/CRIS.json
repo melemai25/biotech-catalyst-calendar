@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-10-19",
+  "generatedDate": "2026-10-20",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-11-10",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 22
+    "daysToNextCatalyst": 21
   },
   "trialStats": {
     "completed": 8,
@@ -67,17 +67,17 @@
     "ongoing": 2,
     "withResults": 2,
     "byPhase": {
-      "phase1": {
-        "completed": 7,
-        "terminated": 2,
-        "total": 9,
-        "completionRatePct": 78
-      },
       "phase2": {
         "completed": 1,
         "terminated": 0,
         "total": 4,
         "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 7,
+        "terminated": 2,
+        "total": 9,
+        "completionRatePct": 78
       }
     },
     "concluded": 10,
@@ -382,6 +382,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-07-30",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108205/000110820526000105/cris-20260724.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-CRIS-0001104659-26-116910",
+      "ticker": "CRIS",
+      "date": "2026-10-19",
+      "title": "8-K filed: Material agreement",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 1.01, 3.02, 9.01. Material agreement. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-19",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108205/000110465926116910/tm2627615d1_8k.htm",
       "origin": "edgar",
       "status": "past"
     },

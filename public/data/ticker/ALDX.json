@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-19",
+  "generatedDate": "2026-10-20",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 57
+    "daysToNextCatalyst": 56
   },
   "trialStats": {
     "completed": 33,
@@ -67,16 +67,16 @@
     "ongoing": 1,
     "withResults": 28,
     "byPhase": {
-      "phase3": {
-        "completed": 13,
-        "terminated": 0,
-        "total": 14,
-        "completionRatePct": 100
-      },
       "phase2": {
         "completed": 20,
         "terminated": 0,
         "total": 21,
+        "completionRatePct": 100
+      },
+      "phase3": {
+        "completed": 13,
+        "terminated": 0,
+        "total": 14,
         "completionRatePct": 100
       }
     },
@@ -518,21 +518,6 @@
       "source": "ClinicalTrials.gov NCT06493604",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06493604",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ALDX-0001213900-25-032947",
-      "ticker": "ALDX",
-      "date": "2025-04-17",
-      "title": "8-K filed: Leadership change",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.02, 9.01. Leadership change. CURRENT REPORT.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-17",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1341235/000121390025032947/ea023875601-8k_aldey.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

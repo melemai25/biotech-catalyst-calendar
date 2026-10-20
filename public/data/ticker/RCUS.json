@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 2,
   "phase2": 2,
-  "generatedDate": "2026-10-19",
+  "generatedDate": "2026-10-20",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 8,
     "nextCatalystDate": "2026-11-05",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 17
+    "daysToNextCatalyst": 16
   },
   "trialStats": {
     "completed": 25,
@@ -689,6 +689,21 @@
       "source": "ClinicalTrials.gov NCT04736173",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04736173",
       "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "edgar-RCUS-0001724521-26-000047",
+      "ticker": "RCUS",
+      "date": "2026-10-20",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 8.01. Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-20",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1724521/000172452126000047/rcus-20261020.htm",
+      "origin": "edgar",
       "status": "past"
     },
     {

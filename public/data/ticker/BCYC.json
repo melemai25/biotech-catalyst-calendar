@@ -11,7 +11,7 @@
   "activeTrials": 8,
   "phase3": 0,
   "phase2": 8,
-  "generatedDate": "2026-10-19",
+  "generatedDate": "2026-10-20",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -54,10 +54,10 @@
     "phase3Count": 0,
     "phase2Count": 8,
     "leadPhase": 2,
-    "upcomingCount": 7,
+    "upcomingCount": 8,
     "nextCatalystDate": "2026-10-29",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 10
+    "daysToNextCatalyst": 9
   },
   "trialStats": {
     "completed": 0,
@@ -182,21 +182,6 @@
       "source": "SEC EDGAR 8-K 2026-02-03",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1761612/000110465926009501/tm264844d1_8k.htm",
       "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "ct-BCYC-NCT04561362",
-      "ticker": "BCYC",
-      "date": "2026-03-15",
-      "title": "Study BT8009-100 in Subjects With Nectin-4 Expressing Advanced Malignancies",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Urinary Bladder Neoplasm, Triple Negative Breast Neoplasms, Hormone Receptor Positive, HER2-negative Neoplasms · 329 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04561362",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04561362",
-      "origin": "registry",
       "status": "past"
     },
     {
@@ -331,6 +316,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04180371",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04180371",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BCYC-NCT04561362",
+      "ticker": "BCYC",
+      "date": "2027-01-15",
+      "title": "Study BT8009-100 in Subjects With Nectin-4 Expressing Advanced Malignancies",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Urinary Bladder Neoplasm, Triple Negative Breast Neoplasms, Hormone Receptor Positive, HER2-negative Neoplasms · 329 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04561362",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04561362",
       "origin": "registry",
       "status": "upcoming"
     },

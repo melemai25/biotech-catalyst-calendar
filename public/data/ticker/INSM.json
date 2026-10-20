@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 5,
   "phase2": 0,
-  "generatedDate": "2026-10-19",
+  "generatedDate": "2026-10-20",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 9,
     "nextCatalystDate": "2026-11-05",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 17
+    "daysToNextCatalyst": 16
   },
   "trialStats": {
     "completed": 36,
@@ -395,21 +395,6 @@
       "source": "ClinicalTrials.gov NCT05147805",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05147805",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-INSM-0001140361-25-014376",
-      "ticker": "INSM",
-      "date": "2025-04-17",
-      "title": "8-K filed: Leadership change",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.02. Leadership change. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-17",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1104506/000114036125014376/ef20047566_8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {
@@ -784,6 +769,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-10-05",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1104506/000114036126038529/ef20083216_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-INSM-0001140361-26-040177",
+      "ticker": "INSM",
+      "date": "2026-10-20",
+      "title": "8-K filed: Leadership change, Reg FD disclosure",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 5.02, 7.01, 9.01. Leadership change; Reg FD disclosure. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-20",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1104506/000114036126040177/ef20084030_8k.htm",
       "origin": "edgar",
       "status": "past"
     },

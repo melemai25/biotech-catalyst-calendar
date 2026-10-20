@@ -11,7 +11,7 @@
   "activeTrials": 14,
   "phase3": 5,
   "phase2": 9,
-  "generatedDate": "2026-10-19",
+  "generatedDate": "2026-10-20",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 14,
     "nextCatalystDate": "2026-12-06",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 48
+    "daysToNextCatalyst": 47
   },
   "trialStats": {
     "completed": 61,
@@ -938,21 +938,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BMRN-NCT04554940",
-      "ticker": "BMRN",
-      "date": "2027-12-15",
-      "title": "A Clinical Trial to Evaluate Safety of Vosoritide in At-risk Infants With Achondroplasia",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Achondroplasia · 20 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04554940",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04554940",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BMRN-NCT02724228",
       "ticker": "BMRN",
       "date": "2027-12-15",
@@ -979,6 +964,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04480567",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04480567",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BMRN-NCT04554940",
+      "ticker": "BMRN",
+      "date": "2027-12-15",
+      "title": "A Clinical Trial to Evaluate Safety of Vosoritide in At-risk Infants With Achondroplasia",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Achondroplasia · 20 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04554940",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04554940",
       "origin": "registry",
       "status": "upcoming"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 1,
   "phase2": 4,
-  "generatedDate": "2026-10-19",
+  "generatedDate": "2026-10-20",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2026-12-28",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 70
+    "daysToNextCatalyst": 69
   },
   "trialStats": {
     "completed": 39,
@@ -152,21 +152,6 @@
       "status": "past"
     },
     {
-      "id": "ct-GKOS-NCT02873806",
-      "ticker": "GKOS",
-      "date": "2019-11-08",
-      "title": "Two Trabecular Micro-bypass Stents & Postoperative Travoprost to Treat Glaucoma Subjects on Two Hypotensive Agents",
-      "type": "Trial Milestone",
-      "phase": "Phase 4",
-      "estimated": false,
-      "summary": "Open-angle Glaucoma · 53 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT02873806",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02873806",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-GKOS-NCT02868190",
       "ticker": "GKOS",
       "date": "2019-11-08",
@@ -178,6 +163,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT02868190",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02868190",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-GKOS-NCT02873806",
+      "ticker": "GKOS",
+      "date": "2019-11-08",
+      "title": "Two Trabecular Micro-bypass Stents & Postoperative Travoprost to Treat Glaucoma Subjects on Two Hypotensive Agents",
+      "type": "Trial Milestone",
+      "phase": "Phase 4",
+      "estimated": false,
+      "summary": "Open-angle Glaucoma · 53 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT02873806",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02873806",
       "origin": "registry",
       "status": "past"
     },

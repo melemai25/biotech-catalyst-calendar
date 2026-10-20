@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 2,
   "phase2": 1,
-  "generatedDate": "2026-10-19",
+  "generatedDate": "2026-10-20",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-10-29",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 10
+    "daysToNextCatalyst": 9
   },
   "trialStats": {
     "completed": 1,
@@ -67,6 +67,12 @@
     "ongoing": 5,
     "withResults": 0,
     "byPhase": {
+      "phase3": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 2,
+        "completionRatePct": null
+      },
       "other": {
         "completed": 1,
         "terminated": 0,
@@ -77,12 +83,6 @@
         "completed": 0,
         "terminated": 0,
         "total": 1,
-        "completionRatePct": null
-      },
-      "phase3": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 2,
         "completionRatePct": null
       },
       "phase1": {
@@ -214,6 +214,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-10-01",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1778922/000177892226000049/sgp-20261001.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-SGP-0001778922-26-000052",
+      "ticker": "SGP",
+      "date": "2026-10-19",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-19",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1778922/000177892226000052/sgp-20261019.htm",
       "origin": "edgar",
       "status": "past"
     },

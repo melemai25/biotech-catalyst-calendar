@@ -11,7 +11,7 @@
   "activeTrials": 15,
   "phase3": 2,
   "phase2": 13,
-  "generatedDate": "2026-10-19",
+  "generatedDate": "2026-10-20",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -50,46 +50,46 @@
     "fcfMarginPct": -258.2,
     "marketCapUsd": null,
     "entityName": "Moderna, Inc.",
-    "activeTrials": 93,
+    "activeTrials": 94,
     "phase3Count": 23,
     "phase2Count": 42,
     "leadPhase": 4,
-    "upcomingCount": 25,
+    "upcomingCount": 26,
     "nextCatalystDate": "2026-11-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 42
+    "daysToNextCatalyst": 41
   },
   "trialStats": {
     "completed": 76,
     "terminated": 6,
     "withdrawn": 4,
     "suspended": 0,
-    "ongoing": 30,
+    "ongoing": 31,
     "withResults": 36,
     "byPhase": {
+      "phase2": {
+        "completed": 21,
+        "terminated": 3,
+        "total": 40,
+        "completionRatePct": 88
+      },
+      "other": {
+        "completed": 17,
+        "terminated": 1,
+        "total": 25,
+        "completionRatePct": 94
+      },
       "phase1": {
         "completed": 18,
         "terminated": 1,
         "total": 29,
         "completionRatePct": 95
       },
-      "other": {
-        "completed": 17,
-        "terminated": 1,
-        "total": 24,
-        "completionRatePct": 94
-      },
       "phase3": {
         "completed": 20,
         "terminated": 1,
         "total": 23,
         "completionRatePct": 95
-      },
-      "phase2": {
-        "completed": 21,
-        "terminated": 3,
-        "total": 40,
-        "completionRatePct": 88
       }
     },
     "concluded": 86,
@@ -1369,6 +1369,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05095727",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05095727",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-MRNA-NCT07884175",
+      "ticker": "MRNA",
+      "date": "2026-12-07",
+      "title": "A Study of Updated mRNA Seasonal Influenza Vaccines",
+      "type": "Trial Milestone",
+      "phase": "Phase 4",
+      "estimated": false,
+      "summary": "Seasonal Influenza · 200 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07884175",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07884175",
       "origin": "registry",
       "status": "upcoming"
     },

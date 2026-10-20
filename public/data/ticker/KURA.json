@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-10-19",
+  "generatedDate": "2026-10-20",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 7,
     "leadPhase": 3,
     "upcomingCount": 7,
-    "nextCatalystDate": "2026-10-20",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "nextCatalystDate": "2026-12-15",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 56
   },
   "trialStats": {
     "completed": 5,
@@ -67,18 +67,6 @@
     "ongoing": 8,
     "withResults": 5,
     "byPhase": {
-      "other": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
-      },
-      "phase3": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 1,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 0,
         "terminated": 2,
@@ -90,6 +78,18 @@
         "terminated": 1,
         "total": 7,
         "completionRatePct": 83
+      },
+      "other": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 2,
+        "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 1,
+        "completionRatePct": null
       }
     },
     "concluded": 9,
@@ -503,21 +503,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-KURA-next-earnings",
-      "ticker": "KURA",
-      "date": "2026-10-20",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001422143&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-KURA-NCT06001788",
       "ticker": "KURA",
       "date": "2026-12-15",
@@ -530,6 +515,21 @@
       "source": "ClinicalTrials.gov NCT06001788",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06001788",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-KURA-next-earnings",
+      "ticker": "KURA",
+      "date": "2026-12-28",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001422143&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {

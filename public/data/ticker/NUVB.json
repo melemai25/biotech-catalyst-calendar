@@ -11,7 +11,7 @@
   "activeTrials": 8,
   "phase3": 4,
   "phase2": 4,
-  "generatedDate": "2026-10-19",
+  "generatedDate": "2026-10-20",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 8,
     "nextCatalystDate": "2026-12-24",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 66
+    "daysToNextCatalyst": 65
   },
   "trialStats": {
     "completed": 4,
@@ -67,17 +67,17 @@
     "ongoing": 10,
     "withResults": 0,
     "byPhase": {
-      "phase2": {
-        "completed": 0,
-        "terminated": 1,
-        "total": 7,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 4,
         "terminated": 2,
         "total": 7,
         "completionRatePct": 67
+      },
+      "phase2": {
+        "completed": 0,
+        "terminated": 1,
+        "total": 7,
+        "completionRatePct": null
       },
       "phase3": {
         "completed": 0,
@@ -525,7 +525,7 @@
       "type": "Trial Milestone",
       "phase": "Phase 2",
       "estimated": false,
-      "summary": "Grade 2 IDH1-mutant Glioma, Grade 3 IDH1-mutant Glioma, Glioma · 40 participants · Status: Not Yet Recruiting",
+      "summary": "Grade 2 IDH1-mutant Glioma, Grade 3 IDH1-mutant Glioma, Glioma · 40 participants · Status: Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT07703436",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07703436",

@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-19",
+  "generatedDate": "2026-10-20",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-11-13",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 25
+    "daysToNextCatalyst": 24
   },
   "trialStats": {
     "completed": 6,
@@ -67,17 +67,17 @@
     "ongoing": 1,
     "withResults": 1,
     "byPhase": {
-      "phase2": {
-        "completed": 4,
-        "terminated": 0,
-        "total": 4,
-        "completionRatePct": 100
-      },
       "phase1": {
         "completed": 2,
         "terminated": 0,
         "total": 2,
         "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 4,
+        "terminated": 0,
+        "total": 4,
+        "completionRatePct": 100
       },
       "phase3": {
         "completed": 0,
@@ -179,21 +179,6 @@
       "source": "ClinicalTrials.gov NCT05319587",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05319587",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-MBRX-0001437749-25-012229",
-      "ticker": "MBRX",
-      "date": "2025-04-17",
-      "title": "8-K filed: Reg FD disclosure",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 7.01, 9.01. Reg FD disclosure. FORM 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-17",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1659617/000143774925012229/mbrx20250416_8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {
@@ -1348,6 +1333,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-10-16",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1659617/000143774926032762/mbrx20261015_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-MBRX-0001437749-26-032969",
+      "ticker": "MBRX",
+      "date": "2026-10-20",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 3.03, 5.03, 8.01, 9.01. Other event. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-20",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1659617/000143774926032969/mbrx20261015d_8k.htm",
       "origin": "edgar",
       "status": "past"
     },

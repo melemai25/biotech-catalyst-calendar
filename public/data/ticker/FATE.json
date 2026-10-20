@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-10-19",
+  "generatedDate": "2026-10-20",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2026-11-13",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 25
+    "daysToNextCatalyst": 24
   },
   "trialStats": {
     "completed": 7,
@@ -92,21 +92,6 @@
   },
   "events": [
     {
-      "id": "ct-FATE-NCT02354443",
-      "ticker": "FATE",
-      "date": "2016-12-15",
-      "title": "A Trial of a Single ProHema-CB Product Transplant in Pediatric Patients With Inherited Metabolic Disorders",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Metabolic Disorders · 1 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02354443",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02354443",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-FATE-NCT02354417",
       "ticker": "FATE",
       "date": "2016-12-15",
@@ -118,6 +103,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT02354417",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02354417",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-FATE-NCT02354443",
+      "ticker": "FATE",
+      "date": "2016-12-15",
+      "title": "A Trial of a Single ProHema-CB Product Transplant in Pediatric Patients With Inherited Metabolic Disorders",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Metabolic Disorders · 1 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT02354443",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02354443",
       "origin": "registry",
       "status": "past"
     },
@@ -182,6 +182,21 @@
       "status": "past"
     },
     {
+      "id": "ct-FATE-NCT05395052",
+      "ticker": "FATE",
+      "date": "2023-08-11",
+      "title": "FT536 Monotherapy and in Combination With Monoclonal Antibodies in Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Non Small Cell Lung Cancer, Colorectal Cancer, Breast Cancer · 5 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05395052",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05395052",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "ct-FATE-NCT04551885",
       "ticker": "FATE",
       "date": "2023-08-11",
@@ -208,21 +223,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05069935",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05069935",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "ct-FATE-NCT05395052",
-      "ticker": "FATE",
-      "date": "2023-08-11",
-      "title": "FT536 Monotherapy and in Combination With Monoclonal Antibodies in Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Non Small Cell Lung Cancer, Colorectal Cancer, Breast Cancer · 5 participants · Status: Terminated",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05395052",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05395052",
       "origin": "registry",
       "status": "past"
     },

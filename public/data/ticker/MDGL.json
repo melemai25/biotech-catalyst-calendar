@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 3,
   "phase2": 2,
-  "generatedDate": "2026-10-19",
+  "generatedDate": "2026-10-20",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 8,
     "nextCatalystDate": "2026-10-29",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 10
+    "daysToNextCatalyst": 9
   },
   "trialStats": {
     "completed": 13,
@@ -67,17 +67,17 @@
     "ongoing": 8,
     "withResults": 2,
     "byPhase": {
+      "phase3": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 4,
+        "completionRatePct": null
+      },
       "phase1": {
         "completed": 10,
         "terminated": 0,
         "total": 11,
         "completionRatePct": 100
-      },
-      "other": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
       },
       "phase2": {
         "completed": 2,
@@ -85,10 +85,10 @@
         "total": 4,
         "completionRatePct": null
       },
-      "phase3": {
-        "completed": 1,
+      "other": {
+        "completed": 0,
         "terminated": 0,
-        "total": 4,
+        "total": 2,
         "completionRatePct": null
       }
     },
@@ -230,21 +230,6 @@
       "source": "ClinicalTrials.gov NCT06397872",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06397872",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-MDGL-0001628280-25-018242",
-      "ticker": "MDGL",
-      "date": "2025-04-17",
-      "title": "8-K filed: Leadership change",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.02. Leadership change. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-17",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1157601/000162828025018242/mdgl-20250416.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {
@@ -488,21 +473,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-MDGL-NCT07830758",
-      "ticker": "MDGL",
-      "date": "2027-11-15",
-      "title": "Resmetirom in Patients With MASH and HFpEF",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "MASH - Metabolic Dysfunction-Associated Steatohepatitis, Heart Failure With Preserved Ejection Fraction (HFPEF) · 90 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07830758",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07830758",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-MDGL-NCT07848191",
       "ticker": "MDGL",
       "date": "2027-11-15",
@@ -514,6 +484,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07848191",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07848191",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-MDGL-NCT07830758",
+      "ticker": "MDGL",
+      "date": "2027-11-15",
+      "title": "Resmetirom in Patients With MASH and HFpEF",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "MASH - Metabolic Dysfunction-Associated Steatohepatitis, Heart Failure With Preserved Ejection Fraction (HFPEF) · 90 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07830758",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07830758",
       "origin": "registry",
       "status": "upcoming"
     },
