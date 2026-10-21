@@ -19,12 +19,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../styles.css?v=17" />
+<style>
+  /* Here rather than in styles.css because it belongs to these generated pages
+     and nothing else. min-width:0 is the part that matters: a flex or grid
+     child defaults to min-content width, which a wide table happily exceeds. */
+  .seo-scroll{overflow-x:auto;max-width:100%;min-width:0;-webkit-overflow-scrolling:touch;}
+  .seo-scroll > .seo-table{margin:0;}
+</style>
 <script type="application/ld+json">[{"@context":"https://schema.org","@type":"Event","name":"Next quarterly earnings (projected)","startDate":"2026-11-13","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.","organizer":{"@type":"Organization","name":"LTRN"}},{"@context":"https://schema.org","@type":"Event","name":"A Study of LP-300 With Carboplatin and Pemetrexed in Never Smokers With Advanced Lung Adenocarcinoma","startDate":"2026-12-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Adenocarcinoma of Lung, Carcinoma, Non-Small-Cell Lung · 90 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"LTRN"}},{"@context":"https://schema.org","@type":"Event","name":"Safety, Pharmacokinetics, and Clinical Activity of LP-284 in Adult Patients With Relapsed or Refractory Lymphomas and Solid Tumors","startDate":"2028-11-30","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Relapsed or Refractory Lymphomas, Advanced Solid Tumor · 110 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"LTRN"}}]</script>
 </head>
 <body>
 <div class="app seo-page">
 
-<nav class="seo-crumb"><a href="../../">Biolyst</a> › LTRN</nav>
+<nav class="seo-crumb"><a href="../../">Biolyst</a> › <a href="../../catalyst-calendar/">Catalyst calendar</a> › LTRN</nav>
 <header class="seo-header">
   <h1>LTRN catalyst calendar</h1>
   <p class="seo-sub">Lantern Pharma Inc.</p>
@@ -36,7 +43,7 @@
 
 <section>
   <h2>Upcoming catalysts</h2>
-  <table class="seo-table">
+  <div class="seo-scroll"><table class="seo-table">
 <thead><tr><th>Date</th><th>Event</th><th>Type</th><th>Phase</th></tr></thead>
 <tbody>
 <tr>
@@ -60,7 +67,7 @@
 <td>Trial Milestone</td>
 <td>Phase 1</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 </section>
 
 <div class="seo-cta">
@@ -70,7 +77,7 @@
 
 <section>
   <h2>Recent history</h2>
-  <table class="seo-table">
+  <div class="seo-scroll"><table class="seo-table">
 <thead><tr><th>Date</th><th>Event</th><th>Type</th><th>Phase</th></tr></thead>
 <tbody>
 <tr>
@@ -199,7 +206,7 @@
 <td>Earnings</td>
 <td>—</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 </section>
 
 <section class="seo-about">

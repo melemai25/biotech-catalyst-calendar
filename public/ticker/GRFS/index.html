@@ -19,12 +19,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../styles.css?v=17" />
+<style>
+  /* Here rather than in styles.css because it belongs to these generated pages
+     and nothing else. min-width:0 is the part that matters: a flex or grid
+     child defaults to min-content width, which a wide table happily exceeds. */
+  .seo-scroll{overflow-x:auto;max-width:100%;min-width:0;-webkit-overflow-scrolling:touch;}
+  .seo-scroll > .seo-table{margin:0;}
+</style>
 <script type="application/ld+json">[{"@context":"https://schema.org","@type":"Event","name":"A Non-inferiority Pharmacokinetic and Safety/Tolerability Study of Two Different Doses of Weekly SC Alpha1-PI 15% Compared With Corresponding Standard IV Alpha1-PI in Participants With Alpha1-Antitrypsin Deficiency (AATD)","startDate":"2027-09-30","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Alpha 1 Antitrypsin Deficiency · 40 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"GRFS"}},{"@context":"https://schema.org","@type":"Event","name":"A Study to Evaluate the Pharmacokinetics and Safety of XEMBIFY Versus Gamunex-C in Participants With Chronic Inflammatory Demyelinating Polyradiculoneuropathy","startDate":"2027-12-31","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"CIDP (Chronic Inflammatory Demyelinating Polyradiculoneuropathy) · 40 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"GRFS"}},{"@context":"https://schema.org","@type":"Event","name":"Long Term Safety of Alpha1-Proteinase Inhibitor in Subjects With Alpha1 Antitrypsin Deficiency","startDate":"2028-09-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Pulmonary Emphysema in Alpha-1 Antitrypsin Deficiency · 290 participants · Status: Enrolling By Invitation","organizer":{"@type":"Organization","name":"GRFS"}},{"@context":"https://schema.org","@type":"Event","name":"A Study to Evaluate Efficacy, Safety, and PK of XEMBIFY®+Standard Medical Treatment (SMT) Compared to Placebo+SMT to Prevent Infections in Participants With HGG and Recurrent or Severe Infections Associated With B-cell Chronic Lymphocytic Leukemia, Multiple Myeloma, and Non-Hodgkin Lymphoma","startDate":"2029-08-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Hypogammaglobulinemia, Bacterial Infections, B-cell Chronic Lymphocytic Leukemia · 386 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"GRFS"}}]</script>
 </head>
 <body>
 <div class="app seo-page">
 
-<nav class="seo-crumb"><a href="../../">Biolyst</a> › GRFS</nav>
+<nav class="seo-crumb"><a href="../../">Biolyst</a> › <a href="../../catalyst-calendar/">Catalyst calendar</a> › GRFS</nav>
 <header class="seo-header">
   <h1>GRFS catalyst calendar</h1>
   <p class="seo-sub">Grifols SA</p>
@@ -36,7 +43,7 @@
 
 <section>
   <h2>Upcoming catalysts</h2>
-  <table class="seo-table">
+  <div class="seo-scroll"><table class="seo-table">
 <thead><tr><th>Date</th><th>Event</th><th>Type</th><th>Phase</th></tr></thead>
 <tbody>
 <tr>
@@ -67,7 +74,7 @@
 <td>Trial Milestone</td>
 <td>Phase 3</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 </section>
 
 <div class="seo-cta">
@@ -77,7 +84,7 @@
 
 <section>
   <h2>Recent history</h2>
-  <table class="seo-table">
+  <div class="seo-scroll"><table class="seo-table">
 <thead><tr><th>Date</th><th>Event</th><th>Type</th><th>Phase</th></tr></thead>
 <tbody>
 <tr>
@@ -290,7 +297,7 @@
 <td>Trial Milestone</td>
 <td>Phase 3</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 </section>
 
 <section class="seo-about">

@@ -19,12 +19,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../styles.css?v=17" />
+<style>
+  /* Here rather than in styles.css because it belongs to these generated pages
+     and nothing else. min-width:0 is the part that matters: a flex or grid
+     child defaults to min-content width, which a wide table happily exceeds. */
+  .seo-scroll{overflow-x:auto;max-width:100%;min-width:0;-webkit-overflow-scrolling:touch;}
+  .seo-scroll > .seo-table{margin:0;}
+</style>
 <script type="application/ld+json">[{"@context":"https://schema.org","@type":"Event","name":"Next quarterly earnings (projected)","startDate":"2026-11-01","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.","organizer":{"@type":"Organization","name":"KRYS"}},{"@context":"https://schema.org","@type":"Event","name":"A Study to Investigate Safety and Efficacy of KB111 for the Treatment of Hailey-Hailey Disease","startDate":"2026-11-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Hailey Hailey Disease, Skin Diseases, Lesion Skin · 7 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"KRYS"}},{"@context":"https://schema.org","@type":"Event","name":"A Study Comparing KB803 and Matched Placebo in Patients With Dystrophic Epidermolysis Bullosa","startDate":"2026-12-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Dystrophic Epidermolysis Bullosa, DEB - Dystrophic Epidermolysis Bullosa, Recessive Dystrophic Epidermolysis Bullosa · 16 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"KRYS"}},{"@context":"https://schema.org","@type":"Event","name":"A Study Assessing KB407 for the Treatment of Cystic Fibrosis","startDate":"2026-12-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Cystic Fibrosis · 20 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"KRYS"}},{"@context":"https://schema.org","@type":"Event","name":"A Study Comparing KB801 Verse Placebo in Patients With Stage 2 or 3 Neurotrophic Keratitis","startDate":"2026-12-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Neurotrophic Keratitis · 60 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"KRYS"}},{"@context":"https://schema.org","@type":"Event","name":"A Study Assessing KB707 for the Treatment of Advanced Solid Tumor Malignancies Affecting the Lungs","startDate":"2027-02-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Lung Cancer, Non-small Cell, Lung Cancer Metastatic, Solid Tumor, Adult · 250 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"KRYS"}},{"@context":"https://schema.org","@type":"Event","name":"A Study Assessing KB707 for the Treatment of Locally Advanced or Metastatic Solid Tumors","startDate":"2027-07-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Cancer, Melanoma Stage III, Melanoma Stage IV · 240 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"KRYS"}}]</script>
 </head>
 <body>
 <div class="app seo-page">
 
-<nav class="seo-crumb"><a href="../../">Biolyst</a> › KRYS</nav>
+<nav class="seo-crumb"><a href="../../">Biolyst</a> › <a href="../../catalyst-calendar/">Catalyst calendar</a> › KRYS</nav>
 <header class="seo-header">
   <h1>KRYS catalyst calendar</h1>
   <p class="seo-sub">Krystal Biotech, Inc.</p>
@@ -37,7 +44,7 @@
 
 <section>
   <h2>Upcoming catalysts</h2>
-  <table class="seo-table">
+  <div class="seo-scroll"><table class="seo-table">
 <thead><tr><th>Date</th><th>Event</th><th>Type</th><th>Phase</th></tr></thead>
 <tbody>
 <tr>
@@ -89,7 +96,7 @@
 <td>Trial Milestone</td>
 <td>Phase 1/Phase 2</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 </section>
 
 <div class="seo-cta">
@@ -99,7 +106,7 @@
 
 <section>
   <h2>Recent history</h2>
-  <table class="seo-table">
+  <div class="seo-scroll"><table class="seo-table">
 <thead><tr><th>Date</th><th>Event</th><th>Type</th><th>Phase</th></tr></thead>
 <tbody>
 <tr>
@@ -270,7 +277,7 @@
 <td>Trial Milestone</td>
 <td>Phase 1/Phase 2</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 </section>
 
 <section class="seo-about">

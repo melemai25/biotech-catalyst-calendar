@@ -19,12 +19,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../styles.css?v=17" />
+<style>
+  /* Here rather than in styles.css because it belongs to these generated pages
+     and nothing else. min-width:0 is the part that matters: a flex or grid
+     child defaults to min-content width, which a wide table happily exceeds. */
+  .seo-scroll{overflow-x:auto;max-width:100%;min-width:0;-webkit-overflow-scrolling:touch;}
+  .seo-scroll > .seo-table{margin:0;}
+</style>
 <script type="application/ld+json">[{"@context":"https://schema.org","@type":"Event","name":"Next quarterly earnings (projected)","startDate":"2026-12-10","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.","organizer":{"@type":"Organization","name":"SMMT"}},{"@context":"https://schema.org","@type":"Event","name":"Clinical Study of Ivonescimab for First-line Treatment of Metastatic NSCLC Patients With High PD-L1","startDate":"2028-04-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Non-Small Cell Lung Cancer · 780 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"SMMT"}},{"@context":"https://schema.org","@type":"Event","name":"Phase III Study of Ivonescimab or Bevacizumab Combined With FOLFOX in Patients With Metastatic Colorectal Cancer","startDate":"2028-05-31","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Metastatic Colorectal Cancer (CRC) · 600 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"SMMT"}},{"@context":"https://schema.org","@type":"Event","name":"Clinical Study of Ivonescimab for First-line Treatment of Metastatic NSCLC Patients","startDate":"2028-12-31","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Non-Small Cell Lung Cancer · 1,600 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"SMMT"}},{"@context":"https://schema.org","@type":"Event","name":"A Clinical Study of Ivonescimab in Combination With Cadonilimab or Ipilimumab for Advanced Renal Cancer","startDate":"2029-04-12","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Renal Cell Carcinoma, Clear Cell · 100 participants · Status: Not Yet Recruiting","organizer":{"@type":"Organization","name":"SMMT"}},{"@context":"https://schema.org","@type":"Event","name":"A Study of Ivonescimab in Combination With Enfortumab Vedotin vs Pembrolizumab in Combination With Enfortumab Vedotin in Metastatic Urothelial Carcinoma","startDate":"2030-10-31","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Metastatic Urothelial Carcinoma, Metastatic Urothelial Carcinoma (UC) · 800 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"SMMT"}}]</script>
 </head>
 <body>
 <div class="app seo-page">
 
-<nav class="seo-crumb"><a href="../../">Biolyst</a> › SMMT</nav>
+<nav class="seo-crumb"><a href="../../">Biolyst</a> › <a href="../../catalyst-calendar/">Catalyst calendar</a> › SMMT</nav>
 <header class="seo-header">
   <h1>SMMT catalyst calendar</h1>
   <p class="seo-sub">Summit Therapeutics Inc.</p>
@@ -37,7 +44,7 @@
 
 <section>
   <h2>Upcoming catalysts</h2>
-  <table class="seo-table">
+  <div class="seo-scroll"><table class="seo-table">
 <thead><tr><th>Date</th><th>Event</th><th>Type</th><th>Phase</th></tr></thead>
 <tbody>
 <tr>
@@ -82,7 +89,7 @@
 <td>Trial Milestone</td>
 <td>Phase 2/Phase 3</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 </section>
 
 <div class="seo-cta">
@@ -92,7 +99,7 @@
 
 <section>
   <h2>Recent history</h2>
-  <table class="seo-table">
+  <div class="seo-scroll"><table class="seo-table">
 <thead><tr><th>Date</th><th>Event</th><th>Type</th><th>Phase</th></tr></thead>
 <tbody>
 <tr>
@@ -305,7 +312,7 @@
 <td>Trial Milestone</td>
 <td>Phase 3</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 </section>
 
 <section class="seo-about">

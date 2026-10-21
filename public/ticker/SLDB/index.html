@@ -19,12 +19,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../styles.css?v=17" />
+<style>
+  /* Here rather than in styles.css because it belongs to these generated pages
+     and nothing else. min-width:0 is the part that matters: a flex or grid
+     child defaults to min-content width, which a wide table happily exceeds. */
+  .seo-scroll{overflow-x:auto;max-width:100%;min-width:0;-webkit-overflow-scrolling:touch;}
+  .seo-scroll > .seo-table{margin:0;}
+</style>
 <script type="application/ld+json">[{"@context":"https://schema.org","@type":"Event","name":"Microdystrophin Gene Transfer Study in Adolescents and Children With DMD","startDate":"2026-11-30","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Duchenne Muscular Dystrophy · 12 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"SLDB"}},{"@context":"https://schema.org","@type":"Event","name":"A Study of SGT-003 Gene Therapy in Duchenne Muscular Dystrophy (INSPIRE DUCHENNE)","startDate":"2027-05-06","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Duchenne Muscular Dystrophy · 60 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"SLDB"}},{"@context":"https://schema.org","@type":"Event","name":"A Study of SGT-501 Gene Therapy in Catecholaminergic Polymorphic Ventricular Tachycardia (CPVT)","startDate":"2027-06-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Catecholaminergic Polymorphic Ventricular Tachycardia · 18 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"SLDB"}},{"@context":"https://schema.org","@type":"Event","name":"A Study of SGT-212 Gene Therapy in Friedreich's Ataxia","startDate":"2028-03-21","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Friedreich's Ataxia (FA) · 10 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"SLDB"}},{"@context":"https://schema.org","@type":"Event","name":"A Study of SGT-003 Gene Therapy in Ambulant Males With Duchenne Muscular Dystrophy (IMPACT DUCHENNE)","startDate":"2029-01-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Duchenne Muscular Dystrophy · 80 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"SLDB"}}]</script>
 </head>
 <body>
 <div class="app seo-page">
 
-<nav class="seo-crumb"><a href="../../">Biolyst</a> › SLDB</nav>
+<nav class="seo-crumb"><a href="../../">Biolyst</a> › <a href="../../catalyst-calendar/">Catalyst calendar</a> › SLDB</nav>
 <header class="seo-header">
   <h1>SLDB catalyst calendar</h1>
   <p class="seo-sub">Solid Biosciences Inc.</p>
@@ -36,7 +43,7 @@
 
 <section>
   <h2>Upcoming catalysts</h2>
-  <table class="seo-table">
+  <div class="seo-scroll"><table class="seo-table">
 <thead><tr><th>Date</th><th>Event</th><th>Type</th><th>Phase</th></tr></thead>
 <tbody>
 <tr>
@@ -74,7 +81,7 @@
 <td>Trial Milestone</td>
 <td>Phase 3</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 </section>
 
 <div class="seo-cta">
@@ -84,7 +91,7 @@
 
 <section>
   <h2>Recent history</h2>
-  <table class="seo-table">
+  <div class="seo-scroll"><table class="seo-table">
 <thead><tr><th>Date</th><th>Event</th><th>Type</th><th>Phase</th></tr></thead>
 <tbody>
 <tr>
@@ -136,7 +143,7 @@
 <td>Filing</td>
 <td>—</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 </section>
 
 <section class="seo-about">

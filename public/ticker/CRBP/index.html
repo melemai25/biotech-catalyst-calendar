@@ -19,12 +19,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../styles.css?v=17" />
+<style>
+  /* Here rather than in styles.css because it belongs to these generated pages
+     and nothing else. min-width:0 is the part that matters: a flex or grid
+     child defaults to min-content width, which a wide table happily exceeds. */
+  .seo-scroll{overflow-x:auto;max-width:100%;min-width:0;-webkit-overflow-scrolling:touch;}
+  .seo-scroll > .seo-table{margin:0;}
+</style>
 <script type="application/ld+json">[{"@context":"https://schema.org","@type":"Event","name":"First-in-human Study of CRB-601-01 to Treat Patients With Advanced Solid Tumor.","startDate":"2026-11-01","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Solid Tumor · 156 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"CRBP"}},{"@context":"https://schema.org","@type":"Event","name":"Next quarterly earnings (projected)","startDate":"2026-11-05","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.","organizer":{"@type":"Organization","name":"CRBP"}},{"@context":"https://schema.org","@type":"Event","name":"A Phase 1/2 Study to Investigate CRB-701 in Solid Tumors","startDate":"2027-01-16","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Solid Tumor, Adult · 348 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"CRBP"}},{"@context":"https://schema.org","@type":"Event","name":"A Study to Evaluate CRB-701 Compared to Investigator's Choice Therapy in Previously Treated Oropharyngeal Squamous Cell Carcinoma","startDate":"2027-12-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Oropharyngeal Carcinoma (OPC) · 260 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"CRBP"}}]</script>
 </head>
 <body>
 <div class="app seo-page">
 
-<nav class="seo-crumb"><a href="../../">Biolyst</a> › CRBP</nav>
+<nav class="seo-crumb"><a href="../../">Biolyst</a> › <a href="../../catalyst-calendar/">Catalyst calendar</a> › CRBP</nav>
 <header class="seo-header">
   <h1>CRBP catalyst calendar</h1>
   <p class="seo-sub">Corbus Pharmaceuticals Holdings, Inc.</p>
@@ -37,7 +44,7 @@
 
 <section>
   <h2>Upcoming catalysts</h2>
-  <table class="seo-table">
+  <div class="seo-scroll"><table class="seo-table">
 <thead><tr><th>Date</th><th>Event</th><th>Type</th><th>Phase</th></tr></thead>
 <tbody>
 <tr>
@@ -68,7 +75,7 @@
 <td>Trial Milestone</td>
 <td>Phase 3</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 </section>
 
 <div class="seo-cta">
@@ -78,7 +85,7 @@
 
 <section>
   <h2>Recent history</h2>
-  <table class="seo-table">
+  <div class="seo-scroll"><table class="seo-table">
 <thead><tr><th>Date</th><th>Event</th><th>Type</th><th>Phase</th></tr></thead>
 <tbody>
 <tr>
@@ -291,7 +298,7 @@
 <td>Trial Milestone</td>
 <td>Phase 2</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 </section>
 
 <section class="seo-about">

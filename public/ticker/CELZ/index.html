@@ -19,12 +19,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../styles.css?v=17" />
+<style>
+  /* Here rather than in styles.css because it belongs to these generated pages
+     and nothing else. min-width:0 is the part that matters: a flex or grid
+     child defaults to min-content width, which a wide table happily exceeds. */
+  .seo-scroll{overflow-x:auto;max-width:100%;min-width:0;-webkit-overflow-scrolling:touch;}
+  .seo-scroll > .seo-table{margin:0;}
+</style>
 <script type="application/ld+json">[{"@context":"https://schema.org","@type":"Event","name":"Safety, Tolerability, and Effectiveness of Intramuscular Injection of CELZ-201-DDT for the Treatment of Chronic Lower Back Pain","startDate":"2027-01-20","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Chronic Low-back Pain, Degenerative Disc Disease · 45 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"CELZ"}},{"@context":"https://schema.org","@type":"Event","name":"Safety and Efficacy of CELZ-201 in Patients With Recent Onset Type 1 Diabetes","startDate":"2027-01-31","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Type 1 Diabetes, Diabetes Mellitus, Type 1 · 18 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"CELZ"}}]</script>
 </head>
 <body>
 <div class="app seo-page">
 
-<nav class="seo-crumb"><a href="../../">Biolyst</a> › CELZ</nav>
+<nav class="seo-crumb"><a href="../../">Biolyst</a> › <a href="../../catalyst-calendar/">Catalyst calendar</a> › CELZ</nav>
 <header class="seo-header">
   <h1>CELZ catalyst calendar</h1>
   <p class="seo-sub">CREATIVE MEDICAL TECHNOLOGY HOLDINGS, INC.</p>
@@ -35,7 +42,7 @@
 
 <section>
   <h2>Upcoming catalysts</h2>
-  <table class="seo-table">
+  <div class="seo-scroll"><table class="seo-table">
 <thead><tr><th>Date</th><th>Event</th><th>Type</th><th>Phase</th></tr></thead>
 <tbody>
 <tr>
@@ -52,7 +59,7 @@
 <td>Trial Milestone</td>
 <td>Phase 1/Phase 2</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 </section>
 
 <div class="seo-cta">
@@ -62,7 +69,7 @@
 
 <section>
   <h2>Recent history</h2>
-  <table class="seo-table">
+  <div class="seo-scroll"><table class="seo-table">
 <thead><tr><th>Date</th><th>Event</th><th>Type</th><th>Phase</th></tr></thead>
 <tbody>
 <tr>
@@ -93,7 +100,7 @@
 <td>Corporate</td>
 <td>—</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 </section>
 
 <section class="seo-about">

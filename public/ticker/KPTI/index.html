@@ -19,12 +19,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../styles.css?v=17" />
+<style>
+  /* Here rather than in styles.css because it belongs to these generated pages
+     and nothing else. min-width:0 is the part that matters: a flex or grid
+     child defaults to min-content width, which a wide table happily exceeds. */
+  .seo-scroll{overflow-x:auto;max-width:100%;min-width:0;-webkit-overflow-scrolling:touch;}
+  .seo-scroll > .seo-table{margin:0;}
+</style>
 <script type="application/ld+json">[{"@context":"https://schema.org","@type":"Event","name":"Next quarterly earnings (projected)","startDate":"2026-10-22","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.","organizer":{"@type":"Organization","name":"KPTI"}},{"@context":"https://schema.org","@type":"Event","name":"A Study of Rituximab-Gemcitabine-Dexamethasone-Platinum (R-GDP) With or Without Selinexor in Patients With Relapsed/Refractory Diffuse Large B-cell Lymphoma","startDate":"2026-12-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Relapsed/Refractory Diffuse Large B-cell Lymphoma · 501 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"KPTI"}},{"@context":"https://schema.org","@type":"Event","name":"Selinexor (KPT-330) in Patients With Relapsed/Refractory Diffuse Large B-Cell Lymphoma (DLBCL)","startDate":"2026-12-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Diffuse Large B-cell Lymphoma · 244 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"KPTI"}},{"@context":"https://schema.org","@type":"Event","name":"Selinexor and Backbone Treatments of Multiple Myeloma Patients","startDate":"2027-04-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Multiple Myeloma · 300 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"KPTI"}},{"@context":"https://schema.org","@type":"Event","name":"A Study of Selinexor Monotherapy in Subjects With JAK Inhibitor-naïve Myelofibrosis and Moderate Thrombocytopenia","startDate":"2027-06-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Myelofibrosis, Moderate Thrombocytopenia, Mild Thrombocytopenia · 58 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"KPTI"}},{"@context":"https://schema.org","@type":"Event","name":"A Study of Selinexor (Seli) + Low-dose Dexamethasone (LDD) in Penta-refractory Multiple Myeloma (MM), Seli and Bortezomib + LDD in Triple-class Refractory MM.","startDate":"2028-01-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Multiple Myeloma, Refractory · 127 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"KPTI"}}]</script>
 </head>
 <body>
 <div class="app seo-page">
 
-<nav class="seo-crumb"><a href="../../">Biolyst</a> › KPTI</nav>
+<nav class="seo-crumb"><a href="../../">Biolyst</a> › <a href="../../catalyst-calendar/">Catalyst calendar</a> › KPTI</nav>
 <header class="seo-header">
   <h1>KPTI catalyst calendar</h1>
   <p class="seo-sub">Karyopharm Therapeutics Inc.</p>
@@ -37,7 +44,7 @@
 
 <section>
   <h2>Upcoming catalysts</h2>
-  <table class="seo-table">
+  <div class="seo-scroll"><table class="seo-table">
 <thead><tr><th>Date</th><th>Event</th><th>Type</th><th>Phase</th></tr></thead>
 <tbody>
 <tr>
@@ -82,7 +89,7 @@
 <td>Trial Milestone</td>
 <td>Phase 2</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 </section>
 
 <div class="seo-cta">
@@ -92,7 +99,7 @@
 
 <section>
   <h2>Recent history</h2>
-  <table class="seo-table">
+  <div class="seo-scroll"><table class="seo-table">
 <thead><tr><th>Date</th><th>Event</th><th>Type</th><th>Phase</th></tr></thead>
 <tbody>
 <tr>
@@ -305,7 +312,7 @@
 <td>Trial Milestone</td>
 <td>Phase 3</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 </section>
 
 <section class="seo-about">

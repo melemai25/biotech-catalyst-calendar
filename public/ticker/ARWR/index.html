@@ -19,12 +19,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../styles.css?v=17" />
+<style>
+  /* Here rather than in styles.css because it belongs to these generated pages
+     and nothing else. min-width:0 is the part that matters: a flex or grid
+     child defaults to min-content width, which a wide table happily exceeds. */
+  .seo-scroll{overflow-x:auto;max-width:100%;min-width:0;-webkit-overflow-scrolling:touch;}
+  .seo-scroll > .seo-table{margin:0;}
+</style>
 <script type="application/ld+json">[{"@context":"https://schema.org","@type":"Event","name":"Next quarterly earnings (projected)","startDate":"2026-11-01","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.","organizer":{"@type":"Organization","name":"ARWR"}},{"@context":"https://schema.org","@type":"Event","name":"Study of ARO-ATXN2 Injection in Adults With Spinocerebellar Ataxia Type 2","startDate":"2026-12-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Spinocerebellar Ataxia Type 2 · 39 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"ARWR"}},{"@context":"https://schema.org","@type":"Event","name":"A First-In-Human Study of ARO-ALK7 in Adults With Obesity With and Without Type 2 Diabetes Mellitus","startDate":"2027-02-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Obesity, Diabetes Mellitus, Type 2 · 150 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"ARWR"}},{"@context":"https://schema.org","@type":"Event","name":"Study of ARO-MAPT-SC in Healthy Participants and Participants With Early Alzheimer's Disease","startDate":"2027-06-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Alzheimer Disease, Alzheimer Disease, Early Onset · 112 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"ARWR"}},{"@context":"https://schema.org","@type":"Event","name":"Study of ARO-DIMERPA in Adult Participants With Mixed Hyperlipidemia","startDate":"2027-07-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Hyperlipidemia; Mixed · 78 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"ARWR"}},{"@context":"https://schema.org","@type":"Event","name":"A Phase 3 Study of Zodasiran in Adolescent and Adult Subjects With Homozygous Familial Hypercholesterolemia (YOSEMITE)","startDate":"2027-08-20","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Homozygous Familial Hypercholesterolemia · 70 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"ARWR"}},{"@context":"https://schema.org","@type":"Event","name":"A First-In-Human Study of ARO-INHBE in Adults With Obesity With and Without Type 2 Diabetes Mellitus","startDate":"2027-09-17","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Obesity · 180 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"ARWR"}},{"@context":"https://schema.org","@type":"Event","name":"Study of Inhaled ARO-RAGE in Allergen-induced Mild Asthma","startDate":"2027-12-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Asthma · 36 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"ARWR"}},{"@context":"https://schema.org","@type":"Event","name":"A First-In-Human Study of ARO-033 in Adult Participants","startDate":"2028-07-01","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Age-related Macular Degeneration · 84 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"ARWR"}},{"@context":"https://schema.org","@type":"Event","name":"Long-Term Safety and Efficacy of Plozasiran in Adults With Hypertriglyceridemia","startDate":"2028-07-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Hypertriglyceridemia · 710 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"ARWR"}},{"@context":"https://schema.org","@type":"Event","name":"Study of Zodasiran in Adolescent Participants With Homozygous Familial Hypercholesterolemia","startDate":"2028-07-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Homozygous Familial Hypercholesterolemia · 10 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"ARWR"}},{"@context":"https://schema.org","@type":"Event","name":"Study of Plozasiran in Adults With Severe Hypertriglyceridemia at Risk of Acute Pancreatitis","startDate":"2029-03-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Severe Hypertriglyceridemia · 288 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"ARWR"}},{"@context":"https://schema.org","@type":"Event","name":"A Trial to Evaluate the Efficacy and Safety of ARO-INHBE in Adults With Metabolic Dysfunction-Associated Steatohepatitis","startDate":"2029-10-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Metabolic Dysfunction-Associated Steatohepatitis · 252 participants · Status: Not Yet Recruiting","organizer":{"@type":"Organization","name":"ARWR"}}]</script>
 </head>
 <body>
 <div class="app seo-page">
 
-<nav class="seo-crumb"><a href="../../">Biolyst</a> › ARWR</nav>
+<nav class="seo-crumb"><a href="../../">Biolyst</a> › <a href="../../catalyst-calendar/">Catalyst calendar</a> › ARWR</nav>
 <header class="seo-header">
   <h1>ARWR catalyst calendar</h1>
   <p class="seo-sub">ARROWHEAD PHARMACEUTICALS, INC.</p>
@@ -37,7 +44,7 @@
 
 <section>
   <h2>Upcoming catalysts</h2>
-  <table class="seo-table">
+  <div class="seo-scroll"><table class="seo-table">
 <thead><tr><th>Date</th><th>Event</th><th>Type</th><th>Phase</th></tr></thead>
 <tbody>
 <tr>
@@ -131,7 +138,7 @@
 <td>Trial Milestone</td>
 <td>Phase 2</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 </section>
 
 <div class="seo-cta">
@@ -141,7 +148,7 @@
 
 <section>
   <h2>Recent history</h2>
-  <table class="seo-table">
+  <div class="seo-scroll"><table class="seo-table">
 <thead><tr><th>Date</th><th>Event</th><th>Type</th><th>Phase</th></tr></thead>
 <tbody>
 <tr>
@@ -354,7 +361,7 @@
 <td>Trial Milestone</td>
 <td>Phase 2</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 </section>
 
 <section class="seo-about">

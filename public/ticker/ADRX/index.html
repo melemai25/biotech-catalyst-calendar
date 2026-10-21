@@ -19,12 +19,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../styles.css?v=17" />
+<style>
+  /* Here rather than in styles.css because it belongs to these generated pages
+     and nothing else. min-width:0 is the part that matters: a flex or grid
+     child defaults to min-content width, which a wide table happily exceeds. */
+  .seo-scroll{overflow-x:auto;max-width:100%;min-width:0;-webkit-overflow-scrolling:touch;}
+  .seo-scroll > .seo-table{margin:0;}
+</style>
 <script type="application/ld+json">[{"@context":"https://schema.org","@type":"Event","name":"Phase 1 Study of ADX-626 in Healthy Participants","startDate":"2027-01-22","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Healthy Adult Participants · 44 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"ADRX"}},{"@context":"https://schema.org","@type":"Event","name":"STOP-HAE: A Phase 3 Study of ADX-324 in HAE","startDate":"2027-11-30","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Hereditary Angioedema, HAE, Hereditary Angioedema - Type 1 · 90 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"ADRX"}},{"@context":"https://schema.org","@type":"Event","name":"Safety, Tolerability, PK, PD of ADX-324 in Healthy Volunteers and Hereditary Angioedema Patients","startDate":"2027-12-31","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Hereditary Angioedema · 53 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"ADRX"}},{"@context":"https://schema.org","@type":"Event","name":"Safety, Tolerability, PK and PD of ADX-038 in Healthy Participants and Paroxysmal Nocturnal Hemoglobinuria (PNH) Patients","startDate":"2028-03-31","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Paroxysmal Nocturnal Hemoglobinuria (PNH) · 50 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"ADRX"}},{"@context":"https://schema.org","@type":"Event","name":"Chinese Adults With Kidney Disease","startDate":"2028-07-10","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Immunoglobulin A Nephropathy (IgAN), Complement 3 Glomerulopathy (C3G), IC-MPGN · 30 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"ADRX"}},{"@context":"https://schema.org","@type":"Event","name":"Phase 2 Study of ADX-038 in Complement-Mediated Kidney Disease","startDate":"2028-12-31","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"IgAN, C3G, Complement-mediated Kidney Disease · 45 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"ADRX"}},{"@context":"https://schema.org","@type":"Event","name":"Phase 2 Study of ADX-038 in Participants With Geographic Atrophy","startDate":"2030-02-28","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Geographic Atrophy Secondary to Age-related Macular Degeneration · 240 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"ADRX"}},{"@context":"https://schema.org","@type":"Event","name":"Phase 3 Extension Study of ADX-324 in Participants With Hereditary Angioedema (HAE)","startDate":"2030-06-30","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Hereditary Angioedema (HAE), Hereditary Angioedema - Type 1, Hereditary Angioedema - Type 2 · 90 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"ADRX"}}]</script>
 </head>
 <body>
 <div class="app seo-page">
 
-<nav class="seo-crumb"><a href="../../">Biolyst</a> › ADRX</nav>
+<nav class="seo-crumb"><a href="../../">Biolyst</a> › <a href="../../catalyst-calendar/">Catalyst calendar</a> › ADRX</nav>
 <header class="seo-header">
   <h1>ADRX catalyst calendar</h1>
   <p class="seo-sub">ADARx Pharmaceuticals, Inc.</p>
@@ -35,7 +42,7 @@
 
 <section>
   <h2>Upcoming catalysts</h2>
-  <table class="seo-table">
+  <div class="seo-scroll"><table class="seo-table">
 <thead><tr><th>Date</th><th>Event</th><th>Type</th><th>Phase</th></tr></thead>
 <tbody>
 <tr>
@@ -94,7 +101,7 @@
 <td>Trial Milestone</td>
 <td>Phase 3</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 </section>
 
 <div class="seo-cta">
@@ -104,7 +111,7 @@
 
 <section>
   <h2>Recent history</h2>
-  <table class="seo-table">
+  <div class="seo-scroll"><table class="seo-table">
 <thead><tr><th>Date</th><th>Event</th><th>Type</th><th>Phase</th></tr></thead>
 <tbody>
 <tr>
@@ -121,7 +128,7 @@
 <td>Trial Milestone</td>
 <td>Phase 1</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 </section>
 
 <section class="seo-about">

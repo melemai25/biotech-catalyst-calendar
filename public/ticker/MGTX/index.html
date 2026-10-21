@@ -19,12 +19,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../styles.css?v=17" />
+<style>
+  /* Here rather than in styles.css because it belongs to these generated pages
+     and nothing else. min-width:0 is the part that matters: a flex or grid
+     child defaults to min-content width, which a wide table happily exceeds. */
+  .seo-scroll{overflow-x:auto;max-width:100%;min-width:0;-webkit-overflow-scrolling:touch;}
+  .seo-scroll > .seo-table{margin:0;}
+</style>
 <script type="application/ld+json">[{"@context":"https://schema.org","@type":"Event","name":"Next quarterly earnings (projected)","startDate":"2026-11-12","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.","organizer":{"@type":"Organization","name":"MGTX"}},{"@context":"https://schema.org","@type":"Event","name":"A Study of AAV5-hRKp.RPGR for the Treatment of Japanese Participants With X-linked Retinitis Pigmentosa","startDate":"2027-06-30","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Retinitis Pigmentosa · 4 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"MGTX"}},{"@context":"https://schema.org","@type":"Event","name":"Follow-up Gene Therapy Trial for the Treatment of X-linked Retinitis Pigmentosa Associated With Variants in the RPGR Gene","startDate":"2029-09-20","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"X-Linked Retinitis Pigmentosa · 97 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"MGTX"}},{"@context":"https://schema.org","@type":"Event","name":"A Follow-on Study for Second-Eye Treatment for Participants Previously Treated With Gene Therapy for X-Linked Retinitis Pigmentosa (XLRP)","startDate":"2030-10-24","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"X-Linked Retinitis Pigmentosa · 24 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"MGTX"}}]</script>
 </head>
 <body>
 <div class="app seo-page">
 
-<nav class="seo-crumb"><a href="../../">Biolyst</a> › MGTX</nav>
+<nav class="seo-crumb"><a href="../../">Biolyst</a> › <a href="../../catalyst-calendar/">Catalyst calendar</a> › MGTX</nav>
 <header class="seo-header">
   <h1>MGTX catalyst calendar</h1>
   <p class="seo-sub">MeiraGTx Holdings plc</p>
@@ -36,7 +43,7 @@
 
 <section>
   <h2>Upcoming catalysts</h2>
-  <table class="seo-table">
+  <div class="seo-scroll"><table class="seo-table">
 <thead><tr><th>Date</th><th>Event</th><th>Type</th><th>Phase</th></tr></thead>
 <tbody>
 <tr>
@@ -67,7 +74,7 @@
 <td>Trial Milestone</td>
 <td>Phase 2</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 </section>
 
 <div class="seo-cta">
@@ -77,7 +84,7 @@
 
 <section>
   <h2>Recent history</h2>
-  <table class="seo-table">
+  <div class="seo-scroll"><table class="seo-table">
 <thead><tr><th>Date</th><th>Event</th><th>Type</th><th>Phase</th></tr></thead>
 <tbody>
 <tr>
@@ -199,7 +206,7 @@
 <td>Trial Milestone</td>
 <td>Phase 3</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 </section>
 
 <section class="seo-about">
