@@ -70,6 +70,13 @@ ${canonical && BASE ? `<link rel="canonical" href="${esc(BASE + canonical)}" />`
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="${up}styles.css?v=17" />
+<style>
+  /* Here rather than in styles.css because it belongs to these generated pages
+     and nothing else. min-width:0 is the part that matters: a flex or grid
+     child defaults to min-content width, which a wide table happily exceeds. */
+  .seo-scroll{overflow-x:auto;max-width:100%;min-width:0;-webkit-overflow-scrolling:touch;}
+  .seo-scroll > .seo-table{margin:0;}
+</style>
 ${jsonLd ? `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>` : ''}
 </head>
 <body>
@@ -83,7 +90,10 @@ ${body}
 
 function eventRows(events, showTicker){
   if(!events.length) return '<p class="seo-empty">Nothing scheduled.</p>';
-  return `<table class="seo-table">
+  // Wrapped so the table scrolls inside its own box rather than widening the
+  // page. A five-column table needs ~580px and a phone has ~350px, so without
+  // this every generated page scrolls sideways on mobile.
+  return `<div class="seo-scroll"><table class="seo-table">
 <thead><tr><th>Date</th>${showTicker ? '<th>Ticker</th>' : ''}<th>Event</th><th>Type</th><th>Phase</th></tr></thead>
 <tbody>
 ${events.map(e => `<tr>
@@ -93,7 +103,7 @@ ${showTicker ? `<td><strong>${esc(e.ticker)}</strong></td>` : ''}
 <td>${esc(e.type)}</td>
 <td>${esc(e.phase || '—')}</td>
 </tr>`).join('\n')}
-</tbody></table>`;
+</tbody></table></div>`;
 }
 
 /** schema.org Event markup — can surface dates directly in search results. */
@@ -127,7 +137,7 @@ function economicCalendarPage(macro, today){
     .slice(0, 60);
   if(upcoming.length < 5) return null;
 
-  const rows = `<table class="seo-table">
+  const rows = `<div class="seo-scroll"><table class="seo-table">
 <thead><tr><th>Date</th><th>Time (ET)</th><th>Release</th><th>Agency</th></tr></thead>
 <tbody>
 ${upcoming.map(r => `<tr>
@@ -137,11 +147,11 @@ ${upcoming.map(r => `<tr>
   r.valueAvailable === false ? ' <span class="seo-est">date only</span>' : ''}</td>
 <td>${esc(r.agency)}</td>
 </tr>`).join('\n')}
-</tbody></table>`;
+</tbody></table></div>`;
 
   const key = (macro.indicators || []).filter(i => i.importance === 3 && i.group !== 'cross');
   const latest = key.length ? `<h2>Latest readings</h2>
-<table class="seo-table">
+<div class="seo-scroll"><table class="seo-table">
 <thead><tr><th>Indicator</th><th>Latest</th><th>Period</th><th>Prior</th></tr></thead>
 <tbody>
 ${key.map(i => `<tr>
@@ -150,7 +160,7 @@ ${key.map(i => `<tr>
 <td>${esc(i.asOf)}</td>
 <td>${i.prior === null ? '—' : esc(fmtSeoValue({ ...i, value: i.prior }))}</td>
 </tr>`).join('\n')}
-</tbody></table>` : '';
+</tbody></table></div>` : '';
 
   const first = upcoming[0];
   const body = `<div class="masthead">
@@ -238,6 +248,105 @@ function fmtSeoValue(i){
   return i.unit === '%' ? v + '%' : i.unit === '$' ? '$' + v : i.unit === 'k' ? v + 'k' : v;
 }
 
+/* ------------------------------------------------------------- the hub */
+
+/**
+ * /catalyst-calendar/ — the page everything else hangs off.
+ *
+ * Without it the generated pages were unreachable by link. The app at / renders
+ * into #root, so a crawler that does not execute JavaScript sees an empty div
+ * and no way onward; the ticker and month pages existed only in sitemap.xml,
+ * which Google treats as a hint rather than a route. This gives them a real
+ * parent, and gives "biotech catalyst calendar" an actual page to rank.
+ *
+ * It carries a table of near-term events rather than only links, because a page
+ * whose entire content is a list of links to other pages is the definition of
+ * thin, and gets judged accordingly.
+ */
+function hubPage({ tickers, months, upcoming, econ, today, generatedDate }){
+  const soon = upcoming.slice(0, 40);
+  const companies = tickers.slice().sort((a, b) => a[0].localeCompare(b[0]));
+  const monthList = months.slice().sort();
+
+  const horizon = soon.length
+    ? `${esc(longDate(soon[0].date))} to ${esc(longDate(soon[soon.length - 1].date))}`
+    : '';
+
+  const body = `
+<nav class="seo-crumb"><a href="../">${esc(SITE_NAME)}</a> &rsaquo; Catalyst calendar</nav>
+<header class="seo-header">
+  <h1>Biotech catalyst calendar</h1>
+  <p class="seo-sub">${upcoming.length} upcoming event${upcoming.length === 1 ? '' : 's'} across ${companies.length} compan${companies.length === 1 ? 'y' : 'ies'}</p>
+</header>
+
+<div class="seo-intro">
+  <p>Clinical trial readouts, FDA decision dates, SEC filings and earnings dates
+  for publicly traded biotech and pharmaceutical companies, compiled from the
+  ClinicalTrials.gov registry and SEC EDGAR. Every date links back to the filing
+  or registry record it came from.</p>
+  <p>Dates marked <em>est.</em> are projected primary completion dates from the
+  trial registry rather than company-confirmed announcement dates. A sponsor
+  typically reports results some weeks after the completion date on record.</p>
+</div>
+
+${soon.length ? `<section>
+  <h2>Next up</h2>
+  <p class="seo-sub">${horizon}</p>
+  ${eventRows(soon, true)}
+</section>` : ''}
+
+<div class="seo-cta">
+  <p><strong>Follow only the companies you care about.</strong> Pick your tickers
+  and see their catalysts on one calendar, with cash runway alongside.</p>
+  <a class="seo-btn" href="../">Open the tracker</a>
+</div>
+
+<section class="seo-about">
+  <h2>Companies</h2>
+  <p>${companies.map(([t, meta]) =>
+    `<a href="../ticker/${esc(t)}/" title="${esc(meta.name || t)}">${esc(t)}</a>`
+  ).join(' &middot; ')}</p>
+</section>
+
+${monthList.length ? `<section class="seo-about">
+  <h2>By month</h2>
+  <p>${monthList.map(ym => {
+    const [y, mo] = ym.split('-');
+    return `<a href="../calendar/${esc(ym)}/">${esc(MONTHS[parseInt(mo,10)-1])} ${esc(y)}</a>`;
+  }).join(' &middot; ')}</p>
+</section>` : ''}
+
+${econ ? `<section class="seo-about">
+  <h2>Macro</h2>
+  <p>Trial results do not land in a vacuum. The
+  <a href="../economic-calendar/">US economic calendar</a> carries CPI, jobs, GDP
+  and FOMC dates alongside, since rates move biotech valuations as much as data does.</p>
+</section>` : ''}
+
+<section class="seo-about">
+  <h2>About this data</h2>
+  <p>Trial milestones come from the ClinicalTrials.gov v2 API, filings from SEC
+  EDGAR, and financial figures from SEC XBRL company facts. Nothing here is
+  hand-entered. This is an information tool, not investment advice &mdash; verify
+  anything you act on against the linked primary source.</p>
+  <p>Last updated ${esc(generatedDate || today)}.</p>
+</section>
+`;
+
+  const description = soon.length
+    ? `Upcoming biotech catalysts: ${upcoming.length} trial readouts, FDA decisions and earnings dates across ${companies.length} companies. Next: ${soon[0].ticker} on ${longDate(soon[0].date)}.`
+    : `Biotech catalyst calendar covering ${companies.length} companies: clinical trial readouts, FDA decision dates and earnings from ClinicalTrials.gov and SEC EDGAR.`;
+
+  return page({
+    title: `Biotech Catalyst Calendar — Trial Readouts & FDA Dates | ${SITE_NAME}`,
+    description,
+    canonical: '/catalyst-calendar/',
+    depth: 1,
+    body,
+    jsonLd: soon.length ? eventsJsonLd(soon) : null,
+  });
+}
+
 /* -------------------------------------------------------- ticker pages */
 
 function tickerPage(ticker, data, today){
@@ -279,7 +388,7 @@ function tickerPage(ticker, data, today){
   ].filter(([,v]) => v !== null && v !== undefined);
 
   const body = `
-<nav class="seo-crumb"><a href="../../">${esc(SITE_NAME)}</a> › ${esc(ticker)}</nav>
+<nav class="seo-crumb"><a href="../../">${esc(SITE_NAME)}</a> › <a href="../../catalyst-calendar/">Catalyst calendar</a> › ${esc(ticker)}</nav>
 <header class="seo-header">
   <h1>${esc(ticker)} catalyst calendar</h1>
   <p class="seo-sub">${esc(name)}</p>
@@ -329,7 +438,7 @@ function monthPage(ym, events, today){
   const tickers = [...new Set(sorted.map(e=>e.ticker))];
 
   const body = `
-<nav class="seo-crumb"><a href="../../">${esc(SITE_NAME)}</a> › ${esc(label)}</nav>
+<nav class="seo-crumb"><a href="../../">${esc(SITE_NAME)}</a> › <a href="../../catalyst-calendar/">Catalyst calendar</a> › ${esc(label)}</nav>
 <header class="seo-header">
   <h1>Biotech catalysts, ${esc(label)}</h1>
   <p class="seo-sub">${sorted.length} tracked event${sorted.length===1?'':'s'} across ${tickers.length} compan${tickers.length===1?'y':'ies'}</p>
@@ -377,6 +486,10 @@ function main(){
   const byMonth = {};
   let written = 0;
 
+  // Gathered for the hub while the ticker loop is already reading these files.
+  const hubTickers = [];
+  const hubUpcoming = [];
+
   for(const t of tickers){
     const f = path.join(DATA,'ticker',`${t}.json`);
     if(!fs.existsSync(f)) continue;
@@ -392,6 +505,8 @@ function main(){
     fs.writeFileSync(path.join(dir,'index.html'), tickerPage(t, data, today));
     urls.push({ loc:`/ticker/${t}/`, priority:'0.8', changefreq:'daily' });
     written++;
+    hubTickers.push([t, index.tickers[t] || {}]);
+    for(const e of evs) if(e.date >= today) hubUpcoming.push(e);
 
     for(const e of evs){
       const ym = e.date.slice(0,7);
@@ -403,6 +518,7 @@ function main(){
   const minYm = new Date(Date.now() - 400*86400000).toISOString().slice(0,7);
   const maxYm = new Date(Date.now() + 550*86400000).toISOString().slice(0,7);
   let months = 0;
+  const monthsWritten = [];
   for(const [ym, evs] of Object.entries(byMonth)){
     if(ym < minYm || ym > maxYm) continue;
     if(evs.length < 3) continue;
@@ -410,6 +526,7 @@ function main(){
     fs.mkdirSync(dir,{recursive:true});
     fs.writeFileSync(path.join(dir,'index.html'), monthPage(ym, evs, today));
     urls.push({ loc:`/calendar/${ym}/`, priority:'0.6', changefreq:'weekly' });
+    monthsWritten.push(ym);
     months++;
   }
 
@@ -435,6 +552,26 @@ function main(){
     }
   }
 
+  // The hub goes last: it links to everything above and needs to know which of
+  // those pages actually got written rather than which were merely considered.
+  let hub = false;
+  if(hubTickers.length){
+    hubUpcoming.sort((a,b)=>a.date.localeCompare(b.date));
+    const dir = path.join(PUBLIC,'catalyst-calendar');
+    fs.mkdirSync(dir,{recursive:true});
+    fs.writeFileSync(path.join(dir,'index.html'), hubPage({
+      tickers: hubTickers,
+      months: monthsWritten,
+      upcoming: hubUpcoming,
+      econ,
+      today,
+      generatedDate: index.generatedDate,
+    }));
+    // Above the ticker pages it parents, below the app itself.
+    urls.push({ loc:'/catalyst-calendar/', priority:'0.9', changefreq:'daily' });
+    hub = true;
+  }
+
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map(u => `  <url>
@@ -456,7 +593,7 @@ Allow: /
 Disallow: /*?tickers=
 ${BASE ? `\nSitemap: ${BASE}/sitemap.xml\n` : ''}`);
 
-  log(`Wrote ${written} ticker pages, ${months} month pages` + (econ ? ', 1 economic calendar page' : ''));
+  log(`Wrote ${written} ticker pages, ${months} month pages` + (econ ? ', 1 economic calendar page' : '') + (hub ? ', 1 hub page' : ''));
   log(`      sitemap.xml with ${urls.length} URLs, robots.txt`);
   log(`\nSkipped ${tickers.length - written} tickers with fewer than 2 events (thin content).`);
   if(!BASE) log('\nRe-run with --base once you know your live URL, or the sitemap will be wrong.');
