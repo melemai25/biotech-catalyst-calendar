@@ -29,23 +29,26 @@
 <link rel="stylesheet" href="styles.css?v=17">
 
 <style>
-  /* Small enough to live here rather than in styles.css, and it keeps this
-     footer working even if the stylesheet fails to load — which matters,
-     because these are the only links a crawler can follow from this page. */
-  .home-links{
-    max-width:1180px;margin:0 auto 26px;padding:0 20px;
-    display:flex;gap:18px;flex-wrap:wrap;justify-content:center;
-    font-size:13px;
+  /* Matches the nav on the generated pages, so moving between the app and the
+     calendars feels like one site. Kept here rather than in styles.css because
+     it must survive the stylesheet failing to load — these are the only links
+     a crawler can follow out of this page.
+
+     No brand link: the masthead immediately below already says Biolyst, and
+     saying it twice in 60px of vertical space reads as a mistake. */
+  .site-nav{
+    max-width:1180px;margin:0 auto;padding:14px 20px 0;
+    display:flex;align-items:center;gap:18px;flex-wrap:wrap;font-size:13px;
   }
-  .home-links a{color:#5A7784;text-decoration:none;}
-  .home-links a:hover{color:#0A6E77;text-decoration:underline;}
+  .site-nav a{color:#5A7784;text-decoration:none;}
+  .site-nav a:hover{color:#0A6E77;}
+  .site-nav-here{color:#0E8C97;font-weight:600;}
 </style>
 </head>
 <body>
-<div id="root"><div class="loading">Loading…</div></div>
 
 <!--
-  Static links to the generated pages.
+  Static links to the generated pages, above the app rather than below it.
 
   The app renders into #root and replaces everything inside it, so every link
   the app draws is invisible to a crawler that does not execute JavaScript.
@@ -53,12 +56,15 @@
   reachable only through sitemap.xml — which Google treats as a suggestion
   rather than a route, and ranks accordingly.
 
-  They sit outside #root so a re-render never removes them.
+  Outside #root, so a re-render never removes them.
 -->
-<nav class="home-links">
-  <a href="catalyst-calendar/">Biotech catalyst calendar</a>
-  <a href="economic-calendar/">US economic calendar</a>
+<nav class="site-nav" aria-label="Site">
+  <span class="site-nav-here" aria-current="page">Tracker</span>
+  <a href="catalyst-calendar/">Catalyst calendar</a>
+  <a href="economic-calendar/">Economic calendar</a>
 </nav>
+
+<div id="root"><div class="loading">Loading…</div></div>
 
 <script src="app.js?v=17"></script>
 <script src="support.js?v=1"></script>

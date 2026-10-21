@@ -31,6 +31,9 @@ let BASE = baseIdx !== -1 ? args[baseIdx + 1] : (process.env.SITE_BASE_URL || ''
 BASE = BASE.replace(/\/+$/, '');
 
 const SITE_NAME = 'Biolyst';
+
+/* Set in main() before anything is written, read by siteNav(). */
+let HAS_ECON = false;
 const MONTHS = ['January','February','March','April','May','June',
                 'July','August','September','October','November','December'];
 
@@ -47,7 +50,34 @@ function longDate(iso){
 
 /* ------------------------------------------------------------- template */
 
-function page({ title, description, canonical, depth, body, jsonLd, noindex }){
+/**
+ * The nav every generated page carries.
+ *
+ * `current` marks the section so the bar says where you are rather than only
+ * where you can go, and aria-current carries that to a screen reader. The whole
+ * bar is plain anchors in the HTML — these pages exist to be crawled, and a
+ * crawler that does not run JavaScript still has to be able to walk the site.
+ */
+function siteNav(depth, current){
+  const up = '../'.repeat(depth);
+  // HAS_ECON is decided before any page is written. Linking unconditionally
+  // meant that a build without macro.json shipped a 404 in the nav of every
+  // page on the site — the kind of thing that is invisible locally and very
+  // visible to a crawler.
+  const link = (href, label, key) => key === current
+    ? `<span class="site-nav-here" aria-current="page">${esc(label)}</span>`
+    : `<a href="${up}${href}">${esc(label)}</a>`;
+  return `<nav class="site-nav" aria-label="Site">
+  <a class="site-nav-brand" href="${up}">${esc(SITE_NAME)}</a>
+  <span class="site-nav-links">
+    ${link('catalyst-calendar/', 'Catalyst calendar', 'catalyst')}
+    ${HAS_ECON ? link('economic-calendar/', 'Economic calendar', 'econ') : ''}
+  </span>
+  <a class="site-nav-app" href="${up}">Open the tracker &rsaquo;</a>
+</nav>`;
+}
+
+function page({ title, description, canonical, depth, body, jsonLd, noindex, nav }){
   const up = '../'.repeat(depth);
   return `<!DOCTYPE html>
 <html lang="en">
@@ -76,11 +106,34 @@ ${canonical && BASE ? `<link rel="canonical" href="${esc(BASE + canonical)}" />`
      child defaults to min-content width, which a wide table happily exceeds. */
   .seo-scroll{overflow-x:auto;max-width:100%;min-width:0;-webkit-overflow-scrolling:touch;}
   .seo-scroll > .seo-table{margin:0;}
+
+  .site-nav{
+    display:flex;align-items:center;gap:18px;flex-wrap:wrap;
+    margin:0 0 18px;padding:0 2px 14px;
+    border-bottom:1px solid var(--line-soft,#EAF1F4);
+    font-size:13px;
+  }
+  .site-nav-brand{
+    font-size:15px;font-weight:800;letter-spacing:-.02em;
+    color:var(--ink,#16343F);text-decoration:none;
+  }
+  .site-nav-links{display:flex;gap:16px;flex-wrap:wrap;align-items:center;}
+  .site-nav a{color:var(--ink-soft,#5A7784);text-decoration:none;}
+  .site-nav a:hover{color:var(--teal-dark,#0A6E77);}
+  .site-nav-here{color:var(--teal,#0E8C97);font-weight:600;}
+  /* Pushed to the far end, so the way back into the app is always in the same
+     place rather than wherever the link list happens to end. */
+  .site-nav-app{margin-left:auto;font-weight:600;}
+  @media (max-width:620px){
+    .site-nav{gap:10px;}
+    .site-nav-app{margin-left:0;}
+  }
 </style>
 ${jsonLd ? `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>` : ''}
 </head>
 <body>
 <div class="app seo-page">
+${siteNav(depth, nav)}
 ${body}
 </div>
 </body>
@@ -214,6 +267,7 @@ the Federal Reserve Bank of St. Louis. FOMC dates come from the
     description: `Scheduled US economic releases with official times. Next: ${first.name} on ${longDate(first.date)} at ${first.time} ET.`,
     canonical: '/economic-calendar/',
     depth: 1,
+    nav: 'econ',
     body,
     jsonLd,
   });
@@ -273,7 +327,6 @@ function hubPage({ tickers, months, upcoming, econ, today, generatedDate }){
     : '';
 
   const body = `
-<nav class="seo-crumb"><a href="../">${esc(SITE_NAME)}</a> &rsaquo; Catalyst calendar</nav>
 <header class="seo-header">
   <h1>Biotech catalyst calendar</h1>
   <p class="seo-sub">${upcoming.length} upcoming event${upcoming.length === 1 ? '' : 's'} across ${companies.length} compan${companies.length === 1 ? 'y' : 'ies'}</p>
@@ -342,6 +395,7 @@ ${econ ? `<section class="seo-about">
     description,
     canonical: '/catalyst-calendar/',
     depth: 1,
+    nav: 'catalyst',
     body,
     jsonLd: soon.length ? eventsJsonLd(soon) : null,
   });
@@ -388,7 +442,7 @@ function tickerPage(ticker, data, today){
   ].filter(([,v]) => v !== null && v !== undefined);
 
   const body = `
-<nav class="seo-crumb"><a href="../../">${esc(SITE_NAME)}</a> › <a href="../../catalyst-calendar/">Catalyst calendar</a> › ${esc(ticker)}</nav>
+<nav class="seo-crumb"><a href="../../catalyst-calendar/">Catalyst calendar</a> › ${esc(ticker)}</nav>
 <header class="seo-header">
   <h1>${esc(ticker)} catalyst calendar</h1>
   <p class="seo-sub">${esc(name)}</p>
@@ -438,7 +492,7 @@ function monthPage(ym, events, today){
   const tickers = [...new Set(sorted.map(e=>e.ticker))];
 
   const body = `
-<nav class="seo-crumb"><a href="../../">${esc(SITE_NAME)}</a> › <a href="../../catalyst-calendar/">Catalyst calendar</a> › ${esc(label)}</nav>
+<nav class="seo-crumb"><a href="../../catalyst-calendar/">Catalyst calendar</a> › ${esc(label)}</nav>
 <header class="seo-header">
   <h1>Biotech catalysts, ${esc(label)}</h1>
   <p class="seo-sub">${sorted.length} tracked event${sorted.length===1?'':'s'} across ${tickers.length} compan${tickers.length===1?'y':'ies'}</p>
@@ -490,6 +544,33 @@ function main(){
   const hubTickers = [];
   const hubUpcoming = [];
 
+  // Economic calendar first, not last: every other page's nav needs to know
+  // whether this page exists before it renders. Skipped silently when
+  // macro.json has not been built — an empty page is worse than no page.
+  let econ = false;
+  const macroPath = path.join(DATA,'macro.json');
+  if(fs.existsSync(macroPath)){
+    try{
+      const macro = JSON.parse(fs.readFileSync(macroPath,'utf8'));
+      if(macro.available){
+        HAS_ECON = true;                       // so siteNav() offers the link
+        const html = economicCalendarPage(macro, today);
+        if(html){
+          const dir = path.join(PUBLIC,'economic-calendar');
+          fs.mkdirSync(dir,{recursive:true});
+          fs.writeFileSync(path.join(dir,'index.html'), html);
+          urls.push({ loc:'/economic-calendar/', priority:'0.9', changefreq:'daily' });
+          econ = true;
+        } else {
+          HAS_ECON = false;                    // page declined to render
+        }
+      }
+    }catch(e){
+      log('NOTE: macro.json could not be read (' + e.message + '); economic calendar page skipped.');
+    }
+  }
+  if(!HAS_ECON) log('NOTE: no economic calendar page, so the site nav omits that link.');
+
   for(const t of tickers){
     const f = path.join(DATA,'ticker',`${t}.json`);
     if(!fs.existsSync(f)) continue;
@@ -528,28 +609,6 @@ function main(){
     urls.push({ loc:`/calendar/${ym}/`, priority:'0.6', changefreq:'weekly' });
     monthsWritten.push(ym);
     months++;
-  }
-
-  // Economic calendar. Skipped silently when macro.json has not been built —
-  // an empty page is worse than no page.
-  let econ = false;
-  const macroPath = path.join(DATA,'macro.json');
-  if(fs.existsSync(macroPath)){
-    try{
-      const macro = JSON.parse(fs.readFileSync(macroPath,'utf8'));
-      if(macro.available){
-        const html = economicCalendarPage(macro, today);
-        if(html){
-          const dir = path.join(PUBLIC,'economic-calendar');
-          fs.mkdirSync(dir,{recursive:true});
-          fs.writeFileSync(path.join(dir,'index.html'), html);
-          urls.push({ loc:'/economic-calendar/', priority:'0.9', changefreq:'daily' });
-          econ = true;
-        }
-      }
-    }catch(e){
-      log('NOTE: macro.json could not be read (' + e.message + '); economic calendar page skipped.');
-    }
   }
 
   // The hub goes last: it links to everything above and needs to know which of
