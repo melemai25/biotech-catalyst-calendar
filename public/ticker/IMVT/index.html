@@ -25,13 +25,43 @@
      child defaults to min-content width, which a wide table happily exceeds. */
   .seo-scroll{overflow-x:auto;max-width:100%;min-width:0;-webkit-overflow-scrolling:touch;}
   .seo-scroll > .seo-table{margin:0;}
+
+  .site-nav{
+    display:flex;align-items:center;gap:18px;flex-wrap:wrap;
+    margin:0 0 18px;padding:0 2px 14px;
+    border-bottom:1px solid var(--line-soft,#EAF1F4);
+    font-size:13px;
+  }
+  .site-nav-brand{
+    font-size:15px;font-weight:800;letter-spacing:-.02em;
+    color:var(--ink,#16343F);text-decoration:none;
+  }
+  .site-nav-links{display:flex;gap:16px;flex-wrap:wrap;align-items:center;}
+  .site-nav a{color:var(--ink-soft,#5A7784);text-decoration:none;}
+  .site-nav a:hover{color:var(--teal-dark,#0A6E77);}
+  .site-nav-here{color:var(--teal,#0E8C97);font-weight:600;}
+  /* Pushed to the far end, so the way back into the app is always in the same
+     place rather than wherever the link list happens to end. */
+  .site-nav-app{margin-left:auto;font-weight:600;}
+  @media (max-width:620px){
+    .site-nav{gap:10px;}
+    .site-nav-app{margin-left:0;}
+  }
 </style>
 <script type="application/ld+json">[{"@context":"https://schema.org","@type":"Event","name":"Next quarterly earnings (projected)","startDate":"2026-11-02","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.","organizer":{"@type":"Organization","name":"IMVT"}},{"@context":"https://schema.org","@type":"Event","name":"A Study to Assess the Efficacy, Safety, and Tolerability of IMVT-1402 as Treatment for Adult Participants With Graves' Disease","startDate":"2027-05-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Graves' Disease · 210 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"IMVT"}},{"@context":"https://schema.org","@type":"Event","name":"A Study to Evaluate the Efficacy, Safety, and Tolerability of IMVT-1402 in Adult Participants With Active, Difficult to Treat Rheumatoid Arthritis","startDate":"2027-09-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Rheumatoid Arthritis · 120 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"IMVT"}},{"@context":"https://schema.org","@type":"Event","name":"Study to Assess the Efficacy and Safety of IMVT-1402 in Participants With Mild to Severe Generalized Myasthenia Gravis","startDate":"2027-12-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Generalized Myasthenia Gravis · 231 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"IMVT"}},{"@context":"https://schema.org","@type":"Event","name":"A Study to Assess the Efficacy, Safety, and Tolerability of IMVT-1402 as Treatment for Adult Participants With Graves' Disease","startDate":"2028-06-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Graves' Disease · 240 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"IMVT"}},{"@context":"https://schema.org","@type":"Event","name":"Efficacy and Safety of IMVT-1402 in Adult Participants With Primary Sjogren's Disease With Moderate to Severe Systemic Disease Activity","startDate":"2028-07-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Primary Sjögren's Syndrome · 180 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"IMVT"}},{"@context":"https://schema.org","@type":"Event","name":"Imeroprubart in Adult Participants With Chronic Inflammatory Demyelinating Polyneuropathy (CIDP)","startDate":"2028-08-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Chronic Inflammatory Demyelinating Polyneuropathy · 162 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"IMVT"}},{"@context":"https://schema.org","@type":"Event","name":"A Long-Term Extension Study of IMVT-1402 in Adult Participants With Graves' Disease (GD)","startDate":"2030-03-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Graves' Disease · 372 participants · Status: Enrolling By Invitation","organizer":{"@type":"Organization","name":"IMVT"}}]</script>
 </head>
 <body>
 <div class="app seo-page">
+<nav class="site-nav" aria-label="Site">
+  <a class="site-nav-brand" href="../../">Biolyst</a>
+  <span class="site-nav-links">
+    <a href="../../catalyst-calendar/">Catalyst calendar</a>
+    <a href="../../economic-calendar/">Economic calendar</a>
+  </span>
+  <a class="site-nav-app" href="../../">Open the tracker &rsaquo;</a>
+</nav>
 
-<nav class="seo-crumb"><a href="../../">Biolyst</a> › <a href="../../catalyst-calendar/">Catalyst calendar</a> › IMVT</nav>
+<nav class="seo-crumb"><a href="../../catalyst-calendar/">Catalyst calendar</a> › IMVT</nav>
 <header class="seo-header">
   <h1>IMVT catalyst calendar</h1>
   <p class="seo-sub">Immunovant, Inc.</p>
@@ -290,7 +320,7 @@
 <section class="seo-about">
   <h2>About this data</h2>
   <p>Trial milestones come from the ClinicalTrials.gov v2 API, filings from SEC EDGAR, and financial figures from SEC XBRL company facts. Dates marked <em>est.</em> are projected rather than company-confirmed. This is an information tool, not investment advice — verify anything you act on against the linked primary source.</p>
-  <p>Last updated 2026-10-20.</p>
+  <p>Last updated 2026-10-21.</p>
 </section>
 
 </div>

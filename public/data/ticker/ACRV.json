@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-10-20",
+  "generatedDate": "2026-10-21",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 2,
     "leadPhase": 2,
     "upcomingCount": 3,
-    "nextCatalystDate": "2026-10-21",
+    "nextCatalystDate": "2026-12-30",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 70
   },
   "trialStats": {
     "completed": 0,
@@ -247,7 +247,7 @@
     {
       "id": "edgar-ACRV-next-earnings",
       "ticker": "ACRV",
-      "date": "2026-10-21",
+      "date": "2026-12-30",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

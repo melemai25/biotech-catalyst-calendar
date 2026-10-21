@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 1,
   "phase2": 4,
-  "generatedDate": "2026-10-20",
+  "generatedDate": "2026-10-21",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 10,
     "nextCatalystDate": "2026-11-05",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 16
+    "daysToNextCatalyst": 15
   },
   "trialStats": {
     "completed": 10,
@@ -67,12 +67,6 @@
     "ongoing": 9,
     "withResults": 0,
     "byPhase": {
-      "phase2": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 4,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 9,
         "terminated": 0,
@@ -83,6 +77,12 @@
         "completed": 0,
         "terminated": 0,
         "total": 2,
+        "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 4,
         "completionRatePct": null
       },
       "other": {
@@ -593,21 +593,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-DNLI-NCT07354724",
-      "ticker": "DNLI",
-      "date": "2028-08-15",
-      "title": "A Study to Evaluate the Safety, Pharmacokinetics, and Pharmacodynamics of DNL952 in Adult Participants With Late-Onset Pompe Disease",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Late-onset Pompe Disease · 32 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07354724",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07354724",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-DNLI-NCT06181136",
       "ticker": "DNLI",
       "date": "2028-08-15",
@@ -619,6 +604,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06181136",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06181136",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-DNLI-NCT07354724",
+      "ticker": "DNLI",
+      "date": "2028-08-15",
+      "title": "A Study to Evaluate the Safety, Pharmacokinetics, and Pharmacodynamics of DNL952 in Adult Participants With Late-Onset Pompe Disease",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Late-onset Pompe Disease · 32 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07354724",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07354724",
       "origin": "registry",
       "status": "upcoming"
     },

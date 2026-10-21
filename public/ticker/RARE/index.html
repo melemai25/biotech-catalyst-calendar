@@ -25,13 +25,43 @@
      child defaults to min-content width, which a wide table happily exceeds. */
   .seo-scroll{overflow-x:auto;max-width:100%;min-width:0;-webkit-overflow-scrolling:touch;}
   .seo-scroll > .seo-table{margin:0;}
+
+  .site-nav{
+    display:flex;align-items:center;gap:18px;flex-wrap:wrap;
+    margin:0 0 18px;padding:0 2px 14px;
+    border-bottom:1px solid var(--line-soft,#EAF1F4);
+    font-size:13px;
+  }
+  .site-nav-brand{
+    font-size:15px;font-weight:800;letter-spacing:-.02em;
+    color:var(--ink,#16343F);text-decoration:none;
+  }
+  .site-nav-links{display:flex;gap:16px;flex-wrap:wrap;align-items:center;}
+  .site-nav a{color:var(--ink-soft,#5A7784);text-decoration:none;}
+  .site-nav a:hover{color:var(--teal-dark,#0A6E77);}
+  .site-nav-here{color:var(--teal,#0E8C97);font-weight:600;}
+  /* Pushed to the far end, so the way back into the app is always in the same
+     place rather than wherever the link list happens to end. */
+  .site-nav-app{margin-left:auto;font-weight:600;}
+  @media (max-width:620px){
+    .site-nav{gap:10px;}
+    .site-nav-app{margin-left:0;}
+  }
 </style>
-<script type="application/ld+json">[{"@context":"https://schema.org","@type":"Event","name":"Next quarterly earnings (projected)","startDate":"2026-10-25","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.","organizer":{"@type":"Organization","name":"RARE"}},{"@context":"https://schema.org","@type":"Event","name":"Setrusumab in Pediatric Japanese Subjects With Osteogenesis Imperfecta","startDate":"2027-01-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Osteogenesis Imperfecta · 6 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"RARE"}},{"@context":"https://schema.org","@type":"Event","name":"Follow-up Study of AAV-Mediated Gene Transfer (UX111; Previously Known as ABO-102) for MPS Type IIIA","startDate":"2027-08-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Mucopolysaccharidosis IIIA, MPS IIIA, Sanfilippo Syndrome · 41 participants · Status: Enrolling By Invitation","organizer":{"@type":"Organization","name":"RARE"}},{"@context":"https://schema.org","@type":"Event","name":"A Study to Determine the Effect of Triheptanoin Compared With Even-Chain MCT on MCEs in Pediatric Patients With LC-FAOD","startDate":"2027-08-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Long-chain Fatty Acid Oxidation Disorders (LC-FAOD) · 69 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"RARE"}},{"@context":"https://schema.org","@type":"Event","name":"Clinical Study of DTX301 AAV-Mediated Gene Transfer for Ornithine Transcarbamylase (OTC) Deficiency","startDate":"2027-09-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"OTC Deficiency · 37 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"RARE"}},{"@context":"https://schema.org","@type":"Event","name":"First-in-human Study of UX016 in GNEM","startDate":"2028-12-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"GNE Myopathy · 24 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"RARE"}},{"@context":"https://schema.org","@type":"Event","name":"Long-term Extension of GTX-102 in Angelman Syndrome","startDate":"2029-02-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Angelman Syndrome · 255 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"RARE"}},{"@context":"https://schema.org","@type":"Event","name":"A Phase 1/2/3 Study of UX701 Gene Therapy in Adults With Wilson Disease","startDate":"2029-03-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Wilson Disease · 82 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"RARE"}},{"@context":"https://schema.org","@type":"Event","name":"Phase I/II/III Gene Transfer Clinical Trial of scAAV9.U1a.hSGSH","startDate":"2029-03-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"MPS IIIA, Sanfilippo Syndrome, Sanfilippo A · 36 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"RARE"}},{"@context":"https://schema.org","@type":"Event","name":"A Safety and Efficacy Study of GTX-102 in Subjects With Deletion- or Nondeletion-type Angelman Syndrome (AS)","startDate":"2030-01-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Angelman Syndrome · 60 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"RARE"}}]</script>
+<script type="application/ld+json">[{"@context":"https://schema.org","@type":"Event","name":"Next quarterly earnings (projected)","startDate":"2026-10-25","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.","organizer":{"@type":"Organization","name":"RARE"}},{"@context":"https://schema.org","@type":"Event","name":"Setrusumab in Pediatric Japanese Subjects With Osteogenesis Imperfecta","startDate":"2027-01-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Osteogenesis Imperfecta · 6 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"RARE"}},{"@context":"https://schema.org","@type":"Event","name":"Follow-up Study of AAV-Mediated Gene Transfer (UX111; Previously Known as ABO-102) for MPS Type IIIA","startDate":"2027-08-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Mucopolysaccharidosis IIIA, MPS IIIA, Sanfilippo Syndrome · 41 participants · Status: Enrolling By Invitation","organizer":{"@type":"Organization","name":"RARE"}},{"@context":"https://schema.org","@type":"Event","name":"A Study to Determine the Effect of Triheptanoin Compared With Even-Chain MCT on MCEs in Pediatric Patients With LC-FAOD","startDate":"2027-08-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Long-chain Fatty Acid Oxidation Disorders (LC-FAOD) · 69 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"RARE"}},{"@context":"https://schema.org","@type":"Event","name":"Clinical Study of DTX301 AAV-Mediated Gene Transfer for Ornithine Transcarbamylase (OTC) Deficiency","startDate":"2027-09-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"OTC Deficiency · 37 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"RARE"}},{"@context":"https://schema.org","@type":"Event","name":"First-in-human Study of UX016 in GNEM","startDate":"2028-12-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"GNE Myopathy · 24 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"RARE"}},{"@context":"https://schema.org","@type":"Event","name":"Long-term Extension of GTX-102 in Angelman Syndrome","startDate":"2029-02-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Angelman Syndrome · 255 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"RARE"}},{"@context":"https://schema.org","@type":"Event","name":"Phase I/II/III Gene Transfer Clinical Trial of scAAV9.U1a.hSGSH","startDate":"2029-03-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"MPS IIIA, Sanfilippo Syndrome, Sanfilippo A · 36 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"RARE"}},{"@context":"https://schema.org","@type":"Event","name":"A Phase 1/2/3 Study of UX701 Gene Therapy in Adults With Wilson Disease","startDate":"2029-03-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Wilson Disease · 82 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"RARE"}},{"@context":"https://schema.org","@type":"Event","name":"A Safety and Efficacy Study of GTX-102 in Subjects With Deletion- or Nondeletion-type Angelman Syndrome (AS)","startDate":"2030-01-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Angelman Syndrome · 60 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"RARE"}}]</script>
 </head>
 <body>
 <div class="app seo-page">
+<nav class="site-nav" aria-label="Site">
+  <a class="site-nav-brand" href="../../">Biolyst</a>
+  <span class="site-nav-links">
+    <a href="../../catalyst-calendar/">Catalyst calendar</a>
+    <a href="../../economic-calendar/">Economic calendar</a>
+  </span>
+  <a class="site-nav-app" href="../../">Open the tracker &rsaquo;</a>
+</nav>
 
-<nav class="seo-crumb"><a href="../../">Biolyst</a> › <a href="../../catalyst-calendar/">Catalyst calendar</a> › RARE</nav>
+<nav class="seo-crumb"><a href="../../catalyst-calendar/">Catalyst calendar</a> › RARE</nav>
 <header class="seo-header">
   <h1>RARE catalyst calendar</h1>
   <p class="seo-sub">Ultragenyx Pharmaceutical Inc.</p>
@@ -99,16 +129,16 @@
 <tr>
 <td class="seo-date">March 15, 2029</td>
 
-<td><a href="https://clinicaltrials.gov/study/NCT04884815" rel="nofollow noopener" target="_blank">A Phase 1/2/3 Study of UX701 Gene Therapy in Adults With Wilson Disease</a></td>
+<td><a href="https://clinicaltrials.gov/study/NCT02716246" rel="nofollow noopener" target="_blank">Phase I/II/III Gene Transfer Clinical Trial of scAAV9.U1a.hSGSH</a></td>
 <td>Trial Milestone</td>
-<td>Phase 1/Phase 2</td>
+<td>Phase 2/Phase 3</td>
 </tr>
 <tr>
 <td class="seo-date">March 15, 2029</td>
 
-<td><a href="https://clinicaltrials.gov/study/NCT02716246" rel="nofollow noopener" target="_blank">Phase I/II/III Gene Transfer Clinical Trial of scAAV9.U1a.hSGSH</a></td>
+<td><a href="https://clinicaltrials.gov/study/NCT04884815" rel="nofollow noopener" target="_blank">A Phase 1/2/3 Study of UX701 Gene Therapy in Adults With Wilson Disease</a></td>
 <td>Trial Milestone</td>
-<td>Phase 2/Phase 3</td>
+<td>Phase 1/Phase 2</td>
 </tr>
 <tr>
 <td class="seo-date">January 15, 2030</td>
@@ -346,7 +376,7 @@
 <section class="seo-about">
   <h2>About this data</h2>
   <p>Trial milestones come from the ClinicalTrials.gov v2 API, filings from SEC EDGAR, and financial figures from SEC XBRL company facts. Dates marked <em>est.</em> are projected rather than company-confirmed. This is an information tool, not investment advice — verify anything you act on against the linked primary source.</p>
-  <p>Last updated 2026-10-20.</p>
+  <p>Last updated 2026-10-21.</p>
 </section>
 
 </div>

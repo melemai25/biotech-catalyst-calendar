@@ -25,13 +25,43 @@
      child defaults to min-content width, which a wide table happily exceeds. */
   .seo-scroll{overflow-x:auto;max-width:100%;min-width:0;-webkit-overflow-scrolling:touch;}
   .seo-scroll > .seo-table{margin:0;}
+
+  .site-nav{
+    display:flex;align-items:center;gap:18px;flex-wrap:wrap;
+    margin:0 0 18px;padding:0 2px 14px;
+    border-bottom:1px solid var(--line-soft,#EAF1F4);
+    font-size:13px;
+  }
+  .site-nav-brand{
+    font-size:15px;font-weight:800;letter-spacing:-.02em;
+    color:var(--ink,#16343F);text-decoration:none;
+  }
+  .site-nav-links{display:flex;gap:16px;flex-wrap:wrap;align-items:center;}
+  .site-nav a{color:var(--ink-soft,#5A7784);text-decoration:none;}
+  .site-nav a:hover{color:var(--teal-dark,#0A6E77);}
+  .site-nav-here{color:var(--teal,#0E8C97);font-weight:600;}
+  /* Pushed to the far end, so the way back into the app is always in the same
+     place rather than wherever the link list happens to end. */
+  .site-nav-app{margin-left:auto;font-weight:600;}
+  @media (max-width:620px){
+    .site-nav{gap:10px;}
+    .site-nav-app{margin-left:0;}
+  }
 </style>
 <script type="application/ld+json">[{"@context":"https://schema.org","@type":"Event","name":"Next quarterly earnings (projected)","startDate":"2026-11-13","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.","organizer":{"@type":"Organization","name":"BCLI"}},{"@context":"https://schema.org","@type":"Event","name":"Efficacy and Safety of MSC-NTF (NurOwn) in Participants With Early Symptomatic ALS and Moderate Disease Presentation in ALS (ENDURANCE STUDY)","startDate":"2028-11-01","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Amyotrophic Lateral Sclerosis (ALS), Amyotrophic Lateral Sclerosis · 200 participants · Status: Not Yet Recruiting","organizer":{"@type":"Organization","name":"BCLI"}}]</script>
 </head>
 <body>
 <div class="app seo-page">
+<nav class="site-nav" aria-label="Site">
+  <a class="site-nav-brand" href="../../">Biolyst</a>
+  <span class="site-nav-links">
+    <a href="../../catalyst-calendar/">Catalyst calendar</a>
+    <a href="../../economic-calendar/">Economic calendar</a>
+  </span>
+  <a class="site-nav-app" href="../../">Open the tracker &rsaquo;</a>
+</nav>
 
-<nav class="seo-crumb"><a href="../../">Biolyst</a> › <a href="../../catalyst-calendar/">Catalyst calendar</a> › BCLI</nav>
+<nav class="seo-crumb"><a href="../../catalyst-calendar/">Catalyst calendar</a> › BCLI</nav>
 <header class="seo-header">
   <h1>BCLI catalyst calendar</h1>
   <p class="seo-sub">BRAINSTORM CELL THERAPEUTICS INC.</p>
@@ -206,7 +236,7 @@
 <section class="seo-about">
   <h2>About this data</h2>
   <p>Trial milestones come from the ClinicalTrials.gov v2 API, filings from SEC EDGAR, and financial figures from SEC XBRL company facts. Dates marked <em>est.</em> are projected rather than company-confirmed. This is an information tool, not investment advice — verify anything you act on against the linked primary source.</p>
-  <p>Last updated 2026-10-20.</p>
+  <p>Last updated 2026-10-21.</p>
 </section>
 
 </div>

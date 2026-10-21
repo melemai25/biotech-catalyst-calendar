@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 3,
   "phase2": 0,
-  "generatedDate": "2026-10-20",
+  "generatedDate": "2026-10-21",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-11-14",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 25
+    "daysToNextCatalyst": 24
   },
   "trialStats": {
     "completed": 12,
@@ -65,8 +65,14 @@
     "withdrawn": 0,
     "suspended": 0,
     "ongoing": 3,
-    "withResults": 2,
+    "withResults": 3,
     "byPhase": {
+      "phase2": {
+        "completed": 4,
+        "terminated": 0,
+        "total": 4,
+        "completionRatePct": 100
+      },
       "phase1": {
         "completed": 7,
         "terminated": 1,
@@ -78,17 +84,11 @@
         "terminated": 0,
         "total": 4,
         "completionRatePct": null
-      },
-      "phase2": {
-        "completed": 4,
-        "terminated": 0,
-        "total": 4,
-        "completionRatePct": 100
       }
     },
     "concluded": 13,
     "completionRatePct": 92,
-    "resultsPostedPct": 17
+    "resultsPostedPct": 25
   },
   "events": [
     {
@@ -205,7 +205,7 @@
       "phase": "Phase 2",
       "estimated": false,
       "summary": "Geographic Atrophy · 270 participants · Status: Completed",
-      "result": null,
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT04656561",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04656561",
       "origin": "registry",

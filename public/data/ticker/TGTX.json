@@ -11,7 +11,7 @@
   "activeTrials": 7,
   "phase3": 4,
   "phase2": 3,
-  "generatedDate": "2026-10-20",
+  "generatedDate": "2026-10-21",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 9,
     "nextCatalystDate": "2026-10-31",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 11
+    "daysToNextCatalyst": 10
   },
   "trialStats": {
     "completed": 15,
@@ -67,11 +67,11 @@
     "ongoing": 12,
     "withResults": 11,
     "byPhase": {
-      "phase1": {
-        "completed": 7,
-        "terminated": 4,
-        "total": 12,
-        "completionRatePct": 64
+      "phase3": {
+        "completed": 3,
+        "terminated": 3,
+        "total": 10,
+        "completionRatePct": 50
       },
       "phase2": {
         "completed": 5,
@@ -79,11 +79,11 @@
         "total": 14,
         "completionRatePct": 45
       },
-      "phase3": {
-        "completed": 3,
-        "terminated": 3,
-        "total": 10,
-        "completionRatePct": 50
+      "phase1": {
+        "completed": 7,
+        "terminated": 4,
+        "total": 12,
+        "completionRatePct": 64
       },
       "other": {
         "completed": 0,
@@ -323,21 +323,6 @@
       "status": "past"
     },
     {
-      "id": "ct-TGTX-NCT03379051",
-      "ticker": "TGTX",
-      "date": "2022-05-26",
-      "title": "Phase I/II Study of Venetoclax or Lenalidomide in Combination With Ublituximab and Umbralisib in Subjects With Relapsed or Refractory CLL/SLL and NHL",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Chronic Lymphocytic Leukemia, Non-Hodgkin Lymphoma · 78 participants · Status: Terminated",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT03379051",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT03379051",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-TGTX-NCT02656303",
       "ticker": "TGTX",
       "date": "2022-05-26",
@@ -349,6 +334,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT02656303",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02656303",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-TGTX-NCT03379051",
+      "ticker": "TGTX",
+      "date": "2022-05-26",
+      "title": "Phase I/II Study of Venetoclax or Lenalidomide in Combination With Ublituximab and Umbralisib in Subjects With Relapsed or Refractory CLL/SLL and NHL",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Chronic Lymphocytic Leukemia, Non-Hodgkin Lymphoma · 78 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT03379051",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03379051",
       "origin": "registry",
       "status": "past"
     },

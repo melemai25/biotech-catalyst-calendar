@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-20",
+  "generatedDate": "2026-10-21",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -54,10 +54,10 @@
     "phase3Count": 1,
     "phase2Count": 1,
     "leadPhase": 3,
-    "upcomingCount": 2,
+    "upcomingCount": 3,
     "nextCatalystDate": "2026-11-13",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 24
+    "daysToNextCatalyst": 23
   },
   "trialStats": {
     "completed": 3,
@@ -73,16 +73,16 @@
         "total": 3,
         "completionRatePct": null
       },
-      "phase3": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 1,
-        "completionRatePct": null
-      },
       "other": {
         "completed": 1,
         "terminated": 0,
         "total": 2,
+        "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 1,
         "completionRatePct": null
       }
     },
@@ -467,21 +467,6 @@
       "status": "past"
     },
     {
-      "id": "ct-HURA-NCT06940440",
-      "ticker": "HURA",
-      "date": "2026-05-31",
-      "title": "IFx-Hu2.0 As An Adjunctive Therapy To Pembrolizumab In Advanced Or Metastatic Merkel Cell Carcinoma (MCC)",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Advanced Or Metastatic Merkel Cell Carcinoma · 9 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06940440",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06940440",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "edgar-HURA-0001193125-26-350425",
       "ticker": "HURA",
       "date": "2026-08-14",
@@ -553,6 +538,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06947928",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06947928",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-HURA-NCT06940440",
+      "ticker": "HURA",
+      "date": "2027-04-15",
+      "title": "IFx-Hu2.0 As An Adjunctive Therapy To Pembrolizumab In Advanced Or Metastatic Merkel Cell Carcinoma (MCC)",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Advanced Or Metastatic Merkel Cell Carcinoma · 9 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06940440",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06940440",
       "origin": "registry",
       "status": "upcoming"
     }

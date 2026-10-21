@@ -25,13 +25,43 @@
      child defaults to min-content width, which a wide table happily exceeds. */
   .seo-scroll{overflow-x:auto;max-width:100%;min-width:0;-webkit-overflow-scrolling:touch;}
   .seo-scroll > .seo-table{margin:0;}
+
+  .site-nav{
+    display:flex;align-items:center;gap:18px;flex-wrap:wrap;
+    margin:0 0 18px;padding:0 2px 14px;
+    border-bottom:1px solid var(--line-soft,#EAF1F4);
+    font-size:13px;
+  }
+  .site-nav-brand{
+    font-size:15px;font-weight:800;letter-spacing:-.02em;
+    color:var(--ink,#16343F);text-decoration:none;
+  }
+  .site-nav-links{display:flex;gap:16px;flex-wrap:wrap;align-items:center;}
+  .site-nav a{color:var(--ink-soft,#5A7784);text-decoration:none;}
+  .site-nav a:hover{color:var(--teal-dark,#0A6E77);}
+  .site-nav-here{color:var(--teal,#0E8C97);font-weight:600;}
+  /* Pushed to the far end, so the way back into the app is always in the same
+     place rather than wherever the link list happens to end. */
+  .site-nav-app{margin-left:auto;font-weight:600;}
+  @media (max-width:620px){
+    .site-nav{gap:10px;}
+    .site-nav-app{margin-left:0;}
+  }
 </style>
 <script type="application/ld+json">[{"@context":"https://schema.org","@type":"Event","name":"Clinical Trial of Ablation Therapy in Participants With Intermediate-Risk Non-Muscle Invasive Papillary Bladder Cancer","startDate":"2026-11-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Non-muscle Invasive Bladder Cancer (NMIBC) · 20 participants · Status: Not Yet Recruiting","organizer":{"@type":"Organization","name":"IBRX"}},{"@context":"https://schema.org","@type":"Event","name":"A Study to Examine Anktiva for the Treatment of COVID-19.","startDate":"2027-03-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Long COVID, Long COVID Syndrome, Long Covid 19 · 40 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"IBRX"}},{"@context":"https://schema.org","@type":"Event","name":"A Phase 2, Open-label, Single-arm Study Of Autologous M-CENK Adoptive Cell Therapy And N-803 (IL-15 Superagonist) In Combination With Gemcitabine In Participants With Recurrent Platinum-Resistant High-Grade Ovarian Cancer","startDate":"2027-05-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Platinum-resistant Ovarian Cancer · 20 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"IBRX"}},{"@context":"https://schema.org","@type":"Event","name":"Study of Relapsed/ Refractory B-cell Non- Hodgkin Lymphoma","startDate":"2027-05-25","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Relapsed B-Cell Non Hodgkin Lymphoma · 20 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"IBRX"}},{"@context":"https://schema.org","@type":"Event","name":"NAI for Sepsis With Persistent Lymphopenia","startDate":"2027-08-03","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Sepsis, Septic Shock, Lymphopenia · 50 participants · Status: Not Yet Recruiting","organizer":{"@type":"Organization","name":"IBRX"}},{"@context":"https://schema.org","@type":"Event","name":"IBRX-042 In Participants With HPV-Associated Tumors","startDate":"2027-09-02","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"HPV-Related Carcinoma · 12 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"IBRX"}},{"@context":"https://schema.org","@type":"Event","name":"Study for Participants With Relapsed/Refractory Non-Hodgkin Lymphoma","startDate":"2027-10-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Non-Hodgkin Lymphoma Refractory/ Relapsed · 20 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"IBRX"}},{"@context":"https://schema.org","@type":"Event","name":"Study of CD19 t-haNK and NAI With Rituximab in Participants With Indolent Non-Hodgkin Lymphoma","startDate":"2027-12-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Relapsed B-Cell Non-Hodgkin Lymphoma · 20 participants · Status: Not Yet Recruiting","organizer":{"@type":"Organization","name":"IBRX"}},{"@context":"https://schema.org","@type":"Event","name":"N-803 in Combination With Pembrolizumab and Enfortumab Vedotin for Treatment of Urothelial Cancer","startDate":"2028-01-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Metastatic Urothelial Carcinoma, Urothelial Carcinoma, Locally Advanced Urothelial Carcinoma · 18 participants · Status: Not Yet Recruiting","organizer":{"@type":"Organization","name":"IBRX"}},{"@context":"https://schema.org","@type":"Event","name":"ResQ133A-NMIBC: Intravesical Recombinant Mycobacterium (rMBCG) in Participants With NMIBC Eligible to Receive Intravesical Tice BCG","startDate":"2028-02-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"NMIBC · 40 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"IBRX"}},{"@context":"https://schema.org","@type":"Event","name":"NAI Plus Standard of Care Compared With Placebo Plus Standard of Care in Critically Ill Adults With Sepsis","startDate":"2028-05-12","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Sepsis · 50 participants · Status: Not Yet Recruiting","organizer":{"@type":"Organization","name":"IBRX"}},{"@context":"https://schema.org","@type":"Event","name":"Clinical Trial of N-803 Plus Tislelizumab or Prior Failed Immune Checkpoint Inhibitor and Docetaxel Versus Docetaxel Monotherapy in Participants With Advanced or Metastatic Non-Small Cell Lung Cancer Who Have Acquired Resistance to Immune Checkpoint In","startDate":"2028-09-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"NSCLC Stage IV · 507 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"IBRX"}},{"@context":"https://schema.org","@type":"Event","name":"QUILT-3.055: A Study of Combination Immunotherapies in Patients Who Have Previously Received Treatment With Immune Checkpoint Inhibitors","startDate":"2029-08-31","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Non-Small Cell Lung Cancer, Small Cell Lung Cancer, Urothelial Carcinoma · 40 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"IBRX"}},{"@context":"https://schema.org","@type":"Event","name":"N-803 and PD-L1 t-haNK Combined With Bevacizumab for Recurrent or Progressive Glioblastoma","startDate":"2029-12-31","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Glioblastoma · 34 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"IBRX"}},{"@context":"https://schema.org","@type":"Event","name":"Phase 2 Study of NAI, HPV Vaccine, and Nab-Paclitaxel in HPV-Positive Oropharyngeal Cancer Followed by De-Intensified Radiation Compared With Standard Chemoradiation","startDate":"2030-12-31","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"HPV-Positive Oropharyngeal Squamous Cell Carcinoma, Oropharyngeal Squamous Cell Carcinoma, Head and Neck Cancer · 70 participants · Status: Not Yet Recruiting","organizer":{"@type":"Organization","name":"IBRX"}}]</script>
 </head>
 <body>
 <div class="app seo-page">
+<nav class="site-nav" aria-label="Site">
+  <a class="site-nav-brand" href="../../">Biolyst</a>
+  <span class="site-nav-links">
+    <a href="../../catalyst-calendar/">Catalyst calendar</a>
+    <a href="../../economic-calendar/">Economic calendar</a>
+  </span>
+  <a class="site-nav-app" href="../../">Open the tracker &rsaquo;</a>
+</nav>
 
-<nav class="seo-crumb"><a href="../../">Biolyst</a> › <a href="../../catalyst-calendar/">Catalyst calendar</a> › IBRX</nav>
+<nav class="seo-crumb"><a href="../../catalyst-calendar/">Catalyst calendar</a> › IBRX</nav>
 <header class="seo-header">
   <h1>IBRX catalyst calendar</h1>
   <p class="seo-sub">ImmunityBio, Inc.</p>
@@ -381,7 +411,7 @@
 <section class="seo-about">
   <h2>About this data</h2>
   <p>Trial milestones come from the ClinicalTrials.gov v2 API, filings from SEC EDGAR, and financial figures from SEC XBRL company facts. Dates marked <em>est.</em> are projected rather than company-confirmed. This is an information tool, not investment advice — verify anything you act on against the linked primary source.</p>
-  <p>Last updated 2026-10-20.</p>
+  <p>Last updated 2026-10-21.</p>
 </section>
 
 </div>

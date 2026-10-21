@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-20",
+  "generatedDate": "2026-10-21",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -79,17 +79,17 @@
         "total": 7,
         "completionRatePct": 100
       },
-      "other": {
-        "completed": 3,
-        "terminated": 0,
-        "total": 7,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 6,
         "terminated": 0,
         "total": 7,
         "completionRatePct": 100
+      },
+      "other": {
+        "completed": 3,
+        "terminated": 0,
+        "total": 7,
+        "completionRatePct": null
       }
     },
     "concluded": 39,
@@ -97,21 +97,6 @@
     "resultsPostedPct": 60
   },
   "events": [
-    {
-      "id": "ct-VALN-NCT03576183",
-      "ticker": "VALN",
-      "date": "2018-06-26",
-      "title": "Study Confirming A Human Challenge Model and Investigating The Safety Of VLA1701",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Enterotoxigenic Escherichia Coli Infection, Diarrhea · 34 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT03576183",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT03576183",
-      "origin": "registry",
-      "status": "past"
-    },
     {
       "id": "ct-VALN-NCT03425149",
       "ticker": "VALN",
@@ -124,6 +109,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT03425149",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03425149",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-VALN-NCT03576183",
+      "ticker": "VALN",
+      "date": "2018-06-26",
+      "title": "Study Confirming A Human Challenge Model and Investigating The Safety Of VLA1701",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Enterotoxigenic Escherichia Coli Infection, Diarrhea · 34 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT03576183",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03576183",
       "origin": "registry",
       "status": "past"
     },
@@ -260,21 +260,6 @@
       "source": "ClinicalTrials.gov NCT06106581",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06106581",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-VALN-0001628280-25-018288",
-      "ticker": "VALN",
-      "date": "2025-04-18",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-18",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1836564/000162828025018288/a6-kcoverpagetemplate.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

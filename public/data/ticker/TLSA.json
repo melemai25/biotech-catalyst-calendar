@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 0,
   "phase2": 4,
-  "generatedDate": "2026-10-20",
+  "generatedDate": "2026-10-21",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-04-01",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 163
+    "daysToNextCatalyst": 162
   },
   "trialStats": {
     "completed": 2,
@@ -67,12 +67,6 @@
     "ongoing": 6,
     "withResults": 2,
     "byPhase": {
-      "phase1": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 3,
-        "completionRatePct": null
-      },
       "other": {
         "completed": 0,
         "terminated": 0,
@@ -83,6 +77,12 @@
         "completed": 1,
         "terminated": 2,
         "total": 10,
+        "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 3,
         "completionRatePct": null
       }
     },
@@ -1048,6 +1048,21 @@
       "result": null,
       "source": "SEC EDGAR 6-K 2026-10-16",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1723069/000121390026110008/ea0308845-6k_tiziana.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-TLSA-0001213900-26-111173",
+      "ticker": "TLSA",
+      "date": "2026-10-21",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. REPORT OF FOREIGN PRIVATE ISSUER.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-10-21",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1723069/000121390026111173/ea0309141-6k_tiziana.htm",
       "origin": "edgar",
       "status": "past"
     },

@@ -25,13 +25,43 @@
      child defaults to min-content width, which a wide table happily exceeds. */
   .seo-scroll{overflow-x:auto;max-width:100%;min-width:0;-webkit-overflow-scrolling:touch;}
   .seo-scroll > .seo-table{margin:0;}
+
+  .site-nav{
+    display:flex;align-items:center;gap:18px;flex-wrap:wrap;
+    margin:0 0 18px;padding:0 2px 14px;
+    border-bottom:1px solid var(--line-soft,#EAF1F4);
+    font-size:13px;
+  }
+  .site-nav-brand{
+    font-size:15px;font-weight:800;letter-spacing:-.02em;
+    color:var(--ink,#16343F);text-decoration:none;
+  }
+  .site-nav-links{display:flex;gap:16px;flex-wrap:wrap;align-items:center;}
+  .site-nav a{color:var(--ink-soft,#5A7784);text-decoration:none;}
+  .site-nav a:hover{color:var(--teal-dark,#0A6E77);}
+  .site-nav-here{color:var(--teal,#0E8C97);font-weight:600;}
+  /* Pushed to the far end, so the way back into the app is always in the same
+     place rather than wherever the link list happens to end. */
+  .site-nav-app{margin-left:auto;font-weight:600;}
+  @media (max-width:620px){
+    .site-nav{gap:10px;}
+    .site-nav-app{margin-left:0;}
+  }
 </style>
 <script type="application/ld+json">[{"@context":"https://schema.org","@type":"Event","name":"Next quarterly earnings (projected)","startDate":"2026-10-26","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.","organizer":{"@type":"Organization","name":"TYRA"}},{"@context":"https://schema.org","@type":"Event","name":"Safety and Preliminary Anti-Tumor Activity of TYRA-300 in Advanced Urothelial Carcinoma and Other Solid Tumors With FGFR3 Gene Alterations","startDate":"2026-11-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Locally Advanced Urothelial Carcinoma, Metastatic Urothelial Carcinoma, Solid Tumor · 310 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"TYRA"}},{"@context":"https://schema.org","@type":"Event","name":"Safety and Anti-Tumor Activity of TYRA-200 in Advanced Cholangiocarcinoma With Activating FGFR2 Gene Alterations","startDate":"2027-03-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Locally Advanced Cholangiocarcinoma, Intrahepatic Cholangiocarcinoma, Solid Tumor · 40 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"TYRA"}},{"@context":"https://schema.org","@type":"Event","name":"Safety and Preliminary Anti-Tumor Activity of TYRA-430 in Advanced Hepatocellular Carcinoma and Other Solid Tumors With Activating FGF/FGFR Pathway Aberrations","startDate":"2028-01-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Metastatic Hepatocellular Carcinoma, Solid Tumors, Solid Tumor, Adult · 125 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"TYRA"}},{"@context":"https://schema.org","@type":"Event","name":"Efficacy and Safety of TYRA-300 in Participants With FGFR3 Altered Low Grade, Intermediate Risk Non-Muscle Invasive Bladder Cancer","startDate":"2028-02-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Low-grade NMIBC, FGFR Gene Amplification, FGFR Gene Alterations · 90 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"TYRA"}},{"@context":"https://schema.org","@type":"Event","name":"A Study of TYRA-300 in Children With Achondroplasia: BEACH301","startDate":"2030-01-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Achondroplasia · 92 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"TYRA"}},{"@context":"https://schema.org","@type":"Event","name":"Phase 2A/B Efficacy and Safety of Dabogratinib in Participants With Low Grade Upper Tract Urothelial Carcinoma","startDate":"2030-10-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Low Grade Upper Tract Urothelial Carcinoma · 285 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"TYRA"}}]</script>
 </head>
 <body>
 <div class="app seo-page">
+<nav class="site-nav" aria-label="Site">
+  <a class="site-nav-brand" href="../../">Biolyst</a>
+  <span class="site-nav-links">
+    <a href="../../catalyst-calendar/">Catalyst calendar</a>
+    <a href="../../economic-calendar/">Economic calendar</a>
+  </span>
+  <a class="site-nav-app" href="../../">Open the tracker &rsaquo;</a>
+</nav>
 
-<nav class="seo-crumb"><a href="../../">Biolyst</a> › <a href="../../catalyst-calendar/">Catalyst calendar</a> › TYRA</nav>
+<nav class="seo-crumb"><a href="../../catalyst-calendar/">Catalyst calendar</a> › TYRA</nav>
 <header class="seo-header">
   <h1>TYRA catalyst calendar</h1>
   <p class="seo-sub">Tyra Biosciences, Inc.</p>
@@ -219,7 +249,7 @@
 <section class="seo-about">
   <h2>About this data</h2>
   <p>Trial milestones come from the ClinicalTrials.gov v2 API, filings from SEC EDGAR, and financial figures from SEC XBRL company facts. Dates marked <em>est.</em> are projected rather than company-confirmed. This is an information tool, not investment advice — verify anything you act on against the linked primary source.</p>
-  <p>Last updated 2026-10-20.</p>
+  <p>Last updated 2026-10-21.</p>
 </section>
 
 </div>

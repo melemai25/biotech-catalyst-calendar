@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-10-20",
+  "generatedDate": "2026-10-21",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -57,7 +57,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2027-06-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 238
+    "daysToNextCatalyst": 237
   },
   "trialStats": {
     "completed": 2,
@@ -73,16 +73,16 @@
         "total": 5,
         "completionRatePct": null
       },
-      "other": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 1,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 1,
         "terminated": 1,
         "total": 2,
+        "completionRatePct": null
+      },
+      "other": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 1,
         "completionRatePct": null
       }
     },
@@ -437,21 +437,6 @@
       "status": "past"
     },
     {
-      "id": "ct-PHVS-NCT07266805",
-      "ticker": "PHVS",
-      "date": "2027-06-15",
-      "title": "Study of Oral Deucrictibant XR Tablet for Prophylaxis and Deucrictibant Soft Capsule for On-Demand Treatment of Angioedema Attacks in Adults With Acquired Angioedema Due to C1 Inhibitor Deficiency",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Acquired Angioedema Due to C1-Inhibitor Deficiency (AAE-C1-INH) · 48 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07266805",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07266805",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-PHVS-NCT05396105",
       "ticker": "PHVS",
       "date": "2027-06-15",
@@ -463,6 +448,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05396105",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05396105",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-PHVS-NCT07266805",
+      "ticker": "PHVS",
+      "date": "2027-06-15",
+      "title": "Study of Oral Deucrictibant XR Tablet for Prophylaxis and Deucrictibant Soft Capsule for On-Demand Treatment of Angioedema Attacks in Adults With Acquired Angioedema Due to C1 Inhibitor Deficiency",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Acquired Angioedema Due to C1-Inhibitor Deficiency (AAE-C1-INH) · 48 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07266805",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07266805",
       "origin": "registry",
       "status": "upcoming"
     },

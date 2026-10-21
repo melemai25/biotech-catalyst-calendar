@@ -25,13 +25,43 @@
      child defaults to min-content width, which a wide table happily exceeds. */
   .seo-scroll{overflow-x:auto;max-width:100%;min-width:0;-webkit-overflow-scrolling:touch;}
   .seo-scroll > .seo-table{margin:0;}
+
+  .site-nav{
+    display:flex;align-items:center;gap:18px;flex-wrap:wrap;
+    margin:0 0 18px;padding:0 2px 14px;
+    border-bottom:1px solid var(--line-soft,#EAF1F4);
+    font-size:13px;
+  }
+  .site-nav-brand{
+    font-size:15px;font-weight:800;letter-spacing:-.02em;
+    color:var(--ink,#16343F);text-decoration:none;
+  }
+  .site-nav-links{display:flex;gap:16px;flex-wrap:wrap;align-items:center;}
+  .site-nav a{color:var(--ink-soft,#5A7784);text-decoration:none;}
+  .site-nav a:hover{color:var(--teal-dark,#0A6E77);}
+  .site-nav-here{color:var(--teal,#0E8C97);font-weight:600;}
+  /* Pushed to the far end, so the way back into the app is always in the same
+     place rather than wherever the link list happens to end. */
+  .site-nav-app{margin-left:auto;font-weight:600;}
+  @media (max-width:620px){
+    .site-nav{gap:10px;}
+    .site-nav-app{margin-left:0;}
+  }
 </style>
 <script type="application/ld+json">[{"@context":"https://schema.org","@type":"Event","name":"Phase 1 Study of ADX-626 in Healthy Participants","startDate":"2027-01-22","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Healthy Adult Participants · 44 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"ADRX"}},{"@context":"https://schema.org","@type":"Event","name":"STOP-HAE: A Phase 3 Study of ADX-324 in HAE","startDate":"2027-11-30","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Hereditary Angioedema, HAE, Hereditary Angioedema - Type 1 · 90 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"ADRX"}},{"@context":"https://schema.org","@type":"Event","name":"Safety, Tolerability, PK, PD of ADX-324 in Healthy Volunteers and Hereditary Angioedema Patients","startDate":"2027-12-31","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Hereditary Angioedema · 53 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"ADRX"}},{"@context":"https://schema.org","@type":"Event","name":"Safety, Tolerability, PK and PD of ADX-038 in Healthy Participants and Paroxysmal Nocturnal Hemoglobinuria (PNH) Patients","startDate":"2028-03-31","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Paroxysmal Nocturnal Hemoglobinuria (PNH) · 50 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"ADRX"}},{"@context":"https://schema.org","@type":"Event","name":"Chinese Adults With Kidney Disease","startDate":"2028-07-10","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Immunoglobulin A Nephropathy (IgAN), Complement 3 Glomerulopathy (C3G), IC-MPGN · 30 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"ADRX"}},{"@context":"https://schema.org","@type":"Event","name":"Phase 2 Study of ADX-038 in Complement-Mediated Kidney Disease","startDate":"2028-12-31","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"IgAN, C3G, Complement-mediated Kidney Disease · 45 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"ADRX"}},{"@context":"https://schema.org","@type":"Event","name":"Phase 2 Study of ADX-038 in Participants With Geographic Atrophy","startDate":"2030-02-28","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Geographic Atrophy Secondary to Age-related Macular Degeneration · 240 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"ADRX"}},{"@context":"https://schema.org","@type":"Event","name":"Phase 3 Extension Study of ADX-324 in Participants With Hereditary Angioedema (HAE)","startDate":"2030-06-30","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Hereditary Angioedema (HAE), Hereditary Angioedema - Type 1, Hereditary Angioedema - Type 2 · 90 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"ADRX"}}]</script>
 </head>
 <body>
 <div class="app seo-page">
+<nav class="site-nav" aria-label="Site">
+  <a class="site-nav-brand" href="../../">Biolyst</a>
+  <span class="site-nav-links">
+    <a href="../../catalyst-calendar/">Catalyst calendar</a>
+    <a href="../../economic-calendar/">Economic calendar</a>
+  </span>
+  <a class="site-nav-app" href="../../">Open the tracker &rsaquo;</a>
+</nav>
 
-<nav class="seo-crumb"><a href="../../">Biolyst</a> › <a href="../../catalyst-calendar/">Catalyst calendar</a> › ADRX</nav>
+<nav class="seo-crumb"><a href="../../catalyst-calendar/">Catalyst calendar</a> › ADRX</nav>
 <header class="seo-header">
   <h1>ADRX catalyst calendar</h1>
   <p class="seo-sub">ADARx Pharmaceuticals, Inc.</p>
@@ -134,7 +164,7 @@
 <section class="seo-about">
   <h2>About this data</h2>
   <p>Trial milestones come from the ClinicalTrials.gov v2 API, filings from SEC EDGAR, and financial figures from SEC XBRL company facts. Dates marked <em>est.</em> are projected rather than company-confirmed. This is an information tool, not investment advice — verify anything you act on against the linked primary source.</p>
-  <p>Last updated 2026-10-20.</p>
+  <p>Last updated 2026-10-21.</p>
 </section>
 
 </div>

@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-10-20",
+  "generatedDate": "2026-10-21",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-11-11",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 22
+    "daysToNextCatalyst": 21
   },
   "trialStats": {
     "completed": 1,
@@ -67,12 +67,6 @@
     "ongoing": 2,
     "withResults": 0,
     "byPhase": {
-      "phase2": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 1,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 1,
         "terminated": 0,
@@ -83,6 +77,12 @@
         "completed": 0,
         "terminated": 0,
         "total": 2,
+        "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 1,
         "completionRatePct": null
       }
     },
@@ -313,6 +313,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-09-08",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1750149/000119312526385293/d152999d8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-IKT-0001193125-26-426811",
+      "ticker": "IKT",
+      "date": "2026-10-20",
+      "title": "8-K filed: Leadership change, Reg FD disclosure",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 5.02, 7.01, 9.01. Leadership change; Reg FD disclosure. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-20",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1750149/000119312526426811/d190975d8k.htm",
       "origin": "edgar",
       "status": "past"
     },

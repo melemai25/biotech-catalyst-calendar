@@ -25,13 +25,43 @@
      child defaults to min-content width, which a wide table happily exceeds. */
   .seo-scroll{overflow-x:auto;max-width:100%;min-width:0;-webkit-overflow-scrolling:touch;}
   .seo-scroll > .seo-table{margin:0;}
+
+  .site-nav{
+    display:flex;align-items:center;gap:18px;flex-wrap:wrap;
+    margin:0 0 18px;padding:0 2px 14px;
+    border-bottom:1px solid var(--line-soft,#EAF1F4);
+    font-size:13px;
+  }
+  .site-nav-brand{
+    font-size:15px;font-weight:800;letter-spacing:-.02em;
+    color:var(--ink,#16343F);text-decoration:none;
+  }
+  .site-nav-links{display:flex;gap:16px;flex-wrap:wrap;align-items:center;}
+  .site-nav a{color:var(--ink-soft,#5A7784);text-decoration:none;}
+  .site-nav a:hover{color:var(--teal-dark,#0A6E77);}
+  .site-nav-here{color:var(--teal,#0E8C97);font-weight:600;}
+  /* Pushed to the far end, so the way back into the app is always in the same
+     place rather than wherever the link list happens to end. */
+  .site-nav-app{margin-left:auto;font-weight:600;}
+  @media (max-width:620px){
+    .site-nav{gap:10px;}
+    .site-nav-app{margin-left:0;}
+  }
 </style>
 <script type="application/ld+json">[{"@context":"https://schema.org","@type":"Event","name":"Next quarterly earnings (projected)","startDate":"2026-10-29","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.","organizer":{"@type":"Organization","name":"BCYC"}},{"@context":"https://schema.org","@type":"Event","name":"Study BT5528-100 in Patients With Advanced Solid Tumors Associated With EphA2 Expression","startDate":"2026-12-31","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Advanced Solid Tumor Historically Known for High EphA2 Expression, Urothelial Cancer, Ovarian Cancer · 288 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"BCYC"}},{"@context":"https://schema.org","@type":"Event","name":"Study BT8009-100 in Subjects With Nectin-4 Expressing Advanced Malignancies","startDate":"2027-01-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Urinary Bladder Neoplasm, Triple Negative Breast Neoplasms, Hormone Receptor Positive, HER2-negative Neoplasms · 329 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"BCYC"}},{"@context":"https://schema.org","@type":"Event","name":"Study BT8009-230 in Participants With Locally Advanced or Metastatic Urothelial Cancer (Duravelo-2)","startDate":"2028-03-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Metastatic Urothelial Cancer · 375 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"BCYC"}},{"@context":"https://schema.org","@type":"Event","name":"Study of Zelenectide Pevedotin in Participants With Advanced Breast Cancer","startDate":"2028-06-30","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Breast Cancer · 66 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"BCYC"}},{"@context":"https://schema.org","@type":"Event","name":"Zelenectide Pevedotin in NECTIN4 Amplified Advanced or Metastatic Non-small Cell Lung Cancer","startDate":"2028-08-31","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Non-Small Cell Lung Cancer · 73 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"BCYC"}},{"@context":"https://schema.org","@type":"Event","name":"A Study of Nuzefatide Pevedotin (BT5528) in Patients With Metastatic Pancreatic Ductal Adenocarcinoma (PDAC)","startDate":"2029-03-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Pancreatic Ductal Adenocarcinoma (PDAC) · 39 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"BCYC"}},{"@context":"https://schema.org","@type":"Event","name":"Bicycle Continued Access Protocol (BiCAP) for Participants Receiving a Bicycle Investigational Product","startDate":"2030-05-30","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Advanced Solid Tumors · 16 participants · Status: Not Yet Recruiting","organizer":{"@type":"Organization","name":"BCYC"}}]</script>
 </head>
 <body>
 <div class="app seo-page">
+<nav class="site-nav" aria-label="Site">
+  <a class="site-nav-brand" href="../../">Biolyst</a>
+  <span class="site-nav-links">
+    <a href="../../catalyst-calendar/">Catalyst calendar</a>
+    <a href="../../economic-calendar/">Economic calendar</a>
+  </span>
+  <a class="site-nav-app" href="../../">Open the tracker &rsaquo;</a>
+</nav>
 
-<nav class="seo-crumb"><a href="../../">Biolyst</a> › <a href="../../catalyst-calendar/">Catalyst calendar</a> › BCYC</nav>
+<nav class="seo-crumb"><a href="../../catalyst-calendar/">Catalyst calendar</a> › BCYC</nav>
 <header class="seo-header">
   <h1>BCYC catalyst calendar</h1>
   <p class="seo-sub">BICYCLE THERAPEUTICS PLC</p>
@@ -219,7 +249,7 @@
 <section class="seo-about">
   <h2>About this data</h2>
   <p>Trial milestones come from the ClinicalTrials.gov v2 API, filings from SEC EDGAR, and financial figures from SEC XBRL company facts. Dates marked <em>est.</em> are projected rather than company-confirmed. This is an information tool, not investment advice — verify anything you act on against the linked primary source.</p>
-  <p>Last updated 2026-10-20.</p>
+  <p>Last updated 2026-10-21.</p>
 </section>
 
 </div>

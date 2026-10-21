@@ -11,7 +11,7 @@
   "activeTrials": 13,
   "phase3": 7,
   "phase2": 6,
-  "generatedDate": "2026-10-20",
+  "generatedDate": "2026-10-21",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 19,
     "nextCatalystDate": "2026-12-21",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 62
+    "daysToNextCatalyst": 61
   },
   "trialStats": {
     "completed": 132,
@@ -73,17 +73,17 @@
         "total": 74,
         "completionRatePct": 85
       },
-      "phase2": {
-        "completed": 40,
-        "terminated": 12,
-        "total": 67,
-        "completionRatePct": 77
-      },
       "phase1": {
         "completed": 19,
         "terminated": 4,
         "total": 29,
         "completionRatePct": 83
+      },
+      "phase2": {
+        "completed": 40,
+        "terminated": 12,
+        "total": 67,
+        "completionRatePct": 77
       },
       "other": {
         "completed": 17,
@@ -1253,21 +1253,6 @@
       "status": "past"
     },
     {
-      "id": "ct-JAZZ-NCT05152147",
-      "ticker": "JAZZ",
-      "date": "2026-07-15",
-      "title": "A Study of Zanidatamab in Combination With Chemotherapy Plus or Minus Tislelizumab in Patients With HER2-positive Advanced or Metastatic Gastric and Esophageal Cancers",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Gastric Neoplasms, Gastroesophageal Adenocarcinoma, Esophageal Adenocarcinoma · 920 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05152147",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05152147",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-JAZZ-NCT04541082",
       "ticker": "JAZZ",
       "date": "2026-07-15",
@@ -1279,6 +1264,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04541082",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04541082",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-JAZZ-NCT05152147",
+      "ticker": "JAZZ",
+      "date": "2026-07-15",
+      "title": "A Study of Zanidatamab in Combination With Chemotherapy Plus or Minus Tislelizumab in Patients With HER2-positive Advanced or Metastatic Gastric and Esophageal Cancers",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Gastric Neoplasms, Gastroesophageal Adenocarcinoma, Esophageal Adenocarcinoma · 920 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05152147",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05152147",
       "origin": "registry",
       "status": "past"
     },

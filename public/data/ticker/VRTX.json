@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-20",
+  "generatedDate": "2026-10-21",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-11-02",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 13
+    "daysToNextCatalyst": 12
   },
   "trialStats": {
     "completed": 2,
@@ -292,6 +292,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-09-01",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000264/vrtx-20260827.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-VRTX-0000875320-26-000278",
+      "ticker": "VRTX",
+      "date": "2026-10-20",
+      "title": "8-K filed: Leadership change",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 5.02. Leadership change. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-20",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000278/vrtx-20261020.htm",
       "origin": "edgar",
       "status": "past"
     },

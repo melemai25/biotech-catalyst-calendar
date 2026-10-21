@@ -25,13 +25,43 @@
      child defaults to min-content width, which a wide table happily exceeds. */
   .seo-scroll{overflow-x:auto;max-width:100%;min-width:0;-webkit-overflow-scrolling:touch;}
   .seo-scroll > .seo-table{margin:0;}
+
+  .site-nav{
+    display:flex;align-items:center;gap:18px;flex-wrap:wrap;
+    margin:0 0 18px;padding:0 2px 14px;
+    border-bottom:1px solid var(--line-soft,#EAF1F4);
+    font-size:13px;
+  }
+  .site-nav-brand{
+    font-size:15px;font-weight:800;letter-spacing:-.02em;
+    color:var(--ink,#16343F);text-decoration:none;
+  }
+  .site-nav-links{display:flex;gap:16px;flex-wrap:wrap;align-items:center;}
+  .site-nav a{color:var(--ink-soft,#5A7784);text-decoration:none;}
+  .site-nav a:hover{color:var(--teal-dark,#0A6E77);}
+  .site-nav-here{color:var(--teal,#0E8C97);font-weight:600;}
+  /* Pushed to the far end, so the way back into the app is always in the same
+     place rather than wherever the link list happens to end. */
+  .site-nav-app{margin-left:auto;font-weight:600;}
+  @media (max-width:620px){
+    .site-nav{gap:10px;}
+    .site-nav-app{margin-left:0;}
+  }
 </style>
 <script type="application/ld+json">[{"@context":"https://schema.org","@type":"Event","name":"Next quarterly earnings (projected)","startDate":"2026-11-13","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.","organizer":{"@type":"Organization","name":"FATE"}},{"@context":"https://schema.org","@type":"Event","name":"A Phase 1 Study of FT819 in B-cell Mediated Autoimmune Disease","startDate":"2027-09-30","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Antineutrophilic Cytoplasmic Antibody (ANCA)- Associated Vasculitis (AAV), Idiopathic Inflammatory Myositis (IIM), Systemic Sclerosis (SSc) · 244 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"FATE"}},{"@context":"https://schema.org","@type":"Event","name":"FT836 With or Without Chemotherapy and/or Monoclonal Antibodies, in Participants With Advanced Solid Tumors","startDate":"2028-01-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Non-Small Cell Lung Cancer, Colorectal Cancer, Breast Cancer · 119 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"FATE"}},{"@context":"https://schema.org","@type":"Event","name":"FT839 in Autoimmune Diseases","startDate":"2028-10-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"ANCA-Associated Vasculitis (AAV), Idiopathic Inflammatory Myositis (IIM), Rheumatoid Arthritis (RA) · 446 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"FATE"}},{"@context":"https://schema.org","@type":"Event","name":"FT825/ONO-8250, an Off-the-Shelf, HER2 CAR-T, With or Without Monoclonal Antibodies in Advanced Solid Tumors","startDate":"2029-05-01","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Advanced Solid Tumor · 351 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"FATE"}},{"@context":"https://schema.org","@type":"Event","name":"A Phase 2, Open-Label, Single-Arm Trial of FT819 in Participants With Lupus Nephritis","startDate":"2029-07-01","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Lupus Nephritis, Systemic Lupus Erythematosus, SLE - Systemic Lupus Erythematosus · 53 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"FATE"}}]</script>
 </head>
 <body>
 <div class="app seo-page">
+<nav class="site-nav" aria-label="Site">
+  <a class="site-nav-brand" href="../../">Biolyst</a>
+  <span class="site-nav-links">
+    <a href="../../catalyst-calendar/">Catalyst calendar</a>
+    <a href="../../economic-calendar/">Economic calendar</a>
+  </span>
+  <a class="site-nav-app" href="../../">Open the tracker &rsaquo;</a>
+</nav>
 
-<nav class="seo-crumb"><a href="../../">Biolyst</a> › <a href="../../catalyst-calendar/">Catalyst calendar</a> › FATE</nav>
+<nav class="seo-crumb"><a href="../../catalyst-calendar/">Catalyst calendar</a> › FATE</nav>
 <header class="seo-header">
   <h1>FATE catalyst calendar</h1>
   <p class="seo-sub">FATE THERAPEUTICS INC</p>
@@ -273,14 +303,14 @@
 <tr>
 <td class="seo-date">December 15, 2016</td>
 
-<td><a href="https://clinicaltrials.gov/study/NCT02354443" rel="nofollow noopener" target="_blank">A Trial of a Single ProHema-CB Product Transplant in Pediatric Patients With Inherited Metabolic Disorders</a></td>
+<td><a href="https://clinicaltrials.gov/study/NCT02354417" rel="nofollow noopener" target="_blank">A Phase 1 Trial of a Single ProHema® CB Product for Pediatric Patients With Hematologic Malignancies</a></td>
 <td>Trial Milestone</td>
 <td>Phase 1</td>
 </tr>
 <tr>
 <td class="seo-date">December 15, 2016</td>
 
-<td><a href="https://clinicaltrials.gov/study/NCT02354417" rel="nofollow noopener" target="_blank">A Phase 1 Trial of a Single ProHema® CB Product for Pediatric Patients With Hematologic Malignancies</a></td>
+<td><a href="https://clinicaltrials.gov/study/NCT02354443" rel="nofollow noopener" target="_blank">A Trial of a Single ProHema-CB Product Transplant in Pediatric Patients With Inherited Metabolic Disorders</a></td>
 <td>Trial Milestone</td>
 <td>Phase 1</td>
 </tr>
@@ -290,7 +320,7 @@
 <section class="seo-about">
   <h2>About this data</h2>
   <p>Trial milestones come from the ClinicalTrials.gov v2 API, filings from SEC EDGAR, and financial figures from SEC XBRL company facts. Dates marked <em>est.</em> are projected rather than company-confirmed. This is an information tool, not investment advice — verify anything you act on against the linked primary source.</p>
-  <p>Last updated 2026-10-20.</p>
+  <p>Last updated 2026-10-21.</p>
 </section>
 
 </div>

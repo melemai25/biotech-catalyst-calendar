@@ -11,7 +11,7 @@
   "activeTrials": 15,
   "phase3": 7,
   "phase2": 8,
-  "generatedDate": "2026-10-20",
+  "generatedDate": "2026-10-21",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -57,7 +57,7 @@
     "upcomingCount": 16,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 56
+    "daysToNextCatalyst": 55
   },
   "trialStats": {
     "completed": 9,
@@ -67,12 +67,6 @@
     "ongoing": 37,
     "withResults": 0,
     "byPhase": {
-      "phase3": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 7,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 1,
         "terminated": 3,
@@ -84,6 +78,12 @@
         "terminated": 2,
         "total": 22,
         "completionRatePct": 80
+      },
+      "phase3": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 7,
+        "completionRatePct": null
       },
       "other": {
         "completed": 0,
@@ -293,21 +293,6 @@
       "status": "past"
     },
     {
-      "id": "ct-AAPG-NCT04494503",
-      "ticker": "AAPG",
-      "date": "2024-10-20",
-      "title": "Study of APG2575 Single Agent and Combination Therapy in Patients With Relapsed/Refractory CLL/SLL",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma · 123 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04494503",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04494503",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-AAPG-NCT03913949",
       "ticker": "AAPG",
       "date": "2024-10-20",
@@ -319,6 +304,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT03913949",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03913949",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-AAPG-NCT04494503",
+      "ticker": "AAPG",
+      "date": "2024-10-20",
+      "title": "Study of APG2575 Single Agent and Combination Therapy in Patients With Relapsed/Refractory CLL/SLL",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma · 123 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04494503",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04494503",
       "origin": "registry",
       "status": "past"
     },
@@ -1553,21 +1553,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-AAPG-NCT03594422",
-      "ticker": "AAPG",
-      "date": "2027-12-15",
-      "title": "A Study of HQP1351 in Patients With GIST or Other Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Gastrointestinal Stromal Tumor (GIST), Solid Tumor, Adult · 100 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT03594422",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT03594422",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-AAPG-NCT03917043",
       "ticker": "AAPG",
       "date": "2027-12-15",
@@ -1583,17 +1568,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-AAPG-NCT06051409",
+      "id": "ct-AAPG-NCT03594422",
       "ticker": "AAPG",
-      "date": "2027-12-31",
-      "title": "A Study of Olverembatinib in Patients With Newly Diagnosed Ph+ ALL (POLARIS-1)",
+      "date": "2027-12-15",
+      "title": "A Study of HQP1351 in Patients With GIST or Other Solid Tumors",
       "type": "Trial Milestone",
-      "phase": "Phase 3",
+      "phase": "Phase 1",
       "estimated": false,
-      "summary": "Ph+ ALL, Leukemia, Lymphoblastic, Acute, Philadelphia-Positive · 350 participants · Status: Recruiting",
+      "summary": "Gastrointestinal Stromal Tumor (GIST), Solid Tumor, Adult · 100 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT06051409",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06051409",
+      "source": "ClinicalTrials.gov NCT03594422",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03594422",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1609,6 +1594,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05773586",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05773586",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-AAPG-NCT06051409",
+      "ticker": "AAPG",
+      "date": "2027-12-31",
+      "title": "A Study of Olverembatinib in Patients With Newly Diagnosed Ph+ ALL (POLARIS-1)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Ph+ ALL, Leukemia, Lymphoblastic, Acute, Philadelphia-Positive · 350 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06051409",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06051409",
       "origin": "registry",
       "status": "upcoming"
     },

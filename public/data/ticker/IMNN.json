@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 1,
   "phase2": 2,
-  "generatedDate": "2026-10-20",
+  "generatedDate": "2026-10-21",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-11-10",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 21
+    "daysToNextCatalyst": 20
   },
   "trialStats": {
     "completed": 7,
@@ -568,6 +568,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-09-29",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/749647/000149315226044792/form8-k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-IMNN-0001493152-26-047850",
+      "ticker": "IMNN",
+      "date": "2026-10-21",
+      "title": "8-K filed: Material agreement, Reg FD disclosure",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 1.01, 7.01, 9.01. Material agreement; Reg FD disclosure. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-21",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/749647/000149315226047850/form8-k.htm",
       "origin": "edgar",
       "status": "past"
     },

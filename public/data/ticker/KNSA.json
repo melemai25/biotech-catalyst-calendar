@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-10-20",
+  "generatedDate": "2026-10-21",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-12-27",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 68
+    "daysToNextCatalyst": 67
   },
   "trialStats": {
     "completed": 1,
@@ -67,15 +67,15 @@
     "ongoing": 3,
     "withResults": 1,
     "byPhase": {
-      "phase2": {
-        "completed": 0,
-        "terminated": 1,
-        "total": 2,
-        "completionRatePct": null
-      },
       "phase3": {
         "completed": 1,
         "terminated": 0,
+        "total": 2,
+        "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 0,
+        "terminated": 1,
         "total": 2,
         "completionRatePct": null
       },
@@ -332,21 +332,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-KNSA-NCT07010159",
-      "ticker": "KNSA",
-      "date": "2027-12-31",
-      "title": "Phase 2/3 Study of Participants With Recurrent Pericarditis Evaluating the Efficacy and Safety of KPL-387",
-      "type": "Trial Milestone",
-      "phase": "Phase 2/Phase 3",
-      "estimated": false,
-      "summary": "Pericarditis, Pericarditis Acute, Recurrent Pericarditis · 325 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07010159",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07010159",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-KNSA-NCT07288216",
       "ticker": "KNSA",
       "date": "2027-12-31",
@@ -358,6 +343,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07288216",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07288216",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-KNSA-NCT07010159",
+      "ticker": "KNSA",
+      "date": "2027-12-31",
+      "title": "Phase 2/3 Study of Participants With Recurrent Pericarditis Evaluating the Efficacy and Safety of KPL-387",
+      "type": "Trial Milestone",
+      "phase": "Phase 2/Phase 3",
+      "estimated": false,
+      "summary": "Pericarditis, Pericarditis Acute, Recurrent Pericarditis · 325 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07010159",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07010159",
       "origin": "registry",
       "status": "upcoming"
     }

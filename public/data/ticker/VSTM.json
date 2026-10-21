@@ -11,7 +11,7 @@
   "activeTrials": 10,
   "phase3": 1,
   "phase2": 9,
-  "generatedDate": "2026-10-20",
+  "generatedDate": "2026-10-21",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2027-06-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 238
+    "daysToNextCatalyst": 237
   },
   "trialStats": {
     "completed": 9,
@@ -617,6 +617,21 @@
       "status": "past"
     },
     {
+      "id": "ct-VSTM-NCT07644559",
+      "ticker": "VSTM",
+      "date": "2027-06-15",
+      "title": "A Phase 2 Study of VS-7375 in Patients With KRAS G12D-Mutated Pancreatic Cancer",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Pancreatic Ductal Adenocarcinoma (PDAC), G12D Mutated KRAS · 185 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07644559",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07644559",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-VSTM-NCT07659795",
       "ticker": "VSTM",
       "date": "2027-06-15",
@@ -643,21 +658,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07659782",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07659782",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-VSTM-NCT07644559",
-      "ticker": "VSTM",
-      "date": "2027-06-15",
-      "title": "A Phase 2 Study of VS-7375 in Patients With KRAS G12D-Mutated Pancreatic Cancer",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Pancreatic Ductal Adenocarcinoma (PDAC), G12D Mutated KRAS · 185 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07644559",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07644559",
       "origin": "registry",
       "status": "upcoming"
     },

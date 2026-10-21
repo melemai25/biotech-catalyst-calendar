@@ -25,13 +25,43 @@
      child defaults to min-content width, which a wide table happily exceeds. */
   .seo-scroll{overflow-x:auto;max-width:100%;min-width:0;-webkit-overflow-scrolling:touch;}
   .seo-scroll > .seo-table{margin:0;}
+
+  .site-nav{
+    display:flex;align-items:center;gap:18px;flex-wrap:wrap;
+    margin:0 0 18px;padding:0 2px 14px;
+    border-bottom:1px solid var(--line-soft,#EAF1F4);
+    font-size:13px;
+  }
+  .site-nav-brand{
+    font-size:15px;font-weight:800;letter-spacing:-.02em;
+    color:var(--ink,#16343F);text-decoration:none;
+  }
+  .site-nav-links{display:flex;gap:16px;flex-wrap:wrap;align-items:center;}
+  .site-nav a{color:var(--ink-soft,#5A7784);text-decoration:none;}
+  .site-nav a:hover{color:var(--teal-dark,#0A6E77);}
+  .site-nav-here{color:var(--teal,#0E8C97);font-weight:600;}
+  /* Pushed to the far end, so the way back into the app is always in the same
+     place rather than wherever the link list happens to end. */
+  .site-nav-app{margin-left:auto;font-weight:600;}
+  @media (max-width:620px){
+    .site-nav{gap:10px;}
+    .site-nav-app{margin-left:0;}
+  }
 </style>
 <script type="application/ld+json">[{"@context":"https://schema.org","@type":"Event","name":"Next quarterly earnings (projected)","startDate":"2026-12-24","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.","organizer":{"@type":"Organization","name":"NUVB"}},{"@context":"https://schema.org","@type":"Event","name":"Study on the Effect of Famotidine on Pharmacokinetics of Taletrectinib","startDate":"2027-02-02","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Healthy Adult Participants · 56 participants · Status: Not Yet Recruiting","organizer":{"@type":"Organization","name":"NUVB"}},{"@context":"https://schema.org","@type":"Event","name":"Safety and Efficacy Study of NUV-1511 in Adult Patients With Advanced Solid Tumors","startDate":"2027-03-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Advanced Solid Tumor, HER2-negative Breast Cancer, Metastatic Castration-resistant Prostate Cancer (mCRPC) · 466 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"NUVB"}},{"@context":"https://schema.org","@type":"Event","name":"SIGMA (Safusidenib in IDH1 Mutant Glioma Maintenance)","startDate":"2028-12-01","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Glioma, Astrocytoma, Grade IV, IDH1-mutant Glioma · 365 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"NUVB"}},{"@context":"https://schema.org","@type":"Event","name":"A Phase III Study Comparing Taletrectinib With Standard Therapy in ROS1 Positive Locally Advanced or Metastatic Non-small Cell Lung Cancer Patients","startDate":"2029-01-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Non Small Cell Lung Cancer · 194 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"NUVB"}},{"@context":"https://schema.org","@type":"Event","name":"Safety and Efficacy Study of Safusidenib in Participants With Grade 2 IDH1-Mutant Glioma","startDate":"2029-05-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Grade 2 Glioma (Astrocytoma or Oligodendroglioma) With an IDH1 Mutation, Astrocytoma IDH Mutant Grade 2, Oligodendroglioma · 140 participants · Status: Not Yet Recruiting","organizer":{"@type":"Organization","name":"NUVB"}},{"@context":"https://schema.org","@type":"Event","name":"Phase 3 Study of Taletrectinib vs Placebo as an Adjuvant Therapy in ROS1 Positive NSCLC (TRUST-IV)","startDate":"2030-08-30","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Non-small Cell Lung Cancer (NSCLC) · 180 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"NUVB"}},{"@context":"https://schema.org","@type":"Event","name":"Safety and Efficacy Study of Safusidenib in Participants With IDH1-Mutant Glioma Who Discontinued Vorasidenib Treatment Due to Progressive Disease","startDate":"2030-09-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Grade 2 IDH1-mutant Glioma, Grade 3 IDH1-mutant Glioma, Glioma · 40 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"NUVB"}}]</script>
 </head>
 <body>
 <div class="app seo-page">
+<nav class="site-nav" aria-label="Site">
+  <a class="site-nav-brand" href="../../">Biolyst</a>
+  <span class="site-nav-links">
+    <a href="../../catalyst-calendar/">Catalyst calendar</a>
+    <a href="../../economic-calendar/">Economic calendar</a>
+  </span>
+  <a class="site-nav-app" href="../../">Open the tracker &rsaquo;</a>
+</nav>
 
-<nav class="seo-crumb"><a href="../../">Biolyst</a> › <a href="../../catalyst-calendar/">Catalyst calendar</a> › NUVB</nav>
+<nav class="seo-crumb"><a href="../../catalyst-calendar/">Catalyst calendar</a> › NUVB</nav>
 <header class="seo-header">
   <h1>NUVB catalyst calendar</h1>
   <p class="seo-sub">Nuvation Bio Inc.</p>
@@ -269,7 +299,7 @@
 <section class="seo-about">
   <h2>About this data</h2>
   <p>Trial milestones come from the ClinicalTrials.gov v2 API, filings from SEC EDGAR, and financial figures from SEC XBRL company facts. Dates marked <em>est.</em> are projected rather than company-confirmed. This is an information tool, not investment advice — verify anything you act on against the linked primary source.</p>
-  <p>Last updated 2026-10-20.</p>
+  <p>Last updated 2026-10-21.</p>
 </section>
 
 </div>

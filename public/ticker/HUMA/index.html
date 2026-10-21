@@ -25,13 +25,43 @@
      child defaults to min-content width, which a wide table happily exceeds. */
   .seo-scroll{overflow-x:auto;max-width:100%;min-width:0;-webkit-overflow-scrolling:touch;}
   .seo-scroll > .seo-table{margin:0;}
+
+  .site-nav{
+    display:flex;align-items:center;gap:18px;flex-wrap:wrap;
+    margin:0 0 18px;padding:0 2px 14px;
+    border-bottom:1px solid var(--line-soft,#EAF1F4);
+    font-size:13px;
+  }
+  .site-nav-brand{
+    font-size:15px;font-weight:800;letter-spacing:-.02em;
+    color:var(--ink,#16343F);text-decoration:none;
+  }
+  .site-nav-links{display:flex;gap:16px;flex-wrap:wrap;align-items:center;}
+  .site-nav a{color:var(--ink-soft,#5A7784);text-decoration:none;}
+  .site-nav a:hover{color:var(--teal-dark,#0A6E77);}
+  .site-nav-here{color:var(--teal,#0E8C97);font-weight:600;}
+  /* Pushed to the far end, so the way back into the app is always in the same
+     place rather than wherever the link list happens to end. */
+  .site-nav-app{margin-left:auto;font-weight:600;}
+  @media (max-width:620px){
+    .site-nav{gap:10px;}
+    .site-nav-app{margin-left:0;}
+  }
 </style>
 <script type="application/ld+json">[{"@context":"https://schema.org","@type":"Event","name":"Next quarterly earnings (projected)","startDate":"2026-11-13","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.","organizer":{"@type":"Organization","name":"HUMA"}},{"@context":"https://schema.org","@type":"Event","name":"To Compare the Efficacy and Safety of the ATEV With AVF in Female Patients With End-Stage Renal Disease Requiring Hemodialysis","startDate":"2027-06-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"End Stage Renal Disease (ESRD) · 121 participants · Status: Active Not Recruiting","organizer":{"@type":"Organization","name":"HUMA"}},{"@context":"https://schema.org","@type":"Event","name":"An Open-label Study to Assess the Safety and Efficacy of SYMVESS® as a Vascular Conduit in Adolescents With Extremity Arterial Injury.","startDate":"2028-12-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Vascular Trauma, Arterial Injury, Arterial Bleeding · 10 participants · Status: Not Yet Recruiting","organizer":{"@type":"Organization","name":"HUMA"}},{"@context":"https://schema.org","@type":"Event","name":"Study to Evaluate the Safety and Efficacy of Humacyte's Coronary Tissue Engineered Vessel (CTEV) in Patients With Coronary Artery Disease Requiring Coronary Artery Bypass Grafting (CABG)","startDate":"2030-09-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Coronary Artery Disease · 10 participants · Status: Not Yet Recruiting","organizer":{"@type":"Organization","name":"HUMA"}},{"@context":"https://schema.org","@type":"Event","name":"Multicenter Study to Evaluate the Safety and Efficacy of SYMVESS™ in a Real World Setting in Patients With Extremity Arterial Injury Requiring Urgent Repair","startDate":"2030-09-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Vascular Injury, Arterial Injury, Trauma Injury · 125 participants · Status: Not Yet Recruiting","organizer":{"@type":"Organization","name":"HUMA"}}]</script>
 </head>
 <body>
 <div class="app seo-page">
+<nav class="site-nav" aria-label="Site">
+  <a class="site-nav-brand" href="../../">Biolyst</a>
+  <span class="site-nav-links">
+    <a href="../../catalyst-calendar/">Catalyst calendar</a>
+    <a href="../../economic-calendar/">Economic calendar</a>
+  </span>
+  <a class="site-nav-app" href="../../">Open the tracker &rsaquo;</a>
+</nav>
 
-<nav class="seo-crumb"><a href="../../">Biolyst</a> › <a href="../../catalyst-calendar/">Catalyst calendar</a> › HUMA</nav>
+<nav class="seo-crumb"><a href="../../catalyst-calendar/">Catalyst calendar</a> › HUMA</nav>
 <header class="seo-header">
   <h1>HUMA catalyst calendar</h1>
   <p class="seo-sub">Humacyte, Inc.</p>
@@ -215,13 +245,6 @@
 <td>—</td>
 </tr>
 <tr>
-<td class="seo-date">April 18, 2025</td>
-
-<td><a href="https://www.sec.gov/Archives/edgar/data/1818382/000181838225000061/huma-20250417.htm" rel="nofollow noopener" target="_blank">8-K filed: Reg FD disclosure</a></td>
-<td>Filing</td>
-<td>—</td>
-</tr>
-<tr>
 <td class="seo-date">April 22, 2024</td>
 
 <td><a href="https://clinicaltrials.gov/study/NCT03183245" rel="nofollow noopener" target="_blank">Comparison of the Human Acellular Vessel (HAV) With Fistulas as Conduits for Hemodialysis</a></td>
@@ -262,7 +285,7 @@
 <section class="seo-about">
   <h2>About this data</h2>
   <p>Trial milestones come from the ClinicalTrials.gov v2 API, filings from SEC EDGAR, and financial figures from SEC XBRL company facts. Dates marked <em>est.</em> are projected rather than company-confirmed. This is an information tool, not investment advice — verify anything you act on against the linked primary source.</p>
-  <p>Last updated 2026-10-20.</p>
+  <p>Last updated 2026-10-21.</p>
 </section>
 
 </div>

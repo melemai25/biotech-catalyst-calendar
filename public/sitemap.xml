@@ -7,6 +7,12 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://biolyst.org/economic-calendar/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://biolyst.org/ticker/AZN/</loc>
     <lastmod>2026-10-21</lastmod>
     <changefreq>daily</changefreq>
@@ -1885,13 +1891,19 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://biolyst.org/calendar/2026-11/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://biolyst.org/calendar/2026-12/</loc>
     <lastmod>2026-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biolyst.org/calendar/2027-02/</loc>
+    <loc>https://biolyst.org/calendar/2027-03/</loc>
     <lastmod>2026-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1909,19 +1921,37 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biolyst.org/calendar/2027-06/</loc>
+    <loc>https://biolyst.org/calendar/2027-07/</loc>
     <lastmod>2026-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biolyst.org/calendar/2027-08/</loc>
+    <loc>https://biolyst.org/calendar/2027-09/</loc>
     <lastmod>2026-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biolyst.org/calendar/2028-02/</loc>
+    <loc>https://biolyst.org/calendar/2027-10/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biolyst.org/calendar/2027-11/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biolyst.org/calendar/2027-12/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biolyst.org/calendar/2028-01/</loc>
     <lastmod>2026-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1939,64 +1969,34 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biolyst.org/calendar/2026-11/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://biolyst.org/calendar/2027-01/</loc>
     <lastmod>2026-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biolyst.org/calendar/2027-10/</loc>
+    <loc>https://biolyst.org/calendar/2028-02/</loc>
     <lastmod>2026-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biolyst.org/calendar/2027-12/</loc>
+    <loc>https://biolyst.org/calendar/2027-02/</loc>
     <lastmod>2026-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biolyst.org/calendar/2027-07/</loc>
+    <loc>https://biolyst.org/calendar/2027-06/</loc>
     <lastmod>2026-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biolyst.org/calendar/2027-09/</loc>
+    <loc>https://biolyst.org/calendar/2027-08/</loc>
     <lastmod>2026-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biolyst.org/calendar/2027-03/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biolyst.org/calendar/2027-11/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biolyst.org/calendar/2028-01/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biolyst.org/economic-calendar/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://biolyst.org/catalyst-calendar/</loc>
