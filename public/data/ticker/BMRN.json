@@ -11,7 +11,7 @@
   "activeTrials": 14,
   "phase3": 5,
   "phase2": 9,
-  "generatedDate": "2026-10-21",
+  "generatedDate": "2026-10-22",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 14,
     "nextCatalystDate": "2026-12-06",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 46
+    "daysToNextCatalyst": 45
   },
   "trialStats": {
     "completed": 61,
@@ -67,6 +67,12 @@
     "ongoing": 31,
     "withResults": 46,
     "byPhase": {
+      "phase3": {
+        "completed": 19,
+        "terminated": 2,
+        "total": 27,
+        "completionRatePct": 90
+      },
       "phase2": {
         "completed": 22,
         "terminated": 11,
@@ -84,12 +90,6 @@
         "terminated": 1,
         "total": 7,
         "completionRatePct": 80
-      },
-      "phase3": {
-        "completed": 19,
-        "terminated": 2,
-        "total": 27,
-        "completionRatePct": 90
       }
     },
     "concluded": 81,
@@ -938,21 +938,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BMRN-NCT02724228",
-      "ticker": "BMRN",
-      "date": "2027-12-15",
-      "title": "A Study to Evaluate Long-Term Safety, Tolerability, & Efficacy of BMN 111 in Children With Achondroplasia (ACH)",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Achondroplasia · 30 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT02724228",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02724228",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BMRN-NCT04480567",
       "ticker": "BMRN",
       "date": "2027-12-15",
@@ -979,6 +964,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04554940",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04554940",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BMRN-NCT02724228",
+      "ticker": "BMRN",
+      "date": "2027-12-15",
+      "title": "A Study to Evaluate Long-Term Safety, Tolerability, & Efficacy of BMN 111 in Children With Achondroplasia (ACH)",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Achondroplasia · 30 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT02724228",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02724228",
       "origin": "registry",
       "status": "upcoming"
     },

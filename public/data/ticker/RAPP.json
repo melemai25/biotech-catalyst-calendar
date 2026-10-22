@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 2,
   "phase2": 2,
-  "generatedDate": "2026-10-21",
+  "generatedDate": "2026-10-22",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-11-04",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 14
+    "daysToNextCatalyst": 13
   },
   "trialStats": {
     "completed": 1,
@@ -356,21 +356,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-RAPP-NCT07563881",
-      "ticker": "RAPP",
-      "date": "2029-07-15",
-      "title": "Study Evaluating the Efficacy and Safety of RAP-219 in Adult Participants With Focal Seizures FOCUS-1",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Focal Seizure, Epilepsy, Focal Epilepsy · 333 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07563881",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07563881",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-RAPP-NCT07594119",
       "ticker": "RAPP",
       "date": "2029-07-15",
@@ -382,6 +367,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07594119",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07594119",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-RAPP-NCT07563881",
+      "ticker": "RAPP",
+      "date": "2029-07-15",
+      "title": "Study Evaluating the Efficacy and Safety of RAP-219 in Adult Participants With Focal Seizures FOCUS-1",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Focal Seizure, Epilepsy, Focal Epilepsy · 333 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07563881",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07563881",
       "origin": "registry",
       "status": "upcoming"
     }

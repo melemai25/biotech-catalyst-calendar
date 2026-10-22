@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-10-21",
+  "generatedDate": "2026-10-22",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 2,
     "leadPhase": 3,
     "upcomingCount": 1,
-    "nextCatalystDate": "2026-10-22",
+    "nextCatalystDate": "2026-12-31",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 70
   },
   "trialStats": {
     "completed": 3,
@@ -67,6 +67,12 @@
     "ongoing": 3,
     "withResults": 2,
     "byPhase": {
+      "phase3": {
+        "completed": 2,
+        "terminated": 2,
+        "total": 5,
+        "completionRatePct": 50
+      },
       "other": {
         "completed": 0,
         "terminated": 0,
@@ -78,12 +84,6 @@
         "terminated": 0,
         "total": 2,
         "completionRatePct": null
-      },
-      "phase3": {
-        "completed": 2,
-        "terminated": 2,
-        "total": 5,
-        "completionRatePct": 50
       }
     },
     "concluded": 5,
@@ -497,21 +497,6 @@
       "status": "past"
     },
     {
-      "id": "ct-IVVD-NCT07655180",
-      "ticker": "IVVD",
-      "date": "2026-08-15",
-      "title": "Safety and Serum Virus Neutralizing Antibody Responses of VYD2311, a COVID-19 Vaccine, and Coadministered VYD2311 With a COVID-19 Vaccine",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "COVID-19 · 210 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07655180",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07655180",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-IVVD-NCT07298434",
       "ticker": "IVVD",
       "date": "2026-08-15",
@@ -523,6 +508,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07298434",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07298434",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-IVVD-NCT07655180",
+      "ticker": "IVVD",
+      "date": "2026-08-15",
+      "title": "Safety and Serum Virus Neutralizing Antibody Responses of VYD2311, a COVID-19 Vaccine, and Coadministered VYD2311 With a COVID-19 Vaccine",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "COVID-19 · 210 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07655180",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07655180",
       "origin": "registry",
       "status": "past"
     },
@@ -559,7 +559,7 @@
     {
       "id": "edgar-IVVD-next-earnings",
       "ticker": "IVVD",
-      "date": "2026-10-22",
+      "date": "2026-12-31",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

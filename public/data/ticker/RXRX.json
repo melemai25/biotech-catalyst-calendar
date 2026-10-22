@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-10-21",
+  "generatedDate": "2026-10-22",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2027-01-14",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 85
+    "daysToNextCatalyst": 84
   },
   "trialStats": {
     "completed": 1,
@@ -65,7 +65,7 @@
     "withdrawn": 0,
     "suspended": 0,
     "ongoing": 3,
-    "withResults": 1,
+    "withResults": 2,
     "byPhase": {
       "phase2": {
         "completed": 1,
@@ -169,7 +169,7 @@
       "phase": "Phase 2",
       "estimated": false,
       "summary": "Cerebral Cavernous Malformation · 62 participants · Status: Completed",
-      "result": null,
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT05085561",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05085561",
       "origin": "registry",

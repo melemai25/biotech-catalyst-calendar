@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-10-21",
+  "generatedDate": "2026-10-22",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-03-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 145
+    "daysToNextCatalyst": 144
   },
   "trialStats": {
     "completed": 0,
@@ -67,10 +67,10 @@
     "ongoing": 2,
     "withResults": 0,
     "byPhase": {
-      "other": {
+      "phase3": {
         "completed": 0,
         "terminated": 1,
-        "total": 1,
+        "total": 4,
         "completionRatePct": null
       },
       "phase2": {
@@ -79,10 +79,10 @@
         "total": 2,
         "completionRatePct": null
       },
-      "phase3": {
+      "other": {
         "completed": 0,
         "terminated": 1,
-        "total": 4,
+        "total": 1,
         "completionRatePct": null
       }
     },
@@ -152,21 +152,6 @@
       "status": "past"
     },
     {
-      "id": "ct-VOR-NCT04849910",
-      "ticker": "VOR",
-      "date": "2025-05-28",
-      "title": "Allogeneic Engineered Hematopoietic Stem Cell Transplant (HCT) Lacking the CD33 Protein, and Post-HCT Treatment With Mylotarg, for Patients With CD33+ AML or MDS",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Leukemia, Myeloid, Acute, Myelodysplastic Syndromes · 67 participants · Status: Terminated",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04849910",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04849910",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-VOR-NCT05984199",
       "ticker": "VOR",
       "date": "2025-05-28",
@@ -178,6 +163,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05984199",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05984199",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-VOR-NCT04849910",
+      "ticker": "VOR",
+      "date": "2025-05-28",
+      "title": "Allogeneic Engineered Hematopoietic Stem Cell Transplant (HCT) Lacking the CD33 Protein, and Post-HCT Treatment With Mylotarg, for Patients With CD33+ AML or MDS",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Leukemia, Myeloid, Acute, Myelodysplastic Syndromes · 67 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04849910",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04849910",
       "origin": "registry",
       "status": "past"
     },

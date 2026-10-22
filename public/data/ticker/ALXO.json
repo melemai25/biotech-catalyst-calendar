@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 1,
   "phase2": 3,
-  "generatedDate": "2026-10-21",
+  "generatedDate": "2026-10-22",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-11-04",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 14
+    "daysToNextCatalyst": 13
   },
   "trialStats": {
     "completed": 2,
@@ -152,21 +152,6 @@
       "status": "past"
     },
     {
-      "id": "ct-ALXO-NCT04675333",
-      "ticker": "ALXO",
-      "date": "2025-03-03",
-      "title": "Evorpacept (ALX148) in Combination With Pembrolizumab and Chemotherapy in Patients With Advanced Head and Neck Squamous Cell Carcinoma (ASPEN-04)",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Head and Neck Cancer, Head and Neck Squamous Cell Carcinoma · 172 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04675333",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04675333",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-ALXO-NCT04675294",
       "ticker": "ALXO",
       "date": "2025-03-03",
@@ -178,6 +163,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04675294",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04675294",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-ALXO-NCT04675333",
+      "ticker": "ALXO",
+      "date": "2025-03-03",
+      "title": "Evorpacept (ALX148) in Combination With Pembrolizumab and Chemotherapy in Patients With Advanced Head and Neck Squamous Cell Carcinoma (ASPEN-04)",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Head and Neck Cancer, Head and Neck Squamous Cell Carcinoma · 172 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04675333",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04675333",
       "origin": "registry",
       "status": "past"
     },

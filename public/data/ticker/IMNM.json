@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-21",
+  "generatedDate": "2026-10-22",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -50,27 +50,27 @@
     "fcfMarginPct": -2680.6,
     "marketCapUsd": null,
     "entityName": "Immunome, Inc.",
-    "activeTrials": 10,
+    "activeTrials": 11,
     "phase3Count": 1,
     "phase2Count": 1,
     "leadPhase": 3,
-    "upcomingCount": 4,
+    "upcomingCount": 5,
     "nextCatalystDate": "2026-11-10",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 20
+    "daysToNextCatalyst": 19
   },
   "trialStats": {
     "completed": 4,
     "terminated": 1,
     "withdrawn": 0,
     "suspended": 0,
-    "ongoing": 5,
+    "ongoing": 6,
     "withResults": 0,
     "byPhase": {
       "phase1": {
         "completed": 4,
         "terminated": 1,
-        "total": 9,
+        "total": 10,
         "completionRatePct": 80
       },
       "phase3": {
@@ -382,6 +382,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07505771",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07505771",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-IMNM-NCT07890246",
+      "ticker": "IMNM",
+      "date": "2030-09-15",
+      "title": "A Phase 1 Study of IM-1340 in Participants With Advanced Cancer",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Colorectal Cancer, Non-Small Cell Lung Cancer, Small Cell Lung Cancer · 200 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07890246",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07890246",
       "origin": "registry",
       "status": "upcoming"
     }

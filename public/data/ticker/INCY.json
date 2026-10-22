@@ -11,7 +11,7 @@
   "activeTrials": 40,
   "phase3": 23,
   "phase2": 17,
-  "generatedDate": "2026-10-21",
+  "generatedDate": "2026-10-22",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 41,
     "nextCatalystDate": "2026-10-27",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 6
+    "daysToNextCatalyst": 5
   },
   "trialStats": {
     "completed": 143,
@@ -67,6 +67,12 @@
     "ongoing": 67,
     "withResults": 126,
     "byPhase": {
+      "other": {
+        "completed": 4,
+        "terminated": 1,
+        "total": 18,
+        "completionRatePct": 80
+      },
       "phase3": {
         "completed": 25,
         "terminated": 9,
@@ -84,12 +90,6 @@
         "terminated": 44,
         "total": 128,
         "completionRatePct": 60
-      },
-      "other": {
-        "completed": 4,
-        "terminated": 1,
-        "total": 18,
-        "completionRatePct": 80
       }
     },
     "concluded": 221,
@@ -188,21 +188,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT02431260",
-      "ticker": "INCY",
-      "date": "2018-01-31",
-      "title": "An Open-Label, Dose-Escalation Study of INCB054329 in Patients With Advanced Malignancies",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Solid Tumors and Hematologic Malignancy · 69 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02431260",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02431260",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT02953678",
       "ticker": "INCY",
       "date": "2018-01-31",
@@ -214,6 +199,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT02953678",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02953678",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT02431260",
+      "ticker": "INCY",
+      "date": "2018-01-31",
+      "title": "An Open-Label, Dose-Escalation Study of INCB054329 in Patients With Advanced Malignancies",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Solid Tumors and Hematologic Malignancy · 69 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT02431260",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02431260",
       "origin": "registry",
       "status": "past"
     },
@@ -2978,21 +2978,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT06959225",
-      "ticker": "INCY",
-      "date": "2026-10-09",
-      "title": "Study to Evaluate the Efficacy and Safety of Ruxolitinib Cream in Participants With Hidradenitis Suppurativa (TRuE-HS1)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Hidradenitis Suppurativa · 580 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06959225",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06959225",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT06958211",
       "ticker": "INCY",
       "date": "2026-10-09",
@@ -3008,6 +2993,21 @@
       "status": "past"
     },
     {
+      "id": "ct-INCY-NCT06959225",
+      "ticker": "INCY",
+      "date": "2026-10-09",
+      "title": "Study to Evaluate the Efficacy and Safety of Ruxolitinib Cream in Participants With Hidradenitis Suppurativa (TRuE-HS1)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Hidradenitis Suppurativa · 580 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06959225",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06959225",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "ct-INCY-NCT07814404",
       "ticker": "INCY",
       "date": "2026-10-15",
@@ -3019,21 +3019,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07814404",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07814404",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "ct-INCY-NCT06516965",
-      "ticker": "INCY",
-      "date": "2026-10-19",
-      "title": "A Study to Evaluate the Efficacy and Safety Study of Povorcitinib in Participants With Prurigo Nodularis (STOP-PN2)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Prurigo Nodularis · 346 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06516965",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06516965",
       "origin": "registry",
       "status": "past"
     },
@@ -3064,6 +3049,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06516952",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06516952",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT06516965",
+      "ticker": "INCY",
+      "date": "2026-10-19",
+      "title": "A Study to Evaluate the Efficacy and Safety Study of Povorcitinib in Participants With Prurigo Nodularis (STOP-PN2)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Prurigo Nodularis · 346 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06516965",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06516965",
       "origin": "registry",
       "status": "past"
     },

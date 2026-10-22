@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 0,
   "phase2": 4,
-  "generatedDate": "2026-10-21",
+  "generatedDate": "2026-10-22",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-12-19",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 59
+    "daysToNextCatalyst": 58
   },
   "trialStats": {
     "completed": 0,
@@ -455,21 +455,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-TNGX-NCT05732831",
-      "ticker": "TNGX",
-      "date": "2027-06-15",
-      "title": "Safety and Tolerability of TNG462 in Patients With MTAP-deleted Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Locally Advanced Solid Tumor · 225 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05732831",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05732831",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-TNGX-NCT06922591",
       "ticker": "TNGX",
       "date": "2027-06-15",
@@ -481,6 +466,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06922591",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06922591",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-TNGX-NCT05732831",
+      "ticker": "TNGX",
+      "date": "2027-06-15",
+      "title": "Safety and Tolerability of TNG462 in Patients With MTAP-deleted Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Locally Advanced Solid Tumor · 225 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05732831",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05732831",
       "origin": "registry",
       "status": "upcoming"
     }

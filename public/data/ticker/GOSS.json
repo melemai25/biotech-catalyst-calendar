@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-21",
+  "generatedDate": "2026-10-22",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 1,
     "leadPhase": 3,
     "upcomingCount": 2,
-    "nextCatalystDate": "2026-10-22",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "nextCatalystDate": "2026-12-15",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 54
   },
   "trialStats": {
     "completed": 0,
@@ -67,15 +67,15 @@
     "ongoing": 1,
     "withResults": 0,
     "byPhase": {
-      "phase2": {
-        "completed": 0,
-        "terminated": 1,
-        "total": 1,
-        "completionRatePct": null
-      },
       "phase3": {
         "completed": 0,
         "terminated": 0,
+        "total": 1,
+        "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 0,
+        "terminated": 1,
         "total": 1,
         "completionRatePct": null
       }
@@ -431,21 +431,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-GOSS-next-earnings",
-      "ticker": "GOSS",
-      "date": "2026-10-22",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001728117&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-GOSS-NCT06274801",
       "ticker": "GOSS",
       "date": "2026-12-15",
@@ -458,6 +443,21 @@
       "source": "ClinicalTrials.gov NCT06274801",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06274801",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-GOSS-next-earnings",
+      "ticker": "GOSS",
+      "date": "2026-12-31",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001728117&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     }
   ]

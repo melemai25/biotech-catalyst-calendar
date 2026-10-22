@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 2,
   "phase2": 2,
-  "generatedDate": "2026-10-21",
+  "generatedDate": "2026-10-22",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 5,
     "leadPhase": 3,
     "upcomingCount": 8,
-    "nextCatalystDate": "2026-11-05",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 15
+    "nextCatalystDate": "2026-12-15",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 54
   },
   "trialStats": {
     "completed": 25,
@@ -67,16 +67,16 @@
     "ongoing": 7,
     "withResults": 0,
     "byPhase": {
-      "phase1": {
-        "completed": 20,
-        "terminated": 0,
-        "total": 24,
-        "completionRatePct": 100
-      },
       "phase2": {
         "completed": 4,
         "terminated": 0,
         "total": 5,
+        "completionRatePct": 100
+      },
+      "phase1": {
+        "completed": 20,
+        "terminated": 0,
+        "total": 24,
         "completionRatePct": 100
       },
       "phase3": {
@@ -707,19 +707,19 @@
       "status": "past"
     },
     {
-      "id": "edgar-RCUS-next-earnings",
+      "id": "edgar-RCUS-0001193125-26-427829",
       "ticker": "RCUS",
-      "date": "2026-11-05",
-      "title": "Next quarterly earnings (projected)",
+      "date": "2026-10-21",
+      "title": "Quarterly results filed (8-K)",
       "type": "Earnings",
       "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001724521&type=8-K",
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 2.02. Quarterly results. 8-K.",
+      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
+      "source": "SEC EDGAR 8-K 2026-10-21",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1724521/000119312526427829/d130368d8k.htm",
       "origin": "edgar",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-RCUS-NCT07662057",
@@ -734,6 +734,21 @@
       "source": "ClinicalTrials.gov NCT07662057",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07662057",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-RCUS-next-earnings",
+      "ticker": "RCUS",
+      "date": "2027-01-12",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001724521&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {

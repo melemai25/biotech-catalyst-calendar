@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 3,
   "phase2": 0,
-  "generatedDate": "2026-10-21",
+  "generatedDate": "2026-10-22",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2026-11-05",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 15
+    "daysToNextCatalyst": 14
   },
   "trialStats": {
     "completed": 6,
@@ -67,17 +67,17 @@
     "ongoing": 4,
     "withResults": 6,
     "byPhase": {
-      "phase3": {
-        "completed": 2,
-        "terminated": 0,
-        "total": 5,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 4,
         "terminated": 0,
         "total": 5,
         "completionRatePct": 100
+      },
+      "phase3": {
+        "completed": 2,
+        "terminated": 0,
+        "total": 5,
+        "completionRatePct": null
       }
     },
     "concluded": 6,
@@ -433,12 +433,12 @@
     {
       "id": "ct-VRCA-NCT07457918",
       "ticker": "VRCA",
-      "date": "2028-04-30",
+      "date": "2027-11-15",
       "title": "Long-Term Follow-up Study of Cantharidin (YCANTH [VP-102/TO-208]) in Patients With Common Warts (Verruca Vulgaris)",
       "type": "Trial Milestone",
       "phase": "Phase 3",
       "estimated": false,
-      "summary": "Common Warts (Verruca Vulgaris), Common Warts, Human Papilloma Virus (HPV) · 600 participants · Status: Recruiting",
+      "summary": "Common Warts (Verruca Vulgaris), Common Warts, Human Papilloma Virus (HPV) · 250 participants · Status: Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT07457918",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07457918",

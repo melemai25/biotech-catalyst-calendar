@@ -11,7 +11,7 @@
   "activeTrials": 16,
   "phase3": 11,
   "phase2": 5,
-  "generatedDate": "2026-10-21",
+  "generatedDate": "2026-10-22",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 17,
     "nextCatalystDate": "2026-10-24",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 3
+    "daysToNextCatalyst": 2
   },
   "trialStats": {
     "completed": 55,
@@ -67,18 +67,6 @@
     "ongoing": 19,
     "withResults": 40,
     "byPhase": {
-      "phase2": {
-        "completed": 24,
-        "terminated": 7,
-        "total": 36,
-        "completionRatePct": 77
-      },
-      "phase1": {
-        "completed": 19,
-        "terminated": 1,
-        "total": 21,
-        "completionRatePct": 95
-      },
       "phase3": {
         "completed": 7,
         "terminated": 2,
@@ -90,6 +78,18 @@
         "terminated": 0,
         "total": 7,
         "completionRatePct": 100
+      },
+      "phase1": {
+        "completed": 19,
+        "terminated": 1,
+        "total": 21,
+        "completionRatePct": 95
+      },
+      "phase2": {
+        "completed": 24,
+        "terminated": 7,
+        "total": 36,
+        "completionRatePct": 77
       }
     },
     "concluded": 67,
@@ -1073,21 +1073,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-NBIX-NCT06963021",
-      "ticker": "NBIX",
-      "date": "2027-07-15",
-      "title": "NBI-1065845-MDD3026: Study to Assess the Efficacy and Safety of NBI-1065845 as an Adjunctive Treatment in Participants With Major Depressive Disorder (MDD)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Major Depressive Disorder · 200 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06963021",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06963021",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-NBIX-NCT06911112",
       "ticker": "NBIX",
       "date": "2027-07-15",
@@ -1099,6 +1084,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06911112",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06911112",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-NBIX-NCT06963021",
+      "ticker": "NBIX",
+      "date": "2027-07-15",
+      "title": "NBI-1065845-MDD3026: Study to Assess the Efficacy and Safety of NBI-1065845 as an Adjunctive Treatment in Participants With Major Depressive Disorder (MDD)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Major Depressive Disorder · 200 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06963021",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06963021",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1241,7 +1241,7 @@
       "id": "ct-NBIX-NCT07196501",
       "ticker": "NBIX",
       "date": "2028-07-15",
-      "title": "A Study to Evaluate the Maintenance Effect of NBI-1065845 as an Adjunctive Treatment in Participants With Major Depressive Disorder (MDD)",
+      "title": "A Study to Evaluate the Maintenance Effect of Osavampator as an Adjunctive Treatment in Participants With Major Depressive Disorder (MDD)",
       "type": "Trial Milestone",
       "phase": "Phase 3",
       "estimated": false,

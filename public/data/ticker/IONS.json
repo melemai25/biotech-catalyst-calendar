@@ -11,7 +11,7 @@
   "activeTrials": 16,
   "phase3": 11,
   "phase2": 5,
-  "generatedDate": "2026-10-21",
+  "generatedDate": "2026-10-22",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 18,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 55
+    "daysToNextCatalyst": 54
   },
   "trialStats": {
     "completed": 86,
@@ -67,11 +67,11 @@
     "ongoing": 24,
     "withResults": 23,
     "byPhase": {
-      "phase2": {
-        "completed": 44,
-        "terminated": 4,
-        "total": 55,
-        "completionRatePct": 92
+      "phase1": {
+        "completed": 23,
+        "terminated": 1,
+        "total": 26,
+        "completionRatePct": 96
       },
       "other": {
         "completed": 5,
@@ -79,17 +79,17 @@
         "total": 11,
         "completionRatePct": 83
       },
+      "phase2": {
+        "completed": 44,
+        "terminated": 4,
+        "total": 55,
+        "completionRatePct": 92
+      },
       "phase3": {
         "completed": 14,
         "terminated": 0,
         "total": 26,
         "completionRatePct": 100
-      },
-      "phase1": {
-        "completed": 23,
-        "terminated": 1,
-        "total": 26,
-        "completionRatePct": 96
       }
     },
     "concluded": 94,
@@ -113,21 +113,6 @@
       "status": "past"
     },
     {
-      "id": "ct-IONS-NCT02824003",
-      "ticker": "IONS",
-      "date": "2016-12-15",
-      "title": "Study to Evaluate the Effect of ISIS GCGRRx on Hepatic Lipid and Glycogen Content in Type 2 Diabetes",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Type 2 Diabetes · 15 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT02824003",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02824003",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-IONS-NCT02583919",
       "ticker": "IONS",
       "date": "2016-12-15",
@@ -139,6 +124,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT02583919",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02583919",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-IONS-NCT02824003",
+      "ticker": "IONS",
+      "date": "2016-12-15",
+      "title": "Study to Evaluate the Effect of ISIS GCGRRx on Hepatic Lipid and Glycogen Content in Type 2 Diabetes",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Type 2 Diabetes · 15 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT02824003",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02824003",
       "origin": "registry",
       "status": "past"
     },
@@ -563,21 +563,6 @@
       "status": "past"
     },
     {
-      "id": "ct-IONS-NCT04659096",
-      "ticker": "IONS",
-      "date": "2022-10-19",
-      "title": "A Study of ION537 in Patients With Molecularly Selected Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Advanced Solid Tumors · 15 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04659096",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04659096",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-IONS-NCT04836182",
       "ticker": "IONS",
       "date": "2022-10-19",
@@ -589,6 +574,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04836182",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04836182",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-IONS-NCT04659096",
+      "ticker": "IONS",
+      "date": "2022-10-19",
+      "title": "A Study of ION537 in Patients With Molecularly Selected Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Advanced Solid Tumors · 15 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04659096",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04659096",
       "origin": "registry",
       "status": "past"
     },
@@ -1313,6 +1313,21 @@
       "status": "past"
     },
     {
+      "id": "edgar-IONS-0001140361-26-040388",
+      "ticker": "IONS",
+      "date": "2026-10-21",
+      "title": "8-K filed: Reg FD disclosure, Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 7.01, 8.01, 9.01. Reg FD disclosure; Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-21",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/874015/000114036126040388/ef20084189_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "ct-IONS-NCT05392114",
       "ticker": "IONS",
       "date": "2026-12-15",
@@ -1403,17 +1418,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-IONS-NCT06430385",
+      "id": "ct-IONS-NCT04165486",
       "ticker": "IONS",
       "date": "2027-09-15",
-      "title": "ATTUNE: A Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of Intrathecally-Administered ION440 in Participants With Methyl CpG Binding Protein 2 (MECP2) Duplication Syndrome (MDS)",
+      "title": "Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of ION464 Administered to Adults With Multiple System Atrophy (HORIZON)",
       "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
+      "phase": "Phase 1",
       "estimated": false,
-      "summary": "Methyl CpG Binding Protein 2 (MECP2) Duplication Syndrome · 48 participants · Status: Recruiting",
+      "summary": "Multiple System Atrophy · 40 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT06430385",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06430385",
+      "source": "ClinicalTrials.gov NCT04165486",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04165486",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1433,17 +1448,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-IONS-NCT04165486",
+      "id": "ct-IONS-NCT06430385",
       "ticker": "IONS",
       "date": "2027-09-15",
-      "title": "Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of ION464 Administered to Adults With Multiple System Atrophy (HORIZON)",
+      "title": "ATTUNE: A Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of Intrathecally-Administered ION440 in Participants With Methyl CpG Binding Protein 2 (MECP2) Duplication Syndrome (MDS)",
       "type": "Trial Milestone",
-      "phase": "Phase 1",
+      "phase": "Phase 1/Phase 2",
       "estimated": false,
-      "summary": "Multiple System Atrophy · 40 participants · Status: Recruiting",
+      "summary": "Methyl CpG Binding Protein 2 (MECP2) Duplication Syndrome · 48 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT04165486",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04165486",
+      "source": "ClinicalTrials.gov NCT06430385",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06430385",
       "origin": "registry",
       "status": "upcoming"
     },

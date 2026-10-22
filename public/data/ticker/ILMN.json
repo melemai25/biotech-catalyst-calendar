@@ -9,7 +9,7 @@
   "activeTrials": 0,
   "phase3": 0,
   "phase2": 0,
-  "generatedDate": "2026-10-21",
+  "generatedDate": "2026-10-22",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,9 +53,9 @@
     "phase2Count": 3,
     "leadPhase": 3,
     "upcomingCount": 3,
-    "nextCatalystDate": "2026-10-22",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "nextCatalystDate": "2026-10-30",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 8
   },
   "trialStats": {
     "completed": 12,
@@ -420,18 +420,18 @@
       "status": "past"
     },
     {
-      "id": "edgar-ILMN-next-earnings",
+      "id": "ct-ILMN-NCT07176286",
       "ticker": "ILMN",
-      "date": "2026-10-22",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "date": "2026-10-30",
+      "title": "18F-mFBG Cardiac Uptake With Lewy Body Dementia",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Parkinson Disease (PD), Lewy Body Dementia (LBD) · 20 participants · Status: Recruiting",
       "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001110803&type=8-K",
-      "origin": "edgar",
+      "source": "ClinicalTrials.gov NCT07176286",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07176286",
+      "origin": "registry",
       "status": "upcoming"
     },
     {
@@ -450,18 +450,18 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ILMN-NCT07176286",
+      "id": "edgar-ILMN-next-earnings",
       "ticker": "ILMN",
-      "date": "2026-10-30",
-      "title": "18F-mFBG Cardiac Uptake With Lewy Body Dementia",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Parkinson Disease (PD), Lewy Body Dementia (LBD) · 20 participants · Status: Recruiting",
+      "date": "2027-01-14",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
       "result": null,
-      "source": "ClinicalTrials.gov NCT07176286",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07176286",
-      "origin": "registry",
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001110803&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     }
   ]

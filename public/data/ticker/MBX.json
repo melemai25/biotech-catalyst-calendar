@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-10-21",
+  "generatedDate": "2026-10-22",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-10-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 9
+    "daysToNextCatalyst": 8
   },
   "trialStats": {
     "completed": 5,
@@ -67,12 +67,6 @@
     "ongoing": 3,
     "withResults": 0,
     "byPhase": {
-      "phase3": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 1,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 3,
         "terminated": 0,
@@ -83,6 +77,12 @@
         "completed": 2,
         "terminated": 0,
         "total": 3,
+        "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 1,
         "completionRatePct": null
       }
     },
@@ -493,6 +493,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-08-27",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1776111/000119312526369674/mbx-20260827.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-MBX-0001193125-26-428367",
+      "ticker": "MBX",
+      "date": "2026-10-22",
+      "title": "8-K filed: Leadership change",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 5.02, 9.01. Leadership change. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1776111/000119312526428367/mbx-20261020.htm",
       "origin": "edgar",
       "status": "past"
     },

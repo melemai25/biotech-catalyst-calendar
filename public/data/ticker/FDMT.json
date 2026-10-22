@@ -11,7 +11,7 @@
   "activeTrials": 9,
   "phase3": 3,
   "phase2": 6,
-  "generatedDate": "2026-10-21",
+  "generatedDate": "2026-10-22",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 7,
     "nextCatalystDate": "2027-03-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 145
+    "daysToNextCatalyst": 144
   },
   "trialStats": {
     "completed": 0,
@@ -73,16 +73,16 @@
         "total": 3,
         "completionRatePct": null
       },
-      "phase1": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 1,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 0,
         "terminated": 0,
         "total": 6,
+        "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 1,
         "completionRatePct": null
       },
       "other": {
@@ -323,21 +323,6 @@
       "status": "past"
     },
     {
-      "id": "ct-FDMT-NCT04517149",
-      "ticker": "FDMT",
-      "date": "2026-06-15",
-      "title": "4D-125 in Patients With X-Linked Retinitis Pigmentosa (XLRP)",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "X-Linked Retinitis Pigmentosa · 21 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04517149",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04517149",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-FDMT-NCT05629559",
       "ticker": "FDMT",
       "date": "2026-06-15",
@@ -349,6 +334,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05629559",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05629559",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-FDMT-NCT04517149",
+      "ticker": "FDMT",
+      "date": "2026-06-15",
+      "title": "4D-125 in Patients With X-Linked Retinitis Pigmentosa (XLRP)",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "X-Linked Retinitis Pigmentosa · 21 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04517149",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04517149",
       "origin": "registry",
       "status": "past"
     },
@@ -443,21 +443,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-FDMT-NCT05248230",
-      "ticker": "FDMT",
-      "date": "2027-06-15",
-      "title": "4D-710 in Adult Patients With Cystic Fibrosis",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Cystic Fibrosis Lung · 30 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05248230",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05248230",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-FDMT-NCT06864988",
       "ticker": "FDMT",
       "date": "2027-06-15",
@@ -469,6 +454,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06864988",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06864988",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-FDMT-NCT05248230",
+      "ticker": "FDMT",
+      "date": "2027-06-15",
+      "title": "4D-710 in Adult Patients With Cystic Fibrosis",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Cystic Fibrosis Lung · 30 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05248230",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05248230",
       "origin": "registry",
       "status": "upcoming"
     },

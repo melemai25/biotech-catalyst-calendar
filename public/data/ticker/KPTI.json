@@ -11,7 +11,7 @@
   "activeTrials": 8,
   "phase3": 3,
   "phase2": 5,
-  "generatedDate": "2026-10-21",
+  "generatedDate": "2026-10-22",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -50,14 +50,14 @@
     "fcfMarginPct": -82.8,
     "marketCapUsd": null,
     "entityName": "Karyopharm Therapeutics Inc.",
-    "activeTrials": 23,
+    "activeTrials": 22,
     "phase3Count": 6,
     "phase2Count": 17,
     "leadPhase": 3,
     "upcomingCount": 6,
-    "nextCatalystDate": "2026-10-22",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "nextCatalystDate": "2026-12-15",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 54
   },
   "trialStats": {
     "completed": 12,
@@ -67,11 +67,11 @@
     "ongoing": 9,
     "withResults": 20,
     "byPhase": {
-      "phase2": {
-        "completed": 6,
-        "terminated": 8,
-        "total": 25,
-        "completionRatePct": 43
+      "phase3": {
+        "completed": 3,
+        "terminated": 0,
+        "total": 6,
+        "completionRatePct": null
       },
       "phase1": {
         "completed": 3,
@@ -79,11 +79,11 @@
         "total": 5,
         "completionRatePct": 60
       },
-      "phase3": {
-        "completed": 3,
-        "terminated": 0,
-        "total": 6,
-        "completionRatePct": null
+      "phase2": {
+        "completed": 6,
+        "terminated": 8,
+        "total": 25,
+        "completionRatePct": 43
       },
       "other": {
         "completed": 0,
@@ -97,21 +97,6 @@
     "resultsPostedPct": 167
   },
   "events": [
-    {
-      "id": "ct-KPTI-NCT01896505",
-      "ticker": "KPTI",
-      "date": "2016-10-21",
-      "title": "A Phase I Trial to Assess the Effects of Food and Formulation on PK of KPT-330 in Patients With Sarcoma",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Sarcoma · 54 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT01896505",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT01896505",
-      "origin": "registry",
-      "status": "past"
-    },
     {
       "id": "ct-KPTI-NCT02025985",
       "ticker": "KPTI",
@@ -683,21 +668,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-KPTI-next-earnings",
-      "ticker": "KPTI",
-      "date": "2026-10-22",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001503802&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-KPTI-NCT04442022",
       "ticker": "KPTI",
       "date": "2026-12-15",
@@ -725,6 +695,21 @@
       "source": "ClinicalTrials.gov NCT02227251",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02227251",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-KPTI-next-earnings",
+      "ticker": "KPTI",
+      "date": "2026-12-31",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001503802&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {

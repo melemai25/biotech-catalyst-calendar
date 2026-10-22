@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-10-21",
+  "generatedDate": "2026-10-22",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-12-27",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 67
+    "daysToNextCatalyst": 66
   },
   "trialStats": {
     "completed": 1,
@@ -67,10 +67,10 @@
     "ongoing": 3,
     "withResults": 1,
     "byPhase": {
-      "phase3": {
-        "completed": 1,
+      "other": {
+        "completed": 0,
         "terminated": 0,
-        "total": 2,
+        "total": 1,
         "completionRatePct": null
       },
       "phase2": {
@@ -79,10 +79,10 @@
         "total": 2,
         "completionRatePct": null
       },
-      "other": {
-        "completed": 0,
+      "phase3": {
+        "completed": 1,
         "terminated": 0,
-        "total": 1,
+        "total": 2,
         "completionRatePct": null
       }
     },
@@ -332,21 +332,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-KNSA-NCT07288216",
-      "ticker": "KNSA",
-      "date": "2027-12-31",
-      "title": "Transition to KPL-387 Monotherapy Dosing & Administration Study",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Recurrent Pericarditis, Heart Diseases, Pericarditis · 120 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07288216",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07288216",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-KNSA-NCT07010159",
       "ticker": "KNSA",
       "date": "2027-12-31",
@@ -358,6 +343,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07010159",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07010159",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-KNSA-NCT07288216",
+      "ticker": "KNSA",
+      "date": "2027-12-31",
+      "title": "Transition to KPL-387 Monotherapy Dosing & Administration Study",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Recurrent Pericarditis, Heart Diseases, Pericarditis · 120 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07288216",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07288216",
       "origin": "registry",
       "status": "upcoming"
     }

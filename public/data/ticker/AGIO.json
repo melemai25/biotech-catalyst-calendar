@@ -11,7 +11,7 @@
   "activeTrials": 12,
   "phase3": 9,
   "phase2": 3,
-  "generatedDate": "2026-10-21",
+  "generatedDate": "2026-10-22",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 7,
     "nextCatalystDate": "2026-10-29",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 8
+    "daysToNextCatalyst": 7
   },
   "trialStats": {
     "completed": 31,
@@ -67,17 +67,17 @@
     "ongoing": 17,
     "withResults": 7,
     "byPhase": {
-      "phase3": {
-        "completed": 3,
-        "terminated": 0,
-        "total": 12,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 25,
         "terminated": 2,
         "total": 29,
         "completionRatePct": 93
+      },
+      "phase3": {
+        "completed": 3,
+        "terminated": 0,
+        "total": 12,
+        "completionRatePct": null
       },
       "phase2": {
         "completed": 1,
@@ -833,21 +833,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-AGIO-NCT07656415",
-      "ticker": "AGIO",
-      "date": "2029-08-15",
-      "title": "A Study to Investigate the Effect of Mitapivat on Transfusion Burden in Subjects With Sickle Cell Disease (SCD)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Sickle Cell Disease · 159 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07656415",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07656415",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-AGIO-NCT05777993",
       "ticker": "AGIO",
       "date": "2029-08-15",
@@ -859,6 +844,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05777993",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05777993",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-AGIO-NCT07656415",
+      "ticker": "AGIO",
+      "date": "2029-08-15",
+      "title": "A Study to Investigate the Effect of Mitapivat on Transfusion Burden in Subjects With Sickle Cell Disease (SCD)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Sickle Cell Disease · 159 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07656415",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07656415",
       "origin": "registry",
       "status": "upcoming"
     },

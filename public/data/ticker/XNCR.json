@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-10-21",
+  "generatedDate": "2026-10-22",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -50,14 +50,14 @@
     "fcfMarginPct": -151.8,
     "marketCapUsd": null,
     "entityName": "Xencor, Inc",
-    "activeTrials": 27,
+    "activeTrials": 26,
     "phase3Count": 0,
     "phase2Count": 8,
     "leadPhase": 2,
     "upcomingCount": 8,
     "nextCatalystDate": "2026-12-11",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 51
+    "daysToNextCatalyst": 50
   },
   "trialStats": {
     "completed": 16,
@@ -67,17 +67,17 @@
     "ongoing": 8,
     "withResults": 4,
     "byPhase": {
-      "phase2": {
-        "completed": 3,
-        "terminated": 3,
-        "total": 8,
-        "completionRatePct": 50
-      },
       "phase1": {
         "completed": 13,
         "terminated": 3,
         "total": 22,
         "completionRatePct": 81
+      },
+      "phase2": {
+        "completed": 3,
+        "terminated": 3,
+        "total": 8,
+        "completionRatePct": 50
       }
     },
     "concluded": 22,
@@ -85,21 +85,6 @@
     "resultsPostedPct": 25
   },
   "events": [
-    {
-      "id": "ct-XNCR-NCT02867098",
-      "ticker": "XNCR",
-      "date": "2016-10-21",
-      "title": "XmAb5871 Bioavailability Study",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Healthy Volunteers · 50 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT02867098",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02867098",
-      "origin": "registry",
-      "status": "past"
-    },
     {
       "id": "ct-XNCR-NCT02881853",
       "ticker": "XNCR",

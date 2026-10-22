@@ -11,7 +11,7 @@
   "activeTrials": 7,
   "phase3": 5,
   "phase2": 2,
-  "generatedDate": "2026-10-21",
+  "generatedDate": "2026-10-22",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 9,
     "leadPhase": 3,
     "upcomingCount": 5,
-    "nextCatalystDate": "2026-10-22",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "nextCatalystDate": "2026-12-15",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 54
   },
   "trialStats": {
     "completed": 7,
@@ -79,13 +79,13 @@
         "total": 8,
         "completionRatePct": null
       },
-      "phase1": {
+      "other": {
         "completed": 1,
         "terminated": 0,
         "total": 1,
         "completionRatePct": null
       },
-      "other": {
+      "phase1": {
         "completed": 1,
         "terminated": 0,
         "total": 1,
@@ -638,18 +638,18 @@
       "status": "past"
     },
     {
-      "id": "edgar-PRAX-next-earnings",
+      "id": "ct-PRAX-NCT07010471",
       "ticker": "PRAX",
-      "date": "2026-10-22",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "date": "2026-12-15",
+      "title": "A Clinical Trial for Participants With DEE to Assess Efficacy, Safety, Tolerability, and PK of Relutrigine",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Developmental and Epileptic Encephalopathy 1 · 160 participants · Status: Active Not Recruiting",
       "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001689548&type=8-K",
-      "origin": "edgar",
+      "source": "ClinicalTrials.gov NCT07010471",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07010471",
+      "origin": "registry",
       "status": "upcoming"
     },
     {
@@ -668,18 +668,18 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-PRAX-NCT07010471",
+      "id": "edgar-PRAX-next-earnings",
       "ticker": "PRAX",
-      "date": "2026-12-15",
-      "title": "A Clinical Trial for Participants With DEE to Assess Efficacy, Safety, Tolerability, and PK of Relutrigine",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Developmental and Epileptic Encephalopathy 1 · 160 participants · Status: Active Not Recruiting",
+      "date": "2027-01-07",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
       "result": null,
-      "source": "ClinicalTrials.gov NCT07010471",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07010471",
-      "origin": "registry",
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001689548&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {

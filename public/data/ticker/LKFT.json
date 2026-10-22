@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-21",
+  "generatedDate": "2026-10-22",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -57,7 +57,7 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2039-07-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 4650
+    "daysToNextCatalyst": 4649
   },
   "trialStats": {
     "completed": 96,
@@ -617,21 +617,6 @@
       "status": "past"
     },
     {
-      "id": "ct-LKFT-NCT04736927",
-      "ticker": "LKFT",
-      "date": "2021-02-25",
-      "title": "Drug-drug Interaction Study With GLPG3667 and Midazolam in Healthy Subjects",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Healthy · 14 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04736927",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04736927",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-LKFT-NCT04708184",
       "ticker": "LKFT",
       "date": "2021-02-25",
@@ -643,6 +628,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04708184",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04708184",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-LKFT-NCT04736927",
+      "ticker": "LKFT",
+      "date": "2021-02-25",
+      "title": "Drug-drug Interaction Study With GLPG3667 and Midazolam in Healthy Subjects",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Healthy · 14 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04736927",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04736927",
       "origin": "registry",
       "status": "past"
     },
@@ -692,21 +692,6 @@
       "status": "past"
     },
     {
-      "id": "ct-LKFT-NCT03733444",
-      "ticker": "LKFT",
-      "date": "2021-03-30",
-      "title": "A Clinical Study to Test How Effective and Safe GLPG1690 is for Participants With Idiopathic Pulmonary Fibrosis (IPF) When Used Together With Standard of Care",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Idiopathic Pulmonary Fibrosis · 781 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT03733444",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT03733444",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-LKFT-NCT03711162",
       "ticker": "LKFT",
       "date": "2021-03-30",
@@ -718,6 +703,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT03711162",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03711162",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-LKFT-NCT03733444",
+      "ticker": "LKFT",
+      "date": "2021-03-30",
+      "title": "A Clinical Study to Test How Effective and Safe GLPG1690 is for Participants With Idiopathic Pulmonary Fibrosis (IPF) When Used Together With Standard of Care",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Idiopathic Pulmonary Fibrosis · 781 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT03733444",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03733444",
       "origin": "registry",
       "status": "past"
     },

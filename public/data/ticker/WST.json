@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-10-21",
+  "generatedDate": "2026-10-22",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 3,
     "leadPhase": 2,
     "upcomingCount": 2,
-    "nextCatalystDate": "2026-10-22",
+    "nextCatalystDate": "2027-01-21",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 91
   },
   "trialStats": {
     "completed": 1,
@@ -322,7 +322,7 @@
     {
       "id": "edgar-WST-next-earnings",
       "ticker": "WST",
-      "date": "2026-10-22",
+      "date": "2027-01-21",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,
