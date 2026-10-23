@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 0,
   "phase2": 4,
-  "generatedDate": "2026-10-22",
+  "generatedDate": "2026-10-23",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-12-19",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 58
+    "daysToNextCatalyst": 57
   },
   "trialStats": {
     "completed": 0,
@@ -425,6 +425,21 @@
       "status": "past"
     },
     {
+      "id": "edgar-TNGX-0001193125-26-429423",
+      "ticker": "TNGX",
+      "date": "2026-10-23",
+      "title": "8-K filed: Reg FD disclosure, Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 7.01, 8.01, 9.01. Reg FD disclosure; Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-23",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1819133/000119312526429423/d151613d8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "edgar-TNGX-next-earnings",
       "ticker": "TNGX",
       "date": "2026-12-19",
@@ -455,21 +470,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-TNGX-NCT06922591",
-      "ticker": "TNGX",
-      "date": "2027-06-15",
-      "title": "Study to Evaluate the Safety, Tolerability & Efficacy of TNG462 in Combination in PDAC & NSCLC Patients",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "PDAC, PDAC - Pancreatic Ductal Adenocarcinoma, NSCLC · 183 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06922591",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06922591",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-TNGX-NCT05732831",
       "ticker": "TNGX",
       "date": "2027-06-15",
@@ -481,6 +481,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05732831",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05732831",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-TNGX-NCT06922591",
+      "ticker": "TNGX",
+      "date": "2027-06-15",
+      "title": "Study to Evaluate the Safety, Tolerability & Efficacy of TNG462 in Combination in PDAC & NSCLC Patients",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "PDAC, PDAC - Pancreatic Ductal Adenocarcinoma, NSCLC · 183 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06922591",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06922591",
       "origin": "registry",
       "status": "upcoming"
     }

@@ -11,7 +11,7 @@
   "activeTrials": 10,
   "phase3": 1,
   "phase2": 9,
-  "generatedDate": "2026-10-22",
+  "generatedDate": "2026-10-23",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2027-06-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 236
+    "daysToNextCatalyst": 235
   },
   "trialStats": {
     "completed": 9,
@@ -617,17 +617,17 @@
       "status": "past"
     },
     {
-      "id": "ct-VSTM-NCT07644559",
+      "id": "ct-VSTM-NCT07659782",
       "ticker": "VSTM",
       "date": "2027-06-15",
-      "title": "A Phase 2 Study of VS-7375 in Patients With KRAS G12D-Mutated Pancreatic Cancer",
+      "title": "A Phase 2 Study of VS-7375 in Patients With KRAS G12D-Mutated Non-Small Cell Lung Cancer",
       "type": "Trial Milestone",
       "phase": "Phase 2",
       "estimated": false,
-      "summary": "Pancreatic Ductal Adenocarcinoma (PDAC), G12D Mutated KRAS · 185 participants · Status: Recruiting",
+      "summary": "Non-Small Cell Lung Cancer · 105 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT07644559",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07644559",
+      "source": "ClinicalTrials.gov NCT07659782",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07659782",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -647,17 +647,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-VSTM-NCT07659782",
+      "id": "ct-VSTM-NCT07644559",
       "ticker": "VSTM",
       "date": "2027-06-15",
-      "title": "A Phase 2 Study of VS-7375 in Patients With KRAS G12D-Mutated Non-Small Cell Lung Cancer",
+      "title": "A Phase 2 Study of VS-7375 in Patients With KRAS G12D-Mutated Pancreatic Cancer",
       "type": "Trial Milestone",
       "phase": "Phase 2",
       "estimated": false,
-      "summary": "Non-Small Cell Lung Cancer · 105 participants · Status: Recruiting",
+      "summary": "Pancreatic Ductal Adenocarcinoma (PDAC), G12D Mutated KRAS · 185 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT07659782",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07659782",
+      "source": "ClinicalTrials.gov NCT07644559",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07644559",
       "origin": "registry",
       "status": "upcoming"
     },

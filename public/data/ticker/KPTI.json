@@ -11,7 +11,7 @@
   "activeTrials": 8,
   "phase3": 3,
   "phase2": 5,
-  "generatedDate": "2026-10-22",
+  "generatedDate": "2026-10-23",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 54
+    "daysToNextCatalyst": 53
   },
   "trialStats": {
     "completed": 12,
@@ -73,17 +73,17 @@
         "total": 6,
         "completionRatePct": null
       },
-      "phase1": {
-        "completed": 3,
-        "terminated": 2,
-        "total": 5,
-        "completionRatePct": 60
-      },
       "phase2": {
         "completed": 6,
         "terminated": 8,
         "total": 25,
         "completionRatePct": 43
+      },
+      "phase1": {
+        "completed": 3,
+        "terminated": 2,
+        "total": 5,
+        "completionRatePct": 60
       },
       "other": {
         "completed": 0,
@@ -664,6 +664,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-10-14",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1503802/000119312526421025/d451522d8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-KPTI-0001193125-26-428938",
+      "ticker": "KPTI",
+      "date": "2026-10-22",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 8.01. Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1503802/000119312526428938/d172630d8k.htm",
       "origin": "edgar",
       "status": "past"
     },

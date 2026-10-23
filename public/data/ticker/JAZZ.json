@@ -11,7 +11,7 @@
   "activeTrials": 13,
   "phase3": 7,
   "phase2": 6,
-  "generatedDate": "2026-10-22",
+  "generatedDate": "2026-10-23",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -54,10 +54,10 @@
     "phase3Count": 30,
     "phase2Count": 37,
     "leadPhase": 4,
-    "upcomingCount": 19,
-    "nextCatalystDate": "2026-12-21",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 60
+    "upcomingCount": 21,
+    "nextCatalystDate": "2026-11-30",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 38
   },
   "trialStats": {
     "completed": 132,
@@ -73,6 +73,12 @@
         "total": 67,
         "completionRatePct": 77
       },
+      "other": {
+        "completed": 17,
+        "terminated": 2,
+        "total": 36,
+        "completionRatePct": 89
+      },
       "phase3": {
         "completed": 56,
         "terminated": 10,
@@ -84,12 +90,6 @@
         "terminated": 4,
         "total": 29,
         "completionRatePct": 83
-      },
-      "other": {
-        "completed": 17,
-        "terminated": 2,
-        "total": 36,
-        "completionRatePct": 89
       }
     },
     "concluded": 171,
@@ -128,21 +128,6 @@
       "status": "past"
     },
     {
-      "id": "ct-JAZZ-NCT02221869",
-      "ticker": "JAZZ",
-      "date": "2017-02-15",
-      "title": "A Multicenter Study of the Efficacy and Safety of Xyrem With an Open- Label Pharmacokinetic Evaluation and Safety Extension in Pediatric Subjects With Narcolepsy With Cataplexy",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Narcolepsy With Cataplexy · 106 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02221869",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02221869",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-JAZZ-NCT02348593",
       "ticker": "JAZZ",
       "date": "2017-02-15",
@@ -154,6 +139,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT02348593",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02348593",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-JAZZ-NCT02221869",
+      "ticker": "JAZZ",
+      "date": "2017-02-15",
+      "title": "A Multicenter Study of the Efficacy and Safety of Xyrem With an Open- Label Pharmacokinetic Evaluation and Safety Extension in Pediatric Subjects With Narcolepsy With Cataplexy",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Narcolepsy With Cataplexy · 106 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT02221869",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02221869",
       "origin": "registry",
       "status": "past"
     },
@@ -1238,36 +1238,6 @@
       "status": "past"
     },
     {
-      "id": "ct-JAZZ-NCT07377539",
-      "ticker": "JAZZ",
-      "date": "2026-07-05",
-      "title": "A Study to Investigate the Safety, Tolerability, Pharmacokinetics, and Food Effect of JZP047 in Healthy Participants",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Healthy Participants · 86 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07377539",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07377539",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "ct-JAZZ-NCT04541082",
-      "ticker": "JAZZ",
-      "date": "2026-07-15",
-      "title": "Phase I Study of Oral ONC206 in Recurrent and Rare Primary Central Nervous System Neoplasms",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Central Nervous System Neoplasms, Glioblastoma, Gliosarcoma, Adult · 102 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04541082",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04541082",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-JAZZ-NCT05152147",
       "ticker": "JAZZ",
       "date": "2026-07-15",
@@ -1403,6 +1373,21 @@
       "status": "past"
     },
     {
+      "id": "ct-JAZZ-NCT07377539",
+      "ticker": "JAZZ",
+      "date": "2026-11-30",
+      "title": "A Study to Investigate the Safety, Tolerability, Pharmacokinetics, and Food Effect of JZP047 in Healthy Participants",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Healthy Participants · 86 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07377539",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07377539",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "edgar-JAZZ-next-earnings",
       "ticker": "JAZZ",
       "date": "2026-12-21",
@@ -1444,6 +1429,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07813663",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07813663",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-JAZZ-NCT04541082",
+      "ticker": "JAZZ",
+      "date": "2027-03-31",
+      "title": "Phase I Study of Oral ONC206 in Recurrent and Rare Primary Central Nervous System Neoplasms",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Central Nervous System Neoplasms, Glioblastoma, Gliosarcoma, Adult · 102 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04541082",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04541082",
       "origin": "registry",
       "status": "upcoming"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 21,
   "phase3": 17,
   "phase2": 4,
-  "generatedDate": "2026-10-22",
+  "generatedDate": "2026-10-23",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,32 +57,32 @@
     "upcomingCount": 11,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 24
+    "daysToNextCatalyst": 23
   },
   "trialStats": {
-    "completed": 65,
+    "completed": 66,
     "terminated": 0,
     "withdrawn": 1,
     "suspended": 0,
-    "ongoing": 27,
+    "ongoing": 26,
     "withResults": 0,
     "byPhase": {
       "phase3": {
-        "completed": 16,
+        "completed": 17,
         "terminated": 0,
         "total": 27,
-        "completionRatePct": 100
-      },
-      "phase2": {
-        "completed": 7,
-        "terminated": 0,
-        "total": 10,
         "completionRatePct": 100
       },
       "other": {
         "completed": 36,
         "terminated": 0,
         "total": 48,
+        "completionRatePct": 100
+      },
+      "phase2": {
+        "completed": 7,
+        "terminated": 0,
+        "total": 10,
         "completionRatePct": 100
       },
       "phase1": {
@@ -92,8 +92,8 @@
         "completionRatePct": 100
       }
     },
-    "concluded": 66,
-    "completionRatePct": 98,
+    "concluded": 67,
+    "completionRatePct": 99,
     "resultsPostedPct": 0
   },
   "events": [
@@ -983,21 +983,6 @@
       "status": "past"
     },
     {
-      "id": "ct-SVA-NCT07211152",
-      "ticker": "SVA",
-      "date": "2026-03-15",
-      "title": "Influenza Vaccine (Split Virion), Inactivated, Quadrivalent in Pregnant Women",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Influenza · 150 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07211152",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07211152",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-SVA-NCT07354269",
       "ticker": "SVA",
       "date": "2026-04-11",
@@ -1145,6 +1130,21 @@
       "source": "SEC EDGAR 6-K 2026-06-15",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1084201/000121390026068483/ea0294745-6k_sinovac.htm",
       "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "ct-SVA-NCT07211152",
+      "ticker": "SVA",
+      "date": "2026-06-26",
+      "title": "Influenza Vaccine (Split Virion), Inactivated, Quadrivalent in Pregnant Women",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Influenza · 150 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07211152",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07211152",
+      "origin": "registry",
       "status": "past"
     },
     {

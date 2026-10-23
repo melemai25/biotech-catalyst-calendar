@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-10-22",
+  "generatedDate": "2026-10-23",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2026-11-05",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 14
+    "daysToNextCatalyst": 13
   },
   "trialStats": {
     "completed": 10,
@@ -107,21 +107,6 @@
       "status": "past"
     },
     {
-      "id": "ct-PTGX-NCT04054921",
-      "ticker": "PTGX",
-      "date": "2020-07-31",
-      "title": "Safety Study for Beta Thalassemia Subjects on PTG-300",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "β-thalassemia, Ineffective Erythropoiesis · 34 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04054921",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04054921",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-PTGX-NCT03802201",
       "ticker": "PTGX",
       "date": "2020-07-31",
@@ -133,6 +118,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT03802201",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03802201",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-PTGX-NCT04054921",
+      "ticker": "PTGX",
+      "date": "2020-07-31",
+      "title": "Safety Study for Beta Thalassemia Subjects on PTG-300",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "β-thalassemia, Ineffective Erythropoiesis · 34 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04054921",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04054921",
       "origin": "registry",
       "status": "past"
     },

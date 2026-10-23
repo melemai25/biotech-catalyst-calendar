@@ -11,7 +11,7 @@
   "activeTrials": 15,
   "phase3": 2,
   "phase2": 13,
-  "generatedDate": "2026-10-22",
+  "generatedDate": "2026-10-23",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,28 +57,16 @@
     "upcomingCount": 26,
     "nextCatalystDate": "2026-11-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 39
+    "daysToNextCatalyst": 38
   },
   "trialStats": {
-    "completed": 76,
+    "completed": 77,
     "terminated": 6,
     "withdrawn": 4,
     "suspended": 0,
-    "ongoing": 31,
+    "ongoing": 30,
     "withResults": 36,
     "byPhase": {
-      "phase3": {
-        "completed": 20,
-        "terminated": 1,
-        "total": 23,
-        "completionRatePct": 95
-      },
-      "other": {
-        "completed": 17,
-        "terminated": 1,
-        "total": 25,
-        "completionRatePct": 94
-      },
       "phase1": {
         "completed": 18,
         "terminated": 1,
@@ -86,14 +74,26 @@
         "completionRatePct": 95
       },
       "phase2": {
-        "completed": 21,
+        "completed": 22,
         "terminated": 3,
         "total": 40,
         "completionRatePct": 88
+      },
+      "other": {
+        "completed": 17,
+        "terminated": 1,
+        "total": 25,
+        "completionRatePct": 94
+      },
+      "phase3": {
+        "completed": 20,
+        "terminated": 1,
+        "total": 23,
+        "completionRatePct": 95
       }
     },
-    "concluded": 86,
-    "completionRatePct": 88,
+    "concluded": 87,
+    "completionRatePct": 89,
     "resultsPostedPct": 47
   },
   "events": [
@@ -1298,21 +1298,6 @@
       "status": "past"
     },
     {
-      "id": "ct-MRNA-NCT05992935",
-      "ticker": "MRNA",
-      "date": "2026-09-22",
-      "title": "Study to Evaluate the Safety, Reactogenicity, and Immunogenicity of mRNA-1403 and mRNA-1405 to Prevent Norovirus Acute Gastroenteritis in Healthy Adults 18 to 80 Years of Age",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Norovirus Acute Gastroenteritis · 1,407 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05992935",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05992935",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "edgar-MRNA-0001193125-26-408289",
       "ticker": "MRNA",
       "date": "2026-09-30",
@@ -1339,6 +1324,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05164094",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05164094",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-MRNA-NCT05992935",
+      "ticker": "MRNA",
+      "date": "2026-10-07",
+      "title": "Study to Evaluate the Safety, Reactogenicity, and Immunogenicity of mRNA-1403 and mRNA-1405 to Prevent Norovirus Acute Gastroenteritis in Healthy Adults 18 to 80 Years of Age",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Norovirus Acute Gastroenteritis · 1,407 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05992935",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05992935",
       "origin": "registry",
       "status": "past"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 3,
   "phase2": 0,
-  "generatedDate": "2026-10-22",
+  "generatedDate": "2026-10-23",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2026-11-05",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 14
+    "daysToNextCatalyst": 13
   },
   "trialStats": {
     "completed": 6,
@@ -67,17 +67,17 @@
     "ongoing": 4,
     "withResults": 6,
     "byPhase": {
-      "phase2": {
-        "completed": 4,
-        "terminated": 0,
-        "total": 5,
-        "completionRatePct": 100
-      },
       "phase3": {
         "completed": 2,
         "terminated": 0,
         "total": 5,
         "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 4,
+        "terminated": 0,
+        "total": 5,
+        "completionRatePct": 100
       }
     },
     "concluded": 6,
@@ -386,6 +386,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-VRCA-NCT07246590",
+      "ticker": "VRCA",
+      "date": "2026-11-15",
+      "title": "Cantharidin Application in Patients With Common Warts (Verruca Vulgaris) (COVE-2)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Common Warts, Common Warts (Verruca Vulgaris), Human Papilloma Virus (HPV) · 302 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07246590",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07246590",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-VRCA-NCT07881952",
       "ticker": "VRCA",
       "date": "2027-04-15",
@@ -412,21 +427,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07637734",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07637734",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-VRCA-NCT07246590",
-      "ticker": "VRCA",
-      "date": "2027-06-15",
-      "title": "Cantharidin Application in Patients With Common Warts (Verruca Vulgaris) (COVE-2)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Common Warts, Common Warts (Verruca Vulgaris), Human Papilloma Virus (HPV) · 300 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07246590",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07246590",
       "origin": "registry",
       "status": "upcoming"
     },

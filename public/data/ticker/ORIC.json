@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-10-22",
+  "generatedDate": "2026-10-23",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-11-04",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 13
+    "daysToNextCatalyst": 12
   },
   "trialStats": {
     "completed": 4,
@@ -389,6 +389,21 @@
       "source": "ClinicalTrials.gov NCT05315700",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05315700",
       "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "edgar-ORIC-0001193125-26-429465",
+      "ticker": "ORIC",
+      "date": "2026-10-23",
+      "title": "8-K filed: Reg FD disclosure, Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 7.01, 8.01, 9.01. Reg FD disclosure; Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-23",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1796280/000119312526429465/d152009d8k.htm",
+      "origin": "edgar",
       "status": "past"
     },
     {

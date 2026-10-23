@@ -11,7 +11,7 @@
   "activeTrials": 28,
   "phase3": 15,
   "phase2": 13,
-  "generatedDate": "2026-10-22",
+  "generatedDate": "2026-10-23",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -57,7 +57,7 @@
     "upcomingCount": 31,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 24
+    "daysToNextCatalyst": 23
   },
   "trialStats": {
     "completed": 35,
@@ -67,18 +67,6 @@
     "ongoing": 44,
     "withResults": 19,
     "byPhase": {
-      "phase1": {
-        "completed": 14,
-        "terminated": 0,
-        "total": 19,
-        "completionRatePct": 100
-      },
-      "phase3": {
-        "completed": 11,
-        "terminated": 4,
-        "total": 33,
-        "completionRatePct": 73
-      },
       "phase2": {
         "completed": 9,
         "terminated": 3,
@@ -90,6 +78,18 @@
         "terminated": 0,
         "total": 10,
         "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 14,
+        "terminated": 0,
+        "total": 19,
+        "completionRatePct": 100
+      },
+      "phase3": {
+        "completed": 11,
+        "terminated": 4,
+        "total": 33,
+        "completionRatePct": 73
       }
     },
     "concluded": 43,
@@ -1418,6 +1418,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-ARGX-NCT04833894",
+      "ticker": "ARGX",
+      "date": "2027-03-15",
+      "title": "Evaluating the Pharmacokinetics, Pharmacodynamics, and Safety of Efgartigimod Administered Intravenously in Children With Generalized Myasthenia Gravis",
+      "type": "Trial Milestone",
+      "phase": "Phase 2/Phase 3",
+      "estimated": false,
+      "summary": "Generalized Myasthenia Gravis · 12 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04833894",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04833894",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-ARGX-NCT07612020",
       "ticker": "ARGX",
       "date": "2027-03-15",
@@ -1444,21 +1459,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06655155",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06655155",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-ARGX-NCT04833894",
-      "ticker": "ARGX",
-      "date": "2027-03-15",
-      "title": "Evaluating the Pharmacokinetics, Pharmacodynamics, and Safety of Efgartigimod Administered Intravenously in Children With Generalized Myasthenia Gravis",
-      "type": "Trial Milestone",
-      "phase": "Phase 2/Phase 3",
-      "estimated": false,
-      "summary": "Generalized Myasthenia Gravis · 12 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04833894",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04833894",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1658,6 +1658,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-ARGX-NCT06544499",
+      "ticker": "ARGX",
+      "date": "2028-06-15",
+      "title": "A Study to Assess the Efficacy and Safety of Efgartigimod IV in Adult Participants With Primary Immune Thrombocytopenia",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Primary Immune Thrombocytopenia (ITP) · 69 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06544499",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06544499",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-ARGX-NCT07570316",
       "ticker": "ARGX",
       "date": "2028-06-15",
@@ -1684,21 +1699,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07596849",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07596849",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-ARGX-NCT06544499",
-      "ticker": "ARGX",
-      "date": "2028-06-15",
-      "title": "A Study to Assess the Efficacy and Safety of Efgartigimod IV in Adult Participants With Primary Immune Thrombocytopenia",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Primary Immune Thrombocytopenia (ITP) · 69 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06544499",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06544499",
       "origin": "registry",
       "status": "upcoming"
     },

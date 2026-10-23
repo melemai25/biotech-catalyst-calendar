@@ -1897,12 +1897,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biolyst.org/calendar/2026-12/</loc>
-    <lastmod>2026-10-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://biolyst.org/calendar/2027-01/</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -1921,25 +1915,13 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biolyst.org/calendar/2027-04/</loc>
-    <lastmod>2026-10-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://biolyst.org/calendar/2027-05/</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biolyst.org/calendar/2027-06/</loc>
-    <lastmod>2026-10-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biolyst.org/calendar/2027-08/</loc>
+    <loc>https://biolyst.org/calendar/2027-07/</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1951,7 +1933,13 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biolyst.org/calendar/2027-11/</loc>
+    <loc>https://biolyst.org/calendar/2027-12/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biolyst.org/calendar/2028-01/</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1963,19 +1951,37 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://biolyst.org/calendar/2026-12/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biolyst.org/calendar/2027-06/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biolyst.org/calendar/2027-04/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biolyst.org/calendar/2027-08/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://biolyst.org/calendar/2027-09/</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biolyst.org/calendar/2027-12/</loc>
-    <lastmod>2026-10-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biolyst.org/calendar/2027-07/</loc>
+    <loc>https://biolyst.org/calendar/2027-11/</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1988,12 +1994,6 @@
   </url>
   <url>
     <loc>https://biolyst.org/calendar/2028-04/</loc>
-    <lastmod>2026-10-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biolyst.org/calendar/2028-01/</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

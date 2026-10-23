@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-10-22",
+  "generatedDate": "2026-10-23",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2026-11-02",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 11
+    "daysToNextCatalyst": 10
   },
   "trialStats": {
     "completed": 0,
@@ -67,16 +67,16 @@
     "ongoing": 4,
     "withResults": 0,
     "byPhase": {
-      "phase1": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 1,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 0,
         "terminated": 0,
         "total": 3,
+        "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 1,
         "completionRatePct": null
       }
     },
@@ -772,6 +772,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-10-15",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1979414/000182912626011189/neonctechnologies_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-NTHI-0001829126-26-011446",
+      "ticker": "NTHI",
+      "date": "2026-10-22",
+      "title": "8-K filed: Reg FD disclosure",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 7.01, 9.01. Reg FD disclosure. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1979414/000182912626011446/neonctechnologies_8k.htm",
       "origin": "edgar",
       "status": "past"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-10-22",
+  "generatedDate": "2026-10-23",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-02-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 116
+    "daysToNextCatalyst": 115
   },
   "trialStats": {
     "completed": 2,
@@ -382,6 +382,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-10-06",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1946563/000121390026106979/ea0307761-8k_60degrees.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-SXTP-0001213900-26-111864",
+      "ticker": "SXTP",
+      "date": "2026-10-23",
+      "title": "8-K filed: Reg FD disclosure",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 7.01, 9.01. Reg FD disclosure. CURRENT REPORT.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-23",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1946563/000121390026111864/ea0309339-8k_60degrees.htm",
       "origin": "edgar",
       "status": "past"
     },

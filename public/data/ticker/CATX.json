@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-10-22",
+  "generatedDate": "2026-10-23",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2027-12-31",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 435
+    "daysToNextCatalyst": 434
   },
   "trialStats": {
     "completed": 1,
@@ -652,6 +652,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-10-08",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/728387/000119312526417384/catx-20261008.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-CATX-0001193125-26-429770",
+      "ticker": "CATX",
+      "date": "2026-10-23",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-23",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/728387/000119312526429770/catx-20261023.htm",
       "origin": "edgar",
       "status": "past"
     },

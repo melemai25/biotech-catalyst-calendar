@@ -11,7 +11,7 @@
   "activeTrials": 25,
   "phase3": 8,
   "phase2": 17,
-  "generatedDate": "2026-10-22",
+  "generatedDate": "2026-10-23",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -50,39 +50,39 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "BioNTech SE",
-    "activeTrials": 72,
+    "activeTrials": 73,
     "phase3Count": 21,
     "phase2Count": 42,
     "leadPhase": 4,
-    "upcomingCount": 28,
+    "upcomingCount": 29,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 24
+    "daysToNextCatalyst": 23
   },
   "trialStats": {
     "completed": 36,
     "terminated": 6,
     "withdrawn": 2,
     "suspended": 0,
-    "ongoing": 31,
+    "ongoing": 32,
     "withResults": 30,
     "byPhase": {
-      "phase3": {
-        "completed": 14,
-        "terminated": 0,
-        "total": 21,
-        "completionRatePct": 100
-      },
       "phase2": {
         "completed": 12,
         "terminated": 6,
         "total": 37,
         "completionRatePct": 67
       },
+      "phase3": {
+        "completed": 14,
+        "terminated": 0,
+        "total": 21,
+        "completionRatePct": 100
+      },
       "phase1": {
         "completed": 8,
         "terminated": 0,
-        "total": 14,
+        "total": 15,
         "completionRatePct": 100
       },
       "other": {
@@ -1954,6 +1954,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06712355",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06712355",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BNTX-NCT07893054",
+      "ticker": "BNTX",
+      "date": "2029-07-15",
+      "title": "A First-in-human Clinical Trial to Test if the Investigational Drug BNT3219 is Safe and Potentially Beneficial for People With Advanced Solid Tumors When Given Alone or Together With Other Investigational Drugs",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Advanced Solid Tumors · 207 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07893054",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07893054",
       "origin": "registry",
       "status": "upcoming"
     },
