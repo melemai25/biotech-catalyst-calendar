@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-10-23",
+  "generatedDate": "2026-10-24",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-11-13",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 21
+    "daysToNextCatalyst": 20
   },
   "trialStats": {
     "completed": 24,
@@ -674,6 +674,21 @@
       "source": "ClinicalTrials.gov NCT07526506",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07526506",
       "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "edgar-TRAW-0001104659-26-118519",
+      "ticker": "TRAW",
+      "date": "2026-10-23",
+      "title": "8-K filed: Material agreement",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 1.01, 3.02, 9.01. Material agreement. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-23",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1130598/000110465926118519/tm2626240d4_8k.htm",
+      "origin": "edgar",
       "status": "past"
     },
     {

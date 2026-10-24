@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-23",
+  "generatedDate": "2026-10-24",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -57,7 +57,7 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2039-07-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 4648
+    "daysToNextCatalyst": 4647
   },
   "trialStats": {
     "completed": 96,
@@ -1049,21 +1049,6 @@
       "source": "ClinicalTrials.gov NCT06043739",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06043739",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-LKFT-0001171843-25-002346",
-      "ticker": "LKFT",
-      "date": "2025-04-21",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. FORM 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-21",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1421876/000117184325002346/f6k_042125.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

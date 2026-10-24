@@ -11,7 +11,7 @@
   "activeTrials": 16,
   "phase3": 11,
   "phase2": 5,
-  "generatedDate": "2026-10-23",
+  "generatedDate": "2026-10-24",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 30,
     "leadPhase": 4,
     "upcomingCount": 17,
-    "nextCatalystDate": "2026-10-24",
+    "nextCatalystDate": "2027-01-18",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 86
   },
   "trialStats": {
     "completed": 55,
@@ -1045,7 +1045,7 @@
     {
       "id": "edgar-NBIX-next-earnings",
       "ticker": "NBIX",
-      "date": "2026-10-24",
+      "date": "2027-01-18",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

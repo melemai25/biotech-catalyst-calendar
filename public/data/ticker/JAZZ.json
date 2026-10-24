@@ -11,7 +11,7 @@
   "activeTrials": 13,
   "phase3": 7,
   "phase2": 6,
-  "generatedDate": "2026-10-23",
+  "generatedDate": "2026-10-24",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 21,
     "nextCatalystDate": "2026-11-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 38
+    "daysToNextCatalyst": 37
   },
   "trialStats": {
     "completed": 132,
@@ -995,21 +995,6 @@
       "source": "ClinicalTrials.gov NCT05875974",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05875974",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-JAZZ-0001193125-25-087233",
-      "ticker": "JAZZ",
-      "date": "2025-04-21",
-      "title": "8-K filed: Reg FD disclosure, Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 7.01, 8.01, 9.01. Reg FD disclosure; Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-21",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1232524/000119312525087233/d887871d8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

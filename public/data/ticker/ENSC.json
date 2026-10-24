@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-23",
+  "generatedDate": "2026-10-24",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -49,7 +49,7 @@
     "rndIntensityPct": null,
     "fcfMarginPct": -306.4,
     "marketCapUsd": null,
-    "entityName": "ENSYSCE BIOSCIENCES, INC.",
+    "entityName": "Ensysce Biosciences, Inc.",
     "activeTrials": 9,
     "phase3Count": 1,
     "phase2Count": 1,
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-11-13",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 21
+    "daysToNextCatalyst": 20
   },
   "trialStats": {
     "completed": 7,

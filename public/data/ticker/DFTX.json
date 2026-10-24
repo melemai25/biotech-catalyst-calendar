@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 4,
   "phase2": 1,
-  "generatedDate": "2026-10-23",
+  "generatedDate": "2026-10-24",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-12-18",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 56
+    "daysToNextCatalyst": 55
   },
   "trialStats": {
     "completed": 3,
@@ -134,21 +134,6 @@
       "source": "ClinicalTrials.gov NCT05200936",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05200936",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-DFTX-0001104659-25-036841",
-      "ticker": "DFTX",
-      "date": "2025-04-21",
-      "title": "8-K filed: Material agreement",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 1.01, 2.03, 3.02, 9.01. Material agreement. FORM 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-21",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1813814/000110465925036841/tm2512703d1_8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

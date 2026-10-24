@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-10-23",
+  "generatedDate": "2026-10-24",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2026-12-31",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 69
+    "daysToNextCatalyst": 68
   },
   "trialStats": {
     "completed": 3,
@@ -149,21 +149,6 @@
       "source": "ClinicalTrials.gov NCT06039449",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06039449",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-IVVD-0000950170-25-056005",
-      "ticker": "IVVD",
-      "date": "2025-04-21",
-      "title": "8-K filed: Material agreement, Reg FD disclosure",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 1.01, 2.03, 7.01, 9.01. Material agreement; Reg FD disclosure. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-21",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1832038/000095017025056005/ivvd-20250418.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

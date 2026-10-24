@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-10-23",
+  "generatedDate": "2026-10-24",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 53
+    "daysToNextCatalyst": 52
   },
   "trialStats": {
     "completed": 30,
@@ -643,6 +643,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-10-14",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1517022/000151702226000071/akba-20261007.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-AKBA-0001517022-26-000075",
+      "ticker": "AKBA",
+      "date": "2026-10-23",
+      "title": "8-K filed: Listing / standard notice",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 3.01. Listing / standard notice. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-23",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1517022/000151702226000075/akba-20261021.htm",
       "origin": "edgar",
       "status": "past"
     },

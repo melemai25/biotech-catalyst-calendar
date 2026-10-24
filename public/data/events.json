@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-23T15:47:56.581Z",
-  "generatedDate": "2026-10-23",
+  "generatedAt": "2026-10-24T14:33:23.776Z",
+  "generatedDate": "2026-10-24",
   "tickers": {
     "AZN": {
       "name": "ASTRAZENECA PLC",
@@ -1209,9 +1209,9 @@
   },
   "warnings": [],
   "counts": {
-    "total": 13033,
+    "total": 13031,
     "registry": 6291,
-    "edgar": 6742
+    "edgar": 6740
   },
   "events": [
     {
@@ -58560,111 +58560,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-SVA-0001104659-25-036821",
-      "ticker": "SVA",
-      "date": "2025-04-21",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. FORM 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-21",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1084201/000110465925036821/tm2512765d1_6k.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-AAPG-0001213900-25-033508",
-      "ticker": "AAPG",
-      "date": "2025-04-21",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. REPORT OF FOREIGN PRIVATE ISSUER.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-21",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2023311/000121390025033508/ea0238938-6k_ascentage.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-JAZZ-0001193125-25-087233",
-      "ticker": "JAZZ",
-      "date": "2025-04-21",
-      "title": "8-K filed: Reg FD disclosure, Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 7.01, 8.01, 9.01. Reg FD disclosure; Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-21",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1232524/000119312525087233/d887871d8k.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-DFTX-0001104659-25-036841",
-      "ticker": "DFTX",
-      "date": "2025-04-21",
-      "title": "8-K filed: Material agreement",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 1.01, 2.03, 3.02, 9.01. Material agreement. FORM 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-21",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1813814/000110465925036841/tm2512703d1_8k.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-IMVT-0001764013-25-000078",
-      "ticker": "IMVT",
-      "date": "2025-04-21",
-      "title": "8-K filed: Leadership change, Reg FD disclosure, Other event",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.02, 7.01, 8.01, 9.01. Leadership change; Reg FD disclosure; Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-21",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1764013/000176401325000078/imvt-20250418.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-IVVD-0000950170-25-056005",
-      "ticker": "IVVD",
-      "date": "2025-04-21",
-      "title": "8-K filed: Material agreement, Reg FD disclosure",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 1.01, 2.03, 7.01, 9.01. Material agreement; Reg FD disclosure. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-21",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1832038/000095017025056005/ivvd-20250418.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ALMS-0001104659-25-036483",
-      "ticker": "ALMS",
-      "date": "2025-04-21",
-      "title": "8-K filed: Material agreement, Other event",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 1.01, 8.01, 9.01. Material agreement; Other event. FORM 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-21",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1847367/000110465925036483/tm2512707d4_8k.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
       "id": "ct-VALN-NCT06334393",
       "ticker": "VALN",
       "date": "2025-04-21",
@@ -58677,36 +58572,6 @@
       "source": "ClinicalTrials.gov NCT06334393",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06334393",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-LKFT-0001171843-25-002346",
-      "ticker": "LKFT",
-      "date": "2025-04-21",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. FORM 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-21",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1421876/000117184325002346/f6k_042125.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-MBRX-0001437749-25-012543",
-      "ticker": "MBRX",
-      "date": "2025-04-21",
-      "title": "8-K filed: Reg FD disclosure",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 7.01, 9.01. Reg FD disclosure. FORM 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-21",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1659617/000143774925012543/mbrx20250421_8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {
@@ -168765,6 +168630,36 @@
       "status": "past"
     },
     {
+      "id": "edgar-IONS-0001140361-26-040631",
+      "ticker": "IONS",
+      "date": "2026-10-23",
+      "title": "8-K filed: Reg FD disclosure, Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 7.01, 8.01, 9.01. Reg FD disclosure; Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-23",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/874015/000114036126040631/ef20084325_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-ACAD-0001193125-26-430596",
+      "ticker": "ACAD",
+      "date": "2026-10-23",
+      "title": "8-K filed: Leadership change",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 5.02. Leadership change. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-23",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1070494/000119312526430596/acad-20261023.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "edgar-EIKN-0001193125-26-429549",
       "ticker": "EIKN",
       "date": "2026-10-23",
@@ -168780,6 +168675,21 @@
       "status": "past"
     },
     {
+      "id": "edgar-RCUS-0001724521-26-000050",
+      "ticker": "RCUS",
+      "date": "2026-10-23",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-23",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1724521/000172452126000050/rcus-20261021.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "edgar-TNGX-0001193125-26-429423",
       "ticker": "TNGX",
       "date": "2026-10-23",
@@ -168791,6 +168701,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-10-23",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1819133/000119312526429423/d151613d8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-PHAT-0001193125-26-430621",
+      "ticker": "PHAT",
+      "date": "2026-10-23",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 8.01. Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-23",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1783183/000119312526430621/d437998d8k.htm",
       "origin": "edgar",
       "status": "past"
     },
@@ -168825,6 +168750,36 @@
       "status": "past"
     },
     {
+      "id": "edgar-CLYM-0001193125-26-430681",
+      "ticker": "CLYM",
+      "date": "2026-10-23",
+      "title": "8-K filed: Reg FD disclosure, Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 7.01, 8.01, 9.01. Reg FD disclosure; Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-23",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1768446/000119312526430681/clym-20261023.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-TRAW-0001104659-26-118519",
+      "ticker": "TRAW",
+      "date": "2026-10-23",
+      "title": "8-K filed: Material agreement",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 1.01, 3.02, 9.01. Material agreement. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-23",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1130598/000110465926118519/tm2626240d4_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "edgar-CATX-0001193125-26-429770",
       "ticker": "CATX",
       "date": "2026-10-23",
@@ -168855,6 +168810,21 @@
       "status": "past"
     },
     {
+      "id": "edgar-AKBA-0001517022-26-000075",
+      "ticker": "AKBA",
+      "date": "2026-10-23",
+      "title": "8-K filed: Listing / standard notice",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 3.01. Listing / standard notice. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-23",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1517022/000151702226000075/akba-20261021.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "edgar-SXTP-0001213900-26-111864",
       "ticker": "SXTP",
       "date": "2026-10-23",
@@ -168868,21 +168838,6 @@
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1946563/000121390026111864/ea0309339-8k_60degrees.htm",
       "origin": "edgar",
       "status": "past"
-    },
-    {
-      "id": "edgar-NBIX-next-earnings",
-      "ticker": "NBIX",
-      "date": "2026-10-24",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000914475&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
     },
     {
       "id": "edgar-RARE-next-earnings",
@@ -175557,6 +175512,21 @@
       "source": "ClinicalTrials.gov NCT05035212",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05035212",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-NBIX-next-earnings",
+      "ticker": "NBIX",
+      "date": "2027-01-18",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000914475&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {

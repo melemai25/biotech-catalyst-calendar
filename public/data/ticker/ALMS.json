@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 1,
   "phase2": 2,
-  "generatedDate": "2026-10-23",
+  "generatedDate": "2026-10-24",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-12-29",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 67
+    "daysToNextCatalyst": 66
   },
   "trialStats": {
     "completed": 9,
@@ -179,21 +179,6 @@
       "source": "ClinicalTrials.gov NCT07442149",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07442149",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ALMS-0001104659-25-036483",
-      "ticker": "ALMS",
-      "date": "2025-04-21",
-      "title": "8-K filed: Material agreement, Other event",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 1.01, 8.01, 9.01. Material agreement; Other event. FORM 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-21",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1847367/000110465925036483/tm2512707d4_8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {
