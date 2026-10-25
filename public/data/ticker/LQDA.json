@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 3,
   "phase2": 1,
-  "generatedDate": "2026-10-24",
+  "generatedDate": "2026-10-25",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-11-13",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 20
+    "daysToNextCatalyst": 19
   },
   "trialStats": {
     "completed": 3,
@@ -155,21 +155,6 @@
       "source": "ClinicalTrials.gov NCT04691154",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04691154",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-LQDA-0001104659-25-037137",
-      "ticker": "LQDA",
-      "date": "2025-04-22",
-      "title": "8-K filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. FORM 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-22",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1819576/000110465925037137/tm2512826d1_8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

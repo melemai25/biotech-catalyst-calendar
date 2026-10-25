@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-10-24",
+  "generatedDate": "2026-10-25",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-12-18",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 55
+    "daysToNextCatalyst": 54
   },
   "trialStats": {
     "completed": 4,
@@ -149,21 +149,6 @@
       "source": "ClinicalTrials.gov NCT04892472",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04892472",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-NVCR-0001645113-25-000007",
-      "ticker": "NVCR",
-      "date": "2025-04-22",
-      "title": "8-K filed: Reg FD disclosure",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 7.01, 9.01. Reg FD disclosure. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-22",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1645113/000164511325000007/nvcr-20250422.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

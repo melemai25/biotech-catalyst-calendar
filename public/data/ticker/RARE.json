@@ -11,7 +11,7 @@
   "activeTrials": 11,
   "phase3": 8,
   "phase2": 3,
-  "generatedDate": "2026-10-24",
+  "generatedDate": "2026-10-25",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 19,
     "leadPhase": 3,
     "upcomingCount": 10,
-    "nextCatalystDate": "2026-10-25",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "nextCatalystDate": "2027-01-15",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 82
   },
   "trialStats": {
     "completed": 27,
@@ -893,21 +893,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-RARE-next-earnings",
-      "ticker": "RARE",
-      "date": "2026-10-25",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001515673&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-RARE-NCT06636071",
       "ticker": "RARE",
       "date": "2027-01-15",
@@ -920,6 +905,21 @@
       "source": "ClinicalTrials.gov NCT06636071",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06636071",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-RARE-next-earnings",
+      "ticker": "RARE",
+      "date": "2027-01-15",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001515673&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {

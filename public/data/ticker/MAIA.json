@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-10-24",
+  "generatedDate": "2026-10-25",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-07-31",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 280
+    "daysToNextCatalyst": 279
   },
   "trialStats": {
     "completed": 0,
@@ -85,21 +85,6 @@
     "resultsPostedPct": null
   },
   "events": [
-    {
-      "id": "edgar-MAIA-0001641172-25-005692",
-      "ticker": "MAIA",
-      "date": "2025-04-22",
-      "title": "8-K filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-22",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1878313/000164117225005692/form8-k.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
     {
       "id": "edgar-MAIA-0001641172-25-008750",
       "ticker": "MAIA",

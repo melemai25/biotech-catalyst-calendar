@@ -11,7 +11,7 @@
   "activeTrials": 68,
   "phase3": 44,
   "phase2": 24,
-  "generatedDate": "2026-10-24",
+  "generatedDate": "2026-10-25",
   "metrics": {
     "reportingCurrency": "JPY",
     "taxonomy": "ifrs-full",
@@ -50,14 +50,14 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "Takeda Pharmaceutical Company Limited",
-    "activeTrials": 119,
+    "activeTrials": 118,
     "phase3Count": 44,
-    "phase2Count": 31,
+    "phase2Count": 30,
     "leadPhase": 4,
     "upcomingCount": 19,
     "nextCatalystDate": "2026-11-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 37
+    "daysToNextCatalyst": 36
   },
   "trialStats": {
     "completed": 243,
@@ -97,21 +97,6 @@
     "resultsPostedPct": 79
   },
   "events": [
-    {
-      "id": "ct-TAK-NCT00314795",
-      "ticker": "TAK",
-      "date": "2016-10-24",
-      "title": "Efficacy and Safety of Peginesatide (AF37702) in the Treatment of Anemia in Participants With Chronic Kidney Disease",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Anemia, Chronic Kidney Disease, Chronic Renal Failure · 22 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT00314795",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT00314795",
-      "origin": "registry",
-      "status": "past"
-    },
     {
       "id": "ct-TAK-NCT02661490",
       "ticker": "TAK",
@@ -1415,21 +1400,6 @@
       "source": "ClinicalTrials.gov NCT03196427",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03196427",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-TAK-0001395064-25-000046",
-      "ticker": "TAK",
-      "date": "2025-04-22",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-22",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1395064/000139506425000046/form6k_042225.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

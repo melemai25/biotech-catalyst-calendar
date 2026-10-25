@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-24T14:33:23.776Z",
-  "generatedDate": "2026-10-24",
+  "generatedAt": "2026-10-25T15:01:07.683Z",
+  "generatedDate": "2026-10-25",
   "tickers": {
     "AZN": {
       "name": "ASTRAZENECA PLC",
@@ -1209,26 +1209,11 @@
   },
   "warnings": [],
   "counts": {
-    "total": 13031,
-    "registry": 6291,
-    "edgar": 6740
+    "total": 13020,
+    "registry": 6290,
+    "edgar": 6730
   },
   "events": [
-    {
-      "id": "ct-TAK-NCT00314795",
-      "ticker": "TAK",
-      "date": "2016-10-24",
-      "title": "Efficacy and Safety of Peginesatide (AF37702) in the Treatment of Anemia in Participants With Chronic Kidney Disease",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Anemia, Chronic Kidney Disease, Chronic Renal Failure · 22 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT00314795",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT00314795",
-      "origin": "registry",
-      "status": "past"
-    },
     {
       "id": "ct-RYTM-NCT02311673",
       "ticker": "RYTM",
@@ -58575,36 +58560,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-AZN-0001654954-25-004504",
-      "ticker": "AZN",
-      "date": "2025-04-22",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. ENHERTU COMBINATION IMPROVED PFS IN 1L HER2+ MBC.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-22",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/901832/000165495425004504/a6358f.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-GSK-0001654954-25-004497",
-      "ticker": "GSK",
-      "date": "2025-04-22",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. TRANSACTION IN OWN SHARES.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-22",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1131399/000165495425004497/a5464f.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
       "id": "ct-ABBV-NCT06406348",
       "ticker": "ABBV",
       "date": "2025-04-22",
@@ -58620,36 +58575,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-SNY-0001193125-25-088536",
-      "ticker": "SNY",
-      "date": "2025-04-22",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-22",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1121404/000119312525088536/d936903d6k.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-TAK-0001395064-25-000046",
-      "ticker": "TAK",
-      "date": "2025-04-22",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-22",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1395064/000139506425000046/form6k_042225.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
       "id": "ct-INBS-NCT05439629",
       "ticker": "INBS",
       "date": "2025-04-22",
@@ -58662,96 +58587,6 @@
       "source": "ClinicalTrials.gov NCT05439629",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05439629",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-LQDA-0001104659-25-037137",
-      "ticker": "LQDA",
-      "date": "2025-04-22",
-      "title": "8-K filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. FORM 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-22",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1819576/000110465925037137/tm2512826d1_8k.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-NVCR-0001645113-25-000007",
-      "ticker": "NVCR",
-      "date": "2025-04-22",
-      "title": "8-K filed: Reg FD disclosure",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 7.01, 9.01. Reg FD disclosure. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-22",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1645113/000164511325000007/nvcr-20250422.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ABVX-0001193125-25-089339",
-      "ticker": "ABVX",
-      "date": "2025-04-22",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-22",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1956827/000119312525089339/d919877d6k.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-PCRX-0001396814-25-000055",
-      "ticker": "PCRX",
-      "date": "2025-04-22",
-      "title": "8-K filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 8.01. Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-22",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1396814/000139681425000055/pcrx-20250417.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-MAIA-0001641172-25-005692",
-      "ticker": "MAIA",
-      "date": "2025-04-22",
-      "title": "8-K filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-22",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1878313/000164117225005692/form8-k.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-SMNR-0001213900-25-034254",
-      "ticker": "SMNR",
-      "date": "2025-04-22",
-      "title": "8-K filed: Material agreement",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 1.01, 9.01. Material agreement. CURRENT REPORT.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-22",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1913577/000121390025034254/ea0239156-8k_denali.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {
@@ -168840,21 +168675,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-RARE-next-earnings",
-      "ticker": "RARE",
-      "date": "2026-10-25",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001515673&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-NVS-NCT05360446",
       "ticker": "NVS",
       "date": "2026-10-26",
@@ -175197,6 +175017,21 @@
       "source": "ClinicalTrials.gov NCT06636071",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06636071",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-RARE-next-earnings",
+      "ticker": "RARE",
+      "date": "2027-01-15",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001515673&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {

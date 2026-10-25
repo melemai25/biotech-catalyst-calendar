@@ -11,7 +11,7 @@
   "activeTrials": 318,
   "phase3": 191,
   "phase2": 127,
-  "generatedDate": "2026-10-24",
+  "generatedDate": "2026-10-25",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -57,7 +57,7 @@
     "upcomingCount": 23,
     "nextCatalystDate": "2026-11-16",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 23
+    "daysToNextCatalyst": 22
   },
   "trialStats": {
     "completed": 347,
@@ -1295,21 +1295,6 @@
       "source": "ClinicalTrials.gov NCT03528694",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03528694",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-AZN-0001654954-25-004504",
-      "ticker": "AZN",
-      "date": "2025-04-22",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. ENHERTU COMBINATION IMPROVED PFS IN 1L HER2+ MBC.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-22",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/901832/000165495425004504/a6358f.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

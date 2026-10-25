@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-24",
+  "generatedDate": "2026-10-25",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2028-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 753
+    "daysToNextCatalyst": 752
   },
   "trialStats": {
     "completed": 1,
@@ -98,21 +98,6 @@
       "source": "ClinicalTrials.gov NCT03613662",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03613662",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-SMNR-0001213900-25-034254",
-      "ticker": "SMNR",
-      "date": "2025-04-22",
-      "title": "8-K filed: Material agreement",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 1.01, 9.01. Material agreement. CURRENT REPORT.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-22",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1913577/000121390025034254/ea0239156-8k_denali.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {
