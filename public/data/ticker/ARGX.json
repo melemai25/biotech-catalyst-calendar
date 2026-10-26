@@ -11,7 +11,7 @@
   "activeTrials": 28,
   "phase3": 15,
   "phase2": 13,
-  "generatedDate": "2026-10-25",
+  "generatedDate": "2026-10-26",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -57,7 +57,7 @@
     "upcomingCount": 31,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 21
+    "daysToNextCatalyst": 20
   },
   "trialStats": {
     "completed": 35,
@@ -73,12 +73,6 @@
         "total": 25,
         "completionRatePct": 75
       },
-      "other": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 10,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 14,
         "terminated": 0,
@@ -90,6 +84,12 @@
         "terminated": 4,
         "total": 33,
         "completionRatePct": 73
+      },
+      "other": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 10,
+        "completionRatePct": null
       }
     },
     "concluded": 43,
@@ -833,21 +833,6 @@
       "status": "past"
     },
     {
-      "id": "ct-ARGX-NCT06307613",
-      "ticker": "ARGX",
-      "date": "2025-12-15",
-      "title": "A Study of Efgartigimod PH20 SC Given by Prefilled Syringe in Adults With Thyroid Eye Disease",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Thyroid Eye Disease · 102 participants · Status: Terminated",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06307613",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06307613",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-ARGX-NCT06307626",
       "ticker": "ARGX",
       "date": "2025-12-15",
@@ -859,6 +844,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06307626",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06307626",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-ARGX-NCT06307613",
+      "ticker": "ARGX",
+      "date": "2025-12-15",
+      "title": "A Study of Efgartigimod PH20 SC Given by Prefilled Syringe in Adults With Thyroid Eye Disease",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Thyroid Eye Disease · 102 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06307613",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06307613",
       "origin": "registry",
       "status": "past"
     },
@@ -1673,21 +1673,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ARGX-NCT07570316",
-      "ticker": "ARGX",
-      "date": "2028-06-15",
-      "title": "A Study to Assess Efficacy and Safety of Efgartigimod PH20 SC PFS in Adult Participants With Graves' Disease",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Graves' Disease, Graves Disease · 230 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07570316",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07570316",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ARGX-NCT07596849",
       "ticker": "ARGX",
       "date": "2028-06-15",
@@ -1699,6 +1684,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07596849",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07596849",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ARGX-NCT07570316",
+      "ticker": "ARGX",
+      "date": "2028-06-15",
+      "title": "A Study to Assess Efficacy and Safety of Efgartigimod PH20 SC PFS in Adult Participants With Graves' Disease",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Graves' Disease, Graves Disease · 230 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07570316",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07570316",
       "origin": "registry",
       "status": "upcoming"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-10-25",
+  "generatedDate": "2026-10-26",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-12-03",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 39
+    "daysToNextCatalyst": 38
   },
   "trialStats": {
     "completed": 3,
@@ -73,16 +73,16 @@
         "total": 11,
         "completionRatePct": 14
       },
-      "phase3": {
-        "completed": 0,
-        "terminated": 1,
-        "total": 1,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 2,
         "terminated": 0,
         "total": 2,
+        "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 0,
+        "terminated": 1,
+        "total": 1,
         "completionRatePct": null
       }
     },
@@ -609,7 +609,7 @@
       "type": "Trial Milestone",
       "phase": "Phase 1/Phase 2",
       "estimated": false,
-      "summary": "Overweight and Obesity · 296 participants · Status: Recruiting",
+      "summary": "Overweight and Obesity · 400 participants · Status: Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT06842186",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06842186",

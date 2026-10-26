@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-25",
+  "generatedDate": "2026-10-26",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-11-10",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 16
+    "daysToNextCatalyst": 15
   },
   "trialStats": {
     "completed": 1,
@@ -67,14 +67,14 @@
     "ongoing": 1,
     "withResults": 1,
     "byPhase": {
-      "phase3": {
-        "completed": 0,
+      "phase2": {
+        "completed": 1,
         "terminated": 0,
         "total": 1,
         "completionRatePct": null
       },
-      "phase2": {
-        "completed": 1,
+      "phase3": {
+        "completed": 0,
         "terminated": 0,
         "total": 1,
         "completionRatePct": null
@@ -98,21 +98,6 @@
       "source": "ClinicalTrials.gov NCT03058289",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03058289",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-INTS-0001628280-25-018908",
-      "ticker": "INTS",
-      "date": "2025-04-23",
-      "title": "8-K filed: Reg FD disclosure",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 7.01, 9.01. Reg FD disclosure. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-23",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1567264/000162828025018908/intensity-20250422.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

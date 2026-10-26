@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-10-25",
+  "generatedDate": "2026-10-26",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-01-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 82
+    "daysToNextCatalyst": 81
   },
   "trialStats": {
     "completed": 5,
@@ -217,6 +217,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2025-12-09",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1626878/000117184325007836/f8k_120825.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-XBIT-0001171843-26-006810",
+      "ticker": "XBIT",
+      "date": "2026-10-26",
+      "title": "8-K filed: Leadership change",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 5.02. Leadership change. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-26",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1626878/000117184326006810/f8k_102626.htm",
       "origin": "edgar",
       "status": "past"
     },

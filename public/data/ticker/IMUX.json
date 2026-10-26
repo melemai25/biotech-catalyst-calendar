@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 2,
   "phase2": 1,
-  "generatedDate": "2026-10-25",
+  "generatedDate": "2026-10-26",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 21
+    "daysToNextCatalyst": 20
   },
   "trialStats": {
     "completed": 1,
@@ -67,15 +67,15 @@
     "ongoing": 4,
     "withResults": 3,
     "byPhase": {
-      "phase2": {
-        "completed": 0,
-        "terminated": 1,
-        "total": 3,
-        "completionRatePct": null
-      },
       "phase3": {
         "completed": 1,
         "terminated": 0,
+        "total": 3,
+        "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 0,
+        "terminated": 1,
         "total": 3,
         "completionRatePct": null
       },
@@ -587,21 +587,6 @@
       "status": "past"
     },
     {
-      "id": "ct-IMUX-NCT05134441",
-      "ticker": "IMUX",
-      "date": "2026-11-15",
-      "title": "Study to Evaluate the Efficacy, Safety, and Tolerability of IMU-838 in Patients With Relapsing Multiple Sclerosis",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Multiple Sclerosis · 1,121 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05134441",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05134441",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-IMUX-NCT05201638",
       "ticker": "IMUX",
       "date": "2026-11-15",
@@ -613,6 +598,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05201638",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05201638",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-IMUX-NCT05134441",
+      "ticker": "IMUX",
+      "date": "2026-11-15",
+      "title": "Study to Evaluate the Efficacy, Safety, and Tolerability of IMU-838 in Patients With Relapsing Multiple Sclerosis",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Multiple Sclerosis · 1,121 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05134441",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05134441",
       "origin": "registry",
       "status": "upcoming"
     },

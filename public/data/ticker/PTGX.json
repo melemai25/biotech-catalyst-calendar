@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-10-25",
+  "generatedDate": "2026-10-26",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2026-11-05",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 11
+    "daysToNextCatalyst": 10
   },
   "trialStats": {
     "completed": 10,
@@ -67,6 +67,12 @@
     "ongoing": 2,
     "withResults": 3,
     "byPhase": {
+      "phase3": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 2,
+        "completionRatePct": null
+      },
       "phase2": {
         "completed": 6,
         "terminated": 1,
@@ -78,12 +84,6 @@
         "terminated": 0,
         "total": 4,
         "completionRatePct": 100
-      },
-      "phase3": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
       }
     },
     "concluded": 11,
@@ -107,21 +107,6 @@
       "status": "past"
     },
     {
-      "id": "ct-PTGX-NCT03802201",
-      "ticker": "PTGX",
-      "date": "2020-07-31",
-      "title": "Study of PTG-300 in Non-Transfusion Dependent and Transfusion-Dependent Beta-Thalassemia Subjects With Chronic Anemia",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "β-thalassemia, Ineffective Erythropoiesis, Chronic Anemia · 63 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT03802201",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT03802201",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-PTGX-NCT04054921",
       "ticker": "PTGX",
       "date": "2020-07-31",
@@ -133,6 +118,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04054921",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04054921",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-PTGX-NCT03802201",
+      "ticker": "PTGX",
+      "date": "2020-07-31",
+      "title": "Study of PTG-300 in Non-Transfusion Dependent and Transfusion-Dependent Beta-Thalassemia Subjects With Chronic Anemia",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "β-thalassemia, Ineffective Erythropoiesis, Chronic Anemia · 63 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT03802201",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03802201",
       "origin": "registry",
       "status": "past"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 2,
   "phase2": 2,
-  "generatedDate": "2026-10-25",
+  "generatedDate": "2026-10-26",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-08-31",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 310
+    "daysToNextCatalyst": 309
   },
   "trialStats": {
     "completed": 14,
@@ -1042,6 +1042,21 @@
       "result": null,
       "source": "SEC EDGAR 6-K 2026-09-09",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1536196/000121390026098205/ea0304939-6k_canfite.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-CANF-0001213900-26-112266",
+      "ticker": "CANF",
+      "date": "2026-10-26",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. REPORT OF FOREIGN PRIVATE ISSUER.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-10-26",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1536196/000121390026112266/ea0309623-6k_canfite.htm",
       "origin": "edgar",
       "status": "past"
     },

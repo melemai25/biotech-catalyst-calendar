@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-25",
+  "generatedDate": "2026-10-26",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-10-29",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 4
+    "daysToNextCatalyst": 3
   },
   "trialStats": {
     "completed": 55,
@@ -73,17 +73,17 @@
         "total": 26,
         "completionRatePct": 100
       },
-      "phase3": {
-        "completed": 14,
-        "terminated": 3,
-        "total": 18,
-        "completionRatePct": 82
-      },
       "phase2": {
         "completed": 16,
         "terminated": 1,
         "total": 17,
         "completionRatePct": 94
+      },
+      "phase3": {
+        "completed": 14,
+        "terminated": 3,
+        "total": 18,
+        "completionRatePct": 82
       }
     },
     "concluded": 59,
@@ -242,21 +242,6 @@
       "status": "past"
     },
     {
-      "id": "ct-LXRX-NCT03351478",
-      "ticker": "LXRX",
-      "date": "2019-05-16",
-      "title": "Efficacy and Safety of Sotagliflozin Versus Placebo and Empagliflozin in Participants With Type 2 Diabetes Mellitus Who Have Inadequate Glycemic Control While Taking a DPP4 Inhibitor Alone or With Metformin",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Type 2 Diabetes Mellitus · 770 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT03351478",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT03351478",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-LXRX-NCT03242018",
       "ticker": "LXRX",
       "date": "2019-05-16",
@@ -268,6 +253,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT03242018",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03242018",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-LXRX-NCT03351478",
+      "ticker": "LXRX",
+      "date": "2019-05-16",
+      "title": "Efficacy and Safety of Sotagliflozin Versus Placebo and Empagliflozin in Participants With Type 2 Diabetes Mellitus Who Have Inadequate Glycemic Control While Taking a DPP4 Inhibitor Alone or With Metformin",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Type 2 Diabetes Mellitus · 770 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT03351478",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03351478",
       "origin": "registry",
       "status": "past"
     },

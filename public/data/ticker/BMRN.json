@@ -11,7 +11,7 @@
   "activeTrials": 14,
   "phase3": 5,
   "phase2": 9,
-  "generatedDate": "2026-10-25",
+  "generatedDate": "2026-10-26",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 14,
     "nextCatalystDate": "2026-12-06",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 42
+    "daysToNextCatalyst": 41
   },
   "trialStats": {
     "completed": 61,
@@ -79,17 +79,17 @@
         "total": 35,
         "completionRatePct": 76
       },
-      "phase3": {
-        "completed": 19,
-        "terminated": 2,
-        "total": 27,
-        "completionRatePct": 90
-      },
       "phase1": {
         "completed": 4,
         "terminated": 1,
         "total": 7,
         "completionRatePct": 80
+      },
+      "phase3": {
+        "completed": 19,
+        "terminated": 2,
+        "total": 27,
+        "completionRatePct": 90
       }
     },
     "concluded": 81,
@@ -938,17 +938,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BMRN-NCT04480567",
+      "id": "ct-BMRN-NCT02724228",
       "ticker": "BMRN",
       "date": "2027-12-15",
-      "title": "AAV Gene Therapy Study for Subjects with PKU",
+      "title": "A Study to Evaluate Long-Term Safety, Tolerability, & Efficacy of BMN 111 in Children With Achondroplasia (ACH)",
       "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
+      "phase": "Phase 2",
       "estimated": false,
-      "summary": "Phenylketonuria (PKU) · 100 participants · Status: Active Not Recruiting",
+      "summary": "Achondroplasia · 30 participants · Status: Active Not Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT04480567",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04480567",
+      "source": "ClinicalTrials.gov NCT02724228",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02724228",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -968,17 +968,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BMRN-NCT02724228",
+      "id": "ct-BMRN-NCT04480567",
       "ticker": "BMRN",
       "date": "2027-12-15",
-      "title": "A Study to Evaluate Long-Term Safety, Tolerability, & Efficacy of BMN 111 in Children With Achondroplasia (ACH)",
+      "title": "AAV Gene Therapy Study for Subjects with PKU",
       "type": "Trial Milestone",
-      "phase": "Phase 2",
+      "phase": "Phase 1/Phase 2",
       "estimated": false,
-      "summary": "Achondroplasia · 30 participants · Status: Active Not Recruiting",
+      "summary": "Phenylketonuria (PKU) · 100 participants · Status: Active Not Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT02724228",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02724228",
+      "source": "ClinicalTrials.gov NCT04480567",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04480567",
       "origin": "registry",
       "status": "upcoming"
     },

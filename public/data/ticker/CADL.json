@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 2,
   "phase2": 3,
-  "generatedDate": "2026-10-25",
+  "generatedDate": "2026-10-26",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-12-17",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 53
+    "daysToNextCatalyst": 52
   },
   "trialStats": {
     "completed": 7,
@@ -73,17 +73,17 @@
         "total": 5,
         "completionRatePct": null
       },
-      "phase1": {
-        "completed": 6,
-        "terminated": 0,
-        "total": 6,
-        "completionRatePct": 100
-      },
       "phase3": {
         "completed": 0,
         "terminated": 0,
         "total": 2,
         "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 6,
+        "terminated": 0,
+        "total": 6,
+        "completionRatePct": 100
       }
     },
     "concluded": 7,
@@ -164,21 +164,6 @@
       "source": "ClinicalTrials.gov NCT04495153",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04495153",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-CADL-0000950170-25-057398",
-      "ticker": "CADL",
-      "date": "2025-04-23",
-      "title": "8-K filed: Reg FD disclosure",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 7.01, 9.01. Reg FD disclosure. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-23",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1841387/000095017025057398/cadl-20250423.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

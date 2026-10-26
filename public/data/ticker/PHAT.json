@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-10-25",
+  "generatedDate": "2026-10-26",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 51
+    "daysToNextCatalyst": 50
   },
   "trialStats": {
     "completed": 11,
@@ -67,6 +67,12 @@
     "ongoing": 3,
     "withResults": 11,
     "byPhase": {
+      "phase2": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 2,
+        "completionRatePct": null
+      },
       "phase1": {
         "completed": 7,
         "terminated": 0,
@@ -83,12 +89,6 @@
         "completed": 3,
         "terminated": 0,
         "total": 4,
-        "completionRatePct": null
-      },
-      "phase2": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 2,
         "completionRatePct": null
       }
     },
@@ -514,6 +514,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-10-23",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1783183/000119312526430621/d437998d8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-PHAT-0001193125-26-430977",
+      "ticker": "PHAT",
+      "date": "2026-10-26",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 8.01. Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-26",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1783183/000119312526430977/d171570d8k.htm",
       "origin": "edgar",
       "status": "past"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 2,
   "phase2": 2,
-  "generatedDate": "2026-10-25",
+  "generatedDate": "2026-10-26",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -54,17 +54,17 @@
     "phase3Count": 3,
     "phase2Count": 5,
     "leadPhase": 3,
-    "upcomingCount": 8,
+    "upcomingCount": 7,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 51
+    "daysToNextCatalyst": 50
   },
   "trialStats": {
-    "completed": 25,
+    "completed": 26,
     "terminated": 0,
     "withdrawn": 0,
     "suspended": 0,
-    "ongoing": 7,
+    "ongoing": 6,
     "withResults": 0,
     "byPhase": {
       "phase1": {
@@ -80,13 +80,13 @@
         "completionRatePct": null
       },
       "phase2": {
-        "completed": 4,
+        "completed": 5,
         "terminated": 0,
         "total": 5,
         "completionRatePct": 100
       }
     },
-    "concluded": 25,
+    "concluded": 26,
     "completionRatePct": 100,
     "resultsPostedPct": 0
   },
@@ -677,6 +677,21 @@
       "status": "past"
     },
     {
+      "id": "ct-RCUS-NCT05329766",
+      "ticker": "RCUS",
+      "date": "2026-09-07",
+      "title": "A Safety and Efficacy Study of Treatment Combinations With and Without Chemotherapy in Adult Participants With Advanced Upper Gastrointestinal Tract Malignancies",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Gastrointestinal Tract Malignancies · 332 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05329766",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05329766",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "ct-RCUS-NCT04736173",
       "ticker": "RCUS",
       "date": "2026-09-17",
@@ -764,21 +779,6 @@
       "source": "Projected from SEC EDGAR filing cadence",
       "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001724521&type=8-K",
       "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-RCUS-NCT05329766",
-      "ticker": "RCUS",
-      "date": "2027-01-15",
-      "title": "A Safety and Efficacy Study of Treatment Combinations With and Without Chemotherapy in Adult Participants With Advanced Upper Gastrointestinal Tract Malignancies",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Gastrointestinal Tract Malignancies · 332 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05329766",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05329766",
-      "origin": "registry",
       "status": "upcoming"
     },
     {

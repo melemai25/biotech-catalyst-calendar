@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 2,
   "phase2": 1,
-  "generatedDate": "2026-10-25",
+  "generatedDate": "2026-10-26",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2026-11-13",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 19
+    "daysToNextCatalyst": 18
   },
   "trialStats": {
     "completed": 9,
@@ -67,6 +67,12 @@
     "ongoing": 6,
     "withResults": 4,
     "byPhase": {
+      "other": {
+        "completed": 3,
+        "terminated": 0,
+        "total": 6,
+        "completionRatePct": null
+      },
       "phase3": {
         "completed": 3,
         "terminated": 0,
@@ -77,12 +83,6 @@
         "completed": 1,
         "terminated": 0,
         "total": 1,
-        "completionRatePct": null
-      },
-      "other": {
-        "completed": 3,
-        "terminated": 0,
-        "total": 6,
         "completionRatePct": null
       },
       "phase2": {
@@ -473,21 +473,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-HUMA-NCT07730528",
-      "ticker": "HUMA",
-      "date": "2030-09-15",
-      "title": "Study to Evaluate the Safety and Efficacy of Humacyte's Coronary Tissue Engineered Vessel (CTEV) in Patients With Coronary Artery Disease Requiring Coronary Artery Bypass Grafting (CABG)",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Coronary Artery Disease · 10 participants · Status: Not Yet Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07730528",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07730528",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-HUMA-NCT07762794",
       "ticker": "HUMA",
       "date": "2030-09-15",
@@ -499,6 +484,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07762794",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07762794",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-HUMA-NCT07730528",
+      "ticker": "HUMA",
+      "date": "2030-09-15",
+      "title": "Study to Evaluate the Safety and Efficacy of Humacyte's Coronary Tissue Engineered Vessel (CTEV) in Patients With Coronary Artery Disease Requiring Coronary Artery Bypass Grafting (CABG)",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Coronary Artery Disease · 10 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07730528",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07730528",
       "origin": "registry",
       "status": "upcoming"
     }

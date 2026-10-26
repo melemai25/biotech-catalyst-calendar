@@ -11,7 +11,7 @@
   "activeTrials": 7,
   "phase3": 2,
   "phase2": 5,
-  "generatedDate": "2026-10-25",
+  "generatedDate": "2026-10-26",
   "metrics": {
     "reportingCurrency": null,
     "taxonomy": null,
@@ -57,7 +57,7 @@
     "upcomingCount": 8,
     "nextCatalystDate": "2027-01-22",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 89
+    "daysToNextCatalyst": 88
   },
   "trialStats": {
     "completed": 0,
@@ -92,21 +92,6 @@
   },
   "events": [
     {
-      "id": "ct-ADRX-NCT06205628",
-      "ticker": "ADRX",
-      "date": "2026-07-31",
-      "title": "Safety, Tolerability, PK and PD of ADX-850 in Participants With Hypertension",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Hypertension, Hypertension,Essential · 28 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06205628",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06205628",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "edgar-ADRX-0001193125-26-405297",
       "ticker": "ADRX",
       "date": "2026-09-28",
@@ -119,6 +104,21 @@
       "source": "SEC EDGAR 8-K 2026-09-28",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1802369/000119312526405297/d186630d8k.htm",
       "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "ct-ADRX-NCT06205628",
+      "ticker": "ADRX",
+      "date": "2026-10-06",
+      "title": "Safety, Tolerability, PK and PD of ADX-850 in Participants With Hypertension",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Hypertension, Hypertension,Essential · 28 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06205628",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06205628",
+      "origin": "registry",
       "status": "past"
     },
     {

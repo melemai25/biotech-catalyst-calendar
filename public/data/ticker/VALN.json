@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-25",
+  "generatedDate": "2026-10-26",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -98,21 +98,6 @@
   },
   "events": [
     {
-      "id": "ct-VALN-NCT03425149",
-      "ticker": "VALN",
-      "date": "2018-06-26",
-      "title": "Randomized, Placebo-controlled, Observer-blinded Phase 1 Safety and Immunogenicity Study of Inactivated Zika Virus Vaccine Candidate in Healthy Adults",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Zika Virus, Zika Virus Infection · 67 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT03425149",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT03425149",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-VALN-NCT03576183",
       "ticker": "VALN",
       "date": "2018-06-26",
@@ -124,6 +109,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT03576183",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03576183",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-VALN-NCT03425149",
+      "ticker": "VALN",
+      "date": "2018-06-26",
+      "title": "Randomized, Placebo-controlled, Observer-blinded Phase 1 Safety and Immunogenicity Study of Inactivated Zika Virus Vaccine Candidate in Healthy Adults",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Zika Virus, Zika Virus Infection · 67 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT03425149",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03425149",
       "origin": "registry",
       "status": "past"
     },

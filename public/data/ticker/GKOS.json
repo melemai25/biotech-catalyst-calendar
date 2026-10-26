@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 1,
   "phase2": 4,
-  "generatedDate": "2026-10-25",
+  "generatedDate": "2026-10-26",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2026-12-28",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 64
+    "daysToNextCatalyst": 63
   },
   "trialStats": {
     "completed": 39,
@@ -67,11 +67,11 @@
     "ongoing": 21,
     "withResults": 13,
     "byPhase": {
-      "other": {
-        "completed": 24,
-        "terminated": 3,
-        "total": 40,
-        "completionRatePct": 89
+      "phase3": {
+        "completed": 10,
+        "terminated": 1,
+        "total": 14,
+        "completionRatePct": 91
       },
       "phase2": {
         "completed": 5,
@@ -79,11 +79,11 @@
         "total": 13,
         "completionRatePct": 71
       },
-      "phase3": {
-        "completed": 10,
-        "terminated": 1,
-        "total": 14,
-        "completionRatePct": 91
+      "other": {
+        "completed": 24,
+        "terminated": 3,
+        "total": 40,
+        "completionRatePct": 89
       }
     },
     "concluded": 46,
@@ -152,21 +152,6 @@
       "status": "past"
     },
     {
-      "id": "ct-GKOS-NCT02868190",
-      "ticker": "GKOS",
-      "date": "2019-11-08",
-      "title": "Two Second-Generation Trabecular Micro-bypass Stents to Treat Glaucoma Subjects on One Hypotensive Medication",
-      "type": "Trial Milestone",
-      "phase": "Phase 4",
-      "estimated": false,
-      "summary": "Open Angle Glaucoma · 57 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT02868190",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02868190",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-GKOS-NCT02873806",
       "ticker": "GKOS",
       "date": "2019-11-08",
@@ -178,6 +163,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT02873806",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02873806",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-GKOS-NCT02868190",
+      "ticker": "GKOS",
+      "date": "2019-11-08",
+      "title": "Two Second-Generation Trabecular Micro-bypass Stents to Treat Glaucoma Subjects on One Hypotensive Medication",
+      "type": "Trial Milestone",
+      "phase": "Phase 4",
+      "estimated": false,
+      "summary": "Open Angle Glaucoma · 57 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT02868190",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02868190",
       "origin": "registry",
       "status": "past"
     },

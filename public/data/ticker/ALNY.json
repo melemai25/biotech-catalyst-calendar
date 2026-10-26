@@ -11,7 +11,7 @@
   "activeTrials": 12,
   "phase3": 4,
   "phase2": 8,
-  "generatedDate": "2026-10-25",
+  "generatedDate": "2026-10-26",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 20,
     "nextCatalystDate": "2026-12-29",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 65
+    "daysToNextCatalyst": 64
   },
   "trialStats": {
     "completed": 43,
@@ -73,17 +73,17 @@
         "total": 24,
         "completionRatePct": 82
       },
-      "other": {
-        "completed": 3,
-        "terminated": 2,
-        "total": 15,
-        "completionRatePct": 60
-      },
       "phase3": {
         "completed": 10,
         "terminated": 0,
         "total": 15,
         "completionRatePct": 100
+      },
+      "other": {
+        "completed": 3,
+        "terminated": 2,
+        "total": 15,
+        "completionRatePct": 60
       },
       "phase2": {
         "completed": 16,

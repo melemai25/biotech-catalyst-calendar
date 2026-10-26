@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-10-25",
+  "generatedDate": "2026-10-26",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -50,27 +50,27 @@
     "fcfMarginPct": -620.8,
     "marketCapUsd": null,
     "entityName": "EDITAS MEDICINE, INC.",
-    "activeTrials": 2,
+    "activeTrials": 3,
     "phase3Count": 0,
-    "phase2Count": 2,
+    "phase2Count": 3,
     "leadPhase": 2,
-    "upcomingCount": 1,
+    "upcomingCount": 2,
     "nextCatalystDate": "2026-11-05",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 11
+    "daysToNextCatalyst": 10
   },
   "trialStats": {
     "completed": 1,
     "terminated": 0,
     "withdrawn": 0,
     "suspended": 0,
-    "ongoing": 4,
+    "ongoing": 5,
     "withResults": 0,
     "byPhase": {
       "phase2": {
         "completed": 0,
         "terminated": 0,
-        "total": 3,
+        "total": 4,
         "completionRatePct": null
       },
       "other": {
@@ -398,6 +398,21 @@
       "source": "Projected from SEC EDGAR filing cadence",
       "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001650664&type=8-K",
       "origin": "edgar",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-EDIT-NCT07894887",
+      "ticker": "EDIT",
+      "date": "2029-06-15",
+      "title": "EDIT-401 in Adults Who Require Additional Lowering of Low-Density Lipoprotein Cholesterol (LDL-C)",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Heterozygous Familial Hypercholesterolemia (HeFH) · 56 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07894887",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07894887",
+      "origin": "registry",
       "status": "upcoming"
     }
   ]

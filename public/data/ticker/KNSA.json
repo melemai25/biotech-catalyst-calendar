@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-10-25",
+  "generatedDate": "2026-10-26",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-12-27",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 63
+    "daysToNextCatalyst": 62
   },
   "trialStats": {
     "completed": 1,
@@ -67,9 +67,9 @@
     "ongoing": 3,
     "withResults": 1,
     "byPhase": {
-      "phase2": {
-        "completed": 0,
-        "terminated": 1,
+      "phase3": {
+        "completed": 1,
+        "terminated": 0,
         "total": 2,
         "completionRatePct": null
       },
@@ -79,9 +79,9 @@
         "total": 1,
         "completionRatePct": null
       },
-      "phase3": {
-        "completed": 1,
-        "terminated": 0,
+      "phase2": {
+        "completed": 0,
+        "terminated": 1,
         "total": 2,
         "completionRatePct": null
       }
@@ -119,21 +119,6 @@
       "source": "ClinicalTrials.gov NCT06531395",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06531395",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-KNSA-0001104659-25-038041",
-      "ticker": "KNSA",
-      "date": "2025-04-23",
-      "title": "8-K filed: Leadership change",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.02, 9.01. Leadership change. FORM 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-23",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1730430/000110465925038041/tm2512708d1_8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

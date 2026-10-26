@@ -11,7 +11,7 @@
   "activeTrials": 6,
   "phase3": 1,
   "phase2": 5,
-  "generatedDate": "2026-10-25",
+  "generatedDate": "2026-10-26",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2026-12-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 66
+    "daysToNextCatalyst": 65
   },
   "trialStats": {
     "completed": 47,
@@ -173,21 +173,6 @@
       "status": "past"
     },
     {
-      "id": "ct-SUPN-NCT03247517",
-      "ticker": "SUPN",
-      "date": "2018-10-17",
-      "title": "Evaluation of SPN-812 (Viloxazine Extended-release Capsule) Low Dose in Adolescents With ADHD",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "ADHD · 310 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT03247517",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT03247517",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-SUPN-NCT03247543",
       "ticker": "SUPN",
       "date": "2018-10-17",
@@ -199,6 +184,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT03247543",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03247543",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-SUPN-NCT03247517",
+      "ticker": "SUPN",
+      "date": "2018-10-17",
+      "title": "Evaluation of SPN-812 (Viloxazine Extended-release Capsule) Low Dose in Adolescents With ADHD",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "ADHD · 310 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT03247517",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03247517",
       "origin": "registry",
       "status": "past"
     },
@@ -638,21 +638,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-SUPN-0001356576-25-000020",
-      "ticker": "SUPN",
-      "date": "2025-04-23",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-04-23",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1356576/000135657625000020/supn-20250423.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
       "id": "edgar-SUPN-0001356576-25-000031",
       "ticker": "SUPN",
       "date": "2025-05-06",
@@ -1043,21 +1028,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-SUPN-NCT07141329",
-      "ticker": "SUPN",
-      "date": "2027-12-31",
-      "title": "SPN-817 Open-Label Extension Study in Adults With Focal Onset Seizures",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Focal Onset Seizures · 100 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07141329",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07141329",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-SUPN-NCT05518578",
       "ticker": "SUPN",
       "date": "2027-12-31",
@@ -1069,6 +1039,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05518578",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05518578",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-SUPN-NCT07141329",
+      "ticker": "SUPN",
+      "date": "2027-12-31",
+      "title": "SPN-817 Open-Label Extension Study in Adults With Focal Onset Seizures",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Focal Onset Seizures · 100 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07141329",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07141329",
       "origin": "registry",
       "status": "upcoming"
     },

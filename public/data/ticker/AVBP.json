@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-10-25",
+  "generatedDate": "2026-10-26",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-11-11",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 17
+    "daysToNextCatalyst": 16
   },
   "trialStats": {
     "completed": 0,
@@ -352,6 +352,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-10-19",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1868279/000110465926116736/tm2627799d1_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-AVBP-0001104659-26-118550",
+      "ticker": "AVBP",
+      "date": "2026-10-26",
+      "title": "8-K filed: Reg FD disclosure, Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 7.01, 8.01, 9.01. Reg FD disclosure; Other event. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-26",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1868279/000110465926118550/tm2628237d1_8k.htm",
       "origin": "edgar",
       "status": "past"
     },

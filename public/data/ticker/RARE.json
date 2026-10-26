@@ -11,7 +11,7 @@
   "activeTrials": 11,
   "phase3": 8,
   "phase2": 3,
-  "generatedDate": "2026-10-25",
+  "generatedDate": "2026-10-26",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 10,
     "nextCatalystDate": "2027-01-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 82
+    "daysToNextCatalyst": 81
   },
   "trialStats": {
     "completed": 27,
@@ -67,12 +67,6 @@
     "ongoing": 21,
     "withResults": 22,
     "byPhase": {
-      "phase3": {
-        "completed": 4,
-        "terminated": 2,
-        "total": 15,
-        "completionRatePct": 67
-      },
       "phase2": {
         "completed": 14,
         "terminated": 6,
@@ -84,6 +78,12 @@
         "terminated": 5,
         "total": 22,
         "completionRatePct": 62
+      },
+      "phase3": {
+        "completed": 4,
+        "terminated": 2,
+        "total": 15,
+        "completionRatePct": 67
       },
       "phase1": {
         "completed": 1,
@@ -923,21 +923,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-RARE-NCT04360265",
-      "ticker": "RARE",
-      "date": "2027-08-15",
-      "title": "Follow-up Study of AAV-Mediated Gene Transfer (UX111; Previously Known as ABO-102) for MPS Type IIIA",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Mucopolysaccharidosis IIIA, MPS IIIA, Sanfilippo Syndrome · 41 participants · Status: Enrolling By Invitation",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04360265",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04360265",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-RARE-NCT05933200",
       "ticker": "RARE",
       "date": "2027-08-15",
@@ -949,6 +934,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05933200",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05933200",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-RARE-NCT04360265",
+      "ticker": "RARE",
+      "date": "2027-08-15",
+      "title": "Follow-up Study of AAV-Mediated Gene Transfer (UX111; Previously Known as ABO-102) for MPS Type IIIA",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Mucopolysaccharidosis IIIA, MPS IIIA, Sanfilippo Syndrome · 41 participants · Status: Enrolling By Invitation",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04360265",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04360265",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -998,21 +998,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-RARE-NCT04884815",
-      "ticker": "RARE",
-      "date": "2029-03-15",
-      "title": "A Phase 1/2/3 Study of UX701 Gene Therapy in Adults With Wilson Disease",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Wilson Disease · 82 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04884815",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04884815",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-RARE-NCT02716246",
       "ticker": "RARE",
       "date": "2029-03-15",
@@ -1024,6 +1009,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT02716246",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02716246",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-RARE-NCT04884815",
+      "ticker": "RARE",
+      "date": "2029-03-15",
+      "title": "A Phase 1/2/3 Study of UX701 Gene Therapy in Adults With Wilson Disease",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Wilson Disease · 82 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04884815",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04884815",
       "origin": "registry",
       "status": "upcoming"
     },

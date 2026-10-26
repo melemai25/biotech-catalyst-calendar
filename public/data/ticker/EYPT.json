@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 4,
   "phase2": 0,
-  "generatedDate": "2026-10-25",
+  "generatedDate": "2026-10-26",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-12-21",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 57
+    "daysToNextCatalyst": 56
   },
   "trialStats": {
     "completed": 10,
@@ -67,29 +67,29 @@
     "ongoing": 4,
     "withResults": 10,
     "byPhase": {
-      "phase3": {
-        "completed": 3,
-        "terminated": 1,
-        "total": 10,
-        "completionRatePct": 75
-      },
-      "phase2": {
-        "completed": 5,
-        "terminated": 1,
-        "total": 6,
-        "completionRatePct": 83
-      },
       "other": {
         "completed": 1,
         "terminated": 1,
         "total": 2,
         "completionRatePct": null
       },
+      "phase3": {
+        "completed": 3,
+        "terminated": 1,
+        "total": 10,
+        "completionRatePct": 75
+      },
       "phase1": {
         "completed": 1,
         "terminated": 0,
         "total": 1,
         "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 5,
+        "terminated": 1,
+        "total": 6,
+        "completionRatePct": 83
       }
     },
     "concluded": 15,
@@ -713,21 +713,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-EYPT-NCT07449936",
-      "ticker": "EYPT",
-      "date": "2027-10-15",
-      "title": "COMO: A Phase 3 Randomized, Double-Masked Study Comparing the Efficacy of EYP-1901 Against Aflibercept in DME",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Diabetic Macular Edema, DME, Diabetic Macular Edema (DME) · 240 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07449936",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07449936",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-EYPT-NCT07449923",
       "ticker": "EYPT",
       "date": "2027-10-15",
@@ -739,6 +724,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07449923",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07449923",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-EYPT-NCT07449936",
+      "ticker": "EYPT",
+      "date": "2027-10-15",
+      "title": "COMO: A Phase 3 Randomized, Double-Masked Study Comparing the Efficacy of EYP-1901 Against Aflibercept in DME",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Diabetic Macular Edema, DME, Diabetic Macular Edema (DME) · 240 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07449936",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07449936",
       "origin": "registry",
       "status": "upcoming"
     }

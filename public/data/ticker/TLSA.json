@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 0,
   "phase2": 4,
-  "generatedDate": "2026-10-25",
+  "generatedDate": "2026-10-26",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-04-01",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 158
+    "daysToNextCatalyst": 157
   },
   "trialStats": {
     "completed": 2,
@@ -73,16 +73,16 @@
         "total": 10,
         "completionRatePct": null
       },
-      "phase1": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 3,
-        "completionRatePct": null
-      },
       "other": {
         "completed": 0,
         "terminated": 0,
         "total": 1,
+        "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 3,
         "completionRatePct": null
       }
     },
@@ -149,21 +149,6 @@
       "source": "ClinicalTrials.gov NCT06879067",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06879067",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-TLSA-0001213900-25-034332",
-      "ticker": "TLSA",
-      "date": "2025-04-23",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. REPORT OF FOREIGN PRIVATE ISSUER.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-23",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1723069/000121390025034332/ea0239219-6k_tiziana.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

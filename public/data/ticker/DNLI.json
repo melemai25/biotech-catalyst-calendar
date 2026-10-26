@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 1,
   "phase2": 4,
-  "generatedDate": "2026-10-25",
+  "generatedDate": "2026-10-26",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 10,
     "nextCatalystDate": "2026-11-05",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 11
+    "daysToNextCatalyst": 10
   },
   "trialStats": {
     "completed": 10,
@@ -593,21 +593,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-DNLI-NCT06181136",
-      "ticker": "DNLI",
-      "date": "2028-08-15",
-      "title": "Study of DNL126 in Pediatric Participants With Mucopolysaccharidosis Type IIIA (Sanfilippo Syndrome Type A)",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Mucopolysaccharidosis Type IIIA · 20 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06181136",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06181136",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-DNLI-NCT07354724",
       "ticker": "DNLI",
       "date": "2028-08-15",
@@ -619,6 +604,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07354724",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07354724",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-DNLI-NCT06181136",
+      "ticker": "DNLI",
+      "date": "2028-08-15",
+      "title": "Study of DNL126 in Pediatric Participants With Mucopolysaccharidosis Type IIIA (Sanfilippo Syndrome Type A)",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Mucopolysaccharidosis Type IIIA · 20 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06181136",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06181136",
       "origin": "registry",
       "status": "upcoming"
     },
