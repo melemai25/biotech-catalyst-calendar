@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 2,
   "phase2": 1,
-  "generatedDate": "2026-10-26",
+  "generatedDate": "2026-10-27",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2026-11-13",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 18
+    "daysToNextCatalyst": 17
   },
   "trialStats": {
     "completed": 9,
@@ -67,6 +67,12 @@
     "ongoing": 6,
     "withResults": 4,
     "byPhase": {
+      "phase2": {
+        "completed": 2,
+        "terminated": 0,
+        "total": 3,
+        "completionRatePct": null
+      },
       "other": {
         "completed": 3,
         "terminated": 0,
@@ -83,12 +89,6 @@
         "completed": 1,
         "terminated": 0,
         "total": 1,
-        "completionRatePct": null
-      },
-      "phase2": {
-        "completed": 2,
-        "terminated": 0,
-        "total": 3,
         "completionRatePct": null
       }
     },
@@ -473,21 +473,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-HUMA-NCT07762794",
-      "ticker": "HUMA",
-      "date": "2030-09-15",
-      "title": "Multicenter Study to Evaluate the Safety and Efficacy of SYMVESS™ in a Real World Setting in Patients With Extremity Arterial Injury Requiring Urgent Repair",
-      "type": "Trial Milestone",
-      "phase": "Phase 4",
-      "estimated": false,
-      "summary": "Vascular Injury, Arterial Injury, Trauma Injury · 125 participants · Status: Not Yet Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07762794",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07762794",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-HUMA-NCT07730528",
       "ticker": "HUMA",
       "date": "2030-09-15",
@@ -499,6 +484,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07730528",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07730528",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-HUMA-NCT07762794",
+      "ticker": "HUMA",
+      "date": "2030-09-15",
+      "title": "Multicenter Study to Evaluate the Safety and Efficacy of SYMVESS™ in a Real World Setting in Patients With Extremity Arterial Injury Requiring Urgent Repair",
+      "type": "Trial Milestone",
+      "phase": "Phase 4",
+      "estimated": false,
+      "summary": "Vascular Injury, Arterial Injury, Trauma Injury · 125 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07762794",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07762794",
       "origin": "registry",
       "status": "upcoming"
     }

@@ -11,7 +11,7 @@
   "activeTrials": 8,
   "phase3": 3,
   "phase2": 5,
-  "generatedDate": "2026-10-26",
+  "generatedDate": "2026-10-27",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 50
+    "daysToNextCatalyst": 49
   },
   "trialStats": {
     "completed": 12,
@@ -683,21 +683,6 @@
       "status": "past"
     },
     {
-      "id": "ct-KPTI-NCT04442022",
-      "ticker": "KPTI",
-      "date": "2026-12-15",
-      "title": "A Study of Rituximab-Gemcitabine-Dexamethasone-Platinum (R-GDP) With or Without Selinexor in Patients With Relapsed/Refractory Diffuse Large B-cell Lymphoma",
-      "type": "Trial Milestone",
-      "phase": "Phase 2/Phase 3",
-      "estimated": false,
-      "summary": "Relapsed/Refractory Diffuse Large B-cell Lymphoma · 501 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04442022",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04442022",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-KPTI-NCT02227251",
       "ticker": "KPTI",
       "date": "2026-12-15",
@@ -709,6 +694,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT02227251",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02227251",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-KPTI-NCT04442022",
+      "ticker": "KPTI",
+      "date": "2026-12-15",
+      "title": "A Study of Rituximab-Gemcitabine-Dexamethasone-Platinum (R-GDP) With or Without Selinexor in Patients With Relapsed/Refractory Diffuse Large B-cell Lymphoma",
+      "type": "Trial Milestone",
+      "phase": "Phase 2/Phase 3",
+      "estimated": false,
+      "summary": "Relapsed/Refractory Diffuse Large B-cell Lymphoma · 501 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04442022",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04442022",
       "origin": "registry",
       "status": "upcoming"
     },

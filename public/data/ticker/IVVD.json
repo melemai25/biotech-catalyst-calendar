@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-10-26",
+  "generatedDate": "2026-10-27",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -50,39 +50,45 @@
     "fcfMarginPct": -294.4,
     "marketCapUsd": null,
     "entityName": "INVIVYD, INC.",
-    "activeTrials": 7,
+    "activeTrials": 8,
     "phase3Count": 5,
-    "phase2Count": 2,
+    "phase2Count": 3,
     "leadPhase": 3,
-    "upcomingCount": 1,
+    "upcomingCount": 2,
     "nextCatalystDate": "2026-12-31",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 66
+    "daysToNextCatalyst": 65
   },
   "trialStats": {
     "completed": 3,
     "terminated": 2,
     "withdrawn": 0,
     "suspended": 0,
-    "ongoing": 3,
+    "ongoing": 4,
     "withResults": 2,
     "byPhase": {
+      "phase1": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 2,
+        "completionRatePct": null
+      },
       "phase3": {
         "completed": 2,
         "terminated": 2,
         "total": 5,
         "completionRatePct": 50
       },
-      "other": {
+      "phase2": {
         "completed": 0,
         "terminated": 0,
         "total": 1,
         "completionRatePct": null
       },
-      "phase1": {
-        "completed": 1,
+      "other": {
+        "completed": 0,
         "terminated": 0,
-        "total": 2,
+        "total": 1,
         "completionRatePct": null
       }
     },
@@ -554,6 +560,21 @@
       "source": "Projected from SEC EDGAR filing cadence",
       "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001832038&type=8-K",
       "origin": "edgar",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-IVVD-NCT07899346",
+      "ticker": "IVVD",
+      "date": "2027-06-15",
+      "title": "Study of VYD2311 for the Treatment of Adults With Long-COVID or Post-Vaccination Syndrome",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Long COVID, COVID-19 (SARS-CoV-2 Infection), COVID 19 Vaccine · 130 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07899346",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07899346",
+      "origin": "registry",
       "status": "upcoming"
     }
   ]

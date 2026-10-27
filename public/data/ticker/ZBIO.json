@@ -11,7 +11,7 @@
   "activeTrials": 6,
   "phase3": 4,
   "phase2": 2,
-  "generatedDate": "2026-10-26",
+  "generatedDate": "2026-10-27",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2030-06-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 1328
+    "daysToNextCatalyst": 1327
   },
   "trialStats": {
     "completed": 4,
@@ -67,17 +67,17 @@
     "ongoing": 6,
     "withResults": 0,
     "byPhase": {
-      "phase1": {
-        "completed": 4,
-        "terminated": 0,
-        "total": 4,
-        "completionRatePct": 100
-      },
       "phase3": {
         "completed": 0,
         "terminated": 0,
         "total": 4,
         "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 4,
+        "terminated": 0,
+        "total": 4,
+        "completionRatePct": 100
       },
       "phase2": {
         "completed": 0,
@@ -452,21 +452,6 @@
       "status": "past"
     },
     {
-      "id": "ct-ZBIO-NCT07299019",
-      "ticker": "ZBIO",
-      "date": "2030-06-15",
-      "title": "A Study of Orelabrutinib in Patients With Secondary Progressive Multiple Sclerosis",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Secondary Progressive Multiple Sclerosis · 990 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07299019",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07299019",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ZBIO-NCT07067463",
       "ticker": "ZBIO",
       "date": "2030-06-15",
@@ -478,6 +463,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07067463",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07067463",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ZBIO-NCT07299019",
+      "ticker": "ZBIO",
+      "date": "2030-06-15",
+      "title": "A Study of Orelabrutinib in Patients With Secondary Progressive Multiple Sclerosis",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Secondary Progressive Multiple Sclerosis · 990 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07299019",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07299019",
       "origin": "registry",
       "status": "upcoming"
     }

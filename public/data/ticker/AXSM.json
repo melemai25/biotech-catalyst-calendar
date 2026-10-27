@@ -11,7 +11,7 @@
   "activeTrials": 7,
   "phase3": 7,
   "phase2": 0,
-  "generatedDate": "2026-10-26",
+  "generatedDate": "2026-10-27",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 11,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 50
+    "daysToNextCatalyst": 49
   },
   "trialStats": {
     "completed": 20,
@@ -67,12 +67,6 @@
     "ongoing": 15,
     "withResults": 12,
     "byPhase": {
-      "other": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 3,
-        "completionRatePct": null
-      },
       "phase3": {
         "completed": 15,
         "terminated": 1,
@@ -84,6 +78,12 @@
         "terminated": 1,
         "total": 5,
         "completionRatePct": 75
+      },
+      "other": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 3,
+        "completionRatePct": null
       },
       "phase1": {
         "completed": 1,
@@ -728,21 +728,6 @@
       "status": "past"
     },
     {
-      "id": "ct-AXSM-NCT06413433",
-      "ticker": "AXSM",
-      "date": "2026-12-15",
-      "title": "Elucidating TAAR-1, Dopamine, and Norepinephrine in Binge Eating Disorder Using Solriamfetol",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Binge-Eating Disorder · 450 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06413433",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06413433",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-AXSM-NCT06568367",
       "ticker": "AXSM",
       "date": "2026-12-15",
@@ -754,6 +739,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06568367",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06568367",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-AXSM-NCT06413433",
+      "ticker": "AXSM",
+      "date": "2026-12-15",
+      "title": "Elucidating TAAR-1, Dopamine, and Norepinephrine in Binge Eating Disorder Using Solriamfetol",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Binge-Eating Disorder · 450 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06413433",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06413433",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -770,21 +770,6 @@
       "source": "Projected from SEC EDGAR filing cadence",
       "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001579428&type=8-K",
       "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-AXSM-NCT07766655",
-      "ticker": "AXSM",
-      "date": "2027-12-15",
-      "title": "Studying NMDA and Sigma-1 in Smoking Cessation Treatment (SUMMIT)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Smoking Cessation · 705 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07766655",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07766655",
-      "origin": "registry",
       "status": "upcoming"
     },
     {
@@ -814,6 +799,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07773883",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07773883",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-AXSM-NCT07766655",
+      "ticker": "AXSM",
+      "date": "2027-12-15",
+      "title": "Studying NMDA and Sigma-1 in Smoking Cessation Treatment (SUMMIT)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Smoking Cessation · 705 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07766655",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07766655",
       "origin": "registry",
       "status": "upcoming"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 25,
   "phase3": 8,
   "phase2": 17,
-  "generatedDate": "2026-10-26",
+  "generatedDate": "2026-10-27",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -57,7 +57,7 @@
     "upcomingCount": 29,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 20
+    "daysToNextCatalyst": 19
   },
   "trialStats": {
     "completed": 36,
@@ -67,16 +67,16 @@
     "ongoing": 32,
     "withResults": 30,
     "byPhase": {
-      "phase1": {
-        "completed": 8,
-        "terminated": 0,
-        "total": 15,
-        "completionRatePct": 100
-      },
       "phase3": {
         "completed": 14,
         "terminated": 0,
         "total": 21,
+        "completionRatePct": 100
+      },
+      "phase1": {
+        "completed": 8,
+        "terminated": 0,
+        "total": 15,
         "completionRatePct": 100
       },
       "phase2": {
@@ -530,21 +530,6 @@
       "source": "ClinicalTrials.gov NCT05997290",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05997290",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-BNTX-0001776985-25-000021",
-      "ticker": "BNTX",
-      "date": "2025-04-24",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-24",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1776985/000177698525000021/form6-kaacrcurtainraiserpr.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {
@@ -1883,21 +1868,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BNTX-NCT06449222",
-      "ticker": "BNTX",
-      "date": "2028-08-15",
-      "title": "Safety and Preliminary Effectiveness of BNT327, an Investigational Therapy for Breast Cancer, When Given in Combination With Chemotherapy",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Locally Advanced Breast Cancer, Triple Negative Breast Cancer, Metastatic Triple Negative Breast Cancers · 83 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06449222",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06449222",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BNTX-NCT04534205",
       "ticker": "BNTX",
       "date": "2028-08-15",
@@ -1909,6 +1879,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04534205",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04534205",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BNTX-NCT06449222",
+      "ticker": "BNTX",
+      "date": "2028-08-15",
+      "title": "Safety and Preliminary Effectiveness of BNT327, an Investigational Therapy for Breast Cancer, When Given in Combination With Chemotherapy",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Locally Advanced Breast Cancer, Triple Negative Breast Cancer, Metastatic Triple Negative Breast Cancers · 83 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06449222",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06449222",
       "origin": "registry",
       "status": "upcoming"
     },

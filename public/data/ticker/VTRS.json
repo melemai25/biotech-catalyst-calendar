@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 3,
   "phase2": 0,
-  "generatedDate": "2026-10-26",
+  "generatedDate": "2026-10-27",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,22 +57,16 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2026-11-05",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 10
+    "daysToNextCatalyst": 9
   },
   "trialStats": {
-    "completed": 17,
+    "completed": 18,
     "terminated": 1,
     "withdrawn": 0,
     "suspended": 0,
-    "ongoing": 6,
+    "ongoing": 5,
     "withResults": 4,
     "byPhase": {
-      "phase1": {
-        "completed": 13,
-        "terminated": 1,
-        "total": 15,
-        "completionRatePct": 93
-      },
       "phase2": {
         "completed": 4,
         "terminated": 0,
@@ -84,11 +78,17 @@
         "terminated": 0,
         "total": 5,
         "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 14,
+        "terminated": 1,
+        "total": 15,
+        "completionRatePct": 93
       }
     },
-    "concluded": 18,
-    "completionRatePct": 94,
-    "resultsPostedPct": 24
+    "concluded": 19,
+    "completionRatePct": 95,
+    "resultsPostedPct": 22
   },
   "events": [
     {
@@ -587,6 +587,21 @@
       "status": "past"
     },
     {
+      "id": "ct-VTRS-NCT07615868",
+      "ticker": "VTRS",
+      "date": "2026-09-19",
+      "title": "A Trial to Compare What the Body Does to Selatogrel and the Effect of Selatogrel in Chinese Adults With Chronic Coronary Syndrome",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Chronic Coronary Syndrome · 20 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07615868",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07615868",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "edgar-VTRS-0001140361-26-039024",
       "ticker": "VTRS",
       "date": "2026-10-08",
@@ -599,21 +614,6 @@
       "source": "SEC EDGAR 8-K 2026-10-08",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1792044/000114036126039024/ef20083514_8k.htm",
       "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "ct-VTRS-NCT07615868",
-      "ticker": "VTRS",
-      "date": "2026-10-15",
-      "title": "A Trial to Compare What the Body Does to Selatogrel and the Effect of Selatogrel in Chinese Adults With Chronic Coronary Syndrome",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Chronic Coronary Syndrome · 20 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07615868",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07615868",
-      "origin": "registry",
       "status": "past"
     },
     {

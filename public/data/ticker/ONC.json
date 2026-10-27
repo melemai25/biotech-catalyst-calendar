@@ -11,7 +11,7 @@
   "activeTrials": 27,
   "phase3": 15,
   "phase2": 12,
-  "generatedDate": "2026-10-26",
+  "generatedDate": "2026-10-27",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -50,34 +50,28 @@
     "fcfMarginPct": -16.9,
     "marketCapUsd": null,
     "entityName": "BEONE MEDICINES LTD.",
-    "activeTrials": 64,
+    "activeTrials": 65,
     "phase3Count": 16,
     "phase2Count": 14,
     "leadPhase": 3,
-    "upcomingCount": 51,
+    "upcomingCount": 52,
     "nextCatalystDate": "2026-10-31",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 5
+    "daysToNextCatalyst": 4
   },
   "trialStats": {
     "completed": 5,
     "terminated": 5,
     "withdrawn": 0,
     "suspended": 0,
-    "ongoing": 55,
+    "ongoing": 56,
     "withResults": 1,
     "byPhase": {
       "phase1": {
         "completed": 4,
         "terminated": 5,
-        "total": 35,
+        "total": 36,
         "completionRatePct": 44
-      },
-      "phase2": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 13,
-        "completionRatePct": null
       },
       "phase3": {
         "completed": 1,
@@ -89,6 +83,12 @@
         "completed": 0,
         "terminated": 0,
         "total": 1,
+        "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 13,
         "completionRatePct": null
       }
     },
@@ -338,21 +338,6 @@
       "status": "past"
     },
     {
-      "id": "ct-ONC-NCT06253195",
-      "ticker": "ONC",
-      "date": "2026-04-23",
-      "title": "BGB-43395 Alone or as Part of Combination Therapies in Chinese Participants With HR+/HER2- Breast Cancer and Other Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Advanced Solid Tumor, Metastatic Solid Tumor, Hormone-receptor-positive Breast Cancer · 33 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06253195",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06253195",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-ONC-NCT06585488",
       "ticker": "ONC",
       "date": "2026-04-23",
@@ -364,6 +349,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06585488",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06585488",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-ONC-NCT06253195",
+      "ticker": "ONC",
+      "date": "2026-04-23",
+      "title": "BGB-43395 Alone or as Part of Combination Therapies in Chinese Participants With HR+/HER2- Breast Cancer and Other Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Advanced Solid Tumor, Metastatic Solid Tumor, Hormone-receptor-positive Breast Cancer · 33 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06253195",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06253195",
       "origin": "registry",
       "status": "past"
     },
@@ -623,21 +623,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT06625593",
-      "ticker": "ONC",
-      "date": "2026-12-31",
-      "title": "A First-in-Human (FIH) Study of BG-C137, an Anti-Fibroblast Growth Factor Receptor 2b (FGFR2b) Antibody Drug Conjugate, in Participants With Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Advanced Solid Tumor · 168 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06625593",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06625593",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ONC-NCT04170283",
       "ticker": "ONC",
       "date": "2026-12-31",
@@ -649,6 +634,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04170283",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04170283",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ONC-NCT06625593",
+      "ticker": "ONC",
+      "date": "2026-12-31",
+      "title": "A First-in-Human (FIH) Study of BG-C137, an Anti-Fibroblast Growth Factor Receptor 2b (FGFR2b) Antibody Drug Conjugate, in Participants With Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Advanced Solid Tumor · 168 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06625593",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06625593",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -938,17 +938,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT06589596",
+      "id": "ct-ONC-NCT07896460",
       "ticker": "ONC",
-      "date": "2028-08-31",
-      "title": "An Investigational Study of BGB-58067 As a Single Agent and in Combination With Anticancer Agents in Participants With Advanced Solid Tumors",
+      "date": "2028-08-29",
+      "title": "A First-in-Human Study of BG-92505 Alone or in Combination With Other Anti-cancer Agents in Patients With Advanced Solid Tumors",
       "type": "Trial Milestone",
       "phase": "Phase 1",
       "estimated": false,
-      "summary": "Advanced Solid Tumor · 695 participants · Status: Recruiting",
+      "summary": "Advanced Solid Tumor · 137 participants · Status: Not Yet Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT06589596",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06589596",
+      "source": "ClinicalTrials.gov NCT07896460",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07896460",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -968,6 +968,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-ONC-NCT06589596",
+      "ticker": "ONC",
+      "date": "2028-08-31",
+      "title": "An Investigational Study of BGB-58067 As a Single Agent and in Combination With Anticancer Agents in Participants With Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Advanced Solid Tumor · 695 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06589596",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06589596",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-ONC-NCT06742996",
       "ticker": "ONC",
       "date": "2028-08-31",
@@ -983,21 +998,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT06598800",
-      "ticker": "ONC",
-      "date": "2028-09-30",
-      "title": "Study of BG-T187 Alone and in Combination With Other Therapeutic Agents in Participants With Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Advanced Solid Tumor · 153 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06598800",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06598800",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ONC-NCT07619287",
       "ticker": "ONC",
       "date": "2028-09-30",
@@ -1009,6 +1009,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07619287",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07619287",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ONC-NCT06598800",
+      "ticker": "ONC",
+      "date": "2028-09-30",
+      "title": "Study of BG-T187 Alone and in Combination With Other Therapeutic Agents in Participants With Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Advanced Solid Tumor · 153 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06598800",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06598800",
       "origin": "registry",
       "status": "upcoming"
     },

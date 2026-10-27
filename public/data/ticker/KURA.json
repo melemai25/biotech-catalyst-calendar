@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-10-26",
+  "generatedDate": "2026-10-27",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 7,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 50
+    "daysToNextCatalyst": 49
   },
   "trialStats": {
     "completed": 5,
@@ -73,16 +73,16 @@
         "total": 7,
         "completionRatePct": 83
       },
-      "phase1": {
-        "completed": 0,
-        "terminated": 2,
-        "total": 7,
-        "completionRatePct": null
-      },
       "other": {
         "completed": 0,
         "terminated": 0,
         "total": 2,
+        "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 0,
+        "terminated": 2,
+        "total": 7,
         "completionRatePct": null
       },
       "phase3": {
@@ -173,21 +173,6 @@
       "status": "past"
     },
     {
-      "id": "ct-KURA-NCT03719690",
-      "ticker": "KURA",
-      "date": "2023-05-02",
-      "title": "Safety and Efficacy of Tipifarnib in Head and Neck Cancer With HRAS Mutations and Impact of HRAS on Response to Therapy",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "HRAS Gene Mutation, HNSCC · 296 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT03719690",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT03719690",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-KURA-NCT04865159",
       "ticker": "KURA",
       "date": "2023-05-02",
@@ -199,6 +184,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04865159",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04865159",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-KURA-NCT03719690",
+      "ticker": "KURA",
+      "date": "2023-05-02",
+      "title": "Safety and Efficacy of Tipifarnib in Head and Neck Cancer With HRAS Mutations and Impact of HRAS on Response to Therapy",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "HRAS Gene Mutation, HNSCC · 296 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT03719690",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03719690",
       "origin": "registry",
       "status": "past"
     },
@@ -548,21 +548,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-KURA-NCT06655246",
-      "ticker": "KURA",
-      "date": "2027-12-15",
-      "title": "A Study of Ziftomenib in Combination With Imatinib in Patients With Advanced Gastrointestinal Stromal Tumors (GIST)",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Gastrointestinal Stromal Tumor (GIST), Gastrointestinal Stromal Cancer, Gastrointestinal Stromal Neoplasm · 157 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06655246",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06655246",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-KURA-NCT04067336",
       "ticker": "KURA",
       "date": "2028-10-16",
@@ -574,6 +559,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04067336",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04067336",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-KURA-NCT06655246",
+      "ticker": "KURA",
+      "date": "2029-06-15",
+      "title": "A Study of Ziftomenib in Combination With Imatinib in Patients With Advanced Gastrointestinal Stromal Tumors (GIST)",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Gastrointestinal Stromal Tumor (GIST), Gastrointestinal Stromal Cancer, Gastrointestinal Stromal Neoplasm · 135 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06655246",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06655246",
       "origin": "registry",
       "status": "upcoming"
     },

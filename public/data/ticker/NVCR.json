@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-10-26",
+  "generatedDate": "2026-10-27",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-12-18",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 53
+    "daysToNextCatalyst": 52
   },
   "trialStats": {
     "completed": 4,
@@ -149,21 +149,6 @@
       "source": "ClinicalTrials.gov NCT04892472",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04892472",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-NVCR-0001645113-25-000009",
-      "ticker": "NVCR",
-      "date": "2025-04-24",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-04-24",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1645113/000164511325000009/nvcr-20250424.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-26",
+  "generatedDate": "2026-10-27",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-11-04",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 9
+    "daysToNextCatalyst": 8
   },
   "trialStats": {
     "completed": 17,
@@ -239,21 +239,6 @@
       "source": "ClinicalTrials.gov NCT05170269",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05170269",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-BTMD-0001193125-25-093531",
-      "ticker": "BTMD",
-      "date": "2025-04-24",
-      "title": "8-K filed: Leadership change",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.02. Leadership change. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-24",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1819253/000119312525093531/d806910d8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

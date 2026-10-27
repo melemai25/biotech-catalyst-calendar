@@ -11,7 +11,7 @@
   "activeTrials": 13,
   "phase3": 7,
   "phase2": 6,
-  "generatedDate": "2026-10-26",
+  "generatedDate": "2026-10-27",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 21,
     "nextCatalystDate": "2026-11-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 35
+    "daysToNextCatalyst": 34
   },
   "trialStats": {
     "completed": 132,
@@ -67,17 +67,17 @@
     "ongoing": 35,
     "withResults": 111,
     "byPhase": {
+      "other": {
+        "completed": 17,
+        "terminated": 2,
+        "total": 36,
+        "completionRatePct": 89
+      },
       "phase2": {
         "completed": 40,
         "terminated": 12,
         "total": 67,
         "completionRatePct": 77
-      },
-      "phase1": {
-        "completed": 19,
-        "terminated": 4,
-        "total": 29,
-        "completionRatePct": 83
       },
       "phase3": {
         "completed": 56,
@@ -85,11 +85,11 @@
         "total": 74,
         "completionRatePct": 85
       },
-      "other": {
-        "completed": 17,
-        "terminated": 2,
-        "total": 36,
-        "completionRatePct": 89
+      "phase1": {
+        "completed": 19,
+        "terminated": 4,
+        "total": 29,
+        "completionRatePct": 83
       }
     },
     "concluded": 171,
@@ -128,21 +128,6 @@
       "status": "past"
     },
     {
-      "id": "ct-JAZZ-NCT02348593",
-      "ticker": "JAZZ",
-      "date": "2017-02-15",
-      "title": "\"Twelve-week Study of the Safety and Efficacy of JZP-110 in the Treatment of Excessive Sleepiness in Narcolepsy\"",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Narcolepsy · 239 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02348593",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02348593",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-JAZZ-NCT02221869",
       "ticker": "JAZZ",
       "date": "2017-02-15",
@@ -154,6 +139,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT02221869",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02221869",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-JAZZ-NCT02348593",
+      "ticker": "JAZZ",
+      "date": "2017-02-15",
+      "title": "\"Twelve-week Study of the Safety and Efficacy of JZP-110 in the Treatment of Excessive Sleepiness in Narcolepsy\"",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Narcolepsy · 239 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT02348593",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02348593",
       "origin": "registry",
       "status": "past"
     },
@@ -1358,6 +1358,21 @@
       "status": "past"
     },
     {
+      "id": "edgar-JAZZ-0001628280-26-067275",
+      "ticker": "JAZZ",
+      "date": "2026-10-26",
+      "title": "Quarterly results filed (8-K)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 2.02. Quarterly results. 8-K.",
+      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
+      "source": "SEC EDGAR 8-K 2026-10-26",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1232524/000162828026067275/jazz-20261026.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "ct-JAZZ-NCT07377539",
       "ticker": "JAZZ",
       "date": "2026-11-30",
@@ -1373,21 +1388,6 @@
       "status": "upcoming"
     },
     {
-      "id": "edgar-JAZZ-next-earnings",
-      "ticker": "JAZZ",
-      "date": "2026-12-21",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001232524&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-JAZZ-NCT06695845",
       "ticker": "JAZZ",
       "date": "2026-12-31",
@@ -1400,6 +1400,21 @@
       "source": "ClinicalTrials.gov NCT06695845",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06695845",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-JAZZ-next-earnings",
+      "ticker": "JAZZ",
+      "date": "2027-01-04",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001232524&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {

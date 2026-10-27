@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 5,
   "phase2": 0,
-  "generatedDate": "2026-10-26",
+  "generatedDate": "2026-10-27",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 9,
     "nextCatalystDate": "2026-11-05",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 10
+    "daysToNextCatalyst": 9
   },
   "trialStats": {
     "completed": 36,
@@ -67,6 +67,12 @@
     "ongoing": 10,
     "withResults": 17,
     "byPhase": {
+      "phase2": {
+        "completed": 13,
+        "terminated": 3,
+        "total": 16,
+        "completionRatePct": 81
+      },
       "phase1": {
         "completed": 14,
         "terminated": 0,
@@ -78,12 +84,6 @@
         "terminated": 0,
         "total": 15,
         "completionRatePct": 100
-      },
-      "phase2": {
-        "completed": 13,
-        "terminated": 3,
-        "total": 16,
-        "completionRatePct": 81
       },
       "other": {
         "completed": 0,
@@ -395,36 +395,6 @@
       "source": "ClinicalTrials.gov NCT05147805",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05147805",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-INSM-0001140361-25-015487",
-      "ticker": "INSM",
-      "date": "2025-04-24",
-      "title": "8-K/A filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K/A, items 8.01. Other event. 8-K/A.",
-      "result": null,
-      "source": "SEC EDGAR 8-K/A 2025-04-24",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1104506/000114036125015487/ef20047907_8ka.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-INSM-0001140361-25-015301",
-      "ticker": "INSM",
-      "date": "2025-04-24",
-      "title": "8-K filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-24",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1104506/000114036125015301/ef20047730_8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 1,
   "phase2": 4,
-  "generatedDate": "2026-10-26",
+  "generatedDate": "2026-10-27",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 7,
     "nextCatalystDate": "2026-11-01",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 6
+    "daysToNextCatalyst": 5
   },
   "trialStats": {
     "completed": 3,
@@ -67,16 +67,16 @@
     "ongoing": 13,
     "withResults": 2,
     "byPhase": {
-      "phase1": {
+      "other": {
         "completed": 0,
         "terminated": 0,
         "total": 4,
         "completionRatePct": null
       },
-      "other": {
-        "completed": 0,
+      "phase2": {
+        "completed": 1,
         "terminated": 0,
-        "total": 4,
+        "total": 7,
         "completionRatePct": null
       },
       "phase3": {
@@ -85,10 +85,10 @@
         "total": 3,
         "completionRatePct": null
       },
-      "phase2": {
-        "completed": 1,
+      "phase1": {
+        "completed": 0,
         "terminated": 0,
-        "total": 7,
+        "total": 4,
         "completionRatePct": null
       }
     },
@@ -488,17 +488,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-KRYS-NCT06999733",
+      "id": "ct-KRYS-NCT07016750",
       "ticker": "KRYS",
       "date": "2026-12-15",
-      "title": "A Study Comparing KB801 Verse Placebo in Patients With Stage 2 or 3 Neurotrophic Keratitis",
+      "title": "A Study Comparing KB803 and Matched Placebo in Patients With Dystrophic Epidermolysis Bullosa",
       "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
+      "phase": "Phase 3",
       "estimated": false,
-      "summary": "Neurotrophic Keratitis · 60 participants · Status: Recruiting",
+      "summary": "Dystrophic Epidermolysis Bullosa, DEB - Dystrophic Epidermolysis Bullosa, Recessive Dystrophic Epidermolysis Bullosa · 16 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT06999733",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06999733",
+      "source": "ClinicalTrials.gov NCT07016750",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07016750",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -518,17 +518,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-KRYS-NCT07016750",
+      "id": "ct-KRYS-NCT06999733",
       "ticker": "KRYS",
       "date": "2026-12-15",
-      "title": "A Study Comparing KB803 and Matched Placebo in Patients With Dystrophic Epidermolysis Bullosa",
+      "title": "A Study Comparing KB801 Verse Placebo in Patients With Stage 2 or 3 Neurotrophic Keratitis",
       "type": "Trial Milestone",
-      "phase": "Phase 3",
+      "phase": "Phase 1/Phase 2",
       "estimated": false,
-      "summary": "Dystrophic Epidermolysis Bullosa, DEB - Dystrophic Epidermolysis Bullosa, Recessive Dystrophic Epidermolysis Bullosa · 16 participants · Status: Recruiting",
+      "summary": "Neurotrophic Keratitis · 60 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT07016750",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07016750",
+      "source": "ClinicalTrials.gov NCT06999733",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06999733",
       "origin": "registry",
       "status": "upcoming"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 15,
   "phase3": 2,
   "phase2": 13,
-  "generatedDate": "2026-10-26",
+  "generatedDate": "2026-10-27",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 26,
     "nextCatalystDate": "2026-11-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 35
+    "daysToNextCatalyst": 34
   },
   "trialStats": {
     "completed": 77,
@@ -67,11 +67,11 @@
     "ongoing": 30,
     "withResults": 36,
     "byPhase": {
-      "phase2": {
-        "completed": 22,
-        "terminated": 3,
-        "total": 40,
-        "completionRatePct": 88
+      "phase1": {
+        "completed": 18,
+        "terminated": 1,
+        "total": 29,
+        "completionRatePct": 95
       },
       "other": {
         "completed": 17,
@@ -79,16 +79,16 @@
         "total": 25,
         "completionRatePct": 94
       },
+      "phase2": {
+        "completed": 22,
+        "terminated": 3,
+        "total": 40,
+        "completionRatePct": 88
+      },
       "phase3": {
         "completed": 20,
         "terminated": 1,
         "total": 23,
-        "completionRatePct": 95
-      },
-      "phase1": {
-        "completed": 18,
-        "terminated": 1,
-        "total": 29,
         "completionRatePct": 95
       }
     },
@@ -308,21 +308,6 @@
       "status": "past"
     },
     {
-      "id": "ct-MRNA-NCT05375838",
-      "ticker": "MRNA",
-      "date": "2022-12-29",
-      "title": "A Safety, Reactogenicity, and Immunogenicity Study of mRNA-1073 (COVID-19/Influenza) Vaccine in Adults 18 to 75 Years Old",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "SARS-CoV-2, Influenza · 550 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT05375838",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05375838",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-MRNA-NCT04470427",
       "ticker": "MRNA",
       "date": "2022-12-29",
@@ -334,6 +319,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT04470427",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04470427",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-MRNA-NCT05375838",
+      "ticker": "MRNA",
+      "date": "2022-12-29",
+      "title": "A Safety, Reactogenicity, and Immunogenicity Study of mRNA-1073 (COVID-19/Influenza) Vaccine in Adults 18 to 75 Years Old",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "SARS-CoV-2, Influenza · 550 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT05375838",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05375838",
       "origin": "registry",
       "status": "past"
     },
@@ -1388,6 +1388,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-MRNA-NCT07863635",
+      "ticker": "MRNA",
+      "date": "2026-12-11",
+      "title": "A Study to Investigate the Immunogenicity and Safety of mRNA COVID-19 Variant-containing Formulations",
+      "type": "Trial Milestone",
+      "phase": "Phase 4",
+      "estimated": false,
+      "summary": "SARS-CoV-2 · 300 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07863635",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07863635",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-MRNA-NCT06655870",
       "ticker": "MRNA",
       "date": "2026-12-16",
@@ -1430,21 +1445,6 @@
       "source": "Projected from SEC EDGAR filing cadence",
       "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001682852&type=8-K",
       "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-MRNA-NCT07863635",
-      "ticker": "MRNA",
-      "date": "2027-01-09",
-      "title": "A Study to Investigate the Immunogenicity and Safety of mRNA COVID-19 Variant-containing Formulations",
-      "type": "Trial Milestone",
-      "phase": "Phase 4",
-      "estimated": false,
-      "summary": "SARS-CoV-2 · 300 participants · Status: Not Yet Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07863635",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07863635",
-      "origin": "registry",
       "status": "upcoming"
     },
     {

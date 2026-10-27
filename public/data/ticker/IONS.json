@@ -11,7 +11,7 @@
   "activeTrials": 16,
   "phase3": 11,
   "phase2": 5,
-  "generatedDate": "2026-10-26",
+  "generatedDate": "2026-10-27",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 18,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 50
+    "daysToNextCatalyst": 49
   },
   "trialStats": {
     "completed": 86,
@@ -73,11 +73,11 @@
         "total": 55,
         "completionRatePct": 92
       },
-      "other": {
-        "completed": 5,
-        "terminated": 1,
-        "total": 11,
-        "completionRatePct": 83
+      "phase3": {
+        "completed": 14,
+        "terminated": 0,
+        "total": 26,
+        "completionRatePct": 100
       },
       "phase1": {
         "completed": 23,
@@ -85,11 +85,11 @@
         "total": 26,
         "completionRatePct": 96
       },
-      "phase3": {
-        "completed": 14,
-        "terminated": 0,
-        "total": 26,
-        "completionRatePct": 100
+      "other": {
+        "completed": 5,
+        "terminated": 1,
+        "total": 11,
+        "completionRatePct": 83
       }
     },
     "concluded": 94,
@@ -113,21 +113,6 @@
       "status": "past"
     },
     {
-      "id": "ct-IONS-NCT02583919",
-      "ticker": "IONS",
-      "date": "2016-12-15",
-      "title": "Safety, Tolerability and Efficacy of ISIS-GCGRRx in Patients With Type 2 Diabetes",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Type 2 Diabetes · 79 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT02583919",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02583919",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-IONS-NCT02824003",
       "ticker": "IONS",
       "date": "2016-12-15",
@@ -139,6 +124,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT02824003",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02824003",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-IONS-NCT02583919",
+      "ticker": "IONS",
+      "date": "2016-12-15",
+      "title": "Safety, Tolerability and Efficacy of ISIS-GCGRRx in Patients With Type 2 Diabetes",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Type 2 Diabetes · 79 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT02583919",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02583919",
       "origin": "registry",
       "status": "past"
     },
@@ -563,21 +563,6 @@
       "status": "past"
     },
     {
-      "id": "ct-IONS-NCT04836182",
-      "ticker": "IONS",
-      "date": "2022-10-19",
-      "title": "A Study to Assess the Safety, Tolerability and Efficacy of IONIS-AGT-LRx in Participants With Chronic Heart Failure With Reduced Ejection Fraction",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Chronic Heart Failure With Reduced Ejection Fraction · 72 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04836182",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04836182",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-IONS-NCT04659096",
       "ticker": "IONS",
       "date": "2022-10-19",
@@ -589,6 +574,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04659096",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04659096",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-IONS-NCT04836182",
+      "ticker": "IONS",
+      "date": "2022-10-19",
+      "title": "A Study to Assess the Safety, Tolerability and Efficacy of IONIS-AGT-LRx in Participants With Chronic Heart Failure With Reduced Ejection Fraction",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Chronic Heart Failure With Reduced Ejection Fraction · 72 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04836182",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04836182",
       "origin": "registry",
       "status": "past"
     },
@@ -1433,17 +1433,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-IONS-NCT07604974",
+      "id": "ct-IONS-NCT06430385",
       "ticker": "IONS",
       "date": "2027-09-15",
-      "title": "A Study to Assess the Safety, Tolerability and Efficacy of ION775",
+      "title": "ATTUNE: A Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of Intrathecally-Administered ION440 in Participants With Methyl CpG Binding Protein 2 (MECP2) Duplication Syndrome (MDS)",
       "type": "Trial Milestone",
-      "phase": "Phase 2",
+      "phase": "Phase 1/Phase 2",
       "estimated": false,
-      "summary": "Hypertriglyceridemia, Severe Hypertriglyceridemia · 72 participants · Status: Recruiting",
+      "summary": "Methyl CpG Binding Protein 2 (MECP2) Duplication Syndrome · 48 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT07604974",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07604974",
+      "source": "ClinicalTrials.gov NCT06430385",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06430385",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1463,17 +1463,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-IONS-NCT06430385",
+      "id": "ct-IONS-NCT07604974",
       "ticker": "IONS",
       "date": "2027-09-15",
-      "title": "ATTUNE: A Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of Intrathecally-Administered ION440 in Participants With Methyl CpG Binding Protein 2 (MECP2) Duplication Syndrome (MDS)",
+      "title": "A Study to Assess the Safety, Tolerability and Efficacy of ION775",
       "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
+      "phase": "Phase 2",
       "estimated": false,
-      "summary": "Methyl CpG Binding Protein 2 (MECP2) Duplication Syndrome · 48 participants · Status: Recruiting",
+      "summary": "Hypertriglyceridemia, Severe Hypertriglyceridemia · 72 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT06430385",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06430385",
+      "source": "ClinicalTrials.gov NCT07604974",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07604974",
       "origin": "registry",
       "status": "upcoming"
     },

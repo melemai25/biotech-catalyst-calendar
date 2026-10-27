@@ -11,7 +11,7 @@
   "activeTrials": 6,
   "phase3": 1,
   "phase2": 5,
-  "generatedDate": "2026-10-26",
+  "generatedDate": "2026-10-27",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 13,
     "leadPhase": 4,
     "upcomingCount": 3,
-    "nextCatalystDate": "2026-10-27",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "nextCatalystDate": "2026-12-15",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 49
   },
   "trialStats": {
     "completed": 59,
@@ -73,6 +73,12 @@
         "total": 37,
         "completionRatePct": 100
       },
+      "phase3": {
+        "completed": 10,
+        "terminated": 2,
+        "total": 14,
+        "completionRatePct": 83
+      },
       "phase2": {
         "completed": 7,
         "terminated": 3,
@@ -84,12 +90,6 @@
         "terminated": 2,
         "total": 7,
         "completionRatePct": 71
-      },
-      "phase3": {
-        "completed": 10,
-        "terminated": 2,
-        "total": 14,
-        "completionRatePct": 83
       }
     },
     "concluded": 67,
@@ -1073,21 +1073,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-CORT-next-earnings",
-      "ticker": "CORT",
-      "date": "2026-10-27",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001088856&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-CORT-NCT03604198",
       "ticker": "CORT",
       "date": "2026-12-15",
@@ -1100,6 +1085,21 @@
       "source": "ClinicalTrials.gov NCT03604198",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03604198",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-CORT-next-earnings",
+      "ticker": "CORT",
+      "date": "2027-01-25",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001088856&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {

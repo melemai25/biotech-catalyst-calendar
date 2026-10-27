@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 3,
   "phase2": 1,
-  "generatedDate": "2026-10-26",
+  "generatedDate": "2026-10-27",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -50,51 +50,51 @@
     "fcfMarginPct": 2.8,
     "marketCapUsd": null,
     "entityName": "BOSTON SCIENTIFIC CORPORATION",
-    "activeTrials": 11,
-    "phase3Count": 6,
-    "phase2Count": 0,
+    "activeTrials": 13,
+    "phase3Count": 5,
+    "phase2Count": 1,
     "leadPhase": 4,
-    "upcomingCount": 2,
+    "upcomingCount": 3,
     "nextCatalystDate": "2026-10-28",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 2
+    "daysToNextCatalyst": 1
   },
   "trialStats": {
-    "completed": 300,
-    "terminated": 38,
-    "withdrawn": 16,
-    "suspended": 0,
-    "ongoing": 47,
-    "withResults": 213,
+    "completed": 268,
+    "terminated": 47,
+    "withdrawn": 11,
+    "suspended": 2,
+    "ongoing": 57,
+    "withResults": 203,
     "byPhase": {
       "other": {
-        "completed": 244,
-        "terminated": 33,
-        "total": 335,
-        "completionRatePct": 88
+        "completed": 224,
+        "terminated": 41,
+        "total": 331,
+        "completionRatePct": 85
       },
       "phase3": {
-        "completed": 43,
-        "terminated": 2,
-        "total": 46,
-        "completionRatePct": 96
+        "completed": 34,
+        "terminated": 3,
+        "total": 39,
+        "completionRatePct": 92
       },
       "phase2": {
-        "completed": 8,
-        "terminated": 2,
-        "total": 12,
-        "completionRatePct": 80
-      },
-      "phase1": {
-        "completed": 5,
+        "completed": 6,
         "terminated": 1,
         "total": 8,
-        "completionRatePct": 83
+        "completionRatePct": 86
+      },
+      "phase1": {
+        "completed": 4,
+        "terminated": 2,
+        "total": 7,
+        "completionRatePct": 67
       }
     },
-    "concluded": 354,
-    "completionRatePct": 85,
-    "resultsPostedPct": 71
+    "concluded": 326,
+    "completionRatePct": 82,
+    "resultsPostedPct": 76
   },
   "events": [
     {
@@ -218,6 +218,21 @@
       "status": "past"
     },
     {
+      "id": "ct-BSX-NCT05312970",
+      "ticker": "BSX",
+      "date": "2024-04-04",
+      "title": "Varithena Versus Endothermal Ablation of the Great Saphenous Vein (VERITAS)",
+      "type": "Trial Milestone",
+      "phase": "Phase 4",
+      "estimated": false,
+      "summary": "Varicose Veins · 43 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT05312970",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05312970",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "edgar-BSX-0000885725-25-000033",
       "ticker": "BSX",
       "date": "2025-05-28",
@@ -245,6 +260,21 @@
       "source": "SEC EDGAR 8-K 2025-07-23",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/885725/000088572525000039/bsx-20250723.htm",
       "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "ct-BSX-NCT04790370",
+      "ticker": "BSX",
+      "date": "2025-07-31",
+      "title": "Ultrasound-facilitated, Catheter-directed, Thrombolysis in Intermediate-high Risk Pulmonary Embolism",
+      "type": "Trial Milestone",
+      "phase": "Phase 4",
+      "estimated": false,
+      "summary": "Pulmonary Embolism · 544 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04790370",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04790370",
+      "origin": "registry",
       "status": "past"
     },
     {
@@ -380,21 +410,6 @@
       "source": "SEC EDGAR 8-K 2026-02-05",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/885725/000088572526000008/bsx-20260202.htm",
       "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "ct-BSX-NCT05016245",
-      "ticker": "BSX",
-      "date": "2026-02-13",
-      "title": "MANDARIN (S6371)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Inoperable Hepatocellular Carcinoma · 92 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05016245",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05016245",
-      "origin": "registry",
       "status": "past"
     },
     {
@@ -574,6 +589,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05303467",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05303467",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BSX-NCT05063565",
+      "ticker": "BSX",
+      "date": "2027-06-15",
+      "title": "TheraSphere With Durvalumab and Tremelimumab for HCC",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Hepatocellular Carcinoma · 100 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05063565",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05063565",
       "origin": "registry",
       "status": "upcoming"
     }

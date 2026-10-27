@@ -11,7 +11,7 @@
   "activeTrials": 40,
   "phase3": 23,
   "phase2": 17,
-  "generatedDate": "2026-10-26",
+  "generatedDate": "2026-10-27",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 97,
     "leadPhase": 4,
     "upcomingCount": 41,
-    "nextCatalystDate": "2026-10-27",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "nextCatalystDate": "2026-11-05",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 9
   },
   "trialStats": {
     "completed": 143,
@@ -67,12 +67,6 @@
     "ongoing": 67,
     "withResults": 126,
     "byPhase": {
-      "phase1": {
-        "completed": 47,
-        "terminated": 14,
-        "total": 80,
-        "completionRatePct": 77
-      },
       "phase2": {
         "completed": 67,
         "terminated": 44,
@@ -84,6 +78,12 @@
         "terminated": 9,
         "total": 62,
         "completionRatePct": 74
+      },
+      "phase1": {
+        "completed": 47,
+        "terminated": 14,
+        "total": 80,
+        "completionRatePct": 77
       },
       "other": {
         "completed": 4,
@@ -188,21 +188,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT02953678",
-      "ticker": "INCY",
-      "date": "2018-01-31",
-      "title": "A Study of Ruxolitinib in Combination With Corticosteroids for the Treatment of Steroid-Refractory Acute Graft-Versus-Host Disease (REACH-1)",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Graft-versus-host Disease (GVHD) · 71 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02953678",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02953678",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT02431260",
       "ticker": "INCY",
       "date": "2018-01-31",
@@ -214,6 +199,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT02431260",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02431260",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT02953678",
+      "ticker": "INCY",
+      "date": "2018-01-31",
+      "title": "A Study of Ruxolitinib in Combination With Corticosteroids for the Treatment of Steroid-Refractory Acute Graft-Versus-Host Disease (REACH-1)",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Graft-versus-host Disease (GVHD) · 71 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT02953678",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02953678",
       "origin": "registry",
       "status": "past"
     },
@@ -1508,21 +1508,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT05253807",
-      "ticker": "INCY",
-      "date": "2023-08-16",
-      "title": "Study to Evaluate the Efficacy and Safety of Pemigatinib in Participants With Relapsed or Refractory Advanced Non-Small Cell Lung Cancer With an FGFR Alteration",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Non-Small Cell Lung Cancer (NSCLC) · 8 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT05253807",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05253807",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT04551053",
       "ticker": "INCY",
       "date": "2023-08-16",
@@ -1534,6 +1519,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT04551053",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04551053",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT05253807",
+      "ticker": "INCY",
+      "date": "2023-08-16",
+      "title": "Study to Evaluate the Efficacy and Safety of Pemigatinib in Participants With Relapsed or Refractory Advanced Non-Small Cell Lung Cancer With an FGFR Alteration",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Non-Small Cell Lung Cancer (NSCLC) · 8 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT05253807",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05253807",
       "origin": "registry",
       "status": "past"
     },
@@ -2318,21 +2318,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT05949632",
-      "ticker": "INCY",
-      "date": "2025-06-06",
-      "title": "A Study of INCB099280 in Combination With Axitinib in Adults With Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Advanced Solid Tumors · 5 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT05949632",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05949632",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT06713590",
       "ticker": "INCY",
       "date": "2025-06-06",
@@ -2344,6 +2329,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06713590",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06713590",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT05949632",
+      "ticker": "INCY",
+      "date": "2025-06-06",
+      "title": "A Study of INCB099280 in Combination With Axitinib in Adults With Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Advanced Solid Tumors · 5 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT05949632",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05949632",
       "origin": "registry",
       "status": "past"
     },
@@ -2978,21 +2978,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT06958211",
-      "ticker": "INCY",
-      "date": "2026-10-09",
-      "title": "Study to Evaluate the Efficacy and Safety of Ruxolitinib Cream in Participants With Hidradenitis Suppurativa (TRuE-HS2)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Hidradenitis Suppurativa · 573 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06958211",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06958211",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT06959225",
       "ticker": "INCY",
       "date": "2026-10-09",
@@ -3004,6 +2989,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06959225",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06959225",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT06958211",
+      "ticker": "INCY",
+      "date": "2026-10-09",
+      "title": "Study to Evaluate the Efficacy and Safety of Ruxolitinib Cream in Participants With Hidradenitis Suppurativa (TRuE-HS2)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Hidradenitis Suppurativa · 573 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06958211",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06958211",
       "origin": "registry",
       "status": "past"
     },
@@ -3066,21 +3066,6 @@
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07448155",
       "origin": "registry",
       "status": "past"
-    },
-    {
-      "id": "edgar-INCY-next-earnings",
-      "ticker": "INCY",
-      "date": "2026-10-27",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000879169&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
     },
     {
       "id": "ct-INCY-NCT04509700",
@@ -3188,6 +3173,21 @@
       "status": "upcoming"
     },
     {
+      "id": "edgar-INCY-next-earnings",
+      "ticker": "INCY",
+      "date": "2027-01-26",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000879169&type=8-K",
+      "origin": "edgar",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-INCY-NCT06818812",
       "ticker": "INCY",
       "date": "2027-03-27",
@@ -3263,21 +3263,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-INCY-NCT04279847",
-      "ticker": "INCY",
-      "date": "2027-04-30",
-      "title": "Safety and Tolerability Study of INCB057643 in Participants With Myelofibrosis and Other Advanced Myeloid Neoplasms",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Myelofibrosis, Myelodysplastic Syndrome, Myelodysplastic/Myeloproliferative Neoplasm Overlap Syndrome · 140 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04279847",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04279847",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-INCY-NCT06804811",
       "ticker": "INCY",
       "date": "2027-04-30",
@@ -3289,6 +3274,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06804811",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06804811",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-INCY-NCT04279847",
+      "ticker": "INCY",
+      "date": "2027-04-30",
+      "title": "Safety and Tolerability Study of INCB057643 in Participants With Myelofibrosis and Other Advanced Myeloid Neoplasms",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Myelofibrosis, Myelodysplastic Syndrome, Myelodysplastic/Myeloproliferative Neoplasm Overlap Syndrome · 140 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04279847",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04279847",
       "origin": "registry",
       "status": "upcoming"
     },

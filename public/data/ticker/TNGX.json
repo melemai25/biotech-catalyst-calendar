@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 0,
   "phase2": 4,
-  "generatedDate": "2026-10-26",
+  "generatedDate": "2026-10-27",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -50,27 +50,27 @@
     "fcfMarginPct": -280.2,
     "marketCapUsd": null,
     "entityName": "Tango Therapeutics, Inc.",
-    "activeTrials": 6,
+    "activeTrials": 7,
     "phase3Count": 0,
-    "phase2Count": 6,
+    "phase2Count": 7,
     "leadPhase": 2,
-    "upcomingCount": 4,
+    "upcomingCount": 5,
     "nextCatalystDate": "2026-12-19",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 54
+    "daysToNextCatalyst": 53
   },
   "trialStats": {
     "completed": 0,
     "terminated": 2,
     "withdrawn": 0,
     "suspended": 0,
-    "ongoing": 4,
+    "ongoing": 5,
     "withResults": 0,
     "byPhase": {
       "phase2": {
         "completed": 0,
         "terminated": 2,
-        "total": 6,
+        "total": 7,
         "completionRatePct": null
       }
     },
@@ -470,6 +470,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-TNGX-NCT06922591",
+      "ticker": "TNGX",
+      "date": "2027-06-15",
+      "title": "Study to Evaluate the Safety, Tolerability & Efficacy of TNG462 in Combination in PDAC & NSCLC Patients",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "PDAC, PDAC - Pancreatic Ductal Adenocarcinoma, NSCLC · 183 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06922591",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06922591",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-TNGX-NCT05732831",
       "ticker": "TNGX",
       "date": "2027-06-15",
@@ -485,17 +500,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-TNGX-NCT06922591",
+      "id": "ct-TNGX-NCT07897734",
       "ticker": "TNGX",
-      "date": "2027-06-15",
-      "title": "Study to Evaluate the Safety, Tolerability & Efficacy of TNG462 in Combination in PDAC & NSCLC Patients",
+      "date": "2031-11-15",
+      "title": "TNG462-C103: Study to Evaluate the Safety, Tolerability, and Antitumor Activity of Vopimetostat in Combination With ERAS-0015 in PDAC and NSCLC Patients",
       "type": "Trial Milestone",
       "phase": "Phase 1/Phase 2",
       "estimated": false,
-      "summary": "PDAC, PDAC - Pancreatic Ductal Adenocarcinoma, NSCLC · 183 participants · Status: Recruiting",
+      "summary": "PDAC, PDAC - Pancreatic Ductal Adenocarcinoma, NSCLC · 188 participants · Status: Not Yet Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT06922591",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06922591",
+      "source": "ClinicalTrials.gov NCT07897734",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07897734",
       "origin": "registry",
       "status": "upcoming"
     }

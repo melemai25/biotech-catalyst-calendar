@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 4,
   "phase2": 0,
-  "generatedDate": "2026-10-26",
+  "generatedDate": "2026-10-27",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-11-13",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 18
+    "daysToNextCatalyst": 17
   },
   "trialStats": {
     "completed": 0,
@@ -545,21 +545,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-QNRX-NCT06953466",
-      "ticker": "QNRX",
-      "date": "2026-12-30",
-      "title": "Clinical Study of QRX003 Lotion in Subjects With Netherton Syndrome",
-      "type": "Trial Milestone",
-      "phase": "Phase 2/Phase 3",
-      "estimated": false,
-      "summary": "Netherton Syndrome · 8 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06953466",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06953466",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-QNRX-NCT05789056",
       "ticker": "QNRX",
       "date": "2026-12-30",
@@ -571,6 +556,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05789056",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05789056",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-QNRX-NCT06953466",
+      "ticker": "QNRX",
+      "date": "2026-12-30",
+      "title": "Clinical Study of QRX003 Lotion in Subjects With Netherton Syndrome",
+      "type": "Trial Milestone",
+      "phase": "Phase 2/Phase 3",
+      "estimated": false,
+      "summary": "Netherton Syndrome · 8 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06953466",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06953466",
       "origin": "registry",
       "status": "upcoming"
     },

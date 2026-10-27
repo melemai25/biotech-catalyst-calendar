@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-10-26",
+  "generatedDate": "2026-10-27",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -57,7 +57,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2027-06-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 232
+    "daysToNextCatalyst": 231
   },
   "trialStats": {
     "completed": 2,
@@ -67,16 +67,16 @@
     "ongoing": 5,
     "withResults": 2,
     "byPhase": {
-      "phase3": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 5,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 1,
         "terminated": 1,
         "total": 2,
+        "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 5,
         "completionRatePct": null
       },
       "other": {
@@ -437,21 +437,6 @@
       "status": "past"
     },
     {
-      "id": "ct-PHVS-NCT05396105",
-      "ticker": "PHVS",
-      "date": "2027-06-15",
-      "title": "Extension Study of Oral PHA-022121 for Acute Treatment of Angioedema Attacks in Patients With Hereditary Angioedema",
-      "type": "Trial Milestone",
-      "phase": "Phase 2/Phase 3",
-      "estimated": false,
-      "summary": "Hereditary Angioedema, Hereditary Angioedema Type I, Hereditary Angioedema Type II · 150 participants · Status: Enrolling By Invitation",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05396105",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05396105",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-PHVS-NCT07266805",
       "ticker": "PHVS",
       "date": "2027-06-15",
@@ -463,6 +448,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07266805",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07266805",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-PHVS-NCT05396105",
+      "ticker": "PHVS",
+      "date": "2027-06-15",
+      "title": "Extension Study of Oral PHA-022121 for Acute Treatment of Angioedema Attacks in Patients With Hereditary Angioedema",
+      "type": "Trial Milestone",
+      "phase": "Phase 2/Phase 3",
+      "estimated": false,
+      "summary": "Hereditary Angioedema, Hereditary Angioedema Type I, Hereditary Angioedema Type II · 150 participants · Status: Enrolling By Invitation",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05396105",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05396105",
       "origin": "registry",
       "status": "upcoming"
     },

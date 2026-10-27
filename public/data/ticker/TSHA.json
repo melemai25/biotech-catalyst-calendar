@@ -11,7 +11,7 @@
   "activeTrials": 7,
   "phase3": 4,
   "phase2": 3,
-  "generatedDate": "2026-10-26",
+  "generatedDate": "2026-10-27",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-11-08",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 13
+    "daysToNextCatalyst": 12
   },
   "trialStats": {
     "completed": 0,
@@ -67,16 +67,16 @@
     "ongoing": 3,
     "withResults": 0,
     "byPhase": {
-      "phase2": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 1,
-        "completionRatePct": null
-      },
       "phase3": {
         "completed": 0,
         "terminated": 0,
         "total": 2,
+        "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 1,
         "completionRatePct": null
       },
       "other": {
@@ -332,21 +332,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-TSHA-NCT05606614",
-      "ticker": "TSHA",
-      "date": "2031-06-15",
-      "title": "A Phase 1/2/3 Study of TSHA-102 Gene Therapy in Females With Rett Syndrome (REVEAL Pivotal Study)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Rett Syndrome · 17 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05606614",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05606614",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-TSHA-NCT07480564",
       "ticker": "TSHA",
       "date": "2031-06-15",
@@ -358,6 +343,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07480564",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07480564",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-TSHA-NCT05606614",
+      "ticker": "TSHA",
+      "date": "2031-06-15",
+      "title": "A Phase 1/2/3 Study of TSHA-102 Gene Therapy in Females With Rett Syndrome (REVEAL Pivotal Study)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Rett Syndrome · 17 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05606614",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05606614",
       "origin": "registry",
       "status": "upcoming"
     }

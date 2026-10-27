@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-10-26",
+  "generatedDate": "2026-10-27",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-11-11",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 16
+    "daysToNextCatalyst": 15
   },
   "trialStats": {
     "completed": 16,
@@ -67,28 +67,28 @@
     "ongoing": 2,
     "withResults": 5,
     "byPhase": {
-      "phase1": {
-        "completed": 10,
-        "terminated": 0,
-        "total": 10,
-        "completionRatePct": 100
-      },
       "phase2": {
         "completed": 4,
         "terminated": 2,
         "total": 7,
         "completionRatePct": 67
       },
-      "other": {
-        "completed": 2,
+      "phase1": {
+        "completed": 10,
         "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
+        "total": 10,
+        "completionRatePct": 100
       },
       "phase3": {
         "completed": 0,
         "terminated": 0,
         "total": 1,
+        "completionRatePct": null
+      },
+      "other": {
+        "completed": 2,
+        "terminated": 0,
+        "total": 2,
         "completionRatePct": null
       }
     },
@@ -589,6 +589,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-09-29",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326190/000132619026000056/alt-20260924x8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-ALT-0001104659-26-118991",
+      "ticker": "ALT",
+      "date": "2026-10-27",
+      "title": "8-K filed: Leadership change, Reg FD disclosure",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 5.02, 7.01, 9.01. Leadership change; Reg FD disclosure. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-27",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326190/000110465926118991/tm2628339d1_8k.htm",
       "origin": "edgar",
       "status": "past"
     },

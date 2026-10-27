@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-26",
+  "generatedDate": "2026-10-27",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-11-13",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 18
+    "daysToNextCatalyst": 17
   },
   "trialStats": {
     "completed": 7,
@@ -73,14 +73,14 @@
         "total": 7,
         "completionRatePct": 100
       },
-      "phase2": {
-        "completed": 1,
+      "phase3": {
+        "completed": 0,
         "terminated": 0,
         "total": 1,
         "completionRatePct": null
       },
-      "phase3": {
-        "completed": 0,
+      "phase2": {
+        "completed": 1,
         "terminated": 0,
         "total": 1,
         "completionRatePct": null
@@ -194,21 +194,6 @@
       "source": "ClinicalTrials.gov NCT06629402",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06629402",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ENSC-0001641172-25-006009",
-      "ticker": "ENSC",
-      "date": "2025-04-24",
-      "title": "8-K filed: Material agreement, Other event",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 1.01, 3.02, 8.01, 9.01. Material agreement; Other event.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-24",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1716947/000164117225006009/form8-k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

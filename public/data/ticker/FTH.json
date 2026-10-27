@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-10-26",
+  "generatedDate": "2026-10-27",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-11-03",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 8
+    "daysToNextCatalyst": 7
   },
   "trialStats": {
     "completed": 1,
@@ -418,6 +418,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-09-17",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1829802/000119312526394360/d174402d8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-FTH-0001193125-26-432688",
+      "ticker": "FTH",
+      "date": "2026-10-27",
+      "title": "8-K filed: Leadership change",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 5.02. Leadership change. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-27",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1829802/000119312526432688/d147421d8k.htm",
       "origin": "edgar",
       "status": "past"
     },
