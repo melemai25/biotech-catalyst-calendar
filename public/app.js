@@ -227,10 +227,31 @@ function render(){
       ? el('div',{class:'layout'},[ sidebar(), main() ])
       : el('div',{class:'layout collapsed'},[ main() ])
   ]));
+  syncBuildPill();
 }
 
+/**
+ * The build-date pill belongs in the top nav, which lives OUTSIDE #root so
+ * crawlers can see its links. render() empties #root but never touches the nav,
+ * so this updates the pill in place instead of recreating it — otherwise every
+ * tab switch would append another one.
+ */
+function syncBuildPill(){
+  const nav = document.querySelector('.site-nav');
+  if(!nav) return;
+  let pill = nav.querySelector('.masthead-right');
+  if(!pill){
+    pill = el('div',{class:'masthead-right'},[]);
+    nav.appendChild(pill);
+  }
+  pill.textContent = '';
+  pill.appendChild(el('span',{class:'dot'}));
+  pill.appendChild(document.createTextNode(
+    'Data built ' + (state.data.generatedDate || '\u2014')));
+}
+
+
 function masthead(){
-  const d = state.data;
   return el('div',{class:'masthead'},[
     panelBar(),
     el('div',{class:'brand'},[
@@ -246,9 +267,6 @@ function masthead(){
         el('p',{class:'eyebrow'},['Trial & Regulatory Tracker']),
         el('h1',{},['Bio', el('span',{class:'accent'},['lyst'])]),
       ]),
-    ]),
-    el('div',{class:'masthead-right'},[
-      el('span',{class:'dot'}), 'Data built ' + (d.generatedDate || '\u2014')
     ]),
   ]);
 }
