@@ -375,11 +375,13 @@ function hubPage({ tickers, months, upcoming, econ, today, generatedDate }){
 </header>
 
 ${aboutBox(
-  'This page lists every tracked catalyst in date order, rebuilt automatically ' +
-  'as the registry and SEC filings change. The tracker does the part a list ' +
-  'cannot: filter to the companies you follow, and show each company&rsquo;s cash ' +
-  'runway next to the date it has to deliver on.',
-  '../', 'Open the tracker')}
+  'Every tracked catalyst in date order, kept current as the registry and SEC ' +
+'filings change. Our tracker narrows it to the companies you follow and puts ' +
+'their finances beside the dates &mdash; cash, quarterly burn, runway and a ' +
+'year&rsquo;s dilution &mdash; so you can see which companies have to raise money ' +
+'before their results arrive. It also compares companies side by side, and ' +
+'shows how often each one&rsquo;s trials reach completion rather than stopping early.',
+'../', 'Open our tracker')}
 
 <div class="seo-intro">
   <p>Clinical trial readouts, FDA decision dates, SEC filings and earnings dates
