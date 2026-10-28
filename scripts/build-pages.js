@@ -77,6 +77,23 @@ function siteNav(depth, current){
 </nav>`;
 }
 
+/**
+ * The orientation box under each heading.
+ *
+ * These generated pages are what people arrive on from search, and they are
+ * deliberately plain: a list, in date order, no filtering. Someone landing here
+ * has no way of knowing there is an app behind it unless the page says so in
+ * the first screenful. The wording differs per page type on purpose — the same
+ * sentence repeated across 332 pages reads as an advertisement rather than as
+ * an explanation, and search engines notice boilerplate too.
+ */
+function aboutBox(text, href, label){
+  return `<aside class="seo-lead">
+  <p>${text}</p>
+  <a class="seo-btn" href="${esc(href)}">${esc(label)} &rsaquo;</a>
+</aside>`;
+}
+
 function page({ title, description, canonical, depth, body, jsonLd, noindex, nav }){
   const up = '../'.repeat(depth);
   return `<!DOCTYPE html>
@@ -124,6 +141,23 @@ ${canonical && BASE ? `<link rel="canonical" href="${esc(BASE + canonical)}" />`
   /* Pushed to the far end, so the way back into the app is always in the same
      place rather than wherever the link list happens to end. */
   .site-nav-app{margin-left:auto;font-weight:600;}
+
+  .seo-lead{
+    display:flex;align-items:center;gap:16px;flex-wrap:wrap;
+    margin:0 0 24px;padding:16px 18px;
+    background:var(--teal-wash,#E2F3F5);
+    border:1px solid rgba(14,140,151,.18);
+    border-radius:var(--r-lg,16px);
+  }
+  .seo-lead p{
+    margin:0;flex:1 1 320px;min-width:0;
+    font-size:14px;line-height:1.5;color:var(--ink,#16343F);
+  }
+  .seo-lead .seo-btn{flex:0 0 auto;}
+  @media (max-width:620px){
+    .seo-lead{padding:14px;}
+    .seo-lead .seo-btn{width:100%;text-align:center;}
+  }
   @media (max-width:620px){
     .site-nav{gap:10px;}
     .site-nav-app{margin-left:0;}
@@ -220,6 +254,13 @@ ${key.map(i => `<tr>
   <div><h1>Economic <span class="accent">Calendar</span></h1></div>
   <div class="masthead-right"><span class="dot"></span>Updated ${esc(macro.generatedDate || today)}</div>
 </div>
+
+${aboutBox(
+  'A plain schedule of US releases with their official times. In the tracker ' +
+  'these sit alongside the biotech catalysts you follow, which is the point &mdash; ' +
+  'a trial readout into a hot CPI print is a different event from the same ' +
+  'readout into a soft one.',
+  '../#macro', 'Open the macro dashboard')}
 
 <div class="panel"><div class="panel-body seo-about">
 <p>Scheduled US economic releases with their official release times, plus the
@@ -331,6 +372,13 @@ function hubPage({ tickers, months, upcoming, econ, today, generatedDate }){
   <h1>Biotech catalyst calendar</h1>
   <p class="seo-sub">${upcoming.length} upcoming event${upcoming.length === 1 ? '' : 's'} across ${companies.length} compan${companies.length === 1 ? 'y' : 'ies'}</p>
 </header>
+
+${aboutBox(
+  'This page lists every tracked catalyst in date order, rebuilt automatically ' +
+  'as the registry and SEC filings change. The tracker does the part a list ' +
+  'cannot: filter to the companies you follow, and show each company&rsquo;s cash ' +
+  'runway next to the date it has to deliver on.',
+  '../', 'Open the tracker')}
 
 <div class="seo-intro">
   <p>Clinical trial readouts, FDA decision dates, SEC filings and earnings dates
@@ -447,6 +495,11 @@ function tickerPage(ticker, data, today){
   <h1>${esc(ticker)} catalyst calendar</h1>
   <p class="seo-sub">${esc(name)}</p>
 </header>
+${aboutBox(
+  `Everything on record for ${esc(ticker)}, in date order. The tracker puts ` +
+  `${esc(ticker)} on one calendar with the rest of your watchlist, and compares ` +
+  `its cash position against the companies you are weighing it against.`,
+  `../../?tickers=${encodeURIComponent(ticker)}`, `Open ${esc(ticker)} in the tracker`)}
 ${stats.length ? `<div class="seo-stats">${stats.map(([k,v]) =>
   `<div class="seo-stat"><div class="seo-stat-k">${esc(k)}</div><div class="seo-stat-v">${esc(v)}</div></div>`).join('')}</div>` : ''}
 <div class="seo-intro">${intro.join('\n')}</div>
@@ -497,6 +550,12 @@ function monthPage(ym, events, today){
   <h1>Biotech catalysts, ${esc(label)}</h1>
   <p class="seo-sub">${sorted.length} tracked event${sorted.length===1?'':'s'} across ${tickers.length} compan${tickers.length===1?'y':'ies'}</p>
 </header>
+${aboutBox(
+  `Every tracked company&rsquo;s events for ${esc(label)}, which is more than most ` +
+  `people want at once. The tracker narrows it to the companies you actually ` +
+  `follow and keeps them on one calendar month after month.`,
+  '../../', 'Open the tracker')}
+
 <div class="seo-intro">
   <p>Clinical trial milestones, FDA decision dates, SEC filings and earnings scheduled for ${esc(label)}, compiled from ClinicalTrials.gov and SEC EDGAR.</p>
 </div>
