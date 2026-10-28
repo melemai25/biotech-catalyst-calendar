@@ -370,7 +370,7 @@ function hubPage({ tickers, months, upcoming, econ, today, generatedDate }){
 
   const body = `
 <header class="seo-header">
-  <h1>Biotech catalyst calendar</h1>
+  <h1>Biotech Catalyst <span class="accent">Calendar</span></h1>
   <p class="seo-sub">${upcoming.length} upcoming event${upcoming.length === 1 ? '' : 's'} across ${companies.length} compan${companies.length === 1 ? 'y' : 'ies'}</p>
 </header>
 
