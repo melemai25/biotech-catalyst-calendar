@@ -311,6 +311,7 @@ function noticeBar(){
 function masthead(){
   return el('div',{class:'masthead'},[
     panelBar(),
+    tabBar(),
     noticeBar(),
   ]);
 }
@@ -320,16 +321,19 @@ function masthead(){
  * left-aligned with the panel it controls while the brand stays centred.
  */
 function panelBar(){
+  const label = state.sidebarOpen ? 'Hide the watchlist panel' : 'Show the watchlist panel';
   return el('div',{class:'panel-bar'},[
     el('button',{
       class:'panel-toggle', type:'button',
       'aria-expanded': String(state.sidebarOpen),
       'aria-controls':'sidebar',
-      title: state.sidebarOpen ? 'Hide the watchlist panel' : 'Show the watchlist panel',
+      // The glyph alone carries no meaning to a screen reader, so the label
+      // has to say what the button does rather than what it looks like.
+      'aria-label': label,
+      title: label,
       onclick: toggleSidebar,
     },[
       el('span',{class:'pt-chev'},[state.sidebarOpen ? '\u2039' : '\u203a']),
-      state.sidebarOpen ? 'Hide panel' : 'Show panel',
     ]),
   ]);
 }
@@ -556,7 +560,9 @@ function tabBar(){
 }
 
 function main(){
-  const kids = [ tabBar() ];
+  // tabBar() now lives on the masthead row, beside the panel toggle and the
+  // notice, so the primary navigation is not buried below the sidebar.
+  const kids = [];
   kids.push(state.tab === 'data' ? dataTab()
           : state.tab === 'analysis' ? analysisTab()
           : state.tab === 'macro' ? macroTab()
