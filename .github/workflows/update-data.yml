@@ -6,6 +6,17 @@ on:
   workflow_dispatch:          # run it by hand from the Actions tab
   push:
     branches: [main]
+    # Front-end-only changes go through "Deploy UI" instead, which skips the
+    # page regeneration and deploys in seconds. Without this both workflows
+    # would fire on the same push and the fast one would gain nothing.
+    paths-ignore:
+      - 'public/index.html'
+      - 'public/styles.css'
+      - 'public/app.js'
+      - 'public/support.js'
+      - 'public/data/notice.json'
+      - '**.md'
+      - '.gitignore'
 
 permissions:
   contents: write

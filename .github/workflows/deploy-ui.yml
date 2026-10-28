@@ -1,0 +1,101 @@
+name: Deploy UI
+
+# The fast path, for front-end work.
+#
+# "Refresh data and deploy" fetches trials, filings and financials, regenerates
+# 331 pages and commits the result. That is right for a data refresh and far too
+# slow for changing a colour: several minutes of API calls to find out whether a
+# banner looks correct.
+#
+# This workflow fetches nothing, builds nothing and commits nothing. It takes
+# the public/ folder exactly as it is in the repo and publishes it, which is all
+# a change to index.html, styles.css or app.js actually needs — the generated
+# pages link styles.css rather than embedding it, so they pick up a stylesheet
+# change without being rebuilt.
+#
+# Anything that CHANGES how pages are generated (scripts/build-pages.js) is not
+# matched below and goes through the full workflow, because those pages do have
+# to be rebuilt.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'public/**'
+      # The generated output is excluded. When the data workflow commits its
+      # refreshed pages that is also a push to main, and without these it would
+      # trigger this workflow too — two deploys of the same thing, every day.
+      - '!public/data/**'
+      - '!public/ticker/**'
+      - '!public/calendar/**'
+      - '!public/catalyst-calendar/**'
+      - '!public/economic-calendar/**'
+      - '!public/sitemap.xml'
+      - '!public/robots.txt'
+      # Added back: this one is hand-edited, not generated.
+      - 'public/data/notice.json'
+  workflow_dispatch:
+
+permissions:
+  pages: write
+  id-token: write
+  contents: read          # nothing is committed, so read is enough
+
+# Same group as the other workflows. GitHub Pages takes one deployment at a
+# time, so this makes them queue rather than collide.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Catches a stray brace or an unterminated comment before it reaches the
+      # live site. A syntax error in app.js does not fail loudly in a browser —
+      # the page renders an empty #root and looks like a blank screen.
+      - name: Check the scripts parse
+        run: |
+          fail=0
+          for f in public/app.js public/support.js; do
+            if [ -f "$f" ]; then
+              if node --check "$f"; then
+                echo "ok   $f"
+              else
+                echo "::error file=$f::$f has a syntax error and would break the page"
+                fail=1
+              fi
+            fi
+          done
+          exit $fail
+
+      # notice.json is hand-edited and read at runtime. Malformed JSON is
+      # handled gracefully by app.js, but there is no reason to ship it.
+      - name: Check notice.json is valid
+        run: |
+          if [ -f public/data/notice.json ]; then
+            node -e "
+              const n = require('./public/data/notice.json');
+              if (n.message && !n.until) {
+                console.log('::warning::notice.json has a message but no \"until\" date, so it will never be shown.');
+              }
+              console.log('notice.json parses.');
+            "
+          fi
+
+      - uses: actions/configure-pages@v4
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - id: deployment
+        uses: actions/deploy-pages@v4
