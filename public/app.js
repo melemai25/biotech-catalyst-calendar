@@ -45,6 +45,9 @@ const state = {
   // so the biotech calendar never waits on it.
   macro: null,
   macroLoading: false,
+  // A short message shown at the top, edited in public/data/notice.json
+  // without touching any code.
+  notice: null,
   macroGroup: 'all',
   macroWindow: 60,
   // One setting for every tab. The macro tab used to force the sidebar away,
@@ -179,6 +182,7 @@ async function load(){
     return;
   }
   if(state.data.perTicker){ await ensureLoaded(); }
+  await loadNotice();
   syncUrl();
   render();
 }
@@ -251,23 +255,63 @@ function syncBuildPill(){
 }
 
 
+/* ===================================================================== *
+ * Notice
+ * ===================================================================== */
+
+/**
+ * A short message to readers, from public/data/notice.json:
+ *
+ *   { "message": "...", "until": "2026-12-31", "id": "launch-1" }
+ *
+ * `until` is required and enforced. A message-of-the-day nobody remembers to
+ * delete is worse than none — it sits there for months, visibly stale, telling
+ * everyone the site is unmaintained. This one removes itself.
+ *
+ * `id` keys the dismissal, so changing the message brings it back for people
+ * who dismissed the previous one.
+ *
+ * Any failure is silent: a decorative banner is never worth an error.
+ */
+async function loadNotice(){
+  try{
+    const res = await fetch('data/notice.json', {cache:'no-cache'});
+    if(!res.ok) return;
+    const n = await res.json();
+    if(!n || !n.message || !n.until) return;
+    if(new Date().toISOString().slice(0,10) > n.until) return;   // expired
+    let dismissed = null;
+    try { dismissed = localStorage.getItem('noticeDismissed'); } catch {}
+    if(dismissed && dismissed === (n.id || n.message)) return;
+    state.notice = n;
+  }catch{ /* no banner, no problem */ }
+}
+
+function dismissNotice(){
+  const n = state.notice;
+  state.notice = null;
+  try { localStorage.setItem('noticeDismissed', (n && (n.id || n.message)) || '1'); } catch {}
+  render();
+}
+
+function noticeBar(){
+  const n = state.notice;
+  if(!n) return el('div',{class:'notice-slot'},[]);   // holds the grid cell open
+  return el('div',{class:'notice-slot'},[
+    el('div',{class:'notice', role:'status'},[
+      el('span',{class:'notice-text'},[n.message]),
+      el('button',{
+        class:'notice-x', type:'button', 'aria-label':'Dismiss this message',
+        onclick: dismissNotice,
+      },['\u00d7']),
+    ])
+  ]);
+}
+
 function masthead(){
   return el('div',{class:'masthead'},[
     panelBar(),
-    el('div',{class:'brand'},[
-      // Inline rather than an <img> so it inherits no load delay and can be
-      // recoloured from CSS later without touching a file.
-      el('span',{class:'logo-mark', 'aria-hidden':'true', html:
-        '<svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">' +
-        '<rect width="48" height="48" rx="11" fill="#0E8C97"/>' +
-        '<path d="M9 25h7.5l4-11 5.5 22 4.5-13h8.5" fill="none" stroke="#fff" ' +
-        'stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>'
-      }),
-      el('div',{},[
-        el('p',{class:'eyebrow'},['Trial & Regulatory Tracker']),
-        el('h1',{},['Bio', el('span',{class:'accent'},['lyst'])]),
-      ]),
-    ]),
+    noticeBar(),
   ]);
 }
 
