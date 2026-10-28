@@ -908,3 +908,40 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
 }
 
 .layout > *{min-width:0;}
+
+/* Append to the end of public/styles.css */
+
+/* ------------------------------------------------------------- notice *
+ *
+ * Sits in the masthead's middle cell, where the brand used to be. The slot is
+ * rendered even when there is no message, so the grid keeps three columns and
+ * the Hide panel button does not drift to the centre on days with nothing
+ * to say.
+ */
+.notice-slot{grid-column:2;justify-self:center;min-width:0;max-width:640px;}
+.notice{
+  display:flex;align-items:center;gap:10px;
+  padding:8px 10px 8px 16px;
+  background:var(--teal-wash);border:1px solid rgba(14,140,151,.2);
+  border-radius:var(--r-pill);
+}
+.notice-text{
+  font-size:13px;line-height:1.4;color:var(--ink);
+  overflow:hidden;text-overflow:ellipsis;
+}
+.notice-x{
+  flex:0 0 auto;width:22px;height:22px;padding:0;
+  display:grid;place-items:center;
+  background:transparent;border:0;border-radius:50%;
+  color:var(--ink-faint);font-size:17px;line-height:1;cursor:pointer;
+}
+.notice-x:hover{background:rgba(14,140,151,.12);color:var(--teal-dark);}
+.notice-x:focus-visible{outline:2px solid var(--teal);outline-offset:1px;}
+
+@media (max-width:760px){
+  /* The masthead stacks here, so the notice gets the full width and the
+     text wraps instead of being clipped to one line. */
+  .notice-slot{grid-column:1;justify-self:stretch;max-width:none;}
+  .notice{border-radius:var(--r-md);align-items:flex-start;}
+  .notice-text{overflow:visible;white-space:normal;}
+}
