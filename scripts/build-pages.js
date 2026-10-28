@@ -80,8 +80,7 @@ function siteNav(depth, current){
 /**
  * The orientation box under each heading.
  *
- * These generated pages are what people arrive on from search, and they are
- * deliberately plain: a list, in date order, no filtering. Someone landing here
+ * These generated pages are what people arrive on from search: a list, in date order, no filtering. Someone landing here
  * has no way of knowing there is an app behind it unless the page says so in
  * the first screenful. The wording differs per page type on purpose — the same
  * sentence repeated across 332 pages reads as an advertisement rather than as
@@ -256,11 +255,13 @@ ${key.map(i => `<tr>
 </div>
 
 ${aboutBox(
-  'A plain schedule of US releases with their official times. In the tracker ' +
-  'these sit alongside the biotech catalysts you follow, which is the point &mdash; ' +
-  'a trial readout into a hot CPI print is a different event from the same ' +
-  'readout into a soft one.',
-  '../#macro', 'Open the macro dashboard')}
+  'Every scheduled US economic release with its official release time, plus the ' +
+  'latest reading and the one before it. Our dashboard adds FOMC meeting dates, ' +
+  'the full history behind each series, and a cross-asset strip covering ' +
+  'Treasuries, the yield curve, credit spreads, the dollar and VIX. It also runs ' +
+  'alongside a biotech catalyst calendar, for anyone weighing company news ' +
+  'against the macro backdrop.',
+  '../#macro', 'Open our macro dashboard')}
 
 <div class="panel"><div class="panel-body seo-about">
 <p>Scheduled US economic releases with their official release times, plus the
