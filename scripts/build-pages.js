@@ -123,6 +123,8 @@ ${canonical && BASE ? `<link rel="canonical" href="${esc(BASE + canonical)}" />`
   .seo-scroll{overflow-x:auto;max-width:100%;min-width:0;-webkit-overflow-scrolling:touch;}
   .seo-scroll > .seo-table{margin:0;}
 
+  .seo-header h1 .accent{color:var(--teal,#0E8C97);}
+
   .site-nav{
     display:flex;align-items:center;gap:18px;flex-wrap:wrap;
     margin:0 0 18px;padding:0 2px 14px;
