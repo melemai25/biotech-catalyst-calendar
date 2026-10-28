@@ -906,3 +906,5 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
   .masthead > .brand,
   .masthead-right{grid-column:1;justify-self:center;text-align:center;}
 }
+
+.layout > *{min-width:0;}
