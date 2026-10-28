@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-10-27",
+  "generatedDate": "2026-10-28",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-03-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 139
+    "daysToNextCatalyst": 138
   },
   "trialStats": {
     "completed": 0,
@@ -67,10 +67,10 @@
     "ongoing": 2,
     "withResults": 0,
     "byPhase": {
-      "other": {
+      "phase3": {
         "completed": 0,
         "terminated": 1,
-        "total": 1,
+        "total": 4,
         "completionRatePct": null
       },
       "phase2": {
@@ -79,10 +79,10 @@
         "total": 2,
         "completionRatePct": null
       },
-      "phase3": {
+      "other": {
         "completed": 0,
         "terminated": 1,
-        "total": 4,
+        "total": 1,
         "completionRatePct": null
       }
     },
@@ -104,21 +104,6 @@
       "source": "ClinicalTrials.gov NCT05306574",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05306574",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-VOR-0001193125-25-096692",
-      "ticker": "VOR",
-      "date": "2025-04-25",
-      "title": "8-K filed: Listing / standard notice",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 3.01. Listing / standard notice. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-25",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1817229/000119312525096692/d898205d8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

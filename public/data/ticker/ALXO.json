@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 1,
   "phase2": 3,
-  "generatedDate": "2026-10-27",
+  "generatedDate": "2026-10-28",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-11-04",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 8
+    "daysToNextCatalyst": 7
   },
   "trialStats": {
     "completed": 2,
@@ -67,12 +67,6 @@
     "ongoing": 5,
     "withResults": 0,
     "byPhase": {
-      "phase1": {
-        "completed": 2,
-        "terminated": 2,
-        "total": 5,
-        "completionRatePct": 50
-      },
       "phase2": {
         "completed": 0,
         "terminated": 0,
@@ -84,6 +78,12 @@
         "terminated": 0,
         "total": 1,
         "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 2,
+        "terminated": 2,
+        "total": 5,
+        "completionRatePct": 50
       }
     },
     "concluded": 4,
@@ -179,21 +179,6 @@
       "source": "ClinicalTrials.gov NCT04675333",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04675333",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ALXO-0000950170-25-058687",
-      "ticker": "ALXO",
-      "date": "2025-04-25",
-      "title": "8-K filed: Listing / standard notice",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 3.01. Listing / standard notice. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-25",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1810182/000095017025058687/alxo-20250423.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

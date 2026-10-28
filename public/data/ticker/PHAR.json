@@ -11,7 +11,7 @@
   "activeTrials": 6,
   "phase3": 2,
   "phase2": 4,
-  "generatedDate": "2026-10-27",
+  "generatedDate": "2026-10-28",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -57,7 +57,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2026-11-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 34
+    "daysToNextCatalyst": 33
   },
   "trialStats": {
     "completed": 13,
@@ -73,17 +73,17 @@
         "total": 12,
         "completionRatePct": 88
       },
-      "phase3": {
-        "completed": 4,
-        "terminated": 1,
-        "total": 8,
-        "completionRatePct": 80
-      },
       "other": {
         "completed": 2,
         "terminated": 0,
         "total": 2,
         "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 4,
+        "terminated": 1,
+        "total": 8,
+        "completionRatePct": 80
       }
     },
     "concluded": 16,
@@ -149,21 +149,6 @@
       "source": "ClinicalTrials.gov NCT02859727",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02859727",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-PHAR-0001828316-25-000023",
-      "ticker": "PHAR",
-      "date": "2025-04-25",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-25",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1828316/000182831625000023/pharminggroupannouncesupco.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

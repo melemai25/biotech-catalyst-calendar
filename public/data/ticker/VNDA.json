@@ -11,7 +11,7 @@
   "activeTrials": 14,
   "phase3": 10,
   "phase2": 4,
-  "generatedDate": "2026-10-27",
+  "generatedDate": "2026-10-28",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 12,
     "nextCatalystDate": "2026-11-03",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 7
+    "daysToNextCatalyst": 6
   },
   "trialStats": {
     "completed": 54,
@@ -73,11 +73,11 @@
         "total": 19,
         "completionRatePct": 100
       },
-      "other": {
-        "completed": 3,
-        "terminated": 0,
-        "total": 8,
-        "completionRatePct": null
+      "phase3": {
+        "completed": 18,
+        "terminated": 2,
+        "total": 32,
+        "completionRatePct": 90
       },
       "phase2": {
         "completed": 15,
@@ -85,11 +85,11 @@
         "total": 23,
         "completionRatePct": 88
       },
-      "phase3": {
-        "completed": 18,
-        "terminated": 2,
-        "total": 32,
-        "completionRatePct": 90
+      "other": {
+        "completed": 3,
+        "terminated": 0,
+        "total": 8,
+        "completionRatePct": null
       }
     },
     "concluded": 59,
@@ -878,21 +878,6 @@
       "status": "past"
     },
     {
-      "id": "ct-VNDA-NCT07065773",
-      "ticker": "VNDA",
-      "date": "2026-09-15",
-      "title": "Safety, Tolerability and Efficacy of Trichostatin A in Patients With Mild to Severe Onychomycosis",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Onychomycosis of Toenail · 50 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07065773",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07065773",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-VNDA-NCT07179055",
       "ticker": "VNDA",
       "date": "2026-09-15",
@@ -904,6 +889,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07179055",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07179055",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-VNDA-NCT07065773",
+      "ticker": "VNDA",
+      "date": "2026-09-15",
+      "title": "Safety, Tolerability and Efficacy of Trichostatin A in Patients With Mild to Severe Onychomycosis",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Onychomycosis of Toenail · 50 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07065773",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07065773",
       "origin": "registry",
       "status": "past"
     },

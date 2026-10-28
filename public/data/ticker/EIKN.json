@@ -11,7 +11,7 @@
   "activeTrials": 6,
   "phase3": 2,
   "phase2": 4,
-  "generatedDate": "2026-10-27",
+  "generatedDate": "2026-10-28",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 7,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 19
+    "daysToNextCatalyst": 18
   },
   "trialStats": {
     "completed": 4,
@@ -107,21 +107,6 @@
       "status": "past"
     },
     {
-      "id": "ct-EIKN-NCT03486301",
-      "ticker": "EIKN",
-      "date": "2024-03-31",
-      "title": "BDB001-101: Clinical Study of BDB001 as a Mono-therapy or in Combination With Pembrolizumab",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Tumor, Solid · 87 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT03486301",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT03486301",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-EIKN-NCT04840394",
       "ticker": "EIKN",
       "date": "2024-03-31",
@@ -133,6 +118,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04840394",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04840394",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-EIKN-NCT03486301",
+      "ticker": "EIKN",
+      "date": "2024-03-31",
+      "title": "BDB001-101: Clinical Study of BDB001 as a Mono-therapy or in Combination With Pembrolizumab",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Tumor, Solid · 87 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT03486301",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03486301",
       "origin": "registry",
       "status": "past"
     },

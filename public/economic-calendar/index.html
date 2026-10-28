@@ -26,6 +26,8 @@
   .seo-scroll{overflow-x:auto;max-width:100%;min-width:0;-webkit-overflow-scrolling:touch;}
   .seo-scroll > .seo-table{margin:0;}
 
+  .seo-header h1 .accent{color:var(--teal,#0E8C97);}
+
   .site-nav{
     display:flex;align-items:center;gap:18px;flex-wrap:wrap;
     margin:0 0 18px;padding:0 2px 14px;
@@ -43,6 +45,23 @@
   /* Pushed to the far end, so the way back into the app is always in the same
      place rather than wherever the link list happens to end. */
   .site-nav-app{margin-left:auto;font-weight:600;}
+
+  .seo-lead{
+    display:flex;align-items:center;gap:16px;flex-wrap:wrap;
+    margin:0 0 24px;padding:16px 18px;
+    background:var(--teal-wash,#E2F3F5);
+    border:1px solid rgba(14,140,151,.18);
+    border-radius:var(--r-lg,16px);
+  }
+  .seo-lead p{
+    margin:0;flex:1 1 320px;min-width:0;
+    font-size:14px;line-height:1.5;color:var(--ink,#16343F);
+  }
+  .seo-lead .seo-btn{flex:0 0 auto;}
+  @media (max-width:620px){
+    .seo-lead{padding:14px;}
+    .seo-lead .seo-btn{width:100%;text-align:center;}
+  }
   @media (max-width:620px){
     .site-nav{gap:10px;}
     .site-nav-app{margin-left:0;}
@@ -64,6 +83,11 @@
   <div><h1>Economic <span class="accent">Calendar</span></h1></div>
   <div class="masthead-right"><span class="dot"></span>Updated 2026-10-28</div>
 </div>
+
+<aside class="seo-lead">
+  <p>Every scheduled US economic release with its official release time, plus the latest reading and the one before it. Our dashboard adds FOMC meeting dates, the full history behind each series, and a cross-asset strip covering Treasuries, the yield curve, credit spreads, the dollar and VIX. It also runs alongside a biotech catalyst calendar, for anyone weighing company news against the macro backdrop.</p>
+  <a class="seo-btn" href="../#macro">Open our macro dashboard &rsaquo;</a>
+</aside>
 
 <div class="panel"><div class="panel-body seo-about">
 <p>Scheduled US economic releases with their official release times, plus the

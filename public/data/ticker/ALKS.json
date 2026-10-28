@@ -11,7 +11,7 @@
   "activeTrials": 7,
   "phase3": 5,
   "phase2": 2,
-  "generatedDate": "2026-10-27",
+  "generatedDate": "2026-10-28",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -51,32 +51,38 @@
     "marketCapUsd": null,
     "entityName": "Alkermes plc.",
     "activeTrials": 31,
-    "phase3Count": 18,
-    "phase2Count": 6,
+    "phase3Count": 17,
+    "phase2Count": 7,
     "leadPhase": 4,
-    "upcomingCount": 8,
+    "upcomingCount": 9,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 19
+    "daysToNextCatalyst": 18
   },
   "trialStats": {
     "completed": 68,
     "terminated": 5,
     "withdrawn": 0,
     "suspended": 0,
-    "ongoing": 9,
+    "ongoing": 10,
     "withResults": 35,
     "byPhase": {
+      "phase2": {
+        "completed": 15,
+        "terminated": 0,
+        "total": 18,
+        "completionRatePct": 100
+      },
       "phase3": {
         "completed": 25,
         "terminated": 3,
         "total": 34,
         "completionRatePct": 89
       },
-      "phase2": {
-        "completed": 15,
+      "other": {
+        "completed": 6,
         "terminated": 0,
-        "total": 17,
+        "total": 7,
         "completionRatePct": 100
       },
       "phase1": {
@@ -84,12 +90,6 @@
         "terminated": 2,
         "total": 24,
         "completionRatePct": 92
-      },
-      "other": {
-        "completed": 6,
-        "terminated": 0,
-        "total": 7,
-        "completionRatePct": 100
       }
     },
     "concluded": 73,
@@ -97,21 +97,6 @@
     "resultsPostedPct": 51
   },
   "events": [
-    {
-      "id": "ct-ALKS-NCT02537574",
-      "ticker": "ALKS",
-      "date": "2016-10-27",
-      "title": "Naltrexone for Use in Conjunction With Buprenorphine in Adults With Opioid Use Disorder Prior to First Dose of VIVITROL® (Naltrexone for Extended-Release Injectable Suspension)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Opioid Use Disorder · 380 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02537574",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02537574",
-      "origin": "registry",
-      "status": "past"
-    },
     {
       "id": "ct-ALKS-NCT02161718",
       "ticker": "ALKS",
@@ -863,21 +848,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ALKS-NCT07455383",
-      "ticker": "ALKS",
-      "date": "2027-05-15",
-      "title": "A Study to Evaluate the Efficacy and Safety of ALKS 2680 in Adults With Narcolepsy Type 1",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Narcolepsy Type 1 · 150 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07455383",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07455383",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ALKS-NCT07502443",
       "ticker": "ALKS",
       "date": "2027-05-15",
@@ -889,6 +859,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07502443",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07502443",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ALKS-NCT07455383",
+      "ticker": "ALKS",
+      "date": "2027-05-15",
+      "title": "A Study to Evaluate the Efficacy and Safety of ALKS 2680 in Adults With Narcolepsy Type 1",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Narcolepsy Type 1 · 150 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07455383",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07455383",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -934,6 +919,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04987229",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04987229",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ALKS-NCT07901179",
+      "ticker": "ALKS",
+      "date": "2028-01-15",
+      "title": "A Study to Evaluate the Safety and Efficacy of ALKS 7290 as an Adjunctive Therapy to Antidepressants in Adult Participants With Major Depressive Disorder",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Major Depressive Disorder (MDD) · 180 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07901179",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07901179",
       "origin": "registry",
       "status": "upcoming"
     },

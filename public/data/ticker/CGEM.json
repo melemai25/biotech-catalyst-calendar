@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-10-27",
+  "generatedDate": "2026-10-28",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -52,12 +52,12 @@
     "entityName": "CULLINAN THERAPEUTICS, INC.",
     "activeTrials": 12,
     "phase3Count": 0,
-    "phase2Count": 3,
+    "phase2Count": 4,
     "leadPhase": 2,
     "upcomingCount": 7,
     "nextCatalystDate": "2026-12-10",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 44
+    "daysToNextCatalyst": 43
   },
   "trialStats": {
     "completed": 0,
@@ -67,16 +67,16 @@
     "ongoing": 9,
     "withResults": 1,
     "byPhase": {
-      "phase1": {
-        "completed": 0,
-        "terminated": 2,
-        "total": 9,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 0,
         "terminated": 1,
-        "total": 3,
+        "total": 4,
+        "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 0,
+        "terminated": 2,
+        "total": 8,
         "completionRatePct": null
       }
     },
@@ -476,21 +476,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-CGEM-NCT05143996",
-      "ticker": "CGEM",
-      "date": "2027-01-15",
-      "title": "CLN-049 in Patients With Relapsed/Refractory Acute Myeloid Leukemia (AML) or Myelodysplastic Syndrome (MDS)",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Relapsed/Refractory Acute Myeloid Leukemia (AML), Myelodysplastic Syndrome (MDS) · 60 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05143996",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05143996",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-CGEM-NCT07722767",
       "ticker": "CGEM",
       "date": "2027-09-30",
@@ -547,6 +532,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07738822",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07738822",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-CGEM-NCT05143996",
+      "ticker": "CGEM",
+      "date": "2029-12-30",
+      "title": "CLN-049 in Patients With Relapsed/Refractory Acute Myeloid Leukemia (AML) or Myelodysplastic Syndrome (MDS)",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Relapsed/Refractory Acute Myeloid Leukemia (AML), Myelodysplastic Syndrome (MDS), TP53-mutated MDS and AML · 275 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05143996",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05143996",
       "origin": "registry",
       "status": "upcoming"
     }

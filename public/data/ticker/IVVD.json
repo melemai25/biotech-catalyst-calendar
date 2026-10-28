@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-10-27",
+  "generatedDate": "2026-10-28",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-12-31",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 65
+    "daysToNextCatalyst": 64
   },
   "trialStats": {
     "completed": 3,
@@ -155,21 +155,6 @@
       "source": "ClinicalTrials.gov NCT06039449",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06039449",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-IVVD-0000950170-25-058705",
-      "ticker": "IVVD",
-      "date": "2025-04-25",
-      "title": "8-K filed: Listing / standard notice",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 3.01. Listing / standard notice. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-25",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1832038/000095017025058705/ivvd-20250421.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {
@@ -488,21 +473,6 @@
       "status": "past"
     },
     {
-      "id": "ct-IVVD-NCT07298434",
-      "ticker": "IVVD",
-      "date": "2026-08-15",
-      "title": "Study of VYD2311 for the Prevention of COVID-19",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "COVID-19 · 1,770 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07298434",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07298434",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-IVVD-NCT07655180",
       "ticker": "IVVD",
       "date": "2026-08-15",
@@ -514,6 +484,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07655180",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07655180",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-IVVD-NCT07298434",
+      "ticker": "IVVD",
+      "date": "2026-08-15",
+      "title": "Study of VYD2311 for the Prevention of COVID-19",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "COVID-19 · 1,770 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07298434",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07298434",
       "origin": "registry",
       "status": "past"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-10-27",
+  "generatedDate": "2026-10-28",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,38 +57,38 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 49
+    "daysToNextCatalyst": 48
   },
   "trialStats": {
-    "completed": 25,
+    "completed": 26,
     "terminated": 3,
     "withdrawn": 1,
     "suspended": 0,
-    "ongoing": 4,
+    "ongoing": 3,
     "withResults": 4,
     "byPhase": {
       "phase1": {
-        "completed": 22,
+        "completed": 23,
         "terminated": 1,
         "total": 25,
         "completionRatePct": 96
-      },
-      "phase3": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 3,
-        "completionRatePct": null
       },
       "phase2": {
         "completed": 2,
         "terminated": 2,
         "total": 5,
         "completionRatePct": 50
+      },
+      "phase3": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 3,
+        "completionRatePct": null
       }
     },
-    "concluded": 29,
-    "completionRatePct": 86,
-    "resultsPostedPct": 16
+    "concluded": 30,
+    "completionRatePct": 87,
+    "resultsPostedPct": 15
   },
   "events": [
     {
@@ -602,6 +602,21 @@
       "status": "past"
     },
     {
+      "id": "ct-AVIR-NCT07314346",
+      "ticker": "AVIR",
+      "date": "2026-07-23",
+      "title": "Drug-drug Interaction Study of Bemnifosbuvir/Ruzasvir (BEM/RZR) and Buprenorphine/Naloxone or Methadone",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Healthy Volunteer Study · 30 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07314346",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07314346",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "edgar-AVIR-0001193125-26-346888",
       "ticker": "AVIR",
       "date": "2026-08-12",
@@ -614,21 +629,6 @@
       "source": "SEC EDGAR 8-K 2026-08-12",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1593899/000119312526346888/d165663d8k.htm",
       "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "ct-AVIR-NCT07314346",
-      "ticker": "AVIR",
-      "date": "2026-08-15",
-      "title": "Drug-drug Interaction Study of Bemnifosbuvir/Ruzasvir (BEM/RZR) and Buprenorphine/Naloxone or Methadone",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Healthy Volunteer Study · 32 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07314346",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07314346",
-      "origin": "registry",
       "status": "past"
     },
     {

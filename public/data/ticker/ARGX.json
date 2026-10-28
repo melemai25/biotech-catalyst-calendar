@@ -11,7 +11,7 @@
   "activeTrials": 28,
   "phase3": 15,
   "phase2": 13,
-  "generatedDate": "2026-10-27",
+  "generatedDate": "2026-10-28",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -57,7 +57,7 @@
     "upcomingCount": 31,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 19
+    "daysToNextCatalyst": 18
   },
   "trialStats": {
     "completed": 35,
@@ -67,11 +67,11 @@
     "ongoing": 44,
     "withResults": 19,
     "byPhase": {
-      "phase1": {
-        "completed": 14,
-        "terminated": 0,
-        "total": 19,
-        "completionRatePct": 100
+      "phase3": {
+        "completed": 11,
+        "terminated": 4,
+        "total": 33,
+        "completionRatePct": 73
       },
       "phase2": {
         "completed": 9,
@@ -79,11 +79,11 @@
         "total": 25,
         "completionRatePct": 75
       },
-      "phase3": {
-        "completed": 11,
-        "terminated": 4,
-        "total": 33,
-        "completionRatePct": 73
+      "phase1": {
+        "completed": 14,
+        "terminated": 0,
+        "total": 19,
+        "completionRatePct": 100
       },
       "other": {
         "completed": 1,
@@ -833,21 +833,6 @@
       "status": "past"
     },
     {
-      "id": "ct-ARGX-NCT06307613",
-      "ticker": "ARGX",
-      "date": "2025-12-15",
-      "title": "A Study of Efgartigimod PH20 SC Given by Prefilled Syringe in Adults With Thyroid Eye Disease",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Thyroid Eye Disease · 102 participants · Status: Terminated",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06307613",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06307613",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-ARGX-NCT06307626",
       "ticker": "ARGX",
       "date": "2025-12-15",
@@ -859,6 +844,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06307626",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06307626",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-ARGX-NCT06307613",
+      "ticker": "ARGX",
+      "date": "2025-12-15",
+      "title": "A Study of Efgartigimod PH20 SC Given by Prefilled Syringe in Adults With Thyroid Eye Disease",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Thyroid Eye Disease · 102 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06307613",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06307613",
       "origin": "registry",
       "status": "past"
     },
@@ -1418,6 +1418,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-ARGX-NCT07612020",
+      "ticker": "ARGX",
+      "date": "2027-03-15",
+      "title": "A Study to Assess the Absolute Bioavailability of Empasiprubart SC Administered With an Autoinjector and the Pharmacokinetic Noninferiority of Empasiprubart SC Versus Intravenous (IV) in Healthy Adult Participants",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Healthy Volunteers · 130 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07612020",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07612020",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-ARGX-NCT06655155",
       "ticker": "ARGX",
       "date": "2027-03-15",
@@ -1444,21 +1459,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04833894",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04833894",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-ARGX-NCT07612020",
-      "ticker": "ARGX",
-      "date": "2027-03-15",
-      "title": "A Study to Assess the Absolute Bioavailability of Empasiprubart SC Administered With an Autoinjector and the Pharmacokinetic Noninferiority of Empasiprubart SC Versus Intravenous (IV) in Healthy Adult Participants",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Healthy Volunteers · 130 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07612020",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07612020",
       "origin": "registry",
       "status": "upcoming"
     },

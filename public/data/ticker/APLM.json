@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-10-27",
+  "generatedDate": "2026-10-28",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -55,9 +55,9 @@
     "phase2Count": 3,
     "leadPhase": 2,
     "upcomingCount": 4,
-    "nextCatalystDate": "2027-03-01",
+    "nextCatalystDate": "2027-05-18",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 125
+    "daysToNextCatalyst": 202
   },
   "trialStats": {
     "completed": 2,
@@ -73,16 +73,16 @@
         "total": 3,
         "completionRatePct": null
       },
-      "other": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 1,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 1,
         "terminated": 0,
         "total": 3,
+        "completionRatePct": null
+      },
+      "other": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 1,
         "completionRatePct": null
       }
     },
@@ -422,21 +422,6 @@
       "status": "past"
     },
     {
-      "id": "ct-APLM-NCT06372717",
-      "ticker": "APLM",
-      "date": "2027-03-01",
-      "title": "A Study to Investigate APL-4098 Alone and in Combination in Adults With AML or MDS",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Acute Myeloid Leukemia Refractory, Myelodysplastic Syndrome Acute Myeloid Leukemia, Myelodysplastic Syndrome With Excess Blasts · 100 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06372717",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06372717",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-APLM-NCT07399132",
       "ticker": "APLM",
       "date": "2027-05-18",
@@ -448,6 +433,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07399132",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07399132",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-APLM-NCT06372717",
+      "ticker": "APLM",
+      "date": "2027-07-15",
+      "title": "A Study to Investigate APL-4098 Alone and in Combination in Adults With AML or MDS",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Acute Myeloid Leukemia Refractory, Myelodysplastic Syndrome Acute Myeloid Leukemia, Myelodysplastic Syndrome With Excess Blasts · 100 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06372717",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06372717",
       "origin": "registry",
       "status": "upcoming"
     },

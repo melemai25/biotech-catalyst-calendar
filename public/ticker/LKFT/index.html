@@ -26,6 +26,8 @@
   .seo-scroll{overflow-x:auto;max-width:100%;min-width:0;-webkit-overflow-scrolling:touch;}
   .seo-scroll > .seo-table{margin:0;}
 
+  .seo-header h1 .accent{color:var(--teal,#0E8C97);}
+
   .site-nav{
     display:flex;align-items:center;gap:18px;flex-wrap:wrap;
     margin:0 0 18px;padding:0 2px 14px;
@@ -43,6 +45,23 @@
   /* Pushed to the far end, so the way back into the app is always in the same
      place rather than wherever the link list happens to end. */
   .site-nav-app{margin-left:auto;font-weight:600;}
+
+  .seo-lead{
+    display:flex;align-items:center;gap:16px;flex-wrap:wrap;
+    margin:0 0 24px;padding:16px 18px;
+    background:var(--teal-wash,#E2F3F5);
+    border:1px solid rgba(14,140,151,.18);
+    border-radius:var(--r-lg,16px);
+  }
+  .seo-lead p{
+    margin:0;flex:1 1 320px;min-width:0;
+    font-size:14px;line-height:1.5;color:var(--ink,#16343F);
+  }
+  .seo-lead .seo-btn{flex:0 0 auto;}
+  @media (max-width:620px){
+    .seo-lead{padding:14px;}
+    .seo-lead .seo-btn{width:100%;text-align:center;}
+  }
   @media (max-width:620px){
     .site-nav{gap:10px;}
     .site-nav-app{margin-left:0;}
@@ -66,6 +85,10 @@
   <h1>LKFT catalyst calendar</h1>
   <p class="seo-sub">Lakefront Biotherapeutics NV</p>
 </header>
+<aside class="seo-lead">
+  <p>Everything on record for LKFT, in date order. The tracker puts LKFT on one calendar with the rest of your watchlist, and compares its cash position against the companies you are weighing it against.</p>
+  <a class="seo-btn" href="../../?tickers=LKFT">Open LKFT in the tracker &rsaquo;</a>
+</aside>
 <div class="seo-stats"><div class="seo-stat"><div class="seo-stat-k">Upcoming catalysts</div><div class="seo-stat-v">1</div></div><div class="seo-stat"><div class="seo-stat-k">Cash runway</div><div class="seo-stat-v">1.9 months</div></div><div class="seo-stat"><div class="seo-stat-k">Cash &amp; investments</div><div class="seo-stat-v">$40M</div></div><div class="seo-stat"><div class="seo-stat-k">Phase 3 programs</div><div class="seo-stat-v">6</div></div></div>
 <div class="seo-intro"><p>Lakefront Biotherapeutics NV is tracked here for clinical trial milestones, SEC filings and earnings dates. Focus area: Pharmaceutical Preparations.</p>
 <p>The next scheduled catalyst is <strong>Long-term Follow-up of Participants Treated With Galapagos Chimeric Antigen Receptor (CAR) T-cell Therapies</strong> on July 15, 2039. There is 1 upcoming event on record.</p>
@@ -313,7 +336,7 @@
 <section class="seo-about">
   <h2>About this data</h2>
   <p>Trial milestones come from the ClinicalTrials.gov v2 API, filings from SEC EDGAR, and financial figures from SEC XBRL company facts. Dates marked <em>est.</em> are projected rather than company-confirmed. This is an information tool, not investment advice — verify anything you act on against the linked primary source.</p>
-  <p>Last updated 2026-10-27.</p>
+  <p>Last updated 2026-10-28.</p>
 </section>
 
 </div>

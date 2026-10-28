@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 1,
   "phase2": 4,
-  "generatedDate": "2026-10-27",
+  "generatedDate": "2026-10-28",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 7,
     "nextCatalystDate": "2026-11-01",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 5
+    "daysToNextCatalyst": 4
   },
   "trialStats": {
     "completed": 3,
@@ -67,6 +67,12 @@
     "ongoing": 13,
     "withResults": 2,
     "byPhase": {
+      "phase1": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 4,
+        "completionRatePct": null
+      },
       "other": {
         "completed": 0,
         "terminated": 0,
@@ -83,12 +89,6 @@
         "completed": 2,
         "terminated": 0,
         "total": 3,
-        "completionRatePct": null
-      },
-      "phase1": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 4,
         "completionRatePct": null
       }
     },
@@ -503,21 +503,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-KRYS-NCT05504837",
-      "ticker": "KRYS",
-      "date": "2026-12-15",
-      "title": "A Study Assessing KB407 for the Treatment of Cystic Fibrosis",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Cystic Fibrosis · 20 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05504837",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05504837",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-KRYS-NCT06999733",
       "ticker": "KRYS",
       "date": "2026-12-15",
@@ -529,6 +514,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06999733",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06999733",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-KRYS-NCT05504837",
+      "ticker": "KRYS",
+      "date": "2026-12-15",
+      "title": "A Study Assessing KB407 for the Treatment of Cystic Fibrosis",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Cystic Fibrosis · 20 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05504837",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05504837",
       "origin": "registry",
       "status": "upcoming"
     },

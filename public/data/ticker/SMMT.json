@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 5,
   "phase2": 0,
-  "generatedDate": "2026-10-27",
+  "generatedDate": "2026-10-28",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2026-12-10",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 44
+    "daysToNextCatalyst": 43
   },
   "trialStats": {
     "completed": 5,
@@ -73,16 +73,16 @@
         "total": 7,
         "completionRatePct": null
       },
-      "phase1": {
-        "completed": 2,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 2,
         "terminated": 1,
         "total": 4,
+        "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 2,
+        "terminated": 0,
+        "total": 2,
         "completionRatePct": null
       }
     },
@@ -149,21 +149,6 @@
       "source": "ClinicalTrials.gov NCT06396065",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06396065",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-SMMT-0001599298-25-000066",
-      "ticker": "SMMT",
-      "date": "2025-04-25",
-      "title": "8-K filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-25",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1599298/000159929825000066/smmt-20250425.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

@@ -11,7 +11,7 @@
   "activeTrials": 9,
   "phase3": 3,
   "phase2": 6,
-  "generatedDate": "2026-10-27",
+  "generatedDate": "2026-10-28",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 7,
     "nextCatalystDate": "2027-03-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 139
+    "daysToNextCatalyst": 138
   },
   "trialStats": {
     "completed": 0,
@@ -79,15 +79,15 @@
         "total": 3,
         "completionRatePct": null
       },
-      "phase1": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 1,
-        "completionRatePct": null
-      },
       "other": {
         "completed": 0,
         "terminated": 1,
+        "total": 1,
+        "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 0,
+        "terminated": 0,
         "total": 1,
         "completionRatePct": null
       }
@@ -443,21 +443,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-FDMT-NCT05248230",
-      "ticker": "FDMT",
-      "date": "2027-06-15",
-      "title": "4D-710 in Adult Patients With Cystic Fibrosis",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Cystic Fibrosis Lung · 30 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05248230",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05248230",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-FDMT-NCT06864988",
       "ticker": "FDMT",
       "date": "2027-06-15",
@@ -469,6 +454,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06864988",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06864988",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-FDMT-NCT05248230",
+      "ticker": "FDMT",
+      "date": "2027-06-15",
+      "title": "4D-710 in Adult Patients With Cystic Fibrosis",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Cystic Fibrosis Lung · 30 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05248230",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05248230",
       "origin": "registry",
       "status": "upcoming"
     },

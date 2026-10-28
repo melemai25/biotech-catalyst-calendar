@@ -11,7 +11,7 @@
   "activeTrials": 11,
   "phase3": 9,
   "phase2": 2,
-  "generatedDate": "2026-10-27",
+  "generatedDate": "2026-10-28",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 4,
     "leadPhase": 4,
     "upcomingCount": 14,
-    "nextCatalystDate": "2026-10-28",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "nextCatalystDate": "2026-11-23",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 26
   },
   "trialStats": {
     "completed": 18,
@@ -73,17 +73,17 @@
         "total": 32,
         "completionRatePct": 48
       },
-      "phase2": {
-        "completed": 4,
-        "terminated": 2,
-        "total": 8,
-        "completionRatePct": 67
-      },
       "phase3": {
         "completed": 4,
         "terminated": 1,
         "total": 15,
         "completionRatePct": 80
+      },
+      "phase2": {
+        "completed": 4,
+        "terminated": 2,
+        "total": 8,
+        "completionRatePct": 67
       },
       "other": {
         "completed": 0,
@@ -503,21 +503,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-EXEL-next-earnings",
-      "ticker": "EXEL",
-      "date": "2026-10-28",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000939767&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-EXEL-NCT06545331",
       "ticker": "EXEL",
       "date": "2026-11-23",
@@ -545,6 +530,21 @@
       "source": "ClinicalTrials.gov NCT05678673",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05678673",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-EXEL-next-earnings",
+      "ticker": "EXEL",
+      "date": "2027-01-20",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000939767&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {

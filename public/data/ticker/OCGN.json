@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 3,
   "phase2": 2,
-  "generatedDate": "2026-10-27",
+  "generatedDate": "2026-10-28",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-12-06",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 40
+    "daysToNextCatalyst": 39
   },
   "trialStats": {
     "completed": 2,
@@ -67,6 +67,12 @@
     "ongoing": 9,
     "withResults": 3,
     "byPhase": {
+      "phase2": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 3,
+        "completionRatePct": null
+      },
       "phase3": {
         "completed": 1,
         "terminated": 1,
@@ -77,12 +83,6 @@
         "completed": 0,
         "terminated": 0,
         "total": 2,
-        "completionRatePct": null
-      },
-      "phase2": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 3,
         "completionRatePct": null
       },
       "phase1": {
@@ -140,21 +140,6 @@
       "source": "ClinicalTrials.gov NCT03591874",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03591874",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-OCGN-0001104659-25-039478",
-      "ticker": "OCGN",
-      "date": "2025-04-25",
-      "title": "8-K filed: Leadership change",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.02. Leadership change. FORM 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-25",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1372299/000110465925039478/tm2513081d1_8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

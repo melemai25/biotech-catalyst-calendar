@@ -9,7 +9,7 @@
   "activeTrials": 0,
   "phase3": 0,
   "phase2": 0,
-  "generatedDate": "2026-10-27",
+  "generatedDate": "2026-10-28",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,7 +55,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-10-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 3
+    "daysToNextCatalyst": 2
   },
   "trialStats": {
     "completed": 12,
@@ -71,16 +71,16 @@
         "total": 13,
         "completionRatePct": 100
       },
-      "phase3": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 1,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 0,
         "terminated": 0,
         "total": 4,
+        "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 1,
         "completionRatePct": null
       }
     },
@@ -420,21 +420,6 @@
       "status": "past"
     },
     {
-      "id": "ct-ILMN-NCT06965621",
-      "ticker": "ILMN",
-      "date": "2026-10-30",
-      "title": "18F-mFBG Imaging for Myocardial Sympathetic Innervation",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Heart Failure, Ischemic Cardiomyopathy, ICD Patients · 20 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06965621",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06965621",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ILMN-NCT07176286",
       "ticker": "ILMN",
       "date": "2026-10-30",
@@ -446,6 +431,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07176286",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07176286",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ILMN-NCT06965621",
+      "ticker": "ILMN",
+      "date": "2026-10-30",
+      "title": "18F-mFBG Imaging for Myocardial Sympathetic Innervation",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Heart Failure, Ischemic Cardiomyopathy, ICD Patients · 20 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06965621",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06965621",
       "origin": "registry",
       "status": "upcoming"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 16,
   "phase3": 11,
   "phase2": 5,
-  "generatedDate": "2026-10-27",
+  "generatedDate": "2026-10-28",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 18,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 49
+    "daysToNextCatalyst": 48
   },
   "trialStats": {
     "completed": 86,
@@ -67,6 +67,12 @@
     "ongoing": 24,
     "withResults": 23,
     "byPhase": {
+      "phase1": {
+        "completed": 23,
+        "terminated": 1,
+        "total": 26,
+        "completionRatePct": 96
+      },
       "phase2": {
         "completed": 44,
         "terminated": 4,
@@ -78,12 +84,6 @@
         "terminated": 0,
         "total": 26,
         "completionRatePct": 100
-      },
-      "phase1": {
-        "completed": 23,
-        "terminated": 1,
-        "total": 26,
-        "completionRatePct": 96
       },
       "other": {
         "completed": 5,
@@ -1433,6 +1433,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-IONS-NCT07604974",
+      "ticker": "IONS",
+      "date": "2027-09-15",
+      "title": "A Study to Assess the Safety, Tolerability and Efficacy of ION775",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Hypertriglyceridemia, Severe Hypertriglyceridemia · 72 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07604974",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07604974",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-IONS-NCT06430385",
       "ticker": "IONS",
       "date": "2027-09-15",
@@ -1459,21 +1474,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04165486",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04165486",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-IONS-NCT07604974",
-      "ticker": "IONS",
-      "date": "2027-09-15",
-      "title": "A Study to Assess the Safety, Tolerability and Efficacy of ION775",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Hypertriglyceridemia, Severe Hypertriglyceridemia · 72 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07604974",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07604974",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1553,21 +1553,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-IONS-NCT05667493",
-      "ticker": "IONS",
-      "date": "2029-08-15",
-      "title": "An Extension Study to Assess Long-Term Safety of Eplontersen in Adults With Transthyretin-Mediated Amyloid Cardiomyopathy (ATTR-CM)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Transthyretin-Mediated Amyloid Cardiomyopathy (ATTR CM) · 1,400 participants · Status: Enrolling By Invitation",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05667493",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05667493",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-IONS-NCT05071300",
       "ticker": "IONS",
       "date": "2029-08-15",
@@ -1579,6 +1564,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05071300",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05071300",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-IONS-NCT05667493",
+      "ticker": "IONS",
+      "date": "2029-08-15",
+      "title": "An Extension Study to Assess Long-Term Safety of Eplontersen in Adults With Transthyretin-Mediated Amyloid Cardiomyopathy (ATTR-CM)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Transthyretin-Mediated Amyloid Cardiomyopathy (ATTR CM) · 1,400 participants · Status: Enrolling By Invitation",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05667493",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05667493",
       "origin": "registry",
       "status": "upcoming"
     },

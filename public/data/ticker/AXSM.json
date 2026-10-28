@@ -11,7 +11,7 @@
   "activeTrials": 7,
   "phase3": 7,
   "phase2": 0,
-  "generatedDate": "2026-10-27",
+  "generatedDate": "2026-10-28",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 11,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 49
+    "daysToNextCatalyst": 48
   },
   "trialStats": {
     "completed": 20,
@@ -788,21 +788,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-AXSM-NCT07773883",
-      "ticker": "AXSM",
-      "date": "2027-12-15",
-      "title": "An Open-Label Study to Assess the Long-Term Safety of Solriamfetol in Children and Adolescents With ADHD",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "ADHD · 300 participants · Status: Enrolling By Invitation",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07773883",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07773883",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-AXSM-NCT07766655",
       "ticker": "AXSM",
       "date": "2027-12-15",
@@ -814,6 +799,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07766655",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07766655",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-AXSM-NCT07773883",
+      "ticker": "AXSM",
+      "date": "2027-12-15",
+      "title": "An Open-Label Study to Assess the Long-Term Safety of Solriamfetol in Children and Adolescents With ADHD",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "ADHD · 300 participants · Status: Enrolling By Invitation",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07773883",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07773883",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -848,21 +848,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-AXSM-NCT07717892",
-      "ticker": "AXSM",
-      "date": "2028-06-30",
-      "title": "Forward Treatment of Attention Deficit and Hyperactivity Using Solriamfetol (FOCUS-3)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "ADHD · 468 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07717892",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07717892",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-AXSM-NCT07717879",
       "ticker": "AXSM",
       "date": "2028-06-30",
@@ -874,6 +859,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07717879",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07717879",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-AXSM-NCT07717892",
+      "ticker": "AXSM",
+      "date": "2028-06-30",
+      "title": "Forward Treatment of Attention Deficit and Hyperactivity Using Solriamfetol (FOCUS-3)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "ADHD · 468 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07717892",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07717892",
       "origin": "registry",
       "status": "upcoming"
     },

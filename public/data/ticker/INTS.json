@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-27",
+  "generatedDate": "2026-10-28",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-11-10",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 14
+    "daysToNextCatalyst": 13
   },
   "trialStats": {
     "completed": 1,
@@ -67,14 +67,14 @@
     "ongoing": 1,
     "withResults": 1,
     "byPhase": {
-      "phase3": {
-        "completed": 0,
+      "phase2": {
+        "completed": 1,
         "terminated": 0,
         "total": 1,
         "completionRatePct": null
       },
-      "phase2": {
-        "completed": 1,
+      "phase3": {
+        "completed": 0,
         "terminated": 0,
         "total": 1,
         "completionRatePct": null
@@ -98,21 +98,6 @@
       "source": "ClinicalTrials.gov NCT03058289",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03058289",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-INTS-0001628280-25-020057",
-      "ticker": "INTS",
-      "date": "2025-04-25",
-      "title": "8-K filed: Material agreement, Other event",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 1.01, 8.01, 9.01. Material agreement; Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-25",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1567264/000162828025020057/intensity-20250424.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

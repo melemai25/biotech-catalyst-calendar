@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-10-27",
+  "generatedDate": "2026-10-28",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -50,30 +50,36 @@
     "fcfMarginPct": -121.9,
     "marketCapUsd": null,
     "entityName": "PRECIGEN, INC.",
-    "activeTrials": 5,
-    "phase3Count": 0,
+    "activeTrials": 6,
+    "phase3Count": 1,
     "phase2Count": 2,
     "leadPhase": 4,
-    "upcomingCount": 3,
+    "upcomingCount": 4,
     "nextCatalystDate": "2026-11-11",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 15
+    "daysToNextCatalyst": 14
   },
   "trialStats": {
     "completed": 0,
     "terminated": 0,
     "withdrawn": 0,
     "suspended": 0,
-    "ongoing": 5,
+    "ongoing": 6,
     "withResults": 0,
     "byPhase": {
-      "phase2": {
+      "phase3": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 1,
+        "completionRatePct": null
+      },
+      "phase1": {
         "completed": 0,
         "terminated": 0,
         "total": 2,
         "completionRatePct": null
       },
-      "phase1": {
+      "phase2": {
         "completed": 0,
         "terminated": 0,
         "total": 2,
@@ -328,6 +334,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06538480",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06538480",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-PGEN-NCT07901738",
+      "ticker": "PGEN",
+      "date": "2029-01-15",
+      "title": "Zopapogene Imadenovec for the Treatment of Recurrent Respiratory Papillomatosis in Children",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Recurrent Respiratory Papillomatosis (RRP), Juvenile-onset Recurrent Respiratory Papillomatosis, Papillomavirus Infections · 15 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07901738",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07901738",
       "origin": "registry",
       "status": "upcoming"
     }

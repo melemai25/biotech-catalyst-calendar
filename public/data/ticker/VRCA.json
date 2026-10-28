@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 3,
   "phase2": 0,
-  "generatedDate": "2026-10-27",
+  "generatedDate": "2026-10-28",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2026-11-05",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 9
+    "daysToNextCatalyst": 8
   },
   "trialStats": {
     "completed": 6,
@@ -67,17 +67,17 @@
     "ongoing": 4,
     "withResults": 6,
     "byPhase": {
-      "phase3": {
-        "completed": 2,
-        "terminated": 0,
-        "total": 5,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 4,
         "terminated": 0,
         "total": 5,
         "completionRatePct": 100
+      },
+      "phase3": {
+        "completed": 2,
+        "terminated": 0,
+        "total": 5,
+        "completionRatePct": null
       }
     },
     "concluded": 6,
@@ -173,21 +173,6 @@
       "source": "ClinicalTrials.gov NCT05188729",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05188729",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-VRCA-0001193125-25-096909",
-      "ticker": "VRCA",
-      "date": "2025-04-25",
-      "title": "8-K filed: Leadership change",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.02, 9.01. Leadership change. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-25",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1660334/000119312525096909/d807929d8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

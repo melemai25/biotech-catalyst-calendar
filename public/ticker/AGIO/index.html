@@ -26,6 +26,8 @@
   .seo-scroll{overflow-x:auto;max-width:100%;min-width:0;-webkit-overflow-scrolling:touch;}
   .seo-scroll > .seo-table{margin:0;}
 
+  .seo-header h1 .accent{color:var(--teal,#0E8C97);}
+
   .site-nav{
     display:flex;align-items:center;gap:18px;flex-wrap:wrap;
     margin:0 0 18px;padding:0 2px 14px;
@@ -43,12 +45,29 @@
   /* Pushed to the far end, so the way back into the app is always in the same
      place rather than wherever the link list happens to end. */
   .site-nav-app{margin-left:auto;font-weight:600;}
+
+  .seo-lead{
+    display:flex;align-items:center;gap:16px;flex-wrap:wrap;
+    margin:0 0 24px;padding:16px 18px;
+    background:var(--teal-wash,#E2F3F5);
+    border:1px solid rgba(14,140,151,.18);
+    border-radius:var(--r-lg,16px);
+  }
+  .seo-lead p{
+    margin:0;flex:1 1 320px;min-width:0;
+    font-size:14px;line-height:1.5;color:var(--ink,#16343F);
+  }
+  .seo-lead .seo-btn{flex:0 0 auto;}
+  @media (max-width:620px){
+    .seo-lead{padding:14px;}
+    .seo-lead .seo-btn{width:100%;text-align:center;}
+  }
   @media (max-width:620px){
     .site-nav{gap:10px;}
     .site-nav-app{margin-left:0;}
   }
 </style>
-<script type="application/ld+json">[{"@context":"https://schema.org","@type":"Event","name":"Next quarterly earnings (projected)","startDate":"2026-10-29","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.","organizer":{"@type":"Organization","name":"AGIO"}},{"@context":"https://schema.org","@type":"Event","name":"A Study to Evaluate Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of AG-181 in Subjects With Phenylketonuria","startDate":"2028-01-17","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Phenylketonuria · 20 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"AGIO"}},{"@context":"https://schema.org","@type":"Event","name":"A Study to Investigate the Efficacy, Pharmacokinetics, and Safety of Mitapivat in Pediatric Participants With α- or β-Non-Transfusion-Dependent Thalassemia","startDate":"2029-03-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Non-Transfusion-dependent Alpha-Thalassemia, Non-Transfusion-dependent Beta-Thalassemia · 45 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"AGIO"}},{"@context":"https://schema.org","@type":"Event","name":"A Study to Investigate the Efficacy, Pharmacokinetics, and Safety of Mitapivat in Pediatric Participants With Transfusion-Dependent Alpha- or Beta-Thalassemia (α- or β-TDT)","startDate":"2029-06-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Transfusion-dependent Alpha-Thalassemia, Transfusion-dependent Beta-Thalassemia · 54 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"AGIO"}},{"@context":"https://schema.org","@type":"Event","name":"A Study to Provide Access to Mitapivat for Participants Who Previously Participated in an Agios-Sponsored Mitapivat Study","startDate":"2029-08-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Pyruvate Kinase Deficiency, Anemia, Hemolytic, Sickle Cell Disease · 59 participants · Status: Enrolling By Invitation","organizer":{"@type":"Organization","name":"AGIO"}},{"@context":"https://schema.org","@type":"Event","name":"A Study to Investigate the Effect of Mitapivat on Transfusion Burden in Subjects With Sickle Cell Disease (SCD)","startDate":"2029-08-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Sickle Cell Disease · 159 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"AGIO"}},{"@context":"https://schema.org","@type":"Event","name":"A Study to Investigate AG-236 in Subjects ≥18 Years of Age With Polycythemia Vera","startDate":"2030-08-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Polycythemia Vera · 245 participants · Status: Not Yet Recruiting","organizer":{"@type":"Organization","name":"AGIO"}}]</script>
+<script type="application/ld+json">[{"@context":"https://schema.org","@type":"Event","name":"Next quarterly earnings (projected)","startDate":"2026-10-29","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.","organizer":{"@type":"Organization","name":"AGIO"}},{"@context":"https://schema.org","@type":"Event","name":"A Study to Evaluate Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of AG-181 in Subjects With Phenylketonuria","startDate":"2028-01-17","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Phenylketonuria · 20 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"AGIO"}},{"@context":"https://schema.org","@type":"Event","name":"A Study to Investigate the Efficacy, Pharmacokinetics, and Safety of Mitapivat in Pediatric Participants With α- or β-Non-Transfusion-Dependent Thalassemia","startDate":"2029-03-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Non-Transfusion-dependent Alpha-Thalassemia, Non-Transfusion-dependent Beta-Thalassemia · 45 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"AGIO"}},{"@context":"https://schema.org","@type":"Event","name":"A Study to Investigate the Efficacy, Pharmacokinetics, and Safety of Mitapivat in Pediatric Participants With Transfusion-Dependent Alpha- or Beta-Thalassemia (α- or β-TDT)","startDate":"2029-06-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Transfusion-dependent Alpha-Thalassemia, Transfusion-dependent Beta-Thalassemia · 54 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"AGIO"}},{"@context":"https://schema.org","@type":"Event","name":"A Study to Investigate the Effect of Mitapivat on Transfusion Burden in Subjects With Sickle Cell Disease (SCD)","startDate":"2029-08-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Sickle Cell Disease · 159 participants · Status: Recruiting","organizer":{"@type":"Organization","name":"AGIO"}},{"@context":"https://schema.org","@type":"Event","name":"A Study to Provide Access to Mitapivat for Participants Who Previously Participated in an Agios-Sponsored Mitapivat Study","startDate":"2029-08-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Pyruvate Kinase Deficiency, Anemia, Hemolytic, Sickle Cell Disease · 55 participants · Status: Enrolling By Invitation","organizer":{"@type":"Organization","name":"AGIO"}},{"@context":"https://schema.org","@type":"Event","name":"A Study to Investigate AG-236 in Subjects ≥18 Years of Age With Polycythemia Vera","startDate":"2030-08-15","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://biolyst.org"},"description":"Polycythemia Vera · 245 participants · Status: Not Yet Recruiting","organizer":{"@type":"Organization","name":"AGIO"}}]</script>
 </head>
 <body>
 <div class="app seo-page">
@@ -66,6 +85,10 @@
   <h1>AGIO catalyst calendar</h1>
   <p class="seo-sub">AGIOS PHARMACEUTICALS, INC.</p>
 </header>
+<aside class="seo-lead">
+  <p>Everything on record for AGIO, in date order. The tracker puts AGIO on one calendar with the rest of your watchlist, and compares its cash position against the companies you are weighing it against.</p>
+  <a class="seo-btn" href="../../?tickers=AGIO">Open AGIO in the tracker &rsaquo;</a>
+</aside>
 <div class="seo-stats"><div class="seo-stat"><div class="seo-stat-k">Upcoming catalysts</div><div class="seo-stat-v">7</div></div><div class="seo-stat"><div class="seo-stat-k">Cash runway</div><div class="seo-stat-v">15.6 months</div></div><div class="seo-stat"><div class="seo-stat-k">Cash &amp; investments</div><div class="seo-stat-v">$618M</div></div><div class="seo-stat"><div class="seo-stat-k">Phase 3 programs</div><div class="seo-stat-v">12</div></div></div>
 <div class="seo-intro"><p>AGIOS PHARMACEUTICALS, INC. is tracked here for clinical trial milestones, SEC filings and earnings dates. Focus area: Pharmaceutical Preparations.</p>
 <p>The next scheduled catalyst is <strong>Next quarterly earnings (projected)</strong> on October 29, 2026, a projected date rather than a confirmed one. There are 7 upcoming events on record.</p>
@@ -108,16 +131,16 @@
 <tr>
 <td class="seo-date">August 15, 2029</td>
 
-<td><a href="https://clinicaltrials.gov/study/NCT05777993" rel="nofollow noopener" target="_blank">A Study to Provide Access to Mitapivat for Participants Who Previously Participated in an Agios-Sponsored Mitapivat Study</a></td>
+<td><a href="https://clinicaltrials.gov/study/NCT07656415" rel="nofollow noopener" target="_blank">A Study to Investigate the Effect of Mitapivat on Transfusion Burden in Subjects With Sickle Cell Disease (SCD)</a></td>
 <td>Trial Milestone</td>
-<td>Phase 4</td>
+<td>Phase 3</td>
 </tr>
 <tr>
 <td class="seo-date">August 15, 2029</td>
 
-<td><a href="https://clinicaltrials.gov/study/NCT07656415" rel="nofollow noopener" target="_blank">A Study to Investigate the Effect of Mitapivat on Transfusion Burden in Subjects With Sickle Cell Disease (SCD)</a></td>
+<td><a href="https://clinicaltrials.gov/study/NCT05777993" rel="nofollow noopener" target="_blank">A Study to Provide Access to Mitapivat for Participants Who Previously Participated in an Agios-Sponsored Mitapivat Study</a></td>
 <td>Trial Milestone</td>
-<td>Phase 3</td>
+<td>Phase 4</td>
 </tr>
 <tr>
 <td class="seo-date">August 15, 2030</td>
@@ -355,7 +378,7 @@
 <section class="seo-about">
   <h2>About this data</h2>
   <p>Trial milestones come from the ClinicalTrials.gov v2 API, filings from SEC EDGAR, and financial figures from SEC XBRL company facts. Dates marked <em>est.</em> are projected rather than company-confirmed. This is an information tool, not investment advice — verify anything you act on against the linked primary source.</p>
-  <p>Last updated 2026-10-27.</p>
+  <p>Last updated 2026-10-28.</p>
 </section>
 
 </div>

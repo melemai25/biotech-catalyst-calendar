@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 2,
   "phase2": 3,
-  "generatedDate": "2026-10-27",
+  "generatedDate": "2026-10-28",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 7,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 19
+    "daysToNextCatalyst": 18
   },
   "trialStats": {
     "completed": 12,
@@ -619,6 +619,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-10-14",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1706431/000162828026065826/vir-20261009.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-VIR-0001628280-26-067742",
+      "ticker": "VIR",
+      "date": "2026-10-28",
+      "title": "8-K filed: Leadership change",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 5.02. Leadership change. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-28",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1706431/000162828026067742/vir-20261026.htm",
       "origin": "edgar",
       "status": "past"
     },

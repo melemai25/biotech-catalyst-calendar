@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-10-27",
+  "generatedDate": "2026-10-28",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -50,14 +50,14 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "Genprex, Inc.",
-    "activeTrials": 4,
+    "activeTrials": 3,
     "phase3Count": 0,
-    "phase2Count": 3,
+    "phase2Count": 2,
     "leadPhase": 2,
     "upcomingCount": 2,
     "nextCatalystDate": "2027-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 414
+    "daysToNextCatalyst": 413
   },
   "trialStats": {
     "completed": 0,
@@ -85,21 +85,6 @@
     "resultsPostedPct": null
   },
   "events": [
-    {
-      "id": "ct-GNPX-NCT01455389",
-      "ticker": "GNPX",
-      "date": "2016-10-27",
-      "title": "TUSC2-nanoparticles and Erlotinib in Stage IV Lung Cancer",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Lung Cancer · 25 participants · Status: Terminated",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT01455389",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT01455389",
-      "origin": "registry",
-      "status": "past"
-    },
     {
       "id": "ct-GNPX-NCT05062980",
       "ticker": "GNPX",
@@ -757,6 +742,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-10-21",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1595248/000143774926033053/gnpx20261020_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-GNPX-0001437749-26-033700",
+      "ticker": "GNPX",
+      "date": "2026-10-28",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-28",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1595248/000143774926033700/gnpx20261021_8k.htm",
       "origin": "edgar",
       "status": "past"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 2,
   "phase2": 1,
-  "generatedDate": "2026-10-27",
+  "generatedDate": "2026-10-28",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 6,
     "leadPhase": 3,
     "upcomingCount": 2,
-    "nextCatalystDate": "2026-10-28",
+    "nextCatalystDate": "2027-01-20",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 84
   },
   "trialStats": {
     "completed": 6,
@@ -67,12 +67,6 @@
     "ongoing": 3,
     "withResults": 3,
     "byPhase": {
-      "other": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 1,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 4,
         "terminated": 0,
@@ -83,6 +77,12 @@
         "completed": 1,
         "terminated": 0,
         "total": 3,
+        "completionRatePct": null
+      },
+      "other": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 1,
         "completionRatePct": null
       }
     },
@@ -394,7 +394,7 @@
     {
       "id": "edgar-CMPS-next-earnings",
       "ticker": "CMPS",
-      "date": "2026-10-28",
+      "date": "2027-01-20",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

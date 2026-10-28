@@ -11,7 +11,7 @@
   "activeTrials": 10,
   "phase3": 1,
   "phase2": 9,
-  "generatedDate": "2026-10-27",
+  "generatedDate": "2026-10-28",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2027-06-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 231
+    "daysToNextCatalyst": 230
   },
   "trialStats": {
     "completed": 9,
@@ -209,21 +209,6 @@
       "source": "ClinicalTrials.gov NCT04625270",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04625270",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-VSTM-0001104659-25-039098",
-      "ticker": "VSTM",
-      "date": "2025-04-25",
-      "title": "8-K filed: Material agreement, Reg FD disclosure",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 1.01, 3.02, 7.01, 9.01. Material agreement; Reg FD disclosure. FORM 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-25",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1526119/000110465925039098/tm2513177d1_8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {
@@ -482,21 +467,6 @@
       "status": "past"
     },
     {
-      "id": "ct-VSTM-NCT05375994",
-      "ticker": "VSTM",
-      "date": "2026-06-15",
-      "title": "Study of Avutometinib (VS-6766) + Adagrasib in KRAS G12C NSCLC Patients",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Non Small Cell Lung Cancer, KRAS Activating Mutation, Advanced Cancer · 12 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05375994",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05375994",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-VSTM-NCT05074810",
       "ticker": "VSTM",
       "date": "2026-06-15",
@@ -508,6 +478,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05074810",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05074810",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-VSTM-NCT05375994",
+      "ticker": "VSTM",
+      "date": "2026-06-15",
+      "title": "Study of Avutometinib (VS-6766) + Adagrasib in KRAS G12C NSCLC Patients",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Non Small Cell Lung Cancer, KRAS Activating Mutation, Advanced Cancer · 12 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05375994",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05375994",
       "origin": "registry",
       "status": "past"
     },
@@ -617,6 +602,21 @@
       "status": "past"
     },
     {
+      "id": "ct-VSTM-NCT07644559",
+      "ticker": "VSTM",
+      "date": "2027-06-15",
+      "title": "A Phase 2 Study of VS-7375 in Patients With KRAS G12D-Mutated Pancreatic Cancer",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Pancreatic Ductal Adenocarcinoma (PDAC), G12D Mutated KRAS · 185 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07644559",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07644559",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-VSTM-NCT07659782",
       "ticker": "VSTM",
       "date": "2027-06-15",
@@ -643,21 +643,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07659795",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07659795",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-VSTM-NCT07644559",
-      "ticker": "VSTM",
-      "date": "2027-06-15",
-      "title": "A Phase 2 Study of VS-7375 in Patients With KRAS G12D-Mutated Pancreatic Cancer",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Pancreatic Ductal Adenocarcinoma (PDAC), G12D Mutated KRAS · 185 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07644559",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07644559",
       "origin": "registry",
       "status": "upcoming"
     },
