@@ -694,10 +694,14 @@ function statCards(meta){
   // the filing that says so has not been reflected yet.
   const out = cashOutDateOf(m);
   const lapsed = !!out && out <= TODAY_ISO;
+  // An offering, private placement or new debt filed after the balance sheet.
+  const fin = (m.financingSinceCash || [])[0] || null;
   const cards = [
     { label:'Cash runway', value: m.runwayMonths !== null && m.runwayMonths !== undefined
         ? m.runwayMonths + ' mo' : (m.cashStatus === 'cash-generating' ? 'Profitable' : null),
-      note: lapsed ? 'est. cash-out ' + out + ' has passed — check filings since' :
+      note: fin ? (lapsed ? 'est. cash-out ' + out + ' passed; ' : '')
+                  + 'financing filed ' + fin.date + ', after this figure' :
+            lapsed ? 'est. cash-out ' + out + ' has passed — check filings since' :
             m.burnScaled ? 'scaled from a longer reporting period' :
             m.cashStatus === 'cash-generating' ? 'generates cash from operations' :
             out ? 'to about ' + out + ' at the latest burn' : null,
@@ -979,6 +983,23 @@ function cashOutDateOf(m){
   return d.toISOString().slice(0, 10);
 }
 
+/**
+ * A small marker for runway views: the company has filed an offering, private
+ * placement or new debt since the balance sheet its runway comes from, so the
+ * cash figure is out of date. Says "filed", not "raised" — a prospectus can be
+ * a programme that has not sold anything yet.
+ */
+function financingFlag(ticker){
+  const m = ((state.data.tickers || {})[ticker] || {}).metrics || {};
+  const list = m.financingSinceCash || [];
+  if(!list.length) return null;
+  const tip = 'Filed after the ' + m.cashAsOf + ' cash figure:\n'
+    + list.map(f => f.date + '  ' + f.label + ' (' + f.form + ')').join('\n');
+  return el('div',{ title: tip,
+    style:'margin-top:4px;font-size:10.5px;font-weight:600;color:#9A6A12;white-space:nowrap;' },
+    ['financing filed ' + list[0].date.slice(5)]);
+}
+
 /** Days from today to a date string. Negative for the past. */
 function daysOut(dateStr){
   return Math.round((new Date(dateStr + 'T00:00:00') - new Date(TODAY_ISO + 'T00:00:00')) / 86400000);
@@ -1243,7 +1264,8 @@ function dataTab(){
           el('tr',{ onclick:()=>{ state.modalDate = e.date; render(); } },
             COLUMNS.map(c => {
               if(c.key==='ticker') return el('td',{},[
-                el('span',{class:'badge', style:'background:'+tickerColor(e.ticker)},[e.ticker])]);
+                el('span',{class:'badge', style:'background:'+tickerColor(e.ticker)},[e.ticker]),
+                state.filters.runway ? financingFlag(e.ticker) : null]);
               if(c.key==='title') return el('td',{class:'cell-title', title:e.title},[e.title]);
               return el('td',{},[String(c.get(e))]);
             })
