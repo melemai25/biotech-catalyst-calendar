@@ -90,6 +90,10 @@ const TAGS = {
     'DebtSecuritiesAvailableForSaleExcludingAccruedInterestCurrent',
     'AvailableForSaleSecuritiesCurrent',
     'HeldToMaturitySecuritiesCurrent',
+    'DebtSecuritiesCurrent',              // Xencor
+    // Unclassified. Last, because a few filers use it for a total; Edgewise
+    // uses it for the current line.
+    'MarketableSecurities',
   ],
   // Long-dated marketable securities. Biotechs commonly hold a third or more
   // of their money here and include it when they quote their own runway.
@@ -101,6 +105,7 @@ const TAGS = {
     'DebtSecuritiesAvailableForSaleExcludingAccruedInterestNoncurrent',
     'AvailableForSaleSecuritiesNoncurrent',
     'HeldToMaturitySecuritiesNoncurrent',
+    'DebtSecuritiesNoncurrent',           // Xencor
   ],
   // Some filers tag only the combined line.
   cashAndShortTermInvestments: ['CashCashEquivalentsAndShortTermInvestments'],
