@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-10-28",
+  "generatedDate": "2026-10-29",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2029-07-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 991
+    "daysToNextCatalyst": 990
   },
   "trialStats": {
     "completed": 1,
@@ -292,6 +292,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-07-17",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652935/000168316826005616/actuate_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-ACTU-0001683168-26-008143",
+      "ticker": "ACTU",
+      "date": "2026-10-28",
+      "title": "8-K filed: Material agreement, Other event",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 1.01, 8.01, 9.01. Material agreement; Other event. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-28",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652935/000168316826008143/actuate_8k.htm",
       "origin": "edgar",
       "status": "past"
     },

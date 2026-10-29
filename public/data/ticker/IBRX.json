@@ -11,7 +11,7 @@
   "activeTrials": 16,
   "phase3": 2,
   "phase2": 14,
-  "generatedDate": "2026-10-28",
+  "generatedDate": "2026-10-29",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 15,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 18
+    "daysToNextCatalyst": 17
   },
   "trialStats": {
     "completed": 18,
@@ -67,11 +67,11 @@
     "ongoing": 24,
     "withResults": 24,
     "byPhase": {
-      "phase3": {
-        "completed": 1,
-        "terminated": 2,
-        "total": 8,
-        "completionRatePct": null
+      "phase1": {
+        "completed": 10,
+        "terminated": 4,
+        "total": 21,
+        "completionRatePct": 71
       },
       "phase2": {
         "completed": 7,
@@ -79,16 +79,16 @@
         "total": 51,
         "completionRatePct": 39
       },
-      "phase1": {
-        "completed": 10,
-        "terminated": 4,
-        "total": 21,
-        "completionRatePct": 71
-      },
       "other": {
         "completed": 0,
         "terminated": 0,
         "total": 3,
+        "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 1,
+        "terminated": 2,
+        "total": 8,
         "completionRatePct": null
       }
     },
@@ -233,21 +233,6 @@
       "status": "past"
     },
     {
-      "id": "ct-IBRX-NCT03586869",
-      "ticker": "IBRX",
-      "date": "2019-04-17",
-      "title": "QUILT-3.080: NANT Pancreatic Cancer Vaccine",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Pancreatic Cancer · 3 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT03586869",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT03586869",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-IBRX-NCT03387111",
       "ticker": "IBRX",
       "date": "2019-04-17",
@@ -259,6 +244,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT03387111",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03387111",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-IBRX-NCT03586869",
+      "ticker": "IBRX",
+      "date": "2019-04-17",
+      "title": "QUILT-3.080: NANT Pancreatic Cancer Vaccine",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Pancreatic Cancer · 3 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT03586869",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03586869",
       "origin": "registry",
       "status": "past"
     },

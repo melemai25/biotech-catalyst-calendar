@@ -11,7 +11,7 @@
   "activeTrials": 40,
   "phase3": 23,
   "phase2": 17,
-  "generatedDate": "2026-10-28",
+  "generatedDate": "2026-10-29",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -54,10 +54,10 @@
     "phase3Count": 51,
     "phase2Count": 97,
     "leadPhase": 4,
-    "upcomingCount": 41,
+    "upcomingCount": 42,
     "nextCatalystDate": "2026-11-05",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 8
+    "daysToNextCatalyst": 7
   },
   "trialStats": {
     "completed": 143,
@@ -67,17 +67,17 @@
     "ongoing": 67,
     "withResults": 126,
     "byPhase": {
+      "phase3": {
+        "completed": 25,
+        "terminated": 9,
+        "total": 62,
+        "completionRatePct": 74
+      },
       "phase2": {
         "completed": 67,
         "terminated": 44,
         "total": 128,
         "completionRatePct": 60
-      },
-      "other": {
-        "completed": 4,
-        "terminated": 1,
-        "total": 18,
-        "completionRatePct": 80
       },
       "phase1": {
         "completed": 47,
@@ -85,11 +85,11 @@
         "total": 80,
         "completionRatePct": 77
       },
-      "phase3": {
-        "completed": 25,
-        "terminated": 9,
-        "total": 62,
-        "completionRatePct": 74
+      "other": {
+        "completed": 4,
+        "terminated": 1,
+        "total": 18,
+        "completionRatePct": 80
       }
     },
     "concluded": 221,
@@ -188,21 +188,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT02953678",
-      "ticker": "INCY",
-      "date": "2018-01-31",
-      "title": "A Study of Ruxolitinib in Combination With Corticosteroids for the Treatment of Steroid-Refractory Acute Graft-Versus-Host Disease (REACH-1)",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Graft-versus-host Disease (GVHD) · 71 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02953678",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02953678",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT02431260",
       "ticker": "INCY",
       "date": "2018-01-31",
@@ -214,6 +199,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT02431260",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02431260",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT02953678",
+      "ticker": "INCY",
+      "date": "2018-01-31",
+      "title": "A Study of Ruxolitinib in Combination With Corticosteroids for the Treatment of Steroid-Refractory Acute Graft-Versus-Host Disease (REACH-1)",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Graft-versus-host Disease (GVHD) · 71 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT02953678",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02953678",
       "origin": "registry",
       "status": "past"
     },
@@ -1148,21 +1148,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT02924376",
-      "ticker": "INCY",
-      "date": "2022-02-01",
-      "title": "Efficacy and Safety of Pemigatinib in Subjects With Advanced/Metastatic or Surgically Unresectable Cholangiocarcinoma Who Failed Previous Therapy - (FIGHT-202)",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Cholangiocarcinoma · 147 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02924376",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02924376",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT02872714",
       "ticker": "INCY",
       "date": "2022-02-01",
@@ -1174,6 +1159,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT02872714",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02872714",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT02924376",
+      "ticker": "INCY",
+      "date": "2022-02-01",
+      "title": "Efficacy and Safety of Pemigatinib in Subjects With Advanced/Metastatic or Surgically Unresectable Cholangiocarcinoma Who Failed Previous Therapy - (FIGHT-202)",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Cholangiocarcinoma · 147 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT02924376",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02924376",
       "origin": "registry",
       "status": "past"
     },
@@ -2003,21 +2003,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT04989387",
-      "ticker": "INCY",
-      "date": "2024-09-19",
-      "title": "Study of INCA 0186 in Subjects With Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Advanced Solid Tumors, Squamous Cell Carcinoma of the Head and Neck (SCCHN), Gastrointestinal (GI) Malignancies · 57 participants · Status: Terminated",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04989387",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04989387",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT05909995",
       "ticker": "INCY",
       "date": "2024-09-19",
@@ -2029,6 +2014,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05909995",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05909995",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT04989387",
+      "ticker": "INCY",
+      "date": "2024-09-19",
+      "title": "Study of INCA 0186 in Subjects With Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Advanced Solid Tumors, Squamous Cell Carcinoma of the Head and Neck (SCCHN), Gastrointestinal (GI) Malignancies · 57 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04989387",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04989387",
       "origin": "registry",
       "status": "past"
     },
@@ -2318,21 +2318,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT05949632",
-      "ticker": "INCY",
-      "date": "2025-06-06",
-      "title": "A Study of INCB099280 in Combination With Axitinib in Adults With Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Advanced Solid Tumors · 5 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT05949632",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05949632",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT06713590",
       "ticker": "INCY",
       "date": "2025-06-06",
@@ -2344,6 +2329,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06713590",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06713590",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT05949632",
+      "ticker": "INCY",
+      "date": "2025-06-06",
+      "title": "A Study of INCB099280 in Combination With Axitinib in Adults With Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Advanced Solid Tumors · 5 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT05949632",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05949632",
       "origin": "registry",
       "status": "past"
     },
@@ -3023,17 +3023,17 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT07448155",
+      "id": "ct-INCY-NCT06516952",
       "ticker": "INCY",
       "date": "2026-10-19",
-      "title": "A Study to Evaluate the Pharmacokinetics, Safety, and Tolerability of INCA033989 Following Subcutaneous or Intravenous Administration in Healthy Adult Participants",
+      "title": "A Study to Evaluate the Efficacy and Safety Study of Povorcitinib in Participants With Prurigo Nodularis (STOP-PN1)",
       "type": "Trial Milestone",
-      "phase": "Phase 1",
+      "phase": "Phase 3",
       "estimated": false,
-      "summary": "Healthy Participants · 126 participants · Status: Recruiting",
+      "summary": "Prurigo Nodularis · 349 participants · Status: Active Not Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT07448155",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07448155",
+      "source": "ClinicalTrials.gov NCT06516952",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06516952",
       "origin": "registry",
       "status": "past"
     },
@@ -3053,18 +3053,18 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT06516952",
+      "id": "edgar-INCY-0000879169-26-000063",
       "ticker": "INCY",
-      "date": "2026-10-19",
-      "title": "A Study to Evaluate the Efficacy and Safety Study of Povorcitinib in Participants With Prurigo Nodularis (STOP-PN1)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
+      "date": "2026-10-29",
+      "title": "Quarterly results filed (8-K)",
+      "type": "Earnings",
+      "phase": null,
       "estimated": false,
-      "summary": "Prurigo Nodularis · 349 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06516952",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06516952",
-      "origin": "registry",
+      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
+      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
+      "source": "SEC EDGAR 8-K 2026-10-29",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/879169/000087916926000063/incy-20261029.htm",
+      "origin": "edgar",
       "status": "past"
     },
     {
@@ -3079,6 +3079,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04509700",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04509700",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-INCY-NCT07448155",
+      "ticker": "INCY",
+      "date": "2026-11-14",
+      "title": "A Study to Evaluate the Pharmacokinetics, Safety, and Tolerability of INCA033989 Following Subcutaneous or Intravenous Administration in Healthy Adult Participants",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Healthy Participants · 108 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07448155",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07448155",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -3175,7 +3190,7 @@
     {
       "id": "edgar-INCY-next-earnings",
       "ticker": "INCY",
-      "date": "2027-01-26",
+      "date": "2027-01-28",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

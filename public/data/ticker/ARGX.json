@@ -11,7 +11,7 @@
   "activeTrials": 28,
   "phase3": 15,
   "phase2": 13,
-  "generatedDate": "2026-10-28",
+  "generatedDate": "2026-10-29",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -57,7 +57,7 @@
     "upcomingCount": 31,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 18
+    "daysToNextCatalyst": 17
   },
   "trialStats": {
     "completed": 35,
@@ -73,11 +73,11 @@
         "total": 33,
         "completionRatePct": 73
       },
-      "phase2": {
-        "completed": 9,
-        "terminated": 3,
-        "total": 25,
-        "completionRatePct": 75
+      "other": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 10,
+        "completionRatePct": null
       },
       "phase1": {
         "completed": 14,
@@ -85,11 +85,11 @@
         "total": 19,
         "completionRatePct": 100
       },
-      "other": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 10,
-        "completionRatePct": null
+      "phase2": {
+        "completed": 9,
+        "terminated": 3,
+        "total": 25,
+        "completionRatePct": 75
       }
     },
     "concluded": 43,
@@ -833,21 +833,6 @@
       "status": "past"
     },
     {
-      "id": "ct-ARGX-NCT06307626",
-      "ticker": "ARGX",
-      "date": "2025-12-15",
-      "title": "A Study of Efgartigimod PH20 SC Given by Prefilled Syringe in Adults With Thyroid Eye Disease.",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Thyroid Eye Disease · 105 participants · Status: Terminated",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06307626",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06307626",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-ARGX-NCT06307613",
       "ticker": "ARGX",
       "date": "2025-12-15",
@@ -859,6 +844,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06307613",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06307613",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-ARGX-NCT06307626",
+      "ticker": "ARGX",
+      "date": "2025-12-15",
+      "title": "A Study of Efgartigimod PH20 SC Given by Prefilled Syringe in Adults With Thyroid Eye Disease.",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Thyroid Eye Disease · 105 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06307626",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06307626",
       "origin": "registry",
       "status": "past"
     },
@@ -1418,21 +1418,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ARGX-NCT07612020",
-      "ticker": "ARGX",
-      "date": "2027-03-15",
-      "title": "A Study to Assess the Absolute Bioavailability of Empasiprubart SC Administered With an Autoinjector and the Pharmacokinetic Noninferiority of Empasiprubart SC Versus Intravenous (IV) in Healthy Adult Participants",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Healthy Volunteers · 130 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07612020",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07612020",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ARGX-NCT06655155",
       "ticker": "ARGX",
       "date": "2027-03-15",
@@ -1448,6 +1433,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-ARGX-NCT07612020",
+      "ticker": "ARGX",
+      "date": "2027-03-15",
+      "title": "A Study to Assess the Absolute Bioavailability of Empasiprubart SC Administered With an Autoinjector and the Pharmacokinetic Noninferiority of Empasiprubart SC Versus Intravenous (IV) in Healthy Adult Participants",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Healthy Volunteers · 130 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07612020",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07612020",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-ARGX-NCT04833894",
       "ticker": "ARGX",
       "date": "2027-03-15",
@@ -1455,7 +1455,7 @@
       "type": "Trial Milestone",
       "phase": "Phase 2/Phase 3",
       "estimated": false,
-      "summary": "Generalized Myasthenia Gravis · 12 participants · Status: Recruiting",
+      "summary": "Generalized Myasthenia Gravis · 15 participants · Status: Active Not Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT04833894",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04833894",
@@ -1508,21 +1508,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ARGX-NCT06392386",
-      "ticker": "ARGX",
-      "date": "2027-09-15",
-      "title": "A Study of Efgartigimod PH20 SC in Children Between 2 and Less Than 18 Years of Age With Generalized Myasthenia Gravis",
-      "type": "Trial Milestone",
-      "phase": "Phase 2/Phase 3",
-      "estimated": false,
-      "summary": "Generalized Myasthenia Gravis · 12 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06392386",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06392386",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ARGX-NCT06920004",
       "ticker": "ARGX",
       "date": "2027-09-15",
@@ -1534,6 +1519,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06920004",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06920004",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ARGX-NCT06392386",
+      "ticker": "ARGX",
+      "date": "2027-09-15",
+      "title": "A Study of Efgartigimod PH20 SC in Children Between 2 and Less Than 18 Years of Age With Generalized Myasthenia Gravis",
+      "type": "Trial Milestone",
+      "phase": "Phase 2/Phase 3",
+      "estimated": false,
+      "summary": "Generalized Myasthenia Gravis · 12 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06392386",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06392386",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1553,21 +1553,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ARGX-NCT04812925",
-      "ticker": "ARGX",
-      "date": "2027-10-15",
-      "title": "A Phase 3 Study to Evaluate the Safety and Efficacy of Efgartigimod PH20 Subcutaneous in Adult Patients With Primary Immune Thrombocytopenia",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Primary Immune Thrombocytopenia · 173 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04812925",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04812925",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ARGX-NCT07673627",
       "ticker": "ARGX",
       "date": "2027-10-15",
@@ -1579,6 +1564,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07673627",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07673627",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ARGX-NCT04812925",
+      "ticker": "ARGX",
+      "date": "2027-10-15",
+      "title": "A Phase 3 Study to Evaluate the Safety and Efficacy of Efgartigimod PH20 Subcutaneous in Adult Patients With Primary Immune Thrombocytopenia",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Primary Immune Thrombocytopenia · 173 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04812925",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04812925",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1658,6 +1658,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-ARGX-NCT07596849",
+      "ticker": "ARGX",
+      "date": "2028-06-15",
+      "title": "A Study to Assess Efficacy and Safety of Efgartigimod PH20 SC PFS in Adult Participants With Graves' Disease.",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Graves Disease · 230 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07596849",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07596849",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-ARGX-NCT06544499",
       "ticker": "ARGX",
       "date": "2028-06-15",
@@ -1684,21 +1699,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07570316",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07570316",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-ARGX-NCT07596849",
-      "ticker": "ARGX",
-      "date": "2028-06-15",
-      "title": "A Study to Assess Efficacy and Safety of Efgartigimod PH20 SC PFS in Adult Participants With Graves' Disease.",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Graves Disease · 230 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07596849",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07596849",
       "origin": "registry",
       "status": "upcoming"
     },

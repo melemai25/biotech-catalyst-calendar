@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-10-28",
+  "generatedDate": "2026-10-29",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 8,
     "nextCatalystDate": "2027-01-04",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 68
+    "daysToNextCatalyst": 67
   },
   "trialStats": {
     "completed": 16,
@@ -641,21 +641,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-XNCR-NCT06276491",
-      "ticker": "XNCR",
-      "date": "2027-12-15",
-      "title": "Phase 1, Safety and Tolerability Study of XmAb541 in Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Ovarian Cancer, Endometrial Cancer, Germ Cell Tumor · 282 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06276491",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06276491",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-XNCR-NCT06619990",
       "ticker": "XNCR",
       "date": "2027-12-15",
@@ -667,6 +652,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06619990",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06619990",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-XNCR-NCT06276491",
+      "ticker": "XNCR",
+      "date": "2027-12-15",
+      "title": "Phase 1, Safety and Tolerability Study of XmAb541 in Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Ovarian Cancer, Endometrial Cancer, Germ Cell Tumor · 282 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06276491",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06276491",
       "origin": "registry",
       "status": "upcoming"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 1,
   "phase2": 2,
-  "generatedDate": "2026-10-28",
+  "generatedDate": "2026-10-29",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -57,7 +57,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 48
+    "daysToNextCatalyst": 47
   },
   "trialStats": {
     "completed": 17,
@@ -67,10 +67,10 @@
     "ongoing": 4,
     "withResults": 11,
     "byPhase": {
-      "phase2": {
-        "completed": 10,
+      "phase1": {
+        "completed": 4,
         "terminated": 0,
-        "total": 12,
+        "total": 5,
         "completionRatePct": 100
       },
       "phase3": {
@@ -79,10 +79,10 @@
         "total": 6,
         "completionRatePct": 75
       },
-      "phase1": {
-        "completed": 4,
+      "phase2": {
+        "completed": 10,
         "terminated": 0,
-        "total": 5,
+        "total": 12,
         "completionRatePct": 100
       }
     },
@@ -332,21 +332,6 @@
       "status": "past"
     },
     {
-      "id": "ct-ABVX-NCT05507203",
-      "ticker": "ABVX",
-      "date": "2025-06-24",
-      "title": "ABTECT-1 - ABX464 Treatment Evaluation for Ulcerative Colitis Therapy -1",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Ulcerative Colitis · 639 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT05507203",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05507203",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-ABVX-NCT05507216",
       "ticker": "ABVX",
       "date": "2025-06-24",
@@ -358,6 +343,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT05507216",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05507216",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-ABVX-NCT05507203",
+      "ticker": "ABVX",
+      "date": "2025-06-24",
+      "title": "ABTECT-1 - ABX464 Treatment Evaluation for Ulcerative Colitis Therapy -1",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Ulcerative Colitis · 639 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT05507203",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05507203",
       "origin": "registry",
       "status": "past"
     },

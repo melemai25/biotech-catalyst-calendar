@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-28",
+  "generatedDate": "2026-10-29",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -54,10 +54,10 @@
     "phase3Count": 1,
     "phase2Count": 1,
     "leadPhase": 3,
-    "upcomingCount": 5,
+    "upcomingCount": 6,
     "nextCatalystDate": "2026-11-10",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 13
+    "daysToNextCatalyst": 12
   },
   "trialStats": {
     "completed": 4,
@@ -281,21 +281,6 @@
       "status": "past"
     },
     {
-      "id": "ct-IMNM-NCT07610005",
-      "ticker": "IMNM",
-      "date": "2026-06-15",
-      "title": "A Relative Bioavailability and Bioequivalence Study of Varegacestat in Healthy Participants",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Healthy · 20 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07610005",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07610005",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "edgar-IMNM-0001193125-26-344577",
       "ticker": "IMNM",
       "date": "2026-08-11",
@@ -338,6 +323,21 @@
       "source": "Projected from SEC EDGAR filing cadence",
       "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001472012&type=8-K",
       "origin": "edgar",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-IMNM-NCT07610005",
+      "ticker": "IMNM",
+      "date": "2027-05-15",
+      "title": "A Relative Bioavailability and Bioequivalence Study of Varegacestat in Healthy Participants",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Healthy · 44 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07610005",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07610005",
+      "origin": "registry",
       "status": "upcoming"
     },
     {

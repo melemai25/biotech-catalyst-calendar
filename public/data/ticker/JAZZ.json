@@ -11,7 +11,7 @@
   "activeTrials": 13,
   "phase3": 7,
   "phase2": 6,
-  "generatedDate": "2026-10-28",
+  "generatedDate": "2026-10-29",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 21,
     "nextCatalystDate": "2026-11-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 33
+    "daysToNextCatalyst": 32
   },
   "trialStats": {
     "completed": 132,
@@ -67,17 +67,17 @@
     "ongoing": 35,
     "withResults": 111,
     "byPhase": {
-      "phase3": {
-        "completed": 56,
-        "terminated": 10,
-        "total": 74,
-        "completionRatePct": 85
-      },
       "phase2": {
         "completed": 40,
         "terminated": 12,
         "total": 67,
         "completionRatePct": 77
+      },
+      "phase3": {
+        "completed": 56,
+        "terminated": 10,
+        "total": 74,
+        "completionRatePct": 85
       },
       "other": {
         "completed": 17,
@@ -1510,7 +1510,7 @@
     {
       "id": "ct-JAZZ-NCT07102381",
       "ticker": "JAZZ",
-      "date": "2028-01-01",
+      "date": "2027-12-29",
       "title": "A Phase 2 Neoadjuvant Study of Zanidatamab in Combination With Chemotherapy in Participants With HER2-positive Breast Cancer",
       "type": "Trial Milestone",
       "phase": "Phase 2",

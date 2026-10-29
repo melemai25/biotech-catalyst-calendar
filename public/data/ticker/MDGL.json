@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 3,
   "phase2": 2,
-  "generatedDate": "2026-10-28",
+  "generatedDate": "2026-10-29",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,9 +55,9 @@
     "phase2Count": 4,
     "leadPhase": 4,
     "upcomingCount": 8,
-    "nextCatalystDate": "2026-10-29",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "nextCatalystDate": "2026-12-15",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 47
   },
   "trialStats": {
     "completed": 13,
@@ -67,28 +67,28 @@
     "ongoing": 8,
     "withResults": 2,
     "byPhase": {
-      "phase3": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 4,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 10,
         "terminated": 0,
         "total": 11,
         "completionRatePct": 100
       },
-      "other": {
-        "completed": 0,
+      "phase3": {
+        "completed": 1,
         "terminated": 0,
-        "total": 2,
+        "total": 4,
         "completionRatePct": null
       },
       "phase2": {
         "completed": 2,
         "terminated": 0,
         "total": 4,
+        "completionRatePct": null
+      },
+      "other": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 2,
         "completionRatePct": null
       }
     },
@@ -428,21 +428,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-MDGL-next-earnings",
-      "ticker": "MDGL",
-      "date": "2026-10-29",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001157601&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-MDGL-NCT05500222",
       "ticker": "MDGL",
       "date": "2026-12-15",
@@ -455,6 +440,21 @@
       "source": "ClinicalTrials.gov NCT05500222",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05500222",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-MDGL-next-earnings",
+      "ticker": "MDGL",
+      "date": "2027-01-28",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001157601&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {

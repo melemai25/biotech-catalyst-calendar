@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-10-28",
+  "generatedDate": "2026-10-29",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,14 +57,14 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 48
+    "daysToNextCatalyst": 47
   },
   "trialStats": {
-    "completed": 26,
+    "completed": 27,
     "terminated": 3,
     "withdrawn": 1,
     "suspended": 0,
-    "ongoing": 3,
+    "ongoing": 2,
     "withResults": 4,
     "byPhase": {
       "phase1": {
@@ -80,13 +80,13 @@
         "completionRatePct": 50
       },
       "phase3": {
-        "completed": 1,
+        "completed": 2,
         "terminated": 0,
         "total": 3,
         "completionRatePct": null
       }
     },
-    "concluded": 30,
+    "concluded": 31,
     "completionRatePct": 87,
     "resultsPostedPct": 15
   },
@@ -602,6 +602,21 @@
       "status": "past"
     },
     {
+      "id": "ct-AVIR-NCT06868264",
+      "ticker": "AVIR",
+      "date": "2026-06-18",
+      "title": "C-BEYOND: Efficacy and Safety of BEM/RZR vs. SOF/VEL in Subjects With Chronic HCV",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "HEPATITIS C VIRUS CHRONIC INFECTION · 940 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06868264",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06868264",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "ct-AVIR-NCT07314346",
       "ticker": "AVIR",
       "date": "2026-07-23",
@@ -629,21 +644,6 @@
       "source": "SEC EDGAR 8-K 2026-08-12",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1593899/000119312526346888/d165663d8k.htm",
       "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "ct-AVIR-NCT06868264",
-      "ticker": "AVIR",
-      "date": "2026-09-15",
-      "title": "C-BEYOND: Efficacy and Safety of BEM/RZR vs. SOF/VEL in Subjects With Chronic HCV",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "HEPATITIS C VIRUS CHRONIC INFECTION · 880 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06868264",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06868264",
-      "origin": "registry",
       "status": "past"
     },
     {

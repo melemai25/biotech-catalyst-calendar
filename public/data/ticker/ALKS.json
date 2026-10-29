@@ -11,7 +11,7 @@
   "activeTrials": 7,
   "phase3": 5,
   "phase2": 2,
-  "generatedDate": "2026-10-28",
+  "generatedDate": "2026-10-29",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 9,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 18
+    "daysToNextCatalyst": 17
   },
   "trialStats": {
     "completed": 68,
@@ -79,17 +79,17 @@
         "total": 34,
         "completionRatePct": 89
       },
-      "other": {
-        "completed": 6,
-        "terminated": 0,
-        "total": 7,
-        "completionRatePct": 100
-      },
       "phase1": {
         "completed": 22,
         "terminated": 2,
         "total": 24,
         "completionRatePct": 92
+      },
+      "other": {
+        "completed": 6,
+        "terminated": 0,
+        "total": 7,
+        "completionRatePct": 100
       }
     },
     "concluded": 73,
@@ -848,21 +848,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ALKS-NCT07502443",
-      "ticker": "ALKS",
-      "date": "2027-05-15",
-      "title": "A Study to Evaluate the Efficacy and Safety of ALKS 2680 in Adults With Narcolepsy Type 2",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Narcolepsy Type 2 · 176 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07502443",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07502443",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ALKS-NCT07455383",
       "ticker": "ALKS",
       "date": "2027-05-15",
@@ -874,6 +859,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07455383",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07455383",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ALKS-NCT07502443",
+      "ticker": "ALKS",
+      "date": "2027-05-15",
+      "title": "A Study to Evaluate the Efficacy and Safety of ALKS 2680 in Adults With Narcolepsy Type 2",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Narcolepsy Type 2 · 176 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07502443",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07502443",
       "origin": "registry",
       "status": "upcoming"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 0,
   "phase2": 4,
-  "generatedDate": "2026-10-28",
+  "generatedDate": "2026-10-29",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2026-11-05",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 8
+    "daysToNextCatalyst": 7
   },
   "trialStats": {
     "completed": 12,
@@ -476,21 +476,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-EWTX-NCT07795814",
-      "ticker": "EWTX",
-      "date": "2027-12-15",
-      "title": "A Study of EDG-15400 in Adults With Heart Failure With Preserved Ejection Fraction (EQUINOX-HFpEF)",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Heart Failure With Preserved Ejection Fraction · 90 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07795814",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07795814",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-EWTX-NCT06347159",
       "ticker": "EWTX",
       "date": "2027-12-15",
@@ -502,6 +487,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06347159",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06347159",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-EWTX-NCT07795814",
+      "ticker": "EWTX",
+      "date": "2027-12-15",
+      "title": "A Study of EDG-15400 in Adults With Heart Failure With Preserved Ejection Fraction (EQUINOX-HFpEF)",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Heart Failure With Preserved Ejection Fraction · 90 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07795814",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07795814",
       "origin": "registry",
       "status": "upcoming"
     },

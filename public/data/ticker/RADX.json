@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-10-28",
+  "generatedDate": "2026-10-29",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -57,7 +57,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2027-08-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 306
+    "daysToNextCatalyst": 305
   },
   "trialStats": {
     "completed": 0,
@@ -67,16 +67,16 @@
     "ongoing": 7,
     "withResults": 0,
     "byPhase": {
-      "other": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 0,
         "terminated": 0,
         "total": 3,
+        "completionRatePct": null
+      },
+      "other": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 2,
         "completionRatePct": null
       },
       "phase1": {
@@ -1322,21 +1322,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-RADX-NCT06824155",
-      "ticker": "RADX",
-      "date": "2027-12-15",
-      "title": "HEAT Trial (HER2 Antibody Therapy With Lutetium-177)",
-      "type": "Trial Milestone",
-      "phase": "EARLY_Phase 1",
-      "estimated": false,
-      "summary": "HER2 Gene Mutation, Advanced Solid Tumors · 30 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06824155",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06824155",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-RADX-NCT07189871",
       "ticker": "RADX",
       "date": "2027-12-15",
@@ -1348,6 +1333,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07189871",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07189871",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-RADX-NCT06824155",
+      "ticker": "RADX",
+      "date": "2027-12-15",
+      "title": "HEAT Trial (HER2 Antibody Therapy With Lutetium-177)",
+      "type": "Trial Milestone",
+      "phase": "EARLY_Phase 1",
+      "estimated": false,
+      "summary": "HER2 Gene Mutation, Advanced Solid Tumors · 30 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06824155",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06824155",
       "origin": "registry",
       "status": "upcoming"
     },

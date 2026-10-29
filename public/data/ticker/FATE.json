@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-10-28",
+  "generatedDate": "2026-10-29",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,7 +57,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2026-11-13",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 16
+    "daysToNextCatalyst": 15
   },
   "trialStats": {
     "completed": 7,
@@ -73,16 +73,16 @@
         "total": 19,
         "completionRatePct": 43
       },
-      "phase2": {
-        "completed": 1,
-        "terminated": 1,
-        "total": 4,
-        "completionRatePct": null
-      },
       "other": {
         "completed": 0,
         "terminated": 2,
         "total": 2,
+        "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 1,
+        "terminated": 1,
+        "total": 4,
         "completionRatePct": null
       }
     },
@@ -91,21 +91,6 @@
     "resultsPostedPct": 43
   },
   "events": [
-    {
-      "id": "ct-FATE-NCT02354417",
-      "ticker": "FATE",
-      "date": "2016-12-15",
-      "title": "A Phase 1 Trial of a Single ProHema® CB Product for Pediatric Patients With Hematologic Malignancies",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Hematologic Malignancies · 3 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02354417",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02354417",
-      "origin": "registry",
-      "status": "past"
-    },
     {
       "id": "ct-FATE-NCT02354443",
       "ticker": "FATE",
@@ -118,6 +103,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT02354443",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02354443",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-FATE-NCT02354417",
+      "ticker": "FATE",
+      "date": "2016-12-15",
+      "title": "A Phase 1 Trial of a Single ProHema® CB Product for Pediatric Patients With Hematologic Malignancies",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Hematologic Malignancies · 3 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT02354417",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02354417",
       "origin": "registry",
       "status": "past"
     },

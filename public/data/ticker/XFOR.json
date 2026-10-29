@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-28",
+  "generatedDate": "2026-10-29",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -50,29 +50,23 @@
     "fcfMarginPct": -848.8,
     "marketCapUsd": null,
     "entityName": "X4 PHARMACEUTICALS, INC",
-    "activeTrials": 10,
+    "activeTrials": 11,
     "phase3Count": 2,
-    "phase2Count": 4,
+    "phase2Count": 5,
     "leadPhase": 3,
-    "upcomingCount": 2,
+    "upcomingCount": 3,
     "nextCatalystDate": "2026-11-28",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 31
+    "daysToNextCatalyst": 30
   },
   "trialStats": {
     "completed": 8,
     "terminated": 2,
     "withdrawn": 1,
     "suspended": 0,
-    "ongoing": 1,
+    "ongoing": 2,
     "withResults": 3,
     "byPhase": {
-      "phase3": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 4,
         "terminated": 1,
@@ -82,8 +76,14 @@
       "phase2": {
         "completed": 3,
         "terminated": 1,
-        "total": 4,
+        "total": 5,
         "completionRatePct": 75
+      },
+      "phase3": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 2,
+        "completionRatePct": null
       },
       "other": {
         "completed": 0,
@@ -443,6 +443,21 @@
       "status": "past"
     },
     {
+      "id": "edgar-XFOR-0001501697-26-000084",
+      "ticker": "XFOR",
+      "date": "2026-10-29",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-29",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1501697/000150169726000084/xfor-20261029.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "edgar-XFOR-next-earnings",
       "ticker": "XFOR",
       "date": "2026-11-28",
@@ -469,6 +484,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06056297",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06056297",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-XFOR-NCT07902830",
+      "ticker": "XFOR",
+      "date": "2029-01-30",
+      "title": "A Study to Investigate the Safety and Tolerability of Granulocyte-colony Stimulating Factor (G-CSF) Dosage Reduction in Mavorixafor-treated Participants With Acquired Primary Autoimmune and Idiopathic Chronic Neutropenia Disorders",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Acquired Primary Autoimmune and Idiopathic Chronic Neutropenia Disorders, Chronic Neutropenia, Autoimmune Neutropenia · 40 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07902830",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07902830",
       "origin": "registry",
       "status": "upcoming"
     }
