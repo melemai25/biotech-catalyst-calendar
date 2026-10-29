@@ -704,7 +704,10 @@ function statCards(meta){
       tone: m.runwayMonths === null || m.runwayMonths === undefined ? 'neutral'
           : lapsed || m.runwayMonths < 12 ? 'warn' : m.runwayMonths < 24 ? 'mid' : 'good' },
     { label:'Cash & investments', value: fmtUsd(m.totalCashUsd, ccy),
-      note: m.cashAsOf ? 'as of ' + m.cashAsOf : null, tone:'neutral' },
+      note: !m.cashAsOf ? null
+          : daysOut(m.cashAsOf) < -200 ? 'as of ' + m.cashAsOf + ' — over 6 months old'
+          : 'as of ' + m.cashAsOf,
+      tone:'neutral' },
     { label:'Quarterly burn', value: fmtUsd(m.quarterlyBurnUsd, ccy),
       note: m.burnPeriod, tone:'neutral' },
     { label:'Dilution, 1 yr', value: m.dilutionPctYoy === null || m.dilutionPctYoy === undefined
@@ -1016,6 +1019,11 @@ function matchesFilters(e, f, tickerMeta){
       // only pad the list.
       if(e.type === 'Earnings') return false;
       if(daysOut(e.date) <= 0) return false;
+      // A balance sheet more than ~6 months old says little about today.
+      // Foreign filers often only have their annual report in the SEC's data,
+      // so their cash is counted from last December. Leave them out rather
+      // than list them on a stale figure.
+      if(m.cashAsOf && daysOut(m.cashAsOf) < -200) return false;
       // Compared with the date the cash runs out, counted from the balance
       // sheet. Adding the runway to TODAY pushed every cash-out date months
       // too late, by however long ago the quarter closed.
