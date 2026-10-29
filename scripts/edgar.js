@@ -273,11 +273,67 @@ function filingsToEvents(filings, ticker, cik, today, lookbackDays = 550) {
   return { events, earningsCount: earningsDates.length, projected, formCounts };
 }
 
+/*
+ * Filings that mean a company has raised (or arranged) money. Used to mark a
+ * runway as out of date: the cash figure comes from the last 10-Q, and a raise
+ * after that date is not in it.
+ *
+ * Signals, not amounts. A 424B5 can be a completed offering or a new
+ * at-the-market programme that has not sold a share yet; the label says
+ * "filed", never "raised $X".
+ */
+const OFFERING_FORMS = {
+  '424B1': 'Offering prospectus',
+  '424B4': 'Offering prospectus',
+  '424B2': 'Prospectus supplement',
+  '424B5': 'Prospectus supplement',
+  '424B3': 'Prospectus (often a resale after a private placement)',
+  '424B7': 'Resale prospectus',
+};
+const FINANCING_ITEMS = {
+  '3.02': 'Unregistered sale of shares (private placement)',
+  '2.03': 'New debt or financing obligation',
+};
+
+function financingSignals(filings, cik, lookbackFrom) {
+  const out = [];
+  for (const f of filings) {
+    if (!f.filingDate || (lookbackFrom && f.filingDate < lookbackFrom)) continue;
+    let label = null;
+    if (OFFERING_FORMS[f.form]) {
+      label = OFFERING_FORMS[f.form];
+    } else if (f.form === '8-K' || f.form === '8-K/A') {
+      const codes = String(f.items).split(',').map(s => s.trim());
+      const hit = codes.find(c => FINANCING_ITEMS[c]);
+      if (hit) label = FINANCING_ITEMS[hit];
+    } else if (/^6-K/.test(f.form)
+        && /\b(offering|placement|financing|subscription|capital raise|registered direct|at-the-market)\b/i.test(f.description || '')) {
+      label = 'Financing announcement';
+    }
+    if (label) {
+      out.push({ date: f.filingDate, form: f.form, label,
+        url: filingUrl(cik, f.accession, f.primaryDoc) });
+    }
+  }
+  return out.sort((a, b) => b.date.localeCompare(a.date));
+}
+
+/**
+ * The financing filings dated AFTER a balance sheet date, newest first,
+ * at most `limit`. Empty when there is no date to compare against.
+ */
+function financingSince(signals, cashAsOf, limit = 5) {
+  if (!cashAsOf || !signals) return [];
+  return signals.filter(s => s.date > cashAsOf).slice(0, limit);
+}
+
 async function fetchCompanyEvents(ticker, cik, today, userAgent) {
   const sub = await secFetch(SUBMISSIONS(cik), userAgent);
   const filings = flattenFilings(sub);
   const result = filingsToEvents(filings, ticker, cik, today);
-  return { ...result, totalFilings: filings.length, companyName: sub.name };
+  const lookbackFrom = new Date(new Date(today).getTime() - 550 * 86400000).toISOString().slice(0, 10);
+  return { ...result, totalFilings: filings.length, companyName: sub.name,
+    financings: financingSignals(filings, cik, lookbackFrom) };
 }
 
 module.exports = {
@@ -291,5 +347,7 @@ module.exports = {
   filingsToEvents,
   projectNextEarnings,
   filingUrl,
+  financingSignals,
+  financingSince,
   ITEM_MAP,
 };
