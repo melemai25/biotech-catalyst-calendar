@@ -121,7 +121,25 @@ async function main() {
       }
     }
     console.log(`  investment tags on file:${seen.length ? '\n    ' + seen.join('\n    ') : ' none'}`);
-    console.log(`  burn tag: ${ex.operatingCashFlow ? ex.operatingCashFlow.tag : '—'}\n`);
+    console.log(`  burn tag: ${ex.operatingCashFlow ? ex.operatingCashFlow.tag : '—'}`);
+
+    // Anything on the same balance sheet that LOOKS like money but is not in
+    // the lists above — catches a deposits or financial-assets tag we have
+    // never seen, which is how foreign filers usually go missing.
+    const known = new Set(['cash', 'shortTermInvestments', 'longTermInvestments', 'cashAndShortTermInvestments']
+      .flatMap(k => xbrl.tagsFor(k)));
+    const extra = [];
+    for (const tax of ['us-gaap', 'ifrs-full']) {
+      for (const [tag, entry] of Object.entries((facts.facts || {})[tax] || {})) {
+        if (known.has(tag) || !/deposit|invest|financialasset|securit/i.test(tag)) continue;
+        for (const list of Object.values(entry.units || {})) {
+          const f = list.find(x => !x.start && x.end === after.cashAsOf);
+          if (f) { extra.push(`${tax}:${tag} ${$m(f.val)}`); break; }
+        }
+      }
+    }
+    console.log(`  other money-like tags on ${after.cashAsOf || '—'}:${extra.length ? '\n    ' + extra.join('\n    ') : ' none'}`);
+    console.log(`  reporting currency: ${after.reportingCurrency || '—'}\n`);
   }
 
   console.log('='.repeat(64));
