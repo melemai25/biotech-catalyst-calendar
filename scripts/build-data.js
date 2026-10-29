@@ -312,6 +312,7 @@ async function main() {
     let registryEvents = [];
     let trialStats = null;
     let edgarEvents = [];
+    let financings = [];
     let edgarNote = '';
     let error = null;
 
@@ -343,6 +344,7 @@ async function main() {
         try {
           const r = await edgar.fetchCompanyEvents(ticker, hit.cik, today, edgarUA);
           edgarEvents = r.events;
+          financings = r.financings || [];
           if (r.events.length === 0) {
             const forms = Object.entries(r.formCounts || {})
               .sort((a, b) => b[1] - a[1]).slice(0, 4)
@@ -369,6 +371,10 @@ async function main() {
           const m = await xbrl.fetchMetrics(hit.cik, edgarUA);
           if (m) {
             metrics[ticker] = m;
+            // Offerings, private placements or new debt filed after the
+            // balance sheet date: the runway above does not include them.
+            const since = edgar.financingSince(financings, m.cashAsOf);
+            if (since.length) m.financingSinceCash = since;
             const ccy = m.reportingCurrency || '';
             const cash = m.totalCashUsd
               ? (m.isUsd ? '$' : ccy + ' ') + (m.totalCashUsd/1e6).toFixed(0) + 'M'
