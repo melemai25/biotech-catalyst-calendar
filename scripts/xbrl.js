@@ -48,7 +48,14 @@ const sleep = (ms) => new Promise(r => setTimeout(r, ms));
  */
 const IFRS_TAGS = {
   cash: ['CashAndCashEquivalents'],
-  shortTermInvestments: ['OtherCurrentFinancialAssets', 'CurrentInvestments'],
+  // Term deposits are where foreign biotechs usually keep most of their money
+  // (AC Immune, MediWound). Note the IFRS spelling: "Shortterm", one word.
+  // Not ...ClassifiedAsCashEquivalents — those are already inside cash.
+  shortTermInvestments: [
+    'ShorttermDepositsNotClassifiedAsCashEquivalents',
+    'OtherCurrentFinancialAssets',
+    'CurrentInvestments',
+  ],
   longTermDebt: ['NoncurrentPortionOfNoncurrentBorrowings', 'Borrowings'],
   totalAssets: ['Assets'],
   stockholdersEquity: ['Equity', 'EquityAttributableToOwnersOfParent'],
