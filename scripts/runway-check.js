@@ -75,7 +75,7 @@ async function main() {
     return (tickerMap[t] || {}).cik || null;
   };
 
-  const summary = { before: 0, after: 0, left: [], stayed: [], lapsed: [], noData: [] };
+  const summary = { before: 0, after: 0, left: [], stayed: [], lapsed: [], noData: [], financed: [] };
 
   for (const t of tickers) {
     const before = ((index.tickers[t] || {}).metrics) || {};
@@ -139,7 +139,18 @@ async function main() {
       }
     }
     console.log(`  other money-like tags on ${after.cashAsOf || '—'}:${extra.length ? '\n    ' + extra.join('\n    ') : ' none'}`);
-    console.log(`  reporting currency: ${after.reportingCurrency || '—'}\n`);
+    console.log(`  reporting currency: ${after.reportingCurrency || '—'}`);
+
+    // Financing filed after the balance sheet — what the site will now flag.
+    let fin = [];
+    try {
+      const r = await edgar.fetchCompanyEvents(t, cik, TODAY, ua);
+      fin = edgar.financingSince(r.financings, after.cashAsOf, 10);
+    } catch (e) { console.log(`  financing check failed: ${e.message}`); }
+    if (fin.length) summary.financed.push(t);
+    console.log(`  financing filed after ${after.cashAsOf || '—'}:${fin.length
+      ? '\n    ' + fin.map(f => `${f.date}  ${f.form}  ${f.label}\n      ${f.url}`).join('\n    ')
+      : ' none'}\n`);
   }
 
   console.log('='.repeat(64));
@@ -148,6 +159,7 @@ async function main() {
   if (summary.left.length) console.log(`Leave the list: ${summary.left.join(', ')}`);
   if (summary.stayed.length) console.log(`Still on it:    ${summary.stayed.join(', ')}`);
   if (summary.lapsed.length) console.log(`Cash-out date already passed (check for financing since): ${summary.lapsed.join(', ')}`);
+  if (summary.financed.length) console.log(`Financing filed since their cash figure: ${summary.financed.join(', ')}`);
   if (summary.noData.length) console.log(`Not checked:    ${summary.noData.join(', ')}`);
 }
 
