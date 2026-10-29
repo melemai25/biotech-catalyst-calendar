@@ -53,6 +53,14 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "Pharvaris N.V.",
+    "financingSinceCash": [
+      {
+        "date": "2026-05-08",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1830487/000119312526214985/d36127d424b5.htm"
+      }
+    ],
     "activeTrials": 7,
     "phase3Count": 5,
     "phase2Count": 3,

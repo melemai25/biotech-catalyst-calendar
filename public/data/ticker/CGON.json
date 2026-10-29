@@ -53,6 +53,14 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "CG Oncology, Inc.",
+    "financingSinceCash": [
+      {
+        "date": "2026-08-06",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1991792/000119312526336792/d178600d424b5.htm"
+      }
+    ],
     "activeTrials": 5,
     "phase3Count": 2,
     "phase2Count": 3,

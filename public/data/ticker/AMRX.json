@@ -53,6 +53,14 @@
     "fcfMarginPct": 4.1,
     "marketCapUsd": null,
     "entityName": "AMNEAL PHARMACEUTICALS, INC.",
+    "financingSinceCash": [
+      {
+        "date": "2026-08-10",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1723128/000114036126032014/ef20079825_8k.htm"
+      }
+    ],
     "activeTrials": 3,
     "phase3Count": 2,
     "phase2Count": 0,

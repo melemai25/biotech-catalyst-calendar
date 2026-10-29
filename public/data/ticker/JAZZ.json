@@ -53,6 +53,20 @@
     "fcfMarginPct": 34.6,
     "marketCapUsd": null,
     "entityName": "Jazz Pharmaceuticals plc",
+    "financingSinceCash": [
+      {
+        "date": "2026-09-23",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1232524/000119312526399425/d163027d8k.htm"
+      },
+      {
+        "date": "2026-08-31",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1232524/000119312526377073/d127542d8k.htm"
+      }
+    ],
     "activeTrials": 85,
     "phase3Count": 30,
     "phase2Count": 37,

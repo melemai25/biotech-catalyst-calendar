@@ -53,6 +53,20 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "Rapport Therapeutics, Inc.",
+    "financingSinceCash": [
+      {
+        "date": "2026-10-27",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012593/000119312526434382/d98241d424b5.htm"
+      },
+      {
+        "date": "2026-10-27",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012593/000119312526434371/d348288d424b5.htm"
+      }
+    ],
     "activeTrials": 5,
     "phase3Count": 2,
     "phase2Count": 3,

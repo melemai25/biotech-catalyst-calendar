@@ -53,6 +53,26 @@
     "fcfMarginPct": -2210.1,
     "marketCapUsd": null,
     "entityName": "Can-Fite BioPharma Ltd.",
+    "financingSinceCash": [
+      {
+        "date": "2026-10-09",
+        "form": "424B3",
+        "label": "Prospectus (often a resale after a private placement)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1536196/000121390026108576/ea0307538-424b3_canfite.htm"
+      },
+      {
+        "date": "2026-04-03",
+        "form": "424B3",
+        "label": "Prospectus (often a resale after a private placement)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1536196/000121390026040022/ea0284494-424b3_canfite.htm"
+      },
+      {
+        "date": "2026-03-05",
+        "form": "424B3",
+        "label": "Prospectus (often a resale after a private placement)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1536196/000121390026023875/ea0280098-424b3_canfite.htm"
+      }
+    ],
     "activeTrials": 10,
     "phase3Count": 4,
     "phase2Count": 6,

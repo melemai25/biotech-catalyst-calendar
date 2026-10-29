@@ -53,6 +53,14 @@
     "fcfMarginPct": 13.1,
     "marketCapUsd": null,
     "entityName": "WEST PHARMACEUTICAL SERVICES, INC.",
+    "financingSinceCash": [
+      {
+        "date": "2026-10-26",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/105770/000010577026000114/wst-20261026.htm"
+      }
+    ],
     "activeTrials": 3,
     "phase3Count": 0,
     "phase2Count": 3,

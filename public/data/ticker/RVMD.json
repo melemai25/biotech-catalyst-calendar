@@ -53,6 +53,20 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "Revolution Medicines, Inc.",
+    "financingSinceCash": [
+      {
+        "date": "2026-10-13",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1628171/000162817126000004/rvmd-20261008.htm"
+      },
+      {
+        "date": "2026-09-01",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1628171/000119312526377362/rvmd-20260827.htm"
+      }
+    ],
     "activeTrials": 18,
     "phase3Count": 7,
     "phase2Count": 7,

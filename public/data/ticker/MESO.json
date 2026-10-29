@@ -53,6 +53,14 @@
     "fcfMarginPct": -294.4,
     "marketCapUsd": null,
     "entityName": "MESOBLAST LIMITED",
+    "financingSinceCash": [
+      {
+        "date": "2026-01-14",
+        "form": "424B3",
+        "label": "Prospectus (often a resale after a private placement)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1345099/000121390026004248/ea0271817-424b3_mesoblast.htm"
+      }
+    ],
     "activeTrials": 3,
     "phase3Count": 3,
     "phase2Count": 0,

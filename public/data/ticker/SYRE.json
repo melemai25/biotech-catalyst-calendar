@@ -53,6 +53,20 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "Spyre Therapeutics, Inc.",
+    "financingSinceCash": [
+      {
+        "date": "2026-10-06",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1636282/000162828026065249/spyre-final424b5.htm"
+      },
+      {
+        "date": "2026-10-05",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1636282/000162828026064924/spyre-424b5.htm"
+      }
+    ],
     "activeTrials": 8,
     "phase3Count": 0,
     "phase2Count": 4,

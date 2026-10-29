@@ -53,6 +53,38 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "LB PHARMACEUTICALS INC",
+    "financingSinceCash": [
+      {
+        "date": "2026-09-15",
+        "form": "424B3",
+        "label": "Prospectus (often a resale after a private placement)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1691082/000119312526391384/d111714d424b3.htm"
+      },
+      {
+        "date": "2026-09-03",
+        "form": "424B3",
+        "label": "Prospectus (often a resale after a private placement)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1691082/000119312526381100/d528123d424b3.htm"
+      },
+      {
+        "date": "2026-08-11",
+        "form": "424B3",
+        "label": "Prospectus (often a resale after a private placement)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1691082/000119312526343542/pro_supp_june_30_2026.htm"
+      },
+      {
+        "date": "2026-07-29",
+        "form": "424B3",
+        "label": "Prospectus (often a resale after a private placement)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1691082/000119312526322276/d156920d424b3.htm"
+      },
+      {
+        "date": "2026-07-29",
+        "form": "8-K",
+        "label": "Unregistered sale of shares (private placement)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1691082/000119312526322208/d156920d8k.htm"
+      }
+    ],
     "activeTrials": 6,
     "phase3Count": 2,
     "phase2Count": 2,

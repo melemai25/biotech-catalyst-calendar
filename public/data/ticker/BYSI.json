@@ -53,6 +53,14 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "BeyondSpring Inc.",
+    "financingSinceCash": [
+      {
+        "date": "2026-09-29",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1677940/000114036126037918/ny20082848x1_424b5.htm"
+      }
+    ],
     "activeTrials": 5,
     "phase3Count": 3,
     "phase2Count": 2,

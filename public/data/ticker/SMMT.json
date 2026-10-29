@@ -53,6 +53,20 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "Summit Therapeutics Inc.",
+    "financingSinceCash": [
+      {
+        "date": "2026-09-29",
+        "form": "8-K",
+        "label": "Unregistered sale of shares (private placement)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1599298/000119312526405776/d178892d8k.htm"
+      },
+      {
+        "date": "2026-07-23",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1599298/000119312526314210/d39231d424b5.htm"
+      }
+    ],
     "activeTrials": 9,
     "phase3Count": 7,
     "phase2Count": 3,

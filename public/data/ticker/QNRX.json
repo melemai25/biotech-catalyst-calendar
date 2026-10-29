@@ -53,6 +53,20 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "Quoin Pharmaceuticals Ltd.",
+    "financingSinceCash": [
+      {
+        "date": "2026-09-25",
+        "form": "424B3",
+        "label": "Prospectus (often a resale after a private placement)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1671502/000110465926111012/tm2625587d3_424b3.htm"
+      },
+      {
+        "date": "2026-08-28",
+        "form": "8-K",
+        "label": "Unregistered sale of shares (private placement)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1671502/000110465926102917/tm2624258d1_8k.htm"
+      }
+    ],
     "activeTrials": 4,
     "phase3Count": 4,
     "phase2Count": 4,

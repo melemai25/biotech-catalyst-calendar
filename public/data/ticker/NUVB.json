@@ -53,6 +53,14 @@
     "fcfMarginPct": -70.9,
     "marketCapUsd": null,
     "entityName": "Nuvation Bio Inc.",
+    "financingSinceCash": [
+      {
+        "date": "2026-07-06",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1811063/000119312526296398/d136399d8k.htm"
+      }
+    ],
     "activeTrials": 16,
     "phase3Count": 4,
     "phase2Count": 5,

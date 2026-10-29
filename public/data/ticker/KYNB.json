@@ -53,6 +53,14 @@
     "fcfMarginPct": -824.4,
     "marketCapUsd": null,
     "entityName": "KYNTRA BIO, INC.",
+    "financingSinceCash": [
+      {
+        "date": "2026-08-31",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/921299/000119312526377059/kynb-20260831.htm"
+      }
+    ],
     "activeTrials": 24,
     "phase3Count": 16,
     "phase2Count": 8,

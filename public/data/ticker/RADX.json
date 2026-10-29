@@ -53,6 +53,38 @@
     "fcfMarginPct": -1008.6,
     "marketCapUsd": null,
     "entityName": "Radiopharm Theranostics Limited",
+    "financingSinceCash": [
+      {
+        "date": "2026-09-23",
+        "form": "424B3",
+        "label": "Prospectus (often a resale after a private placement)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1949257/000121390026102669/ea0306187-424b3_radio.htm"
+      },
+      {
+        "date": "2026-07-27",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1949257/000121390026081556/ea0299287-424b5_radiopharm.htm"
+      },
+      {
+        "date": "2026-07-23",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1949257/000121390026080653/ea0298996-424b5_radiopharm.htm"
+      },
+      {
+        "date": "2025-12-23",
+        "form": "424B3",
+        "label": "Prospectus (often a resale after a private placement)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1949257/000121390025125222/ea0270529-424b3_radio.htm"
+      },
+      {
+        "date": "2025-12-23",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1949257/000121390025125206/ea0270538-424b5_radiopharm.htm"
+      }
+    ],
     "activeTrials": 7,
     "phase3Count": 0,
     "phase2Count": 3,

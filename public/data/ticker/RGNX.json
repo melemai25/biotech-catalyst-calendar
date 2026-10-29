@@ -53,6 +53,20 @@
     "fcfMarginPct": -143.1,
     "marketCapUsd": null,
     "entityName": "REGENXBIO Inc.",
+    "financingSinceCash": [
+      {
+        "date": "2026-07-17",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1590877/000119312526308027/d133519d424b5.htm"
+      },
+      {
+        "date": "2026-07-16",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1590877/000119312526306170/d133519d424b5.htm"
+      }
+    ],
     "activeTrials": 6,
     "phase3Count": 3,
     "phase2Count": 5,

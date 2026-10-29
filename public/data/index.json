@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T18:24:08.688Z",
+  "generatedAt": "2026-10-29T18:47:20.071Z",
   "generatedDate": "2026-10-29",
   "tickerCount": 301,
   "totalEvents": 13024,
@@ -59,6 +59,38 @@
         "fcfMarginPct": 20,
         "marketCapUsd": null,
         "entityName": "ASTRAZENECA PLC",
+        "financingSinceCash": [
+          {
+            "date": "2026-09-01",
+            "form": "6-K",
+            "label": "Financing announcement",
+            "url": "https://www.sec.gov/Archives/edgar/data/901832/000165495426007992/a6788s.htm"
+          },
+          {
+            "date": "2026-08-25",
+            "form": "6-K",
+            "label": "Financing announcement",
+            "url": "https://www.sec.gov/Archives/edgar/data/901832/000165495426007840/a9590r.htm"
+          },
+          {
+            "date": "2026-02-27",
+            "form": "424B2",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465926021545/tm267138-4_424b2.htm"
+          },
+          {
+            "date": "2026-02-26",
+            "form": "6-K",
+            "label": "Financing announcement",
+            "url": "https://www.sec.gov/Archives/edgar/data/901832/000165495426001589/a4537u.htm"
+          },
+          {
+            "date": "2026-02-25",
+            "form": "424B2",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465926019420/tm267138-2_424b2.htm"
+          }
+        ],
         "activeTrials": 132,
         "phase3Count": 41,
         "phase2Count": 35,
@@ -265,6 +297,20 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Novartis AG",
+        "financingSinceCash": [
+          {
+            "date": "2026-03-17",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1114448/000110465926029551/tm268725-2_424b5.htm"
+          },
+          {
+            "date": "2026-03-16",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1114448/000110465926028048/tm268725-1_424b5.htm"
+          }
+        ],
         "activeTrials": 187,
         "phase3Count": 49,
         "phase2Count": 77,
@@ -677,6 +723,20 @@
         "fcfMarginPct": 19.6,
         "marketCapUsd": null,
         "entityName": "GSK plc",
+        "financingSinceCash": [
+          {
+            "date": "2026-09-10",
+            "form": "424B2",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1131399/000119312526387354/d153434d424b2.htm"
+          },
+          {
+            "date": "2026-09-08",
+            "form": "424B2",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1131399/000119312526384490/d300978d424b2.htm"
+          }
+        ],
         "activeTrials": 84,
         "phase3Count": 29,
         "phase2Count": 27,
@@ -883,6 +943,20 @@
         "fcfMarginPct": 28.3,
         "marketCapUsd": null,
         "entityName": "AbbVie Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-08-06",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1551152/000110465926092114/tm2621452-3_424b5.htm"
+          },
+          {
+            "date": "2026-08-04",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1551152/000110465926090092/tm2621452-1_424b5.htm"
+          }
+        ],
         "activeTrials": 265,
         "phase3Count": 102,
         "phase2Count": 63,
@@ -2943,6 +3017,20 @@
         "fcfMarginPct": 34.6,
         "marketCapUsd": null,
         "entityName": "Jazz Pharmaceuticals plc",
+        "financingSinceCash": [
+          {
+            "date": "2026-09-23",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/1232524/000119312526399425/d163027d8k.htm"
+          },
+          {
+            "date": "2026-08-31",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/1232524/000119312526377073/d127542d8k.htm"
+          }
+        ],
         "activeTrials": 85,
         "phase3Count": 30,
         "phase2Count": 37,
@@ -3046,6 +3134,20 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Revolution Medicines, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-10-13",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/1628171/000162817126000004/rvmd-20261008.htm"
+          },
+          {
+            "date": "2026-09-01",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/1628171/000119312526377362/rvmd-20260827.htm"
+          }
+        ],
         "activeTrials": 18,
         "phase3Count": 7,
         "phase2Count": 7,
@@ -3561,6 +3663,20 @@
         "fcfMarginPct": -285.9,
         "marketCapUsd": null,
         "entityName": "Intelligent Bio Solutions Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-09-23",
+            "form": "424B3",
+            "label": "Prospectus (often a resale after a private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1725430/000149315226043964/form424b3.htm"
+          },
+          {
+            "date": "2026-09-02",
+            "form": "8-K",
+            "label": "Unregistered sale of shares (private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1725430/000149315226041253/form8-k.htm"
+          }
+        ],
         "activeTrials": 50,
         "phase3Count": 12,
         "phase2Count": 9,
@@ -3664,6 +3780,14 @@
         "fcfMarginPct": -55.8,
         "marketCapUsd": null,
         "entityName": "Moderna, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-09-01",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/1682852/000119312526378505/d108896d8k.htm"
+          }
+        ],
         "activeTrials": 94,
         "phase3Count": 23,
         "phase2Count": 42,
@@ -4179,6 +4303,14 @@
         "fcfMarginPct": -70.9,
         "marketCapUsd": null,
         "entityName": "Nuvation Bio Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-07-06",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/1811063/000119312526296398/d136399d8k.htm"
+          }
+        ],
         "activeTrials": 16,
         "phase3Count": 4,
         "phase2Count": 5,
@@ -4379,6 +4511,20 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Summit Therapeutics Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-09-29",
+            "form": "8-K",
+            "label": "Unregistered sale of shares (private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1599298/000119312526405776/d178892d8k.htm"
+          },
+          {
+            "date": "2026-07-23",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1599298/000119312526314210/d39231d424b5.htm"
+          }
+        ],
         "activeTrials": 9,
         "phase3Count": 7,
         "phase2Count": 3,
@@ -4882,6 +5028,14 @@
         "fcfMarginPct": -44.6,
         "marketCapUsd": null,
         "entityName": "Karyopharm Therapeutics Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-09-11",
+            "form": "8-K",
+            "label": "Unregistered sale of shares (private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1503802/000119312526388621/d94769d8k.htm"
+          }
+        ],
         "activeTrials": 22,
         "phase3Count": 6,
         "phase2Count": 17,
@@ -5179,6 +5333,20 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Quoin Pharmaceuticals Ltd.",
+        "financingSinceCash": [
+          {
+            "date": "2026-09-25",
+            "form": "424B3",
+            "label": "Prospectus (often a resale after a private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1671502/000110465926111012/tm2625587d3_424b3.htm"
+          },
+          {
+            "date": "2026-08-28",
+            "form": "8-K",
+            "label": "Unregistered sale of shares (private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1671502/000110465926102917/tm2624258d1_8k.htm"
+          }
+        ],
         "activeTrials": 4,
         "phase3Count": 4,
         "phase2Count": 4,
@@ -5264,6 +5432,26 @@
         "fcfMarginPct": -185.3,
         "marketCapUsd": null,
         "entityName": "Verastem, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-10-14",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1526119/000110465926115879/tm2627537-5_424b5.htm"
+          },
+          {
+            "date": "2026-10-14",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1526119/000110465926115875/tm2627537-1_424b5.htm"
+          },
+          {
+            "date": "2026-08-07",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/1526119/000110465926092216/tm2622452d1_8k.htm"
+          }
+        ],
         "activeTrials": 18,
         "phase3Count": 1,
         "phase2Count": 12,
@@ -6658,6 +6846,14 @@
         "fcfMarginPct": -586,
         "marketCapUsd": null,
         "entityName": "INTELLIA THERAPEUTICS, INC.",
+        "financingSinceCash": [
+          {
+            "date": "2026-09-04",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/1652130/000119312526383645/d110798d8k.htm"
+          }
+        ],
         "activeTrials": 6,
         "phase3Count": 3,
         "phase2Count": 2,
@@ -6761,6 +6957,14 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Veradermics, Inc",
+        "financingSinceCash": [
+          {
+            "date": "2026-08-14",
+            "form": "424B3",
+            "label": "Prospectus (often a resale after a private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1827635/000162828026057174/veradermics-424b3xaugust20.htm"
+          }
+        ],
         "activeTrials": 5,
         "phase3Count": 3,
         "phase2Count": 3,
@@ -7149,6 +7353,26 @@
         "fcfMarginPct": 7.8,
         "marketCapUsd": null,
         "entityName": "TEVA PHARMACEUTICAL INDUSTRIES LIMITED",
+        "financingSinceCash": [
+          {
+            "date": "2026-09-16",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/818686/000119312526393116/d155511d8k.htm"
+          },
+          {
+            "date": "2026-09-11",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/818686/000119312526389382/d158426d424b5.htm"
+          },
+          {
+            "date": "2026-09-08",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/818686/000119312526384343/d158426d424b5.htm"
+          }
+        ],
         "activeTrials": 20,
         "phase3Count": 4,
         "phase2Count": 7,
@@ -7549,6 +7773,38 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Vaxcyte, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-10-09",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/1649094/000119312526419174/d150490d8k.htm"
+          },
+          {
+            "date": "2026-10-08",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1649094/000119312526417984/d177446d424b5.htm"
+          },
+          {
+            "date": "2026-10-08",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1649094/000119312526417977/d176371d424b5.htm"
+          },
+          {
+            "date": "2026-10-06",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1649094/000119312526414774/d177446d424b5.htm"
+          },
+          {
+            "date": "2026-10-06",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1649094/000119312526414772/d176371d424b5.htm"
+          }
+        ],
         "activeTrials": 9,
         "phase3Count": 3,
         "phase2Count": 5,
@@ -7931,6 +8187,14 @@
         "fcfMarginPct": -67.1,
         "marketCapUsd": null,
         "entityName": "Vir Biotechnology, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-10-14",
+            "form": "8-K",
+            "label": "Unregistered sale of shares (private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1706431/000162828026065826/vir-20261009.htm"
+          }
+        ],
         "activeTrials": 21,
         "phase3Count": 4,
         "phase2Count": 10,
@@ -8234,6 +8498,14 @@
         "fcfMarginPct": 13.3,
         "marketCapUsd": null,
         "entityName": "VIATRIS INC.",
+        "financingSinceCash": [
+          {
+            "date": "2026-07-01",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/1792044/000114036126027216/ef20077152_8k.htm"
+          }
+        ],
         "activeTrials": 23,
         "phase3Count": 5,
         "phase2Count": 4,
@@ -8331,6 +8603,20 @@
         "fcfMarginPct": -143.1,
         "marketCapUsd": null,
         "entityName": "REGENXBIO Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-07-17",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1590877/000119312526308027/d133519d424b5.htm"
+          },
+          {
+            "date": "2026-07-16",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1590877/000119312526306170/d133519d424b5.htm"
+          }
+        ],
         "activeTrials": 6,
         "phase3Count": 3,
         "phase2Count": 5,
@@ -8822,6 +9108,14 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "ANNEXON, INC.",
+        "financingSinceCash": [
+          {
+            "date": "2026-07-30",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/1528115/000119312526326199/d113783d8k.htm"
+          }
+        ],
         "activeTrials": 16,
         "phase3Count": 4,
         "phase2Count": 4,
@@ -8919,6 +9213,26 @@
         "fcfMarginPct": -2210.1,
         "marketCapUsd": null,
         "entityName": "Can-Fite BioPharma Ltd.",
+        "financingSinceCash": [
+          {
+            "date": "2026-10-09",
+            "form": "424B3",
+            "label": "Prospectus (often a resale after a private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1536196/000121390026108576/ea0307538-424b3_canfite.htm"
+          },
+          {
+            "date": "2026-04-03",
+            "form": "424B3",
+            "label": "Prospectus (often a resale after a private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1536196/000121390026040022/ea0284494-424b3_canfite.htm"
+          },
+          {
+            "date": "2026-03-05",
+            "form": "424B3",
+            "label": "Prospectus (often a resale after a private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1536196/000121390026023875/ea0280098-424b3_canfite.htm"
+          }
+        ],
         "activeTrials": 10,
         "phase3Count": 4,
         "phase2Count": 6,
@@ -9010,6 +9324,20 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Rapport Therapeutics, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-10-27",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/2012593/000119312526434382/d98241d424b5.htm"
+          },
+          {
+            "date": "2026-10-27",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/2012593/000119312526434371/d348288d424b5.htm"
+          }
+        ],
         "activeTrials": 5,
         "phase3Count": 2,
         "phase2Count": 3,
@@ -9501,6 +9829,20 @@
         "fcfMarginPct": -833.3,
         "marketCapUsd": null,
         "entityName": "Arcus Biosciences, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-10-22",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1724521/000119312526428916/d117931d424b5.htm"
+          },
+          {
+            "date": "2026-10-21",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1724521/000119312526427888/d117931d424b5.htm"
+          }
+        ],
         "activeTrials": 32,
         "phase3Count": 3,
         "phase2Count": 5,
@@ -9980,6 +10322,20 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Dyne Therapeutics, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-07-22",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1818794/000119312526312576/d98164d424b5.htm"
+          },
+          {
+            "date": "2026-07-21",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1818794/000119312526310573/d98164d424b5.htm"
+          }
+        ],
         "activeTrials": 4,
         "phase3Count": 2,
         "phase2Count": 2,
@@ -11071,6 +11427,14 @@
         "fcfMarginPct": 2.6,
         "marketCapUsd": null,
         "entityName": "MeiraGTx Holdings plc",
+        "financingSinceCash": [
+          {
+            "date": "2026-07-07",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/1735438/000110465926080949/mgtx-20260630x8k.htm"
+          }
+        ],
         "activeTrials": 4,
         "phase3Count": 3,
         "phase2Count": 1,
@@ -11168,6 +11532,38 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "LB PHARMACEUTICALS INC",
+        "financingSinceCash": [
+          {
+            "date": "2026-09-15",
+            "form": "424B3",
+            "label": "Prospectus (often a resale after a private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1691082/000119312526391384/d111714d424b3.htm"
+          },
+          {
+            "date": "2026-09-03",
+            "form": "424B3",
+            "label": "Prospectus (often a resale after a private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1691082/000119312526381100/d528123d424b3.htm"
+          },
+          {
+            "date": "2026-08-11",
+            "form": "424B3",
+            "label": "Prospectus (often a resale after a private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1691082/000119312526343542/pro_supp_june_30_2026.htm"
+          },
+          {
+            "date": "2026-07-29",
+            "form": "424B3",
+            "label": "Prospectus (often a resale after a private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1691082/000119312526322276/d156920d424b3.htm"
+          },
+          {
+            "date": "2026-07-29",
+            "form": "8-K",
+            "label": "Unregistered sale of shares (private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1691082/000119312526322208/d156920d8k.htm"
+          }
+        ],
         "activeTrials": 6,
         "phase3Count": 2,
         "phase2Count": 2,
@@ -11368,6 +11764,14 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "CG Oncology, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-08-06",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1991792/000119312526336792/d178600d424b5.htm"
+          }
+        ],
         "activeTrials": 5,
         "phase3Count": 2,
         "phase2Count": 3,
@@ -11956,6 +12360,14 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Cogent Biosciences, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-08-10",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1622229/000119312526342683/d149476d424b5.htm"
+          }
+        ],
         "activeTrials": 11,
         "phase3Count": 1,
         "phase2Count": 4,
@@ -12059,6 +12471,14 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Inhibikase Therapeutics, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-07-29",
+            "form": "8-K",
+            "label": "Unregistered sale of shares (private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1750149/000119312526323651/d78217d8k.htm"
+          }
+        ],
         "activeTrials": 3,
         "phase3Count": 2,
         "phase2Count": 0,
@@ -12247,6 +12667,14 @@
         "fcfMarginPct": -53.6,
         "marketCapUsd": null,
         "entityName": "Aspira Women’s Health Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-07-15",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/926617/000092661726000052/awhl-20260706x8k.htm"
+          }
+        ],
         "activeTrials": 5,
         "phase3Count": 3,
         "phase2Count": 2,
@@ -12441,6 +12869,14 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "ALX ONCOLOGY HOLDINGS INC",
+        "financingSinceCash": [
+          {
+            "date": "2026-10-15",
+            "form": "8-K",
+            "label": "Unregistered sale of shares (private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1810182/000119312526422992/alxo-20261014.htm"
+          }
+        ],
         "activeTrials": 9,
         "phase3Count": 1,
         "phase2Count": 4,
@@ -12502,12 +12938,12 @@
         "taxonomy": "us-gaap",
         "isUsd": true,
         "cashUsd": 352932000,
-        "shortTermInvestmentsUsd": null,
+        "shortTermInvestmentsUsd": 139490000,
         "longTermInvestmentsUsd": null,
-        "totalCashUsd": 352932000,
+        "totalCashUsd": 492422000,
         "cashAsOf": "2025-12-31",
         "longTermDebtUsd": null,
-        "netCashUsd": 352932000,
+        "netCashUsd": 492422000,
         "stockholdersEquityUsd": 770486000,
         "accumulatedDeficitUsd": -185258000,
         "operatingCashFlowUsd": -9247000,
@@ -12517,8 +12953,8 @@
         "burnDerived": false,
         "burnBasis": "full year / 4",
         "burnScaled": true,
-        "runwayMonths": 114.5,
-        "cashOutDate": "2035-07-17",
+        "runwayMonths": 159.8,
+        "cashOutDate": "2039-04-25",
         "cashStatus": "well-funded",
         "capexQuarterlyUsd": 17750,
         "freeCashFlowQuarterlyUsd": -9264750,
@@ -12533,7 +12969,7 @@
         "dilutionPctYoy": 23.6,
         "dilutionFrom": "2024-12-31",
         "stockIssuanceQuarterlyUsd": null,
-        "cashPerShare": 8.97,
+        "cashPerShare": 12.52,
         "rndIntensityPct": 54,
         "fcfMarginPct": null,
         "marketCapUsd": null,
@@ -13496,6 +13932,14 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Pharvaris N.V.",
+        "financingSinceCash": [
+          {
+            "date": "2026-05-08",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1830487/000119312526214985/d36127d424b5.htm"
+          }
+        ],
         "activeTrials": 7,
         "phase3Count": 5,
         "phase2Count": 3,
@@ -13890,6 +14334,14 @@
         "fcfMarginPct": -294.4,
         "marketCapUsd": null,
         "entityName": "MESOBLAST LIMITED",
+        "financingSinceCash": [
+          {
+            "date": "2026-01-14",
+            "form": "424B3",
+            "label": "Prospectus (often a resale after a private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1345099/000121390026004248/ea0271817-424b3_mesoblast.htm"
+          }
+        ],
         "activeTrials": 3,
         "phase3Count": 3,
         "phase2Count": 0,
@@ -13981,6 +14433,14 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Grace Therapeutics, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-08-06",
+            "form": "8-K",
+            "label": "Unregistered sale of shares (private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1444192/000114036126031671/ef20079559_8k.htm"
+          }
+        ],
         "activeTrials": 4,
         "phase3Count": 3,
         "phase2Count": 0,
@@ -14078,6 +14538,14 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Corbus Pharmaceuticals Holdings, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-08-07",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1595097/000119312526340378/crbp_424b5_2026_08_07.htm"
+          }
+        ],
         "activeTrials": 9,
         "phase3Count": 3,
         "phase2Count": 5,
@@ -14375,6 +14843,14 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Oruka Therapeutics, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-08-28",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026095041/ea0303545-424b5_oruka.htm"
+          }
+        ],
         "activeTrials": 7,
         "phase3Count": 0,
         "phase2Count": 5,
@@ -14466,6 +14942,14 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Imunon, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-09-29",
+            "form": "8-K",
+            "label": "Unregistered sale of shares (private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/749647/000149315226044792/form8-k.htm"
+          }
+        ],
         "activeTrials": 6,
         "phase3Count": 2,
         "phase2Count": 3,
@@ -14563,6 +15047,26 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Abivax S.A.",
+        "financingSinceCash": [
+          {
+            "date": "2026-07-02",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1956827/000119312526294491/d111359d424b5.htm"
+          },
+          {
+            "date": "2026-06-30",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1956827/000119312526290817/d111359d424b5.htm"
+          },
+          {
+            "date": "2026-05-07",
+            "form": "424B7",
+            "label": "Resale prospectus",
+            "url": "https://www.sec.gov/Archives/edgar/data/1956827/000119312526210978/d55760d424b7.htm"
+          }
+        ],
         "activeTrials": 19,
         "phase3Count": 5,
         "phase2Count": 13,
@@ -14624,12 +15128,12 @@
         "taxonomy": "us-gaap",
         "isUsd": true,
         "cashUsd": 139994000,
-        "shortTermInvestmentsUsd": null,
+        "shortTermInvestmentsUsd": 446851000,
         "longTermInvestmentsUsd": null,
-        "totalCashUsd": 139994000,
+        "totalCashUsd": 586845000,
         "cashAsOf": "2026-03-31",
         "longTermDebtUsd": 49942000,
-        "netCashUsd": 90052000,
+        "netCashUsd": 536903000,
         "stockholdersEquityUsd": 149343000,
         "accumulatedDeficitUsd": -1382471000,
         "operatingCashFlowUsd": -38243000,
@@ -14639,9 +15143,9 @@
         "burnDerived": false,
         "burnBasis": "quarter",
         "burnScaled": false,
-        "runwayMonths": 11,
-        "cashOutDate": "2027-02-28",
-        "cashStatus": "under-12mo",
+        "runwayMonths": 46,
+        "cashOutDate": "2030-01-30",
+        "cashStatus": "well-funded",
         "capexQuarterlyUsd": 140000,
         "freeCashFlowQuarterlyUsd": -38383000,
         "freeCashFlowTtmUsd": -172559000,
@@ -14655,11 +15159,25 @@
         "dilutionPctYoy": 15.2,
         "dilutionFrom": "2025-05-06",
         "stockIssuanceQuarterlyUsd": null,
-        "cashPerShare": 2.22,
+        "cashPerShare": 9.31,
         "rndIntensityPct": 59,
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "uniQure N.V.",
+        "financingSinceCash": [
+          {
+            "date": "2026-06-24",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1590560/000110465926077336/tm2618428-2_424b5.htm"
+          },
+          {
+            "date": "2026-06-22",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1590560/000110465926076466/tm2618428-1_424b5.htm"
+          }
+        ],
         "activeTrials": 6,
         "phase3Count": 0,
         "phase2Count": 6,
@@ -14751,6 +15269,14 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Solid Biosciences Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-08-06",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1707502/000119312526338410/d360115d424b5.htm"
+          }
+        ],
         "activeTrials": 5,
         "phase3Count": 1,
         "phase2Count": 2,
@@ -15242,6 +15768,14 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "SCHOLAR ROCK HOLDING CORPORATION",
+        "financingSinceCash": [
+          {
+            "date": "2026-08-06",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1727196/000110465926091699/tm2622083-1_424b5.htm"
+          }
+        ],
         "activeTrials": 8,
         "phase3Count": 2,
         "phase2Count": 4,
@@ -15448,6 +15982,20 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Amylyx Pharmaceuticals, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-08-20",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1658551/000119312526359416/d180581d424b5.htm"
+          },
+          {
+            "date": "2026-08-18",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1658551/000119312526355696/d180581d424b5.htm"
+          }
+        ],
         "activeTrials": 9,
         "phase3Count": 4,
         "phase2Count": 6,
@@ -15551,6 +16099,14 @@
         "fcfMarginPct": -268.1,
         "marketCapUsd": null,
         "entityName": "Tango Therapeutics, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-08-11",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1819133/000119312526344989/d133418d424b5.htm"
+          }
+        ],
         "activeTrials": 7,
         "phase3Count": 0,
         "phase2Count": 7,
@@ -15600,12 +16156,12 @@
         "taxonomy": "us-gaap",
         "isUsd": true,
         "cashUsd": 72319000,
-        "shortTermInvestmentsUsd": null,
+        "shortTermInvestmentsUsd": 388390000,
         "longTermInvestmentsUsd": null,
-        "totalCashUsd": 72319000,
+        "totalCashUsd": 460709000,
         "cashAsOf": "2026-06-30",
         "longTermDebtUsd": null,
-        "netCashUsd": 72319000,
+        "netCashUsd": 460709000,
         "stockholdersEquityUsd": 448077000,
         "accumulatedDeficitUsd": -652711000,
         "operatingCashFlowUsd": -42469000,
@@ -15615,9 +16171,9 @@
         "burnDerived": true,
         "burnBasis": "quarter (differenced)",
         "burnScaled": false,
-        "runwayMonths": 5.1,
-        "cashOutDate": "2026-12-02",
-        "cashStatus": "under-12mo",
+        "runwayMonths": 32.5,
+        "cashOutDate": "2029-03-17",
+        "cashStatus": "well-funded",
         "capexQuarterlyUsd": 32000,
         "freeCashFlowQuarterlyUsd": -42501000,
         "freeCashFlowTtmUsd": -158834000,
@@ -15631,7 +16187,7 @@
         "dilutionPctYoy": 3.1,
         "dilutionFrom": "2025-07-31",
         "stockIssuanceQuarterlyUsd": 0,
-        "cashPerShare": 0.67,
+        "cashPerShare": 4.24,
         "rndIntensityPct": 77,
         "fcfMarginPct": null,
         "marketCapUsd": null,
@@ -16024,6 +16580,14 @@
         "fcfMarginPct": -654.9,
         "marketCapUsd": null,
         "entityName": "Stoke Therapeutics, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-08-03",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1623526/000119312526330792/d137193d424b5.htm"
+          }
+        ],
         "activeTrials": 3,
         "phase3Count": 1,
         "phase2Count": 2,
@@ -16115,6 +16679,14 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Immatics N.V.",
+        "financingSinceCash": [
+          {
+            "date": "2026-08-25",
+            "form": "424B2",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1809196/000119312526365394/d149127d424b2.htm"
+          }
+        ],
         "activeTrials": 6,
         "phase3Count": 1,
         "phase2Count": 1,
@@ -16218,6 +16790,38 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Oncotelic Therapeutics, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-08-04",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/908259/000149315226035999/form8-k.htm"
+          },
+          {
+            "date": "2026-07-14",
+            "form": "8-K",
+            "label": "Unregistered sale of shares (private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/908259/000149315226033171/form8-k.htm"
+          },
+          {
+            "date": "2026-06-29",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/908259/000149315226031124/form8-k.htm"
+          },
+          {
+            "date": "2026-05-05",
+            "form": "8-K",
+            "label": "Unregistered sale of shares (private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/908259/000149315226021306/form8-k.htm"
+          },
+          {
+            "date": "2026-01-29",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/908259/000149315226004237/form8-k.htm"
+          }
+        ],
         "activeTrials": 2,
         "phase3Count": 1,
         "phase2Count": 2,
@@ -16600,6 +17204,20 @@
         "fcfMarginPct": 21.3,
         "marketCapUsd": null,
         "entityName": "PRESTIGE CONSUMER HEALTHCARE INC.",
+        "financingSinceCash": [
+          {
+            "date": "2026-07-15",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/1295947/000110465926083872/tm2620415d1_8k.htm"
+          },
+          {
+            "date": "2026-07-06",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/1295947/000129594726000029/pbh-20260630.htm"
+          }
+        ],
         "activeTrials": 6,
         "phase3Count": 2,
         "phase2Count": 1,
@@ -16794,6 +17412,14 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "CAPRICOR THERAPEUTICS, INC.",
+        "financingSinceCash": [
+          {
+            "date": "2026-07-14",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/1133869/000110465926083559/capr-20260709x8k.htm"
+          }
+        ],
         "activeTrials": 7,
         "phase3Count": 1,
         "phase2Count": 6,
@@ -16897,6 +17523,14 @@
         "fcfMarginPct": -2054.3,
         "marketCapUsd": null,
         "entityName": "Relay Therapeutics, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-08-06",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1812364/000119312526338292/d151325d424b5.htm"
+          }
+        ],
         "activeTrials": 5,
         "phase3Count": 1,
         "phase2Count": 1,
@@ -17443,12 +18077,12 @@
         "taxonomy": "us-gaap",
         "isUsd": true,
         "cashUsd": 73835000,
-        "shortTermInvestmentsUsd": null,
+        "shortTermInvestmentsUsd": 280109000,
         "longTermInvestmentsUsd": null,
-        "totalCashUsd": 73835000,
+        "totalCashUsd": 353944000,
         "cashAsOf": "2026-06-30",
         "longTermDebtUsd": null,
-        "netCashUsd": 73835000,
+        "netCashUsd": 353944000,
         "stockholdersEquityUsd": 353664000,
         "accumulatedDeficitUsd": -456121000,
         "operatingCashFlowUsd": -31076000,
@@ -17458,9 +18092,9 @@
         "burnDerived": true,
         "burnBasis": "quarter (differenced)",
         "burnScaled": false,
-        "runwayMonths": 7.1,
-        "cashOutDate": "2027-02-02",
-        "cashStatus": "under-12mo",
+        "runwayMonths": 34.2,
+        "cashOutDate": "2029-05-05",
+        "cashStatus": "well-funded",
         "capexQuarterlyUsd": 66000,
         "freeCashFlowQuarterlyUsd": -31142000,
         "freeCashFlowTtmUsd": -109901000,
@@ -17474,11 +18108,25 @@
         "dilutionPctYoy": 12,
         "dilutionFrom": "2025-08-11",
         "stockIssuanceQuarterlyUsd": 0,
-        "cashPerShare": 1.24,
+        "cashPerShare": 5.93,
         "rndIntensityPct": 80,
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Tyra Biosciences, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-09-15",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1863127/000119312526390947/d84692d424b5.htm"
+          },
+          {
+            "date": "2026-08-04",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1863127/000119312526333055/d88787d424b5.htm"
+          }
+        ],
         "activeTrials": 7,
         "phase3Count": 0,
         "phase2Count": 4,
@@ -17631,12 +18279,12 @@
         "taxonomy": "us-gaap",
         "isUsd": true,
         "cashUsd": 67836000,
-        "shortTermInvestmentsUsd": null,
+        "shortTermInvestmentsUsd": 256004000,
         "longTermInvestmentsUsd": null,
-        "totalCashUsd": 67836000,
+        "totalCashUsd": 323840000,
         "cashAsOf": "2026-06-30",
         "longTermDebtUsd": null,
-        "netCashUsd": 67836000,
+        "netCashUsd": 323840000,
         "stockholdersEquityUsd": 315267000,
         "accumulatedDeficitUsd": -559740000,
         "operatingCashFlowUsd": -32501000,
@@ -17646,9 +18294,9 @@
         "burnDerived": true,
         "burnBasis": "quarter (differenced)",
         "burnScaled": false,
-        "runwayMonths": 6.3,
-        "cashOutDate": "2027-01-07",
-        "cashStatus": "under-12mo",
+        "runwayMonths": 29.9,
+        "cashOutDate": "2028-12-26",
+        "cashStatus": "well-funded",
         "capexQuarterlyUsd": 21000,
         "freeCashFlowQuarterlyUsd": -32522000,
         "freeCashFlowTtmUsd": -103351000,
@@ -17662,7 +18310,7 @@
         "dilutionPctYoy": 66.9,
         "dilutionFrom": "2025-08-08",
         "stockIssuanceQuarterlyUsd": 129692000,
-        "cashPerShare": 0.65,
+        "cashPerShare": 3.12,
         "rndIntensityPct": 64,
         "fcfMarginPct": null,
         "marketCapUsd": null,
@@ -17873,6 +18521,14 @@
         "fcfMarginPct": -186736.6,
         "marketCapUsd": null,
         "entityName": "ALTIMMUNE, INC.",
+        "financingSinceCash": [
+          {
+            "date": "2026-10-29",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/1326190/000132619026000060/alt-20261027x8k.htm"
+          }
+        ],
         "activeTrials": 18,
         "phase3Count": 1,
         "phase2Count": 7,
@@ -18461,6 +19117,14 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Neurogene Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-07-02",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1404644/000162828026046666/ngne-june2026cmpoxfinalpro.htm"
+          }
+        ],
         "activeTrials": 3,
         "phase3Count": 1,
         "phase2Count": 1,
@@ -18564,6 +19228,14 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Alto Neuroscience, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-07-14",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1999480/000110465926083268/tm2620333-1_424b5.htm"
+          }
+        ],
         "activeTrials": 10,
         "phase3Count": 0,
         "phase2Count": 10,
@@ -18752,6 +19424,20 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "MAIA Biotechnology, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-10-07",
+            "form": "424B3",
+            "label": "Prospectus (often a resale after a private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1878313/000149315226046059/form424b3.htm"
+          },
+          {
+            "date": "2026-10-02",
+            "form": "424B3",
+            "label": "Prospectus (often a resale after a private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1878313/000149315226045521/form424b3.htm"
+          }
+        ],
         "activeTrials": 2,
         "phase3Count": 1,
         "phase2Count": 1,
@@ -18843,6 +19529,14 @@
         "fcfMarginPct": -824.4,
         "marketCapUsd": null,
         "entityName": "KYNTRA BIO, INC.",
+        "financingSinceCash": [
+          {
+            "date": "2026-08-31",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/921299/000119312526377059/kynb-20260831.htm"
+          }
+        ],
         "activeTrials": 24,
         "phase3Count": 16,
         "phase2Count": 8,
@@ -19110,12 +19804,12 @@
         "taxonomy": "us-gaap",
         "isUsd": true,
         "cashUsd": 74868000,
-        "shortTermInvestmentsUsd": null,
+        "shortTermInvestmentsUsd": 106696000,
         "longTermInvestmentsUsd": null,
-        "totalCashUsd": 74868000,
+        "totalCashUsd": 181564000,
         "cashAsOf": "2026-06-30",
         "longTermDebtUsd": null,
-        "netCashUsd": 74868000,
+        "netCashUsd": 181564000,
         "stockholdersEquityUsd": -883532000,
         "accumulatedDeficitUsd": -1318294000,
         "operatingCashFlowUsd": -40374000,
@@ -19125,9 +19819,9 @@
         "burnDerived": true,
         "burnBasis": "quarter (differenced)",
         "burnScaled": false,
-        "runwayMonths": 5.6,
-        "cashOutDate": "2026-12-16",
-        "cashStatus": "under-12mo",
+        "runwayMonths": 13.5,
+        "cashOutDate": "2027-08-15",
+        "cashStatus": "under-24mo",
         "capexQuarterlyUsd": 3833000,
         "freeCashFlowQuarterlyUsd": -44207000,
         "freeCashFlowTtmUsd": -159734000,
@@ -19340,6 +20034,14 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Lexeo Therapeutics, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-09-29",
+            "form": "8-K",
+            "label": "Unregistered sale of shares (private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1907108/000119312526407555/lxeo-20260929.htm"
+          }
+        ],
         "activeTrials": 5,
         "phase3Count": 0,
         "phase2Count": 4,
@@ -19534,6 +20236,20 @@
         "fcfMarginPct": -696.6,
         "marketCapUsd": null,
         "entityName": "Traws Pharma, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-10-23",
+            "form": "8-K",
+            "label": "Unregistered sale of shares (private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1130598/000110465926118519/tm2626240d4_8k.htm"
+          },
+          {
+            "date": "2026-07-10",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1130598/000110465926082645/tm2618293d3_424b5.htm"
+          }
+        ],
         "activeTrials": 11,
         "phase3Count": 3,
         "phase2Count": 5,
@@ -19716,6 +20432,20 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Spyre Therapeutics, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-10-06",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1636282/000162828026065249/spyre-final424b5.htm"
+          },
+          {
+            "date": "2026-10-05",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1636282/000162828026064924/spyre-424b5.htm"
+          }
+        ],
         "activeTrials": 8,
         "phase3Count": 0,
         "phase2Count": 4,
@@ -20189,6 +20919,14 @@
         "fcfMarginPct": -319.5,
         "marketCapUsd": null,
         "entityName": "ABEONA THERAPEUTICS INC.",
+        "financingSinceCash": [
+          {
+            "date": "2026-07-10",
+            "form": "424B3",
+            "label": "Prospectus (often a resale after a private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/318306/000149315226032852/form424b3.htm"
+          }
+        ],
         "activeTrials": 5,
         "phase3Count": 2,
         "phase2Count": 2,
@@ -20286,6 +21024,20 @@
         "fcfMarginPct": -642.2,
         "marketCapUsd": null,
         "entityName": "Recursion Pharmaceuticals, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-10-15",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1601830/000160183026000134/rxrx-finalprosuppxoct2026o.htm"
+          },
+          {
+            "date": "2026-10-15",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1601830/000160183026000126/rxrx-prelimprosuppxoct2026.htm"
+          }
+        ],
         "activeTrials": 7,
         "phase3Count": 1,
         "phase2Count": 7,
@@ -21250,6 +22002,14 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Turn Therapeutics Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-08-18",
+            "form": "8-K",
+            "label": "Unregistered sale of shares (private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/2023016/000121390026091002/ea0302512-8k_turn.htm"
+          }
+        ],
         "activeTrials": 2,
         "phase3Count": 1,
         "phase2Count": 2,
@@ -21341,6 +22101,20 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "MapLight Therapeutics, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-09-23",
+            "form": "424B3",
+            "label": "Prospectus (often a resale after a private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1770069/000119312526399452/d546679d424b3.htm"
+          },
+          {
+            "date": "2026-08-13",
+            "form": "8-K",
+            "label": "Unregistered sale of shares (private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1770069/000119312526349490/d48818d8k.htm"
+          }
+        ],
         "activeTrials": 6,
         "phase3Count": 0,
         "phase2Count": 6,
@@ -21426,6 +22200,14 @@
         "fcfMarginPct": -32.8,
         "marketCapUsd": null,
         "entityName": "Valneva SE",
+        "financingSinceCash": [
+          {
+            "date": "2026-06-16",
+            "form": "424B3",
+            "label": "Prospectus (often a resale after a private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1836564/000199937126012935/valn-424b3_061626.htm"
+          }
+        ],
         "activeTrials": 12,
         "phase3Count": 6,
         "phase2Count": 4,
@@ -21614,6 +22396,14 @@
         "fcfMarginPct": -54155.2,
         "marketCapUsd": null,
         "entityName": "NEONC TECHNOLOGIES HOLDINGS, INC.",
+        "financingSinceCash": [
+          {
+            "date": "2026-09-10",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1979414/000182912626009976/neonctechnologies_424b5.htm"
+          }
+        ],
         "activeTrials": 4,
         "phase3Count": 0,
         "phase2Count": 3,
@@ -21705,6 +22495,14 @@
         "fcfMarginPct": 48.5,
         "marketCapUsd": null,
         "entityName": "HALOZYME THERAPEUTICS, INC.",
+        "financingSinceCash": [
+          {
+            "date": "2026-09-22",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/1159036/000119312526398015/d148460d8k.htm"
+          }
+        ],
         "activeTrials": 5,
         "phase3Count": 2,
         "phase2Count": 1,
@@ -21808,6 +22606,20 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Sagimet Biosciences Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-10-01",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1400118/000119312526409325/d68394d424b5.htm"
+          },
+          {
+            "date": "2026-09-30",
+            "form": "424B3",
+            "label": "Prospectus (often a resale after a private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1400118/000119312526408210/d14484d424b3.htm"
+          }
+        ],
         "activeTrials": 8,
         "phase3Count": 1,
         "phase2Count": 2,
@@ -21905,6 +22717,14 @@
         "fcfMarginPct": -4,
         "marketCapUsd": null,
         "entityName": "ARDELYX, INC.",
+        "financingSinceCash": [
+          {
+            "date": "2026-07-02",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/1437402/000143740226000033/ardx-20260629.htm"
+          }
+        ],
         "activeTrials": 15,
         "phase3Count": 9,
         "phase2Count": 4,
@@ -22202,6 +23022,38 @@
         "fcfMarginPct": -1008.6,
         "marketCapUsd": null,
         "entityName": "Radiopharm Theranostics Limited",
+        "financingSinceCash": [
+          {
+            "date": "2026-09-23",
+            "form": "424B3",
+            "label": "Prospectus (often a resale after a private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1949257/000121390026102669/ea0306187-424b3_radio.htm"
+          },
+          {
+            "date": "2026-07-27",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1949257/000121390026081556/ea0299287-424b5_radiopharm.htm"
+          },
+          {
+            "date": "2026-07-23",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1949257/000121390026080653/ea0298996-424b5_radiopharm.htm"
+          },
+          {
+            "date": "2025-12-23",
+            "form": "424B3",
+            "label": "Prospectus (often a resale after a private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1949257/000121390025125222/ea0270529-424b3_radio.htm"
+          },
+          {
+            "date": "2025-12-23",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1949257/000121390025125206/ea0270538-424b5_radiopharm.htm"
+          }
+        ],
         "activeTrials": 7,
         "phase3Count": 0,
         "phase2Count": 3,
@@ -22554,12 +23406,12 @@
         "taxonomy": "us-gaap",
         "isUsd": true,
         "cashUsd": 138268000,
-        "shortTermInvestmentsUsd": null,
+        "shortTermInvestmentsUsd": 523144000,
         "longTermInvestmentsUsd": null,
-        "totalCashUsd": 138268000,
+        "totalCashUsd": 661412000,
         "cashAsOf": "2026-06-30",
         "longTermDebtUsd": 100000,
-        "netCashUsd": 138168000,
+        "netCashUsd": 661312000,
         "stockholdersEquityUsd": 550917000,
         "accumulatedDeficitUsd": -737579000,
         "operatingCashFlowUsd": -32556000,
@@ -22569,9 +23421,9 @@
         "burnDerived": true,
         "burnBasis": "quarter (differenced)",
         "burnScaled": false,
-        "runwayMonths": 12.7,
-        "cashOutDate": "2027-07-23",
-        "cashStatus": "under-24mo",
+        "runwayMonths": 60.9,
+        "cashOutDate": "2031-07-29",
+        "cashStatus": "well-funded",
         "capexQuarterlyUsd": 15000,
         "freeCashFlowQuarterlyUsd": -32571000,
         "freeCashFlowTtmUsd": -138802000,
@@ -22585,7 +23437,7 @@
         "dilutionPctYoy": 33.4,
         "dilutionFrom": "2025-08-07",
         "stockIssuanceQuarterlyUsd": 300000000,
-        "cashPerShare": 1.56,
+        "cashPerShare": 7.48,
         "rndIntensityPct": 90,
         "fcfMarginPct": null,
         "marketCapUsd": null,
@@ -22681,6 +23533,14 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Braveheart Bio, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-08-06",
+            "form": "424B4",
+            "label": "Offering prospectus",
+            "url": "https://www.sec.gov/Archives/edgar/data/2131524/000162828026054354/braveheartbioinc-sx1a2.htm"
+          }
+        ],
         "activeTrials": 1,
         "phase3Count": 1,
         "phase2Count": 0,
@@ -22863,6 +23723,20 @@
         "fcfMarginPct": -686.4,
         "marketCapUsd": null,
         "entityName": "BioLineRx Ltd",
+        "financingSinceCash": [
+          {
+            "date": "2026-10-02",
+            "form": "424B3",
+            "label": "Prospectus (often a resale after a private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1498403/000117891326004697/zk2636183.htm"
+          },
+          {
+            "date": "2026-08-31",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1498403/000117891326004339/zk2636034.htm"
+          }
+        ],
         "activeTrials": 5,
         "phase3Count": 1,
         "phase2Count": 3,
@@ -23245,6 +24119,26 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "OKYO Pharma Limited",
+        "financingSinceCash": [
+          {
+            "date": "2026-02-17",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1849296/000149315226006946/form424b5.htm"
+          },
+          {
+            "date": "2026-02-12",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1849296/000149315226006417/form424b5.htm"
+          },
+          {
+            "date": "2026-02-11",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1849296/000149315226006039/form424b5.htm"
+          }
+        ],
         "activeTrials": 3,
         "phase3Count": 1,
         "phase2Count": 2,
@@ -23336,6 +24230,26 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Semnur Pharmaceuticals, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-07-07",
+            "form": "424B3",
+            "label": "Prospectus (often a resale after a private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1913577/000119312526297098/semnur_s-1_pros_7.7.2026.htm"
+          },
+          {
+            "date": "2026-07-07",
+            "form": "8-K",
+            "label": "Unregistered sale of shares (private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1913577/000119312526297085/smnr-20260703.htm"
+          },
+          {
+            "date": "2026-07-01",
+            "form": "424B3",
+            "label": "Prospectus (often a resale after a private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1913577/000119312526291407/semnur_s-1_prospectus_7.htm"
+          }
+        ],
         "activeTrials": 2,
         "phase3Count": 1,
         "phase2Count": 1,
@@ -23391,7 +24305,7 @@
         "taxonomy": "us-gaap",
         "isUsd": true,
         "cashUsd": 45089786,
-        "shortTermInvestmentsUsd": null,
+        "shortTermInvestmentsUsd": 0,
         "longTermInvestmentsUsd": null,
         "totalCashUsd": 45089786,
         "cashAsOf": "2026-06-30",
@@ -23706,6 +24620,20 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Disc Medicine, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-10-21",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1816736/000119312526427982/d190758d424b5.htm"
+          },
+          {
+            "date": "2026-10-20",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1816736/000119312526425425/d190758d424b5.htm"
+          }
+        ],
         "activeTrials": 10,
         "phase3Count": 2,
         "phase2Count": 5,
@@ -24064,7 +24992,7 @@
         "taxonomy": "us-gaap",
         "isUsd": true,
         "cashUsd": 195095000,
-        "shortTermInvestmentsUsd": null,
+        "shortTermInvestmentsUsd": 12874000,
         "longTermInvestmentsUsd": null,
         "totalCashUsd": 208000000,
         "cashAsOf": "2026-06-30",
@@ -24100,6 +25028,14 @@
         "fcfMarginPct": -528.4,
         "marketCapUsd": null,
         "entityName": "X4 PHARMACEUTICALS, INC",
+        "financingSinceCash": [
+          {
+            "date": "2026-10-08",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/1501697/000150169726000081/xfor-20261007.htm"
+          }
+        ],
         "activeTrials": 11,
         "phase3Count": 2,
         "phase2Count": 5,
@@ -24203,6 +25139,14 @@
         "fcfMarginPct": -24.4,
         "marketCapUsd": null,
         "entityName": "GALAPAGOS NV",
+        "financingSinceCash": [
+          {
+            "date": "2026-05-08",
+            "form": "424B3",
+            "label": "Prospectus (often a resale after a private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1421876/000119380526000582/e665454_424b3-galapagos.htm"
+          }
+        ],
         "activeTrials": 68,
         "phase3Count": 6,
         "phase2Count": 24,
@@ -24300,6 +25244,14 @@
         "fcfMarginPct": 4.1,
         "marketCapUsd": null,
         "entityName": "AMNEAL PHARMACEUTICALS, INC.",
+        "financingSinceCash": [
+          {
+            "date": "2026-08-10",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/1723128/000114036126032014/ef20079825_8k.htm"
+          }
+        ],
         "activeTrials": 3,
         "phase3Count": 2,
         "phase2Count": 0,
@@ -24391,6 +25343,38 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Tempest Therapeutics, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-10-02",
+            "form": "424B3",
+            "label": "Prospectus (often a resale after a private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1544227/000121390026106362/ea0307277-424b3_tempest.htm"
+          },
+          {
+            "date": "2026-09-15",
+            "form": "8-K",
+            "label": "Unregistered sale of shares (private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1544227/000119312526391903/d108044d8k.htm"
+          },
+          {
+            "date": "2026-09-01",
+            "form": "424B3",
+            "label": "Prospectus (often a resale after a private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1544227/000119312526378588/d181522d424b3.htm"
+          },
+          {
+            "date": "2026-08-13",
+            "form": "8-K",
+            "label": "Unregistered sale of shares (private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1544227/000119312526349334/d290418d8k.htm"
+          },
+          {
+            "date": "2026-07-08",
+            "form": "424B3",
+            "label": "Prospectus (often a resale after a private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1544227/000119312526298528/d135184d424b3.htm"
+          }
+        ],
         "activeTrials": 3,
         "phase3Count": 1,
         "phase2Count": 0,
@@ -24664,6 +25648,14 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Achieve Life Sciences, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-08-14",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/949858/000119312526352154/prospectussupplementaug2.htm"
+          }
+        ],
         "activeTrials": 14,
         "phase3Count": 5,
         "phase2Count": 3,
@@ -24761,6 +25753,20 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Erasca, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-07-14",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1761918/000119312526303352/d116467d424b5.htm"
+          },
+          {
+            "date": "2026-07-13",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1761918/000119312526302148/d116467d424b5.htm"
+          }
+        ],
         "activeTrials": 8,
         "phase3Count": 1,
         "phase2Count": 2,
@@ -25040,6 +26046,14 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "BeyondSpring Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-09-29",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1677940/000114036126037918/ny20082848x1_424b5.htm"
+          }
+        ],
         "activeTrials": 5,
         "phase3Count": 3,
         "phase2Count": 2,
@@ -25131,6 +26145,14 @@
         "fcfMarginPct": -199.5,
         "marketCapUsd": null,
         "entityName": "Ensysce Biosciences, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-08-06",
+            "form": "8-K",
+            "label": "Unregistered sale of shares (private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1716947/000149315226036268/form8-k.htm"
+          }
+        ],
         "activeTrials": 9,
         "phase3Count": 1,
         "phase2Count": 1,
@@ -25228,6 +26250,26 @@
         "fcfMarginPct": -3972.7,
         "marketCapUsd": null,
         "entityName": "OUTLOOK THERAPEUTICS, INC.",
+        "financingSinceCash": [
+          {
+            "date": "2026-08-14",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1649989/000110465926096504/tm2622281-2_424b5.htm"
+          },
+          {
+            "date": "2026-08-12",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1649989/000110465926094970/tm2622281-1_424b5.htm"
+          },
+          {
+            "date": "2026-07-21",
+            "form": "424B3",
+            "label": "Prospectus (often a resale after a private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1649989/000110465926085430/tm2619649d5_424b3.htm"
+          }
+        ],
         "activeTrials": 5,
         "phase3Count": 5,
         "phase2Count": 0,
@@ -25586,6 +26628,38 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "TuHURA BIOSCIENCES, INC./NV",
+        "financingSinceCash": [
+          {
+            "date": "2026-10-16",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/1498382/000119312526424228/hura-20261009.htm"
+          },
+          {
+            "date": "2026-09-24",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/1498382/000119312526401140/hura-20260921.htm"
+          },
+          {
+            "date": "2026-09-17",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/1498382/000119312526394473/hura-20260914.htm"
+          },
+          {
+            "date": "2026-09-04",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/1498382/000119312526383797/hura-20260902.htm"
+          },
+          {
+            "date": "2026-08-21",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/1498382/000119312526361272/hura-20260820.htm"
+          }
+        ],
         "activeTrials": 5,
         "phase3Count": 1,
         "phase2Count": 1,
@@ -25683,6 +26757,14 @@
         "fcfMarginPct": -305.2,
         "marketCapUsd": null,
         "entityName": "GOSSAMER BIO, INC.",
+        "financingSinceCash": [
+          {
+            "date": "2026-08-21",
+            "form": "8-K",
+            "label": "Unregistered sale of shares (private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1728117/000172811726000077/goss-20260820.htm"
+          }
+        ],
         "activeTrials": 2,
         "phase3Count": 1,
         "phase2Count": 1,
@@ -25774,6 +26856,14 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Immunome, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-10-05",
+            "form": "8-K",
+            "label": "Unregistered sale of shares (private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1472012/000119312526413217/d114908d8k.htm"
+          }
+        ],
         "activeTrials": 11,
         "phase3Count": 1,
         "phase2Count": 1,
@@ -25865,6 +26955,20 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "Moleculin Biotech, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-08-21",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1659617/000143774926028751/mbrx20260817_424b5.htm"
+          },
+          {
+            "date": "2026-08-03",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1659617/000143774926025335/mbrx20260731_424b5.htm"
+          }
+        ],
         "activeTrials": 7,
         "phase3Count": 1,
         "phase2Count": 5,
@@ -26150,6 +27254,20 @@
         "fcfMarginPct": -4.6,
         "marketCapUsd": null,
         "entityName": "MANNKIND CORP",
+        "financingSinceCash": [
+          {
+            "date": "2026-08-21",
+            "form": "424B7",
+            "label": "Resale prospectus",
+            "url": "https://www.sec.gov/Archives/edgar/data/899460/000119312526361093/d109391d424b7.htm"
+          },
+          {
+            "date": "2026-07-24",
+            "form": "8-K",
+            "label": "Unregistered sale of shares (private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/899460/000119312526316041/d63182d8k.htm"
+          }
+        ],
         "activeTrials": 10,
         "phase3Count": 2,
         "phase2Count": 3,
@@ -26253,6 +27371,14 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "ACTUATE THERAPEUTICS, INC.",
+        "financingSinceCash": [
+          {
+            "date": "2026-10-28",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1652935/000168316826008122/actuate_424b5.htm"
+          }
+        ],
         "activeTrials": 4,
         "phase3Count": 0,
         "phase2Count": 3,
@@ -26726,6 +27852,26 @@
         "fcfMarginPct": -74.2,
         "marketCapUsd": null,
         "entityName": "AGENUS INC",
+        "financingSinceCash": [
+          {
+            "date": "2026-08-18",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/1098972/000119312526355559/agen-20260812.htm"
+          },
+          {
+            "date": "2026-08-17",
+            "form": "424B3",
+            "label": "Prospectus (often a resale after a private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1098972/000119312526353143/d120245d424b3.htm"
+          },
+          {
+            "date": "2026-07-13",
+            "form": "8-K",
+            "label": "Unregistered sale of shares (private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1098972/000119312526301414/d111026d8k.htm"
+          }
+        ],
         "activeTrials": 15,
         "phase3Count": 0,
         "phase2Count": 8,
@@ -26829,6 +27975,14 @@
         "fcfMarginPct": -560.3,
         "marketCapUsd": null,
         "entityName": "CERENOME, INC.",
+        "financingSinceCash": [
+          {
+            "date": "2026-09-10",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/1095981/000119312526387267/d382364d8k.htm"
+          }
+        ],
         "activeTrials": 5,
         "phase3Count": 0,
         "phase2Count": 2,
@@ -27302,6 +28456,20 @@
         "fcfMarginPct": -709,
         "marketCapUsd": null,
         "entityName": "CURIS, INC.",
+        "financingSinceCash": [
+          {
+            "date": "2026-10-19",
+            "form": "8-K",
+            "label": "Unregistered sale of shares (private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1108205/000110465926116910/tm2627615d1_8k.htm"
+          },
+          {
+            "date": "2026-08-13",
+            "form": "424B4",
+            "label": "Offering prospectus",
+            "url": "https://www.sec.gov/Archives/edgar/data/1108205/000110820526000116/cris-prospectusaugust2026.htm"
+          }
+        ],
         "activeTrials": 7,
         "phase3Count": 0,
         "phase2Count": 3,
@@ -27575,6 +28743,20 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "LANTERN PHARMA INC.",
+        "financingSinceCash": [
+          {
+            "date": "2026-09-30",
+            "form": "8-K",
+            "label": "Unregistered sale of shares (private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1763950/000149315226045100/form8-k.htm"
+          },
+          {
+            "date": "2026-09-30",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1763950/000149315226045049/form424b5.htm"
+          }
+        ],
         "activeTrials": 3,
         "phase3Count": 0,
         "phase2Count": 2,
@@ -27757,6 +28939,14 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "MAZE THERAPEUTICS, INC.",
+        "financingSinceCash": [
+          {
+            "date": "2026-10-16",
+            "form": "8-K",
+            "label": "Unregistered sale of shares (private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1842295/000119312526424067/d445364d8k.htm"
+          }
+        ],
         "activeTrials": 3,
         "phase3Count": 0,
         "phase2Count": 2,
@@ -27812,12 +29002,12 @@
         "taxonomy": "us-gaap",
         "isUsd": true,
         "cashUsd": 44663000,
-        "shortTermInvestmentsUsd": null,
-        "longTermInvestmentsUsd": null,
-        "totalCashUsd": 44663000,
+        "shortTermInvestmentsUsd": 333152000,
+        "longTermInvestmentsUsd": 108535000,
+        "totalCashUsd": 486350000,
         "cashAsOf": "2026-06-30",
         "longTermDebtUsd": 77537000,
-        "netCashUsd": -32874000,
+        "netCashUsd": 408813000,
         "stockholdersEquityUsd": 503228000,
         "accumulatedDeficitUsd": -946604000,
         "operatingCashFlowUsd": -55658000,
@@ -27827,9 +29017,9 @@
         "burnDerived": true,
         "burnBasis": "quarter (differenced)",
         "burnScaled": false,
-        "runwayMonths": 2.4,
-        "cashOutDate": "2026-09-11",
-        "cashStatus": "under-12mo",
+        "runwayMonths": 26.2,
+        "cashOutDate": "2028-09-05",
+        "cashStatus": "well-funded",
         "capexQuarterlyUsd": 538000,
         "freeCashFlowQuarterlyUsd": -56196000,
         "freeCashFlowTtmUsd": -208285000,
@@ -27843,7 +29033,7 @@
         "dilutionPctYoy": 4.2,
         "dilutionFrom": "2025-08-01",
         "stockIssuanceQuarterlyUsd": 0,
-        "cashPerShare": 0.6,
+        "cashPerShare": 6.54,
         "rndIntensityPct": 81,
         "fcfMarginPct": -198.4,
         "marketCapUsd": null,
@@ -27939,6 +29129,14 @@
         "fcfMarginPct": null,
         "marketCapUsd": null,
         "entityName": "ALZAMEND NEURO, INC.",
+        "financingSinceCash": [
+          {
+            "date": "2026-08-03",
+            "form": "8-K",
+            "label": "Unregistered sale of shares (private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1677077/000121465926009469/az7312618k.htm"
+          }
+        ],
         "activeTrials": 4,
         "phase3Count": 0,
         "phase2Count": 3,
@@ -28212,6 +29410,26 @@
         "fcfMarginPct": -196723.9,
         "marketCapUsd": null,
         "entityName": "Creative Medical Technology Holdings, Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-09-25",
+            "form": "8-K",
+            "label": "Unregistered sale of shares (private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1187953/000147793226005805/celz_8k.htm"
+          },
+          {
+            "date": "2026-08-03",
+            "form": "424B3",
+            "label": "Prospectus (often a resale after a private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1187953/000147793226004674/celz_424b3.htm"
+          },
+          {
+            "date": "2026-07-02",
+            "form": "8-K",
+            "label": "Unregistered sale of shares (private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1187953/000147793226004165/celz_8k.htm"
+          }
+        ],
         "activeTrials": 2,
         "phase3Count": 0,
         "phase2Count": 2,
@@ -28485,6 +29703,14 @@
         "fcfMarginPct": -800.6,
         "marketCapUsd": null,
         "entityName": "60 DEGREES PHARMACEUTICALS, INC.",
+        "financingSinceCash": [
+          {
+            "date": "2026-08-04",
+            "form": "8-K",
+            "label": "Unregistered sale of shares (private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1946563/000121390026085235/ea0300260-8k_60degrees.htm"
+          }
+        ],
         "activeTrials": 4,
         "phase3Count": 0,
         "phase2Count": 4,
@@ -28576,6 +29802,14 @@
         "fcfMarginPct": 13.1,
         "marketCapUsd": null,
         "entityName": "WEST PHARMACEUTICAL SERVICES, INC.",
+        "financingSinceCash": [
+          {
+            "date": "2026-10-26",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/105770/000010577026000114/wst-20261026.htm"
+          }
+        ],
         "activeTrials": 3,
         "phase3Count": 0,
         "phase2Count": 3,
@@ -28758,6 +29992,26 @@
         "fcfMarginPct": -36.9,
         "marketCapUsd": null,
         "entityName": "Q32 Bio Inc.",
+        "financingSinceCash": [
+          {
+            "date": "2026-07-28",
+            "form": "424B3",
+            "label": "Prospectus (often a resale after a private placement)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1661998/000119312526321196/d119271d424b3.htm"
+          },
+          {
+            "date": "2026-07-15",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1661998/000119312526304946/d119567d424b5.htm"
+          },
+          {
+            "date": "2026-07-13",
+            "form": "424B5",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1661998/000119312526302100/d119567d424b5.htm"
+          }
+        ],
         "activeTrials": 3,
         "phase3Count": 0,
         "phase2Count": 2,
@@ -29231,6 +30485,32 @@
         "fcfMarginPct": 20.7,
         "marketCapUsd": null,
         "entityName": "ILLUMINA, INC.",
+        "financingSinceCash": [
+          {
+            "date": "2026-10-13",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/1110803/000111080326000195/ilmn-20261013.htm"
+          },
+          {
+            "date": "2026-08-13",
+            "form": "8-K",
+            "label": "New debt or financing obligation",
+            "url": "https://www.sec.gov/Archives/edgar/data/1110803/000095015726000888/form8-k.htm"
+          },
+          {
+            "date": "2026-08-12",
+            "form": "424B2",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1110803/000119312526346923/d173650d424b2.htm"
+          },
+          {
+            "date": "2026-08-10",
+            "form": "424B2",
+            "label": "Prospectus supplement",
+            "url": "https://www.sec.gov/Archives/edgar/data/1110803/000119312526341332/d173650d424b2.htm"
+          }
+        ],
         "activeTrials": 4,
         "phase3Count": 1,
         "phase2Count": 3,

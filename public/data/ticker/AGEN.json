@@ -53,6 +53,26 @@
     "fcfMarginPct": -74.2,
     "marketCapUsd": null,
     "entityName": "AGENUS INC",
+    "financingSinceCash": [
+      {
+        "date": "2026-08-18",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1098972/000119312526355559/agen-20260812.htm"
+      },
+      {
+        "date": "2026-08-17",
+        "form": "424B3",
+        "label": "Prospectus (often a resale after a private placement)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1098972/000119312526353143/d120245d424b3.htm"
+      },
+      {
+        "date": "2026-07-13",
+        "form": "8-K",
+        "label": "Unregistered sale of shares (private placement)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1098972/000119312526301414/d111026d8k.htm"
+      }
+    ],
     "activeTrials": 15,
     "phase3Count": 0,
     "phase2Count": 8,

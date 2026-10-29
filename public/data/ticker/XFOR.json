@@ -17,7 +17,7 @@
     "taxonomy": "us-gaap",
     "isUsd": true,
     "cashUsd": 195095000,
-    "shortTermInvestmentsUsd": null,
+    "shortTermInvestmentsUsd": 12874000,
     "longTermInvestmentsUsd": null,
     "totalCashUsd": 208000000,
     "cashAsOf": "2026-06-30",
@@ -53,6 +53,14 @@
     "fcfMarginPct": -528.4,
     "marketCapUsd": null,
     "entityName": "X4 PHARMACEUTICALS, INC",
+    "financingSinceCash": [
+      {
+        "date": "2026-10-08",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1501697/000150169726000081/xfor-20261007.htm"
+      }
+    ],
     "activeTrials": 11,
     "phase3Count": 2,
     "phase2Count": 5,

@@ -53,6 +53,14 @@
     "fcfMarginPct": 2.6,
     "marketCapUsd": null,
     "entityName": "MeiraGTx Holdings plc",
+    "financingSinceCash": [
+      {
+        "date": "2026-07-07",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1735438/000110465926080949/mgtx-20260630x8k.htm"
+      }
+    ],
     "activeTrials": 4,
     "phase3Count": 3,
     "phase2Count": 1,

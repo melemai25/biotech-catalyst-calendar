@@ -53,6 +53,26 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "OKYO Pharma Limited",
+    "financingSinceCash": [
+      {
+        "date": "2026-02-17",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1849296/000149315226006946/form424b5.htm"
+      },
+      {
+        "date": "2026-02-12",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1849296/000149315226006417/form424b5.htm"
+      },
+      {
+        "date": "2026-02-11",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1849296/000149315226006039/form424b5.htm"
+      }
+    ],
     "activeTrials": 3,
     "phase3Count": 1,
     "phase2Count": 2,

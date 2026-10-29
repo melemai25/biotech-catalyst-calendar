@@ -53,6 +53,20 @@
     "fcfMarginPct": -833.3,
     "marketCapUsd": null,
     "entityName": "Arcus Biosciences, Inc.",
+    "financingSinceCash": [
+      {
+        "date": "2026-10-22",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1724521/000119312526428916/d117931d424b5.htm"
+      },
+      {
+        "date": "2026-10-21",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1724521/000119312526427888/d117931d424b5.htm"
+      }
+    ],
     "activeTrials": 32,
     "phase3Count": 3,
     "phase2Count": 5,

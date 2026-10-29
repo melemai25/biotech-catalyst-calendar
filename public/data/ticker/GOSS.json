@@ -53,6 +53,14 @@
     "fcfMarginPct": -305.2,
     "marketCapUsd": null,
     "entityName": "GOSSAMER BIO, INC.",
+    "financingSinceCash": [
+      {
+        "date": "2026-08-21",
+        "form": "8-K",
+        "label": "Unregistered sale of shares (private placement)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1728117/000172811726000077/goss-20260820.htm"
+      }
+    ],
     "activeTrials": 2,
     "phase3Count": 1,
     "phase2Count": 1,

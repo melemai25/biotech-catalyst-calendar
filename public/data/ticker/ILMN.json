@@ -51,6 +51,32 @@
     "fcfMarginPct": 20.7,
     "marketCapUsd": null,
     "entityName": "ILLUMINA, INC.",
+    "financingSinceCash": [
+      {
+        "date": "2026-10-13",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1110803/000111080326000195/ilmn-20261013.htm"
+      },
+      {
+        "date": "2026-08-13",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1110803/000095015726000888/form8-k.htm"
+      },
+      {
+        "date": "2026-08-12",
+        "form": "424B2",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1110803/000119312526346923/d173650d424b2.htm"
+      },
+      {
+        "date": "2026-08-10",
+        "form": "424B2",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1110803/000119312526341332/d173650d424b2.htm"
+      }
+    ],
     "activeTrials": 4,
     "phase3Count": 1,
     "phase2Count": 3,

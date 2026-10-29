@@ -53,6 +53,14 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "Lexeo Therapeutics, Inc.",
+    "financingSinceCash": [
+      {
+        "date": "2026-09-29",
+        "form": "8-K",
+        "label": "Unregistered sale of shares (private placement)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1907108/000119312526407555/lxeo-20260929.htm"
+      }
+    ],
     "activeTrials": 5,
     "phase3Count": 0,
     "phase2Count": 4,

@@ -53,6 +53,14 @@
     "fcfMarginPct": -654.9,
     "marketCapUsd": null,
     "entityName": "Stoke Therapeutics, Inc.",
+    "financingSinceCash": [
+      {
+        "date": "2026-08-03",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1623526/000119312526330792/d137193d424b5.htm"
+      }
+    ],
     "activeTrials": 3,
     "phase3Count": 1,
     "phase2Count": 2,

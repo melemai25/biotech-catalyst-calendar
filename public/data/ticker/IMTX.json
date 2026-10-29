@@ -53,6 +53,14 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "Immatics N.V.",
+    "financingSinceCash": [
+      {
+        "date": "2026-08-25",
+        "form": "424B2",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1809196/000119312526365394/d149127d424b2.htm"
+      }
+    ],
     "activeTrials": 6,
     "phase3Count": 1,
     "phase2Count": 1,

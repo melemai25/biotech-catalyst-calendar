@@ -53,6 +53,14 @@
     "fcfMarginPct": -186736.6,
     "marketCapUsd": null,
     "entityName": "ALTIMMUNE, INC.",
+    "financingSinceCash": [
+      {
+        "date": "2026-10-29",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326190/000132619026000060/alt-20261027x8k.htm"
+      }
+    ],
     "activeTrials": 18,
     "phase3Count": 1,
     "phase2Count": 7,

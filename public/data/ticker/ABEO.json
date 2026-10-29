@@ -53,6 +53,14 @@
     "fcfMarginPct": -319.5,
     "marketCapUsd": null,
     "entityName": "ABEONA THERAPEUTICS INC.",
+    "financingSinceCash": [
+      {
+        "date": "2026-07-10",
+        "form": "424B3",
+        "label": "Prospectus (often a resale after a private placement)",
+        "url": "https://www.sec.gov/Archives/edgar/data/318306/000149315226032852/form424b3.htm"
+      }
+    ],
     "activeTrials": 5,
     "phase3Count": 2,
     "phase2Count": 2,

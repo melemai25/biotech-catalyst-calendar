@@ -53,6 +53,14 @@
     "fcfMarginPct": -800.6,
     "marketCapUsd": null,
     "entityName": "60 DEGREES PHARMACEUTICALS, INC.",
+    "financingSinceCash": [
+      {
+        "date": "2026-08-04",
+        "form": "8-K",
+        "label": "Unregistered sale of shares (private placement)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1946563/000121390026085235/ea0300260-8k_60degrees.htm"
+      }
+    ],
     "activeTrials": 4,
     "phase3Count": 0,
     "phase2Count": 4,

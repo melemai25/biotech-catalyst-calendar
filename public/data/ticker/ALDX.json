@@ -17,7 +17,7 @@
     "taxonomy": "us-gaap",
     "isUsd": true,
     "cashUsd": 45089786,
-    "shortTermInvestmentsUsd": null,
+    "shortTermInvestmentsUsd": 0,
     "longTermInvestmentsUsd": null,
     "totalCashUsd": 45089786,
     "cashAsOf": "2026-06-30",

@@ -53,6 +53,14 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "Cogent Biosciences, Inc.",
+    "financingSinceCash": [
+      {
+        "date": "2026-08-10",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1622229/000119312526342683/d149476d424b5.htm"
+      }
+    ],
     "activeTrials": 11,
     "phase3Count": 1,
     "phase2Count": 4,

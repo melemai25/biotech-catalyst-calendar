@@ -53,6 +53,20 @@
     "fcfMarginPct": -642.2,
     "marketCapUsd": null,
     "entityName": "Recursion Pharmaceuticals, Inc.",
+    "financingSinceCash": [
+      {
+        "date": "2026-10-15",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1601830/000160183026000134/rxrx-finalprosuppxoct2026o.htm"
+      },
+      {
+        "date": "2026-10-15",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1601830/000160183026000126/rxrx-prelimprosuppxoct2026.htm"
+      }
+    ],
     "activeTrials": 7,
     "phase3Count": 1,
     "phase2Count": 7,

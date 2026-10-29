@@ -53,6 +53,20 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "Amylyx Pharmaceuticals, Inc.",
+    "financingSinceCash": [
+      {
+        "date": "2026-08-20",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1658551/000119312526359416/d180581d424b5.htm"
+      },
+      {
+        "date": "2026-08-18",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1658551/000119312526355696/d180581d424b5.htm"
+      }
+    ],
     "activeTrials": 9,
     "phase3Count": 4,
     "phase2Count": 6,

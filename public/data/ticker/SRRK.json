@@ -53,6 +53,14 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "SCHOLAR ROCK HOLDING CORPORATION",
+    "financingSinceCash": [
+      {
+        "date": "2026-08-06",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1727196/000110465926091699/tm2622083-1_424b5.htm"
+      }
+    ],
     "activeTrials": 8,
     "phase3Count": 2,
     "phase2Count": 4,

@@ -53,6 +53,14 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "Solid Biosciences Inc.",
+    "financingSinceCash": [
+      {
+        "date": "2026-08-06",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1707502/000119312526338410/d360115d424b5.htm"
+      }
+    ],
     "activeTrials": 5,
     "phase3Count": 1,
     "phase2Count": 2,

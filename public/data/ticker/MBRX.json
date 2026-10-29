@@ -53,6 +53,20 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "Moleculin Biotech, Inc.",
+    "financingSinceCash": [
+      {
+        "date": "2026-08-21",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1659617/000143774926028751/mbrx20260817_424b5.htm"
+      },
+      {
+        "date": "2026-08-03",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1659617/000143774926025335/mbrx20260731_424b5.htm"
+      }
+    ],
     "activeTrials": 7,
     "phase3Count": 1,
     "phase2Count": 5,

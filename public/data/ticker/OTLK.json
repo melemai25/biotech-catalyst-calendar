@@ -53,6 +53,26 @@
     "fcfMarginPct": -3972.7,
     "marketCapUsd": null,
     "entityName": "OUTLOOK THERAPEUTICS, INC.",
+    "financingSinceCash": [
+      {
+        "date": "2026-08-14",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1649989/000110465926096504/tm2622281-2_424b5.htm"
+      },
+      {
+        "date": "2026-08-12",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1649989/000110465926094970/tm2622281-1_424b5.htm"
+      },
+      {
+        "date": "2026-07-21",
+        "form": "424B3",
+        "label": "Prospectus (often a resale after a private placement)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1649989/000110465926085430/tm2619649d5_424b3.htm"
+      }
+    ],
     "activeTrials": 5,
     "phase3Count": 5,
     "phase2Count": 0,

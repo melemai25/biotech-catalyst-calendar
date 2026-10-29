@@ -53,6 +53,14 @@
     "fcfMarginPct": -55.8,
     "marketCapUsd": null,
     "entityName": "Moderna, Inc.",
+    "financingSinceCash": [
+      {
+        "date": "2026-09-01",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1682852/000119312526378505/d108896d8k.htm"
+      }
+    ],
     "activeTrials": 94,
     "phase3Count": 23,
     "phase2Count": 42,

@@ -53,6 +53,38 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "TuHURA BIOSCIENCES, INC./NV",
+    "financingSinceCash": [
+      {
+        "date": "2026-10-16",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1498382/000119312526424228/hura-20261009.htm"
+      },
+      {
+        "date": "2026-09-24",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1498382/000119312526401140/hura-20260921.htm"
+      },
+      {
+        "date": "2026-09-17",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1498382/000119312526394473/hura-20260914.htm"
+      },
+      {
+        "date": "2026-09-04",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1498382/000119312526383797/hura-20260902.htm"
+      },
+      {
+        "date": "2026-08-21",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1498382/000119312526361272/hura-20260820.htm"
+      }
+    ],
     "activeTrials": 5,
     "phase3Count": 1,
     "phase2Count": 1,

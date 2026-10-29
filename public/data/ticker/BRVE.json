@@ -53,6 +53,14 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "Braveheart Bio, Inc.",
+    "financingSinceCash": [
+      {
+        "date": "2026-08-06",
+        "form": "424B4",
+        "label": "Offering prospectus",
+        "url": "https://www.sec.gov/Archives/edgar/data/2131524/000162828026054354/braveheartbioinc-sx1a2.htm"
+      }
+    ],
     "activeTrials": 1,
     "phase3Count": 1,
     "phase2Count": 0,

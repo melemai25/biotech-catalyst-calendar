@@ -53,6 +53,38 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "Vaxcyte, Inc.",
+    "financingSinceCash": [
+      {
+        "date": "2026-10-09",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1649094/000119312526419174/d150490d8k.htm"
+      },
+      {
+        "date": "2026-10-08",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1649094/000119312526417984/d177446d424b5.htm"
+      },
+      {
+        "date": "2026-10-08",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1649094/000119312526417977/d176371d424b5.htm"
+      },
+      {
+        "date": "2026-10-06",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1649094/000119312526414774/d177446d424b5.htm"
+      },
+      {
+        "date": "2026-10-06",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1649094/000119312526414772/d176371d424b5.htm"
+      }
+    ],
     "activeTrials": 9,
     "phase3Count": 3,
     "phase2Count": 5,

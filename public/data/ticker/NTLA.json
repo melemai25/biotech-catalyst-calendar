@@ -53,6 +53,14 @@
     "fcfMarginPct": -586,
     "marketCapUsd": null,
     "entityName": "INTELLIA THERAPEUTICS, INC.",
+    "financingSinceCash": [
+      {
+        "date": "2026-09-04",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652130/000119312526383645/d110798d8k.htm"
+      }
+    ],
     "activeTrials": 6,
     "phase3Count": 3,
     "phase2Count": 2,

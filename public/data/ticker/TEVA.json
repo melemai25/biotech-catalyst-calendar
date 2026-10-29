@@ -53,6 +53,26 @@
     "fcfMarginPct": 7.8,
     "marketCapUsd": null,
     "entityName": "TEVA PHARMACEUTICAL INDUSTRIES LIMITED",
+    "financingSinceCash": [
+      {
+        "date": "2026-09-16",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/818686/000119312526393116/d155511d8k.htm"
+      },
+      {
+        "date": "2026-09-11",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/818686/000119312526389382/d158426d424b5.htm"
+      },
+      {
+        "date": "2026-09-08",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/818686/000119312526384343/d158426d424b5.htm"
+      }
+    ],
     "activeTrials": 20,
     "phase3Count": 4,
     "phase2Count": 7,

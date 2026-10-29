@@ -53,6 +53,20 @@
     "fcfMarginPct": 21.3,
     "marketCapUsd": null,
     "entityName": "PRESTIGE CONSUMER HEALTHCARE INC.",
+    "financingSinceCash": [
+      {
+        "date": "2026-07-15",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1295947/000110465926083872/tm2620415d1_8k.htm"
+      },
+      {
+        "date": "2026-07-06",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1295947/000129594726000029/pbh-20260630.htm"
+      }
+    ],
     "activeTrials": 6,
     "phase3Count": 2,
     "phase2Count": 1,
