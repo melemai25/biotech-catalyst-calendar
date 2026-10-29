@@ -689,13 +689,20 @@ function analyzeBar(primary, compare){
 function statCards(meta){
   const m = meta.metrics || {};
   const ccy = m.reportingCurrency;
+  // Runway counts from the balance sheet, which can be months old. Once that
+  // date has passed the company has almost certainly raised or cut since, and
+  // the filing that says so has not been reflected yet.
+  const out = cashOutDateOf(m);
+  const lapsed = !!out && out <= TODAY_ISO;
   const cards = [
     { label:'Cash runway', value: m.runwayMonths !== null && m.runwayMonths !== undefined
         ? m.runwayMonths + ' mo' : (m.cashStatus === 'cash-generating' ? 'Profitable' : null),
-      note: m.burnScaled ? 'scaled from a longer reporting period' :
-            m.cashStatus === 'cash-generating' ? 'generates cash from operations' : null,
+      note: lapsed ? 'est. cash-out ' + out + ' has passed — check filings since' :
+            m.burnScaled ? 'scaled from a longer reporting period' :
+            m.cashStatus === 'cash-generating' ? 'generates cash from operations' :
+            out ? 'to about ' + out + ' at the latest burn' : null,
       tone: m.runwayMonths === null || m.runwayMonths === undefined ? 'neutral'
-          : m.runwayMonths < 12 ? 'warn' : m.runwayMonths < 24 ? 'mid' : 'good' },
+          : lapsed || m.runwayMonths < 12 ? 'warn' : m.runwayMonths < 24 ? 'mid' : 'good' },
     { label:'Cash & investments', value: fmtUsd(m.totalCashUsd, ccy),
       note: m.cashAsOf ? 'as of ' + m.cashAsOf : null, tone:'neutral' },
     { label:'Quarterly burn', value: fmtUsd(m.quarterlyBurnUsd, ccy),
@@ -956,6 +963,19 @@ const WHEN_OPTS = {
   'past': 'Already reported',
 };
 
+/**
+ * The date cash runs out at the latest quarter's burn, counted from the
+ * balance sheet date. The build supplies it; data built before it did gets
+ * the same arithmetic here.
+ */
+function cashOutDateOf(m){
+  if(m.cashOutDate) return m.cashOutDate;
+  if(m.runwayMonths === null || m.runwayMonths === undefined || !m.cashAsOf) return null;
+  const d = new Date(m.cashAsOf + 'T00:00:00Z');
+  d.setUTCDate(d.getUTCDate() + Math.round(m.runwayMonths * 30.4375));
+  return d.toISOString().slice(0, 10);
+}
+
 /** Days from today to a date string. Negative for the past. */
 function daysOut(dateStr){
   return Math.round((new Date(dateStr + 'T00:00:00') - new Date(TODAY_ISO + 'T00:00:00')) / 86400000);
@@ -992,8 +1012,15 @@ function matchesFilters(e, f, tickerMeta){
       // The reason this filter exists: an event scheduled for after the money
       // runs out means the company has to raise BEFORE it has the news, which
       // is a different situation from the same event at a funded company.
-      const d = daysOut(e.date);
-      return d > 0 && d > r * 30;
+      // Earnings dates are left out: a raise does not wait on them, so they
+      // only pad the list.
+      if(e.type === 'Earnings') return false;
+      if(daysOut(e.date) <= 0) return false;
+      // Compared with the date the cash runs out, counted from the balance
+      // sheet. Adding the runway to TODAY pushed every cash-out date months
+      // too late, by however long ago the quarter closed.
+      const out = cashOutDateOf(m);
+      return out ? e.date > out : daysOut(e.date) > r * 30;
     }
     const n = parseFloat(f.runway.slice(1));
     if(f.runway[0] === '<' && !(r < n)) return false;
