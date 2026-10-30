@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 2,
   "phase2": 2,
-  "generatedDate": "2026-10-29",
+  "generatedDate": "2026-10-30",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2026-10-31",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 2
+    "daysToNextCatalyst": 1
   },
   "trialStats": {
     "completed": 23,
@@ -68,7 +68,7 @@
     "withdrawn": 0,
     "suspended": 0,
     "ongoing": 6,
-    "withResults": 14,
+    "withResults": 15,
     "byPhase": {
       "phase2": {
         "completed": 8,
@@ -76,16 +76,16 @@
         "total": 11,
         "completionRatePct": 100
       },
-      "phase3": {
-        "completed": 8,
-        "terminated": 0,
-        "total": 10,
-        "completionRatePct": 100
-      },
       "other": {
         "completed": 4,
         "terminated": 0,
         "total": 5,
+        "completionRatePct": 100
+      },
+      "phase3": {
+        "completed": 8,
+        "terminated": 0,
+        "total": 10,
         "completionRatePct": 100
       },
       "phase1": {
@@ -97,7 +97,7 @@
     },
     "concluded": 23,
     "completionRatePct": 100,
-    "resultsPostedPct": 61
+    "resultsPostedPct": 65
   },
   "events": [
     {
@@ -454,7 +454,7 @@
       "phase": "Phase 2",
       "estimated": false,
       "summary": "Hypothalamic Obesity · 28 participants · Status: Completed",
-      "result": null,
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT06046443",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06046443",
       "origin": "registry",

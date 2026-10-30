@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 3,
   "phase2": 2,
-  "generatedDate": "2026-10-29",
+  "generatedDate": "2026-10-30",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-11-05",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 7
+    "daysToNextCatalyst": 6
   },
   "trialStats": {
     "completed": 27,
@@ -82,16 +82,16 @@
         "total": 22,
         "completionRatePct": 81
       },
-      "other": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
-      },
       "phase3": {
         "completed": 1,
         "terminated": 0,
         "total": 5,
+        "completionRatePct": null
+      },
+      "other": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 2,
         "completionRatePct": null
       }
     },
@@ -656,21 +656,6 @@
       "status": "past"
     },
     {
-      "id": "ct-CLDX-NCT06445023",
-      "ticker": "CLDX",
-      "date": "2026-10-15",
-      "title": "A Phase 3 Study of Barzolvolimab in Participants With Chronic Spontaneous Urticaria",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Chronic Spontaneous Urticaria · 963 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06445023",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06445023",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-CLDX-NCT06455202",
       "ticker": "CLDX",
       "date": "2026-10-15",
@@ -682,6 +667,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06455202",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06455202",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-CLDX-NCT06445023",
+      "ticker": "CLDX",
+      "date": "2026-10-15",
+      "title": "A Phase 3 Study of Barzolvolimab in Participants With Chronic Spontaneous Urticaria",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Chronic Spontaneous Urticaria · 963 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06445023",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06445023",
       "origin": "registry",
       "status": "past"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 1,
   "phase2": 4,
-  "generatedDate": "2026-10-29",
+  "generatedDate": "2026-10-30",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 7,
     "nextCatalystDate": "2026-11-01",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 3
+    "daysToNextCatalyst": 2
   },
   "trialStats": {
     "completed": 3,
@@ -76,12 +76,6 @@
         "total": 4,
         "completionRatePct": null
       },
-      "phase1": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 4,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 1,
         "terminated": 0,
@@ -92,6 +86,12 @@
         "completed": 2,
         "terminated": 0,
         "total": 3,
+        "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 4,
         "completionRatePct": null
       }
     },
@@ -491,21 +491,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-KRYS-NCT06999733",
-      "ticker": "KRYS",
-      "date": "2026-12-15",
-      "title": "A Study Comparing KB801 Verse Placebo in Patients With Stage 2 or 3 Neurotrophic Keratitis",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Neurotrophic Keratitis · 60 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06999733",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06999733",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-KRYS-NCT07016750",
       "ticker": "KRYS",
       "date": "2026-12-15",
@@ -532,6 +517,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05504837",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05504837",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-KRYS-NCT06999733",
+      "ticker": "KRYS",
+      "date": "2026-12-15",
+      "title": "A Study Comparing KB801 Verse Placebo in Patients With Stage 2 or 3 Neurotrophic Keratitis",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Neurotrophic Keratitis · 60 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06999733",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06999733",
       "origin": "registry",
       "status": "upcoming"
     },

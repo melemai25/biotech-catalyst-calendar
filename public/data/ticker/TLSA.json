@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 0,
   "phase2": 4,
-  "generatedDate": "2026-10-29",
+  "generatedDate": "2026-10-30",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-04-01",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 154
+    "daysToNextCatalyst": 153
   },
   "trialStats": {
     "completed": 2,
@@ -70,16 +70,16 @@
     "ongoing": 6,
     "withResults": 2,
     "byPhase": {
-      "phase1": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 3,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 1,
         "terminated": 2,
         "total": 10,
+        "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 3,
         "completionRatePct": null
       },
       "other": {
@@ -95,21 +95,6 @@
   },
   "events": [
     {
-      "id": "ct-TLSA-NCT01011439",
-      "ticker": "TLSA",
-      "date": "2017-05-31",
-      "title": "Phase II Study Of Oral PHA-848125AC In Patients With Thymic Carcinoma",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Thymic Carcinoma · 72 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT01011439",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT01011439",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-TLSA-NCT01301391",
       "ticker": "TLSA",
       "date": "2017-05-31",
@@ -121,6 +106,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT01301391",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT01301391",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-TLSA-NCT01011439",
+      "ticker": "TLSA",
+      "date": "2017-05-31",
+      "title": "Phase II Study Of Oral PHA-848125AC In Patients With Thymic Carcinoma",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Thymic Carcinoma · 72 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT01011439",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT01011439",
       "origin": "registry",
       "status": "past"
     },

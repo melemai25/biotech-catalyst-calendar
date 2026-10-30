@@ -11,7 +11,7 @@
   "activeTrials": 7,
   "phase3": 5,
   "phase2": 2,
-  "generatedDate": "2026-10-29",
+  "generatedDate": "2026-10-30",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 47
+    "daysToNextCatalyst": 46
   },
   "trialStats": {
     "completed": 7,
@@ -641,21 +641,6 @@
       "status": "past"
     },
     {
-      "id": "ct-PRAX-NCT07010471",
-      "ticker": "PRAX",
-      "date": "2026-12-15",
-      "title": "A Clinical Trial for Participants With DEE to Assess Efficacy, Safety, Tolerability, and PK of Relutrigine",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Developmental and Epileptic Encephalopathy 1 · 160 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07010471",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07010471",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-PRAX-NCT07019922",
       "ticker": "PRAX",
       "date": "2026-12-15",
@@ -667,6 +652,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07019922",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07019922",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-PRAX-NCT07010471",
+      "ticker": "PRAX",
+      "date": "2026-12-15",
+      "title": "A Clinical Trial for Participants With DEE to Assess Efficacy, Safety, Tolerability, and PK of Relutrigine",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Developmental and Epileptic Encephalopathy 1 · 160 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07010471",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07010471",
       "origin": "registry",
       "status": "upcoming"
     },

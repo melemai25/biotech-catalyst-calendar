@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-10-29",
+  "generatedDate": "2026-10-30",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -58,9 +58,9 @@
     "phase2Count": 2,
     "leadPhase": 3,
     "upcomingCount": 3,
-    "nextCatalystDate": "2026-10-30",
+    "nextCatalystDate": "2027-01-29",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 91
   },
   "trialStats": {
     "completed": 3,
@@ -412,7 +412,7 @@
     {
       "id": "edgar-TENX-next-earnings",
       "ticker": "TENX",
-      "date": "2026-10-30",
+      "date": "2027-01-29",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

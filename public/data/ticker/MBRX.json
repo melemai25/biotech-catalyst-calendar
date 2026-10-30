@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-29",
+  "generatedDate": "2026-10-30",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -74,7 +74,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-11-13",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 15
+    "daysToNextCatalyst": 14
   },
   "trialStats": {
     "completed": 6,
@@ -84,12 +84,6 @@
     "ongoing": 1,
     "withResults": 1,
     "byPhase": {
-      "phase3": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 1,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 2,
         "terminated": 0,
@@ -101,6 +95,12 @@
         "terminated": 0,
         "total": 4,
         "completionRatePct": 100
+      },
+      "phase3": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 1,
+        "completionRatePct": null
       }
     },
     "concluded": 6,
@@ -1335,6 +1335,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-10-20",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1659617/000143774926032969/mbrx20261015d_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-MBRX-0001437749-26-034075",
+      "ticker": "MBRX",
+      "date": "2026-10-30",
+      "title": "8-K filed: Reg FD disclosure",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 7.01, 9.01. Reg FD disclosure. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-30",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1659617/000143774926034075/mbrx20261029_8k.htm",
       "origin": "edgar",
       "status": "past"
     },

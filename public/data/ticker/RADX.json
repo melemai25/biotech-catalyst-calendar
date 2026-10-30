@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-10-29",
+  "generatedDate": "2026-10-30",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -92,7 +92,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2027-08-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 305
+    "daysToNextCatalyst": 304
   },
   "trialStats": {
     "completed": 0,
@@ -102,10 +102,10 @@
     "ongoing": 7,
     "withResults": 0,
     "byPhase": {
-      "phase2": {
+      "phase1": {
         "completed": 0,
         "terminated": 0,
-        "total": 3,
+        "total": 2,
         "completionRatePct": null
       },
       "other": {
@@ -114,10 +114,10 @@
         "total": 2,
         "completionRatePct": null
       },
-      "phase1": {
+      "phase2": {
         "completed": 0,
         "terminated": 0,
-        "total": 2,
+        "total": 3,
         "completionRatePct": null
       }
     },
@@ -1327,6 +1327,21 @@
       "status": "past"
     },
     {
+      "id": "edgar-RADX-0001213900-26-114071",
+      "ticker": "RADX",
+      "date": "2026-10-30",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. REPORT OF FOREIGN PRIVATE ISSUER.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-10-30",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1949257/000121390026114071/ea0310307-6k_radiopharm.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "ct-RADX-NCT07272642",
       "ticker": "RADX",
       "date": "2027-08-30",
@@ -1342,17 +1357,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-RADX-NCT06305962",
+      "id": "ct-RADX-NCT06824155",
       "ticker": "RADX",
       "date": "2027-12-15",
-      "title": "177Lu-anti-PD-L1 sdAb in Metastatic Solid Tumors",
+      "title": "HEAT Trial (HER2 Antibody Therapy With Lutetium-177)",
       "type": "Trial Milestone",
       "phase": "EARLY_Phase 1",
       "estimated": false,
-      "summary": "PDL1 Gene Mutation, Non Small Cell Lung Cancer, Small Cell Lung Cancer ( SCLC ) · 30 participants · Status: Recruiting",
+      "summary": "HER2 Gene Mutation, Advanced Solid Tumors · 30 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT06305962",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06305962",
+      "source": "ClinicalTrials.gov NCT06824155",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06824155",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1372,17 +1387,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-RADX-NCT06824155",
+      "id": "ct-RADX-NCT06305962",
       "ticker": "RADX",
       "date": "2027-12-15",
-      "title": "HEAT Trial (HER2 Antibody Therapy With Lutetium-177)",
+      "title": "177Lu-anti-PD-L1 sdAb in Metastatic Solid Tumors",
       "type": "Trial Milestone",
       "phase": "EARLY_Phase 1",
       "estimated": false,
-      "summary": "HER2 Gene Mutation, Advanced Solid Tumors · 30 participants · Status: Recruiting",
+      "summary": "PDL1 Gene Mutation, Non Small Cell Lung Cancer, Small Cell Lung Cancer ( SCLC ) · 30 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT06824155",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06824155",
+      "source": "ClinicalTrials.gov NCT06305962",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06305962",
       "origin": "registry",
       "status": "upcoming"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 10,
   "phase3": 4,
   "phase2": 6,
-  "generatedDate": "2026-10-29",
+  "generatedDate": "2026-10-30",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 13,
     "nextCatalystDate": "2026-11-01",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 3
+    "daysToNextCatalyst": 2
   },
   "trialStats": {
     "completed": 23,
@@ -70,6 +70,12 @@
     "ongoing": 13,
     "withResults": 21,
     "byPhase": {
+      "phase3": {
+        "completed": 4,
+        "terminated": 0,
+        "total": 8,
+        "completionRatePct": 100
+      },
       "phase2": {
         "completed": 11,
         "terminated": 9,
@@ -81,12 +87,6 @@
         "terminated": 2,
         "total": 13,
         "completionRatePct": 80
-      },
-      "phase3": {
-        "completed": 4,
-        "terminated": 0,
-        "total": 8,
-        "completionRatePct": 100
       },
       "other": {
         "completed": 0,
@@ -100,21 +100,6 @@
     "resultsPostedPct": 91
   },
   "events": [
-    {
-      "id": "ct-ARWR-NCT02797522",
-      "ticker": "ARWR",
-      "date": "2016-11-15",
-      "title": "A Study of ARC-521 Injection in Normal Adult Volunteers and Patients With Chronic Hepatitis B (CHB)",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Hepatitis B · 47 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02797522",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02797522",
-      "origin": "registry",
-      "status": "past"
-    },
     {
       "id": "ct-ARWR-NCT02363946",
       "ticker": "ARWR",
@@ -131,17 +116,17 @@
       "status": "past"
     },
     {
-      "id": "ct-ARWR-NCT02604212",
+      "id": "ct-ARWR-NCT02797522",
       "ticker": "ARWR",
-      "date": "2016-12-15",
-      "title": "A Multi-dose Study of ARC-520 in Patients With Hepatitis B 'e' Antigen (HBeAg) Positive, Chronic Hepatitis B Virus Infection",
+      "date": "2016-11-15",
+      "title": "A Study of ARC-521 Injection in Normal Adult Volunteers and Patients With Chronic Hepatitis B (CHB)",
       "type": "Trial Milestone",
-      "phase": "Phase 2",
+      "phase": "Phase 1",
       "estimated": false,
-      "summary": "Hepatitis B · 32 participants · Status: Terminated",
+      "summary": "Hepatitis B · 47 participants · Status: Terminated",
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02604212",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02604212",
+      "source": "ClinicalTrials.gov NCT02797522",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02797522",
       "origin": "registry",
       "status": "past"
     },
@@ -157,6 +142,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT02738008",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02738008",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-ARWR-NCT02604212",
+      "ticker": "ARWR",
+      "date": "2016-12-15",
+      "title": "A Multi-dose Study of ARC-520 in Patients With Hepatitis B 'e' Antigen (HBeAg) Positive, Chronic Hepatitis B Virus Infection",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Hepatitis B · 32 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT02604212",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02604212",
       "origin": "registry",
       "status": "past"
     },
@@ -191,21 +191,6 @@
       "status": "past"
     },
     {
-      "id": "ct-ARWR-NCT02065336",
-      "ticker": "ARWR",
-      "date": "2017-01-15",
-      "title": "A Multicenter Study to Determine the Depth and Duration of Hepatitis B Surface Antigen (HBsAg) Reduction After Single or Multiple Doses of ARC-520, in Combination With Entecavir in Patients With Chronic Hepatitis B Virus (HBV) Infection",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Hepatitis B, Chronic · 58 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02065336",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02065336",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-ARWR-NCT02604199",
       "ticker": "ARWR",
       "date": "2017-01-15",
@@ -217,6 +202,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT02604199",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02604199",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-ARWR-NCT02065336",
+      "ticker": "ARWR",
+      "date": "2017-01-15",
+      "title": "A Multicenter Study to Determine the Depth and Duration of Hepatitis B Surface Antigen (HBsAg) Reduction After Single or Multiple Doses of ARC-520, in Combination With Entecavir in Patients With Chronic Hepatitis B Virus (HBV) Infection",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Hepatitis B, Chronic · 58 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT02065336",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02065336",
       "origin": "registry",
       "status": "past"
     },
@@ -883,12 +883,12 @@
     {
       "id": "ct-ARWR-NCT06700538",
       "ticker": "ARWR",
-      "date": "2027-09-17",
+      "date": "2027-10-15",
       "title": "A First-In-Human Study of ARO-INHBE in Adults With Obesity With and Without Type 2 Diabetes Mellitus",
       "type": "Trial Milestone",
       "phase": "Phase 1/Phase 2",
       "estimated": false,
-      "summary": "Obesity · 180 participants · Status: Recruiting",
+      "summary": "Obesity · 190 participants · Status: Active Not Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT06700538",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06700538",

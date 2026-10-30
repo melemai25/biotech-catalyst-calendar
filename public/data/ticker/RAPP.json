@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 2,
   "phase2": 2,
-  "generatedDate": "2026-10-29",
+  "generatedDate": "2026-10-30",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,6 +55,18 @@
     "entityName": "Rapport Therapeutics, Inc.",
     "financingSinceCash": [
       {
+        "date": "2026-10-30",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012593/000119312526439869/d98241d424b5.htm"
+      },
+      {
+        "date": "2026-10-30",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012593/000119312526439863/d348288d424b5.htm"
+      },
+      {
         "date": "2026-10-27",
         "form": "424B5",
         "label": "Prospectus supplement",
@@ -74,7 +86,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-11-04",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 6
+    "daysToNextCatalyst": 5
   },
   "trialStats": {
     "completed": 2,
@@ -84,16 +96,16 @@
     "ongoing": 3,
     "withResults": 0,
     "byPhase": {
-      "phase3": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 2,
         "terminated": 0,
         "total": 3,
+        "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 2,
         "completionRatePct": null
       }
     },
@@ -373,21 +385,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-RAPP-NCT07594119",
-      "ticker": "RAPP",
-      "date": "2029-07-15",
-      "title": "Study Evaluating the Efficacy and Safety of RAP-219 in Adult Participants With Focal Seizures",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Focal Seizure, Epilepsy, Focal Epilepsy · 312 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07594119",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07594119",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-RAPP-NCT07563881",
       "ticker": "RAPP",
       "date": "2029-07-15",
@@ -399,6 +396,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07563881",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07563881",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-RAPP-NCT07594119",
+      "ticker": "RAPP",
+      "date": "2029-07-15",
+      "title": "Study Evaluating the Efficacy and Safety of RAP-219 in Adult Participants With Focal Seizures",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Focal Seizure, Epilepsy, Focal Epilepsy · 312 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07594119",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07594119",
       "origin": "registry",
       "status": "upcoming"
     }

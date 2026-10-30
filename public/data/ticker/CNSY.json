@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-10-29",
+  "generatedDate": "2026-10-30",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -66,9 +66,9 @@
     "phase2Count": 2,
     "leadPhase": 2,
     "upcomingCount": 4,
-    "nextCatalystDate": "2026-10-30",
+    "nextCatalystDate": "2027-01-15",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 77
   },
   "trialStats": {
     "completed": 1,
@@ -78,16 +78,16 @@
     "ongoing": 4,
     "withResults": 0,
     "byPhase": {
-      "phase1": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 3,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 0,
         "terminated": 0,
         "total": 2,
+        "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 3,
         "completionRatePct": null
       }
     },
@@ -564,7 +564,7 @@
     {
       "id": "edgar-CNSY-next-earnings",
       "ticker": "CNSY",
-      "date": "2026-10-30",
+      "date": "2027-01-15",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

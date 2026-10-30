@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 1,
   "phase2": 3,
-  "generatedDate": "2026-10-29",
+  "generatedDate": "2026-10-30",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2026-10-31",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 2
+    "daysToNextCatalyst": 1
   },
   "trialStats": {
     "completed": 13,
@@ -70,16 +70,16 @@
     "ongoing": 4,
     "withResults": 13,
     "byPhase": {
-      "phase3": {
-        "completed": 7,
-        "terminated": 0,
-        "total": 8,
-        "completionRatePct": 100
-      },
       "phase2": {
         "completed": 6,
         "terminated": 0,
         "total": 9,
+        "completionRatePct": 100
+      },
+      "phase3": {
+        "completed": 7,
+        "terminated": 0,
+        "total": 8,
         "completionRatePct": 100
       }
     },
@@ -726,7 +726,7 @@
       "type": "Trial Milestone",
       "phase": "Phase 1/Phase 2",
       "estimated": false,
-      "summary": "Leber Congenital Amaurosis, Leber Congenital Amaurosis (LCA) · 10 participants · Status: Not Yet Recruiting",
+      "summary": "Leber Congenital Amaurosis, Leber Congenital Amaurosis (LCA) · 10 participants · Status: Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT07681778",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07681778",

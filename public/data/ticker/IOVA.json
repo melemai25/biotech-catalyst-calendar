@@ -11,7 +11,7 @@
   "activeTrials": 8,
   "phase3": 1,
   "phase2": 7,
-  "generatedDate": "2026-10-29",
+  "generatedDate": "2026-10-30",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 9,
     "nextCatalystDate": "2026-11-05",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 7
+    "daysToNextCatalyst": 6
   },
   "trialStats": {
     "completed": 3,
@@ -82,13 +82,13 @@
         "total": 2,
         "completionRatePct": null
       },
-      "other": {
+      "phase3": {
         "completed": 0,
         "terminated": 0,
         "total": 1,
         "completionRatePct": null
       },
-      "phase3": {
+      "other": {
         "completed": 0,
         "terminated": 0,
         "total": 1,
@@ -472,6 +472,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-10-05",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1425205/000110465926113763/tm2627047d1_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-IOVA-0001104659-26-120261",
+      "ticker": "IOVA",
+      "date": "2026-10-29",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-29",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1425205/000110465926120261/tm2628468d1_8k.htm",
       "origin": "edgar",
       "status": "past"
     },

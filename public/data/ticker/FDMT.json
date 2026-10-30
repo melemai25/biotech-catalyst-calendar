@@ -11,7 +11,7 @@
   "activeTrials": 9,
   "phase3": 3,
   "phase2": 6,
-  "generatedDate": "2026-10-29",
+  "generatedDate": "2026-10-30",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 7,
     "nextCatalystDate": "2027-03-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 137
+    "daysToNextCatalyst": 136
   },
   "trialStats": {
     "completed": 0,
@@ -70,6 +70,12 @@
     "ongoing": 10,
     "withResults": 0,
     "byPhase": {
+      "phase3": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 3,
+        "completionRatePct": null
+      },
       "phase2": {
         "completed": 0,
         "terminated": 0,
@@ -80,12 +86,6 @@
         "completed": 0,
         "terminated": 0,
         "total": 1,
-        "completionRatePct": null
-      },
-      "phase3": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 3,
         "completionRatePct": null
       },
       "other": {
@@ -326,21 +326,6 @@
       "status": "past"
     },
     {
-      "id": "ct-FDMT-NCT05629559",
-      "ticker": "FDMT",
-      "date": "2026-06-15",
-      "title": "4D-310 in Adults With Fabry Disease and Cardiac Involvement",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Fabry Disease · 18 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05629559",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05629559",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-FDMT-NCT04517149",
       "ticker": "FDMT",
       "date": "2026-06-15",
@@ -352,6 +337,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04517149",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04517149",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-FDMT-NCT05629559",
+      "ticker": "FDMT",
+      "date": "2026-06-15",
+      "title": "4D-310 in Adults With Fabry Disease and Cardiac Involvement",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Fabry Disease · 18 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05629559",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05629559",
       "origin": "registry",
       "status": "past"
     },
