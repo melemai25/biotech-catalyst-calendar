@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-10-30",
+  "generatedDate": "2026-10-31",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -556,6 +556,21 @@
       "result": null,
       "source": "SEC EDGAR 6-K 2026-10-28",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1612940/000110465926119371/tm2628418d1_6k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-PRQR-0001104659-26-120645",
+      "ticker": "PRQR",
+      "date": "2026-10-30",
+      "title": "6-K/A filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K/A. Foreign issuer report. FORM 6-K/A.",
+      "result": null,
+      "source": "SEC EDGAR 6-K/A 2026-10-30",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1612940/000110465926120645/tm2628597d1_6ka.htm",
       "origin": "edgar",
       "status": "past"
     }

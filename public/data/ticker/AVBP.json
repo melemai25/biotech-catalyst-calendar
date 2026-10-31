@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-10-30",
+  "generatedDate": "2026-10-31",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-11-11",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 12
+    "daysToNextCatalyst": 11
   },
   "trialStats": {
     "completed": 0,
@@ -88,21 +88,6 @@
     "resultsPostedPct": null
   },
   "events": [
-    {
-      "id": "edgar-AVBP-0001104659-25-039799",
-      "ticker": "AVBP",
-      "date": "2025-04-28",
-      "title": "8-K filed: Leadership change, Reg FD disclosure",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.02, 7.01, 9.01. Leadership change; Reg FD disclosure. FORM 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-28",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1868279/000110465925039799/tm2513158d1_8k.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
     {
       "id": "edgar-AVBP-0001558370-25-007259",
       "ticker": "AVBP",

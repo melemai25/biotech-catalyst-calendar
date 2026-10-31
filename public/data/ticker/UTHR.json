@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 1,
   "phase2": 2,
-  "generatedDate": "2026-10-30",
+  "generatedDate": "2026-10-31",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2026-11-04",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 5
+    "daysToNextCatalyst": 4
   },
   "trialStats": {
     "completed": 43,
@@ -368,21 +368,6 @@
       "source": "ClinicalTrials.gov NCT03950739",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03950739",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-UTHR-0001104659-25-039710",
-      "ticker": "UTHR",
-      "date": "2025-04-28",
-      "title": "8-K filed: Material agreement",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 1.01, 1.02, 2.03, 9.01. Material agreement. FORM 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-28",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1082554/000110465925039710/tm2512890d1_8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

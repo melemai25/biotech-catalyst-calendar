@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-30",
+  "generatedDate": "2026-10-31",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2027-04-25",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 177
+    "daysToNextCatalyst": 176
   },
   "trialStats": {
     "completed": 10,
@@ -221,21 +221,6 @@
       "source": "ClinicalTrials.gov NCT04754334",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04754334",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ORMP-0001213900-25-036109",
-      "ticker": "ORMP",
-      "date": "2025-04-28",
-      "title": "8-K filed: Material agreement, Reg FD disclosure",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 1.01, 7.01, 9.01. Material agreement; Reg FD disclosure. CURRENT REPORT.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-28",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1176309/000121390025036109/ea0239800-8k_oramed.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

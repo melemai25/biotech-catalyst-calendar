@@ -11,7 +11,7 @@
   "activeTrials": 28,
   "phase3": 15,
   "phase2": 13,
-  "generatedDate": "2026-10-30",
+  "generatedDate": "2026-10-31",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 31,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 16
+    "daysToNextCatalyst": 15
   },
   "trialStats": {
     "completed": 35,
@@ -578,21 +578,6 @@
       "source": "ClinicalTrials.gov NCT05681481",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05681481",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ARGX-0001104659-25-039791",
-      "ticker": "ARGX",
-      "date": "2025-04-28",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. FORM 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-28",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1697862/000110465925039791/tm2513185d1_6k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

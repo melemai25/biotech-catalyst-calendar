@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 2,
   "phase2": 1,
-  "generatedDate": "2026-10-30",
+  "generatedDate": "2026-10-31",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2026-11-13",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 14
+    "daysToNextCatalyst": 13
   },
   "trialStats": {
     "completed": 4,
@@ -736,6 +736,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-10-09",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411685/000162828026065559/vtgn-20261007.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-VTGN-0001628280-26-068627",
+      "ticker": "VTGN",
+      "date": "2026-10-30",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 2.05, 8.01. Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-30",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411685/000162828026068627/vtgn-20261026.htm",
       "origin": "edgar",
       "status": "past"
     },

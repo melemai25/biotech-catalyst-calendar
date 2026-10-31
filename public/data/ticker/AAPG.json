@@ -11,7 +11,7 @@
   "activeTrials": 15,
   "phase3": 7,
   "phase2": 8,
-  "generatedDate": "2026-10-30",
+  "generatedDate": "2026-10-31",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 16,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 46
+    "daysToNextCatalyst": 45
   },
   "trialStats": {
     "completed": 9,
@@ -338,21 +338,6 @@
       "source": "ClinicalTrials.gov NCT04284488",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04284488",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-AAPG-0001213900-25-036182",
-      "ticker": "AAPG",
-      "date": "2025-04-28",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. REPORT OF FOREIGN PRIVATE ISSUER.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-28",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2023311/000121390025036182/ea0239693-6k_ascentage.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

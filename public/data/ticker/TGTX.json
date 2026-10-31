@@ -11,7 +11,7 @@
   "activeTrials": 7,
   "phase3": 4,
   "phase2": 3,
-  "generatedDate": "2026-10-30",
+  "generatedDate": "2026-10-31",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,10 +57,10 @@
     "phase3Count": 10,
     "phase2Count": 15,
     "leadPhase": 3,
-    "upcomingCount": 9,
-    "nextCatalystDate": "2026-10-31",
-    "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 1
+    "upcomingCount": 8,
+    "nextCatalystDate": "2026-11-02",
+    "nextCatalystType": "Earnings",
+    "daysToNextCatalyst": 2
   },
   "trialStats": {
     "completed": 15,
@@ -623,7 +623,7 @@
       "source": "ClinicalTrials.gov NCT07211633",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07211633",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "edgar-TGTX-next-earnings",

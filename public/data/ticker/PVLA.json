@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 2,
   "phase2": 2,
-  "generatedDate": "2026-10-30",
+  "generatedDate": "2026-10-31",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -58,9 +58,9 @@
     "phase2Count": 5,
     "leadPhase": 3,
     "upcomingCount": 2,
-    "nextCatalystDate": "2026-10-31",
+    "nextCatalystDate": "2027-01-27",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 88
   },
   "trialStats": {
     "completed": 5,
@@ -586,7 +586,7 @@
     {
       "id": "edgar-PVLA-next-earnings",
       "ticker": "PVLA",
-      "date": "2026-10-31",
+      "date": "2027-01-27",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

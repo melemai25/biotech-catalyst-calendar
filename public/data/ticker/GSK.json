@@ -11,7 +11,7 @@
   "activeTrials": 135,
   "phase3": 72,
   "phase2": 63,
-  "generatedDate": "2026-10-30",
+  "generatedDate": "2026-10-31",
   "metrics": {
     "reportingCurrency": "GBP",
     "taxonomy": "ifrs-full",
@@ -74,7 +74,7 @@
     "upcomingCount": 17,
     "nextCatalystDate": "2026-11-19",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 20
+    "daysToNextCatalyst": 19
   },
   "trialStats": {
     "completed": 366,
@@ -877,21 +877,6 @@
       "source": "ClinicalTrials.gov NCT07217184",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07217184",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-GSK-0001654954-25-004686",
-      "ticker": "GSK",
-      "date": "2025-04-28",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. TRANSACTION IN OWN SHARES.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-28",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1131399/000165495425004686/a3200g.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-30",
+  "generatedDate": "2026-10-31",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -92,7 +92,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-11-11",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 12
+    "daysToNextCatalyst": 11
   },
   "trialStats": {
     "completed": 2,
@@ -148,21 +148,6 @@
       "source": "ClinicalTrials.gov NCT04344795",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04344795",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-TPST-0001193125-25-098817",
-      "ticker": "TPST",
-      "date": "2025-04-28",
-      "title": "8-K filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 8.01. Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-28",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1544227/000119312525098817/d935409d8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {
@@ -672,6 +657,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-10-20",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1544227/000121390026111026/ea0309080-8k_tempest.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-TPST-0001213900-26-114376",
+      "ticker": "TPST",
+      "date": "2026-10-30",
+      "title": "8-K filed: Leadership change",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 5.02. Leadership change. CURRENT REPORT.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-30",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1544227/000121390026114376/ea0309738-8k_tempest.htm",
       "origin": "edgar",
       "status": "past"
     },

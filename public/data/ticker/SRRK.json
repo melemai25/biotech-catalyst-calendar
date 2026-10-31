@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 1,
   "phase2": 2,
-  "generatedDate": "2026-10-30",
+  "generatedDate": "2026-10-31",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -68,7 +68,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-11-01",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 2
+    "daysToNextCatalyst": 1
   },
   "trialStats": {
     "completed": 4,
@@ -166,21 +166,6 @@
       "source": "ClinicalTrials.gov NCT04291079",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04291079",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-SRRK-0001104659-25-039854",
-      "ticker": "SRRK",
-      "date": "2025-04-28",
-      "title": "8-K filed: Leadership change, Reg FD disclosure",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.02, 7.01, 9.01. Leadership change; Reg FD disclosure. FORM 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-28",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1727196/000110465925039854/tm2513330d1_8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

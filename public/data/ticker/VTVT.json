@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-10-30",
+  "generatedDate": "2026-10-31",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -58,9 +58,9 @@
     "phase2Count": 4,
     "leadPhase": 3,
     "upcomingCount": 3,
-    "nextCatalystDate": "2026-10-31",
+    "nextCatalystDate": "2027-01-25",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 86
   },
   "trialStats": {
     "completed": 8,
@@ -382,7 +382,7 @@
     {
       "id": "edgar-VTVT-next-earnings",
       "ticker": "VTVT",
-      "date": "2026-10-31",
+      "date": "2027-01-25",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

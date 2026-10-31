@@ -11,7 +11,7 @@
   "activeTrials": 6,
   "phase3": 2,
   "phase2": 4,
-  "generatedDate": "2026-10-30",
+  "generatedDate": "2026-10-31",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -77,10 +77,10 @@
     "phase3Count": 4,
     "phase2Count": 7,
     "leadPhase": 4,
-    "upcomingCount": 8,
-    "nextCatalystDate": "2026-10-31",
+    "upcomingCount": 7,
+    "nextCatalystDate": "2026-11-02",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 2
   },
   "trialStats": {
     "completed": 7,
@@ -553,7 +553,7 @@
       "source": "ClinicalTrials.gov NCT06052267",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06052267",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-TEVA-NCT06664619",

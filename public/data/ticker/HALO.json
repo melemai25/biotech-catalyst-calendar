@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-30",
+  "generatedDate": "2026-10-31",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -66,9 +66,9 @@
     "phase2Count": 1,
     "leadPhase": 3,
     "upcomingCount": 2,
-    "nextCatalystDate": "2026-10-31",
+    "nextCatalystDate": "2027-01-25",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 86
   },
   "trialStats": {
     "completed": 29,
@@ -546,7 +546,7 @@
     {
       "id": "edgar-HALO-next-earnings",
       "ticker": "HALO",
-      "date": "2026-10-31",
+      "date": "2027-01-25",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

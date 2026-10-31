@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-30",
+  "generatedDate": "2026-10-31",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2027-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 411
+    "daysToNextCatalyst": 410
   },
   "trialStats": {
     "completed": 2,
@@ -101,21 +101,6 @@
       "source": "ClinicalTrials.gov NCT03066947",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03066947",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-BCTX-0001641172-25-006428",
-      "ticker": "BCTX",
-      "date": "2025-04-28",
-      "title": "8-K filed: Material agreement, Other event",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 1.01, 8.01, 9.01. Material agreement; Other event.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-28",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1610820/000164117225006428/form8-k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 2,
   "phase2": 2,
-  "generatedDate": "2026-10-30",
+  "generatedDate": "2026-10-31",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -56,6 +56,12 @@
     "financingSinceCash": [
       {
         "date": "2026-10-30",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012593/000119312526441851/d49801d8k.htm"
+      },
+      {
+        "date": "2026-10-30",
         "form": "424B5",
         "label": "Prospectus supplement",
         "url": "https://www.sec.gov/Archives/edgar/data/2012593/000119312526439869/d98241d424b5.htm"
@@ -84,9 +90,9 @@
     "phase2Count": 3,
     "leadPhase": 3,
     "upcomingCount": 4,
-    "nextCatalystDate": "2026-11-04",
+    "nextCatalystDate": "2027-01-28",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 5
+    "daysToNextCatalyst": 89
   },
   "trialStats": {
     "completed": 2,
@@ -355,9 +361,24 @@
       "status": "past"
     },
     {
+      "id": "edgar-RAPP-0001193125-26-441851",
+      "ticker": "RAPP",
+      "date": "2026-10-30",
+      "title": "Quarterly results filed (8-K)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 1.01, 2.02, 2.03, 3.02, 9.01. Material agreement; Quarterly results. 8-K.",
+      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
+      "source": "SEC EDGAR 8-K 2026-10-30",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2012593/000119312526441851/d49801d8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "edgar-RAPP-next-earnings",
       "ticker": "RAPP",
-      "date": "2026-11-04",
+      "date": "2027-01-28",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

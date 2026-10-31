@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-10-30",
+  "generatedDate": "2026-10-31",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-11-03",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 4
+    "daysToNextCatalyst": 3
   },
   "trialStats": {
     "completed": 16,
@@ -457,6 +457,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-08-13",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1285819/000155278126000441/e26350_omer-8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-OMER-0001552781-26-000531",
+      "ticker": "OMER",
+      "date": "2026-10-30",
+      "title": "8-K filed: Leadership change",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 5.02, 9.01. Leadership change.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-30",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1285819/000155278126000531/e26432_omer-8k.htm",
       "origin": "edgar",
       "status": "past"
     },

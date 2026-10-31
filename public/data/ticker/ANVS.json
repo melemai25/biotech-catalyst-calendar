@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 3,
   "phase2": 0,
-  "generatedDate": "2026-10-30",
+  "generatedDate": "2026-10-31",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-11-13",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 14
+    "daysToNextCatalyst": 13
   },
   "trialStats": {
     "completed": 4,
@@ -421,6 +421,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-10-20",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1477845/000110465926116995/tm2627875d1_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-ANVS-0001104659-26-120732",
+      "ticker": "ANVS",
+      "date": "2026-10-30",
+      "title": "8-K filed: Listing / standard notice, Reg FD disclosure",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 3.01, 7.01, 9.01. Listing / standard notice; Reg FD disclosure. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-10-30",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1477845/000110465926120732/tm2628596d1_8k.htm",
       "origin": "edgar",
       "status": "past"
     },
