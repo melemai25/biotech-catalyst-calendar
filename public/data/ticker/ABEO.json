@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-31",
+  "generatedDate": "2026-11-01",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -68,7 +68,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-11-11",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 11
+    "daysToNextCatalyst": 10
   },
   "trialStats": {
     "completed": 5,
@@ -145,36 +145,6 @@
       "source": "ClinicalTrials.gov NCT04227106",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04227106",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ABEO-0001641172-25-006584",
-      "ticker": "ABEO",
-      "date": "2025-04-29",
-      "title": "8-K filed: Reg FD disclosure",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 7.01, 9.01. Reg FD disclosure. FORM 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-29",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/318306/000164117225006584/form8-k.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ABEO-0001641172-25-006548",
-      "ticker": "ABEO",
-      "date": "2025-04-29",
-      "title": "8-K filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-29",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/318306/000164117225006548/form8-k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

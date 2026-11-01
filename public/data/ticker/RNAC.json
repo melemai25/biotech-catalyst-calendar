@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 1,
   "phase2": 4,
-  "generatedDate": "2026-10-31",
+  "generatedDate": "2026-11-01",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2026-11-05",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 5
+    "daysToNextCatalyst": 4
   },
   "trialStats": {
     "completed": 1,
@@ -197,21 +197,6 @@
       "source": "ClinicalTrials.gov NCT06304636",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06304636",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-RNAC-0001453687-25-000077",
-      "ticker": "RNAC",
-      "date": "2025-04-29",
-      "title": "8-K filed: Leadership change",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.02. Leadership change. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-29",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1453687/000145368725000077/rnac-20250429.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

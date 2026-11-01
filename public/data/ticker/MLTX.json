@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 3,
   "phase2": 0,
-  "generatedDate": "2026-10-31",
+  "generatedDate": "2026-11-01",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-11-09",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 9
+    "daysToNextCatalyst": 8
   },
   "trialStats": {
     "completed": 5,
@@ -122,21 +122,6 @@
       "source": "ClinicalTrials.gov NCT05640245",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05640245",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-MLTX-0001213900-25-036363",
-      "ticker": "MLTX",
-      "date": "2025-04-29",
-      "title": "8-K filed: Reg FD disclosure",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 7.01. Reg FD disclosure. CURRENT REPORT.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-29",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1821586/000121390025036363/ea0239804-8k_moonlake.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

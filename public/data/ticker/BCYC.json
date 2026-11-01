@@ -11,7 +11,7 @@
   "activeTrials": 8,
   "phase3": 0,
   "phase2": 8,
-  "generatedDate": "2026-10-31",
+  "generatedDate": "2026-11-01",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 8,
     "nextCatalystDate": "2026-12-31",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 61
+    "daysToNextCatalyst": 60
   },
   "trialStats": {
     "completed": 0,
@@ -82,21 +82,6 @@
     "resultsPostedPct": null
   },
   "events": [
-    {
-      "id": "edgar-BCYC-0001104659-25-040625",
-      "ticker": "BCYC",
-      "date": "2025-04-29",
-      "title": "8-K filed: Reg FD disclosure",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 7.01, 9.01. Reg FD disclosure. FORM 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-29",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1761612/000110465925040625/tm2513386d1_8k.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
     {
       "id": "edgar-BCYC-0001104659-25-043014",
       "ticker": "BCYC",

@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 3,
   "phase2": 2,
-  "generatedDate": "2026-10-31",
+  "generatedDate": "2026-11-01",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2027-08-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 288
+    "daysToNextCatalyst": 287
   },
   "trialStats": {
     "completed": 7,
@@ -158,21 +158,6 @@
       "source": "ClinicalTrials.gov NCT05980598",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05980598",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ASND-0001193125-25-103766",
-      "ticker": "ASND",
-      "date": "2025-04-29",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-29",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1612042/000119312525103766/d75062d6k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

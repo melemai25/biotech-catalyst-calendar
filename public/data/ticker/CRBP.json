@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 1,
   "phase2": 2,
-  "generatedDate": "2026-10-31",
+  "generatedDate": "2026-11-01",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -65,10 +65,10 @@
     "phase3Count": 3,
     "phase2Count": 5,
     "leadPhase": 3,
-    "upcomingCount": 4,
-    "nextCatalystDate": "2026-11-01",
-    "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 1
+    "upcomingCount": 3,
+    "nextCatalystDate": "2026-11-05",
+    "nextCatalystType": "Earnings",
+    "daysToNextCatalyst": 4
   },
   "trialStats": {
     "completed": 4,
@@ -565,7 +565,7 @@
       "source": "ClinicalTrials.gov NCT06603844",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06603844",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "edgar-CRBP-next-earnings",

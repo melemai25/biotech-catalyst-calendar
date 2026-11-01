@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-31",
+  "generatedDate": "2026-11-01",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -58,9 +58,9 @@
     "phase2Count": 3,
     "leadPhase": 3,
     "upcomingCount": 2,
-    "nextCatalystDate": "2026-11-01",
+    "nextCatalystDate": "2027-01-29",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 89
   },
   "trialStats": {
     "completed": 8,
@@ -946,7 +946,7 @@
     {
       "id": "edgar-LPCN-next-earnings",
       "ticker": "LPCN",
-      "date": "2026-11-01",
+      "date": "2027-01-29",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-10-31",
+  "generatedDate": "2026-11-01",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -68,7 +68,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-12-24",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 54
+    "daysToNextCatalyst": 53
   },
   "trialStats": {
     "completed": 26,
@@ -271,21 +271,6 @@
       "source": "ClinicalTrials.gov NCT06203444",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06203444",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ARDX-0001628280-25-020477",
-      "ticker": "ARDX",
-      "date": "2025-04-29",
-      "title": "8-K filed: Leadership change",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.02, 9.01. Leadership change. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-29",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1437402/000162828025020477/ardx-20250428.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

@@ -11,7 +11,7 @@
   "activeTrials": 188,
   "phase3": 92,
   "phase2": 96,
-  "generatedDate": "2026-10-31",
+  "generatedDate": "2026-11-01",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -74,7 +74,7 @@
     "upcomingCount": 38,
     "nextCatalystDate": "2026-11-03",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 3
+    "daysToNextCatalyst": 2
   },
   "trialStats": {
     "completed": 349,
@@ -2257,21 +2257,6 @@
       "source": "ClinicalTrials.gov NCT04797000",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04797000",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-NVS-0001370368-25-000010",
-      "ticker": "NVS",
-      "date": "2025-04-29",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-29",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1114448/000137036825000010/a250429-6k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

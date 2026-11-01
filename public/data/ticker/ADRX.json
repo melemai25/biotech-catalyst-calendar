@@ -11,7 +11,7 @@
   "activeTrials": 7,
   "phase3": 2,
   "phase2": 5,
-  "generatedDate": "2026-10-31",
+  "generatedDate": "2026-11-01",
   "metrics": {
     "reportingCurrency": null,
     "taxonomy": null,
@@ -60,7 +60,7 @@
     "upcomingCount": 8,
     "nextCatalystDate": "2027-01-22",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 83
+    "daysToNextCatalyst": 82
   },
   "trialStats": {
     "completed": 0,

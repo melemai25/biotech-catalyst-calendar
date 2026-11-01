@@ -11,7 +11,7 @@
   "activeTrials": 27,
   "phase3": 15,
   "phase2": 12,
-  "generatedDate": "2026-10-31",
+  "generatedDate": "2026-11-01",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 52,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 15
+    "daysToNextCatalyst": 14
   },
   "trialStats": {
     "completed": 5,
@@ -100,21 +100,6 @@
     "resultsPostedPct": 20
   },
   "events": [
-    {
-      "id": "edgar-ONC-0001651308-25-000066",
-      "ticker": "ONC",
-      "date": "2025-04-29",
-      "title": "8-K filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-29",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1651308/000165130825000066/bgne-20250429.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
     {
       "id": "edgar-ONC-0001651308-25-000074",
       "ticker": "ONC",

@@ -11,7 +11,7 @@
   "activeTrials": 68,
   "phase3": 44,
   "phase2": 24,
-  "generatedDate": "2026-10-31",
+  "generatedDate": "2026-11-01",
   "metrics": {
     "reportingCurrency": "JPY",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 18,
     "nextCatalystDate": "2027-02-10",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 102
+    "daysToNextCatalyst": 101
   },
   "trialStats": {
     "completed": 242,

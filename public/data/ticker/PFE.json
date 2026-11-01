@@ -11,7 +11,7 @@
   "activeTrials": 145,
   "phase3": 98,
   "phase2": 47,
-  "generatedDate": "2026-10-31",
+  "generatedDate": "2026-11-01",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 21,
     "nextCatalystDate": "2026-11-03",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 3
+    "daysToNextCatalyst": 2
   },
   "trialStats": {
     "completed": 314,
@@ -1118,21 +1118,6 @@
       "source": "ClinicalTrials.gov NCT06693518",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06693518",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-PFE-0000078003-25-000111",
-      "ticker": "PFE",
-      "date": "2025-04-29",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 2.05, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-04-29",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/78003/000007800325000111/pfe-20250429.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {
