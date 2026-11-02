@@ -1,26 +1,14 @@
 #!/usr/bin/env node
-/**
- * SEC EDGAR ingestion.
+/*
+ * SEC EDGAR filings: past earnings dates (8-K 2.02), projected next earnings,
+ * and 8-K/6-K corporate events.
  *
- * Free, keyless, but with two hard requirements the SEC enforces:
- *   1. A User-Agent header naming you and giving a contact email.
- *      Without it every request returns 403 and your IP is blocked ~10 min.
- *   2. A maximum of 10 requests/second across ALL sec.gov domains.
- *      We target 8/sec to leave headroom.
+ * SEC needs a User-Agent with your name + email (else 403 and a ~10 min IP block)
+ * and max 10 req/sec. Set it with:
+ *   setx EDGAR_USER_AGENT "Your Name you@example.com"
+ * or data/config.json { "edgarUserAgent": "..." }
  *
- * Set your contact string once:
- *   Windows  : setx EDGAR_USER_AGENT "Your Name you@example.com"
- *   macOS/Linux: export EDGAR_USER_AGENT="Your Name you@example.com"
- * or put it in data/config.json as { "edgarUserAgent": "..." }.
- *
- * What this produces:
- *   - Historical earnings dates, from 8-K item 2.02 filings
- *   - A PROJECTED next earnings date, from the quarterly cadence
- *   - Corporate and "other events" filings, which are where trial results
- *     and PDUFA announcements land (item 8.01 / 7.01)
- *
- * Note: 8-Ks are filed AFTER an event. EDGAR gives you history and lets you
- * project forward. It does not publish future dates.
+ * 8-Ks come after the fact, so the only forward date is the earnings projection.
  */
 
 const fs = require('fs');
@@ -30,11 +18,11 @@ const ROOT = path.join(__dirname, '..');
 const TICKER_MAP_URL = 'https://www.sec.gov/files/company_tickers.json';
 const SUBMISSIONS = (cik) => `https://data.sec.gov/submissions/CIK${cik}.json`;
 
-// SEC allows 10/sec. 125ms gap = 8/sec, leaving headroom.
+// 8/sec
 const REQUEST_GAP_MS = 125;
 const MAX_RETRIES = 3;
 
-/** 8-K item codes worth putting on a calendar. */
+// 8-K items to keep
 const ITEM_MAP = {
   '2.02': { type: 'Earnings',  label: 'Quarterly results' },
   '8.01': { type: 'Other',     label: 'Other event' },
@@ -47,11 +35,7 @@ const ITEM_MAP = {
 
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
-/**
- * Foreign private issuers (AstraZeneca, Novo Nordisk, Roche, BioNTech...) never
- * file 8-Ks. They file 6-K for current reports and 20-F/40-F annually. 6-Ks
- * carry no item codes, so they are classified by their document description.
- */
+// foreign filers use 6-K / 20-F with no item codes, so classify 6-Ks by description
 const FOREIGN_FORMS = new Set(['6-K', '6-K/A', '20-F', '20-F/A', '40-F', '40-F/A']);
 
 function classifyForeignFiling(form, description) {
@@ -78,7 +62,7 @@ function getUserAgent() {
     try {
       const ua = JSON.parse(fs.readFileSync(cfgPath, 'utf8')).edgarUserAgent;
       if (ua && ua.trim() && !ua.includes('you@example.com')) return ua.trim();
-    } catch { /* fall through */ }
+    } catch { }
   }
   return null;
 }
@@ -121,11 +105,10 @@ async function secFetch(url, userAgent) {
   throw lastErr || new Error('request failed');
 }
 
-/** Downloads the ticker -> CIK map (one request, covers every registrant). */
+// ticker -> CIK, one request
 async function fetchTickerMap(userAgent) {
   const raw = await secFetch(TICKER_MAP_URL, userAgent);
   const map = {};
-  // Shape is { "0": {cik_str, ticker, title}, "1": {...}, ... }
   for (const row of Object.values(raw)) {
     if (!row || !row.ticker) continue;
     map[String(row.ticker).toUpperCase()] = {
@@ -136,7 +119,6 @@ async function fetchTickerMap(userAgent) {
   return map;
 }
 
-/** Turns the submissions payload into a flat array of recent filings. */
 function flattenFilings(sub) {
   const r = (sub.filings || {}).recent || {};
   const n = (r.accessionNumber || []).length;
@@ -161,14 +143,10 @@ function filingUrl(cik, accession, primaryDoc) {
   return `https://www.sec.gov/Archives/edgar/data/${cikTrimmed}/${clean}/${primaryDoc || ''}`;
 }
 
-/**
- * Projects the next quarterly earnings date from historical 8-K item 2.02
- * filing dates. Uses the median gap between the most recent filings, which is
- * more robust than the mean when one quarter was reported late.
- */
+// next earnings = last 2.02 filing + median gap (median handles a late quarter)
 function projectNextEarnings(earningsDates, today) {
   if (earningsDates.length < 3) return null;
-  const sorted = [...earningsDates].sort();           // ascending
+  const sorted = [...earningsDates].sort();
   const recent = sorted.slice(-6);
   const gaps = [];
   for (let i = 1; i < recent.length; i++) {
@@ -176,7 +154,7 @@ function projectNextEarnings(earningsDates, today) {
   }
   gaps.sort((a, b) => a - b);
   const median = gaps[Math.floor(gaps.length / 2)];
-  // Sanity: a quarterly cadence should land near 91 days.
+  // should be ~91 days
   if (median < 60 || median > 130) return null;
 
   let next = new Date(sorted[sorted.length - 1]);
@@ -189,10 +167,6 @@ function projectNextEarnings(earningsDates, today) {
   return next.toISOString().slice(0, 10);
 }
 
-/**
- * Converts one company's filings into calendar events.
- * `lookbackDays` limits how far back historical filings are kept.
- */
 function filingsToEvents(filings, ticker, cik, today, lookbackDays = 550) {
   const cutoff = new Date(new Date(today).getTime() - lookbackDays * 86400000)
     .toISOString().slice(0, 10);
@@ -274,13 +248,9 @@ function filingsToEvents(filings, ticker, cik, today, lookbackDays = 550) {
 }
 
 /*
- * Filings that mean a company has raised (or arranged) money. Used to mark a
- * runway as out of date: the cash figure comes from the last 10-Q, and a raise
- * after that date is not in it.
- *
- * Signals, not amounts. A 424B5 can be a completed offering or a new
- * at-the-market programme that has not sold a share yet; the label says
- * "filed", never "raised $X".
+ * Filings that mean new money: offerings (424B), private placements (8-K 3.02),
+ * new debt (8-K 2.03), 6-K financing announcements.
+ * Just a signal, no amounts. A 424B5 can be an ATM that hasn't sold anything.
  */
 const OFFERING_FORMS = {
   '424B1': 'Offering prospectus',
@@ -318,10 +288,7 @@ function financingSignals(filings, cik, lookbackFrom) {
   return out.sort((a, b) => b.date.localeCompare(a.date));
 }
 
-/**
- * The financing filings dated AFTER a balance sheet date, newest first,
- * at most `limit`. Empty when there is no date to compare against.
- */
+// financing filed after cashAsOf, newest first
 function financingSince(signals, cashAsOf, limit = 5) {
   if (!cashAsOf || !signals) return [];
   return signals.filter(s => s.date > cashAsOf).slice(0, limit);
@@ -342,7 +309,6 @@ module.exports = {
   FOREIGN_FORMS,
   fetchTickerMap,
   fetchCompanyEvents,
-  // exported for testing
   flattenFilings,
   filingsToEvents,
   projectNextEarnings,

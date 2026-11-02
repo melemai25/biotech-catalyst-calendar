@@ -1,11 +1,8 @@
-/* Catalyst Calendar — reads the static events.json produced by scripts/build-data.js */
+/* Biolyst front end. Reads the json that scripts/build-data.js writes */
 
 const MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 const WEEKDAYS = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
-// Deterministic colour per ticker: same ticker always gets the same hue.
-// Muted clinical palette: medium-saturation hues that sit calmly together on
-// pale surfaces while staying distinguishable, all carrying white text.
-// Weighted toward the blue-green family with a few warm hues for separation.
+// ticker colors. same ticker always gets the same color, all readable with white text
 const TICKER_PALETTE = [
   '#0E8C97', // teal
   '#3A7CC4', // soft blue
@@ -35,38 +32,29 @@ const state = {
   viewMonth: startOfMonth(new Date()),
   selectedDate: null,
   tickerQuery: '',
-  watchlist: [],        // tickers the user has added, in order
-  hidden: {},           // ticker -> true means loaded but not displayed
+  watchlist: [],
+  hidden: {},           // true = loaded but hidden
   addOpen: false,
   analyzeTicker: null,
   compareWith: [],
   sources: { registry:true, edgar:true },
-  // Macro lives in its own payload and is fetched only when the tab is opened,
-  // so the biotech calendar never waits on it.
+  // macro.json only loads when the tab is opened
   macro: null,
   macroLoading: false,
-  // A short message shown at the top, edited in public/data/notice.json
-  // without touching any code.
+  // banner text, edit public/data/notice.json
   notice: null,
   macroGroup: 'all',
   macroWindow: 60,
-  // One setting for every tab. The macro tab used to force the sidebar away,
-  // which meant walking left to right across the tabs made the layout jump
-  // and then jump back — it read as a glitch rather than a choice.
+  // same sidebar setting on every tab
   sidebarOpen: readSidebarPref(),
   cache: {},
   loading: false,
   modalDate: null,
   tab: (location.hash.replace('#','') || 'calendar'),
   q: '',
-  // Dropdown state for the Data tab. Separate from `q` so the controls and
-  // the typed query can coexist: the controls are the discoverable path, the
-  // text box still takes `runway:<12` for anyone who likes typing.
+  // Data tab dropdowns. the search box still takes runway:<12 etc
   filters: { status:'', type:'', phase:'', runway:'', source:'', when:'' },
-  // The Data tab can look at the watchlist or the whole universe. Scoped to a
-  // watchlist, the runway filters find nothing — the default watchlist is the
-  // two most active companies, which are mega-caps with no runway concern —
-  // so the most useful question the site can answer was unreachable.
+  // 'watchlist' or 'all'. runway filters need 'all' to find anything
   dataScope: 'watchlist',
   allEvents: null,
   allLoading: false,
@@ -75,13 +63,7 @@ const state = {
   error: null,
 };
 
-/**
- * Sidebar open/closed, remembered between visits.
- *
- * Wrapped because localStorage throws outright in a private window and in a
- * few embedded contexts — a preference is not worth a blank page, so a failure
- * just means the default.
- */
+// sidebar open/closed. localStorage can throw in private windows
 function readSidebarPref(){
   try {
     const v = localStorage.getItem('sidebarOpen');
@@ -101,7 +83,7 @@ function iso(d){
 }
 const TODAY_ISO = iso(new Date());
 
-/* ---------- tiny DOM helper ---------- */
+/* dom helper */
 function el(tag, attrs, children){
   const n = document.createElement(tag);
   if(attrs) for(const [k,v] of Object.entries(attrs)){
@@ -118,7 +100,7 @@ function el(tag, attrs, children){
   return n;
 }
 
-/* ---------- data ---------- */
+/* data */
 async function loadTicker(t){
   if(state.cache[t]) return;
   try{
@@ -142,7 +124,6 @@ async function ensureLoaded(){
 
 async function load(){
   try{
-    // index.json is small: ticker list and counts only.
     let data;
     const res = await fetch('data/index.json', {cache:'no-cache'});
     if(res.ok){
@@ -153,15 +134,14 @@ async function load(){
       }
     }
     if(!data){
-      // Fall back to the combined file if index.json has no ticker map.
+      // fall back to events.json
       const r2 = await fetch('data/events.json', {cache:'no-cache'});
       if(!r2.ok) throw new Error('Could not load data (HTTP ' + r2.status + ')');
       data = await r2.json();
       data.perTicker = false;
     }
     state.data = data;
-    // Precedence: the URL wins (someone followed a link), then a saved
-    // watchlist, then the most active tickers as a starting point.
+    // url > saved watchlist > most active
     const known = Object.keys(data.tickers || {});
     const fromUrl = watchlistFromUrl(known);
     if (fromUrl) {
@@ -202,7 +182,7 @@ function visibleEvents(){
     .sort((a,b) => a.date.localeCompare(b.date));
 }
 
-/* ---------- render ---------- */
+/* render */
 function render(){
   const root = document.getElementById('root');
   root.textContent = '';
@@ -224,7 +204,6 @@ function render(){
     root.appendChild(el('div',{class:'loading'},['Loading catalyst data…']));
     return;
   }
-  // Every tab behaves the same way now; the reader decides, not the tab.
   root.appendChild(el('div',{class:'app'},[
     masthead(),
     state.sidebarOpen
@@ -234,12 +213,8 @@ function render(){
   syncBuildPill();
 }
 
-/**
- * The build-date pill belongs in the top nav, which lives OUTSIDE #root so
- * crawlers can see its links. render() empties #root but never touches the nav,
- * so this updates the pill in place instead of recreating it — otherwise every
- * tab switch would append another one.
- */
+// build date pill lives in the static nav (outside #root), so update it in place
+// or every render adds another one
 function syncBuildPill(){
   const nav = document.querySelector('.site-nav');
   if(!nav) return;
@@ -255,36 +230,23 @@ function syncBuildPill(){
 }
 
 
-/* ===================================================================== *
- * Notice
- * ===================================================================== */
+/* notice */
 
-/**
- * A short message to readers, from public/data/notice.json:
- *
- *   { "message": "...", "until": "2026-12-31", "id": "launch-1" }
- *
- * `until` is required and enforced. A message-of-the-day nobody remembers to
- * delete is worse than none — it sits there for months, visibly stale, telling
- * everyone the site is unmaintained. This one removes itself.
- *
- * `id` keys the dismissal, so changing the message brings it back for people
- * who dismissed the previous one.
- *
- * Any failure is silent: a decorative banner is never worth an error.
- */
+// notice.json: { message, until, id }
+// until is required so old messages expire on their own.
+// change id to re-show it to people who dismissed the last one
 async function loadNotice(){
   try{
     const res = await fetch('data/notice.json', {cache:'no-cache'});
     if(!res.ok) return;
     const n = await res.json();
     if(!n || !n.message || !n.until) return;
-    if(new Date().toISOString().slice(0,10) > n.until) return;   // expired
+    if(new Date().toISOString().slice(0,10) > n.until) return;
     let dismissed = null;
     try { dismissed = localStorage.getItem('noticeDismissed'); } catch {}
     if(dismissed && dismissed === (n.id || n.message)) return;
     state.notice = n;
-  }catch{ /* no banner, no problem */ }
+  }catch{ }
 }
 
 function dismissNotice(){
@@ -296,7 +258,7 @@ function dismissNotice(){
 
 function noticeBar(){
   const n = state.notice;
-  if(!n) return el('div',{class:'notice-slot'},[]);   // holds the grid cell open
+  if(!n) return el('div',{class:'notice-slot'},[]);   // keeps the grid cell
   return el('div',{class:'notice-slot'},[
     el('div',{class:'notice', role:'status'},[
       el('span',{class:'notice-text'},[n.message]),
@@ -316,10 +278,6 @@ function masthead(){
   ]);
 }
 
-/**
- * The sidebar toggle. It sits in the masthead's left cell, which keeps it
- * left-aligned with the panel it controls while the brand stays centred.
- */
 function panelBar(){
   const label = state.sidebarOpen ? 'Hide the watchlist panel' : 'Show the watchlist panel';
   return el('div',{class:'panel-bar'},[
@@ -327,8 +285,7 @@ function panelBar(){
       class:'panel-toggle', type:'button',
       'aria-expanded': String(state.sidebarOpen),
       'aria-controls':'sidebar',
-      // The glyph alone carries no meaning to a screen reader, so the label
-      // has to say what the button does rather than what it looks like.
+      // screen readers need a label, the chevron alone means nothing
       'aria-label': label,
       title: label,
       onclick: toggleSidebar,
@@ -338,7 +295,7 @@ function panelBar(){
   ]);
 }
 
-/** Tickers ordered by how much is actually in flight, biggest first. */
+// most active first
 function rankedTickers(data){
   return Object.entries(data.tickers || {}).sort((a, b) => {
     const sa = a[1].score ?? a[1].activeTrials ?? (a[1].counts || {}).total ?? 0;
@@ -353,13 +310,8 @@ function saveWatchlist(){
   syncUrl();
 }
 
-/**
- * Mirrors the watchlist into ?tickers= so a view can be shared or linked to
- * from a landing page. Sorted alphabetically so the same set always produces
- * the same URL — otherwise click order would fragment analytics and caching.
- * The page carries a canonical tag back to "/" so these never get indexed
- * separately; there is no search demand for a ticker combination.
- */
+// sync watchlist to ?tickers= (sorted so the same set = same url).
+// canonical points to / so these don't get indexed
 function syncUrl(){
   try {
     const url = new URL(location.href);
@@ -400,7 +352,7 @@ function sidebar(){
   const d = state.data;
   const sb = el('div',{id:'sidebar'},[]);
 
-  /* ---------------------------- watchlist ---------------------------- */
+  /* watchlist */
   sb.appendChild(el('div',{class:'panel'},[
     el('div',{class:'panel-head'},[
       'Watchlist',
@@ -432,7 +384,7 @@ function sidebar(){
     )
   ]));
 
-  /* ------------------------------ add -------------------------------- */
+  /* add */
   const q = (state.tickerQuery || '').trim().toUpperCase();
   let candidates = rankedTickers(d).filter(([t]) => !state.watchlist.includes(t));
   if (q) {
@@ -480,7 +432,7 @@ function sidebar(){
     ])
   ]));
 
-  /* ---------------------------- sources ------------------------------ */
+  /* sources */
   sb.appendChild(el('div',{class:'panel'},[
     el('div',{class:'panel-head'},['Sources']),
     el('div',{class:'panel-body'},[
@@ -495,7 +447,7 @@ function sidebar(){
     ))
   ]));
 
-  /* ---------------------------- next up ------------------------------ */
+  /* next up */
   const upcoming = visibleEvents().filter(e => e.status === 'upcoming').slice(0, 5);
   if(state.tab !== 'data') sb.appendChild(el('div',{class:'panel'},[
     el('div',{class:'panel-head'},['Next Up']),
@@ -522,7 +474,7 @@ function goTo(dateStr){
   render();
 }
 
-// Cell ticks need a short, uniform label. Full titles live in the popout.
+// short labels for calendar cells, full titles are in the popup
 function shortTitle(e){
   if(e.type === 'Earnings') return e.estimated ? 'Earnings (est.)' : 'Earnings';
   if(e.type === 'Regulatory') return 'FDA decision';
@@ -560,8 +512,6 @@ function tabBar(){
 }
 
 function main(){
-  // tabBar() now lives on the masthead row, beside the panel toggle and the
-  // notice, so the primary navigation is not buried below the sidebar.
   const kids = [];
   kids.push(state.tab === 'data' ? dataTab()
           : state.tab === 'analysis' ? analysisTab()
@@ -571,7 +521,7 @@ function main(){
   return el('div',{}, kids);
 }
 
-/* ------------------------------------------------------------ Analysis tab */
+/* analysis tab */
 
 const fmtUsd = (v, ccy) => {
   if (v === null || v === undefined) return null;
@@ -586,10 +536,7 @@ const fmtPct  = v => (v === null || v === undefined) ? null : v + '%';
 const fmtNum  = v => (v === null || v === undefined) ? null : v.toLocaleString();
 const fmtMo   = v => (v === null || v === undefined) ? null : v + ' mo';
 
-/**
- * Metric rows. `better` drives the comparison highlight: 'high', 'low', or
- * null where there is no good direction (revenue is not "better" than cash).
- */
+// better: 'high' | 'low' | null, used for the compare highlight
 const METRIC_GROUPS = [
   { group:'Cash position', rows:[
     { key:'totalCashUsd',    label:'Cash & investments', fmt:'usd',  better:'high' },
@@ -635,7 +582,6 @@ function formatMetric(v, fmt, ccy){
 }
 
 function analyzeSelection(){
-  // Primary ticker defaults to the first visible watchlist entry.
   const avail = state.watchlist.filter(t => !state.hidden[t]);
   if(!avail.length) return { primary:null, compare:[] };
   const primary = avail.includes(state.analyzeTicker) ? state.analyzeTicker : avail[0];
@@ -643,7 +589,6 @@ function analyzeSelection(){
   return { primary, compare };
 }
 
-/** The row of company chips plus the compare controls. */
 function analyzeBar(primary, compare){
   const avail = state.watchlist.filter(t => !state.hidden[t]);
   const d = state.data;
@@ -685,16 +630,14 @@ function analyzeBar(primary, compare){
   ]);
 }
 
-/** Headline figures for the single-company view. */
 function statCards(meta){
   const m = meta.metrics || {};
   const ccy = m.reportingCurrency;
-  // Runway counts from the balance sheet, which can be months old. Once that
-  // date has passed the company has almost certainly raised or cut since, and
-  // the filing that says so has not been reflected yet.
+  // runway counts from the balance sheet date. if that date is past they've
+  // probably raised or cut since
   const out = cashOutDateOf(m);
   const lapsed = !!out && out <= TODAY_ISO;
-  // An offering, private placement or new debt filed after the balance sheet.
+  // offering/placement/debt filed after the balance sheet
   const fin = (m.financingSinceCash || [])[0] || null;
   const cards = [
     { label:'Cash runway', value: m.runwayMonths !== null && m.runwayMonths !== undefined
@@ -729,7 +672,6 @@ function statCards(meta){
   ));
 }
 
-/** Single-company detail: grouped metric list plus trial outcomes. */
 function singleView(ticker, meta){
   const m = meta.metrics || {};
   const ccy = m.reportingCurrency;
@@ -781,7 +723,6 @@ function singleView(ticker, meta){
   return el('div',{class:'az-single'}, sections);
 }
 
-/** Side-by-side grid, used once the user adds comparisons. */
 function compareView(picks){
   const d = state.data;
   const metas = picks.map(t => [t, (d.tickers || {})[t] || {}]);
@@ -888,7 +829,7 @@ function analysisTab(){
   ]);
 }
 
-/* ---------------------------------------------------------------- Data tab */
+/* data tab */
 
 const COLUMNS = [
   {key:'date',    label:'Date',    get: e => e.date},
@@ -899,12 +840,7 @@ const COLUMNS = [
   {key:'status',  label:'Status',  get: e => e.status},
 ];
 
-/* ---------------------------------------------- Data tab filter controls */
-
-/**
- * The combined events file is ~8MB, so it is fetched only when someone
- * deliberately switches to the whole-universe view — never on page load.
- */
+// events.json is ~8MB, only load it when someone picks 'all companies'
 async function loadAllEvents(){
   if(state.allEvents || state.allLoading) return;
   state.allLoading = true; render();
@@ -924,7 +860,6 @@ async function loadAllEvents(){
   render();
 }
 
-/** The rows the Data tab works from, honouring scope and the source toggles. */
 function dataRows(){
   if(state.dataScope !== 'all') return visibleEvents();
   if(!state.allEvents) return [];
@@ -937,15 +872,8 @@ function setDataScope(scope){
   render();
 }
 
-/**
- * Dropdown definitions. Options are grouped rather than taken raw from the
- * data: the registry records twelve distinct phase strings — "Phase 2b",
- * "Phase 2/Phase 3", "BLA review", "Registrational" — and a select listing
- * all of them is worse than no select at all.
- *
- * Each option carries its own predicate, so adding a filter is one entry here
- * and nothing else.
- */
+// dropdown options. phases are grouped since the registry has ~12 different
+// phase strings. each option has its own test fn
 const PHASE_GROUPS = {
   '1':   { label: 'Phase 1',      test: p => /phase 1/i.test(p) },
   '2':   { label: 'Phase 2',      test: p => /phase 2/i.test(p) },
@@ -970,11 +898,7 @@ const WHEN_OPTS = {
   'past': 'Already reported',
 };
 
-/**
- * The date cash runs out at the latest quarter's burn, counted from the
- * balance sheet date. The build supplies it; data built before it did gets
- * the same arithmetic here.
- */
+// cash-out date. build sets it, older data falls back to this
 function cashOutDateOf(m){
   if(m.cashOutDate) return m.cashOutDate;
   if(m.runwayMonths === null || m.runwayMonths === undefined || !m.cashAsOf) return null;
@@ -983,12 +907,8 @@ function cashOutDateOf(m){
   return d.toISOString().slice(0, 10);
 }
 
-/**
- * A small marker for runway views: the company has filed an offering, private
- * placement or new debt since the balance sheet its runway comes from, so the
- * cash figure is out of date. Says "filed", not "raised" — a prospectus can be
- * a programme that has not sold anything yet.
- */
+// 'financing filed' tag. says filed, not raised: a prospectus can be an ATM
+// that hasn't sold anything
 function financingFlag(ticker){
   const m = ((state.data.tickers || {})[ticker] || {}).metrics || {};
   const list = m.financingSinceCash || [];
@@ -1000,16 +920,11 @@ function financingFlag(ticker){
     ['financing filed ' + list[0].date.slice(5)]);
 }
 
-/** Days from today to a date string. Negative for the past. */
 function daysOut(dateStr){
   return Math.round((new Date(dateStr + 'T00:00:00') - new Date(TODAY_ISO + 'T00:00:00')) / 86400000);
 }
 
-/**
- * Applies the dropdown state. Runs alongside the typed query rather than
- * replacing it — both have to pass, so a control and a typed term combine
- * the way a reader would expect.
- */
+// dropdowns + typed query both have to match
 function matchesFilters(e, f, tickerMeta){
   if(f.status && e.status !== f.status) return false;
   if(f.type && e.type !== f.type) return false;
@@ -1033,21 +948,14 @@ function matchesFilters(e, f, tickerMeta){
     if(r === null || r === undefined) return false;
 
     if(f.runway === 'gap'){
-      // The reason this filter exists: an event scheduled for after the money
-      // runs out means the company has to raise BEFORE it has the news, which
-      // is a different situation from the same event at a funded company.
-      // Earnings dates are left out: a raise does not wait on them, so they
-      // only pad the list.
+      // event after the money runs out = company has to raise before it gets the news.
+      // skip earnings
       if(e.type === 'Earnings') return false;
       if(daysOut(e.date) <= 0) return false;
-      // A balance sheet more than ~6 months old says little about today.
-      // Foreign filers often only have their annual report in the SEC's data,
-      // so their cash is counted from last December. Leave them out rather
-      // than list them on a stale figure.
+      // skip balance sheets older than ~6 months. foreign filers often only have
+      // their annual report in xbrl
       if(m.cashAsOf && daysOut(m.cashAsOf) < -200) return false;
-      // Compared with the date the cash runs out, counted from the balance
-      // sheet. Adding the runway to TODAY pushed every cash-out date months
-      // too late, by however long ago the quarter closed.
+      // compare to cash-out date (from the balance sheet date, not today)
       const out = cashOutDateOf(m);
       return out ? e.date > out : daysOut(e.date) > r * 30;
     }
@@ -1068,11 +976,7 @@ function clearFilters(){
   render();
 }
 
-/**
- * Structured filters compose: `phase:3 type:earnings before:2027-01-01`.
- * Anything not matching a key:value pair is treated as free text.
- * Metric filters (runway:<12) plug into the same parser later.
- */
+// query syntax: phase:3 type:earnings before:2027-01-01, the rest is free text
 function parseQuery(q){
   const terms = {free:[], filters:[]};
   for(const part of q.trim().split(/\s+/)){
@@ -1114,7 +1018,7 @@ function matches(e, terms, tickerMeta){
   return true;
 }
 
-/** One labelled dropdown. `opts` is {value: label}; '' is always "Any". */
+// opts: {value: label}, '' = Any
 function filterSelect(key, label, anyLabel, opts){
   return el('label',{class:'fsel'},[
     el('span',{class:'fsel-label'},[label]),
@@ -1130,16 +1034,11 @@ function filterSelect(key, label, anyLabel, opts){
   ]);
 }
 
-/**
- * One-click combinations worth more than their parts. "Event after cash runs
- * out" in particular is the question the site can answer that others cannot,
- * and it was previously reachable only by knowing the query syntax.
- */
+// quick views
 const PRESETS = [
   { label:'Upcoming readouts',  set:{ status:'upcoming', type:'Trial Readout', phase:'', runway:'', source:'', when:'' } },
   { label:'Phase 3, next 90 days', set:{ status:'upcoming', type:'', phase:'3', runway:'', source:'', when:'90' } },
-  // These two are market-wide questions. Run against a watchlist they return
-  // nothing and look broken, so they switch scope themselves.
+  // these only make sense across all companies, so switch scope
   { label:'Short runway',       scope:'all', set:{ status:'upcoming', type:'', phase:'', runway:'<12', source:'', when:'' } },
   { label:'Event after cash runs out', scope:'all', set:{ status:'upcoming', type:'', phase:'', runway:'gap', source:'', when:'' } },
   { label:'FDA decisions',      set:{ status:'upcoming', type:'Regulatory', phase:'', runway:'', source:'', when:'' } },
@@ -1150,7 +1049,7 @@ function presetActive(p){
   return Object.keys(p.set).every(k => state.filters[k] === p.set[k]);
 }
 
-/** Removable chips, so what is actually applied is visible without re-reading every dropdown. */
+// active filter chips
 function activeChips(){
   const labels = {
     status: v => v === 'upcoming' ? 'Upcoming' : 'Already reported',
@@ -1228,7 +1127,6 @@ function dataTab(){
     el('div',{class:'filter-bar'},[
       filterSelect('status', 'Status', 'Any', { upcoming:'Upcoming', past:'Already reported' }),
       filterSelect('type', 'Type', 'All types', Object.fromEntries(
-        // Taken from the data so the list can never drift from what exists.
         [...new Set(pool.map(e => e.type))].sort().map(t => [t, t])
       )),
       filterSelect('phase', 'Phase', 'Any phase', Object.fromEntries(
@@ -1381,13 +1279,9 @@ function eventCard(e){
   return el('div',{class:'event-card'}, body);
 }
 
-/* ============================================================== Macro tab */
+/* macro tab */
 
-/**
- * Macro data is a separate payload on a separate build cadence, fetched the
- * first time the tab is opened. A visitor who only wants the biotech calendar
- * never downloads it.
- */
+// loaded the first time the tab opens
 async function loadMacro(){
   if(state.macro || state.macroLoading) return;
   state.macroLoading = true;
@@ -1415,16 +1309,8 @@ const MACRO_GROUP_TABS = [
   {id:'fed',       label:'Fed'},
 ];
 
-/**
- * The second line of a release row. Normally the full release name, which
- * expands the short one usefully — "CPI" into "Consumer Price Index".
- *
- * But some releases are already known by their full name, and printing
- * "Existing home sales / Existing Home Sales" makes every such row look like
- * a duplicate of itself. When the full name adds no word the short one does
- * not already have, show the issuing agency instead: still informative, and
- * it keeps the row from reading as an accident.
- */
+// second line of a release row: full name, or the agency when the full name
+// is the same as the short one (Existing Home Sales etc)
 function relSecondary(r){
   const words = s => String(s || '').toLowerCase().replace(/[^a-z0-9 ]/g,' ').split(/\s+/).filter(Boolean);
   const have = new Set(words(r.short));
@@ -1432,7 +1318,7 @@ function relSecondary(r){
   return extra.length ? r.name : (r.agency || '');
 }
 
-/** Importance 3 is a number that moves markets; 1 is context. */
+// 3 = market moving, 1 = context
 function impDots(n){
   return el('span',{class:'imp imp-'+n, title: n===3 ? 'Market-moving' : n===2 ? 'Watched' : 'Context'},
     [0,1,2].map(i => el('span',{class:'imp-dot' + (i < n ? ' on' : '')})));
@@ -1449,11 +1335,7 @@ function fmtMacro(ind){
   return v;
 }
 
-/**
- * Signed change, with the sign kept — a fall of 0.2 must not read as 0.2.
- * Shown to the same precision as the value itself: the payload carries an
- * extra digit, but "+0.035pp" on a figure quoted to two places is noise.
- */
+// signed change, same precision as the value
 function fmtDelta(ind){
   if(ind.change === null || ind.change === undefined) return null;
   const suffix = ind.unit === '%' ? 'pp' : ind.unit === 'k' ? 'k' : '';
@@ -1461,8 +1343,7 @@ function fmtDelta(ind){
   const mag = Math.abs(ind.change);
   const tick = Math.pow(10, -ind.decimals);
 
-  // A change too small to show at this precision renders as a bound, not as
-  // "+0" — which would read as no change when there was one.
+  // too small to show -> '<0.1' instead of '+0'
   if(mag > 0 && mag < tick / 2) return '<' + tick.toFixed(ind.decimals) + suffix;
 
   const abs = mag.toLocaleString(undefined, {
@@ -1471,11 +1352,8 @@ function fmtDelta(ind){
   return sign + abs + suffix;
 }
 
-/**
- * Colours the change only where there is a defensible direction. Cross-asset
- * moves get no colour: a rising VIX is information, not bad news, and painting
- * it red would be the page taking a position it has no business taking.
- */
+// only color changes that have an obvious good/bad direction.
+// cross-asset stays neutral (rising VIX isn't 'bad')
 function deltaClass(ind){
   if(!ind.goodDirection || !ind.direction || ind.direction === 'flat') return 'neutral';
   return ind.direction === ind.goodDirection ? 'good' : 'bad';
@@ -1485,7 +1363,7 @@ function arrow(dir){
   return dir === 'up' ? '↑' : dir === 'down' ? '↓' : '→';
 }
 
-/** Inline sparkline. Flat series get a centred line rather than a divide-by-zero. */
+// sparkline. flat series = centered line
 function sparkline(history, w, h){
   w = w || 92; h = h || 26;
   const pts = (history || []).map(p => p[1]).filter(v => Number.isFinite(v));
@@ -1573,8 +1451,7 @@ function macroTab(){
   const inds = (m.indicators || []).filter(inGroup);
   if(inds.length) kids.push(macroPrints(m, inds));
 
-  // Cross-asset is always shown: it is the "what is happening right now" strip
-  // and it does not belong to any one release group.
+  // cross-asset strip always shows
   const cross = (m.indicators || []).filter(i => i.group === 'cross');
   if(cross.length) kids.push(macroCross(cross));
 
@@ -1584,7 +1461,7 @@ function macroTab(){
   return el('div',{}, kids);
 }
 
-/* ---------- hero: next release + risk gauge ---------- */
+/* hero: next release + risk gauge */
 
 function macroHero(m){
   const next = (m.releases || []).find(r => r.status === 'upcoming' && r.importance === 3)
@@ -1601,8 +1478,7 @@ function macroHero(m){
       el('span',{},[next.agency]),
     ]) : null,
     next && next.note ? el('p',{class:'hero-note'},[next.note]) : null,
-    // The next few after it, so the card answers "what else is coming" without
-    // the reader having to scan the full calendar below.
+    // next few releases after it
     (() => {
       const then = (m.releases || [])
         .filter(r => r.status === 'upcoming' && r.importance === 3 && (!next || r.key !== next.key))
@@ -1657,7 +1533,7 @@ function macroHero(m){
   return el('div',{class:'macro-hero'},[left, right]);
 }
 
-/* ---------- release calendar ---------- */
+/* release calendar */
 
 function macroCalendar(m, inGroup){
   const rows = (m.releases || [])
@@ -1684,8 +1560,7 @@ function macroCalendar(m, inGroup){
             },[
               impDots(r.importance),
               el('span',{class:'rel-name'},[r.short]),
-              // A marker for what separates otherwise identical rows — the
-              // four FOMC meetings a year that carry the dot plot.
+              // marks the 4 FOMC meetings with the dot plot
               r.tag ? el('span',{class:'rel-tag', title:r.note || ''},[r.tag]) : null,
               el('span',{class:'rel-full'},[relSecondary(r)]),
               r.valueAvailable === false
@@ -1707,7 +1582,7 @@ function macroCalendar(m, inGroup){
   ]);
 }
 
-/* ---------- latest prints ---------- */
+/* latest prints */
 
 function macroPrints(m, inds){
   const groups = {};
@@ -1718,8 +1593,7 @@ function macroPrints(m, inds){
   const order = ['inflation','jobs','growth'];
   const panels = order.filter(k => groups[k]).map(k => {
     const meta = (m.groups || {})[k] || {label:k, blurb:''};
-    // macro-spec.js already lists these in reading order, and the payload keeps
-    // it. Re-sorting by importance split each indicator from its own variant.
+    // keep macro-spec order, sorting by importance split up related rows
     const list = groups[k];
     return el('div',{class:'panel'},[
       el('div',{class:'panel-head'},[meta.label, el('span',{class:'head-blurb'},[meta.blurb || ''])]),
@@ -1753,11 +1627,7 @@ function printCard(ind){
   ]);
 }
 
-/**
- * The period the number describes, not the day it was published. Saying
- * "September" for a CPI print released in October is the honest framing —
- * it stops a reader treating a monthly figure as today's reading.
- */
+// period the number covers, not the release date
 function refLabel(ind){
   const d = new Date(ind.asOf + 'T00:00:00');
   if(ind.freq === 'quarterly') return 'Q' + (Math.floor(d.getMonth()/3)+1) + ' ' + d.getFullYear();
@@ -1766,14 +1636,12 @@ function refLabel(ind){
   return longDate(ind.asOf);
 }
 
-/* ---------- cross-asset ---------- */
+/* cross-asset */
 
 function macroCross(cross){
-  const list = cross;   // spec order: volatility, equities, rates, curve, credit, FX, commodities
+  const list = cross;   // spec order
 
-  // These are all daily series that almost always share one as-of date, so it
-  // belongs in the header. Repeating it on twelve tiles is noise — but a tile
-  // that is genuinely stale still has to say so, so it keeps its own date.
+  // one shared as-of date in the header, tiles only show a date when stale
   const counts = {};
   for(const i of list) counts[i.asOf] = (counts[i.asOf] || 0) + 1;
   const common = Object.keys(counts).sort((a,b) => counts[b] - counts[a])[0];
@@ -1802,7 +1670,7 @@ function macroCross(cross){
   ]);
 }
 
-/* ---------- positioning ---------- */
+/* positioning */
 
 function macroPositioning(m){
   return el('div',{class:'panel'},[
@@ -1836,19 +1704,10 @@ function macroPositioning(m){
   ]);
 }
 
-/* ---------- provenance and gaps ---------- */
+/* sources */
 
-/**
- * Attribution only. The build's own diagnostics and the list of licensed data
- * we leave out are developer concerns — a visitor reading "rejected
- * implausible parse for 2024" concludes the site is broken, which is the
- * opposite of what that line was for. Those live in the build log now.
- *
- * What is NOT dropped is disclosure a reader needs to judge a number: the
- * risk gauge still opens to show all four of its components and how they are
- * weighted, and ISM rows still carry their badge. That belongs next to the
- * number it qualifies, not in a footnote nobody scrolls to.
- */
+// attribution only. build diagnostics stay in the build log, they just look
+// like errors to visitors
 function macroNotes(m){
   const n = m.notes || {};
   if(!(n.sources || []).length) return el('div',{});
@@ -1873,5 +1732,5 @@ document.addEventListener('keydown', (ev)=>{
 });
 
 load();
-// A visitor arriving on #macro should not have to click the tab to start the fetch.
+// start the macro fetch if someone lands on #macro
 if(state.tab === 'macro') loadMacro();

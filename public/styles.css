@@ -1,14 +1,13 @@
-/* Biotech Tracker — soft clinical UI.
-   Pale blue-green grounds, rounded surfaces, generous spacing, calm contrast. */
+/* Biolyst styles */
 
 :root{
-  /* Grounds */
+  /* backgrounds */
   --ground:      #EFF5F7;
   --surface:     #FFFFFF;
   --surface-soft:#F6FAFB;
   --surface-tint:#E9F3F5;
 
-  /* Ink */
+  /* text */
   --ink:         #16343F;
   --ink-soft:    #5A7784;
   --ink-faint:   #8CA4AE;
@@ -17,7 +16,7 @@
   --line:        #DCE8EC;
   --line-soft:   #EAF1F4;
 
-  /* Brand */
+  /* brand */
   --teal:        #0E8C97;
   --teal-dark:   #0A6E77;
   --teal-wash:   #E2F3F5;
@@ -28,7 +27,7 @@
   --rose:        #D4635F;
   --rose-wash:   #FBECEB;
 
-  /* Shape */
+  /* radius / shadow */
   --r-lg: 16px;
   --r-md: 12px;
   --r-sm: 9px;
@@ -54,15 +53,8 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
 
 .app{max-width:1300px;margin:0 auto;padding:28px 24px 80px;}
 
-/* ------------------------------------------------------------- masthead *
- *
- * One row: panel toggle, tabs, message. The brand used to live here and now
- * sits in the static nav in index.html, so a crawler can see it.
- *
- * space-between is kept for the generated economic-calendar page, which uses
- * .masthead for a heading and a date pill and nothing else. In the app the
- * notice absorbs the free space, so it has no effect there.
- */
+/* masthead: panel toggle, tabs, notice.
+   space-between is for the generated econ calendar page (h1 + date pill) */
 .masthead{
   display:flex;align-items:flex-start;justify-content:space-between;
   gap:16px;flex-wrap:wrap;
@@ -71,7 +63,7 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
 .masthead > .panel-bar{margin:0;flex:0 0 auto;padding-top:3px;}
 .masthead > .tabbar{margin:0;flex:0 0 auto;}
 
-/* Used by the generated economic-calendar page. */
+/* econ calendar page h1 */
 .masthead h1{
   margin:0;
   font-size:clamp(24px,3vw,30px);
@@ -82,9 +74,7 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
 }
 .masthead h1 .accent{color:var(--teal);}
 
-/* A chevron, not a labelled button: it shares the row with the tabs and a
-   message now, and a word made it the loudest thing there. aria-label on the
-   button carries the meaning the glyph cannot. */
+/* sidebar toggle */
 .panel-bar{display:flex;}
 .panel-toggle{
   width:30px;height:30px;padding:0;
@@ -97,8 +87,7 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
 .panel-toggle:focus-visible{outline:2px solid var(--teal);outline-offset:2px;}
 .pt-chev{font-size:15px;line-height:1;}
 
-/* The build-date pill. app.js moves it into the nav in index.html; the
-   generated economic-calendar page renders it inside .masthead. */
+/* build date pill. app.js moves it into the nav */
 .masthead-right{
   font-size:12.5px;color:var(--ink-soft);line-height:1.6;
   background:var(--surface);border-radius:var(--r-pill);
@@ -109,16 +98,7 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
   background:var(--green);margin-right:8px;vertical-align:middle;
 }
 
-/* ------------------------------------------------------------- notice *
- *
- * A short message from public/data/notice.json. A line of text with a small
- * marker rather than a tinted box — it shares the row with the navigation and
- * should not outweigh it. It wraps rather than truncating, so a long message
- * makes the header taller instead of hiding words.
- *
- * The slot renders even when empty, so the row does not reflow on days with
- * nothing to say.
- */
+/* notice banner (public/data/notice.json). slot always renders so the row doesn't jump */
 .notice-slot{flex:1 1 260px;min-width:0;padding-top:4px;}
 .notice{display:flex;align-items:flex-start;gap:8px;}
 .notice::before{
@@ -139,34 +119,26 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
 .notice-x:focus-visible{outline:2px solid var(--teal);outline-offset:1px;}
 
 @media (max-width:760px){
-  /* Three things do not fit on one line. The tabs take a row, the message
-     takes another, and there it gets its tint back so it still reads as a
-     message rather than as more interface. */
+  /* phones: tabs and notice each get their own row */
   .masthead{gap:10px;}
   .masthead > .tabbar{flex:1 1 100%;}
   .notice-slot{flex:1 1 100%;padding-top:0;}
   .notice{background:var(--teal-wash);border-radius:var(--r-md);padding:10px 12px;}
 }
 
-/* --------------------------------------------------------------- layout */
+/* layout */
 .layout{display:grid;grid-template-columns:292px minmax(0,1fr);gap:18px;align-items:start;}
-/* The column is minmax(0,1fr) below, but a grid ITEM still defaults to
-   min-width:auto, which resolves to min-content — on the Data tab that is the
-   events table. Without this the column is sized to the table, .table-wrap
-   never gets narrower than its own contents, and the page scrolls sideways
-   instead of the table. */
+/* grid items default to min-width:auto, without this the data table
+   widens the whole page instead of scrolling */
 .layout > *{min-width:0;}
 @media (max-width:920px){
-  /* minmax(0,1fr), not 1fr. A bare 1fr means minmax(auto,1fr), so the grid
-     column grows to whatever its widest child demands — and on the Data tab
-     that child is a 300-column table, which dragged the whole page, sidebar
-     included, out to 833px on a 390px screen. */
+  /* minmax(0,1fr) not 1fr, same reason */
   .layout{grid-template-columns:minmax(0,1fr);}
   .masthead-right{text-align:left;}
   .app{padding:18px 14px 64px;}
 }
 
-/* --------------------------------------------------------------- panels */
+/* panels */
 .panel{
   background:var(--surface);
   border:1px solid var(--line-soft);
@@ -187,7 +159,7 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
 }
 .panel-body{padding:4px 14px 16px;}
 
-/* ------------------------------------------------------------ watchlist */
+/* watchlist */
 .wl-row{
   display:flex;align-items:center;gap:10px;
   padding:9px 10px;border-radius:var(--r-md);
@@ -226,7 +198,7 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
 .wl-row:hover .btn-x,.btn-x:focus-visible{opacity:1;}
 .btn-x:hover{background:var(--rose-wash);color:var(--rose);}
 
-/* ------------------------------------------------------------ add panel */
+/* add ticker */
 .ticker-search{
   width:100%;padding:10px 14px;
   background:var(--surface-soft);border:1px solid var(--line);
@@ -271,7 +243,7 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
 .checkline input{accent-color:var(--teal);margin:0;width:15px;height:15px;}
 .empty-note{font-size:12.5px;color:var(--ink-faint);padding:10px;}
 
-/* -------------------------------------------------------------- next up */
+/* next up */
 .upcoming-item{
   display:block;width:100%;text-align:left;
   background:none;border:none;border-radius:var(--r-md);
@@ -288,9 +260,8 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
 }
 .upcoming-item:hover .upcoming-title{color:var(--teal-dark);}
 
-/* ----------------------------------------------------------------- tabs */
-/* flex-wrap matters: four tabs come to ~376px against ~350px of content width
-   on a 390px phone, and without it the whole page scrolls sideways. */
+/* tabs */
+/* wrap or the tabs overflow on phones */
 .tabbar{display:flex;gap:6px;flex-wrap:wrap;padding:0 2px;}
 .tab{
   background:var(--surface);border:1px solid var(--line-soft);
@@ -301,7 +272,7 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
 .tab:hover{color:var(--teal-dark);border-color:var(--line);}
 .tab.active{background:var(--teal);border-color:var(--teal);color:#fff;}
 
-/* ------------------------------------------------------------- calendar */
+/* calendar */
 .cal-head{
   display:flex;align-items:center;justify-content:space-between;gap:14px;
   padding:16px 18px;flex-wrap:wrap;
@@ -354,7 +325,7 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
 }
 .tick.more{background:none!important;color:var(--ink-faint);padding-left:8px;height:15px;line-height:15px;}
 
-/* ---------------------------------------------------------------- modal */
+/* modal */
 .modal-backdrop{
   position:fixed;inset:0;background:rgba(22,52,63,.38);
   display:flex;align-items:center;justify-content:center;padding:24px;z-index:100;
@@ -406,7 +377,7 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
 .event-source a{color:var(--teal-dark);text-decoration:none;font-weight:600;}
 .event-source a:hover{text-decoration:underline;}
 
-/* ------------------------------------------------------------- data tab */
+/* data tab */
 .data-head{padding:18px 18px 12px;}
 .data-search{
   width:100%;padding:12px 16px;
@@ -420,7 +391,6 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
   box-shadow:0 0 0 3px var(--teal-wash);
 }
 .data-count{font-size:12px;color:var(--ink-faint);margin-top:9px;padding-left:4px;}
-/* ---- Data tab filter controls ---- */
 
 .scope-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:0 18px 12px;}
 .scope-seg{
@@ -450,13 +420,13 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
   color:var(--ink);background:var(--surface-soft);
   border:1px solid var(--line);border-radius:var(--r-sm);
   cursor:pointer;appearance:none;
-  /* Chevron drawn inline so the control does not depend on an asset. */
+  /* inline chevron svg */
   background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%235A7784' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
   background-repeat:no-repeat;background-position:right 11px center;padding-right:28px;
 }
 .fsel-input:hover{border-color:var(--ink-faint);}
 .fsel-input:focus{outline:none;border-color:var(--teal);box-shadow:0 0 0 3px var(--teal-wash);}
-/* A set filter is tinted, so a glance tells you which controls are doing work. */
+/* highlight filters that are set */
 .fsel-input.set{
   background-color:var(--teal-wash);border-color:var(--teal);
   color:var(--teal-dark);font-weight:600;
@@ -490,7 +460,6 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
 .fchip.clear:hover{border-color:var(--teal);border-style:solid;color:var(--teal-dark);}
 
 .table-wrap{overflow-x:auto;max-height:70vh;overflow-y:auto;padding:0 10px 10px;}
-/* Dates are fixed-width and meaningless broken across two lines. */
 .data-table td:first-child{white-space:nowrap;}
 .data-table{width:100%;border-collapse:separate;border-spacing:0;font-size:13px;}
 .data-table th{
@@ -516,7 +485,7 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
 ::selection{background:var(--teal-wash);color:var(--ink);}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;}}
 
-/* ======================================================== Analyze tab */
+/* analysis tab */
 
 .az-bar{
   display:flex;align-items:center;justify-content:space-between;
@@ -552,7 +521,7 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
 }
 .az-clear:hover{color:var(--rose);}
 
-/* --- single company --- */
+/* single company */
 .az-main{padding:20px 22px 24px;}
 .az-title-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;}
 .az-title{font-size:23px;font-weight:800;letter-spacing:-.025em;margin:0;}
@@ -601,7 +570,7 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
   margin-right:6px;vertical-align:baseline;
 }
 
-/* --- compare grid --- */
+/* compare grid */
 .cmp-panel{overflow-x:auto;}
 .cmp-heads,.cmp-row,.cmp-group{display:grid;align-items:stretch;}
 .cmp-heads{border-bottom:1px solid var(--line);min-width:620px;}
@@ -641,7 +610,7 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
   .az-stat-value{font-size:22px;}
 }
 
-/* ================================================= Generated SEO pages */
+/* generated seo pages */
 
 .seo-page{max-width:900px;}
 .seo-crumb{font-size:12.5px;color:var(--ink-faint);margin-bottom:18px;}
@@ -711,29 +680,27 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
 .seo-about a{color:var(--teal-dark);font-weight:600;text-decoration:none;}
 .seo-about a:hover{text-decoration:underline;}
 
-/* ================================================================= macro */
+/* macro */
 
-/* .about-text is used across the app but was never defined. */
 .about-text{font-size:13.5px;line-height:1.65;color:var(--ink-soft);margin:0 0 10px;max-width:72ch;}
 .about-text a{color:var(--teal-dark);font-weight:600;text-decoration:none;}
 .about-text a:hover{text-decoration:underline;}
 
-/* Collapsed sidebar — available on every tab, remembered between visits. */
+/* collapsed sidebar */
 .layout.collapsed{grid-template-columns:minmax(0,1fr);}
 
 .head-blurb{font-size:12px;font-weight:500;color:var(--ink-faint);letter-spacing:0;}
 
-/* The masthead's .eyebrow is deliberately display:none, so the hero needs its own. */
 .hero-eyebrow{
   margin:0;font-size:11px;font-weight:700;letter-spacing:.07em;
   text-transform:uppercase;color:var(--ink-faint);
 }
 
-/* ---- hero ---- */
+/* hero */
 .macro-hero{
   display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:18px;
   margin-bottom:18px;
-  /* Without this the left card stretches to match the expanded gauge. */
+  /* stop the left card stretching to the gauge height */
   align-items:start;
 }
 @media (max-width:900px){ .macro-hero{grid-template-columns:minmax(0,1fr);} }
@@ -772,7 +739,7 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
 .hero-then-item{font-size:12.5px;color:var(--ink-soft);white-space:nowrap;}
 .hero-then-item b{color:var(--ink);font-weight:700;}
 
-/* ---- risk gauge ---- */
+/* risk gauge */
 .gauge{display:flex;align-items:baseline;gap:10px;margin:8px 0 12px;}
 .gauge-score{font-size:40px;font-weight:800;letter-spacing:-.04em;line-height:1;color:var(--teal-dark);}
 .gauge-label{font-size:14px;font-weight:700;color:var(--ink-soft);}
@@ -805,7 +772,7 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
 .gc-detail{font-size:11.5px;color:var(--ink-faint);line-height:1.45;}
 .gauge-method{font-size:11.5px;color:var(--ink-faint);line-height:1.5;margin:14px 0 0;}
 
-/* ---- group sub-nav ---- */
+/* group tabs */
 .macro-subnav{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:16px;padding:0 2px;}
 .chip-tab{
   background:var(--surface);border:1px solid var(--line-soft);
@@ -816,7 +783,7 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
 .chip-tab:hover{color:var(--teal-dark);border-color:var(--line);}
 .chip-tab.active{background:var(--surface-tint);border-color:var(--teal);color:var(--teal-dark);}
 
-/* ---- release calendar ---- */
+/* release calendar */
 .rel-body{padding-bottom:10px;}
 .rel-day{
   display:grid;grid-template-columns:168px minmax(0,1fr);gap:14px;
@@ -846,14 +813,14 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
   border-radius:var(--r-pill);padding:2px 9px;flex-shrink:0;
 }
 
-/* Three dots, filled by importance. Colour alone would not carry it. */
+/* importance dots */
 .imp{display:inline-flex;gap:2.5px;flex-shrink:0;}
 .imp-dot{width:5px;height:5px;border-radius:50%;background:var(--line);}
 .imp-dot.on{background:var(--ink-faint);}
 .imp-3 .imp-dot.on{background:var(--teal);}
 .imp-2 .imp-dot.on{background:var(--ink-soft);}
 
-/* ---- latest prints ---- */
+/* latest prints */
 .print-grid{
   display:grid;grid-template-columns:repeat(auto-fill,minmax(236px,1fr));
   gap:12px;padding:6px 4px 10px;
@@ -880,7 +847,7 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
 .spark{flex-shrink:0;}
 .spark-empty{display:inline-block;width:92px;height:26px;}
 
-/* ---- cross-asset ---- */
+/* cross-asset */
 .cross-grid{
   display:grid;grid-template-columns:repeat(auto-fill,minmax(152px,1fr));
   gap:10px;padding:6px 4px 10px;
@@ -889,8 +856,7 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
   background:var(--surface-soft);border:1px solid var(--line-soft);
   border-radius:var(--r-md);padding:12px 13px;min-width:0;
 }
-/* Wraps to two lines rather than truncating: "Investment-grade spread" told
-   the reader nothing as "Investment-grade spr…". */
+/* wrap to 2 lines instead of cutting off */
 .cross-label{
   font-size:11.5px;font-weight:600;color:var(--ink-soft);line-height:1.3;
   display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;
@@ -899,12 +865,12 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
 .cross-value{font-size:20px;font-weight:800;letter-spacing:-.03em;margin:5px 0 4px;}
 .cross-foot{display:flex;justify-content:space-between;align-items:center;gap:6px;}
 .cross-delta{font-size:11px;font-weight:700;color:var(--ink-soft);}
-/* Only shown when a tile is out of step with the rest of the strip. */
+/* only when a tile is stale */
 .cross-as-of.stale{
   font-size:10.5px;color:var(--amber);font-weight:600;margin-top:5px;
 }
 
-/* ---- positioning ---- */
+/* positioning */
 .pos-grid{display:flex;flex-direction:column;gap:2px;padding:4px 4px 0;}
 .pos-row{
   display:grid;grid-template-columns:minmax(0,1fr) auto auto;
@@ -920,7 +886,7 @@ button,input{font-family:inherit;font-variant-numeric:inherit;color:inherit;}
 .pos-change{font-size:11.5px;color:var(--ink-faint);white-space:nowrap;}
 .pos-note{margin-top:14px;padding:0 12px;}
 
-/* ---- sources and gaps ---- */
+/* sources */
 .src-list{display:flex;flex-direction:column;gap:8px;padding:4px 4px 0;}
 .src-row{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap;}
 .src-name{font-size:13px;font-weight:700;color:var(--teal-dark);text-decoration:none;white-space:nowrap;}

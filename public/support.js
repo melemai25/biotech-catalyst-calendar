@@ -1,49 +1,36 @@
-/**
- * Site footer: "Support Us" and "Help us improve".
- *
- * Self-contained on purpose: it injects its own markup and its own styles, so
- * adding it to a page is one script tag and nothing else in the repo changes.
- * If this file throws, the page is exactly as it was.
+/*
+ * Footer with Support Us + Give Feedback.
+ * Injects its own html and css, mounts outside #root so app.js renders don't wipe it.
  * Styling was done with AI
- * It mounts OUTSIDE #root, so app.js re-rendering a tab never wipes it.
- *
- * ===========================================================================
- * CONFIGURE BELOW. Each feature is independent — set one, both, or neither.
- * A feature whose setting is still a placeholder simply does not render, so
- * this file is safe to commit and deploy before either account exists.
- * ===========================================================================
+ * A feature with a blank/placeholder url just doesn't render.
  */
 (function () {
   'use strict';
 
-  /* -- 1. Donations ------------------------------------------------------ */
+  /* -- 1. Donations */
      var SUPPORT_URL = 'https://buy.stripe.com/fZu4gt17waui1Ee9Ltasg00';
 
-  /* -- 2. Feedback ------------------------------------------------------- */
+  /* -- 2. Feedback */
  
   var FEEDBACK_ENDPOINT = 'https://formspree.io/f/xyeklall';
   
   /* for webhook which we aren't using*/
   var FEEDBACK_EXTRA = {};
 
-  /* --Supprt-------------------------------------------------------------- */
+  /* --Supprt */
   var BLURB = 'Biolyst is ad-free and subscription-free. Support covers the domain, data, and general upkeep.';
   var SMALLPRINT = 'Biolyst is not a registered charity and contributions are not tax-deductible.';
 
   var MAX_CHARS  = 4000;
-  var THROTTLE_MS = 60 * 1000;          // one message a minute, per browser
+  var THROTTLE_MS = 60 * 1000;          // 1 per minute per browser
 
   var hasSupport  = /^https:\/\//.test(SUPPORT_URL);
   var hasFeedback = /^https:\/\//.test(FEEDBACK_ENDPOINT);
   if (!hasSupport && !hasFeedback) return;
 
-  /* ===================================================================== *
-   * Styles
-   * ===================================================================== */
+  /* styles */
   var CSS = [
-    /* box-sizing is set here rather than inherited from the page's reset.
-       Without it the padding is added OUTSIDE max-width and the footer
-       renders ~42px wider than it claims. */
+    /* own box-sizing, otherwise the footer ends up ~42px wider than max-width */
     '.blyst,.blyst *{box-sizing:border-box;}',
 
     '.blyst-footer{',
@@ -74,7 +61,7 @@
     '.blyst-btn:focus-visible{outline:2px solid var(--teal-dark,#0A6E77);outline-offset:2px;}',
     '.blyst-btn[disabled]{opacity:.55;cursor:default;}',
 
-    /* ---- modal ---- */
+    /* modal */
     '.blyst-scrim{',
       'position:fixed;inset:0;z-index:9000;background:rgba(22,52,63,.45);',
       'display:flex;align-items:center;justify-content:center;padding:20px;',
@@ -103,8 +90,7 @@
     '.blyst-status-err{color:var(--rose,#D4635F);}',
     '.blyst-done{text-align:center;padding:14px 0 4px;}',
     '.blyst-done p{margin:0 0 18px;font-size:14px;line-height:1.5;}',
-    /* The honeypot must be reachable by a bot parsing the DOM but invisible
-       and unreachable to a person — display:none is skipped by some bots. */
+    /* honeypot: offscreen instead of display:none, some bots skip hidden fields */
     '.blyst-hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;}',
 
     '@media (max-width:620px){',
@@ -116,9 +102,7 @@
     '}'
   ].join('');
 
-  /* ===================================================================== *
-   * Helpers
-   * ===================================================================== */
+  /* helpers */
   function el(tag, cls, text) {
     var n = document.createElement(tag);
     if (cls) n.className = cls;
@@ -126,14 +110,13 @@
     return n;
   }
 
-  /* localStorage throws in private windows and when site data is blocked, so
-     every access is guarded. A failure here must never block a submission. */
+  /* localStorage throws in private mode, never let that block a send */
   function lastSentAt() {
     try { return parseInt(localStorage.getItem('blyst:lastFeedback') || '0', 10) || 0; }
     catch (e) { return 0; }
   }
   function markSent() {
-    try { localStorage.setItem('blyst:lastFeedback', String(Date.now())); } catch (e) { /* fine */ }
+    try { localStorage.setItem('blyst:lastFeedback', String(Date.now())); } catch (e) { }
   }
 
   var HEART =
@@ -142,9 +125,7 @@
     'focusable="false"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 ' +
     '7.8l8.8 8.8 8.8-8.8a5.5 5.5 0 0 0 0-7.8z"/></svg>';
 
-  /* ===================================================================== *
-   * Feedback modal
-   * ===================================================================== */
+  /* feedback modal */
   function openFeedback(trigger) {
     var previouslyFocused = trigger || document.activeElement;
 
@@ -162,7 +143,6 @@
     var form = document.createElement('form');
     form.noValidate = true;
 
-    // message
     var rowMsg = el('div', 'blyst-row');
     var labMsg = el('label', 'blyst-label', 'Your message');
     labMsg.htmlFor = 'blyst-fb-msg';
@@ -175,7 +155,6 @@
     msg.placeholder = 'A wrong date, a recommendation, something not working…';
     rowMsg.appendChild(labMsg); rowMsg.appendChild(msg);
 
-    // optional email
     var rowMail = el('div', 'blyst-row');
     var labMail = el('label', 'blyst-label', 'Email ');
     labMail.htmlFor = 'blyst-fb-mail';
@@ -188,7 +167,7 @@
     mail.autocomplete = 'email';
     rowMail.appendChild(labMail); rowMail.appendChild(mail);
 
-    // honeypot — a bot fills every field it finds; a person never sees this
+    // honeypot
     var hp = document.createElement('div');
     hp.className = 'blyst-hp';
     hp.setAttribute('aria-hidden', 'true');
@@ -197,7 +176,6 @@
     hpIn.autocomplete = 'off';
     hp.appendChild(hpIn);
 
-    // Disclosed, not silent: say what gets attached.
     var note = el('p', 'blyst-note',
       'Sends your message and the page you are on. Nothing else, and no tracking.');
 
@@ -230,7 +208,7 @@
     function onKey(e) {
       if (e.key === 'Escape') { e.preventDefault(); close(); return; }
       if (e.key !== 'Tab') return;
-      // Keep focus inside the dialog, so Tab cannot land on the page behind it.
+      // focus trap
       var f = modal.querySelectorAll('textarea,input:not([tabindex="-1"]),button');
       if (!f.length) return;
       var first = f[0], last = f[f.length - 1];
@@ -254,7 +232,7 @@
       e.preventDefault();
       status.style.display = 'none';
 
-      if (hpIn.value) { close(); return; }        // a bot: accept silently, send nothing
+      if (hpIn.value) { close(); return; }        // bot, pretend it worked
 
       var body = msg.value.trim();
       if (!body) { fail('Please write a message first.'); msg.focus(); return; }
@@ -282,7 +260,6 @@
       }).then(function (res) {
         if (!res.ok) throw new Error('HTTP ' + res.status);
         markSent();
-        // Replace the form rather than clearing it, so there is no doubt it sent.
         modal.innerHTML = '';
         var done = el('div', 'blyst-done');
         var h = el('h2', null, 'Thank you');
@@ -297,17 +274,15 @@
         modal.appendChild(done);
         ok.focus();
       }).catch(function () {
-        // The text stays in the box — losing what someone typed is unforgivable.
+        // keep their text on failure
         fail('That did not send. Check your connection and try again.');
       });
     });
   }
 
-  /* ===================================================================== *
-   * Footer
-   * ===================================================================== */
+  /* footer */
   function mount() {
-    if (document.querySelector('.blyst-footer')) return;      // never twice
+    if (document.querySelector('.blyst-footer')) return;
 
     var style = el('style');
     style.textContent = CSS;
@@ -333,7 +308,7 @@
       var a = el('a', 'blyst-btn blyst-btn-primary');
       a.href = SUPPORT_URL;
       a.target = '_blank';
-      a.rel = 'noopener noreferrer';     // the new tab gets no handle on this one
+      a.rel = 'noopener noreferrer';
       a.setAttribute('aria-label', 'Support Biolyst (opens Stripe in a new tab)');
       a.innerHTML = HEART + '<span>Support Us</span>';
       actions.appendChild(a);

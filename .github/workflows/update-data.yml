@@ -6,9 +6,7 @@ on:
   workflow_dispatch:          # run it by hand from the Actions tab
   push:
     branches: [main]
-    # Front-end-only changes go through "Deploy UI" instead, which skips the
-    # page regeneration and deploys in seconds. Without this both workflows
-    # would fire on the same push and the fast one would gain nothing.
+    # front-end only changes go through deploy-ui instead
     paths-ignore:
       - 'public/index.html'
       - 'public/styles.css'
@@ -31,10 +29,9 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     env:
-      # The SEC rejects unidentified requests. Set this at
-      # Settings -> Secrets and variables -> Actions -> Variables.
+      # SEC requires a contact string
       EDGAR_USER_AGENT: ${{ vars.EDGAR_USER_AGENT }}
-      # Used for canonical tags and sitemap.xml. Defaults to the Pages URL.
+      # for canonical tags and sitemap.xml, defaults to the Pages url
       SITE_BASE_URL: ${{ vars.SITE_BASE_URL || format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
 
     steps:
@@ -44,14 +41,8 @@ jobs:
         with:
           node-version: '20'
 
-      # A push is someone changing the code. The data did not change, so there
-      # is nothing to refetch — and refetching anyway meant every push kicked
-      # off a six-minute job that committed data back to main, which is what
-      # kept rejecting the next push with "fetch first".
-      #
-      # On push: regenerate the pages from the data already in the repo and
-      # deploy. A few seconds, no commit, nothing to race against.
-      # On schedule or manual dispatch: the full refresh, as before.
+      # push = code change: rebuild pages from the data already in the repo, no fetch, no commit.
+      # schedule/manual = full refresh
       - name: Check SEC contact string
         if: github.event_name != 'push'
         run: |
@@ -75,15 +66,13 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # macro.json belongs to the macro workflow. Adding the whole data
-          # directory would let this job revert a fresher macro payload.
+          # don't add macro.json, that belongs to the macro workflow
           git add public/data/index.json public/data/events.json public/data/ticker \
                   public/ticker public/calendar public/economic-calendar \
                   public/sitemap.xml public/robots.txt
           git diff --staged --quiet && echo "No change." && exit 0
           git commit -m "chore: refresh data and pages"
-          # The macro workflow pushes to this branch too, so a plain push loses
-          # the race often enough to matter. Rebase and retry rather than force.
+          # macro workflow pushes here too, so rebase and retry instead of force
           for i in 1 2 3; do
             if git push; then exit 0; fi
             echo "Push rejected, rebasing onto origin/${GITHUB_REF_NAME} (attempt $i)"

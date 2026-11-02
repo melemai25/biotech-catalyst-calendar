@@ -6,12 +6,9 @@
 <meta name="color-scheme" content="light" />
 <title>Biolyst — Biotech Catalysts and Analysis</title>
 <meta name="description" content="Track clinical trial readouts, FDA decisions and earnings dates across the biotech sector, alongside the US economic calendar. Free, no login." />
-<!-- The watchlist lives at /?tickers=... Every combination is the same page,
-     so all of them consolidate back to the clean URL rather than competing. -->
+<!-- ?tickers= variants all point back to / -->
 <link rel="canonical" href="/" />
 
-<!-- SVG first for browsers that take it (stays sharp at any size), PNG as the
-     fallback. apple-touch-icon is what iOS uses for a home-screen shortcut. -->
 <link rel="icon" href="favicon.svg" type="image/svg+xml" />
 <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png" />
 <link rel="apple-touch-icon" href="apple-touch-icon.png" />
@@ -29,13 +26,7 @@
 <link rel="stylesheet" href="styles.css?v=17">
 
 <style>
-  /* Matches the nav on the generated pages, so moving between the app and the
-     calendars feels like one site. Kept here rather than in styles.css because
-     it must survive the stylesheet failing to load — these are the only links
-     a crawler can follow out of this page.
-
-     No brand link: the masthead immediately below already says Biolyst, and
-     saying it twice in 60px of vertical space reads as a mistake. */
+  /* same nav as the generated pages. inline so the links work even if styles.css fails */
   .site-nav{
     max-width:1180px;margin:0 auto;padding:14px 20px 0;
     display:flex;align-items:center;gap:18px;flex-wrap:wrap;font-size:13px;
@@ -43,7 +34,7 @@
   .site-nav a{color:#5A7784;text-decoration:none;}
   .site-nav a:hover{color:#0A6E77;}
   .site-nav-here{color:#0E8C97;font-weight:600;}
-  /* app.js moves the build-date pill in here once the data loads. */
+  /* app.js moves the build pill in here */
   .site-nav .masthead-right{margin-left:auto;}
 
   .site-brand{
@@ -59,24 +50,8 @@
 </head>
 <body>
 
-<!--
-  Static links to the generated pages, above the app rather than below it.
-
-  The app renders into #root and replaces everything inside it, so every link
-  the app draws is invisible to a crawler that does not execute JavaScript.
-  Without these, /catalyst-calendar/, the ticker pages and the month pages are
-  reachable only through sitemap.xml — which Google treats as a suggestion
-  rather than a route, and ranks accordingly.
-
-  Outside #root, so a re-render never removes them.
--->
+<!-- static nav outside #root so crawlers can follow the links (app.js content needs js) -->
 <nav class="site-nav" aria-label="Site">
-  <!--
-    The brand lives here, in static HTML, rather than being drawn by app.js.
-    Two reasons: it frees the middle of the masthead row for the notice, and it
-    gives this page an <h1> that a crawler can see. Everything app.js renders
-    is inside #root and invisible without JavaScript.
-  -->
   <h1 class="site-brand">
     <span class="site-brand-mark" aria-hidden="true">
       <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
@@ -85,9 +60,7 @@
               stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
     </span>
-    <!-- One span, not bare text plus a span: .site-brand is a flex container,
-         so each would become its own flex item and the 9px gap would open up
-         in the middle of the word. -->
+    <!-- one span so the flex gap doesn't split the word -->
     <span class="site-brand-word">Bio<span class="accent">lyst</span></span>
   </h1>
   <span class="site-nav-here" aria-current="page">Tracker</span>

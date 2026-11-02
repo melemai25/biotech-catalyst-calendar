@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 #
-# run.sh — build the catalyst data and serve the site locally.
+# run.sh — build the catalyst data and serve the site locally (dev tool)
 #
 #   ./run.sh              build + serve on port 8000
 #   ./run.sh 8080         build + serve on a different port
-#   ./run.sh --no-build   skip the data fetch, just serve what's there
+#   ./run.sh --no-build   skip the data fetch
 #
 set -euo pipefail
 
@@ -28,7 +28,7 @@ say()  { printf '\033[1;36m%s\033[0m\n' "$*"; }
 warn() { printf '\033[1;33m%s\033[0m\n' "$*"; }
 fail() { printf '\033[1;31m%s\033[0m\n' "$*" >&2; exit 1; }
 
-# ---------- prerequisites ----------
+# prerequisites
 command -v node >/dev/null 2>&1 || fail \
 "Node.js is not installed. Get it from https://nodejs.org (v18 or newer), then re-run."
 
@@ -37,7 +37,7 @@ if [ "$NODE_MAJOR" -lt 18 ]; then
   fail "Node $(node -v) is too old. This needs v18+ for built-in fetch."
 fi
 
-# ---------- pick a static server ----------
+# pick a static server
 # Preference order: python3, python, node's http-server via npx.
 SERVE_CMD=""
 if command -v python3 >/dev/null 2>&1; then
@@ -50,8 +50,8 @@ else
   fail "No static server available. Install Python 3, or make sure npx is on your PATH."
 fi
 
-# ---------- make sure the port is free ----------
-# Done with node rather than lsof/netstat, which aren't installed everywhere.
+# make sure the port is free
+# Done with node
 port_free() {
   node -e '
     const net = require("net");
@@ -64,7 +64,6 @@ port_free() {
 
 if ! port_free "$PORT"; then
   warn "Port $PORT is already in use."
-  # Try to stop a previous instance if we have the tools to find it.
   if command -v lsof >/dev/null 2>&1; then
     lsof -ti tcp:"$PORT" | xargs kill 2>/dev/null || true
     sleep 1
@@ -84,7 +83,7 @@ if ! port_free "$PORT"; then
   fi
 fi
 
-# ---------- build ----------
+# build
 if [ "$DO_BUILD" -eq 1 ]; then
   say "==> Fetching trial data and rebuilding events.json"
   if node scripts/build-data.js; then
@@ -101,7 +100,7 @@ if [ ! -f public/data/events.json ]; then
   fail "public/data/events.json does not exist and the build did not create it. Run without --no-build."
 fi
 
-# ---------- report what the data looks like ----------
+# report what the data looks like
 node -e '
   const d = require("./public/data/events.json");
   const today = new Date().toISOString().slice(0,10);
@@ -123,7 +122,7 @@ say "==> Serving at ${URL}"
 echo "    Press Ctrl+C to stop."
 echo
 
-# ---------- open the browser once the server is actually up ----------
+# open the browser once the server is actually up
 (
   for _ in $(seq 1 40); do
     if command -v curl >/dev/null 2>&1; then

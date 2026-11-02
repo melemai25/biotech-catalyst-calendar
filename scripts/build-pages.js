@@ -1,18 +1,12 @@
 #!/usr/bin/env node
-/**
- * build-pages.js — generates the indexable static pages.
- *
- * The app at / is one URL and always will be: a watchlist is a private
- * combination nobody searches for. These generated pages are the front doors
- * that people actually arrive on from search, and each one funnels into the app.
- *
- *   public/ticker/<T>/index.html       one per company      "MRNA catalyst calendar"
- *   public/calendar/<YYYY-MM>/index.html  one per month     "biotech catalysts October 2026"
- *   public/sitemap.xml
- *   public/robots.txt
- *
- * Every page is real HTML with the content already in it — crawlers see the
- * events without running any JavaScript.
+/*
+ * Generates the static, indexable pages (the app at / is one url, these are
+ * what search traffic lands on):
+ *   public/ticker/<T>/           one per company
+ *   public/calendar/<YYYY-MM>/   one per month
+ *   public/catalyst-calendar/    hub
+ *   public/economic-calendar/
+ *   public/sitemap.xml, robots.txt
  *
  *   node scripts/build-pages.js
  *   node scripts/build-pages.js --base https://you.github.io/repo
@@ -32,7 +26,7 @@ BASE = BASE.replace(/\/+$/, '');
 
 const SITE_NAME = 'Biolyst';
 
-/* Set in main() before anything is written, read by siteNav(). */
+// set in main(), used by siteNav()
 let HAS_ECON = false;
 const MONTHS = ['January','February','March','April','May','June',
                 'July','August','September','October','November','December'];
@@ -48,22 +42,12 @@ function longDate(iso){
   return MONTHS[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
 }
 
-/* ------------------------------------------------------------- template */
+/* template */
 
-/**
- * The nav every generated page carries.
- *
- * `current` marks the section so the bar says where you are rather than only
- * where you can go, and aria-current carries that to a screen reader. The whole
- * bar is plain anchors in the HTML — these pages exist to be crawled, and a
- * crawler that does not run JavaScript still has to be able to walk the site.
- */
+// top nav on every generated page. plain links so crawlers can walk the site
 function siteNav(depth, current){
   const up = '../'.repeat(depth);
-  // HAS_ECON is decided before any page is written. Linking unconditionally
-  // meant that a build without macro.json shipped a 404 in the nav of every
-  // page on the site — the kind of thing that is invisible locally and very
-  // visible to a crawler.
+  // only link the econ page if it got built, otherwise every page has a 404 link
   const link = (href, label, key) => key === current
     ? `<span class="site-nav-here" aria-current="page">${esc(label)}</span>`
     : `<a href="${up}${href}">${esc(label)}</a>`;
@@ -77,15 +61,8 @@ function siteNav(depth, current){
 </nav>`;
 }
 
-/**
- * The orientation box under each heading.
- *
- * These generated pages are what people arrive on from search: a list, in date order, no filtering. Someone landing here
- * has no way of knowing there is an app behind it unless the page says so in
- * the first screenful. The wording differs per page type on purpose — the same
- * sentence repeated across 332 pages reads as an advertisement rather than as
- * an explanation, and search engines notice boilerplate too.
- */
+// 'about this page' box pointing people to the app. wording differs per page type
+// so it's not the same boilerplate on 300+ pages
 function aboutBox(text, href, label){
   return `<aside class="seo-lead">
   <p>${text}</p>
@@ -178,9 +155,7 @@ ${body}
 
 function eventRows(events, showTicker){
   if(!events.length) return '<p class="seo-empty">Nothing scheduled.</p>';
-  // Wrapped so the table scrolls inside its own box rather than widening the
-  // page. A five-column table needs ~580px and a phone has ~350px, so without
-  // this every generated page scrolls sideways on mobile.
+  // scroll wrapper so tables don't widen the page on phones
   return `<div class="seo-scroll"><table class="seo-table">
 <thead><tr><th>Date</th>${showTicker ? '<th>Ticker</th>' : ''}<th>Event</th><th>Type</th><th>Phase</th></tr></thead>
 <tbody>
@@ -194,7 +169,7 @@ ${showTicker ? `<td><strong>${esc(e.ticker)}</strong></td>` : ''}
 </tbody></table></div>`;
 }
 
-/** schema.org Event markup — can surface dates directly in search results. */
+// schema.org Event markup
 function eventsJsonLd(events, limit = 25){
   return events.slice(0, limit).map(e => ({
     '@context':'https://schema.org',
@@ -209,16 +184,9 @@ function eventsJsonLd(events, limit = 25){
   }));
 }
 
-/* ------------------------------------------------ economic calendar page */
+/* economic calendar page */
 
-/**
- * "Economic calendar" is a phrase people actually type into a search box, so
- * this gets a real indexable page with the schedule already in the HTML —
- * crawlers see the dates without running the app.
- *
- * Returns null when macro.json has not been built, so the page is simply
- * absent rather than published empty.
- */
+// /economic-calendar/. returns null if macro.json isn't built
 function economicCalendarPage(macro, today){
   const upcoming = (macro.releases || [])
     .filter(r => r.status === 'upcoming')
@@ -293,8 +261,7 @@ the Federal Reserve Bank of St. Louis. FOMC dates come from the
 <p>This is an information tool, not investment advice.</p>
 </div></div>`;
 
-  // schema.org Event markup for the scheduled releases, so dates can surface
-  // directly in search results.
+  // schema.org events for the releases
   const jsonLd = upcoming.slice(0, 25).map(r => ({
     '@context':'https://schema.org',
     '@type':'Event',
@@ -317,13 +284,8 @@ the Federal Reserve Bank of St. Louis. FOMC dates come from the
   });
 }
 
-/**
- * The UTC offset for US Eastern time on a given date. Release times are quoted
- * in ET, and schema.org startDate needs a real offset — hardcoding -05:00 puts
- * every event an hour out for the roughly eight months of daylight time.
- *
- * DST runs from the second Sunday in March to the first Sunday in November.
- */
+// ET offset for a date (DST = 2nd Sun of March to 1st Sun of Nov).
+// hardcoding -05:00 is an hour off most of the year
 function etOffset(isoDate){
   const [y, m, d] = isoDate.split('-').map(Number);
   const nthSunday = (month, n) => {
@@ -346,21 +308,10 @@ function fmtSeoValue(i){
   return i.unit === '%' ? v + '%' : i.unit === '$' ? '$' + v : i.unit === 'k' ? v + 'k' : v;
 }
 
-/* ------------------------------------------------------------- the hub */
+/* hub */
 
-/**
- * /catalyst-calendar/ — the page everything else hangs off.
- *
- * Without it the generated pages were unreachable by link. The app at / renders
- * into #root, so a crawler that does not execute JavaScript sees an empty div
- * and no way onward; the ticker and month pages existed only in sitemap.xml,
- * which Google treats as a hint rather than a route. This gives them a real
- * parent, and gives "biotech catalyst calendar" an actual page to rank.
- *
- * It carries a table of near-term events rather than only links, because a page
- * whose entire content is a list of links to other pages is the definition of
- * thin, and gets judged accordingly.
- */
+// /catalyst-calendar/: links to every ticker + month page so they're reachable
+// without the sitemap. has an events table so it's not just a page of links
 function hubPage({ tickers, months, upcoming, econ, today, generatedDate }){
   const soon = upcoming.slice(0, 40);
   const companies = tickers.slice().sort((a, b) => a[0].localeCompare(b[0]));
@@ -454,7 +405,7 @@ ${econ ? `<section class="seo-about">
   });
 }
 
-/* -------------------------------------------------------- ticker pages */
+/* ticker pages */
 
 function tickerPage(ticker, data, today){
   const meta = data || {};
@@ -469,7 +420,7 @@ function tickerPage(ticker, data, today){
     ? `${name} (${ticker}) catalyst calendar. Next event: ${next.title} on ${longDate(next.date)}. ${upcoming.length} upcoming trial readouts, FDA decisions and earnings dates.`
     : `${name} (${ticker}) catalyst calendar: clinical trial milestones, FDA decisions and earnings dates from ClinicalTrials.gov and SEC filings.`;
 
-  // Written content, so the page is not a thin wrapper around a table.
+  // some written text so it's not just a table
   const intro = [];
   intro.push(`<p>${esc(name)} is tracked here for clinical trial milestones, SEC filings and earnings dates.${meta.focus ? ' Focus area: ' + esc(meta.focus) + '.' : ''}</p>`);
   if(next){
@@ -541,7 +492,7 @@ ${past.length ? `<section>
   });
 }
 
-/* --------------------------------------------------------- month pages */
+/* month pages */
 
 function monthPage(ym, events, today){
   const [y, mo] = ym.split('-');
@@ -584,7 +535,7 @@ ${aboutBox(
   });
 }
 
-/* ----------------------------------------------------------------- main */
+/* main */
 
 function main(){
   if(!fs.existsSync(path.join(DATA,'index.json'))){
@@ -604,13 +555,11 @@ function main(){
   const byMonth = {};
   let written = 0;
 
-  // Gathered for the hub while the ticker loop is already reading these files.
+  // collect for the hub while we're reading these anyway
   const hubTickers = [];
   const hubUpcoming = [];
 
-  // Economic calendar first, not last: every other page's nav needs to know
-  // whether this page exists before it renders. Skipped silently when
-  // macro.json has not been built — an empty page is worse than no page.
+  // econ page first, every page's nav needs to know if it exists
   let econ = false;
   const macroPath = path.join(DATA,'macro.json');
   if(fs.existsSync(macroPath)){
@@ -626,7 +575,7 @@ function main(){
           urls.push({ loc:'/economic-calendar/', priority:'0.9', changefreq:'daily' });
           econ = true;
         } else {
-          HAS_ECON = false;                    // page declined to render
+          HAS_ECON = false;
         }
       }
     }catch(e){
@@ -640,8 +589,7 @@ function main(){
     if(!fs.existsSync(f)) continue;
     const data = JSON.parse(fs.readFileSync(f,'utf8'));
 
-    // A page with almost nothing on it is thin content; skip rather than
-    // publish dozens of near-empty pages for Google to judge.
+    // skip near-empty pages
     const evs = data.events || [];
     if(evs.length < 2) continue;
 
@@ -659,7 +607,7 @@ function main(){
     }
   }
 
-  // Only months near the present: a page for 2014 has no search demand.
+  // only months near now
   const minYm = new Date(Date.now() - 400*86400000).toISOString().slice(0,7);
   const maxYm = new Date(Date.now() + 550*86400000).toISOString().slice(0,7);
   let months = 0;
@@ -675,8 +623,7 @@ function main(){
     months++;
   }
 
-  // The hub goes last: it links to everything above and needs to know which of
-  // those pages actually got written rather than which were merely considered.
+  // hub last, it links to whatever actually got written
   let hub = false;
   if(hubTickers.length){
     hubUpcoming.sort((a,b)=>a.date.localeCompare(b.date));
@@ -690,7 +637,6 @@ function main(){
       today,
       generatedDate: index.generatedDate,
     }));
-    // Above the ticker pages it parents, below the app itself.
     urls.push({ loc:'/catalyst-calendar/', priority:'0.9', changefreq:'daily' });
     hub = true;
   }

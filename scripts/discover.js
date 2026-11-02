@@ -1,27 +1,15 @@
 #!/usr/bin/env node
-/**
- * discover.js — builds the ticker universe automatically.
+/*
+ * Builds data/tickers.json (run monthly-ish).
+ *  1. page through CT.gov for industry-sponsored, active phase 2/3 trials, count per sponsor
+ *  2. match sponsor names to tickers (SEC company_tickers.json)
+ *  3. check the SIC code is life sciences, so 'Mirati' can't match some random company
+ *  4. score by trial activity
+ * Ambiguous matches go to data/discovery-review.json.
  *
- * Replaces the hand-written ticker list. Runs infrequently (monthly); the
- * daily build consumes its output unchanged.
- *
- * How it works:
- *   1. Page through ClinicalTrials.gov for every INDUSTRY-sponsored
- *      interventional Phase 2/3 study that is active or recruiting,
- *      collecting lead sponsor names and counting studies per sponsor.
- *      This finds companies BY the thing that matters — active late-stage
- *      programs — rather than by market cap, which does not predict catalysts.
- *   2. Match each sponsor name to a public ticker via SEC company_tickers.json.
- *   3. Confirm the match by checking the company's SIC code is a life-sciences
- *      one. This is what stops "Mirati" matching an unrelated registrant.
- *   4. Score by trial activity and write data/tickers.json.
- *
- * Anything ambiguous goes to data/discovery-review.json rather than being
- * silently guessed at.
- *
- *   node scripts/discover.js                 full run
- *   node scripts/discover.js --limit 40      cap the universe size
- *   node scripts/discover.js --dry-run       report only, write nothing
+ *   node scripts/discover.js
+ *   node scripts/discover.js --limit 40
+ *   node scripts/discover.js --dry-run
  */
 
 const fs = require('fs');
@@ -42,7 +30,7 @@ const CT_GAP_MS = 250;
 const SEC_SUBMISSIONS = (cik) => `https://data.sec.gov/submissions/CIK${cik}.json`;
 const SEC_GAP_MS = 125;
 
-/* Life-sciences SIC codes. A match outside these is almost certainly wrong. */
+// life sciences SIC codes
 const LIFE_SCIENCE_SIC = new Set([
   '2833', // Medicinal Chemicals & Botanical Products
   '2834', // Pharmaceutical Preparations
@@ -53,7 +41,7 @@ const LIFE_SCIENCE_SIC = new Set([
   '8731', // Commercial Physical & Biological Research
 ]);
 
-/* Corporate suffixes and noise to strip before matching names. */
+// suffixes to strip before matching
 const NOISE = /\b(inc|incorporated|corp|corporation|company|co|ltd|limited|llc|lp|plc|sa|ag|nv|bv|as|a\/s|ab|oy|gmbh|holdings?|group|pharmaceuticals?|pharma|therapeutics?|biosciences?|bioscience|biotech(nology)?|laboratories|labs?|sciences?|medicines?|health(care)?|usa|us|america|international|global|and|the|of|research|development|operations|subsidiary)\b/gi;
 
 const args = process.argv.slice(2);
@@ -64,10 +52,10 @@ const LIMIT = limitIdx !== -1 ? parseInt(args[limitIdx + 1], 10) : 300;
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 function log(m) { process.stdout.write(m + '\n'); }
 
-/* ------------------------------------------------- 1. sponsor aggregation */
+/* 1. sponsor aggregation */
 
 async function fetchSponsorCounts() {
-  const counts = {};        // sponsorName -> { total, phase3, phase2 }
+  const counts = {};        // sponsor -> { total, phase3, phase2 }
   let pageToken = null;
   let pages = 0;
   let studiesSeen = 0;
@@ -100,7 +88,7 @@ async function fetchSponsorCounts() {
     for (const s of studies) {
       const p = s.protocolSection || {};
       const sponsor = ((p.sponsorCollaboratorsModule || {}).leadSponsor) || {};
-      if (sponsor.class !== 'INDUSTRY') continue;      // drop universities, NIH, hospitals
+      if (sponsor.class !== 'INDUSTRY') continue;      // no universities / NIH / hospitals
       const name = (sponsor.name || '').trim();
       if (!name) continue;
 
@@ -121,7 +109,7 @@ async function fetchSponsorCounts() {
   return counts;
 }
 
-/* ------------------------------------------------------- 2. name matching */
+/* 2. name matching */
 
 function normalise(name) {
   return String(name)
@@ -132,14 +120,13 @@ function normalise(name) {
     .trim();
 }
 
-/** First meaningful token — usually the distinctive part of a company name. */
+// first real word of a name
 function headword(name) {
   const n = normalise(name);
   return n.split(' ')[0] || '';
 }
 
 function buildSecIndex(tickerMap) {
-  // tickerMap: TICKER -> { cik, title }
   const byNorm = new Map();
   const byHead = new Map();
   const byTicker = new Map();
@@ -156,7 +143,7 @@ function buildSecIndex(tickerMap) {
   return { byNorm, byHead, byTicker };
 }
 
-/** True when two tokens are the same word or one is a prefix of the other. */
+// same word or one is a prefix of the other
 function tokenAkin(a, b) {
   if (a === b) return true;
   if (a.length >= 5 && b.length >= 5) {
@@ -165,7 +152,7 @@ function tokenAkin(a, b) {
   return false;
 }
 
-/** Share of A's tokens that have a counterpart in B. */
+// share of A's tokens found in B
 function tokenOverlap(aTokens, bTokens) {
   if (!aTokens.length) return 0;
   let hits = 0;
@@ -176,9 +163,7 @@ function tokenOverlap(aTokens, bTokens) {
 function matchSponsor(sponsorName, index, aliases) {
   const raw = String(sponsorName).toLowerCase();
 
-  // 1. Subsidiary alias. Trials are registered to the operating company
-  //    (Janssen, Genentech, Celgene...), which does not resemble the parent's
-  //    SEC name. Without this the largest pharma companies are missed.
+  // 1. subsidiary aliases (Janssen -> JNJ, Genentech -> Roche...)
   if (aliases) {
     for (const [frag, ticker] of Object.entries(aliases)) {
       if (!ticker) continue;
@@ -193,10 +178,10 @@ function matchSponsor(sponsorName, index, aliases) {
   if (!n) return null;
   const nTokens = n.split(' ').filter(Boolean);
 
-  // 2. Exact normalised match.
+  // 2. exact match
   if (index.byNorm.has(n)) return { ...index.byNorm.get(n), confidence: 'exact' };
 
-  // 3. Headword match, allowing prefix forms (moderna <-> modernatx).
+  // 3. first word match, prefixes ok
   const h = nTokens[0] || '';
   const headCands = [];
   if (h.length >= 4) {
@@ -206,9 +191,7 @@ function matchSponsor(sponsorName, index, aliases) {
   }
   if (headCands.length === 1) return { ...headCands[0], confidence: 'headword' };
 
-  // 4. Token overlap across the whole SEC index. Requires a strong, and
-  //    clearly best, overlap in both directions so "Janssen Research" does
-  //    not silently become some unrelated registrant.
+  // 4. token overlap, has to be strong both ways and a clear winner
   let best = null, bestScore = 0, runnerUp = 0;
   for (const [norm, info] of index.byNorm) {
     const bTokens = norm.split(' ').filter(Boolean);
@@ -218,7 +201,7 @@ function matchSponsor(sponsorName, index, aliases) {
     else if (score > runnerUp) { runnerUp = score; }
   }
   if (best && bestScore >= 0.6) {
-    // A near-tie means we cannot tell them apart; send it to review.
+    // too close to call -> review
     if (bestScore - runnerUp < 0.15) {
       return { ...best, confidence: 'ambiguous', alternatives: [best.ticker] };
     }
@@ -231,7 +214,7 @@ function matchSponsor(sponsorName, index, aliases) {
   return null;
 }
 
-/* ----------------------------------------------------- 3. SIC verification */
+/* 3. SIC verification */
 
 async function fetchSic(cik, userAgent) {
   let res;
@@ -255,7 +238,7 @@ async function fetchSic(cik, userAgent) {
   };
 }
 
-/* ----------------------------------------------------------- 4. scoring */
+/* 4. scoring */
 
 function scoreCompany(counts) {
   return counts.phase3 * 3 + counts.phase2 * 1;
@@ -269,7 +252,7 @@ function tierFor(sic, counts) {
   return 'clinical-stage';
 }
 
-/* ----------------------------------------------------------------- main */
+/* main */
 
 async function main() {
   const userAgent = edgar.getUserAgent();
@@ -320,7 +303,7 @@ async function main() {
     }
     if (never.has(m.ticker)) continue;
     if (accepted[m.ticker]) {
-      // Two sponsor strings for one company (subsidiaries). Merge counts.
+      // merge subsidiaries
       accepted[m.ticker]._counts.total += c.total;
       accepted[m.ticker]._counts.phase3 += c.phase3;
       accepted[m.ticker]._counts.phase2 += c.phase2;
@@ -350,7 +333,7 @@ async function main() {
 
     accepted[m.ticker] = {
       name: sec.name || m.title,
-      sponsorQuery: sponsorName,       // exact string from the registry, no guessing
+      sponsorQuery: sponsorName,       // exact registry string
       tier: tierFor(sec.sic, c),
       focus: sec.sicDescription || '',
       sic: sec.sic,
@@ -364,7 +347,7 @@ async function main() {
     }
   }
 
-  // Overrides win.
+  // overrides win
   for (const [ticker, meta] of Object.entries(overrides.alwaysInclude || {})) {
     accepted[ticker] = Object.assign({ matchConfidence: 'override' }, meta);
   }

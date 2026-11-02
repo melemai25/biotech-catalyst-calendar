@@ -1,8 +1,6 @@
 #!/usr/bin/env node
-/**
- * serve.js — build the data, then serve the site. Works identically on
- * Windows, macOS and Linux. No bash, no Python, no npm dependencies.
- *
+/*
+ * Local dev server.
  *   node scripts/serve.js
  *   node scripts/serve.js --port 8080
  *   node scripts/serve.js --no-build
@@ -18,7 +16,7 @@ const { spawn, spawnSync } = require('child_process');
 const ROOT = path.join(__dirname, '..');
 const PUBLIC_DIR = path.join(ROOT, 'public');
 
-// ---------- colours (disabled when not a TTY, e.g. piped into a log) ----------
+// colors (off when not a TTY)
 const TTY = process.stdout.isTTY;
 const c = {
   cyan:  (s) => (TTY ? `\x1b[1;36m${s}\x1b[0m` : s),
@@ -28,17 +26,16 @@ const c = {
   dim:   (s) => (TTY ? `\x1b[2m${s}\x1b[0m` : s),
 };
 
-// ---------- args ----------
+// args
 const argv = process.argv.slice(2);
 let port = 8000;
-// Serving never refetches by default. Data collection is a separate step that
-// hits the network for minutes; UI work should not pay that cost.
+// doesn't refetch data by default, that takes minutes
 let doBuild = false;
 let doOpen = true;
 
 for (let i = 0; i < argv.length; i++) {
   const a = argv[i];
-  if (a === '--no-build') doBuild = false;          // kept so old commands still work
+  if (a === '--no-build') doBuild = false;          // old flag
   else if (a === '--build') doBuild = true;
   else if (a === '--no-open') doOpen = false;
   else if (a === '--port' || a === '-p') port = parseInt(argv[++i], 10);
@@ -70,7 +67,7 @@ if (!Number.isInteger(port) || port < 1 || port > 65535) {
   process.exit(1);
 }
 
-// ---------- node version guard ----------
+// node version guard
 const major = parseInt(process.versions.node.split('.')[0], 10);
 if (major < 18) {
   console.error(c.red(`Node ${process.version} is too old. This needs v18 or newer (for built-in fetch).`));
@@ -78,7 +75,7 @@ if (major < 18) {
   process.exit(1);
 }
 
-// ---------- build ----------
+// build
 function build() {
   console.log(c.cyan('==> Fetching trial data and rebuilding events.json'));
   const r = spawnSync(process.execPath, [path.join(ROOT, 'scripts', 'build-data.js')], {
@@ -91,7 +88,7 @@ function build() {
   console.log('');
 }
 
-// ---------- data summary ----------
+// data summary
 function summarise() {
   const p = path.join(PUBLIC_DIR, 'data', 'events.json');
   if (!fs.existsSync(p)) {
@@ -119,8 +116,7 @@ function summarise() {
   const next = d.events.filter((e) => e.status === 'upcoming')[0];
   if (next) console.log(`  Next catalyst: ${next.date}  ${next.ticker}  ${next.title}`);
 
-  // Macro is optional. Say plainly whether the tab has anything in it, so the
-  // page is never silently empty.
+  // say whether the macro tab has data
   const mp = path.join(PUBLIC_DIR, 'data', 'macro.json');
   if (fs.existsSync(mp)) {
     try {
@@ -134,12 +130,12 @@ function summarise() {
       } else {
         console.log(c.amber(`  Macro: not available (${m.reason || 'unknown'})`));
       }
-    } catch { /* a malformed macro payload must not stop the server */ }
+    } catch { }
   }
   console.log('');
 }
 
-// ---------- find a free port ----------
+// find a free port
 function isFree(p) {
   return new Promise((resolve) => {
     const s = net.createServer();
@@ -160,7 +156,7 @@ async function resolvePort(start) {
   process.exit(1);
 }
 
-// ---------- static file server ----------
+// static file server
 const MIME = {
   '.html': 'text/html; charset=utf-8',
   '.css': 'text/css; charset=utf-8',
@@ -183,7 +179,7 @@ function serve(p) {
     }
     if (urlPath.endsWith('/')) urlPath += 'index.html';
 
-    // Resolve inside PUBLIC_DIR only — no path traversal.
+    // stay inside PUBLIC_DIR
     const filePath = path.join(PUBLIC_DIR, urlPath);
     if (!filePath.startsWith(PUBLIC_DIR)) {
       res.writeHead(403); return res.end('Forbidden');
@@ -233,7 +229,7 @@ function openBrowser(url) {
   const plat = process.platform;
   try {
     if (plat === 'win32') {
-      // 'start' is a cmd builtin; the empty "" is the window title placeholder.
+      // windows: 'start' needs an empty title arg
       spawn('cmd', ['/c', 'start', '""', url], { detached: true, stdio: 'ignore' }).unref();
     } else if (plat === 'darwin') {
       spawn('open', [url], { detached: true, stdio: 'ignore' }).unref();
@@ -245,7 +241,7 @@ function openBrowser(url) {
   }
 }
 
-// ---------- go ----------
+// go
 (async () => {
   if (doBuild) build();
   else console.log(c.cyan('==> Serving existing data (use --build to refetch)\n'));

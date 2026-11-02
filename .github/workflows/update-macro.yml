@@ -1,25 +1,11 @@
 name: Refresh macro data
 
-# Economic data is on a different clock from biotech catalysts, so it gets its
-# own workflow rather than riding the daily trial refresh.
-#
-# The daily build runs at 11:14 UTC, which is 07:14 ET — before the 08:30 ET
-# window that CPI, PPI, PCE, GDP, retail sales and the jobs report all land in.
-# A once-daily job would therefore always show yesterday's number on the one
-# morning anybody cares.
-#
-# Times are chosen to clear the release in BOTH halves of the year, since cron
-# is UTC and ET shifts by an hour:
-#
-#   13:45 UTC = 08:45 EST / 09:45 EDT  -> after the 08:30 ET releases
-#   15:20 UTC = 10:20 EST / 11:20 EDT  -> after the 10:00 ET releases
-#                                         (JOLTS, consumer sentiment, ISM)
-#   22:30 UTC = 17:30 EST / 18:30 EDT  -> after the close, picks up the day's
-#                                         cross-asset marks and Friday's COT
-#
-# Worth knowing: GitHub's scheduler is best-effort and can run several minutes
-# late under load. That is fine for a calendar and for "what did CPI print at".
-# It is not a wire feed, and the page should never be described as one.
+# Macro data refresh, separate from the daily biotech build.
+# Cron is UTC, these clear the releases in both EST and EDT:
+#   13:45 UTC  after the 08:30 ET releases (CPI, jobs, GDP...)
+#   15:20 UTC  after the 10:00 ET releases (JOLTS, sentiment, ISM)
+#   22:30 UTC  after the close (cross-asset, Friday COT)
+# GitHub's scheduler can run a few minutes late.
 
 on:
   schedule:
@@ -33,9 +19,7 @@ permissions:
   pages: write
   id-token: write
 
-# Shares the Pages group with the data workflow so the two never deploy over
-# each other. cancel-in-progress stays false: a queued refresh should run, not
-# be dropped.
+# same Pages group as the data workflow so they don't deploy over each other
 concurrency:
   group: pages
   cancel-in-progress: false
@@ -44,9 +28,7 @@ jobs:
   macro:
     runs-on: ubuntu-latest
     env:
-      # Free key, one minute to get: https://fredaccount.stlouisfed.org/apikeys
-      # It is a secret rather than a variable because it is tied to an account
-      # and rate-limited per key.
+      # free key: https://fredaccount.stlouisfed.org/apikeys
       FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
 
     steps:
@@ -69,10 +51,7 @@ jobs:
       - name: Build macro data
         run: node scripts/build-macro.js
 
-      # Keeps /economic-calendar/ in step with the payload behind it. The
-      # ticker and month pages are regenerated too but deliberately not
-      # committed here — they belong to the data workflow, and committing them
-      # fifteen times a week would be pure churn.
+      # only commit the econ calendar page, the other pages belong to the data workflow
       - name: Regenerate the economic calendar page
         run: node scripts/build-pages.js --base "$SITE_BASE_URL"
         env:
@@ -85,9 +64,7 @@ jobs:
           git add public/data/macro.json public/economic-calendar public/sitemap.xml
           git diff --staged --quiet && echo "No change." && exit 0
           git commit -m "chore: refresh macro data"
-          # Two workflows push to this branch on overlapping schedules, so a
-          # plain push loses the race often enough to matter. Rebase and retry
-          # rather than forcing: the other commit is real work.
+          # both workflows push here, rebase and retry instead of force
           for i in 1 2 3; do
             if git push; then exit 0; fi
             echo "Push rejected, rebasing onto origin/main (attempt $i)"

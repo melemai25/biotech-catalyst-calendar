@@ -4,9 +4,7 @@
 #
 #   ./deploy.sh                    first run: creates the repo, pushes, enables Pages
 #   ./deploy.sh --name my-calendar name the repo (default: biotech-catalyst-calendar)
-#   ./deploy.sh --private          create a private repo (Pages needs a paid plan for this)
-#
-# After the first run, ./deploy.sh just pushes your latest changes.
+#   ./deploy.sh --private          create a private repo
 #
 set -euo pipefail
 cd "$(dirname "$0")"
@@ -28,7 +26,7 @@ ok()   { printf '\033[1;32m%s\033[0m\n' "$*"; }
 warn() { printf '\033[1;33m%s\033[0m\n' "$*"; }
 fail() { printf '\033[1;31m%s\033[0m\n' "$*" >&2; exit 1; }
 
-# ---------- prerequisites ----------
+# prerequisites
 command -v git >/dev/null 2>&1 || fail "git is not installed. https://git-scm.com/downloads"
 
 if ! command -v gh >/dev/null 2>&1; then
@@ -59,12 +57,12 @@ if ! gh auth status >/dev/null 2>&1; then
   gh auth login
 fi
 
-# ---------- build before shipping ----------
+# build before shipping
 say "==> Building data before deploy"
 node scripts/build-data.js || warn "Build had problems; deploying existing data."
 echo
 
-# ---------- git init ----------
+# git init
 if [ ! -d .git ]; then
   say "==> Initialising git repository"
   git init -q
@@ -79,7 +77,7 @@ else
   ok "    Committed."
 fi
 
-# ---------- create or reuse the remote ----------
+# create or reuse the remote
 if git remote get-url origin >/dev/null 2>&1; then
   REMOTE="$(git remote get-url origin)"
   say "==> Using existing remote: $REMOTE"
@@ -92,7 +90,7 @@ fi
 OWNER="$(gh api user --jq .login)"
 SLUG="$OWNER/$(basename "$(git remote get-url origin)" .git)"
 
-# ---------- turn on Pages, built by the included Action ----------
+# turn on Pages, built by the included Action
 say "==> Enabling GitHub Pages (source: GitHub Actions)"
 if gh api -X POST "repos/$SLUG/pages" \
      -f 'build_type=workflow' >/dev/null 2>&1; then

@@ -1,24 +1,10 @@
 #!/usr/bin/env node
-/**
- * build-macro.js — collects US economic data and writes public/data/macro.json
- *
- * Completely independent of build-data.js. The biotech calendar and the macro
- * page share nothing but the output directory, so either can be rebuilt on its
- * own cadence and a failure in one never blocks the other.
- *
+/*
+ * Builds public/data/macro.json from FRED. Separate from build-data.js.
  *   node scripts/build-macro.js
- *   node scripts/build-macro.js --dry-run     fetch and report, write nothing
+ *   node scripts/build-macro.js --dry-run
  *   node scripts/build-macro.js --offline     rebuild from the last payload
- *
- * Needs a free FRED API key (one minute, no payment details):
- *   https://fredaccount.stlouisfed.org/apikeys
- *   setx FRED_API_KEY "your32charkey"          (Windows)
- *   export FRED_API_KEY="your32charkey"        (macOS/Linux)
- * or data/config.json -> { "fredApiKey": "..." }
- *
- * Without a key the script writes an `available: false` payload and exits 0.
- * The macro tab then explains what is missing instead of rendering an error,
- * and the rest of the site is untouched.
+ * Needs FRED_API_KEY (see fred.js). Without one it writes available:false and exits 0.
  */
 
 const fs = require('fs');
@@ -32,7 +18,6 @@ const ROOT = path.join(__dirname, '..');
 const OUT = path.join(ROOT, 'public', 'data', 'macro.json');
 const OVERRIDES = path.join(ROOT, 'data', 'macro-overrides.json');
 
-/** How far ahead the calendar reaches, and how much history to pull. */
 const CALENDAR_DAYS_AHEAD = 180;
 const CALENDAR_DAYS_BACK = 21;
 const HISTORY_YEARS = 6;
@@ -88,15 +73,13 @@ function writePayload(payload) {
     return;
   }
   fs.mkdirSync(path.dirname(OUT), { recursive: true });
-  // Written minified. Pretty-printing puts every [date, value] pair of every
-  // sparkline on four lines, which quadrupled the payload for no benefit —
-  // nobody hand-edits generated data.
+  // minified, pretty-printing made it 4x bigger
   fs.writeFileSync(OUT, JSON.stringify(payload));
   const kb = (fs.statSync(OUT).size / 1024).toFixed(0);
   console.log(c.green(`\n==> Wrote public/data/macro.json (${kb} KB)`));
 }
 
-/** The payload shape the UI reads when there is no key or no data. */
+// payload when there's no key / no data
 function unavailable(reason, detail) {
   return {
     available: false,
@@ -112,14 +95,9 @@ function unavailable(reason, detail) {
   };
 }
 
-/* ------------------------------------------------------------------ *
- * Release calendar
- * ------------------------------------------------------------------ */
+/* release calendar */
 
-/**
- * Resolves each spec entry to the FRED release id that serves it. Done as its
- * own step because the ids are what we then fetch dates for, one by one.
- */
+// spec entry -> FRED release id
 function matchReleases(releases) {
   const byId = new Map();
   for (const spec of RELEASES) {
@@ -133,11 +111,7 @@ function matchReleases(releases) {
   return byId;
 }
 
-/**
- * Stamps each date with the time, agency and importance the spec supplies.
- * FRED gives dates; everything a reader needs to act on them comes from
- * macro-spec.js.
- */
+// add time/agency/importance from macro-spec to each date
 function buildCalendar(byId, forwardDates, today) {
   const from = addDays(today, -CALENDAR_DAYS_BACK);
   const to = addDays(today, CALENDAR_DAYS_AHEAD);
@@ -161,7 +135,7 @@ function buildCalendar(byId, forwardDates, today) {
       importance: spec.importance,
       agency: spec.agency,
       sourceUrl: spec.url,
-      refPeriod: null,       // FRED does not publish the reference period
+      refPeriod: null,
       valueAvailable: true,
       note: null,
       status: d.date < today ? 'past' : 'upcoming',
@@ -171,9 +145,7 @@ function buildCalendar(byId, forwardDates, today) {
   return out;
 }
 
-/* ------------------------------------------------------------------ *
- * Main
- * ------------------------------------------------------------------ */
+/* main */
 
 async function main() {
   const today = new Date().toISOString().slice(0, 10);
@@ -206,7 +178,7 @@ async function main() {
   const overrides = readOverrides();
   const hidden = new Set(overrides.hide || []);
 
-  /* ---- 1. Release calendar ---- */
+  /* 1. Release calendar */
   console.log(c.cyan('==> Release calendar'));
   let calendar = [];
   try {
@@ -214,8 +186,7 @@ async function main() {
     const matched = matchReleases(releases);
     console.log(`    ${releases.length} releases tracked by FRED, ${matched.size} of ours matched`);
 
-    // One request per release we actually want. Asking FRED to assemble the
-    // forward calendar for all ~300 at once times out.
+    // one request per release, all at once times out
     const { dates, failed } = await fred.fetchReleaseDatesFor([...matched.keys()], apiKey, {
       from: addDays(today, -CALENDAR_DAYS_BACK),
       to: addDays(today, CALENDAR_DAYS_AHEAD),
@@ -235,7 +206,7 @@ async function main() {
     warn(`Release calendar failed: ${e.message}`);
   }
 
-  /* ---- 2. Licensed-value releases with mechanical dates ---- */
+  /* 2. ISM etc (dates only) */
   const fixed = macro.expandFixedEvents(
     FIXED_EVENTS,
     addDays(today, -CALENDAR_DAYS_BACK),
@@ -243,7 +214,7 @@ async function main() {
   ).map((e) => ({ ...e, status: e.date < today ? 'past' : 'upcoming' }));
   console.log(`    ${fixed.length} ISM events added from the published business-day rule`);
 
-  /* ---- 3. FOMC ---- */
+  /* 3. FOMC */
   console.log(c.cyan('\n==> FOMC calendar'));
   let fomc = [];
   if (Array.isArray(overrides.fomc) && overrides.fomc.length) {
@@ -264,15 +235,10 @@ async function main() {
       date: m.date,
       time: '14:00',
       tz: 'ET',
-      // Every other row reads "short name / full name" — CPI / Consumer Price
-      // Index. These read "FOMC decision / FOMC rate decision", the same words
-      // twice, which made four distinct meetings look like one repeated four
-      // times. The expansion goes in `name`, as everywhere else.
+      // put the expansion in `name` so it doesn't read 'FOMC decision / FOMC rate decision'
       short: 'FOMC decision',
       name: 'Federal Open Market Committee',
-      // What actually separates one meeting from the next, beyond the date:
-      // four of the eight carry the Summary of Economic Projections, and those
-      // are the ones that move the rates market hardest.
+      // 4 of the 8 meetings have projections (dot plot)
       tag: m.sep ? 'dot plot' : null,
       group: 'fed',
       importance: 3,
@@ -286,12 +252,11 @@ async function main() {
       status: m.date < today ? 'past' : 'upcoming',
     }));
 
-  /* ---- 4. Indicators ---- */
+  /* 4. Indicators */
   console.log(c.cyan('\n==> Indicators'));
   const start = `${new Date().getUTCFullYear() - HISTORY_YEARS}-01-01`;
 
-  // Several indicators share a series (CPI year-over-year and month-over-month
-  // are the same observations transformed twice), so fetch each series once.
+  // fetch each series once, several indicators share one
   const needed = [...new Set(INDICATORS.filter((i) => !hidden.has(i.id)).map((i) => i.series))];
   const rawBySeries = new Map();
   const metaBySeries = new Map();
@@ -307,7 +272,7 @@ async function main() {
       try {
         const meta = await fred.fetchSeriesMeta(seriesId, apiKey);
         if (meta) metaBySeries.set(seriesId, meta);
-      } catch { /* metadata is a nicety, not a requirement */ }
+      } catch { }
       process.stdout.write(c.dim('.'));
     } catch (e) {
       const spec = INDICATORS.find((i) => i.series === seriesId);
@@ -322,8 +287,7 @@ async function main() {
   process.stdout.write('\n');
 
   const indicators = [];
-  // The composite needs the full transformed series, which the indicator's own
-  // `history` field deliberately truncates. Kept out of the payload.
+  // composite needs the full series, `history` is truncated
   const fullById = {};
 
   for (const spec of INDICATORS) {
@@ -343,7 +307,7 @@ async function main() {
 
   console.log(`    ${indicators.length} of ${INDICATORS.length - hidden.size} indicators built from ${rawBySeries.size} series`);
 
-  /* ---- 5. Risk composite ---- */
+  /* 5. Risk composite */
   console.log(c.cyan('\n==> Risk composite'));
   const byId = Object.fromEntries(indicators.map((i) => [i.id, i]));
   const risk = macro.buildRiskComposite(byId, fullById);
@@ -360,7 +324,7 @@ async function main() {
     }
   }
 
-  /* ---- 6. Positioning ---- */
+  /* 6. Positioning */
   console.log(c.cyan('\n==> CFTC positioning'));
   const pos = await macro.fetchPositioning();
   if (pos.warning) warn(pos.warning);
@@ -368,11 +332,8 @@ async function main() {
     console.log(`    ${pos.positioning.length} contracts as of ${pos.asOf}`);
   }
 
-  /* ---- 7. Merge and write ---- */
-  // Three sources feed one list, and FRED can return the same release date
-  // under more than one realtime vintage. Nothing observed has duplicated yet,
-  // but a calendar that lists an event twice reads as broken, and the guard
-  // costs one pass.
+  /* 7. Merge and write */
+  // dedupe (FRED can return the same date under different vintages)
   const byKey = new Map();
   let dupes = 0;
   for (const ev of [...calendar, ...fixed, ...fomcEvents]) {
@@ -408,12 +369,7 @@ async function main() {
     risk,
     positioning: pos.positioning,
     positioningAsOf: pos.asOf || null,
-    // Attribution, shown in the page footer.
-    //
-    // Build diagnostics and the catalogue of licensed data we leave out are
-    // deliberately NOT in this payload. macro.json is served publicly, so
-    // anything put here is published; those notes are for whoever runs the
-    // build, and they belong in the build log and the README instead.
+    // attribution only. macro.json is public, so build diagnostics stay in the log
     notes: {
       sources: [
         { name: 'FRED (St. Louis Fed)', url: 'https://fred.stlouisfed.org/', covers: 'Indicator values and the release calendar' },
@@ -437,9 +393,9 @@ async function main() {
 main().catch((e) => {
   console.error(c.red('\nMacro build failed: ' + e.message));
   console.error(c.dim(e.stack));
-  // Leave a payload the UI can explain rather than a missing file it cannot fetch.
+  // write a payload the UI can explain instead of leaving the file missing
   try {
     if (!DRY) writePayload(unavailable('build-failed', e.message));
-  } catch { /* nothing more to do */ }
+  } catch { }
   process.exit(1);
 });

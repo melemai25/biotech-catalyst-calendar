@@ -1,15 +1,9 @@
 #!/usr/bin/env node
-/**
- * Lists the releases FRED publishes, and checks them against macro-spec.js.
- *
- * FRED's release names are free text and not always what you would guess —
- * the University of Michigan survey, for instance, is not filed under
- * "University of Michigan". When build-macro.js reports fewer matches than
- * there are entries in RELEASES, run this to find the real name.
- *
- *   node scripts/fred-releases.js              check the spec, list misses
- *   node scripts/fred-releases.js home sales   search names for a phrase
- *   node scripts/fred-releases.js --all        dump every release name
+/*
+ * Checks macro-spec.js release names against what FRED actually calls them.
+ *   node scripts/fred-releases.js              check the spec
+ *   node scripts/fred-releases.js home sales   search
+ *   node scripts/fred-releases.js --all        list everything
  */
 
 const fred = require('./fred');
@@ -59,7 +53,6 @@ const query = argv.filter((a) => !a.startsWith('--')).join(' ').trim();
     return;
   }
 
-  // Default: audit the spec.
   const missing = [];
   console.log(c.cyan('Checking macro-spec.js against FRED:\n'));
 
@@ -71,8 +64,7 @@ const query = argv.filter((a) => !a.startsWith('--')).join(' ').trim();
       console.log(`  ${c.red('MISS')} ${spec.key.padEnd(10)} ${c.dim('pattern:')} ${spec.match}`);
       missing.push(spec);
     } else {
-      // More than one match is its own bug: the calendar would carry whichever
-      // happened to come first in FRED's ordering.
+      // more than one match is also a bug
       console.log(`  ${c.amber('AMBIG')} ${spec.key.padEnd(9)} matches ${hits.length}:`);
       for (const h of hits) console.log(c.dim(`          ${h.id}  ${h.name}`));
     }
@@ -85,7 +77,7 @@ const query = argv.filter((a) => !a.startsWith('--')).join(' ').trim();
 
   console.log(c.amber(`\n${missing.length} pattern(s) matched nothing. Candidates by keyword:\n`));
   for (const spec of missing) {
-    // Search on the spec's own words to surface what FRED actually calls it.
+    // search with the spec's own words
     const words = spec.short.toLowerCase().split(/\s+/).filter((w) => w.length > 3);
     const hits = releases.filter((r) => {
       const n = r.name.toLowerCase();

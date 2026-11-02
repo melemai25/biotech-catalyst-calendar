@@ -1,15 +1,10 @@
 #!/usr/bin/env node
-/**
- * Compares the runway the site shows NOW with what the fixed xbrl.js computes
- * from the same SEC data, and shows which tag and period each figure came
- * from. Writes nothing — run it before rebuilding to see what will change.
+/*
+ * Debug tool: compares the runway on the site with what xbrl.js computes now,
+ * and prints which tags/periods it used. Doesn't write anything.
  *
- *   node scripts/runway-check.js                 every ticker currently on the
- *                                                "Event after cash runs out" list
- *   node scripts/runway-check.js RARE GERN XNCR  just these
- *
- * Uses the same EDGAR contact string as the build (EDGAR_USER_AGENT or
- * data/config.json). Safe to delete once you are happy with the numbers.
+ *   node scripts/runway-check.js              tickers on the cash-runs-out list
+ *   node scripts/runway-check.js RARE XNCR    specific tickers
  */
 
 const fs = require('fs');
@@ -31,7 +26,7 @@ const $m = (v) => v === null || v === undefined ? '—'
 const pad = (s, n) => String(s).padEnd(n);
 const days = (a, b) => Math.round((new Date(b) - new Date(a)) / 86400000);
 
-/* The rule the site uses today, and the fixed one. */
+/* old rule vs new rule */
 function addDays(iso, n) { const d = new Date(iso + 'T00:00:00Z'); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0, 10); }
 function oldGap(e, m) {
   if (!m || m.runwayMonths === null || m.runwayMonths === undefined) return false;
@@ -111,8 +106,7 @@ async function main() {
     console.log(`  ${pad('Runway', 20)}${pad(before.runwayMonths != null ? before.runwayMonths + ' mo' : before.cashStatus || '—', 34)}${after.runwayMonths != null ? after.runwayMonths + ' mo, cash out ~' + after.cashOutDate : after.cashStatus}`);
     console.log(`  ${pad('Gap-list events', 20)}${pad(nb, 34)}${na}`);
 
-    // Every investments tag the company has ever used, newest date first —
-    // shows at a glance whether a tag switch is what the old code tripped on.
+    // every investment tag on file, to spot tag switches
     const seen = [];
     for (const key of ['shortTermInvestments', 'longTermInvestments', 'cashAndShortTermInvestments']) {
       for (const f of xbrl.allFactsFor(facts, xbrl.tagsFor(key))) {
@@ -123,9 +117,7 @@ async function main() {
     console.log(`  investment tags on file:${seen.length ? '\n    ' + seen.join('\n    ') : ' none'}`);
     console.log(`  burn tag: ${ex.operatingCashFlow ? ex.operatingCashFlow.tag : '—'}`);
 
-    // Anything on the same balance sheet that LOOKS like money but is not in
-    // the lists above — catches a deposits or financial-assets tag we have
-    // never seen, which is how foreign filers usually go missing.
+    // money-looking tags we don't count yet (how foreign filers went missing)
     const known = new Set(['cash', 'shortTermInvestments', 'longTermInvestments', 'cashAndShortTermInvestments']
       .flatMap(k => xbrl.tagsFor(k)));
     const extra = [];
@@ -141,7 +133,7 @@ async function main() {
     console.log(`  other money-like tags on ${after.cashAsOf || '—'}:${extra.length ? '\n    ' + extra.join('\n    ') : ' none'}`);
     console.log(`  reporting currency: ${after.reportingCurrency || '—'}`);
 
-    // Financing filed after the balance sheet — what the site will now flag.
+    // financing filed after the balance sheet
     let fin = [];
     try {
       const r = await edgar.fetchCompanyEvents(t, cik, TODAY, ua);

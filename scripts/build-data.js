@@ -1,22 +1,12 @@
 #!/usr/bin/env node
-/**
- * Fetches trial records from the ClinicalTrials.gov v2 API for every tracked
- * ticker and writes:
+/*
+ * Pulls trials from ClinicalTrials.gov, filings + financials from SEC, and writes:
+ *   public/data/index.json       ticker list + counts
+ *   public/data/ticker/<T>.json  one per ticker
+ *   public/data/events.json      everything combined
  *
- *   public/data/index.json        - ticker list + counts (small, loaded first)
- *   public/data/ticker/<T>.json   - one file per ticker (loaded on demand)
- *   public/data/events.json       - combined file (back-compat with current UI)
- *
- * Runs server-side: no CORS, no API key. Every event on the site comes from a
- * machine-readable source and links back to it — nothing is hand-entered, so
- * coverage is the same for all 301 companies rather than good for the two
- * someone happened to type up.
- *
- * Network failures degrade to
- * data rather than failing the build.
- *
- *   node scripts/build-data.js              build everything
- *   node scripts/build-data.js --validate   report bad sponsor mappings only
+ *   node scripts/build-data.js
+ *   node scripts/build-data.js --validate        check sponsor mappings only
  *   node scripts/build-data.js --only MRNA,ILMN
  */
 
@@ -33,23 +23,14 @@ const TICKER_DIR = path.join(OUT_DIR, 'ticker');
 const API = 'https://clinicaltrials.gov/api/v2/studies';
 const PAGE_SIZE = 200;
 const MAX_PAGES = 3;
-// ClinicalTrials.gov documents a ~10 req/sec ceiling. Stay well under it.
+// CT.gov limit is ~10/sec
 const REQUEST_GAP_MS = 250;
-/**
- * Registry events older than this are dropped from the CALENDAR. Trial
- * completions from years ago are accurate but not catalysts, and they bury
- * what is actually coming. Outcome statistics deliberately ignore this cutoff
- * and keep the full history, because completion rate needs the sample.
- * Set to 0 to keep everything.
- */
+// drop registry events older than this from the calendar (0 = keep all).
+// outcome stats still use everything
 const CALENDAR_MAX_AGE_YEARS = 10;
 const MAX_RETRIES = 3;
 
-/**
- * Outcome statistics are computed across every study the sponsor has
- * registered, not just the ones that survive the calendar filters. A
- * terminated trial has no useful date but is exactly what we want to count.
- */
+// counts every study the sponsor has, not just ones on the calendar
 function outcomeStats(studies, sponsorQuery){
   const st = { completed:0, terminated:0, withdrawn:0, suspended:0, ongoing:0,
                withResults:0, byPhase:{} };
@@ -73,12 +54,11 @@ function outcomeStats(studies, sponsorQuery){
     if (s.hasResults) st.withResults++;
   }
 
-  // Completion rate: of the trials that reached an end state, how many finished.
   const concluded = st.completed + st.terminated + st.withdrawn;
   st.concluded = concluded;
   st.completionRatePct = concluded >= 5
     ? Math.round((st.completed / concluded) * 100)
-    : null;   // too few to mean anything
+    : null;   // need at least 5
   st.resultsPostedPct = st.completed >= 5
     ? Math.round((st.withResults / st.completed) * 100)
     : null;
@@ -98,7 +78,7 @@ const INTERESTING_STATUSES = new Set([
   'TERMINATED',
 ]);
 
-/* Counted for outcome stats but never shown on the calendar. */
+// counted in stats, not shown
 const OUTCOME_ONLY_STATUSES = new Set(['WITHDRAWN', 'SUSPENDED']);
 
 const FIELDS = [
@@ -120,7 +100,7 @@ const ONLY = onlyIdx !== -1
 function log(m) { process.stdout.write(m + '\n'); }
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
-/* ------------------------------------------------------------------ fetch */
+/* fetch */
 
 async function fetchSponsorStudies(sponsorQuery) {
   const studies = [];
@@ -149,7 +129,7 @@ async function fetchSponsorStudies(sponsorQuery) {
         await sleep(500 * (attempt + 1));
         continue;
       }
-      // Back off and retry on rate limiting or transient server errors.
+      // retry on 429 / 5xx
       if (res.status === 429 || res.status >= 500) {
         lastErr = new Error(`HTTP ${res.status}`);
         res = null;
@@ -179,7 +159,7 @@ async function fetchSponsorStudies(sponsorQuery) {
   return studies;
 }
 
-/* ----------------------------------------------------------------- mapping */
+/* mapping */
 
 function normaliseDate(struct) {
   if (!struct || !struct.date) return null;
@@ -206,7 +186,7 @@ function studyToEvent(study, ticker, sponsorQuery, allowUnphased, oldestAllowed)
   const cond = p.conditionsModule || {};
   const sponsor = (p.sponsorCollaboratorsModule || {}).leadSponsor || {};
 
-  // query.spons also matches collaborators, so require the LEAD sponsor to match.
+  // query.spons also matches collaborators, so check the lead sponsor
   const leadName = (sponsor.name || '').toLowerCase();
   if (!leadName.includes(sponsorQuery.toLowerCase())) return null;
 
@@ -216,13 +196,11 @@ function studyToEvent(study, ticker, sponsorQuery, allowUnphased, oldestAllowed)
             || normaliseDate(status.completionDateStruct);
   if (!date) return null;
 
-  // Too old to be a catalyst. Counted in outcome stats, kept off the calendar.
   if (oldestAllowed && date < oldestAllowed) return null;
 
   let phase = phaseLabel(design.phases);
   if (!phase || phase === 'N/A') {
-    // Diagnostics companies run observational studies with no phase. Keep them
-    // only where the ticker opted in, otherwise they are noise.
+    // no-phase studies only for tickers with allowUnphased (diagnostics cos)
     if (!allowUnphased) return null;
     phase = (design.studyType === 'OBSERVATIONAL') ? 'Observational' : 'No phase';
   }
@@ -254,7 +232,7 @@ function studyToEvent(study, ticker, sponsorQuery, allowUnphased, oldestAllowed)
   };
 }
 
-/* -------------------------------------------------------------------- main */
+/* main */
 
 async function main() {
   const tickerFile = JSON.parse(fs.readFileSync(TICKERS_PATH, 'utf8'));
@@ -268,7 +246,7 @@ async function main() {
 
   log(`Building ${entries.length} tickers`);
 
-  // ---- EDGAR setup (optional; skipped cleanly if no contact string is set) ----
+  // EDGAR (skipped if no contact string)
   let edgarUA = null;
   let tickerMap = null;
   if (!NO_EDGAR) {
@@ -333,9 +311,8 @@ async function main() {
       report.push({ ticker, sponsorQuery: meta.sponsorQuery, studies: 0, events: 0, error });
     }
 
-    // ---- EDGAR filings for this ticker ----
     if (tickerMap) {
-      // discover.js already resolved and stored a CIK; prefer it.
+      // prefer the CIK discover.js saved
       const hit = meta.cik ? { cik: meta.cik } : tickerMap[ticker];
       if (!hit) {
         edgarNote = 'no CIK';
@@ -363,7 +340,7 @@ async function main() {
       if (edgarNote) log(`${' '.repeat(prefix.length)} ${edgarNote}`);
     }
 
-    // ---- XBRL financial metrics ----
+    // XBRL metrics
     if (tickerMap && !NO_METRICS) {
       const hit = tickerMap[ticker];
       if (hit) {
@@ -371,8 +348,7 @@ async function main() {
           const m = await xbrl.fetchMetrics(hit.cik, edgarUA);
           if (m) {
             metrics[ticker] = m;
-            // Offerings, private placements or new debt filed after the
-            // balance sheet date: the runway above does not include them.
+            // financing filed after the balance sheet date (not in the runway)
             const since = edgar.financingSince(financings, m.cashAsOf);
             if (since.length) m.financingSinceCash = since;
             const ccy = m.reportingCurrency || '';
@@ -420,7 +396,7 @@ async function main() {
       name: meta.name,
       tier: meta.tier,
       focus: meta.focus,
-      // carried from discover.js so the UI can rank by real trial activity
+      // from discover.js
       score: meta.score ?? null,
       activeTrials: meta.activeTrials ?? null,
       phase3: meta.phase3 ?? null,
@@ -438,7 +414,7 @@ async function main() {
     allEvents.push(...events);
   }
 
-  /* ------------------------------------------------------------- reporting */
+  /* reporting */
 
   const failed = report.filter(r => r.error);
   const empty = report.filter(r => !r.error && r.studies === 0);
@@ -496,7 +472,7 @@ async function main() {
     return;
   }
 
-  /* ---------------------------------------------------------------- output */
+  /* output */
 
   fs.mkdirSync(OUT_DIR, { recursive: true });
   allEvents.sort((a, b) => a.date.localeCompare(b.date));
@@ -509,7 +485,7 @@ async function main() {
     tickers: index,
   }, null, 2));
 
-  // Back-compat: the current UI still reads events.json with a flat tickers map.
+  // events.json is still used by the Data tab 'all companies' view
   const flatTickers = {};
   for (const [t, v] of Object.entries(index)) {
     flatTickers[t] = { name: v.name, note: v.focus };

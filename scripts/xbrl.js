@@ -1,56 +1,33 @@
 #!/usr/bin/env node
-/**
- * SEC XBRL CompanyFacts ingestion — free, keyless, public domain.
+/*
+ * SEC XBRL companyfacts -> cash, burn, runway, FCF, revenue, R&D, dilution.
  *
- * Produces the financial metrics that matter for biotech:
- *   cash, burn, RUNWAY, free cash flow, revenue, R&D, dilution rate.
- *
- * Traps this module handles, every one of which silently corrupts runway:
- *
- *  1. Operating cash flow in a 10-Q is CUMULATIVE year-to-date. A Q2 10-Q
- *     reports six months of burn and no three-month figure at all. The latest
- *     quarter is therefore usually DERIVED (six months minus three), and it
- *     must be preferred over an older quarter that happens to be reported
- *     directly — otherwise every runway in October uses January-to-March burn.
- *
- *  2. Companies change tags over the years. Taking the first tag that exists
- *     and finding it stale must not mean giving up: the next tag may hold this
- *     quarter's figure. Every candidate tag is checked and the newest wins.
- *
- *  3. "Cash" for runway means what companies themselves quote: cash, cash
- *     equivalents and marketable securities — including the long-dated ones.
- *     All components are taken from the SAME balance sheet date, so a stale
- *     investments figure is never added to this quarter's cash.
- *
- *  4. Runway is meaningless for cash-generating companies. If operating cash
- *     flow is positive we report `cash-generating` rather than a number.
- *
- *  5. Runway counts from the balance sheet date, not from today. `cashOutDate`
- *     carries that, so nothing downstream has to remember it.
+ * Gotchas:
+ *  - 10-Q cash flow is year-to-date. Q2 only has a 6 month number, so the latest
+ *    quarter is usually 6mo minus 3mo. Prefer that over an older reported quarter.
+ *  - Companies switch tags over time. Check every candidate tag, newest wins.
+ *  - Cash = cash + short and long term marketable securities, all from the same
+ *    balance sheet date.
+ *  - Positive operating cash flow = 'cash-generating', no runway.
+ *  - Runway counts from the balance sheet date (cashOutDate), not today.
  */
 
 const COMPANYFACTS = (cik) => `https://data.sec.gov/api/xbrl/companyfacts/CIK${cik}.json`;
 
-const REQUEST_GAP_MS = 125;   // 8/sec, under the SEC's 10/sec ceiling
+const REQUEST_GAP_MS = 125;   // 8/sec
 const MAX_RETRIES = 3;
-// Facts older than this are ignored: a burn rate or cash figure from years ago
-// produces a confidently wrong runway, which is worse than no runway.
+// ignore facts older than this, stale numbers give a confidently wrong runway
 const MAX_FACT_AGE_DAYS = 550;
 const DAY_MS = 86400000;
 const DAYS_PER_MONTH = 30.4375;
 
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
-/**
- * Foreign private issuers report under IFRS, not US-GAAP, so their facts live
- * in the `ifrs-full` taxonomy under different tag names. Without these every
- * foreign company returns no financial data at all.
- */
+// IFRS tag names for foreign filers
 const IFRS_TAGS = {
   cash: ['CashAndCashEquivalents'],
-  // Term deposits are where foreign biotechs usually keep most of their money
-  // (AC Immune, MediWound). Note the IFRS spelling: "Shortterm", one word.
-  // Not ...ClassifiedAsCashEquivalents — those are already inside cash.
+  // term deposits, where foreign biotechs keep most of their cash (ACIU, MDWD).
+  // IFRS spells it 'Shortterm'. skip ...ClassifiedAsCashEquivalents, already in cash
   shortTermInvestments: [
     'ShorttermDepositsNotClassifiedAsCashEquivalents',
     'OtherCurrentFinancialAssets',
@@ -71,18 +48,14 @@ const IFRS_TAGS = {
   stockIssuanceProceeds: ['ProceedsFromIssuingShares'],
 };
 
-/*
- * Companies tag the same concept differently. Order is the tie-break when two
- * tags report the same date; otherwise the tag with the NEWEST fact wins.
- */
+// same concept, different tags. newest fact wins, list order breaks ties
 const TAGS = {
-  // Balance sheet (point in time)
+  // balance sheet
   cash: [
     'CashAndCashEquivalentsAtCarryingValue',
     'CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents',
   ],
-  // One of these is used per balance sheet — never two added together, since
-  // several describe the same securities.
+  // only one of these is used, several overlap
   shortTermInvestments: [
     'MarketableSecuritiesCurrent',
     'ShortTermInvestments',
@@ -91,14 +64,11 @@ const TAGS = {
     'AvailableForSaleSecuritiesCurrent',
     'HeldToMaturitySecuritiesCurrent',
     'DebtSecuritiesCurrent',              // Xencor
-    // Unclassified. Last, because a few filers use it for a total; Edgewise
-    // uses it for the current line.
+    // unclassified, keep last (some filers use it for a total). Edgewise uses it
     'MarketableSecurities',
   ],
-  // Long-dated marketable securities. Biotechs commonly hold a third or more
-  // of their money here and include it when they quote their own runway.
-  // Deliberately NOT `LongTermInvestments`, which often holds equity stakes in
-  // private companies that cannot be sold to fund a trial.
+  // long term marketable securities. not LongTermInvestments, that's usually
+  // private equity stakes
   longTermInvestments: [
     'MarketableSecuritiesNoncurrent',
     'AvailableForSaleSecuritiesDebtSecuritiesNoncurrent',
@@ -107,14 +77,14 @@ const TAGS = {
     'HeldToMaturitySecuritiesNoncurrent',
     'DebtSecuritiesNoncurrent',           // Xencor
   ],
-  // Some filers tag only the combined line.
+  // some filers only tag the combined line
   cashAndShortTermInvestments: ['CashCashEquivalentsAndShortTermInvestments'],
   longTermDebt: ['LongTermDebtNoncurrent', 'LongTermDebt'],
   totalAssets: ['Assets'],
   stockholdersEquity: ['StockholdersEquity'],
   accumulatedDeficit: ['RetainedEarningsAccumulatedDeficit'],
 
-  // Income statement (period)
+  // income statement
   revenue: [
     'RevenueFromContractWithCustomerExcludingAssessedTax',
     'Revenues',
@@ -126,7 +96,7 @@ const TAGS = {
   netIncome: ['NetIncomeLoss', 'ProfitLoss'],
   epsDiluted: ['EarningsPerShareDiluted', 'EarningsPerShareBasicAndDiluted'],
 
-  // Cash flow (period)
+  // cash flow
   operatingCashFlow: [
     'NetCashProvidedByUsedInOperatingActivities',
     'NetCashProvidedByUsedInOperatingActivitiesContinuingOperations',
@@ -141,7 +111,7 @@ const TAGS = {
   ],
 };
 
-/* ------------------------------------------------------------------ dates */
+/* dates */
 
 const isoToday = () => new Date().toISOString().slice(0, 10);
 const daysBetween = (a, b) => (new Date(b + 'T00:00:00Z') - new Date(a + 'T00:00:00Z')) / DAY_MS;
@@ -150,12 +120,11 @@ function addDays(iso, n) {
   d.setUTCDate(d.getUTCDate() + n);
   return d.toISOString().slice(0, 10);
 }
-/** Oldest fact end date still considered current. */
 function cutoffFor(opts = {}) {
   return opts.cutoff || addDays(opts.today || isoToday(), -MAX_FACT_AGE_DAYS);
 }
 
-/* ------------------------------------------------------------------ fetch */
+/* fetch */
 
 async function secFetch(url, userAgent) {
   let lastErr = null;
@@ -174,7 +143,7 @@ async function secFetch(url, userAgent) {
       await sleep(600 * (attempt + 1));
       continue;
     }
-    if (res.status === 404) return null;   // plenty of filers have no XBRL facts
+    if (res.status === 404) return null;
     if (res.status === 403) {
       throw new Error('HTTP 403 - SEC rejected the request (User-Agent missing, or IP rate-limited)');
     }
@@ -190,7 +159,7 @@ async function secFetch(url, userAgent) {
   throw lastErr || new Error('request failed');
 }
 
-/* ------------------------------------------------------------- tag lookup */
+/* tag lookup */
 
 function unitOf(entry) {
   const keys = Object.keys(entry.units || {});
@@ -198,18 +167,13 @@ function unitOf(entry) {
 }
 
 function sortFacts(facts) {
-  // Newest period first; for the same period, the most recently filed first,
-  // so a restated figure beats the original.
+  // newest first, latest filing first (restatements win)
   return facts
     .filter(f => f.end && typeof f.val === 'number')
     .sort((a, b) => b.end.localeCompare(a.end) || (b.filed || '').localeCompare(a.filed || ''));
 }
 
-/**
- * EVERY tag in the list that has facts, in list order. us-gaap before
- * ifrs-full unless a taxonomy is named. `unit` carries the reporting
- * currency, which is not always USD for foreign issuers.
- */
+// every matching tag, not just the first
 function allFactsFor(companyFacts, tagList, taxonomy = null) {
   const out = [];
   const taxonomies = taxonomy ? [taxonomy] : ['us-gaap', 'ifrs-full'];
@@ -227,22 +191,17 @@ function allFactsFor(companyFacts, tagList, taxonomy = null) {
   return out;
 }
 
-/** The first tag that has any facts. Used where recency does not matter. */
 function factsFor(companyFacts, tagList, taxonomy = null) {
   return allFactsFor(companyFacts, tagList, taxonomy)[0] || null;
 }
 
-/** Concatenates the US-GAAP and IFRS candidates for a concept. */
 function tagsFor(key) {
   return [...(TAGS[key] || []), ...(IFRS_TAGS[key] || [])];
 }
 
-/* ------------------------------------------------------- balance sheet */
+/* balance sheet */
 
-/**
- * Most recent point-in-time value across ALL candidate tags.
- * The newest date wins; list order breaks ties.
- */
+// newest value across all candidate tags
 function latestInstant(companyFacts, tagList, taxonomy = null, opts = {}) {
   const cutoff = cutoffFor(opts);
   let best = null;
@@ -256,7 +215,7 @@ function latestInstant(companyFacts, tagList, taxonomy = null, opts = {}) {
   return best;
 }
 
-/** The value of a balance-sheet concept on one exact date, or null. */
+// value on an exact date
 function instantAt(companyFacts, tagList, date, taxonomy = null) {
   if (!date) return null;
   for (const found of allFactsFor(companyFacts, tagList, taxonomy)) {
@@ -266,9 +225,9 @@ function instantAt(companyFacts, tagList, date, taxonomy = null) {
   return null;
 }
 
-/* ----------------------------------------------------------------- flows */
+/* flows */
 
-/** One fact per (start, end) period, the most recently filed. */
+// dedupe by period, keep the latest filing
 function uniqueDurations(facts) {
   const byKey = new Map();
   for (const f of facts) {
@@ -282,13 +241,8 @@ function uniqueDurations(facts) {
 
 const isQuarterLength = (d) => d >= 60 && d <= 115;
 
-/**
- * Every quarter that can be read or derived from one tag's facts, newest
- * first. A quarter is either reported directly (a ~90-day fact) or derived by
- * differencing two cumulative figures that share a start date: six months
- * minus three gives Q2, nine minus six gives Q3, the full year minus nine
- * gives Q4. A directly reported quarter wins when both exist.
- */
+// all quarters for one tag: reported ~90 day facts, or derived from YTD figures
+// with the same start (6mo-3mo = Q2, 9mo-6mo = Q3, FY-9mo = Q4)
 function quarterSeries(facts) {
   const durations = uniqueDurations(facts);
   const quarters = new Map();
@@ -323,11 +277,7 @@ function quarterSeries(facts) {
   return [...quarters.values()].sort((a, b) => b.end.localeCompare(a.end));
 }
 
-/*
- * Longer periods scaled to a quarter, for filers that never report one (many
- * foreign issuers file half-yearly or annually). Ranked after real quarters:
- * used only when nothing quarter-length is as recent.
- */
+// fallback for filers with no quarters (half-year / annual), scaled down
 const SCALED = [
   { min: 150, max: 200, div: 2, basis: 'half-year / 2' },
   { min: 240, max: 290, div: 3, basis: 'nine months / 3' },
@@ -356,11 +306,7 @@ function quarterCandidates(facts, cutoff) {
   return out;
 }
 
-/**
- * The most recent quarter-equivalent value for a concept, across every
- * candidate tag. Newest period end wins; then a real quarter beats a derived
- * one beats a scaled one; then tag order.
- */
+// latest quarter across tags: newest end date, then reported > derived > scaled
 function quarterly(companyFacts, tagList, opts = {}) {
   const cutoff = cutoffFor(opts);
   const all = [];
@@ -373,7 +319,6 @@ function quarterly(companyFacts, tagList, opts = {}) {
   return best;
 }
 
-/** Four back-to-back quarters ending at the newest one, or null. */
 function contiguousYear(series) {
   if (!series.length) return null;
   const run = [series[0]];
@@ -386,11 +331,7 @@ function contiguousYear(series) {
   return run;
 }
 
-/**
- * Trailing twelve months: four CONSECUTIVE quarters (reported or derived), or
- * the latest full fiscal year when that is as recent. The quarters must join
- * up — four Q1s from four different years are not a year.
- */
+// TTM = 4 consecutive quarters or the latest full year
 function ttm(companyFacts, tagList, opts = {}) {
   const cutoff = cutoffFor(opts);
   const all = [];
@@ -412,7 +353,7 @@ function ttm(companyFacts, tagList, opts = {}) {
   return best;
 }
 
-/** Year-over-year change in shares outstanding — the dilution signal. */
+// share count change over a year
 function dilutionRate(companyFacts) {
   let found = factsFor(companyFacts, ['EntityCommonStockSharesOutstanding'], 'dei');
   if (!found) found = factsFor(companyFacts, ['CommonStockSharesOutstanding', 'CommonStockSharesIssued']);
@@ -420,13 +361,12 @@ function dilutionRate(companyFacts) {
 
   const newest = found.facts[0];
   const targetDate = new Date(new Date(newest.end).getTime() - 365 * DAY_MS);
-  // Closest fact to one year before the newest.
   let best = null, bestGap = Infinity;
   for (const f of found.facts.slice(1)) {
     const gap = Math.abs(new Date(f.end) - targetDate);
     if (gap < bestGap) { bestGap = gap; best = f; }
   }
-  // Require the comparison point to be within 120 days of a year ago.
+  // comparison point has to be within 120 days of a year ago
   if (!best || bestGap > 120 * DAY_MS || !best.val) return null;
 
   const pct = ((newest.val - best.val) / best.val) * 100;
@@ -443,17 +383,12 @@ function round(n, dp = 1) {
   return Math.round(n * f) / f;
 }
 
-/**
- * Builds the metrics object for one company.
- *   opts.today    ISO date treated as today (tests pass a fixed one)
- *   opts.explain  also return `explain`: which tag and period each figure
- *                 came from. Off in the build, to keep index.json small.
- */
+// opts.today: fixed date for tests. opts.explain: include source tags (debug only)
 function computeMetrics(companyFacts, opts = {}) {
   if (!companyFacts || !companyFacts.facts) return null;
   const o = { cutoff: cutoffFor(opts) };
 
-  // --- balance sheet, all read from the same date as the cash ---
+  // balance sheet, everything from the cash date
   const cash = latestInstant(companyFacts, tagsFor('cash'), null, o);
   const asOf = cash ? cash.end : null;
   const sti = instantAt(companyFacts, tagsFor('shortTermInvestments'), asOf);
@@ -468,7 +403,7 @@ function computeMetrics(companyFacts, opts = {}) {
   let shares = latestInstant(companyFacts, ['EntityCommonStockSharesOutstanding'], 'dei', o);
   if (!shares) shares = latestInstant(companyFacts, ['CommonStockSharesOutstanding'], null, o);
 
-  // --- flows ---
+  // flows
   const ocf = quarterly(companyFacts, tagsFor('operatingCashFlow'), o);
   const capex = quarterly(companyFacts, tagsFor('capex'), o);
   const rnd = quarterly(companyFacts, tagsFor('researchAndDevelopment'), o);
@@ -482,25 +417,23 @@ function computeMetrics(companyFacts, opts = {}) {
   const ocfTtm = ttm(companyFacts, tagsFor('operatingCashFlow'), o);
   const capexTtm = ttm(companyFacts, tagsFor('capex'), o);
 
-  // Foreign issuers may report in EUR, GBP, DKK etc. Capture it so values are
-  // never silently compared across currencies.
+  // foreign filers can report in EUR, CHF etc
   const cashFacts = factsFor(companyFacts, tagsFor('cash'));
   const currency = cash ? cash.unit : cashFacts ? cashFacts.unit : null;
   const taxonomy = cash ? cash.taxonomy : cashFacts ? cashFacts.taxonomy : null;
 
-  // Cash + short-term investments, or the combined line when a filer tags only
-  // that. Then long-dated securities on top.
+  // cash + ST investments (or the combined line) + LT securities
   let liquid = (cash ? cash.value : 0) + (sti ? sti.value : 0);
   if (combined && combined.value > liquid) liquid = combined.value;
   const totalCash = liquid + (lti ? lti.value : 0);
 
-  // --- free cash flow: OCF minus capex (capex is reported as a positive outflow) ---
+  // FCF = OCF - capex
   const fcfQuarterly = (ocf && capex) ? ocf.value - Math.abs(capex.value)
                      : ocf ? ocf.value : null;
   const fcfTtm = (ocfTtm && capexTtm) ? ocfTtm.value - Math.abs(capexTtm.value)
                : ocfTtm ? ocfTtm.value : null;
 
-  // --- runway, counted from the balance sheet date ---
+  // runway
   let runwayMonths = null;
   let cashOutDate = null;
   let cashStatus = 'unknown';
@@ -524,7 +457,7 @@ function computeMetrics(companyFacts, opts = {}) {
     taxonomy,
     isUsd: currency === 'USD',
 
-    // balance sheet (values are in reportingCurrency, not necessarily USD)
+    // balance sheet (in reportingCurrency)
     cashUsd: cash ? cash.value : null,
     shortTermInvestmentsUsd: sti ? sti.value : null,
     longTermInvestmentsUsd: lti ? lti.value : null,
@@ -574,7 +507,7 @@ function computeMetrics(companyFacts, opts = {}) {
     fcfMarginPct: (fcfTtm !== null && revTtm && revTtm.value > 0)
       ? round((fcfTtm / revTtm.value) * 100, 1) : null,
 
-    // needs a price source the SEC does not publish
+    // SEC doesn't publish prices
     marketCapUsd: null,
   };
 
@@ -601,7 +534,6 @@ async function fetchMetrics(cik, userAgent, opts = {}) {
   return m;
 }
 
-/** Trial-derived metrics, computed from events already in hand. */
 function trialMetrics(events, today) {
   const registry = events.filter(e => e.origin === 'registry');
   const phaseRank = (p) => {
@@ -635,7 +567,6 @@ module.exports = {
   fetchCompanyFacts,
   computeMetrics,
   trialMetrics,
-  // exported for testing and scripts/runway-check.js
   allFactsFor,
   latestInstant,
   instantAt,

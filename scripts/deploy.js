@@ -1,7 +1,6 @@
 #!/usr/bin/env node
-/**
- * deploy.js — put the site live on GitHub Pages. Works on Windows, macOS, Linux.
- *
+/*
+ * Publish to GitHub Pages.
  *   npm run deploy
  *   npm run deploy -- --name my-calendar
  *   npm run deploy -- --private
@@ -36,11 +35,11 @@ for (let i = 0; i < argv.length; i++) {
   }
 }
 
-/** Run a command, inheriting stdio. Returns exit status. */
+// run a command, returns exit code
 function run(cmd, args, opts = {}) {
   return spawnSync(cmd, args, { stdio: 'inherit', cwd: ROOT, shell: process.platform === 'win32', ...opts });
 }
-/** Run a command and capture stdout. Returns trimmed string, or null on failure. */
+// run and capture stdout, null on failure
 function capture(cmd, args) {
   const r = spawnSync(cmd, args, { cwd: ROOT, encoding: 'utf8', shell: process.platform === 'win32' });
   return r.status === 0 ? (r.stdout || '').trim() : null;
@@ -51,7 +50,7 @@ function has(cmd) {
 }
 function die(msg) { console.error(c.red(msg)); process.exit(1); }
 
-// ---------- prerequisites ----------
+// prerequisites
 if (!has('git')) die('git is not installed. Get it from https://git-scm.com/downloads');
 
 if (!has('gh')) {
@@ -83,14 +82,14 @@ if (spawnSync('gh', ['auth', 'status'], { shell: process.platform === 'win32' })
   if (run('gh', ['auth', 'login']).status !== 0) die('Login failed.');
 }
 
-// ---------- build ----------
+// build
 console.log(c.cyan('==> Building data before deploy'));
 if (run(process.execPath, [path.join(ROOT, 'scripts', 'build-data.js')]).status !== 0) {
   console.log(c.amber('    Build had problems; deploying existing data.'));
 }
 console.log('');
 
-// ---------- git ----------
+// git
 if (capture('git', ['rev-parse', '--is-inside-work-tree']) !== 'true') {
   console.log(c.cyan('==> Initialising git repository'));
   run('git', ['init', '-q']);
@@ -107,7 +106,7 @@ if (staged.status === 0) {
   console.log(c.green('    Committed.'));
 }
 
-// ---------- remote ----------
+// remote
 const existingRemote = capture('git', ['remote', 'get-url', 'origin']);
 if (existingRemote) {
   console.log(c.cyan(`==> Pushing to existing remote: ${existingRemote}`));
@@ -124,7 +123,7 @@ const remoteUrl = capture('git', ['remote', 'get-url', 'origin']) || '';
 const repo = path.basename(remoteUrl).replace(/\.git$/, '');
 const slug = `${owner}/${repo}`;
 
-// ---------- Pages ----------
+// Pages
 console.log(c.cyan('==> Enabling GitHub Pages (source: GitHub Actions)'));
 const post = spawnSync('gh', ['api', '-X', 'POST', `repos/${slug}/pages`, '-f', 'build_type=workflow'],
   { encoding: 'utf8', shell: process.platform === 'win32' });

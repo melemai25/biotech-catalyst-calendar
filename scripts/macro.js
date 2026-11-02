@@ -1,46 +1,26 @@
 #!/usr/bin/env node
-/**
- * Macro helpers: transforms, the risk composite, release-date rules, and the
- * two non-FRED adapters (FOMC calendar, CFTC positioning).
- *
- * Nothing here touches the filesystem or writes output. build-macro.js owns
- * orchestration; this file is pure logic plus two fetchers, so the maths can
- * be tested without a network or an API key.
+/*
+ * Macro helpers: transforms, risk composite, date rules, FOMC + CFTC fetchers.
+ * No file IO here, build-macro.js does that.
  */
 
 const { PERIODS_PER_YEAR } = require('./macro-spec');
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-/* ================================================================== *
- * Transforms
- * ================================================================== */
+/* transforms */
 
-/**
- * Drops missing observations. FRED writes a gap as "." (already nulled by the
- * client), and daily series are full of them for holidays.
- *
- * Compacting does NOT make "12 observations back" mean "12 months back". It
- * makes it mean twelve *surviving rows* back, which is the same thing only
- * while every month exists. October 2025 CPI does not exist — BLS cancelled
- * the release outright during the shutdown, the first time in the index's
- * history — so twelve rows back from September 2026 landed on August 2025 and
- * the dashboard printed a 13-month change as the annual rate. Comparisons on a
- * calendar frequency are resolved by date below, never by position.
- */
+// drop missing obs ('.' from FRED, already null).
+// NOTE: after this, 12 rows back != 12 months back. Oct 2025 CPI was never published
+// (shutdown), so positional yoy gave a 13 month change. calendar freqs compare by date.
 function compact(obs) {
   return obs.filter((o) => o.value !== null && Number.isFinite(o.value));
 }
 
-/**
- * Months between consecutive observations, for the frequencies that sit on a
- * calendar grid. Daily and weekly are deliberately absent: there is no
- * canonical "same day last year", and missing holidays are expected rather
- * than meaningful, so those stay positional.
- */
+// months per period. daily/weekly not here, they stay positional
 const MONTHS_PER_PERIOD = { monthly: 1, quarterly: 3, annual: 12 };
 
-/** Shifts an ISO date by whole months, clamping the day in a shorter month. */
+// shift ISO date by n months, clamp the day
 function shiftMonths(isoDate, months) {
   const [y, m, d] = isoDate.split('-').map(Number);
   const t = new Date(Date.UTC(y, m - 1 + months, 1));
@@ -49,16 +29,13 @@ function shiftMonths(isoDate, months) {
   return t.toISOString().slice(0, 10);
 }
 
-/** Guards every ratio transform: a zero or negative base makes % change meaningless. */
+// % change needs a positive base
 function pctChange(now, then) {
   if (!Number.isFinite(now) || !Number.isFinite(then) || then <= 0) return null;
   return (now / then - 1) * 100;
 }
 
-/**
- * Applies one transform across a series, returning [{date, value}] oldest
- * first. Points without enough history to compute are dropped, not zeroed.
- */
+// apply a transform, oldest first. points without enough history are dropped
 function transformSeries(obs, transform, freq, scale = 1) {
   const clean = compact(obs).map((o) => ({ date: o.date, value: o.value * scale }));
   const ppy = PERIODS_PER_YEAR[freq] || 12;
@@ -66,11 +43,7 @@ function transformSeries(obs, transform, freq, scale = 1) {
   const byDate = months ? new Map(clean.map((o) => [o.date, o.value])) : null;
   const out = [];
 
-  /**
-   * The value `steps` periods before clean[i]. On a calendar frequency this is
-   * a date lookup, so a period that was never published yields null and the
-   * point is dropped, rather than the period before it quietly standing in.
-   */
+  // value `steps` periods back, looked up by date on calendar freqs (null if missing)
   const base = (i, steps) => {
     if (byDate) {
       const want = shiftMonths(clean[i].date, -steps * months);
@@ -102,8 +75,7 @@ function transformSeries(obs, transform, freq, scale = 1) {
         if (b !== null) t = v - b;
         break;
       case 'pca': {
-        // Compounded annual rate: how fast the economy grew if this period's
-        // pace continued for a year. The convention GDP is quoted in.
+        // annualized rate (how GDP is quoted)
         b = base(i, 1);
         if (b !== null && b > 0) t = (Math.pow(v / b, ppy) - 1) * 100;
         break;
@@ -118,10 +90,7 @@ function transformSeries(obs, transform, freq, scale = 1) {
   return out;
 }
 
-/**
- * Turns a spec entry plus raw observations into the shape the page renders.
- * `history` is capped so macro.json stays small — the UI only draws a sparkline.
- */
+// spec + observations -> what the page renders. history capped for size
 function buildIndicator(spec, obs, meta = null) {
   const series = transformSeries(obs, spec.transform, spec.freq, spec.scale || 1);
   if (!series.length) return null;
@@ -130,9 +99,7 @@ function buildIndicator(spec, obs, meta = null) {
   const prior = findPrior(series, spec.freq);
   const yearAgo = findYearAgo(series, spec.freq);
 
-  // Round BEFORE deriving the direction. Taking the arrow from the raw change
-  // and the number from the rounded one produces "up 0" when a change is too
-  // small to survive rounding — an arrow pointing at a figure that denies it.
+  // round first, then get the direction, otherwise you get 'up 0'
   const rawChange = prior ? last.value - prior.value : null;
   const change = rawChange === null ? null : round(rawChange, spec.decimals + 1);
 
@@ -156,8 +123,7 @@ function buildIndicator(spec, obs, meta = null) {
     series: spec.series,
     transform: spec.transform,
     freq: spec.freq,
-    // FRED's own last_updated is the honest "how fresh is this" signal, as
-    // distinct from asOf, which is the period the number describes.
+    // FRED's last_updated (asOf is the period, not the update time)
     lastUpdated: meta ? meta.lastUpdated : null,
     seriesTitle: meta ? meta.title : null,
     sourceUrl: `https://fred.stlouisfed.org/series/${spec.series}`,
@@ -166,11 +132,7 @@ function buildIndicator(spec, obs, meta = null) {
   };
 }
 
-/**
- * The point one period before the latest one. Date-checked on a calendar
- * frequency, because without that a hole in the series turns a two-month move
- * into a reported one-month change — complete with an arrow.
- */
+// previous period, checked by date so a gap isn't shown as a 1 period change
 function findPrior(series, freq) {
   if (series.length < 2) return null;
   const cand = series[series.length - 2];
@@ -196,23 +158,12 @@ function round(v, d) {
   return Math.round(v * f) / f;
 }
 
-/* ================================================================== *
- * Risk composite
- * ================================================================== *
- *
- * A transparent replacement for CNN's Fear & Greed Index, which is a
- * proprietary composite with no public API.
- *
- * Four free inputs, every one of them from FRED, every one of them shown to
- * the reader with its own sub-score. Scored 0-100 where 100 is maximum
- * risk appetite. The point is not to match CNN's number — it is to be a gauge
- * whose workings a reader can check, which a licensed black box never is.
+/*
+ * Risk composite. Open alternative to CNN Fear & Greed (no API).
+ * 4 FRED inputs, each shown with its own score. 0-100, 100 = max risk appetite.
  */
 
-/**
- * Where today's value sits in its own recent history, 0-100.
- * Uses a strict-less-than count, so the lowest value in the window scores 0.
- */
+// percentile of today's value in its own history (lowest = 0)
 function percentile(values, current) {
   const v = values.filter((x) => Number.isFinite(x));
   if (v.length < 30) return null;
@@ -224,17 +175,11 @@ function clamp(n, lo = 0, hi = 100) {
   return Math.max(lo, Math.min(hi, n));
 }
 
-/** Window lengths in trading days. Two years is long enough to span a regime. */
+// windows in trading days
 const RISK_WINDOW = 504;
 const MOMENTUM_WINDOW = 125;
 
-/**
- * `fullById` must carry the COMPLETE transformed series per indicator id, not
- * the indicator's `history` field. `history` is capped at 60 points for payload
- * size, and reading percentiles off it would quietly turn every "2-year range"
- * below into a 3-month range, and make the 125-day momentum window impossible
- * to satisfy at all.
- */
+// fullById needs the full series, not `history` (capped at 60 points)
 function buildRiskComposite(byId, fullById = {}) {
   const components = [];
 
@@ -249,8 +194,7 @@ function buildRiskComposite(byId, fullById = {}) {
     return { current: ind.value, values, asOf: ind.asOf };
   };
 
-  // 1. Volatility. A low VIX relative to its own two-year range is complacency,
-  //    so the percentile is inverted.
+  // 1. volatility. low VIX vs its 2y range = complacent, so inverted
   const vix = take('vix');
   if (vix) {
     const p = percentile(vix.values.slice(-RISK_WINDOW), vix.current);
@@ -265,8 +209,7 @@ function buildRiskComposite(byId, fullById = {}) {
     }
   }
 
-  // 2. Credit. Widening high-yield spreads are the earliest honest signal of
-  //    stress, which is why this matters more than equity prices.
+  // 2. credit. widening HY spreads
   const hy = take('hy-oas');
   if (hy) {
     const p = percentile(hy.values.slice(-RISK_WINDOW), hy.current);
@@ -281,8 +224,7 @@ function buildRiskComposite(byId, fullById = {}) {
     }
   }
 
-  // 3. Momentum. Price against its own 125-day mean, mapped so +/-10% spans
-  //    the full scale. Deliberately crude: a transparent rule beats a fitted one.
+  // 3. momentum. price vs 125 day mean, +/-10% = full scale
   const sp = take('sp500');
   if (sp && sp.values.length >= MOMENTUM_WINDOW) {
     const win = sp.values.slice(-MOMENTUM_WINDOW);
@@ -297,8 +239,7 @@ function buildRiskComposite(byId, fullById = {}) {
     });
   }
 
-  // 4. Curve. A steepening curve reads as confidence in future growth; an
-  //    inverted one as the opposite. Percentile, not inverted.
+  // 4. curve. steeper = more confidence
   const curve = take('curve-10y2y');
   if (curve) {
     const p = percentile(curve.values.slice(-RISK_WINDOW), curve.current);
@@ -336,16 +277,14 @@ function riskLabel(score) {
   return 'Extreme greed';
 }
 
-/* ================================================================== *
- * Date rules
- * ================================================================== */
+/* date rules */
 
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June',
   'July', 'August', 'September', 'October', 'November', 'December'];
 
 const iso = (d) => d.toISOString().slice(0, 10);
 
-/** Every date here is built in UTC so the output never shifts with the runner's timezone. */
+// all UTC
 function utc(y, m, d) {
   return new Date(Date.UTC(y, m, d));
 }
@@ -362,7 +301,7 @@ function lastWeekday(year, month, weekday) {
   return utc(year, month, last.getUTCDate() - shift);
 }
 
-/** Saturday holidays are observed Friday, Sunday holidays the following Monday. */
+// sat holiday -> fri, sun -> mon
 function observed(d) {
   const day = d.getUTCDay();
   if (day === 6) return utc(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate() - 1);
@@ -370,7 +309,7 @@ function observed(d) {
   return d;
 }
 
-/** The eleven US federal holidays, which are the days agencies do not publish. */
+// federal holidays (no releases)
 function federalHolidays(year) {
   return new Set([
     observed(utc(year, 0, 1)),            // New Year's Day
@@ -392,7 +331,7 @@ function isBusinessDay(d, holidays) {
   return wd !== 0 && wd !== 6 && !holidays.has(iso(d));
 }
 
-/** Nth business day of a month — the rule ISM publishes on. */
+// nth business day (ISM)
 function nthBusinessDay(year, month, n) {
   const holidays = federalHolidays(year);
   let count = 0;
@@ -407,10 +346,7 @@ function nthBusinessDay(year, month, n) {
   return null;
 }
 
-/**
- * Expands a FIXED_EVENTS rule into dated occurrences across a window. Used for
- * releases whose value is licensed but whose schedule is public and mechanical.
- */
+// FIXED_EVENTS rule -> dates in a window
 function expandFixedEvents(events, fromDate, toDate) {
   const out = [];
   const from = new Date(fromDate + 'T00:00:00Z');
@@ -438,7 +374,7 @@ function expandFixedEvents(events, fromDate, toDate) {
           importance: ev.importance,
           agency: ev.agency,
           sourceUrl: ev.url,
-          // The reference period is the month just ended.
+          // reference period = previous month
           refPeriod: refPeriodForMonthly(y, m),
           valueAvailable: ev.valueAvailable !== false,
           note: ev.note || null,
@@ -455,31 +391,17 @@ function refPeriodForMonthly(year, month) {
   return `${MONTHS[m]} ${y}`;
 }
 
-/* ================================================================== *
- * FOMC calendar
- * ================================================================== *
- *
- * The Fed publishes meeting dates years ahead, but only as a web page — there
- * is no feed and no API. So this parses the page, and refuses to publish a
- * result it cannot validate: a bad parse produces a warning and no events,
- * never a plausible-looking wrong date on a calendar people plan around.
- *
- * data/macro-overrides.json can supply or correct dates and always wins.
+/*
+ * FOMC calendar. Fed only has a web page, so parse it and reject anything that
+ * doesn't validate (warn, no events). data/macro-overrides.json wins.
  */
 const FOMC_URL = 'https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm';
 
-/** Meetings that normally carry a Summary of Economic Projections and a dot plot. */
-const SEP_MONTHS = new Set([2, 5, 8, 11]); // March, June, September, December
+// meetings with projections / dot plot
+const SEP_MONTHS = new Set([2, 5, 8, 11]);
 
-/**
- * Verified scheduled meeting dates, used only when the page parse fails
- * validation. Transcribed from federalreserve.gov/monetarypolicy/fomccalendars.htm
- * on 2026-10-13; `date` is the second day, which is when the decision lands.
- *
- * This exists because the alternative when the parser breaks is an FOMC-shaped
- * hole in a calendar people plan around. It is NOT a substitute for the parse:
- * it covers two years and then runs out, at which point the build warns.
- */
+// fallback dates if the parse fails. copied from federalreserve.gov on 2026-10-13,
+// `date` = 2nd day. runs out after 2 years, build warns
 const FOMC_FALLBACK = [
   { startDate: '2026-01-27', date: '2026-01-28' },
   { startDate: '2026-03-17', date: '2026-03-18' },
@@ -518,9 +440,7 @@ async function fetchFomcDates() {
 
   const parsed = parseFomcHtml(html);
 
-  // The page is the source of truth when it parses cleanly. When it does not,
-  // fall back to the verified table rather than leaving a hole — but say so,
-  // because the table expires and a silent fallback would hide that.
+  // use the page if it parses, else the fallback table (with a warning)
   const today = new Date().toISOString().slice(0, 10);
   const forward = parsed.meetings.filter((m) => m.date >= today);
 
@@ -545,13 +465,9 @@ async function fetchFomcDates() {
   return parsed;
 }
 
-/**
- * Exported separately from the fetch so it can be tested against a saved copy
- * of the page without any network access.
- */
+// separate from the fetch so it can be tested offline
 function parseFomcHtml(html) {
-  // Collapse to text. The Fed page is heavily nested tables and panels, so
-  // matching on structure is brittle; matching on the text is not.
+  // match on text, the page structure is a mess of nested tables
   const text = html
     .replace(/<script[\s\S]*?<\/script>/gi, ' ')
     .replace(/<style[\s\S]*?<\/style>/gi, ' ')
@@ -561,23 +477,14 @@ function parseFomcHtml(html) {
 
   const monthAlt = MONTHS.join('|');
 
-  // Two things go wrong if this is written loosely, and both did:
-  //
-  //  1. Any bare four-digit number was treated as a year heading, but the page
-  //     is full of them — "(released January 2, 2026)" under every past
-  //     meeting. So the year is only taken from an actual section heading.
-  //
-  //  2. Any "Month D" was treated as a meeting, which swept up every
-  //     minutes-release date. Scheduled FOMC meetings run two days, so only a
-  //     "Month D-D" RANGE counts. That alone removed the contamination that
-  //     produced 14-17 "meetings" in a year that has eight.
+  // - only take years from section headings (page has lots of other 4 digit numbers)
+  // - only 'Month D-D' ranges count as meetings, single dates are minutes releases
   const yearHeading = /\b(20[2-4]\d)\s+FOMC\s+Meeting/gi;
   const range = new RegExp(
     `\\b(${monthAlt})\\s+(\\d{1,2})\\s*[-–—]\\s*(\\d{1,2})\\b`,
     'gi'
   );
 
-  // Find each year heading and the span of text that belongs to it.
   const sections = [];
   let h;
   while ((h = yearHeading.exec(text)) !== null) {
@@ -590,10 +497,7 @@ function parseFomcHtml(html) {
     sections[i].end = i + 1 < sections.length ? sections[i + 1].start : text.length;
   }
 
-  // The page carries a historical archive going back years, laid out
-  // differently from the forward calendar and of no use to a forward-looking
-  // page. Parsing it produced warnings about 2023 and 2024 failing to
-  // validate, which was true and entirely beside the point.
+  // skip the historical archive
   const thisYear = new Date().getUTCFullYear();
   const forwardSections = sections.filter((s) => s.year >= thisYear);
   if (!forwardSections.length) {
@@ -613,10 +517,9 @@ function parseFomcHtml(html) {
       const d1 = Number(m[2]);
       const d2 = Number(m[3]);
       if (d1 < 1 || d1 > 31 || d2 < 1 || d2 > 31) continue;
-      // A meeting straddling a month end reads as "April 28-May 1", which this
-      // pattern cannot represent, so d2 < d1 means something else matched.
+      // d2 < d1 means it matched something else
       if (d2 <= d1) continue;
-      if (d2 - d1 > 2) continue;   // meetings are two days, occasionally three
+      if (d2 - d1 > 2) continue;   // 2 days, sometimes 3
 
       if (!byYear.has(sec.year)) byYear.set(sec.year, []);
       byYear.get(sec.year).push({
@@ -624,7 +527,7 @@ function parseFomcHtml(html) {
         monthIdx,
         startDay: d1,
         endDay: d2,
-        // The rate decision and press conference land on the FINAL day.
+        // decision is on the last day
         date: iso(utc(sec.year, monthIdx, d2)),
         twoDay: true,
       });
@@ -635,18 +538,14 @@ function parseFomcHtml(html) {
   const rejected = [];
 
   for (const [y, list] of byYear) {
-    // Validate per year. The FOMC holds exactly eight scheduled meetings a
-    // year and has for decades. The window allows one unscheduled addition,
-    // which does happen in a crisis, but nothing wider — the first version of
-    // this accepted 6 to 12 and duly published 14 "meetings" for 2026.
+    // 8 meetings a year (+1 unscheduled allowed)
     const uniq = dedupeByDate(list).sort((a, b) => a.date.localeCompare(b.date));
     if (uniq.length < 8 || uniq.length > 9) {
       rejected.push(`${y}: ${uniq.length} parsed, expected 8`);
       continue;
     }
 
-    // Eight meetings spread across a year sit roughly six weeks apart. Two
-    // landing in the same month means something that is not a meeting matched.
+    // two in one month = bad match
     const months = new Set(uniq.map((mt) => mt.monthIdx));
     if (months.size !== uniq.length) {
       rejected.push(`${y}: two meetings parsed in one month`);
@@ -686,27 +585,13 @@ function dedupeByDate(list) {
   return out;
 }
 
-/* ================================================================== *
- * CFTC positioning
- * ================================================================== *
- *
- * Commitments of Traders, Legacy Futures Only. Published Friday 15:30 ET for
- * the preceding Tuesday, so it is always a few days stale — it shows how
- * speculators were positioned going into the week, not where they are now.
- *
- * Free, keyless Socrata API. No rate limit documented; one request total.
+/*
+ * CFTC Commitments of Traders (legacy futures). Out Fri 15:30 ET for the previous
+ * Tuesday, so it's always a few days old. Socrata api, no key, one request.
  */
 const COT_URL = 'https://publicreporting.cftc.gov/resource/6dca-aqww.json';
 
-/**
- * The contracts worth showing.
- *
- * Matched on CFTC contract market code first. The codes are stable identifiers;
- * the names are free text that drifts ("GOLD - COMMODITY EXCHANGE INC." has
- * also appeared as "GOLD - COMMODITY EXCHANGE INC"), which is why the first
- * version matched only three of these five. The name pattern stays as a
- * fallback in case a code is ever reassigned.
- */
+// contracts to show. match on contract code first, names drift
 const COT_MARKETS = [
   { key: 'spx',    label: 'E-mini S&P 500',   code: '13874A', match: /e-mini.*s&p 500(?!.*(?:value|growth|dividend|esg))/i },
   { key: 'ust10',  label: '10-year Treasury', code: '043602', match: /10[- ]?year u\.?s\.? treasury note/i },
@@ -715,7 +600,7 @@ const COT_MARKETS = [
   { key: 'dollar', label: 'Dollar index',     code: '098662', match: /u\.?s\.?\s*dollar index/i },
 ];
 
-/** Socrata column names have changed before, so each field tries candidates. */
+// column names have changed before, try a few
 function pick(row, names) {
   for (const n of names) {
     if (row[n] !== undefined && row[n] !== null && row[n] !== '') {
@@ -727,7 +612,7 @@ function pick(row, names) {
 }
 
 async function fetchPositioning() {
-  // Two most recent report dates, so net change week-on-week can be computed.
+  // last 2 reports for the week-on-week change
   const url = `${COT_URL}?$order=report_date_as_yyyy_mm_dd DESC&$limit=4000`;
   let rows;
   try {
@@ -753,7 +638,6 @@ async function fetchPositioning() {
     return { long, short, net: long - short };
   };
 
-  // Code first, name only as a fallback.
   const find = (market, date) => {
     const onDate = rows.filter((r) => dateOf(r) === date);
     const byCode = onDate.find(

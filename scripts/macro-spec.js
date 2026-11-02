@@ -1,56 +1,22 @@
 #!/usr/bin/env node
-/**
- * Declarative spec for the macro page. Everything the page shows is defined
- * here, so adding an indicator is one line rather than a code change.
- *
- * Three tables:
- *   INDICATORS  — the numbers, each one FRED series + a transform
- *   RELEASES    — how to recognise a FRED release and when it drops
- *   FIXED_EVENTS— releases with deterministic dates that FRED does not schedule
- *
- * On `optional`: series ids occasionally get renamed or discontinued upstream.
- * Anything not marked `critical` is allowed to fail with a warning rather than
- * taking the whole build down, which matters because this runs unattended.
+/*
+ * Everything the macro page shows.
+ *   INDICATORS    FRED series + transform
+ *   RELEASES      how to match a FRED release + its time
+ *   FIXED_EVENTS  releases FRED doesn't schedule (ISM)
+ * Only `critical` series fail the build, the rest just warn.
  */
 
-/* ------------------------------------------------------------------ *
+/*
  * Indicators
- * ------------------------------------------------------------------ *
- *
- * transform:
- *   level — the observation as published
- *   yoy   — percent change from the same period a year earlier
- *   mom   — percent change from the previous period
- *   diff  — absolute change from the previous period
- *   pca   — previous-period change expressed as a compounded annual rate
- *           (this is how GDP and quarterly PCE are conventionally quoted)
- *
- * goodDirection: which way is economically favourable, used only to colour the
- *   arrow. `null` means genuinely ambiguous — inflation falling is good until
- *   it is deflation, so we do not editorialise on the cross-asset block.
+ * transform: level | yoy | mom | diff | pca (annualized, for GDP/PCE)
+ * goodDirection: only used for the arrow color. null = no opinion
  */
 const INDICATORS = [
-  // ---- Inflation -------------------------------------------------
-  //
-  // Seasonal adjustment is picked per TRANSFORM, not per series, and getting
-  // this backwards is how the dashboard reported 4.0% on a day CPI printed 3.7%.
-  //
-  //   year-over-year  -> NOT seasonally adjusted (CPIAUCNS, CPILFENS)
-  //                      This is what BLS publishes as "the" inflation rate and
-  //                      what every headline quotes. Seasonal factors repeat
-  //                      annually so they should wash out over twelve months —
-  //                      but the factors themselves get revised, and in a given
-  //                      year the SA and NSA twelve-month changes can differ by
-  //                      a few tenths. Those tenths are the whole story on
-  //                      release day.
-  //
-  //   month-over-month -> seasonally adjusted (CPIAUCSL, CPILFESL)
-  //                      An unadjusted monthly change is dominated by the
-  //                      season rather than by inflation, so it is not a
-  //                      number anyone quotes.
-  //
-  // PCE stays seasonally adjusted throughout: BEA publishes it that way and
-  // the twelve-month change is quoted from the adjusted index.
+  // Inflation
+  // CPI yoy uses the NOT seasonally adjusted series (CPIAUCNS / CPILFENS), that's the
+  // headline number. mom uses SA (CPIAUCSL / CPILFESL). mixing these up is how we
+  // showed 4.0% the day CPI printed 3.7%. PCE is SA for both.
   { id: 'cpi-yoy',       series: 'CPIAUCNS',      transform: 'yoy',   group: 'inflation', label: 'CPI',                   sub: 'year over year',    unit: '%',  decimals: 1, freq: 'monthly',   importance: 3, goodDirection: 'down', critical: true },
   { id: 'cpi-mom',       series: 'CPIAUCSL',      transform: 'mom',   group: 'inflation', label: 'CPI',                   sub: 'month over month',  unit: '%',  decimals: 2, freq: 'monthly',   importance: 2, goodDirection: 'down' },
   { id: 'core-cpi-yoy',  series: 'CPILFENS',      transform: 'yoy',   group: 'inflation', label: 'Core CPI',              sub: 'year over year',    unit: '%',  decimals: 1, freq: 'monthly',   importance: 3, goodDirection: 'down', critical: true },
@@ -59,7 +25,7 @@ const INDICATORS = [
   { id: 'core-pce-yoy',  series: 'PCEPILFE',      transform: 'yoy',   group: 'inflation', label: 'Core PCE',              sub: "the Fed's target",  unit: '%',  decimals: 1, freq: 'monthly',   importance: 3, goodDirection: 'down', critical: true },
   { id: 'ppi-yoy',       series: 'PPIFIS',        transform: 'yoy',   group: 'inflation', label: 'PPI',                   sub: 'final demand, y/y', unit: '%',  decimals: 1, freq: 'monthly',   importance: 2, goodDirection: 'down' },
 
-  // ---- Jobs ------------------------------------------------------
+  // Jobs
   { id: 'payrolls',      series: 'PAYEMS',        transform: 'diff',  group: 'jobs',      label: 'Nonfarm payrolls',      sub: 'change on month',   unit: 'k',  decimals: 0, freq: 'monthly',   importance: 3, goodDirection: 'up',   critical: true },
   { id: 'unemployment',  series: 'UNRATE',        transform: 'level', group: 'jobs',      label: 'Unemployment rate',     sub: null,                unit: '%',  decimals: 1, freq: 'monthly',   importance: 3, goodDirection: 'down', critical: true },
   { id: 'earnings-yoy',  series: 'CES0500000003', transform: 'yoy',   group: 'jobs',      label: 'Average hourly earnings', sub: 'year over year',  unit: '%',  decimals: 1, freq: 'monthly',   importance: 2, goodDirection: null },
@@ -68,7 +34,7 @@ const INDICATORS = [
   { id: 'openings',      series: 'JTSJOL',        transform: 'level', group: 'jobs',      label: 'Job openings',          sub: 'JOLTS',             unit: 'k',  decimals: 0, freq: 'monthly',   importance: 2, goodDirection: 'up' },
   { id: 'quits',         series: 'JTSQUR',        transform: 'level', group: 'jobs',      label: 'Quits rate',            sub: 'JOLTS',             unit: '%',  decimals: 1, freq: 'monthly',   importance: 1, goodDirection: null },
 
-  // ---- Growth ----------------------------------------------------
+  // Growth
   { id: 'gdp',           series: 'GDPC1',         transform: 'pca',   group: 'growth',    label: 'Real GDP',              sub: 'annualised q/q',    unit: '%',  decimals: 1, freq: 'quarterly', importance: 3, goodDirection: 'up',   critical: true },
   { id: 'gdpnow',        series: 'GDPNOW',        transform: 'level', group: 'growth',    label: 'GDPNow',                sub: 'Atlanta Fed nowcast', unit: '%', decimals: 1, freq: 'quarterly', importance: 2, goodDirection: 'up', optional: true },
   { id: 'retail',        series: 'RSAFS',         transform: 'mom',   group: 'growth',    label: 'Retail sales',          sub: 'month over month',  unit: '%',  decimals: 1, freq: 'monthly',   importance: 3, goodDirection: 'up' },
@@ -78,9 +44,7 @@ const INDICATORS = [
   { id: 'starts',        series: 'HOUST',         transform: 'level', group: 'growth',    label: 'Housing starts',        sub: 'annual rate',       unit: 'k',  decimals: 0, freq: 'monthly',   importance: 1, goodDirection: 'up' },
   { id: 'permits',       series: 'PERMIT',        transform: 'level', group: 'growth',    label: 'Building permits',      sub: 'annual rate',       unit: 'k',  decimals: 0, freq: 'monthly',   importance: 1, goodDirection: 'up' },
 
-  // ---- Cross-asset ----------------------------------------------
-  // These are the "is the market worried" block. No goodDirection: a rising
-  // VIX is not bad news in itself, it is information.
+  // Cross-asset. no goodDirection
   { id: 'vix',           series: 'VIXCLS',        transform: 'level', group: 'cross',     label: 'VIX',                   sub: 'implied volatility', unit: '', decimals: 2, freq: 'daily',     importance: 3, goodDirection: null, critical: true },
   { id: 'sp500',         series: 'SP500',         transform: 'level', group: 'cross',     label: 'S&P 500',               sub: null,                unit: '',   decimals: 0, freq: 'daily',     importance: 2, goodDirection: null },
   { id: 'dgs2',          series: 'DGS2',          transform: 'level', group: 'cross',     label: '2-year Treasury',       sub: null,                unit: '%',  decimals: 2, freq: 'daily',     importance: 2, goodDirection: null },
@@ -95,7 +59,7 @@ const INDICATORS = [
   { id: 'fedfunds',      series: 'DFF',           transform: 'level', group: 'cross',     label: 'Fed funds',              sub: 'effective rate',   unit: '%',  decimals: 2, freq: 'daily',     importance: 2, goodDirection: null },
 ];
 
-/** How many observations a year, per frequency. Drives yoy and pca. */
+// observations per year, for yoy and pca
 const PERIODS_PER_YEAR = {
   daily: 252,
   weekly: 52,
@@ -111,16 +75,10 @@ const GROUPS = {
   cross:     { label: 'Cross-asset',  blurb: 'What markets are pricing right now.' },
 };
 
-/* ------------------------------------------------------------------ *
+/*
  * Release calendar
- * ------------------------------------------------------------------ *
- *
- * FRED gives the DATE of each release but never the TIME, so release times are
- * hardcoded here. They are stable conventions set by the issuing agency, not
- * guesses — BLS has published CPI at 08:30 ET for decades.
- *
- * `match` runs against FRED's own release name. Anchored where the name is
- * exact, loose where FRED's wording has drifted between vintages.
+ * FRED has dates but no times, so times are hardcoded (agency conventions,
+ * e.g. CPI at 08:30 ET). `match` runs against FRED's release name.
  */
 const RELEASES = [
   { key: 'cpi',       match: /^consumer price index$/i,                      short: 'CPI',                  name: 'Consumer Price Index',           group: 'inflation', time: '08:30', importance: 3, agency: 'BLS',    url: 'https://www.bls.gov/cpi/' },
@@ -139,18 +97,10 @@ const RELEASES = [
   { key: 'balance',   match: /^h\.4\.1/i,                                    short: 'Fed balance sheet',    name: 'Factors Affecting Reserve Balances', group: 'fed',   time: '16:30', importance: 1, agency: 'Fed',    url: 'https://www.federalreserve.gov/releases/h41/' },
 ];
 
-/* ------------------------------------------------------------------ *
- * Releases FRED does not schedule
- * ------------------------------------------------------------------ *
- *
- * ISM's PMI is licensed data. The St. Louis Fed removed it from FRED in 2016
- * at ISM's request, and S&P Global's competing PMI is licensed too, so no free
- * source publishes the VALUE.
- *
- * The DATE, however, is deterministic and published by rule, so the event can
- * still sit on the calendar with a link out to the press release. A scheduled
- * event with no number is more useful than a silent gap, as long as the page
- * says plainly that the number is not included.
+/*
+ * Not on FRED
+ * ISM PMI is licensed so there's no free value, but the date follows a rule,
+ * so it still goes on the calendar with a link.
  */
 const FIXED_EVENTS = [
   {
@@ -181,14 +131,9 @@ const FIXED_EVENTS = [
   },
 ];
 
-/* ------------------------------------------------------------------ *
- * Self-check
- * ------------------------------------------------------------------ *
- *
- * Runs on require, because the failure it catches is silent: a CPI year-over-
- * year taken from the seasonally adjusted series produces a number that looks
- * entirely reasonable and is simply not the one the world is quoting. There is
- * no error, no warning, and no way to notice except by reading the news.
+/*
+ * Self-check, runs on require. CPI yoy from the SA series looks fine and is
+ * just wrong, so fail loudly.
  */
 for (const i of INDICATORS) {
   const isCpi = /^CPIAUC|^CPILFE/.test(i.series);
