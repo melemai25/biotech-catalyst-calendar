@@ -27,7 +27,6 @@ function tickerColor(t){
 
 const state = {
   data: null,
-  filters: {},
   showRegistry: true,
   viewMonth: startOfMonth(new Date()),
   selectedDate: null,
