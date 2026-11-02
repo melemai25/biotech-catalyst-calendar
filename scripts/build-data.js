@@ -260,7 +260,7 @@ async function main() {
       log('  ...or edit data/config.json. Then re-run npm run build.');
     } else {
       try {
-        log(`\nSEC EDGAR: fetching ticker->CIK map as "${edgarUA}"...`);
+        log('\nSEC EDGAR: fetching ticker->CIK map...');
         tickerMap = await edgar.fetchTickerMap(edgarUA);
         log(`  mapped ${Object.keys(tickerMap).length.toLocaleString()} tickers to CIKs.`);
       } catch (e) {
