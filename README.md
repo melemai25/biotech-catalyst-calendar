@@ -21,4 +21,5 @@ npm run data:full
 npm start
 
 ## License
+© 2026 Alex Melemai. All rights reserved.
 ...
