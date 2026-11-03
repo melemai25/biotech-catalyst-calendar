@@ -11,7 +11,7 @@
   "activeTrials": 27,
   "phase3": 15,
   "phase2": 12,
-  "generatedDate": "2026-11-01",
+  "generatedDate": "2026-11-03",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,21 +53,21 @@
     "fcfMarginPct": 21.7,
     "marketCapUsd": null,
     "entityName": "BEONE MEDICINES LTD.",
-    "activeTrials": 66,
+    "activeTrials": 67,
     "phase3Count": 16,
-    "phase2Count": 14,
+    "phase2Count": 15,
     "leadPhase": 3,
-    "upcomingCount": 52,
+    "upcomingCount": 53,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 14
+    "daysToNextCatalyst": 12
   },
   "trialStats": {
     "completed": 5,
     "terminated": 5,
     "withdrawn": 0,
     "suspended": 0,
-    "ongoing": 57,
+    "ongoing": 58,
     "withResults": 1,
     "byPhase": {
       "phase3": {
@@ -82,16 +82,16 @@
         "total": 37,
         "completionRatePct": 44
       },
+      "phase2": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 14,
+        "completionRatePct": null
+      },
       "other": {
         "completed": 0,
         "terminated": 0,
         "total": 1,
-        "completionRatePct": null
-      },
-      "phase2": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 13,
         "completionRatePct": null
       }
     },
@@ -311,21 +311,6 @@
       "status": "past"
     },
     {
-      "id": "ct-ONC-NCT06585488",
-      "ticker": "ONC",
-      "date": "2026-04-23",
-      "title": "A First-in-human Study of BGB-53038, a Pan-KRAS Inhibitor, Alone or in Combinations in Participants With Advanced or Metastatic Solid Tumors With KRAS Mutations or Amplification",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Metastatic Solid Tumors, Advanced Non-squamous Non-small-cell Lung Cancer, Advanced Colorectal Cancer · 47 participants · Status: Terminated",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06585488",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06585488",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-ONC-NCT06253195",
       "ticker": "ONC",
       "date": "2026-04-23",
@@ -337,6 +322,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06253195",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06253195",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-ONC-NCT06585488",
+      "ticker": "ONC",
+      "date": "2026-04-23",
+      "title": "A First-in-human Study of BGB-53038, a Pan-KRAS Inhibitor, Alone or in Combinations in Participants With Advanced or Metastatic Solid Tumors With KRAS Mutations or Amplification",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Metastatic Solid Tumors, Advanced Non-squamous Non-small-cell Lung Cancer, Advanced Colorectal Cancer · 47 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06585488",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06585488",
       "origin": "registry",
       "status": "past"
     },
@@ -821,6 +821,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-ONC-NCT07911683",
+      "ticker": "ONC",
+      "date": "2028-03-31",
+      "title": "Study Evaluating the Efficacy and Safety of BGB-B2033 in Participants With Advanced Hepatocellular Carcinoma",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Hepatocellular Cancer, Liver Cancer, Hepatocellular Carcinoma · 100 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07911683",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07911683",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-ONC-NCT06973187",
       "ticker": "ONC",
       "date": "2028-04-17",
@@ -971,6 +986,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-ONC-NCT07746141",
+      "ticker": "ONC",
+      "date": "2028-09-30",
+      "title": "A First-in-Human Study Investigating BG-85738 Alone or in Combination With Other Antitumor Agents in Patients With Advanced or Metastatic Solid Tumors With Rat Sarcoma Virus (RAS) Mutations",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "RAS Mutation, Advanced Solid Tumor, Metastatic Solid Tumor · 100 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07746141",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07746141",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-ONC-NCT07619287",
       "ticker": "ONC",
       "date": "2028-09-30",
@@ -997,21 +1027,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06598800",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06598800",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-ONC-NCT07746141",
-      "ticker": "ONC",
-      "date": "2028-09-30",
-      "title": "A First-in-Human Study Investigating BG-85738 Alone or in Combination With Other Antitumor Agents in Patients With Advanced or Metastatic Solid Tumors With Rat Sarcoma Virus (RAS) Mutations",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "RAS Mutation, Advanced Solid Tumor, Metastatic Solid Tumor · 100 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07746141",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07746141",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1121,21 +1136,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT06943872",
-      "ticker": "ONC",
-      "date": "2029-09-30",
-      "title": "A Study to Investigate Progression-Free Survival With Sonrotoclax Plus Obinutuzumab Or Sonrotoclax Plus Rituximab Compared With Venetoclax Plus Rituximab Treatment In Patients With Relapsed and/or Refractory Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (CELESTIAL-RRCLL)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma · 630 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06943872",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06943872",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ONC-NCT07222267",
       "ticker": "ONC",
       "date": "2029-09-30",
@@ -1147,6 +1147,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07222267",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07222267",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ONC-NCT06943872",
+      "ticker": "ONC",
+      "date": "2029-09-30",
+      "title": "A Study to Investigate Progression-Free Survival With Sonrotoclax Plus Obinutuzumab Or Sonrotoclax Plus Rituximab Compared With Venetoclax Plus Rituximab Treatment In Patients With Relapsed and/or Refractory Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (CELESTIAL-RRCLL)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma · 630 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06943872",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06943872",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1181,6 +1196,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-ONC-NCT06697184",
+      "ticker": "ONC",
+      "date": "2029-11-30",
+      "title": "A Study to Investigate the Safety of Novel Dose Ramp-up Schedule(s) When Initiating Sonrotoclax in Participants Treated for Blood Cancers.",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Chronic Lymphocytic Leukemia, CLL, Mantle Cell Lymphoma · 258 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06697184",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06697184",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-ONC-NCT06970743",
       "ticker": "ONC",
       "date": "2029-11-30",
@@ -1207,21 +1237,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07811271",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07811271",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-ONC-NCT06697184",
-      "ticker": "ONC",
-      "date": "2029-11-30",
-      "title": "A Study to Investigate the Safety of Novel Dose Ramp-up Schedule(s) When Initiating Sonrotoclax in Participants Treated for Blood Cancers.",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Chronic Lymphocytic Leukemia, CLL, Mantle Cell Lymphoma · 258 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06697184",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06697184",
       "origin": "registry",
       "status": "upcoming"
     },

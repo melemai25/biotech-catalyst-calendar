@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-11-01",
+  "generatedDate": "2026-11-03",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -63,12 +63,12 @@
     ],
     "activeTrials": 5,
     "phase3Count": 1,
-    "phase2Count": 1,
+    "phase2Count": 2,
     "leadPhase": 3,
     "upcomingCount": 5,
     "nextCatalystDate": "2026-11-07",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 6
+    "daysToNextCatalyst": 4
   },
   "trialStats": {
     "completed": 1,
@@ -78,6 +78,12 @@
     "ongoing": 4,
     "withResults": 0,
     "byPhase": {
+      "phase2": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 2,
+        "completionRatePct": null
+      },
       "phase3": {
         "completed": 0,
         "terminated": 0,
@@ -87,13 +93,7 @@
       "phase1": {
         "completed": 1,
         "terminated": 0,
-        "total": 3,
-        "completionRatePct": null
-      },
-      "phase2": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 1,
+        "total": 2,
         "completionRatePct": null
       }
     },
@@ -343,21 +343,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-RLAY-NCT07584226",
-      "ticker": "RLAY",
-      "date": "2027-12-30",
-      "title": "A First-in-human Study of RLY-8161 in Advanced NRAS-Mutant Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Advanced NRAS-Mutant Melanoma, Advanced NRAS-Mutant Solid Tumors, NRAS Mutation · 35 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07584226",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07584226",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-RLAY-NCT06982521",
       "ticker": "RLAY",
       "date": "2028-04-30",
@@ -369,6 +354,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06982521",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06982521",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-RLAY-NCT07584226",
+      "ticker": "RLAY",
+      "date": "2029-05-31",
+      "title": "A First-in-human Study of RLY-8161 in Advanced NRAS-Mutant Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Advanced NRAS-Mutant Melanoma, Advanced NRAS-Mutant Solid Tumors, NRAS Mutation · 180 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07584226",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07584226",
       "origin": "registry",
       "status": "upcoming"
     },

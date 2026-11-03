@@ -11,7 +11,7 @@
   "activeTrials": 11,
   "phase3": 8,
   "phase2": 3,
-  "generatedDate": "2026-11-01",
+  "generatedDate": "2026-11-03",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,36 +57,36 @@
     "phase3Count": 14,
     "phase2Count": 19,
     "leadPhase": 3,
-    "upcomingCount": 10,
+    "upcomingCount": 8,
     "nextCatalystDate": "2027-01-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 75
+    "daysToNextCatalyst": 73
   },
   "trialStats": {
     "completed": 27,
-    "terminated": 13,
+    "terminated": 16,
     "withdrawn": 2,
     "suspended": 0,
-    "ongoing": 21,
+    "ongoing": 18,
     "withResults": 22,
     "byPhase": {
-      "phase3": {
-        "completed": 4,
-        "terminated": 2,
-        "total": 15,
-        "completionRatePct": 67
-      },
-      "phase2": {
-        "completed": 14,
-        "terminated": 6,
-        "total": 25,
-        "completionRatePct": 70
-      },
       "other": {
         "completed": 8,
         "terminated": 5,
         "total": 22,
         "completionRatePct": 62
+      },
+      "phase2": {
+        "completed": 14,
+        "terminated": 7,
+        "total": 25,
+        "completionRatePct": 67
+      },
+      "phase3": {
+        "completed": 4,
+        "terminated": 4,
+        "total": 15,
+        "completionRatePct": 50
       },
       "phase1": {
         "completed": 1,
@@ -95,8 +95,8 @@
         "completionRatePct": null
       }
     },
-    "concluded": 42,
-    "completionRatePct": 64,
+    "concluded": 45,
+    "completionRatePct": 60,
     "resultsPostedPct": 81
   },
   "events": [
@@ -768,7 +768,7 @@
       "type": "Trial Milestone",
       "phase": "Phase 3",
       "estimated": false,
-      "summary": "Angelman Syndrome · 129 participants · Status: Active Not Recruiting",
+      "summary": "Angelman Syndrome · 129 participants · Status: Terminated",
       "result": null,
       "source": "ClinicalTrials.gov NCT06617429",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06617429",
@@ -896,6 +896,36 @@
       "status": "past"
     },
     {
+      "id": "ct-RARE-NCT07157254",
+      "ticker": "RARE",
+      "date": "2026-10-30",
+      "title": "A Safety and Efficacy Study of GTX-102 in Subjects With Deletion- or Nondeletion-type Angelman Syndrome (AS)",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Angelman Syndrome · 55 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07157254",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07157254",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-RARE-NCT06415344",
+      "ticker": "RARE",
+      "date": "2026-10-30",
+      "title": "Long-term Extension of GTX-102 in Angelman Syndrome",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Angelman Syndrome · 66 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06415344",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06415344",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "ct-RARE-NCT06636071",
       "ticker": "RARE",
       "date": "2027-01-15",
@@ -986,36 +1016,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-RARE-NCT06415344",
-      "ticker": "RARE",
-      "date": "2029-02-15",
-      "title": "Long-term Extension of GTX-102 in Angelman Syndrome",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Angelman Syndrome · 255 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06415344",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06415344",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-RARE-NCT02716246",
-      "ticker": "RARE",
-      "date": "2029-03-15",
-      "title": "Phase I/II/III Gene Transfer Clinical Trial of scAAV9.U1a.hSGSH",
-      "type": "Trial Milestone",
-      "phase": "Phase 2/Phase 3",
-      "estimated": false,
-      "summary": "MPS IIIA, Sanfilippo Syndrome, Sanfilippo A · 36 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT02716246",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02716246",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-RARE-NCT04884815",
       "ticker": "RARE",
       "date": "2029-03-15",
@@ -1031,17 +1031,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-RARE-NCT07157254",
+      "id": "ct-RARE-NCT02716246",
       "ticker": "RARE",
-      "date": "2030-01-15",
-      "title": "A Safety and Efficacy Study of GTX-102 in Subjects With Deletion- or Nondeletion-type Angelman Syndrome (AS)",
+      "date": "2029-03-15",
+      "title": "Phase I/II/III Gene Transfer Clinical Trial of scAAV9.U1a.hSGSH",
       "type": "Trial Milestone",
-      "phase": "Phase 2",
+      "phase": "Phase 2/Phase 3",
       "estimated": false,
-      "summary": "Angelman Syndrome · 60 participants · Status: Active Not Recruiting",
+      "summary": "MPS IIIA, Sanfilippo Syndrome, Sanfilippo A · 36 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT07157254",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07157254",
+      "source": "ClinicalTrials.gov NCT02716246",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02716246",
       "origin": "registry",
       "status": "upcoming"
     }

@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-11-01",
+  "generatedDate": "2026-11-03",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -58,29 +58,29 @@
     "phase2Count": 6,
     "leadPhase": 3,
     "upcomingCount": 2,
-    "nextCatalystDate": "2026-11-03",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 2
+    "nextCatalystDate": "2026-12-15",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 42
   },
   "trialStats": {
     "completed": 16,
-    "terminated": 5,
+    "terminated": 6,
     "withdrawn": 0,
     "suspended": 0,
-    "ongoing": 4,
+    "ongoing": 3,
     "withResults": 9,
     "byPhase": {
+      "phase2": {
+        "completed": 6,
+        "terminated": 3,
+        "total": 11,
+        "completionRatePct": 67
+      },
       "phase3": {
         "completed": 8,
         "terminated": 3,
         "total": 11,
         "completionRatePct": 73
-      },
-      "phase2": {
-        "completed": 6,
-        "terminated": 2,
-        "total": 11,
-        "completionRatePct": 75
       },
       "other": {
         "completed": 0,
@@ -95,8 +95,8 @@
         "completionRatePct": null
       }
     },
-    "concluded": 21,
-    "completionRatePct": 76,
+    "concluded": 22,
+    "completionRatePct": 73,
     "resultsPostedPct": 56
   },
   "events": [
@@ -341,21 +341,6 @@
       "status": "past"
     },
     {
-      "id": "ct-OMER-NCT06209736",
-      "ticker": "OMER",
-      "date": "2026-01-15",
-      "title": "Safety and Efficacy Study of OMS906 in Patients With C3G and ICGN",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "C3 Glomerulopathy, Idiopathic Immune Complex-Mediated Glomerulonephritis · 20 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06209736",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06209736",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "edgar-OMER-0001437749-26-010634",
       "ticker": "OMER",
       "date": "2026-03-31",
@@ -368,6 +353,21 @@
       "source": "SEC EDGAR 8-K 2026-03-31",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1285819/000143774926010634/omer20251116_8k.htm",
       "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "ct-OMER-NCT06209736",
+      "ticker": "OMER",
+      "date": "2026-04-14",
+      "title": "Safety and Efficacy Study of OMS906 in Patients With C3G and ICGN",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "C3 Glomerulopathy, Idiopathic Immune Complex-Mediated Glomerulonephritis · 3 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06209736",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06209736",
+      "origin": "registry",
       "status": "past"
     },
     {
@@ -476,21 +476,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-OMER-next-earnings",
-      "ticker": "OMER",
-      "date": "2026-11-03",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001285819&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-OMER-NCT06298955",
       "ticker": "OMER",
       "date": "2026-12-15",
@@ -503,6 +488,21 @@
       "source": "ClinicalTrials.gov NCT06298955",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06298955",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-OMER-next-earnings",
+      "ticker": "OMER",
+      "date": "2027-01-25",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001285819&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     }
   ]

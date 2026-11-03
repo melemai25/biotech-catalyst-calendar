@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 3,
   "phase2": 1,
-  "generatedDate": "2026-11-01",
+  "generatedDate": "2026-11-03",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -92,7 +92,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2026-11-04",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 3
+    "daysToNextCatalyst": 1
   },
   "trialStats": {
     "completed": 5,
@@ -102,17 +102,17 @@
     "ongoing": 4,
     "withResults": 3,
     "byPhase": {
-      "phase3": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 3,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 4,
         "terminated": 0,
         "total": 5,
         "completionRatePct": 100
+      },
+      "phase3": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 3,
+        "completionRatePct": null
       },
       "phase1": {
         "completed": 0,
@@ -169,21 +169,6 @@
       "source": "ClinicalTrials.gov NCT06151288",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06151288",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-PCVX-0001649094-25-000057",
-      "ticker": "PCVX",
-      "date": "2025-05-01",
-      "title": "8-K filed: Leadership change",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.02. Leadership change. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1649094/000164909425000057/pcvx-20250501.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {
@@ -479,7 +464,7 @@
       "type": "Trial Milestone",
       "phase": "Phase 3",
       "estimated": false,
-      "summary": "Pneumococcal Vaccines · 1,390 participants · Status: Active Not Recruiting",
+      "summary": "Pneumococcal Disease · 1,390 participants · Status: Active Not Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT07365826",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07365826",

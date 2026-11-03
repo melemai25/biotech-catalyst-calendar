@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 3,
   "phase2": 2,
-  "generatedDate": "2026-11-01",
+  "generatedDate": "2026-11-03",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,14 +53,14 @@
     "fcfMarginPct": -153231,
     "marketCapUsd": null,
     "entityName": "Celldex Therapeutics, Inc.",
-    "activeTrials": 30,
+    "activeTrials": 29,
     "phase3Count": 5,
-    "phase2Count": 10,
+    "phase2Count": 9,
     "leadPhase": 3,
     "upcomingCount": 4,
     "nextCatalystDate": "2026-11-05",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 4
+    "daysToNextCatalyst": 2
   },
   "trialStats": {
     "completed": 27,
@@ -70,11 +70,11 @@
     "ongoing": 9,
     "withResults": 3,
     "byPhase": {
-      "phase2": {
-        "completed": 9,
-        "terminated": 5,
-        "total": 16,
-        "completionRatePct": 64
+      "phase3": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 5,
+        "completionRatePct": null
       },
       "phase1": {
         "completed": 17,
@@ -82,11 +82,11 @@
         "total": 22,
         "completionRatePct": 81
       },
-      "phase3": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 5,
-        "completionRatePct": null
+      "phase2": {
+        "completed": 9,
+        "terminated": 5,
+        "total": 16,
+        "completionRatePct": 64
       },
       "other": {
         "completed": 0,
@@ -100,21 +100,6 @@
     "resultsPostedPct": 11
   },
   "events": [
-    {
-      "id": "ct-CLDX-NCT02413827",
-      "ticker": "CLDX",
-      "date": "2016-11-02",
-      "title": "A Study of Varlilumab (Anti-CD27) and Ipilimumab and CDX-1401 in Patients With Unresectable Stage III or IV Melanoma",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Unresectable Stage III or Stage IV Melanoma · 9 participants · Status: Terminated",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT02413827",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02413827",
-      "origin": "registry",
-      "status": "past"
-    },
     {
       "id": "ct-CLDX-NCT01480479",
       "ticker": "CLDX",

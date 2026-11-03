@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-01",
+  "generatedDate": "2026-11-03",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -74,7 +74,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-11-10",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 9
+    "daysToNextCatalyst": 7
   },
   "trialStats": {
     "completed": 6,
@@ -90,17 +90,17 @@
         "total": 2,
         "completionRatePct": null
       },
-      "phase1": {
-        "completed": 4,
-        "terminated": 0,
-        "total": 5,
-        "completionRatePct": 100
-      },
       "phase3": {
         "completed": 0,
         "terminated": 0,
         "total": 3,
         "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 4,
+        "terminated": 0,
+        "total": 5,
+        "completionRatePct": 100
       }
     },
     "concluded": 8,
@@ -181,21 +181,6 @@
       "source": "ClinicalTrials.gov NCT05835180",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05835180",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-SGMT-0001104659-25-042566",
-      "ticker": "SGMT",
-      "date": "2025-04-30",
-      "title": "8-K filed: Leadership change",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.02. Leadership change. FORM 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-04-30",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1400118/000110465925042566/tm2513616d1_8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

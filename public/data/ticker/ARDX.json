@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-01",
+  "generatedDate": "2026-11-03",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -68,7 +68,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-12-24",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 53
+    "daysToNextCatalyst": 51
   },
   "trialStats": {
     "completed": 26,
@@ -78,6 +78,12 @@
     "ongoing": 2,
     "withResults": 13,
     "byPhase": {
+      "phase2": {
+        "completed": 6,
+        "terminated": 1,
+        "total": 7,
+        "completionRatePct": 86
+      },
       "phase3": {
         "completed": 8,
         "terminated": 0,
@@ -89,12 +95,6 @@
         "terminated": 0,
         "total": 10,
         "completionRatePct": 100
-      },
-      "phase2": {
-        "completed": 6,
-        "terminated": 1,
-        "total": 7,
-        "completionRatePct": 86
       },
       "other": {
         "completed": 2,
@@ -271,21 +271,6 @@
       "source": "ClinicalTrials.gov NCT06203444",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06203444",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ARDX-0001628280-25-021514",
-      "ticker": "ARDX",
-      "date": "2025-05-01",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1437402/000162828025021514/ardx-20250501.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

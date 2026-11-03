@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 1,
   "phase2": 4,
-  "generatedDate": "2026-11-01",
+  "generatedDate": "2026-11-03",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2027-01-12",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 72
+    "daysToNextCatalyst": 70
   },
   "trialStats": {
     "completed": 39,
@@ -76,17 +76,17 @@
         "total": 40,
         "completionRatePct": 89
       },
-      "phase3": {
-        "completed": 10,
-        "terminated": 1,
-        "total": 14,
-        "completionRatePct": 91
-      },
       "phase2": {
         "completed": 5,
         "terminated": 2,
         "total": 13,
         "completionRatePct": 71
+      },
+      "phase3": {
+        "completed": 10,
+        "terminated": 1,
+        "total": 14,
+        "completionRatePct": 91
       }
     },
     "concluded": 46,
@@ -302,21 +302,6 @@
       "source": "ClinicalTrials.gov NCT06582732",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06582732",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-GKOS-0001558370-25-005999",
-      "ticker": "GKOS",
-      "date": "2025-04-30",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 7.01, 9.01. Quarterly results; Reg FD disclosure. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-04-30",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1192448/000155837025005999/gkos-20250430x8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

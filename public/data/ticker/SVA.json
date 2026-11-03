@@ -11,7 +11,7 @@
   "activeTrials": 21,
   "phase3": 17,
   "phase2": 4,
-  "generatedDate": "2026-11-01",
+  "generatedDate": "2026-11-03",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 11,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 14
+    "daysToNextCatalyst": 12
   },
   "trialStats": {
     "completed": 66,
@@ -70,12 +70,6 @@
     "ongoing": 26,
     "withResults": 0,
     "byPhase": {
-      "phase2": {
-        "completed": 7,
-        "terminated": 0,
-        "total": 10,
-        "completionRatePct": 100
-      },
       "other": {
         "completed": 36,
         "terminated": 0,
@@ -86,6 +80,12 @@
         "completed": 17,
         "terminated": 0,
         "total": 27,
+        "completionRatePct": 100
+      },
+      "phase2": {
+        "completed": 7,
+        "terminated": 0,
+        "total": 10,
         "completionRatePct": 100
       },
       "phase1": {
@@ -578,21 +578,6 @@
       "source": "ClinicalTrials.gov NCT05850364",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05850364",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-SVA-0001104659-25-041640",
-      "ticker": "SVA",
-      "date": "2025-04-30",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. FORM 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-04-30",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1084201/000110465925041640/tm2513485d1_6k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

@@ -11,7 +11,7 @@
   "activeTrials": 25,
   "phase3": 8,
   "phase2": 17,
-  "generatedDate": "2026-11-01",
+  "generatedDate": "2026-11-03",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 29,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 14
+    "daysToNextCatalyst": 12
   },
   "trialStats": {
     "completed": 36,
@@ -70,6 +70,12 @@
     "ongoing": 32,
     "withResults": 30,
     "byPhase": {
+      "phase2": {
+        "completed": 12,
+        "terminated": 6,
+        "total": 37,
+        "completionRatePct": 67
+      },
       "phase3": {
         "completed": 14,
         "terminated": 0,
@@ -81,12 +87,6 @@
         "terminated": 0,
         "total": 3,
         "completionRatePct": null
-      },
-      "phase2": {
-        "completed": 12,
-        "terminated": 6,
-        "total": 37,
-        "completionRatePct": 67
       },
       "phase1": {
         "completed": 8,
@@ -1691,19 +1691,34 @@
       "status": "past"
     },
     {
-      "id": "ct-BNTX-NCT07392372",
+      "id": "edgar-BNTX-0001776985-26-000081",
       "ticker": "BNTX",
-      "date": "2026-11-15",
-      "title": "A Clinical Trial Investigating the Safety and Biological Activity of the Antibody BNT351 in Adults Living Without and With HIV",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
+      "date": "2026-11-03",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
       "estimated": false,
-      "summary": "HIV -1 Infection · 67 participants · Status: Recruiting",
+      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
       "result": null,
-      "source": "ClinicalTrials.gov NCT07392372",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07392372",
-      "origin": "registry",
-      "status": "upcoming"
+      "source": "SEC EDGAR 6-K 2026-11-03",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1776985/000177698526000081/form6-kq32026quarterlyrepo.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-BNTX-0001776985-26-000080",
+      "ticker": "BNTX",
+      "date": "2026-11-03",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-11-03",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1776985/000177698526000080/form6-kq32026earningsprear.htm",
+      "origin": "edgar",
+      "status": "past"
     },
     {
       "id": "ct-BNTX-NCT04486378",
@@ -1717,6 +1732,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04486378",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04486378",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BNTX-NCT07392372",
+      "ticker": "BNTX",
+      "date": "2026-11-15",
+      "title": "A Clinical Trial Investigating the Safety and Biological Activity of the Antibody BNT351 in Adults Living Without and With HIV",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "HIV -1 Infection · 67 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07392372",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07392372",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1736,21 +1766,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BNTX-NCT07379580",
-      "ticker": "BNTX",
-      "date": "2027-06-15",
-      "title": "A Randomized Clinical Trial Investigating the Safety, Reactogenicity, and Immunogenicity After Immunization With an mRNA-based Mpox Vaccine Candidate in Africa",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Mpox (Monkeypox), Smallpox, Orthopoxvirus Infection · 310 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07379580",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07379580",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BNTX-NCT06449209",
       "ticker": "BNTX",
       "date": "2027-06-15",
@@ -1762,6 +1777,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06449209",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06449209",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BNTX-NCT07379580",
+      "ticker": "BNTX",
+      "date": "2027-06-15",
+      "title": "A Randomized Clinical Trial Investigating the Safety, Reactogenicity, and Immunogenicity After Immunization With an mRNA-based Mpox Vaccine Candidate in Africa",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Mpox (Monkeypox), Smallpox, Orthopoxvirus Infection · 310 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07379580",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07379580",
       "origin": "registry",
       "status": "upcoming"
     },

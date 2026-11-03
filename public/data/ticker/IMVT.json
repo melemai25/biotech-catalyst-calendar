@@ -11,7 +11,7 @@
   "activeTrials": 7,
   "phase3": 1,
   "phase2": 6,
-  "generatedDate": "2026-11-01",
+  "generatedDate": "2026-11-03",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -58,9 +58,9 @@
     "phase2Count": 14,
     "leadPhase": 3,
     "upcomingCount": 8,
-    "nextCatalystDate": "2026-11-02",
+    "nextCatalystDate": "2027-01-29",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 87
   },
   "trialStats": {
     "completed": 5,
@@ -70,17 +70,17 @@
     "ongoing": 8,
     "withResults": 5,
     "byPhase": {
-      "phase3": {
-        "completed": 2,
-        "terminated": 2,
-        "total": 5,
-        "completionRatePct": 50
-      },
       "phase2": {
         "completed": 3,
         "terminated": 4,
         "total": 14,
         "completionRatePct": 43
+      },
+      "phase3": {
+        "completed": 2,
+        "terminated": 2,
+        "total": 5,
+        "completionRatePct": 50
       }
     },
     "concluded": 11,
@@ -436,7 +436,7 @@
     {
       "id": "edgar-IMVT-next-earnings",
       "ticker": "IMVT",
-      "date": "2026-11-02",
+      "date": "2027-01-29",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

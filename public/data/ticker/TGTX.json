@@ -11,7 +11,7 @@
   "activeTrials": 7,
   "phase3": 4,
   "phase2": 3,
-  "generatedDate": "2026-11-01",
+  "generatedDate": "2026-11-03",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -58,9 +58,9 @@
     "phase2Count": 15,
     "leadPhase": 3,
     "upcomingCount": 8,
-    "nextCatalystDate": "2026-11-02",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "nextCatalystDate": "2026-12-01",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 28
   },
   "trialStats": {
     "completed": 15,
@@ -70,18 +70,6 @@
     "ongoing": 12,
     "withResults": 11,
     "byPhase": {
-      "phase3": {
-        "completed": 3,
-        "terminated": 3,
-        "total": 10,
-        "completionRatePct": 50
-      },
-      "other": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 4,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 5,
         "terminated": 6,
@@ -93,6 +81,18 @@
         "terminated": 4,
         "total": 12,
         "completionRatePct": 64
+      },
+      "phase3": {
+        "completed": 3,
+        "terminated": 3,
+        "total": 10,
+        "completionRatePct": 50
+      },
+      "other": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 4,
+        "completionRatePct": null
       }
     },
     "concluded": 28,
@@ -626,21 +626,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-TGTX-next-earnings",
-      "ticker": "TGTX",
-      "date": "2026-11-02",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001001316&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-TGTX-NCT06680037",
       "ticker": "TGTX",
       "date": "2026-12-01",
@@ -668,6 +653,21 @@
       "source": "ClinicalTrials.gov NCT05877963",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05877963",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-TGTX-next-earnings",
+      "ticker": "TGTX",
+      "date": "2027-02-01",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001001316&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {

@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 4,
   "phase2": 0,
-  "generatedDate": "2026-11-01",
+  "generatedDate": "2026-11-03",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2027-09-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 333
+    "daysToNextCatalyst": 331
   },
   "trialStats": {
     "completed": 35,
@@ -82,17 +82,17 @@
         "total": 22,
         "completionRatePct": 86
       },
-      "phase1": {
-        "completed": 2,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
-      },
       "other": {
         "completed": 3,
         "terminated": 1,
         "total": 5,
         "completionRatePct": 75
+      },
+      "phase1": {
+        "completed": 2,
+        "terminated": 0,
+        "total": 2,
+        "completionRatePct": null
       }
     },
     "concluded": 42,
@@ -757,6 +757,36 @@
       "result": null,
       "source": "SEC EDGAR 6-K 2026-07-30",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1438569/000110465926088529/tm2621687d1_6k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-GRFS-0001104659-26-121157",
+      "ticker": "GRFS",
+      "date": "2026-11-02",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. FORM 6-K.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-11-02",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1438569/000110465926121157/tm2628724d2_6k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-GRFS-0001104659-26-121154",
+      "ticker": "GRFS",
+      "date": "2026-11-02",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. FORM 6-K.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-11-02",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1438569/000110465926121154/tm2628724d1_6k.htm",
       "origin": "edgar",
       "status": "past"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 3,
   "phase2": 1,
-  "generatedDate": "2026-11-01",
+  "generatedDate": "2026-11-03",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-11-07",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 6
+    "daysToNextCatalyst": 4
   },
   "trialStats": {
     "completed": 28,
@@ -70,17 +70,17 @@
     "ongoing": 5,
     "withResults": 21,
     "byPhase": {
-      "phase2": {
-        "completed": 15,
-        "terminated": 2,
-        "total": 19,
-        "completionRatePct": 88
-      },
       "phase1": {
         "completed": 7,
         "terminated": 2,
         "total": 9,
         "completionRatePct": 78
+      },
+      "phase2": {
+        "completed": 15,
+        "terminated": 2,
+        "total": 19,
+        "completionRatePct": 88
       },
       "phase3": {
         "completed": 6,
@@ -347,21 +347,6 @@
       "source": "ClinicalTrials.gov NCT05767346",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05767346",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-CYTK-0000950170-25-061847",
-      "ticker": "CYTK",
-      "date": "2025-05-01",
-      "title": "8-K filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 8.01. Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1061983/000095017025061847/cytk-20250429.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

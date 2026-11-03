@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-11-01",
+  "generatedDate": "2026-11-03",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -74,7 +74,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2026-12-29",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 58
+    "daysToNextCatalyst": 56
   },
   "trialStats": {
     "completed": 5,
@@ -90,10 +90,10 @@
         "total": 4,
         "completionRatePct": null
       },
-      "other": {
-        "completed": 0,
+      "phase1": {
+        "completed": 3,
         "terminated": 0,
-        "total": 1,
+        "total": 4,
         "completionRatePct": null
       },
       "phase3": {
@@ -102,10 +102,10 @@
         "total": 2,
         "completionRatePct": null
       },
-      "phase1": {
-        "completed": 3,
+      "other": {
+        "completed": 0,
         "terminated": 0,
-        "total": 4,
+        "total": 1,
         "completionRatePct": null
       }
     },
@@ -505,21 +505,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-IRON-NCT06985147",
-      "ticker": "IRON",
-      "date": "2027-02-15",
-      "title": "A Phase 2, Open-Label Study of DISC-3405 in Participants With Polycythemia Vera (PV)",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Polycythemia Vera (PV) · 60 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06985147",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06985147",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-IRON-NCT05320198",
       "ticker": "IRON",
       "date": "2027-05-15",
@@ -546,6 +531,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07187973",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07187973",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-IRON-NCT06985147",
+      "ticker": "IRON",
+      "date": "2027-07-15",
+      "title": "A Phase 2, Open-Label Study of DISC-3405 in Participants With Polycythemia Vera (PV)",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Polycythemia Vera (PV) · 60 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06985147",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06985147",
       "origin": "registry",
       "status": "upcoming"
     },

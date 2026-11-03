@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-11-01",
+  "generatedDate": "2026-11-03",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-11-11",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 10
+    "daysToNextCatalyst": 8
   },
   "trialStats": {
     "completed": 0,
@@ -179,21 +179,6 @@
       "status": "past"
     },
     {
-      "id": "ct-AVBP-NCT05607550",
-      "ticker": "AVBP",
-      "date": "2025-08-15",
-      "title": "Study to Compare Furmonertinib to Platinum-Based Chemotherapy for Patients With Locally Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC) With Epidermal Growth Factor Receptor (EGFR) Exon 20 Insertion Mutations (FURVENT)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Metastatic Non-Small Cell Lung Cancer, Advanced Non-Small Cell Lung Cancer, EGFR Exon 20 Mutations · 398 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05607550",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05607550",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "edgar-AVBP-0001558370-25-011954",
       "ticker": "AVBP",
       "date": "2025-09-09",
@@ -296,6 +281,21 @@
       "source": "SEC EDGAR 8-K 2026-08-12",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1868279/000110465926094869/tm2622880d1_8k.htm",
       "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "ct-AVBP-NCT05607550",
+      "ticker": "AVBP",
+      "date": "2026-10-06",
+      "title": "Study to Compare Furmonertinib to Platinum-Based Chemotherapy for Patients With Locally Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC) With Epidermal Growth Factor Receptor (EGFR) Exon 20 Insertion Mutations (FURVENT)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Metastatic Non-Small Cell Lung Cancer, Advanced Non-Small Cell Lung Cancer, EGFR Exon 20 Mutations · 398 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05607550",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05607550",
+      "origin": "registry",
       "status": "past"
     },
     {

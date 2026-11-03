@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-01",
+  "generatedDate": "2026-11-03",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -68,7 +68,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2026-11-10",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 9
+    "daysToNextCatalyst": 7
   },
   "trialStats": {
     "completed": 4,
@@ -78,17 +78,17 @@
     "ongoing": 6,
     "withResults": 0,
     "byPhase": {
-      "phase3": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 1,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 4,
         "terminated": 1,
         "total": 10,
         "completionRatePct": 80
+      },
+      "phase3": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 1,
+        "completionRatePct": null
       }
     },
     "concluded": 5,
@@ -374,7 +374,7 @@
       "type": "Trial Milestone",
       "phase": "Phase 1",
       "estimated": false,
-      "summary": "Colorectal Cancer, Non-Small Cell Lung Cancer, Breast Cancer · 175 participants · Status: Recruiting",
+      "summary": "Colorectal Cancer, Non-Small Cell Lung Cancer, Breast Cancer · 200 participants · Status: Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT07578571",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07578571",

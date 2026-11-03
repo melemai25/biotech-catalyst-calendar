@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 5,
   "phase2": 0,
-  "generatedDate": "2026-11-01",
+  "generatedDate": "2026-11-03",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 9,
     "nextCatalystDate": "2026-11-25",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 24
+    "daysToNextCatalyst": 22
   },
   "trialStats": {
     "completed": 36,
@@ -70,6 +70,12 @@
     "ongoing": 10,
     "withResults": 17,
     "byPhase": {
+      "phase1": {
+        "completed": 14,
+        "terminated": 0,
+        "total": 17,
+        "completionRatePct": 100
+      },
       "phase3": {
         "completed": 9,
         "terminated": 0,
@@ -81,12 +87,6 @@
         "terminated": 3,
         "total": 16,
         "completionRatePct": 81
-      },
-      "phase1": {
-        "completed": 14,
-        "terminated": 0,
-        "total": 17,
-        "completionRatePct": 100
       },
       "other": {
         "completed": 0,
@@ -888,7 +888,7 @@
       "type": "Trial Milestone",
       "phase": "Phase 3",
       "estimated": false,
-      "summary": "Progressive Pulmonary Fibrosis, Interstitial Lung Disease · 800 participants · Status: Not Yet Recruiting",
+      "summary": "Progressive Pulmonary Fibrosis, Interstitial Lung Disease · 800 participants · Status: Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT07805785",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07805785",

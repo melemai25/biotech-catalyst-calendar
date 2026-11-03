@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 2,
   "phase2": 3,
-  "generatedDate": "2026-11-01",
+  "generatedDate": "2026-11-03",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -65,10 +65,10 @@
     "phase3Count": 4,
     "phase2Count": 10,
     "leadPhase": 3,
-    "upcomingCount": 7,
+    "upcomingCount": 6,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 14
+    "daysToNextCatalyst": 12
   },
   "trialStats": {
     "completed": 12,
@@ -84,17 +84,17 @@
         "total": 8,
         "completionRatePct": 86
       },
-      "phase3": {
-        "completed": 1,
-        "terminated": 1,
-        "total": 4,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 5,
         "terminated": 1,
         "total": 9,
         "completionRatePct": 83
+      },
+      "phase3": {
+        "completed": 1,
+        "terminated": 1,
+        "total": 4,
+        "completionRatePct": null
       },
       "other": {
         "completed": 0,
@@ -589,6 +589,21 @@
       "status": "past"
     },
     {
+      "id": "ct-VIR-NCT06903338",
+      "ticker": "VIR",
+      "date": "2026-09-30",
+      "title": "A Study to Evaluate Tobevibart + Elebsiran in Chronic HDV Infection",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Viral Hepatitis · 124 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06903338",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06903338",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "edgar-VIR-0001628280-26-064117",
       "ticker": "VIR",
       "date": "2026-10-01",
@@ -691,21 +706,6 @@
       "source": "Projected from SEC EDGAR filing cadence",
       "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001706431&type=8-K",
       "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-VIR-NCT06903338",
-      "ticker": "VIR",
-      "date": "2026-12-31",
-      "title": "A Study to Evaluate Tobevibart + Elebsiran in Chronic HDV Infection",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Viral Hepatitis · 124 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06903338",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06903338",
-      "origin": "registry",
       "status": "upcoming"
     },
     {

@@ -11,7 +11,7 @@
   "activeTrials": 8,
   "phase3": 3,
   "phase2": 5,
-  "generatedDate": "2026-11-01",
+  "generatedDate": "2026-11-03",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,6 +55,12 @@
     "entityName": "Karyopharm Therapeutics Inc.",
     "financingSinceCash": [
       {
+        "date": "2026-11-03",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1503802/000119312526444164/d141618d8k.htm"
+      },
+      {
         "date": "2026-09-11",
         "form": "8-K",
         "label": "Unregistered sale of shares (private placement)",
@@ -68,7 +74,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 44
+    "daysToNextCatalyst": 42
   },
   "trialStats": {
     "completed": 12,
@@ -78,17 +84,17 @@
     "ongoing": 9,
     "withResults": 20,
     "byPhase": {
-      "phase1": {
-        "completed": 3,
-        "terminated": 2,
-        "total": 5,
-        "completionRatePct": 60
-      },
       "phase2": {
         "completed": 6,
         "terminated": 8,
         "total": 25,
         "completionRatePct": 43
+      },
+      "phase1": {
+        "completed": 3,
+        "terminated": 2,
+        "total": 5,
+        "completionRatePct": 60
       },
       "phase3": {
         "completed": 3,
@@ -694,19 +700,34 @@
       "status": "past"
     },
     {
-      "id": "ct-KPTI-NCT04442022",
+      "id": "edgar-KPTI-0001193125-26-442822",
       "ticker": "KPTI",
-      "date": "2026-12-15",
-      "title": "A Study of Rituximab-Gemcitabine-Dexamethasone-Platinum (R-GDP) With or Without Selinexor in Patients With Relapsed/Refractory Diffuse Large B-cell Lymphoma",
-      "type": "Trial Milestone",
-      "phase": "Phase 2/Phase 3",
+      "date": "2026-11-02",
+      "title": "8-K filed: Reg FD disclosure",
+      "type": "Filing",
+      "phase": null,
       "estimated": false,
-      "summary": "Relapsed/Refractory Diffuse Large B-cell Lymphoma · 501 participants · Status: Active Not Recruiting",
+      "summary": "SEC Form 8-K, items 7.01, 9.01. Reg FD disclosure. 8-K.",
       "result": null,
-      "source": "ClinicalTrials.gov NCT04442022",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04442022",
-      "origin": "registry",
-      "status": "upcoming"
+      "source": "SEC EDGAR 8-K 2026-11-02",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1503802/000119312526442822/d87273d8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-KPTI-0001193125-26-444164",
+      "ticker": "KPTI",
+      "date": "2026-11-03",
+      "title": "8-K filed: Material agreement, Reg FD disclosure, Other event",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 1.01, 1.03, 2.03, 2.04, 7.01, 8.01, 9.01. Material agreement; Reg FD disclosure; Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-03",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1503802/000119312526444164/d141618d8k.htm",
+      "origin": "edgar",
+      "status": "past"
     },
     {
       "id": "ct-KPTI-NCT02227251",
@@ -720,6 +741,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT02227251",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02227251",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-KPTI-NCT04442022",
+      "ticker": "KPTI",
+      "date": "2026-12-15",
+      "title": "A Study of Rituximab-Gemcitabine-Dexamethasone-Platinum (R-GDP) With or Without Selinexor in Patients With Relapsed/Refractory Diffuse Large B-cell Lymphoma",
+      "type": "Trial Milestone",
+      "phase": "Phase 2/Phase 3",
+      "estimated": false,
+      "summary": "Relapsed/Refractory Diffuse Large B-cell Lymphoma · 501 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04442022",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04442022",
       "origin": "registry",
       "status": "upcoming"
     },

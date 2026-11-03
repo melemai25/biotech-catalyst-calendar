@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-01",
+  "generatedDate": "2026-11-03",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -58,9 +58,9 @@
     "phase2Count": 2,
     "leadPhase": 2,
     "upcomingCount": 2,
-    "nextCatalystDate": "2026-11-03",
+    "nextCatalystDate": "2027-02-01",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 2
+    "daysToNextCatalyst": 90
   },
   "trialStats": {
     "completed": 0,
@@ -241,7 +241,7 @@
     {
       "id": "edgar-BDTX-next-earnings",
       "ticker": "BDTX",
-      "date": "2026-11-03",
+      "date": "2027-02-01",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

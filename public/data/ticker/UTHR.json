@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 1,
   "phase2": 2,
-  "generatedDate": "2026-11-01",
+  "generatedDate": "2026-11-03",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2026-11-04",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 3
+    "daysToNextCatalyst": 1
   },
   "trialStats": {
     "completed": 43,
@@ -70,29 +70,29 @@
     "ongoing": 9,
     "withResults": 40,
     "byPhase": {
-      "other": {
-        "completed": 11,
-        "terminated": 6,
-        "total": 22,
-        "completionRatePct": 65
-      },
-      "phase2": {
-        "completed": 8,
-        "terminated": 3,
-        "total": 17,
-        "completionRatePct": 73
-      },
       "phase3": {
         "completed": 14,
         "terminated": 8,
         "total": 31,
         "completionRatePct": 64
       },
+      "other": {
+        "completed": 11,
+        "terminated": 6,
+        "total": 22,
+        "completionRatePct": 65
+      },
       "phase1": {
         "completed": 10,
         "terminated": 2,
         "total": 13,
         "completionRatePct": 83
+      },
+      "phase2": {
+        "completed": 8,
+        "terminated": 3,
+        "total": 17,
+        "completionRatePct": 73
       }
     },
     "concluded": 74,
@@ -368,21 +368,6 @@
       "source": "ClinicalTrials.gov NCT03950739",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03950739",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-UTHR-0001082554-25-000024",
-      "ticker": "UTHR",
-      "date": "2025-04-30",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-04-30",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1082554/000108255425000024/uthr-20250430.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

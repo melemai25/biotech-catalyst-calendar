@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 3,
   "phase2": 2,
-  "generatedDate": "2026-11-01",
+  "generatedDate": "2026-11-03",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2027-08-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 287
+    "daysToNextCatalyst": 285
   },
   "trialStats": {
     "completed": 7,
@@ -70,13 +70,19 @@
     "ongoing": 6,
     "withResults": 5,
     "byPhase": {
+      "phase3": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 3,
+        "completionRatePct": null
+      },
       "phase2": {
         "completed": 4,
         "terminated": 1,
         "total": 7,
         "completionRatePct": 80
       },
-      "phase3": {
+      "other": {
         "completed": 1,
         "terminated": 0,
         "total": 3,
@@ -86,12 +92,6 @@
         "completed": 1,
         "terminated": 1,
         "total": 2,
-        "completionRatePct": null
-      },
-      "other": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 3,
         "completionRatePct": null
       }
     },
@@ -158,36 +158,6 @@
       "source": "ClinicalTrials.gov NCT05980598",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05980598",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ASND-0001193125-25-110062",
-      "ticker": "ASND",
-      "date": "2025-05-01",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1612042/000119312525110062/d795154d6k.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ASND-0000950170-25-061850",
-      "ticker": "ASND",
-      "date": "2025-05-01",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1612042/000095017025061850/asnd-20250331.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

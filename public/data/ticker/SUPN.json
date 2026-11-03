@@ -11,7 +11,7 @@
   "activeTrials": 6,
   "phase3": 1,
   "phase2": 5,
-  "generatedDate": "2026-11-01",
+  "generatedDate": "2026-11-03",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,6 +53,14 @@
     "fcfMarginPct": 10.1,
     "marketCapUsd": null,
     "entityName": "SUPERNUS PHARMACEUTICALS, INC.",
+    "financingSinceCash": [
+      {
+        "date": "2026-11-02",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1356576/000110465926121014/tm2628719d1_8k.htm"
+      }
+    ],
     "activeTrials": 43,
     "phase3Count": 16,
     "phase2Count": 13,
@@ -60,7 +68,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2026-12-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 59
+    "daysToNextCatalyst": 57
   },
   "trialStats": {
     "completed": 47,
@@ -70,17 +78,17 @@
     "ongoing": 11,
     "withResults": 37,
     "byPhase": {
-      "phase3": {
-        "completed": 14,
-        "terminated": 3,
-        "total": 19,
-        "completionRatePct": 82
-      },
       "phase2": {
         "completed": 16,
         "terminated": 1,
         "total": 22,
         "completionRatePct": 94
+      },
+      "phase3": {
+        "completed": 14,
+        "terminated": 3,
+        "total": 19,
+        "completionRatePct": 82
       },
       "other": {
         "completed": 7,
@@ -176,21 +184,6 @@
       "status": "past"
     },
     {
-      "id": "ct-SUPN-NCT03247543",
-      "ticker": "SUPN",
-      "date": "2018-10-17",
-      "title": "Evaluation of SPN-812 (Viloxazine Extended-release Capsule) High Dose in Children With ADHD",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "ADHD · 313 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT03247543",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT03247543",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-SUPN-NCT03247517",
       "ticker": "SUPN",
       "date": "2018-10-17",
@@ -202,6 +195,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT03247517",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03247517",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-SUPN-NCT03247543",
+      "ticker": "SUPN",
+      "date": "2018-10-17",
+      "title": "Evaluation of SPN-812 (Viloxazine Extended-release Capsule) High Dose in Children With ADHD",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "ADHD · 313 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT03247543",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03247543",
       "origin": "registry",
       "status": "past"
     },
@@ -431,21 +439,6 @@
       "status": "past"
     },
     {
-      "id": "ct-SUPN-NCT05102552",
-      "ticker": "SUPN",
-      "date": "2022-03-25",
-      "title": "Evaluating the Safety and Relative Bioavailability of Three SPN-817 Treatments (A, B and C) in Healthy Adult Subjects",
-      "type": "Trial Milestone",
-      "phase": "EARLY_Phase 1",
-      "estimated": false,
-      "summary": "Healthy Volunteer · 30 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05102552",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05102552",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-SUPN-NCT04476017",
       "ticker": "SUPN",
       "date": "2022-03-25",
@@ -457,6 +450,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT04476017",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04476017",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-SUPN-NCT05102552",
+      "ticker": "SUPN",
+      "date": "2022-03-25",
+      "title": "Evaluating the Safety and Relative Bioavailability of Three SPN-817 Treatments (A, B and C) in Healthy Adult Subjects",
+      "type": "Trial Milestone",
+      "phase": "EARLY_Phase 1",
+      "estimated": false,
+      "summary": "Healthy Volunteer · 30 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05102552",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05102552",
       "origin": "registry",
       "status": "past"
     },
@@ -997,6 +1005,36 @@
       "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
       "source": "SEC EDGAR 8-K 2026-10-29",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1356576/000135657626000050/supn-20261029.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-SUPN-0001104659-26-121103",
+      "ticker": "SUPN",
+      "date": "2026-11-02",
+      "title": "8-K filed: Listing / standard notice",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 3.01. Listing / standard notice. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-02",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1356576/000110465926121103/tm2628719d2_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-SUPN-0001104659-26-121014",
+      "ticker": "SUPN",
+      "date": "2026-11-02",
+      "title": "8-K filed: Material agreement, Acquisition completed, Reg FD disclosure",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 1.01, 2.01, 2.03, 3.03, 5.01, 5.03, 7.01, 9.01. Material agreement; Acquisition completed; Reg FD disclosure. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-02",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1356576/000110465926121014/tm2628719d1_8k.htm",
       "origin": "edgar",
       "status": "past"
     },

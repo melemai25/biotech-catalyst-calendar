@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 4,
   "phase2": 0,
-  "generatedDate": "2026-11-01",
+  "generatedDate": "2026-11-03",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -58,9 +58,9 @@
     "phase2Count": 4,
     "leadPhase": 3,
     "upcomingCount": 4,
-    "nextCatalystDate": "2026-11-02",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "nextCatalystDate": "2027-01-08",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 66
   },
   "trialStats": {
     "completed": 24,
@@ -70,12 +70,6 @@
     "ongoing": 7,
     "withResults": 14,
     "byPhase": {
-      "phase1": {
-        "completed": 4,
-        "terminated": 0,
-        "total": 6,
-        "completionRatePct": 100
-      },
       "phase3": {
         "completed": 10,
         "terminated": 0,
@@ -86,6 +80,12 @@
         "completed": 8,
         "terminated": 0,
         "total": 8,
+        "completionRatePct": 100
+      },
+      "phase1": {
+        "completed": 4,
+        "terminated": 0,
+        "total": 6,
         "completionRatePct": 100
       },
       "other": {
@@ -161,21 +161,6 @@
       "status": "past"
     },
     {
-      "id": "ct-OCUL-NCT04747977",
-      "ticker": "OCUL",
-      "date": "2021-08-11",
-      "title": "To Assess the Efficacy and Safety of OTX-DED for the Short-term Treatment of Signs and Symptoms of Dry Eye Disease",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Dry Eye · 172 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT04747977",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04747977",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-OCUL-NCT04362670",
       "ticker": "OCUL",
       "date": "2021-08-11",
@@ -187,6 +172,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT04362670",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04362670",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-OCUL-NCT04747977",
+      "ticker": "OCUL",
+      "date": "2021-08-11",
+      "title": "To Assess the Efficacy and Safety of OTX-DED for the Short-term Treatment of Signs and Symptoms of Dry Eye Disease",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Dry Eye · 172 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT04747977",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04747977",
       "origin": "registry",
       "status": "past"
     },
@@ -521,21 +521,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-OCUL-next-earnings",
-      "ticker": "OCUL",
-      "date": "2026-11-02",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001393434&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-OCUL-NCT06495918",
       "ticker": "OCUL",
       "date": "2027-01-08",
@@ -548,6 +533,21 @@
       "source": "ClinicalTrials.gov NCT06495918",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06495918",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-OCUL-next-earnings",
+      "ticker": "OCUL",
+      "date": "2027-02-01",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001393434&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {

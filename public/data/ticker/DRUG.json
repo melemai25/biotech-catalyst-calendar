@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-01",
+  "generatedDate": "2026-11-03",
   "metrics": {
     "reportingCurrency": "CAD",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 14
+    "daysToNextCatalyst": 12
   },
   "trialStats": {
     "completed": 1,
@@ -70,16 +70,16 @@
     "ongoing": 2,
     "withResults": 0,
     "byPhase": {
-      "phase1": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 1,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 0,
         "terminated": 0,
         "total": 2,
+        "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 1,
         "completionRatePct": null
       }
     },
@@ -505,6 +505,21 @@
       "result": null,
       "source": "SEC EDGAR 6-K 2026-10-02",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1827401/000106299326005170/form6k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-DRUG-0002060755-26-000063",
+      "ticker": "DRUG",
+      "date": "2026-11-02",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-11-02",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1827401/000206075526000063/f6k-20261102drug.htm",
       "origin": "edgar",
       "status": "past"
     },
