@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-11-03",
+  "generatedDate": "2026-11-04",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -58,9 +58,9 @@
     "phase2Count": 1,
     "leadPhase": 3,
     "upcomingCount": 4,
-    "nextCatalystDate": "2026-11-04",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "nextCatalystDate": "2026-12-15",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 41
   },
   "trialStats": {
     "completed": 4,
@@ -76,13 +76,13 @@
         "total": 8,
         "completionRatePct": 67
       },
-      "phase3": {
+      "phase2": {
         "completed": 0,
         "terminated": 0,
         "total": 1,
         "completionRatePct": null
       },
-      "phase2": {
+      "phase3": {
         "completed": 0,
         "terminated": 0,
         "total": 1,
@@ -410,21 +410,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-ORIC-next-earnings",
-      "ticker": "ORIC",
-      "date": "2026-11-04",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001796280&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ORIC-NCT06816992",
       "ticker": "ORIC",
       "date": "2026-12-15",
@@ -437,6 +422,21 @@
       "source": "ClinicalTrials.gov NCT06816992",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06816992",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-ORIC-next-earnings",
+      "ticker": "ORIC",
+      "date": "2027-02-05",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001796280&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {

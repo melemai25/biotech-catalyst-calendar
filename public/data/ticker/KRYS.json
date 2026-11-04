@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 1,
   "phase2": 4,
-  "generatedDate": "2026-11-03",
+  "generatedDate": "2026-11-04",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 7,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 12
+    "daysToNextCatalyst": 11
   },
   "trialStats": {
     "completed": 3,
@@ -70,28 +70,28 @@
     "ongoing": 13,
     "withResults": 2,
     "byPhase": {
-      "phase3": {
-        "completed": 2,
-        "terminated": 0,
-        "total": 3,
-        "completionRatePct": null
-      },
-      "phase2": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 7,
-        "completionRatePct": null
-      },
       "other": {
         "completed": 0,
         "terminated": 0,
         "total": 4,
         "completionRatePct": null
       },
+      "phase3": {
+        "completed": 2,
+        "terminated": 0,
+        "total": 3,
+        "completionRatePct": null
+      },
       "phase1": {
         "completed": 0,
         "terminated": 0,
         "total": 4,
+        "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 7,
         "completionRatePct": null
       }
     },
@@ -476,21 +476,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-KRYS-NCT07016750",
-      "ticker": "KRYS",
-      "date": "2026-12-15",
-      "title": "A Study Comparing KB803 and Matched Placebo in Patients With Dystrophic Epidermolysis Bullosa",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Dystrophic Epidermolysis Bullosa, DEB - Dystrophic Epidermolysis Bullosa, Recessive Dystrophic Epidermolysis Bullosa · 16 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07016750",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07016750",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-KRYS-NCT05504837",
       "ticker": "KRYS",
       "date": "2026-12-15",
@@ -502,6 +487,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05504837",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05504837",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-KRYS-NCT07016750",
+      "ticker": "KRYS",
+      "date": "2026-12-15",
+      "title": "A Study Comparing KB803 and Matched Placebo in Patients With Dystrophic Epidermolysis Bullosa",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Dystrophic Epidermolysis Bullosa, DEB - Dystrophic Epidermolysis Bullosa, Recessive Dystrophic Epidermolysis Bullosa · 16 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07016750",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07016750",
       "origin": "registry",
       "status": "upcoming"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-03",
+  "generatedDate": "2026-11-04",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 7,
     "nextCatalystDate": "2026-12-10",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 37
+    "daysToNextCatalyst": 36
   },
   "trialStats": {
     "completed": 0,
@@ -445,6 +445,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-10-02",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1789972/000119312526411011/cgem-20261001.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-CGEM-0001193125-26-446348",
+      "ticker": "CGEM",
+      "date": "2026-11-04",
+      "title": "8-K filed: Reg FD disclosure, Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 7.01, 8.01, 9.01. Reg FD disclosure; Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-04",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1789972/000119312526446348/cgem-20261104.htm",
       "origin": "edgar",
       "status": "past"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 9,
   "phase3": 3,
   "phase2": 6,
-  "generatedDate": "2026-11-03",
+  "generatedDate": "2026-11-04",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 7,
     "nextCatalystDate": "2027-03-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 132
+    "daysToNextCatalyst": 131
   },
   "trialStats": {
     "completed": 0,
@@ -70,27 +70,27 @@
     "ongoing": 10,
     "withResults": 0,
     "byPhase": {
-      "phase3": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 3,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 0,
         "terminated": 0,
         "total": 6,
         "completionRatePct": null
       },
-      "other": {
+      "phase3": {
         "completed": 0,
-        "terminated": 1,
-        "total": 1,
+        "terminated": 0,
+        "total": 3,
         "completionRatePct": null
       },
       "phase1": {
         "completed": 0,
         "terminated": 0,
+        "total": 1,
+        "completionRatePct": null
+      },
+      "other": {
+        "completed": 0,
+        "terminated": 1,
         "total": 1,
         "completionRatePct": null
       }
@@ -446,21 +446,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-FDMT-NCT06864988",
-      "ticker": "FDMT",
-      "date": "2027-06-15",
-      "title": "4D-150 in Patients With Macular Neovascularization Secondary to Age-Related Macular Degeneration",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Macular Neovascularization Secondary to Age-Related Macular Degeneration · 480 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06864988",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06864988",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-FDMT-NCT05248230",
       "ticker": "FDMT",
       "date": "2027-06-15",
@@ -472,6 +457,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05248230",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05248230",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-FDMT-NCT06864988",
+      "ticker": "FDMT",
+      "date": "2027-06-15",
+      "title": "4D-150 in Patients With Macular Neovascularization Secondary to Age-Related Macular Degeneration",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Macular Neovascularization Secondary to Age-Related Macular Degeneration · 480 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06864988",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06864988",
       "origin": "registry",
       "status": "upcoming"
     },

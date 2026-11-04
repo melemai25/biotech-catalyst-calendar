@@ -11,7 +11,7 @@
   "activeTrials": 12,
   "phase3": 7,
   "phase2": 5,
-  "generatedDate": "2026-11-03",
+  "generatedDate": "2026-11-04",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -72,9 +72,9 @@
     "phase2Count": 7,
     "leadPhase": 3,
     "upcomingCount": 15,
-    "nextCatalystDate": "2026-11-04",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "nextCatalystDate": "2026-12-31",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 57
   },
   "trialStats": {
     "completed": 3,
@@ -84,6 +84,12 @@
     "ongoing": 17,
     "withResults": 2,
     "byPhase": {
+      "phase2": {
+        "completed": 2,
+        "terminated": 0,
+        "total": 7,
+        "completionRatePct": null
+      },
       "phase1": {
         "completed": 1,
         "terminated": 0,
@@ -92,12 +98,6 @@
       },
       "phase3": {
         "completed": 0,
-        "terminated": 0,
-        "total": 7,
-        "completionRatePct": null
-      },
-      "phase2": {
-        "completed": 2,
         "terminated": 0,
         "total": 7,
         "completionRatePct": null
@@ -430,21 +430,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-RVMD-next-earnings",
-      "ticker": "RVMD",
-      "date": "2026-11-04",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001628171&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-RVMD-NCT06040541",
       "ticker": "RVMD",
       "date": "2026-12-31",
@@ -457,6 +442,21 @@
       "source": "ClinicalTrials.gov NCT06040541",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06040541",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-RVMD-next-earnings",
+      "ticker": "RVMD",
+      "date": "2027-02-03",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001628171&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {

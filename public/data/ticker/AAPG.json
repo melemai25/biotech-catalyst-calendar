@@ -11,7 +11,7 @@
   "activeTrials": 15,
   "phase3": 7,
   "phase2": 8,
-  "generatedDate": "2026-11-03",
+  "generatedDate": "2026-11-04",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 16,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 42
+    "daysToNextCatalyst": 41
   },
   "trialStats": {
     "completed": 9,
@@ -76,10 +76,10 @@
         "total": 22,
         "completionRatePct": 80
       },
-      "other": {
+      "phase3": {
         "completed": 0,
         "terminated": 0,
-        "total": 2,
+        "total": 7,
         "completionRatePct": null
       },
       "phase2": {
@@ -88,10 +88,10 @@
         "total": 22,
         "completionRatePct": 25
       },
-      "phase3": {
+      "other": {
         "completed": 0,
         "terminated": 0,
-        "total": 7,
+        "total": 2,
         "completionRatePct": null
       }
     },
@@ -296,21 +296,6 @@
       "status": "past"
     },
     {
-      "id": "ct-AAPG-NCT04494503",
-      "ticker": "AAPG",
-      "date": "2024-10-20",
-      "title": "Study of APG2575 Single Agent and Combination Therapy in Patients With Relapsed/Refractory CLL/SLL",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma · 123 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04494503",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04494503",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-AAPG-NCT03913949",
       "ticker": "AAPG",
       "date": "2024-10-20",
@@ -322,6 +307,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT03913949",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03913949",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-AAPG-NCT04494503",
+      "ticker": "AAPG",
+      "date": "2024-10-20",
+      "title": "Study of APG2575 Single Agent and Combination Therapy in Patients With Relapsed/Refractory CLL/SLL",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma · 123 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04494503",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04494503",
       "origin": "registry",
       "status": "past"
     },
@@ -971,21 +971,6 @@
       "status": "past"
     },
     {
-      "id": "ct-AAPG-NCT06182969",
-      "ticker": "AAPG",
-      "date": "2026-04-15",
-      "title": "A Study of APG-2575 in Patients With Mild-to-moderate Systemic Lupus Erythematosus.",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "SLE · 40 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06182969",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06182969",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-AAPG-NCT04785196",
       "ticker": "AAPG",
       "date": "2026-04-15",
@@ -997,6 +982,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04785196",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04785196",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-AAPG-NCT06182969",
+      "ticker": "AAPG",
+      "date": "2026-04-15",
+      "title": "A Study of APG-2575 in Patients With Mild-to-moderate Systemic Lupus Erythematosus.",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "SLE · 40 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06182969",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06182969",
       "origin": "registry",
       "status": "past"
     },
@@ -1571,21 +1571,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-AAPG-NCT06051409",
-      "ticker": "AAPG",
-      "date": "2027-12-31",
-      "title": "A Study of Olverembatinib in Patients With Newly Diagnosed Ph+ ALL (POLARIS-1)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Ph+ ALL, Leukemia, Lymphoblastic, Acute, Philadelphia-Positive · 350 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06051409",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06051409",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-AAPG-NCT05773586",
       "ticker": "AAPG",
       "date": "2027-12-31",
@@ -1597,6 +1582,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05773586",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05773586",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-AAPG-NCT06051409",
+      "ticker": "AAPG",
+      "date": "2027-12-31",
+      "title": "A Study of Olverembatinib in Patients With Newly Diagnosed Ph+ ALL (POLARIS-1)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Ph+ ALL, Leukemia, Lymphoblastic, Acute, Philadelphia-Positive · 350 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06051409",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06051409",
       "origin": "registry",
       "status": "upcoming"
     },

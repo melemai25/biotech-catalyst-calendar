@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 3,
   "phase2": 1,
-  "generatedDate": "2026-11-03",
+  "generatedDate": "2026-11-04",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,51 +53,51 @@
     "fcfMarginPct": 15.8,
     "marketCapUsd": null,
     "entityName": "BOSTON SCIENTIFIC CORPORATION",
-    "activeTrials": 11,
-    "phase3Count": 7,
-    "phase2Count": 0,
+    "activeTrials": 10,
+    "phase3Count": 6,
+    "phase2Count": 1,
     "leadPhase": 4,
     "upcomingCount": 2,
     "nextCatalystDate": "2027-01-27",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 85
+    "daysToNextCatalyst": 84
   },
   "trialStats": {
-    "completed": 275,
-    "terminated": 41,
-    "withdrawn": 13,
-    "suspended": 2,
-    "ongoing": 57,
-    "withResults": 205,
+    "completed": 272,
+    "terminated": 38,
+    "withdrawn": 11,
+    "suspended": 1,
+    "ongoing": 53,
+    "withResults": 194,
     "byPhase": {
       "other": {
-        "completed": 226,
-        "terminated": 35,
-        "total": 328,
-        "completionRatePct": 87
-      },
-      "phase1": {
-        "completed": 2,
-        "terminated": 2,
-        "total": 5,
-        "completionRatePct": 50
+        "completed": 229,
+        "terminated": 30,
+        "total": 318,
+        "completionRatePct": 88
       },
       "phase3": {
-        "completed": 38,
+        "completed": 36,
+        "terminated": 3,
+        "total": 42,
+        "completionRatePct": 92
+      },
+      "phase1": {
+        "completed": 1,
         "terminated": 2,
-        "total": 43,
-        "completionRatePct": 95
+        "total": 3,
+        "completionRatePct": null
       },
       "phase2": {
-        "completed": 9,
-        "terminated": 2,
+        "completed": 6,
+        "terminated": 3,
         "total": 12,
-        "completionRatePct": 82
+        "completionRatePct": 67
       }
     },
-    "concluded": 329,
-    "completionRatePct": 84,
-    "resultsPostedPct": 75
+    "concluded": 321,
+    "completionRatePct": 85,
+    "resultsPostedPct": 71
   },
   "events": [
     {
@@ -116,47 +116,17 @@
       "status": "past"
     },
     {
-      "id": "ct-BSX-NCT02460991",
+      "id": "ct-BSX-NCT02605447",
       "ticker": "BSX",
-      "date": "2017-06-05",
-      "title": "A Study of ONCO-DOX in Locally Advanced Hepatocellular Carcinoma",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Hepatocellular Carcinoma, Hepatoma, Liver Cell Carcinoma · 2 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02460991",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02460991",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "ct-BSX-NCT02159521",
-      "ticker": "BSX",
-      "date": "2017-11-30",
-      "title": "Treatment of Chronic Deep Vein Thrombosis (DVT) and Post-Thrombotic Syndrome (PTS) With the EkoSonic® Endovascular System",
+      "date": "2019-07-17",
+      "title": "EVOLVE Short DAPT Study",
       "type": "Trial Milestone",
       "phase": "Phase 4",
       "estimated": false,
-      "summary": "Deep Vein Thrombosis, Post-thrombotic Syndrome · 81 participants · Status: Completed",
+      "summary": "Coronary Artery Disease · 2,009 participants · Status: Completed",
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02159521",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02159521",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "ct-BSX-NCT02396758",
-      "ticker": "BSX",
-      "date": "2019-04-30",
-      "title": "Optimum Duration of Acoustic Pulse Thrombolysis Procedure in Acute Pulmonary Embolism",
-      "type": "Trial Milestone",
-      "phase": "Phase 4",
-      "estimated": false,
-      "summary": "Pulmonary Embolism and Thrombosis · 131 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02396758",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02396758",
+      "source": "ClinicalTrials.gov NCT02605447",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02605447",
       "origin": "registry",
       "status": "past"
     },
@@ -248,6 +218,21 @@
       "source": "SEC EDGAR 8-K 2025-07-23",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/885725/000088572525000039/bsx-20250723.htm",
       "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "ct-BSX-NCT04790370",
+      "ticker": "BSX",
+      "date": "2025-07-31",
+      "title": "Ultrasound-facilitated, Catheter-directed, Thrombolysis in Intermediate-high Risk Pulmonary Embolism",
+      "type": "Trial Milestone",
+      "phase": "Phase 4",
+      "estimated": false,
+      "summary": "Pulmonary Embolism · 544 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04790370",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04790370",
+      "origin": "registry",
       "status": "past"
     },
     {
@@ -581,17 +566,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BSX-NCT05303467",
+      "id": "ct-BSX-NCT05063565",
       "ticker": "BSX",
-      "date": "2027-01-31",
-      "title": "A Feasibility Study to Evaluate the Safety of the TheraSphere Glioblastoma (GBM) Device in Patients With Recurrent GBM",
+      "date": "2027-06-15",
+      "title": "TheraSphere With Durvalumab and Tremelimumab for HCC",
       "type": "Trial Milestone",
-      "phase": "Phase 1",
+      "phase": "Phase 2",
       "estimated": false,
-      "summary": "Glioblastoma Multiforme, Recurrent Glioblastoma · 36 participants · Status: Recruiting",
+      "summary": "Hepatocellular Carcinoma · 100 participants · Status: Active Not Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT05303467",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05303467",
+      "source": "ClinicalTrials.gov NCT05063565",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05063565",
       "origin": "registry",
       "status": "upcoming"
     }

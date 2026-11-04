@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-03",
+  "generatedDate": "2026-11-04",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -72,9 +72,9 @@
     "phase2Count": 3,
     "leadPhase": 4,
     "upcomingCount": 3,
-    "nextCatalystDate": "2026-11-04",
+    "nextCatalystDate": "2027-02-03",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 91
   },
   "trialStats": {
     "completed": 45,
@@ -90,12 +90,6 @@
         "total": 15,
         "completionRatePct": 85
       },
-      "other": {
-        "completed": 5,
-        "terminated": 1,
-        "total": 7,
-        "completionRatePct": 83
-      },
       "phase3": {
         "completed": 8,
         "terminated": 5,
@@ -107,6 +101,12 @@
         "terminated": 0,
         "total": 22,
         "completionRatePct": 100
+      },
+      "other": {
+        "completed": 5,
+        "terminated": 1,
+        "total": 7,
+        "completionRatePct": 83
       }
     },
     "concluded": 53,
@@ -462,7 +462,7 @@
     {
       "id": "edgar-MNKD-next-earnings",
       "ticker": "MNKD",
-      "date": "2026-11-04",
+      "date": "2027-02-03",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

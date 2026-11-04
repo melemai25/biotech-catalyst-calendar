@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-03",
+  "generatedDate": "2026-11-04",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 407
+    "daysToNextCatalyst": 406
   },
   "trialStats": {
     "completed": 0,
@@ -745,6 +745,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-10-28",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1595248/000143774926033700/gnpx20261021_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-GNPX-0001437749-26-034764",
+      "ticker": "GNPX",
+      "date": "2026-11-04",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-04",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1595248/000143774926034764/gnpx20261103_8k.htm",
       "origin": "edgar",
       "status": "past"
     },

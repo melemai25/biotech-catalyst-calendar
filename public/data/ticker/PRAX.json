@@ -11,7 +11,7 @@
   "activeTrials": 7,
   "phase3": 5,
   "phase2": 2,
-  "generatedDate": "2026-11-03",
+  "generatedDate": "2026-11-04",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 42
+    "daysToNextCatalyst": 41
   },
   "trialStats": {
     "completed": 7,
@@ -70,11 +70,11 @@
     "ongoing": 8,
     "withResults": 1,
     "byPhase": {
-      "phase1": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 1,
-        "completionRatePct": null
+      "phase2": {
+        "completed": 3,
+        "terminated": 1,
+        "total": 7,
+        "completionRatePct": 75
       },
       "phase3": {
         "completed": 2,
@@ -82,13 +82,13 @@
         "total": 8,
         "completionRatePct": null
       },
-      "phase2": {
-        "completed": 3,
-        "terminated": 1,
-        "total": 7,
-        "completionRatePct": 75
-      },
       "other": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 1,
+        "completionRatePct": null
+      },
+      "phase1": {
         "completed": 1,
         "terminated": 0,
         "total": 1,
@@ -173,36 +173,6 @@
       "source": "ClinicalTrials.gov NCT05021991",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05021991",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-PRAX-0001689548-25-000062",
-      "ticker": "PRAX",
-      "date": "2025-05-02",
-      "title": "8-K filed: Reg FD disclosure, Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 7.01, 8.01, 9.01. Reg FD disclosure; Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-02",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1689548/000168954825000062/prax-20250502.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-PRAX-0001689548-25-000056",
-      "ticker": "PRAX",
-      "date": "2025-05-02",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-02",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1689548/000168954825000056/prax-20250502.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {
@@ -641,21 +611,6 @@
       "status": "past"
     },
     {
-      "id": "ct-PRAX-NCT07019922",
-      "ticker": "PRAX",
-      "date": "2026-12-15",
-      "title": "A Clinical Trial of Elsunersen in Pediatric SCN2A-DEE to Assess Efficacy and Safety",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Epileptic Encephalopathy, SCN2A Encephalopathy · 40 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07019922",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07019922",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-PRAX-NCT07010471",
       "ticker": "PRAX",
       "date": "2026-12-15",
@@ -667,6 +622,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07010471",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07010471",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-PRAX-NCT07019922",
+      "ticker": "PRAX",
+      "date": "2026-12-15",
+      "title": "A Clinical Trial of Elsunersen in Pediatric SCN2A-DEE to Assess Efficacy and Safety",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Epileptic Encephalopathy, SCN2A Encephalopathy · 40 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07019922",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07019922",
       "origin": "registry",
       "status": "upcoming"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 25,
   "phase3": 8,
   "phase2": 17,
-  "generatedDate": "2026-11-03",
+  "generatedDate": "2026-11-04",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 29,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 12
+    "daysToNextCatalyst": 11
   },
   "trialStats": {
     "completed": 36,
@@ -76,6 +76,12 @@
         "total": 37,
         "completionRatePct": 67
       },
+      "phase1": {
+        "completed": 8,
+        "terminated": 0,
+        "total": 15,
+        "completionRatePct": 100
+      },
       "phase3": {
         "completed": 14,
         "terminated": 0,
@@ -87,12 +93,6 @@
         "terminated": 0,
         "total": 3,
         "completionRatePct": null
-      },
-      "phase1": {
-        "completed": 8,
-        "terminated": 0,
-        "total": 15,
-        "completionRatePct": 100
       }
     },
     "concluded": 44,
@@ -1766,21 +1766,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BNTX-NCT06449209",
-      "ticker": "BNTX",
-      "date": "2027-06-15",
-      "title": "Safety, Preliminary Effectiveness of BNT327, an Investigational Therapy for Patients With Small-cell Lung Cancer in Combination With Chemotherapy",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Extensive-stage Small-cell Lung Cancer, Small-cell Lung Cancer · 110 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06449209",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06449209",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BNTX-NCT07379580",
       "ticker": "BNTX",
       "date": "2027-06-15",
@@ -1792,6 +1777,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07379580",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07379580",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BNTX-NCT06449209",
+      "ticker": "BNTX",
+      "date": "2027-06-15",
+      "title": "Safety, Preliminary Effectiveness of BNT327, an Investigational Therapy for Patients With Small-cell Lung Cancer in Combination With Chemotherapy",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Extensive-stage Small-cell Lung Cancer, Small-cell Lung Cancer · 110 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06449209",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06449209",
       "origin": "registry",
       "status": "upcoming"
     },

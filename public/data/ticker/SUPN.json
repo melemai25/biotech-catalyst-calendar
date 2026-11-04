@@ -11,21 +11,21 @@
   "activeTrials": 6,
   "phase3": 1,
   "phase2": 5,
-  "generatedDate": "2026-11-03",
+  "generatedDate": "2026-11-04",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
     "isUsd": true,
-    "cashUsd": 175884000,
-    "shortTermInvestmentsUsd": 183575000,
+    "cashUsd": 305000000,
+    "shortTermInvestmentsUsd": null,
     "longTermInvestmentsUsd": null,
-    "totalCashUsd": 359459000,
+    "totalCashUsd": 305000000,
     "cashAsOf": "2026-09-30",
-    "longTermDebtUsd": null,
-    "netCashUsd": 359459000,
-    "stockholdersEquityUsd": 1062478000,
-    "accumulatedDeficitUsd": 478125000,
-    "operatingCashFlowUsd": 6606000,
+    "longTermDebtUsd": 0,
+    "netCashUsd": 305000000,
+    "stockholdersEquityUsd": -60000000,
+    "accumulatedDeficitUsd": -197000000,
+    "operatingCashFlowUsd": 97000000,
     "quarterlyBurnUsd": null,
     "burnPeriod": "2026-07-01 to 2026-09-30",
     "burnAsOf": "2026-09-30",
@@ -35,24 +35,24 @@
     "runwayMonths": null,
     "cashOutDate": null,
     "cashStatus": "cash-generating",
-    "capexQuarterlyUsd": 230000,
-    "freeCashFlowQuarterlyUsd": 6376000,
-    "freeCashFlowTtmUsd": 86956000,
-    "revenueQuarterlyUsd": 226771000,
-    "revenueTtmUsd": 865106000,
-    "rndQuarterlyUsd": 25756000,
-    "sgaQuarterlyUsd": 128056000,
-    "operatingIncomeQuarterlyUsd": 21179000,
-    "netIncomeQuarterlyUsd": 20913000,
-    "sharesOutstanding": 58235716,
-    "dilutionPctYoy": 1.6,
-    "dilutionFrom": "2025-10-29",
-    "stockIssuanceQuarterlyUsd": 2335000,
-    "cashPerShare": 6.17,
-    "rndIntensityPct": 17,
-    "fcfMarginPct": 10.1,
+    "capexQuarterlyUsd": 14000000,
+    "freeCashFlowQuarterlyUsd": 83000000,
+    "freeCashFlowTtmUsd": 31000000,
+    "revenueQuarterlyUsd": 356000000,
+    "revenueTtmUsd": 1374000000,
+    "rndQuarterlyUsd": null,
+    "sgaQuarterlyUsd": 119000000,
+    "operatingIncomeQuarterlyUsd": 180000000,
+    "netIncomeQuarterlyUsd": 137000000,
+    "sharesOutstanding": 118035272,
+    "dilutionPctYoy": -5.5,
+    "dilutionFrom": "2025-10-01",
+    "stockIssuanceQuarterlyUsd": 0,
+    "cashPerShare": 2.58,
+    "rndIntensityPct": null,
+    "fcfMarginPct": 2.3,
     "marketCapUsd": null,
-    "entityName": "SUPERNUS PHARMACEUTICALS, INC.",
+    "entityName": "Indivior Pharmaceuticals, Inc.",
     "financingSinceCash": [
       {
         "date": "2026-11-02",
@@ -68,7 +68,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2026-12-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 57
+    "daysToNextCatalyst": 56
   },
   "trialStats": {
     "completed": 47,
@@ -84,11 +84,11 @@
         "total": 22,
         "completionRatePct": 94
       },
-      "phase3": {
-        "completed": 14,
-        "terminated": 3,
-        "total": 19,
-        "completionRatePct": 82
+      "phase1": {
+        "completed": 10,
+        "terminated": 0,
+        "total": 10,
+        "completionRatePct": 100
       },
       "other": {
         "completed": 7,
@@ -96,11 +96,11 @@
         "total": 13,
         "completionRatePct": 88
       },
-      "phase1": {
-        "completed": 10,
-        "terminated": 0,
-        "total": 10,
-        "completionRatePct": 100
+      "phase3": {
+        "completed": 14,
+        "terminated": 3,
+        "total": 19,
+        "completionRatePct": 82
       }
     },
     "concluded": 53,
@@ -439,21 +439,6 @@
       "status": "past"
     },
     {
-      "id": "ct-SUPN-NCT04476017",
-      "ticker": "SUPN",
-      "date": "2022-03-25",
-      "title": "A Study to Evaluate the Safety and Tolerability of SAGE-718 in Participants With Parkinson's Disease Mild Cognitive Impairment (PD-MCI)",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Parkinson Disease, Cognitive Dysfunction · 18 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT04476017",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04476017",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-SUPN-NCT05102552",
       "ticker": "SUPN",
       "date": "2022-03-25",
@@ -465,6 +450,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05102552",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05102552",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-SUPN-NCT04476017",
+      "ticker": "SUPN",
+      "date": "2022-03-25",
+      "title": "A Study to Evaluate the Safety and Tolerability of SAGE-718 in Participants With Parkinson's Disease Mild Cognitive Impairment (PD-MCI)",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Parkinson Disease, Cognitive Dysfunction · 18 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT04476017",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04476017",
       "origin": "registry",
       "status": "past"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-11-03",
+  "generatedDate": "2026-11-04",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-12-17",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 44
+    "daysToNextCatalyst": 43
   },
   "trialStats": {
     "completed": 10,
@@ -70,6 +70,12 @@
     "ongoing": 2,
     "withResults": 2,
     "byPhase": {
+      "phase2": {
+        "completed": 4,
+        "terminated": 2,
+        "total": 6,
+        "completionRatePct": 67
+      },
       "phase3": {
         "completed": 3,
         "terminated": 0,
@@ -81,12 +87,6 @@
         "terminated": 0,
         "total": 3,
         "completionRatePct": null
-      },
-      "phase2": {
-        "completed": 4,
-        "terminated": 2,
-        "total": 6,
-        "completionRatePct": 67
       }
     },
     "concluded": 12,
@@ -94,21 +94,6 @@
     "resultsPostedPct": 20
   },
   "events": [
-    {
-      "id": "edgar-VCEL-0001140361-25-017110",
-      "ticker": "VCEL",
-      "date": "2025-05-02",
-      "title": "8-K filed: Leadership change",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.02, 5.07, 9.01. Leadership change. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-02",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/887359/000114036125017110/ef20048395_8k.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
     {
       "id": "edgar-VCEL-0001628280-25-023481",
       "ticker": "VCEL",

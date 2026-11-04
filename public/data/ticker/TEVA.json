@@ -11,83 +11,63 @@
   "activeTrials": 6,
   "phase3": 2,
   "phase2": 4,
-  "generatedDate": "2026-11-03",
+  "generatedDate": "2026-11-04",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
     "isUsd": true,
-    "cashUsd": 3655000000,
+    "cashUsd": 4085000000,
     "shortTermInvestmentsUsd": null,
     "longTermInvestmentsUsd": null,
-    "totalCashUsd": 3655000000,
-    "cashAsOf": "2026-06-30",
+    "totalCashUsd": 4085000000,
+    "cashAsOf": "2026-09-30",
     "longTermDebtUsd": null,
-    "netCashUsd": 3655000000,
-    "stockholdersEquityUsd": 7753000000,
-    "accumulatedDeficitUsd": -13969000000,
-    "operatingCashFlowUsd": 411000000,
+    "netCashUsd": 4085000000,
+    "stockholdersEquityUsd": 7979000000,
+    "accumulatedDeficitUsd": -13736000000,
+    "operatingCashFlowUsd": 241000000,
     "quarterlyBurnUsd": null,
-    "burnPeriod": "2026-04-01 to 2026-06-30",
-    "burnAsOf": "2026-06-30",
+    "burnPeriod": "2026-07-01 to 2026-09-30",
+    "burnAsOf": "2026-09-30",
     "burnDerived": false,
     "burnBasis": "quarter",
     "burnScaled": false,
     "runwayMonths": null,
     "cashOutDate": null,
     "cashStatus": "cash-generating",
-    "capexQuarterlyUsd": 104000000,
-    "freeCashFlowQuarterlyUsd": 307000000,
-    "freeCashFlowTtmUsd": 1348000000,
-    "revenueQuarterlyUsd": 4142000000,
-    "revenueTtmUsd": 17315000000,
+    "capexQuarterlyUsd": 120000000,
+    "freeCashFlowQuarterlyUsd": 121000000,
+    "freeCashFlowTtmUsd": 1236000000,
+    "revenueQuarterlyUsd": 4395000000,
+    "revenueTtmUsd": 17230000000,
     "rndQuarterlyUsd": null,
-    "sgaQuarterlyUsd": 317000000,
-    "operatingIncomeQuarterlyUsd": -231000000,
-    "netIncomeQuarterlyUsd": -576000000,
-    "sharesOutstanding": 1165296084,
-    "dilutionPctYoy": 1.6,
-    "dilutionFrom": "2025-06-30",
+    "sgaQuarterlyUsd": 298000000,
+    "operatingIncomeQuarterlyUsd": 714000000,
+    "netIncomeQuarterlyUsd": 233000000,
+    "sharesOutstanding": 1166826784,
+    "dilutionPctYoy": 1.7,
+    "dilutionFrom": "2025-09-30",
     "stockIssuanceQuarterlyUsd": null,
-    "cashPerShare": 3.14,
+    "cashPerShare": 3.5,
     "rndIntensityPct": null,
-    "fcfMarginPct": 7.8,
+    "fcfMarginPct": 7.2,
     "marketCapUsd": null,
     "entityName": "TEVA PHARMACEUTICAL INDUSTRIES LIMITED",
-    "financingSinceCash": [
-      {
-        "date": "2026-09-16",
-        "form": "8-K",
-        "label": "New debt or financing obligation",
-        "url": "https://www.sec.gov/Archives/edgar/data/818686/000119312526393116/d155511d8k.htm"
-      },
-      {
-        "date": "2026-09-11",
-        "form": "424B5",
-        "label": "Prospectus supplement",
-        "url": "https://www.sec.gov/Archives/edgar/data/818686/000119312526389382/d158426d424b5.htm"
-      },
-      {
-        "date": "2026-09-08",
-        "form": "424B5",
-        "label": "Prospectus supplement",
-        "url": "https://www.sec.gov/Archives/edgar/data/818686/000119312526384343/d158426d424b5.htm"
-      }
-    ],
     "activeTrials": 20,
     "phase3Count": 4,
     "phase2Count": 7,
     "leadPhase": 4,
-    "upcomingCount": 6,
-    "nextCatalystDate": "2027-01-15",
+    "upcomingCount": 7,
+    "nextCatalystDate": "2026-12-31",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 73
+    "daysToNextCatalyst": 57
   },
   "trialStats": {
-    "completed": 7,
+    "completed": 8,
     "terminated": 4,
     "withdrawn": 1,
     "suspended": 0,
-    "ongoing": 11,
+    "ongoing": 10,
     "withResults": 9,
     "byPhase": {
       "phase2": {
@@ -102,22 +82,22 @@
         "total": 9,
         "completionRatePct": 80
       },
+      "phase3": {
+        "completed": 3,
+        "terminated": 0,
+        "total": 4,
+        "completionRatePct": null
+      },
       "other": {
         "completed": 1,
         "terminated": 0,
         "total": 3,
         "completionRatePct": null
-      },
-      "phase3": {
-        "completed": 2,
-        "terminated": 0,
-        "total": 4,
-        "completionRatePct": null
       }
     },
-    "concluded": 12,
-    "completionRatePct": 58,
-    "resultsPostedPct": 129
+    "concluded": 13,
+    "completionRatePct": 62,
+    "resultsPostedPct": 113
   },
   "events": [
     {
@@ -526,6 +506,21 @@
       "status": "past"
     },
     {
+      "id": "ct-TEVA-NCT06664619",
+      "ticker": "TEVA",
+      "date": "2026-10-26",
+      "title": "A Randomized, Double-Blind, Placebo-Controlled Trial on Efficacy and Safety of Fluticasone Propionate/Albuterol Sulfate Combination in Participants 12 Years and Older With Asthma",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Asthma · 649 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06664619",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06664619",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "edgar-TEVA-0001193125-26-438019",
       "ticker": "TEVA",
       "date": "2026-10-29",
@@ -538,36 +533,6 @@
       "source": "SEC EDGAR 8-K 2026-10-29",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/818686/000119312526438019/teva-20261027.htm",
       "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "ct-TEVA-NCT06052267",
-      "ticker": "TEVA",
-      "date": "2026-10-31",
-      "title": "A Study to Test if a Fixed-Dose Combination of Fluticasone Propionate/Albuterol Sulfate is Effective in Preventing Asthma Exacerbations",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Asthma · 2,772 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06052267",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06052267",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "ct-TEVA-NCT06664619",
-      "ticker": "TEVA",
-      "date": "2026-11-02",
-      "title": "A Randomized, Double-Blind, Placebo-Controlled Trial on Efficacy and Safety of Fluticasone Propionate/Albuterol Sulfate Combination in Participants 12 Years and Older With Asthma",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Asthma · 649 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06664619",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06664619",
-      "origin": "registry",
       "status": "past"
     },
     {
@@ -584,6 +549,21 @@
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/818686/000117184326007054/f8k_110326.htm",
       "origin": "edgar",
       "status": "past"
+    },
+    {
+      "id": "ct-TEVA-NCT06052267",
+      "ticker": "TEVA",
+      "date": "2026-12-31",
+      "title": "A Study to Test if a Fixed-Dose Combination of Fluticasone Propionate/Albuterol Sulfate is Effective in Preventing Asthma Exacerbations",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Asthma · 2,769 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06052267",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06052267",
+      "origin": "registry",
+      "status": "upcoming"
     },
     {
       "id": "ct-TEVA-NCT07674940",

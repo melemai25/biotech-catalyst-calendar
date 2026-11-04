@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-11-03",
+  "generatedDate": "2026-11-04",
   "metrics": {
     "reportingCurrency": "CHF",
     "taxonomy": "ifrs-full",
@@ -53,6 +53,14 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "Oculis Holding AG",
+    "financingSinceCash": [
+      {
+        "date": "2026-11-03",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1953530/000119312526445455/ocs-20261103.htm"
+      }
+    ],
     "activeTrials": 10,
     "phase3Count": 6,
     "phase2Count": 6,
@@ -60,7 +68,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 42
+    "daysToNextCatalyst": 41
   },
   "trialStats": {
     "completed": 7,
@@ -70,17 +78,17 @@
     "ongoing": 2,
     "withResults": 4,
     "byPhase": {
-      "phase3": {
-        "completed": 3,
-        "terminated": 1,
-        "total": 6,
-        "completionRatePct": 75
-      },
       "phase2": {
         "completed": 4,
         "terminated": 0,
         "total": 4,
         "completionRatePct": 100
+      },
+      "phase3": {
+        "completed": 3,
+        "terminated": 1,
+        "total": 6,
+        "completionRatePct": 75
       }
     },
     "concluded": 8,
@@ -505,6 +513,21 @@
       "result": null,
       "source": "SEC EDGAR 6-K 2026-09-30",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1953530/000119312526409212/board_change_6-k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-OCS-0001193125-26-445380",
+      "ticker": "OCS",
+      "date": "2026-11-03",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-11-03",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1953530/000119312526445380/q3_2026_6-k_fs_mda_pr.htm",
       "origin": "edgar",
       "status": "past"
     },

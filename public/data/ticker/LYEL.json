@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 1,
   "phase2": 2,
-  "generatedDate": "2026-11-03",
+  "generatedDate": "2026-11-04",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,6 +53,14 @@
     "fcfMarginPct": -496188.9,
     "marketCapUsd": null,
     "entityName": "Lyell Immunopharma, Inc.",
+    "financingSinceCash": [
+      {
+        "date": "2026-11-04",
+        "form": "8-K",
+        "label": "Unregistered sale of shares (private placement)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1806952/000119312526446317/d158628d8k.htm"
+      }
+    ],
     "activeTrials": 5,
     "phase3Count": 1,
     "phase2Count": 2,
@@ -60,7 +68,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-11-06",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 3
+    "daysToNextCatalyst": 2
   },
   "trialStats": {
     "completed": 0,
@@ -76,6 +84,12 @@
         "total": 3,
         "completionRatePct": null
       },
+      "phase3": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 1,
+        "completionRatePct": null
+      },
       "phase1": {
         "completed": 0,
         "terminated": 2,
@@ -85,12 +99,6 @@
       "other": {
         "completed": 0,
         "terminated": 1,
-        "total": 1,
-        "completionRatePct": null
-      },
-      "phase3": {
-        "completed": 0,
-        "terminated": 0,
         "total": 1,
         "completionRatePct": null
       }

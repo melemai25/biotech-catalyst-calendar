@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 2,
   "phase2": 1,
-  "generatedDate": "2026-11-03",
+  "generatedDate": "2026-11-04",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,24 +60,18 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2026-11-13",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 10
+    "daysToNextCatalyst": 9
   },
   "trialStats": {
-    "completed": 5,
+    "completed": 7,
     "terminated": 2,
     "withdrawn": 0,
     "suspended": 0,
-    "ongoing": 4,
+    "ongoing": 2,
     "withResults": 4,
     "byPhase": {
-      "phase3": {
-        "completed": 2,
-        "terminated": 2,
-        "total": 5,
-        "completionRatePct": 50
-      },
       "phase2": {
-        "completed": 2,
+        "completed": 3,
         "terminated": 0,
         "total": 4,
         "completionRatePct": null
@@ -87,11 +81,17 @@
         "terminated": 0,
         "total": 2,
         "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 3,
+        "terminated": 2,
+        "total": 5,
+        "completionRatePct": 60
       }
     },
-    "concluded": 7,
-    "completionRatePct": 71,
-    "resultsPostedPct": 80
+    "concluded": 9,
+    "completionRatePct": 78,
+    "resultsPostedPct": 57
   },
   "events": [
     {
@@ -470,21 +470,6 @@
       "status": "past"
     },
     {
-      "id": "ct-VTGN-NCT06809179",
-      "ticker": "VTGN",
-      "date": "2026-04-15",
-      "title": "A Clinical Trial to Assess the Efficacy, Safety, and Tolerability of a Repeat Dose of Fasedienol Nasal Spray for the Acute Treatment of Anxiety in Adults With Social Anxiety Disorder",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Social Anxiety Disorder · 60 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06809179",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06809179",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-VTGN-NCT06615557",
       "ticker": "VTGN",
       "date": "2026-04-21",
@@ -492,7 +477,7 @@
       "type": "Trial Milestone",
       "phase": "Phase 3",
       "estimated": false,
-      "summary": "Social Anxiety Disorder (SAD) · 238 participants · Status: Active Not Recruiting",
+      "summary": "Social Anxiety Disorder (SAD) · 238 participants · Status: Completed",
       "result": null,
       "source": "ClinicalTrials.gov NCT06615557",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06615557",
@@ -572,6 +557,21 @@
       "source": "SEC EDGAR 8-K 2026-06-09",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411685/000162828026041962/vtgn-20260609.htm",
       "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "ct-VTGN-NCT06809179",
+      "ticker": "VTGN",
+      "date": "2026-06-12",
+      "title": "A Clinical Trial to Assess the Efficacy, Safety, and Tolerability of a Repeat Dose of Fasedienol Nasal Spray for the Acute Treatment of Anxiety in Adults With Social Anxiety Disorder",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Social Anxiety Disorder · 61 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06809179",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06809179",
+      "origin": "registry",
       "status": "past"
     },
     {

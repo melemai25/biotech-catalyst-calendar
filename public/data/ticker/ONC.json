@@ -11,7 +11,7 @@
   "activeTrials": 27,
   "phase3": 15,
   "phase2": 12,
-  "generatedDate": "2026-11-03",
+  "generatedDate": "2026-11-04",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 53,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 12
+    "daysToNextCatalyst": 11
   },
   "trialStats": {
     "completed": 5,
@@ -70,10 +70,10 @@
     "ongoing": 58,
     "withResults": 1,
     "byPhase": {
-      "phase3": {
-        "completed": 1,
+      "phase2": {
+        "completed": 0,
         "terminated": 0,
-        "total": 16,
+        "total": 14,
         "completionRatePct": null
       },
       "phase1": {
@@ -82,10 +82,10 @@
         "total": 37,
         "completionRatePct": 44
       },
-      "phase2": {
-        "completed": 0,
+      "phase3": {
+        "completed": 1,
         "terminated": 0,
-        "total": 14,
+        "total": 16,
         "completionRatePct": null
       },
       "other": {
@@ -596,21 +596,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT06625593",
-      "ticker": "ONC",
-      "date": "2026-12-31",
-      "title": "A First-in-Human (FIH) Study of BG-C137, an Anti-Fibroblast Growth Factor Receptor 2b (FGFR2b) Antibody Drug Conjugate, in Participants With Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Advanced Solid Tumor · 168 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06625593",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06625593",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ONC-NCT04170283",
       "ticker": "ONC",
       "date": "2026-12-31",
@@ -622,6 +607,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04170283",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04170283",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ONC-NCT06625593",
+      "ticker": "ONC",
+      "date": "2026-12-31",
+      "title": "A First-in-Human (FIH) Study of BG-C137, an Anti-Fibroblast Growth Factor Receptor 2b (FGFR2b) Antibody Drug Conjugate, in Participants With Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Advanced Solid Tumor · 168 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06625593",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06625593",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -956,21 +956,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT06589596",
-      "ticker": "ONC",
-      "date": "2028-08-31",
-      "title": "An Investigational Study of BGB-58067 As a Single Agent and in Combination With Anticancer Agents in Participants With Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Advanced Solid Tumor · 695 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06589596",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06589596",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ONC-NCT04771130",
       "ticker": "ONC",
       "date": "2028-08-31",
@@ -982,6 +967,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04771130",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04771130",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ONC-NCT06589596",
+      "ticker": "ONC",
+      "date": "2028-08-31",
+      "title": "An Investigational Study of BGB-58067 As a Single Agent and in Combination With Anticancer Agents in Participants With Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Advanced Solid Tumor · 695 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06589596",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06589596",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1001,21 +1001,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT07619287",
-      "ticker": "ONC",
-      "date": "2028-09-30",
-      "title": "An Investigational Study of BG-75202 Alone and in Combination With Other Agents in Patients With Myeloid Malignancies",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Myeloid Malignancy · 118 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07619287",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07619287",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ONC-NCT06598800",
       "ticker": "ONC",
       "date": "2028-09-30",
@@ -1027,6 +1012,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06598800",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06598800",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ONC-NCT07619287",
+      "ticker": "ONC",
+      "date": "2028-09-30",
+      "title": "An Investigational Study of BG-75202 Alone and in Combination With Other Agents in Patients With Myeloid Malignancies",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Myeloid Malignancy · 118 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07619287",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07619287",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1136,21 +1136,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT07222267",
-      "ticker": "ONC",
-      "date": "2029-09-30",
-      "title": "An Investigational Study of BG-75202 Alone and in Combination With Other Therapeutic Agents in Adults With Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Breast Cancer, Advanced Solid Tumor · 86 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07222267",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07222267",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ONC-NCT06943872",
       "ticker": "ONC",
       "date": "2029-09-30",
@@ -1162,6 +1147,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06943872",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06943872",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ONC-NCT07222267",
+      "ticker": "ONC",
+      "date": "2029-09-30",
+      "title": "An Investigational Study of BG-75202 Alone and in Combination With Other Therapeutic Agents in Adults With Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Breast Cancer, Advanced Solid Tumor · 86 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07222267",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07222267",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1196,6 +1196,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-ONC-NCT07811271",
+      "ticker": "ONC",
+      "date": "2029-11-30",
+      "title": "Efficacy and Safety of BG-C9074 With Bevacizumab Compared With Bevacizumab in Adults With Ovarian, Fallopian Tube, or Primary Peritoneal Cancers",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Epithelial Ovarian Cancer, Fallopian Tube Cancer, Primary Peritoneal Cancer · 600 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07811271",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07811271",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-ONC-NCT06697184",
       "ticker": "ONC",
       "date": "2029-11-30",
@@ -1222,21 +1237,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06970743",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06970743",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-ONC-NCT07811271",
-      "ticker": "ONC",
-      "date": "2029-11-30",
-      "title": "Efficacy and Safety of BG-C9074 With Bevacizumab Compared With Bevacizumab in Adults With Ovarian, Fallopian Tube, or Primary Peritoneal Cancers",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Epithelial Ovarian Cancer, Fallopian Tube Cancer, Primary Peritoneal Cancer · 600 participants · Status: Not Yet Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07811271",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07811271",
       "origin": "registry",
       "status": "upcoming"
     },

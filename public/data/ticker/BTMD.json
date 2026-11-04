@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-03",
+  "generatedDate": "2026-11-04",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -58,9 +58,9 @@
     "phase2Count": 4,
     "leadPhase": 3,
     "upcomingCount": 2,
-    "nextCatalystDate": "2026-11-04",
+    "nextCatalystDate": "2027-02-03",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 91
   },
   "trialStats": {
     "completed": 17,
@@ -70,11 +70,11 @@
     "ongoing": 1,
     "withResults": 8,
     "byPhase": {
-      "phase2": {
-        "completed": 9,
+      "phase3": {
+        "completed": 6,
         "terminated": 2,
-        "total": 11,
-        "completionRatePct": 82
+        "total": 10,
+        "completionRatePct": 75
       },
       "phase1": {
         "completed": 2,
@@ -82,11 +82,11 @@
         "total": 3,
         "completionRatePct": null
       },
-      "phase3": {
-        "completed": 6,
+      "phase2": {
+        "completed": 9,
         "terminated": 2,
-        "total": 10,
-        "completionRatePct": 75
+        "total": 11,
+        "completionRatePct": 82
       }
     },
     "concluded": 23,
@@ -442,7 +442,7 @@
     {
       "id": "edgar-BTMD-next-earnings",
       "ticker": "BTMD",
-      "date": "2026-11-04",
+      "date": "2027-02-03",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,
