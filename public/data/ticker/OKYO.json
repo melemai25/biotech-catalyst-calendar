@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-04",
+  "generatedDate": "2026-11-05",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -80,7 +80,7 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2027-05-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 192
+    "daysToNextCatalyst": 191
   },
   "trialStats": {
     "completed": 1,
@@ -930,6 +930,21 @@
       "result": null,
       "source": "SEC EDGAR 6-K 2026-10-06",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1849296/000149315226045836/form6-k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-OKYO-0001493152-26-050047",
+      "ticker": "OKYO",
+      "date": "2026-11-05",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-11-05",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1849296/000149315226050047/form6-k.htm",
       "origin": "edgar",
       "status": "past"
     },

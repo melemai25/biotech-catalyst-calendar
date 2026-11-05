@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-04",
+  "generatedDate": "2026-11-05",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -65,10 +65,10 @@
     "phase3Count": 0,
     "phase2Count": 2,
     "leadPhase": 2,
-    "upcomingCount": 4,
+    "upcomingCount": 5,
     "nextCatalystDate": "2027-01-15",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 72
+    "daysToNextCatalyst": 71
   },
   "trialStats": {
     "completed": 1,
@@ -502,21 +502,6 @@
       "status": "past"
     },
     {
-      "id": "ct-CNSY-NCT07098806",
-      "ticker": "CNSY",
-      "date": "2026-10-02",
-      "title": "Multiple Dose Intraventricular Administration of Rhenium-186 NanoLiposome for Leptomeningeal Metastases",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Leptomeningeal Metastasis · 24 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07098806",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07098806",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "edgar-CNSY-0001193125-26-411259",
       "ticker": "CNSY",
       "date": "2026-10-02",
@@ -573,6 +558,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT01906385",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT01906385",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-CNSY-NCT07098806",
+      "ticker": "CNSY",
+      "date": "2027-07-31",
+      "title": "Multiple Dose Intraventricular Administration of Rhenium-186 NanoLiposome for Leptomeningeal Metastases",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Leptomeningeal Metastasis · 24 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07098806",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07098806",
       "origin": "registry",
       "status": "upcoming"
     },

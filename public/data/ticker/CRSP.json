@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-11-04",
+  "generatedDate": "2026-11-05",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,12 +55,12 @@
     "entityName": "CRISPR THERAPEUTICS AG",
     "activeTrials": 11,
     "phase3Count": 0,
-    "phase2Count": 5,
+    "phase2Count": 4,
     "leadPhase": 2,
     "upcomingCount": 5,
     "nextCatalystDate": "2027-02-01",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 89
+    "daysToNextCatalyst": 88
   },
   "trialStats": {
     "completed": 2,
@@ -71,15 +71,15 @@
     "withResults": 1,
     "byPhase": {
       "phase1": {
-        "completed": 1,
+        "completed": 2,
         "terminated": 4,
-        "total": 6,
-        "completionRatePct": 20
+        "total": 7,
+        "completionRatePct": 33
       },
       "phase2": {
-        "completed": 1,
+        "completed": 0,
         "terminated": 1,
-        "total": 5,
+        "total": 4,
         "completionRatePct": null
       },
       "other": {
@@ -250,7 +250,7 @@
       "date": "2025-09-18",
       "title": "A Safety and Efficacy Study Evaluating CTX131 in Adult Subjects With Relapsed or Refractory Solid Tumors",
       "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
+      "phase": "Phase 1",
       "estimated": false,
       "summary": "Clear Cell Renal Cell Carcinoma, Cervical Carcinoma, Esophageal Carcinoma · 19 participants · Status: Completed",
       "result": null,

@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 4,
   "phase2": 0,
-  "generatedDate": "2026-11-04",
+  "generatedDate": "2026-11-05",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,6 +55,18 @@
     "entityName": "Quoin Pharmaceuticals Ltd.",
     "financingSinceCash": [
       {
+        "date": "2026-11-04",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1671502/000110465926122776/tm2628246d2_424b5.htm"
+      },
+      {
+        "date": "2026-11-04",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1671502/000110465926122766/tm2628246d4_424b5.htm"
+      },
+      {
         "date": "2026-09-25",
         "form": "424B3",
         "label": "Prospectus (often a resale after a private placement)",
@@ -74,7 +86,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-11-13",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 9
+    "daysToNextCatalyst": 8
   },
   "trialStats": {
     "completed": 0,
@@ -528,6 +540,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-10-20",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1671502/000110465926117080/tm2627720d1_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-QNRX-0001104659-26-122790",
+      "ticker": "QNRX",
+      "date": "2026-11-04",
+      "title": "8-K filed: Material agreement",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 1.01, 9.01. Material agreement. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-04",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1671502/000110465926122790/tm2628971d1_8k.htm",
       "origin": "edgar",
       "status": "past"
     },

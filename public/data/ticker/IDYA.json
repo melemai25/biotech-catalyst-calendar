@@ -11,7 +11,7 @@
   "activeTrials": 6,
   "phase3": 3,
   "phase2": 3,
-  "generatedDate": "2026-11-04",
+  "generatedDate": "2026-11-05",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 11,
     "nextCatalystDate": "2027-01-07",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 64
+    "daysToNextCatalyst": 63
   },
   "trialStats": {
     "completed": 0,
@@ -70,16 +70,16 @@
     "ongoing": 11,
     "withResults": 0,
     "byPhase": {
-      "phase1": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 5,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 0,
         "terminated": 0,
         "total": 3,
+        "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 5,
         "completionRatePct": null
       },
       "phase3": {
@@ -547,12 +547,12 @@
     {
       "id": "ct-IDYA-NCT07540572",
       "ticker": "IDYA",
-      "date": "2030-03-30",
+      "date": "2029-12-31",
       "title": "A Study to Investigate the Safety, Pharmacokinetics, and Preliminary Efficacy of IDE574 Therapy in Adult Participants With Advanced Solid Tumors",
       "type": "Trial Milestone",
       "phase": "Phase 1",
       "estimated": false,
-      "summary": "ER+, HER 2- Breast Cancer, Non-small Cell Lung Cancer (NSCLC), Castration-resistant Prostate Cancer (CRPC) · 160 participants · Status: Recruiting",
+      "summary": "Cancer · 155 participants · Status: Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT07540572",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07540572",

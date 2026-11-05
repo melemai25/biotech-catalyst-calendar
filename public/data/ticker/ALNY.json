@@ -11,7 +11,7 @@
   "activeTrials": 12,
   "phase3": 4,
   "phase2": 8,
-  "generatedDate": "2026-11-04",
+  "generatedDate": "2026-11-05",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 20,
     "nextCatalystDate": "2026-12-29",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 55
+    "daysToNextCatalyst": 54
   },
   "trialStats": {
     "completed": 43,
@@ -70,17 +70,11 @@
     "ongoing": 30,
     "withResults": 24,
     "byPhase": {
-      "phase3": {
-        "completed": 10,
-        "terminated": 0,
+      "other": {
+        "completed": 3,
+        "terminated": 2,
         "total": 15,
-        "completionRatePct": 100
-      },
-      "phase1": {
-        "completed": 14,
-        "terminated": 3,
-        "total": 24,
-        "completionRatePct": 82
+        "completionRatePct": 60
       },
       "phase2": {
         "completed": 16,
@@ -88,11 +82,17 @@
         "total": 30,
         "completionRatePct": 76
       },
-      "other": {
-        "completed": 3,
-        "terminated": 2,
+      "phase1": {
+        "completed": 14,
+        "terminated": 3,
+        "total": 24,
+        "completionRatePct": 82
+      },
+      "phase3": {
+        "completed": 10,
+        "terminated": 0,
         "total": 15,
-        "completionRatePct": 60
+        "completionRatePct": 100
       }
     },
     "concluded": 54,
@@ -832,6 +832,21 @@
       "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
       "source": "SEC EDGAR 8-K 2026-10-29",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1178670/000117867026000074/alny-20261029.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-ALNY-0001178670-26-000080",
+      "ticker": "ALNY",
+      "date": "2026-11-05",
+      "title": "8-K filed: Leadership change, Other event",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 5.02, 8.01. Leadership change; Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-05",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1178670/000117867026000080/alny-20261102.htm",
       "origin": "edgar",
       "status": "past"
     },

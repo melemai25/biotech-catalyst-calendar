@@ -11,7 +11,7 @@
   "activeTrials": 14,
   "phase3": 5,
   "phase2": 9,
-  "generatedDate": "2026-11-04",
+  "generatedDate": "2026-11-05",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 14,
     "nextCatalystDate": "2027-01-02",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 59
+    "daysToNextCatalyst": 58
   },
   "trialStats": {
     "completed": 61,
@@ -941,17 +941,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BMRN-NCT02724228",
+      "id": "ct-BMRN-NCT04554940",
       "ticker": "BMRN",
       "date": "2027-12-15",
-      "title": "A Study to Evaluate Long-Term Safety, Tolerability, & Efficacy of BMN 111 in Children With Achondroplasia (ACH)",
+      "title": "A Clinical Trial to Evaluate Safety of Vosoritide in At-risk Infants With Achondroplasia",
       "type": "Trial Milestone",
       "phase": "Phase 2",
       "estimated": false,
-      "summary": "Achondroplasia · 30 participants · Status: Active Not Recruiting",
+      "summary": "Achondroplasia · 20 participants · Status: Active Not Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT02724228",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02724228",
+      "source": "ClinicalTrials.gov NCT04554940",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04554940",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -971,17 +971,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BMRN-NCT04554940",
+      "id": "ct-BMRN-NCT02724228",
       "ticker": "BMRN",
       "date": "2027-12-15",
-      "title": "A Clinical Trial to Evaluate Safety of Vosoritide in At-risk Infants With Achondroplasia",
+      "title": "A Study to Evaluate Long-Term Safety, Tolerability, & Efficacy of BMN 111 in Children With Achondroplasia (ACH)",
       "type": "Trial Milestone",
       "phase": "Phase 2",
       "estimated": false,
-      "summary": "Achondroplasia · 20 participants · Status: Active Not Recruiting",
+      "summary": "Achondroplasia · 30 participants · Status: Active Not Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT04554940",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04554940",
+      "source": "ClinicalTrials.gov NCT02724228",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02724228",
       "origin": "registry",
       "status": "upcoming"
     },

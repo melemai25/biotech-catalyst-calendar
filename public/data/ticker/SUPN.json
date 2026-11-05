@@ -11,7 +11,7 @@
   "activeTrials": 6,
   "phase3": 1,
   "phase2": 5,
-  "generatedDate": "2026-11-04",
+  "generatedDate": "2026-11-05",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -68,7 +68,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2026-12-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 56
+    "daysToNextCatalyst": 55
   },
   "trialStats": {
     "completed": 47,
@@ -78,18 +78,6 @@
     "ongoing": 11,
     "withResults": 37,
     "byPhase": {
-      "phase2": {
-        "completed": 16,
-        "terminated": 1,
-        "total": 22,
-        "completionRatePct": 94
-      },
-      "phase1": {
-        "completed": 10,
-        "terminated": 0,
-        "total": 10,
-        "completionRatePct": 100
-      },
       "other": {
         "completed": 7,
         "terminated": 1,
@@ -101,6 +89,18 @@
         "terminated": 3,
         "total": 19,
         "completionRatePct": 82
+      },
+      "phase2": {
+        "completed": 16,
+        "terminated": 1,
+        "total": 22,
+        "completionRatePct": 94
+      },
+      "phase1": {
+        "completed": 10,
+        "terminated": 0,
+        "total": 10,
+        "completionRatePct": 100
       }
     },
     "concluded": 53,
@@ -1084,21 +1084,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-SUPN-NCT07141329",
-      "ticker": "SUPN",
-      "date": "2027-12-31",
-      "title": "SPN-817 Open-Label Extension Study in Adults With Focal Onset Seizures",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Focal Onset Seizures · 100 participants · Status: Enrolling By Invitation",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07141329",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07141329",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-SUPN-NCT05518578",
       "ticker": "SUPN",
       "date": "2027-12-31",
@@ -1110,6 +1095,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05518578",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05518578",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-SUPN-NCT07141329",
+      "ticker": "SUPN",
+      "date": "2027-12-31",
+      "title": "SPN-817 Open-Label Extension Study in Adults With Focal Onset Seizures",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Focal Onset Seizures · 100 participants · Status: Enrolling By Invitation",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07141329",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07141329",
       "origin": "registry",
       "status": "upcoming"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 2,
   "phase2": 1,
-  "generatedDate": "2026-11-04",
+  "generatedDate": "2026-11-05",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 11
+    "daysToNextCatalyst": 10
   },
   "trialStats": {
     "completed": 1,
@@ -575,19 +575,19 @@
       "status": "past"
     },
     {
-      "id": "ct-IMUX-NCT05201638",
+      "id": "edgar-IMUX-0001193805-26-001432",
       "ticker": "IMUX",
-      "date": "2026-11-15",
-      "title": "Study to Evaluate the Efficacy, Safety and Tolerability of IMU-838 in Patients With Relapsing Multiple Sclerosis",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
+      "date": "2026-11-05",
+      "title": "8-K filed: Reg FD disclosure",
+      "type": "Filing",
+      "phase": null,
       "estimated": false,
-      "summary": "Multiple Sclerosis, Relapsing-Remitting · 1,100 participants · Status: Active Not Recruiting",
+      "summary": "SEC Form 8-K, items 7.01, 9.01. Reg FD disclosure.",
       "result": null,
-      "source": "ClinicalTrials.gov NCT05201638",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05201638",
-      "origin": "registry",
-      "status": "upcoming"
+      "source": "SEC EDGAR 8-K 2026-11-05",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1280776/000119380526001432/e665870_8k-immunic.htm",
+      "origin": "edgar",
+      "status": "past"
     },
     {
       "id": "ct-IMUX-NCT05134441",
@@ -601,6 +601,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05134441",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05134441",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-IMUX-NCT05201638",
+      "ticker": "IMUX",
+      "date": "2026-11-15",
+      "title": "Study to Evaluate the Efficacy, Safety and Tolerability of IMU-838 in Patients With Relapsing Multiple Sclerosis",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Multiple Sclerosis, Relapsing-Remitting · 1,100 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05201638",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05201638",
       "origin": "registry",
       "status": "upcoming"
     },

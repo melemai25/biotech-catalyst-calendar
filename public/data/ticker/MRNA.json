@@ -11,7 +11,7 @@
   "activeTrials": 15,
   "phase3": 2,
   "phase2": 13,
-  "generatedDate": "2026-11-04",
+  "generatedDate": "2026-11-05",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -61,33 +61,27 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1682852/000119312526378505/d108896d8k.htm"
       }
     ],
-    "activeTrials": 94,
+    "activeTrials": 96,
     "phase3Count": 23,
     "phase2Count": 42,
     "leadPhase": 4,
-    "upcomingCount": 26,
+    "upcomingCount": 28,
     "nextCatalystDate": "2026-11-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 26
+    "daysToNextCatalyst": 25
   },
   "trialStats": {
     "completed": 78,
     "terminated": 6,
     "withdrawn": 4,
     "suspended": 0,
-    "ongoing": 29,
+    "ongoing": 31,
     "withResults": 36,
     "byPhase": {
-      "phase3": {
-        "completed": 20,
-        "terminated": 1,
-        "total": 23,
-        "completionRatePct": 95
-      },
       "phase1": {
         "completed": 19,
         "terminated": 1,
-        "total": 29,
+        "total": 31,
         "completionRatePct": 95
       },
       "other": {
@@ -95,6 +89,12 @@
         "terminated": 1,
         "total": 25,
         "completionRatePct": 94
+      },
+      "phase3": {
+        "completed": 20,
+        "terminated": 1,
+        "total": 23,
+        "completionRatePct": 95
       },
       "phase2": {
         "completed": 22,
@@ -1605,6 +1605,36 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07870330",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07870330",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-MRNA-NCT07919197",
+      "ticker": "MRNA",
+      "date": "2028-02-01",
+      "title": "A Study to Investigate the Safety and Immunogenicity of mRNA-1469 in African Participants 1 to 65 Years of Age",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Ebola-Bundibugyo Virus Disease (Ebola-BDBV) · 224 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07919197",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07919197",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-MRNA-NCT07919210",
+      "ticker": "MRNA",
+      "date": "2028-04-14",
+      "title": "A Study to Investigate the Safety, Reactogenicity, and Immunogenicity of a Preventative Vaccine for Marburg Virus (mRNA-1519) in Healthy Adult Participants",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Marburg Virus Disease (MVD) · 64 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07919210",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07919210",
       "origin": "registry",
       "status": "upcoming"
     },

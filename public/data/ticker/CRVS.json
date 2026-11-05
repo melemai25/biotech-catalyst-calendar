@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-11-04",
+  "generatedDate": "2026-11-05",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -58,9 +58,9 @@
     "phase2Count": 1,
     "leadPhase": 3,
     "upcomingCount": 5,
-    "nextCatalystDate": "2026-11-05",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "nextCatalystDate": "2026-12-30",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 55
   },
   "trialStats": {
     "completed": 6,
@@ -70,17 +70,17 @@
     "ongoing": 4,
     "withResults": 1,
     "byPhase": {
-      "phase3": {
-        "completed": 0,
-        "terminated": 1,
-        "total": 2,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 6,
         "terminated": 0,
         "total": 8,
         "completionRatePct": 100
+      },
+      "phase3": {
+        "completed": 0,
+        "terminated": 1,
+        "total": 2,
+        "completionRatePct": null
       },
       "phase2": {
         "completed": 0,
@@ -425,21 +425,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-CRVS-next-earnings",
-      "ticker": "CRVS",
-      "date": "2026-11-05",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001626971&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-CRVS-NCT03952078",
       "ticker": "CRVS",
       "date": "2026-12-30",
@@ -452,6 +437,21 @@
       "source": "ClinicalTrials.gov NCT03952078",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03952078",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-CRVS-next-earnings",
+      "ticker": "CRVS",
+      "date": "2027-02-04",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001626971&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {

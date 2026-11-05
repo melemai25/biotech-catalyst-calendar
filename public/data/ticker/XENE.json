@@ -11,7 +11,7 @@
   "activeTrials": 6,
   "phase3": 5,
   "phase2": 1,
-  "generatedDate": "2026-11-04",
+  "generatedDate": "2026-11-05",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -58,9 +58,9 @@
     "phase2Count": 3,
     "leadPhase": 3,
     "upcomingCount": 8,
-    "nextCatalystDate": "2026-11-05",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "nextCatalystDate": "2027-01-15",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 71
   },
   "trialStats": {
     "completed": 12,
@@ -70,12 +70,6 @@
     "ongoing": 9,
     "withResults": 7,
     "byPhase": {
-      "phase2": {
-        "completed": 6,
-        "terminated": 0,
-        "total": 7,
-        "completionRatePct": 100
-      },
       "phase1": {
         "completed": 5,
         "terminated": 0,
@@ -87,6 +81,12 @@
         "terminated": 2,
         "total": 11,
         "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 6,
+        "terminated": 0,
+        "total": 7,
+        "completionRatePct": 100
       }
     },
     "concluded": 14,
@@ -500,21 +500,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-XENE-next-earnings",
-      "ticker": "XENE",
-      "date": "2026-11-05",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001582313&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-XENE-NCT06922110",
       "ticker": "XENE",
       "date": "2027-01-15",
@@ -527,6 +512,21 @@
       "source": "ClinicalTrials.gov NCT06922110",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06922110",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-XENE-next-earnings",
+      "ticker": "XENE",
+      "date": "2027-02-04",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001582313&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {

@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-04",
+  "generatedDate": "2026-11-05",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -58,9 +58,9 @@
     "phase2Count": 4,
     "leadPhase": 2,
     "upcomingCount": 3,
-    "nextCatalystDate": "2026-11-05",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "nextCatalystDate": "2026-11-30",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 25
   },
   "trialStats": {
     "completed": 1,
@@ -314,21 +314,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-BIOA-next-earnings",
-      "ticker": "BIOA",
-      "date": "2026-11-05",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001709941&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BIOA-NCT07656727",
       "ticker": "BIOA",
       "date": "2026-11-30",
@@ -341,6 +326,21 @@
       "source": "ClinicalTrials.gov NCT07656727",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07656727",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-BIOA-next-earnings",
+      "ticker": "BIOA",
+      "date": "2027-02-05",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001709941&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {

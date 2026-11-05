@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 3,
   "phase2": 0,
-  "generatedDate": "2026-11-04",
+  "generatedDate": "2026-11-05",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,14 +53,22 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "Annovis Bio, Inc.",
+    "financingSinceCash": [
+      {
+        "date": "2026-11-04",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1477845/000110465926122761/tm2628844-1_424b5.htm"
+      }
+    ],
     "activeTrials": 7,
     "phase3Count": 5,
     "phase2Count": 5,
     "leadPhase": 3,
     "upcomingCount": 4,
-    "nextCatalystDate": "2026-11-13",
+    "nextCatalystDate": "2027-02-03",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 9
+    "daysToNextCatalyst": 90
   },
   "trialStats": {
     "completed": 4,
@@ -70,16 +78,16 @@
     "ongoing": 3,
     "withResults": 4,
     "byPhase": {
-      "phase3": {
-        "completed": 2,
-        "terminated": 0,
-        "total": 5,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 2,
         "terminated": 0,
         "total": 2,
+        "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 2,
+        "terminated": 0,
+        "total": 5,
         "completionRatePct": null
       },
       "phase1": {
@@ -440,9 +448,24 @@
       "status": "past"
     },
     {
+      "id": "edgar-ANVS-0001104659-26-122665",
+      "ticker": "ANVS",
+      "date": "2026-11-04",
+      "title": "Quarterly results filed (8-K)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 2.02, 7.01, 8.01. Quarterly results; Reg FD disclosure; Other event. FORM 8-K.",
+      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
+      "source": "SEC EDGAR 8-K 2026-11-04",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1477845/000110465926122665/tm2628733d2_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "edgar-ANVS-next-earnings",
       "ticker": "ANVS",
-      "date": "2026-11-13",
+      "date": "2027-02-03",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

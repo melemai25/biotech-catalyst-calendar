@@ -11,7 +11,7 @@
   "activeTrials": 25,
   "phase3": 8,
   "phase2": 17,
-  "generatedDate": "2026-11-04",
+  "generatedDate": "2026-11-05",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 29,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 11
+    "daysToNextCatalyst": 10
   },
   "trialStats": {
     "completed": 36,
@@ -70,11 +70,11 @@
     "ongoing": 32,
     "withResults": 30,
     "byPhase": {
-      "phase2": {
-        "completed": 12,
-        "terminated": 6,
-        "total": 37,
-        "completionRatePct": 67
+      "phase3": {
+        "completed": 14,
+        "terminated": 0,
+        "total": 21,
+        "completionRatePct": 100
       },
       "phase1": {
         "completed": 8,
@@ -82,11 +82,11 @@
         "total": 15,
         "completionRatePct": 100
       },
-      "phase3": {
-        "completed": 14,
-        "terminated": 0,
-        "total": 21,
-        "completionRatePct": 100
+      "phase2": {
+        "completed": 12,
+        "terminated": 6,
+        "total": 37,
+        "completionRatePct": 67
       },
       "other": {
         "completed": 2,
@@ -1721,21 +1721,6 @@
       "status": "past"
     },
     {
-      "id": "ct-BNTX-NCT04486378",
-      "ticker": "BNTX",
-      "date": "2026-11-15",
-      "title": "A Phase II Clinical Trial Comparing the Efficacy of RO7198457 Versus Watchful Waiting in Patients With ctDNA-positive, Resected Stage II (High Risk) and Stage III Colorectal Cancer",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Colorectal Cancer Stage II, Colorectal Cancer Stage III · 327 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04486378",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04486378",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BNTX-NCT07392372",
       "ticker": "BNTX",
       "date": "2026-11-15",
@@ -1747,6 +1732,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07392372",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07392372",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BNTX-NCT04486378",
+      "ticker": "BNTX",
+      "date": "2026-11-15",
+      "title": "A Phase II Clinical Trial Comparing the Efficacy of RO7198457 Versus Watchful Waiting in Patients With ctDNA-positive, Resected Stage II (High Risk) and Stage III Colorectal Cancer",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Colorectal Cancer Stage II, Colorectal Cancer Stage III · 327 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04486378",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04486378",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1766,21 +1766,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BNTX-NCT07379580",
-      "ticker": "BNTX",
-      "date": "2027-06-15",
-      "title": "A Randomized Clinical Trial Investigating the Safety, Reactogenicity, and Immunogenicity After Immunization With an mRNA-based Mpox Vaccine Candidate in Africa",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Mpox (Monkeypox), Smallpox, Orthopoxvirus Infection · 310 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07379580",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07379580",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BNTX-NCT06449209",
       "ticker": "BNTX",
       "date": "2027-06-15",
@@ -1792,6 +1777,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06449209",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06449209",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BNTX-NCT07379580",
+      "ticker": "BNTX",
+      "date": "2027-06-15",
+      "title": "A Randomized Clinical Trial Investigating the Safety, Reactogenicity, and Immunogenicity After Immunization With an mRNA-based Mpox Vaccine Candidate in Africa",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Mpox (Monkeypox), Smallpox, Orthopoxvirus Infection · 310 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07379580",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07379580",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1871,21 +1871,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BNTX-NCT07070232",
-      "ticker": "BNTX",
-      "date": "2028-03-15",
-      "title": "A Clinical Study to Test if an Investigational Treatment Called BNT326 is Safe and Potentially Beneficial When Used Alone or in Combination With Other Investigational Treatments Such as BNT327, for People With Advanced Malignant Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Advanced Solid Tumor · 1,438 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07070232",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07070232",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BNTX-NCT06340568",
       "ticker": "BNTX",
       "date": "2028-03-15",
@@ -1897,6 +1882,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06340568",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06340568",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BNTX-NCT07070232",
+      "ticker": "BNTX",
+      "date": "2028-03-15",
+      "title": "A Clinical Study to Test if an Investigational Treatment Called BNT326 is Safe and Potentially Beneficial When Used Alone or in Combination With Other Investigational Treatments Such as BNT327, for People With Advanced Malignant Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Advanced Solid Tumor · 1,438 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07070232",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07070232",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1976,21 +1976,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BNTX-NCT06712355",
-      "ticker": "BNTX",
-      "date": "2029-04-15",
-      "title": "Safety and Efficacy of BNT327, an Investigational Therapy in Combination With Chemotherapy for Patients With Untreated Small-cell Lung Cancer",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Extensive-stage Small-cell Lung Cancer · 621 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06712355",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06712355",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BNTX-NCT04534205",
       "ticker": "BNTX",
       "date": "2029-04-15",
@@ -2002,6 +1987,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04534205",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04534205",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BNTX-NCT06712355",
+      "ticker": "BNTX",
+      "date": "2029-04-15",
+      "title": "Safety and Efficacy of BNT327, an Investigational Therapy in Combination With Chemotherapy for Patients With Untreated Small-cell Lung Cancer",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Extensive-stage Small-cell Lung Cancer · 621 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06712355",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06712355",
       "origin": "registry",
       "status": "upcoming"
     },

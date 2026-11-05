@@ -11,7 +11,7 @@
   "activeTrials": 8,
   "phase3": 3,
   "phase2": 5,
-  "generatedDate": "2026-11-04",
+  "generatedDate": "2026-11-05",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -74,7 +74,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 41
+    "daysToNextCatalyst": 40
   },
   "trialStats": {
     "completed": 12,
@@ -730,19 +730,19 @@
       "status": "past"
     },
     {
-      "id": "ct-KPTI-NCT02227251",
+      "id": "edgar-KPTI-0001193125-26-448516",
       "ticker": "KPTI",
-      "date": "2026-12-15",
-      "title": "Selinexor (KPT-330) in Patients With Relapsed/Refractory Diffuse Large B-Cell Lymphoma (DLBCL)",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
+      "date": "2026-11-05",
+      "title": "8-K filed: Listing / standard notice",
+      "type": "Corporate",
+      "phase": null,
       "estimated": false,
-      "summary": "Diffuse Large B-cell Lymphoma · 244 participants · Status: Active Not Recruiting",
+      "summary": "SEC Form 8-K, items 3.01. Listing / standard notice. 8-K.",
       "result": null,
-      "source": "ClinicalTrials.gov NCT02227251",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02227251",
-      "origin": "registry",
-      "status": "upcoming"
+      "source": "SEC EDGAR 8-K 2026-11-05",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1503802/000119312526448516/d122780d8k.htm",
+      "origin": "edgar",
+      "status": "past"
     },
     {
       "id": "ct-KPTI-NCT04442022",
@@ -756,6 +756,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04442022",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04442022",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-KPTI-NCT02227251",
+      "ticker": "KPTI",
+      "date": "2026-12-15",
+      "title": "Selinexor (KPT-330) in Patients With Relapsed/Refractory Diffuse Large B-Cell Lymphoma (DLBCL)",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Diffuse Large B-cell Lymphoma · 244 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT02227251",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02227251",
       "origin": "registry",
       "status": "upcoming"
     },

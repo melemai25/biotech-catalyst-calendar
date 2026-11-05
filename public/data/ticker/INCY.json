@@ -11,7 +11,7 @@
   "activeTrials": 40,
   "phase3": 23,
   "phase2": 17,
-  "generatedDate": "2026-11-04",
+  "generatedDate": "2026-11-05",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,10 +57,10 @@
     "phase3Count": 51,
     "phase2Count": 97,
     "leadPhase": 4,
-    "upcomingCount": 42,
-    "nextCatalystDate": "2026-11-05",
+    "upcomingCount": 41,
+    "nextCatalystDate": "2026-11-14",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 9
   },
   "trialStats": {
     "completed": 143,
@@ -68,8 +68,14 @@
     "withdrawn": 10,
     "suspended": 0,
     "ongoing": 67,
-    "withResults": 126,
+    "withResults": 127,
     "byPhase": {
+      "phase1": {
+        "completed": 47,
+        "terminated": 14,
+        "total": 80,
+        "completionRatePct": 77
+      },
       "phase2": {
         "completed": 67,
         "terminated": 44,
@@ -82,12 +88,6 @@
         "total": 62,
         "completionRatePct": 74
       },
-      "phase1": {
-        "completed": 47,
-        "terminated": 14,
-        "total": 80,
-        "completionRatePct": 77
-      },
       "other": {
         "completed": 4,
         "terminated": 1,
@@ -97,7 +97,7 @@
     },
     "concluded": 221,
     "completionRatePct": 65,
-    "resultsPostedPct": 88
+    "resultsPostedPct": 89
   },
   "events": [
     {
@@ -1151,21 +1151,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT02872714",
-      "ticker": "INCY",
-      "date": "2022-02-01",
-      "title": "A Study to Evaluate the Efficacy and Safety of Pemigatinib (INCB054828) in Subjects With Urothelial Carcinoma - (FIGHT-201)",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "UC (Urothelial Cancer) · 263 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02872714",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02872714",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT02924376",
       "ticker": "INCY",
       "date": "2022-02-01",
@@ -1177,6 +1162,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT02924376",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02924376",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT02872714",
+      "ticker": "INCY",
+      "date": "2022-02-01",
+      "title": "A Study to Evaluate the Efficacy and Safety of Pemigatinib (INCB054828) in Subjects With Urothelial Carcinoma - (FIGHT-201)",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "UC (Urothelial Cancer) · 263 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT02872714",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02872714",
       "origin": "registry",
       "status": "past"
     },
@@ -1451,21 +1451,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT04551066",
-      "ticker": "INCY",
-      "date": "2023-08-03",
-      "title": "To Evaluate the Efficacy and Safety of Parsaclisib and Ruxolitinib in Participants With Myelofibrosis (LIMBER-313)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Myelofibrosis, Primary Myelofibrosis, Post Essential Thrombocythemia Myelofibrosis · 252 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT04551066",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04551066",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT05127421",
       "ticker": "INCY",
       "date": "2023-08-03",
@@ -1477,6 +1462,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT05127421",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05127421",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT04551066",
+      "ticker": "INCY",
+      "date": "2023-08-03",
+      "title": "To Evaluate the Efficacy and Safety of Parsaclisib and Ruxolitinib in Participants With Myelofibrosis (LIMBER-313)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Myelofibrosis, Primary Myelofibrosis, Post Essential Thrombocythemia Myelofibrosis · 252 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT04551066",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04551066",
       "origin": "registry",
       "status": "past"
     },
@@ -1511,21 +1511,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT04551053",
-      "ticker": "INCY",
-      "date": "2023-08-16",
-      "title": "To Evaluate Efficacy and Safety of Parsaclisib and Ruxolitinib in Participants With Myelofibrosis Who Have Suboptimal Response to Ruxolitinib (LIMBER-304)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Myelofibrosis, Primary Myelofibrosis, Post Essential Thrombocythemia Myelofibrosis · 177 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT04551053",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04551053",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT05253807",
       "ticker": "INCY",
       "date": "2023-08-16",
@@ -1537,6 +1522,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT05253807",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05253807",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT04551053",
+      "ticker": "INCY",
+      "date": "2023-08-16",
+      "title": "To Evaluate Efficacy and Safety of Parsaclisib and Ruxolitinib in Participants With Myelofibrosis Who Have Suboptimal Response to Ruxolitinib (LIMBER-304)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Myelofibrosis, Primary Myelofibrosis, Post Essential Thrombocythemia Myelofibrosis · 177 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT04551053",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04551053",
       "origin": "registry",
       "status": "past"
     },
@@ -2134,7 +2134,7 @@
       "phase": "Phase 3",
       "estimated": false,
       "summary": "Hidradenitis Suppurativa (HS) · 619 participants · Status: Completed",
-      "result": null,
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT05620836",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05620836",
       "origin": "registry",
@@ -2306,21 +2306,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT05949632",
-      "ticker": "INCY",
-      "date": "2025-06-06",
-      "title": "A Study of INCB099280 in Combination With Axitinib in Adults With Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Advanced Solid Tumors · 5 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT05949632",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05949632",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT06713590",
       "ticker": "INCY",
       "date": "2025-06-06",
@@ -2332,6 +2317,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06713590",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06713590",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT05949632",
+      "ticker": "INCY",
+      "date": "2025-06-06",
+      "title": "A Study of INCB099280 in Combination With Axitinib in Adults With Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Advanced Solid Tumors · 5 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT05949632",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05949632",
       "origin": "registry",
       "status": "past"
     },
@@ -3011,21 +3011,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT06516965",
-      "ticker": "INCY",
-      "date": "2026-10-19",
-      "title": "A Study to Evaluate the Efficacy and Safety Study of Povorcitinib in Participants With Prurigo Nodularis (STOP-PN2)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Prurigo Nodularis · 346 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06516965",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06516965",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT06516952",
       "ticker": "INCY",
       "date": "2026-10-19",
@@ -3037,6 +3022,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06516952",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06516952",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT06516965",
+      "ticker": "INCY",
+      "date": "2026-10-19",
+      "title": "A Study to Evaluate the Efficacy and Safety Study of Povorcitinib in Participants With Prurigo Nodularis (STOP-PN2)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Prurigo Nodularis · 346 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06516965",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06516965",
       "origin": "registry",
       "status": "past"
     },
@@ -3068,7 +3068,7 @@
       "source": "ClinicalTrials.gov NCT04509700",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04509700",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-INCY-NCT07448155",
@@ -3266,21 +3266,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-INCY-NCT04279847",
-      "ticker": "INCY",
-      "date": "2027-04-30",
-      "title": "Safety and Tolerability Study of INCB057643 in Participants With Myelofibrosis and Other Advanced Myeloid Neoplasms",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Myelofibrosis, Myelodysplastic Syndrome, Myelodysplastic/Myeloproliferative Neoplasm Overlap Syndrome · 140 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04279847",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04279847",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-INCY-NCT06804811",
       "ticker": "INCY",
       "date": "2027-04-30",
@@ -3292,6 +3277,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06804811",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06804811",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-INCY-NCT04279847",
+      "ticker": "INCY",
+      "date": "2027-04-30",
+      "title": "Safety and Tolerability Study of INCB057643 in Participants With Myelofibrosis and Other Advanced Myeloid Neoplasms",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Myelofibrosis, Myelodysplastic Syndrome, Myelodysplastic/Myeloproliferative Neoplasm Overlap Syndrome · 140 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04279847",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04279847",
       "origin": "registry",
       "status": "upcoming"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 6,
   "phase3": 2,
   "phase2": 4,
-  "generatedDate": "2026-11-04",
+  "generatedDate": "2026-11-05",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,39 +53,39 @@
     "fcfMarginPct": 7.2,
     "marketCapUsd": null,
     "entityName": "TEVA PHARMACEUTICAL INDUSTRIES LIMITED",
-    "activeTrials": 20,
-    "phase3Count": 4,
-    "phase2Count": 7,
+    "activeTrials": 21,
+    "phase3Count": 5,
+    "phase2Count": 8,
     "leadPhase": 4,
-    "upcomingCount": 7,
+    "upcomingCount": 8,
     "nextCatalystDate": "2026-12-31",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 57
+    "daysToNextCatalyst": 56
   },
   "trialStats": {
     "completed": 8,
     "terminated": 4,
     "withdrawn": 1,
     "suspended": 0,
-    "ongoing": 10,
+    "ongoing": 11,
     "withResults": 9,
     "byPhase": {
-      "phase2": {
-        "completed": 0,
-        "terminated": 3,
-        "total": 7,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 4,
         "terminated": 1,
         "total": 9,
         "completionRatePct": 80
       },
+      "phase2": {
+        "completed": 0,
+        "terminated": 3,
+        "total": 7,
+        "completionRatePct": null
+      },
       "phase3": {
         "completed": 3,
         "terminated": 0,
-        "total": 4,
+        "total": 5,
         "completionRatePct": null
       },
       "other": {
@@ -652,6 +652,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06480552",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06480552",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-TEVA-NCT07920211",
+      "ticker": "TEVA",
+      "date": "2030-09-12",
+      "title": "Two Trials to Evaluate TEV-53408 in Participants With Non-Segmental Vitiligo",
+      "type": "Trial Milestone",
+      "phase": "Phase 2/Phase 3",
+      "estimated": false,
+      "summary": "Vitiligo · 1,020 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07920211",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07920211",
       "origin": "registry",
       "status": "upcoming"
     }

@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-04",
+  "generatedDate": "2026-11-05",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,33 +57,33 @@
     "phase3Count": 2,
     "phase2Count": 0,
     "leadPhase": 4,
-    "upcomingCount": 1,
+    "upcomingCount": 2,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 41
+    "daysToNextCatalyst": 40
   },
   "trialStats": {
-    "completed": 1,
+    "completed": 2,
     "terminated": 0,
     "withdrawn": 0,
     "suspended": 0,
-    "ongoing": 3,
+    "ongoing": 2,
     "withResults": 1,
     "byPhase": {
-      "phase3": {
+      "other": {
         "completed": 1,
         "terminated": 0,
         "total": 2,
         "completionRatePct": null
       },
-      "other": {
-        "completed": 0,
+      "phase3": {
+        "completed": 1,
         "terminated": 0,
         "total": 2,
         "completionRatePct": null
       }
     },
-    "concluded": 1,
+    "concluded": 2,
     "completionRatePct": null,
     "resultsPostedPct": null
   },
@@ -121,12 +121,12 @@
     {
       "id": "ct-PVCT-NCT06054880",
       "ticker": "PVCT",
-      "date": "2026-01-31",
+      "date": "2026-03-30",
       "title": "Indigotindisulfonate Sodium Injection, USP as an Aid in the Determination of Ureteral Patency",
       "type": "Trial Milestone",
       "phase": "Phase 4",
       "estimated": false,
-      "summary": "Ureter Injury · 116 participants · Status: Recruiting",
+      "summary": "Ureter Injury · 117 participants · Status: Completed",
       "result": null,
       "source": "ClinicalTrials.gov NCT06054880",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06054880",
@@ -164,21 +164,6 @@
       "status": "past"
     },
     {
-      "id": "ct-PVCT-NCT06085183",
-      "ticker": "PVCT",
-      "date": "2026-06-30",
-      "title": "Indigotindisulfonate Sodium as an Aid in Determination of Ureteral Patency in Patient's With Renal Impairment",
-      "type": "Trial Milestone",
-      "phase": "Phase 4",
-      "estimated": false,
-      "summary": "Ureter Injury · 48 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06085183",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06085183",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "edgar-PVCT-0001493152-26-031379",
       "ticker": "PVCT",
       "date": "2026-07-01",
@@ -205,6 +190,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06448143",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06448143",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-PVCT-NCT06085183",
+      "ticker": "PVCT",
+      "date": "2026-12-30",
+      "title": "Indigotindisulfonate Sodium as an Aid in Determination of Ureteral Patency in Patient's With Renal Impairment",
+      "type": "Trial Milestone",
+      "phase": "Phase 4",
+      "estimated": false,
+      "summary": "Ureter Injury · 48 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06085183",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06085183",
       "origin": "registry",
       "status": "upcoming"
     }

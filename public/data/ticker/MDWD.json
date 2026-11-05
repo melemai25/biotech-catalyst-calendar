@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 1,
   "phase2": 3,
-  "generatedDate": "2026-11-04",
+  "generatedDate": "2026-11-05",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -55,6 +55,12 @@
     "entityName": "MEDIWOUND LTD.",
     "financingSinceCash": [
       {
+        "date": "2026-11-05",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1593984/000117891326005042/zk2636333.htm"
+      },
+      {
         "date": "2026-11-03",
         "form": "424B5",
         "label": "Prospectus supplement",
@@ -68,7 +74,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 41
+    "daysToNextCatalyst": 40
   },
   "trialStats": {
     "completed": 8,
@@ -444,6 +450,21 @@
       "result": null,
       "source": "SEC EDGAR 6-K 2026-08-13",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1593984/000117891326004097/zk2635881.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-MDWD-0001178913-26-005046",
+      "ticker": "MDWD",
+      "date": "2026-11-05",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-11-05",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1593984/000117891326005046/zk2636334.htm",
       "origin": "edgar",
       "status": "past"
     },

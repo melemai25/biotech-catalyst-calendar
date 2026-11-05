@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-04",
+  "generatedDate": "2026-11-05",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,42 +60,42 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2027-02-06",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 94
+    "daysToNextCatalyst": 93
   },
   "trialStats": {
-    "completed": 473,
+    "completed": 474,
     "terminated": 21,
     "withdrawn": 9,
     "suspended": 1,
-    "ongoing": 1,
+    "ongoing": 0,
     "withResults": 264,
     "byPhase": {
+      "phase3": {
+        "completed": 280,
+        "terminated": 12,
+        "total": 297,
+        "completionRatePct": 96
+      },
       "other": {
         "completed": 143,
         "terminated": 7,
         "total": 153,
         "completionRatePct": 95
       },
-      "phase3": {
-        "completed": 279,
-        "terminated": 12,
-        "total": 297,
-        "completionRatePct": 96
+      "phase1": {
+        "completed": 20,
+        "terminated": 0,
+        "total": 20,
+        "completionRatePct": 100
       },
       "phase2": {
         "completed": 31,
         "terminated": 2,
         "total": 35,
         "completionRatePct": 94
-      },
-      "phase1": {
-        "completed": 20,
-        "terminated": 0,
-        "total": 20,
-        "completionRatePct": 100
       }
     },
-    "concluded": 503,
+    "concluded": 504,
     "completionRatePct": 94,
     "resultsPostedPct": 56
   },
@@ -628,12 +628,12 @@
     {
       "id": "ct-OGN-NCT05172726",
       "ticker": "OGN",
-      "date": "2026-10-15",
+      "date": "2026-10-14",
       "title": "Tapinarof for the Treatment of Plaque Psoriasis in Pediatric Subjects",
       "type": "Trial Milestone",
       "phase": "Phase 3",
       "estimated": false,
-      "summary": "Plaque Psoriasis · 58 participants · Status: Active Not Recruiting",
+      "summary": "Plaque Psoriasis · 58 participants · Status: Completed",
       "result": null,
       "source": "ClinicalTrials.gov NCT05172726",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05172726",

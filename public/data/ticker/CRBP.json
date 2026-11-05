@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 1,
   "phase2": 2,
-  "generatedDate": "2026-11-04",
+  "generatedDate": "2026-11-05",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -66,9 +66,9 @@
     "phase2Count": 5,
     "leadPhase": 3,
     "upcomingCount": 3,
-    "nextCatalystDate": "2026-11-05",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "nextCatalystDate": "2027-01-16",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 72
   },
   "trialStats": {
     "completed": 4,
@@ -78,17 +78,17 @@
     "ongoing": 3,
     "withResults": 4,
     "byPhase": {
-      "phase2": {
-        "completed": 2,
-        "terminated": 2,
-        "total": 6,
-        "completionRatePct": 50
-      },
       "phase3": {
         "completed": 1,
         "terminated": 1,
         "total": 3,
         "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 2,
+        "terminated": 2,
+        "total": 6,
+        "completionRatePct": 50
       },
       "phase1": {
         "completed": 1,
@@ -568,21 +568,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-CRBP-next-earnings",
-      "ticker": "CRBP",
-      "date": "2026-11-05",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001595097&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-CRBP-NCT06265727",
       "ticker": "CRBP",
       "date": "2027-01-16",
@@ -595,6 +580,21 @@
       "source": "ClinicalTrials.gov NCT06265727",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06265727",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-CRBP-next-earnings",
+      "ticker": "CRBP",
+      "date": "2027-02-04",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001595097&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {

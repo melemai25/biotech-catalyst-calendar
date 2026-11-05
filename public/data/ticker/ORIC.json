@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-11-04",
+  "generatedDate": "2026-11-05",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,10 +57,10 @@
     "phase3Count": 1,
     "phase2Count": 1,
     "leadPhase": 3,
-    "upcomingCount": 4,
+    "upcomingCount": 5,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 41
+    "daysToNextCatalyst": 40
   },
   "trialStats": {
     "completed": 4,
@@ -76,13 +76,13 @@
         "total": 8,
         "completionRatePct": 67
       },
-      "phase2": {
+      "phase3": {
         "completed": 0,
         "terminated": 0,
         "total": 1,
         "completionRatePct": null
       },
-      "phase3": {
+      "phase2": {
         "completed": 0,
         "terminated": 0,
         "total": 1,
@@ -380,21 +380,6 @@
       "status": "past"
     },
     {
-      "id": "ct-ORIC-NCT05315700",
-      "ticker": "ORIC",
-      "date": "2026-09-15",
-      "title": "Study of ORIC-114 in Patients With Advanced Solid Tumors Harboring an EGFR or HER2 Alteration",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Solid Tumors · 350 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05315700",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05315700",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "edgar-ORIC-0001193125-26-429465",
       "ticker": "ORIC",
       "date": "2026-10-23",
@@ -451,6 +436,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05413421",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05413421",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ORIC-NCT05315700",
+      "ticker": "ORIC",
+      "date": "2027-06-15",
+      "title": "Study of ORIC-114 in Patients With Advanced Solid Tumors Harboring an EGFR or HER2 Alteration",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Solid Tumors · 350 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05315700",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05315700",
       "origin": "registry",
       "status": "upcoming"
     },
