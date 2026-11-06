@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-05",
+  "generatedDate": "2026-11-06",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,6 +55,12 @@
     "entityName": "60 DEGREES PHARMACEUTICALS, INC.",
     "financingSinceCash": [
       {
+        "date": "2026-11-06",
+        "form": "8-K",
+        "label": "Unregistered sale of shares (private placement)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1946563/000121390026116620/ea0311192-8k_60degrees.htm"
+      },
+      {
         "date": "2026-08-04",
         "form": "8-K",
         "label": "Unregistered sale of shares (private placement)",
@@ -68,7 +74,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-02-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 102
+    "daysToNextCatalyst": 101
   },
   "trialStats": {
     "completed": 2,
@@ -423,6 +429,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-10-27",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1946563/000121390026112698/ea0309690-8k_60degrees.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-SXTP-0001213900-26-116620",
+      "ticker": "SXTP",
+      "date": "2026-11-06",
+      "title": "8-K filed: Material agreement",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 1.01, 3.02, 9.01. Material agreement. CURRENT REPORT.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-06",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1946563/000121390026116620/ea0311192-8k_60degrees.htm",
       "origin": "edgar",
       "status": "past"
     },

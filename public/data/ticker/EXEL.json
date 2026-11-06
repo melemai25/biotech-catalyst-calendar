@@ -11,7 +11,7 @@
   "activeTrials": 11,
   "phase3": 9,
   "phase2": 2,
-  "generatedDate": "2026-11-05",
+  "generatedDate": "2026-11-06",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 14,
     "nextCatalystDate": "2026-11-23",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 18
+    "daysToNextCatalyst": 17
   },
   "trialStats": {
     "completed": 18,
@@ -70,12 +70,6 @@
     "ongoing": 23,
     "withResults": 15,
     "byPhase": {
-      "phase3": {
-        "completed": 4,
-        "terminated": 1,
-        "total": 15,
-        "completionRatePct": 80
-      },
       "phase1": {
         "completed": 10,
         "terminated": 11,
@@ -87,6 +81,12 @@
         "terminated": 0,
         "total": 2,
         "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 4,
+        "terminated": 1,
+        "total": 15,
+        "completionRatePct": 80
       },
       "phase2": {
         "completed": 4,
@@ -581,6 +581,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-EXEL-NCT05932862",
+      "ticker": "EXEL",
+      "date": "2027-04-30",
+      "title": "A Phase 1 Study of XL309 (ISM3091) Alone and in Combination in Participants With Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Advanced Solid Tumor · 429 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05932862",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05932862",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-EXEL-NCT06952010",
       "ticker": "EXEL",
       "date": "2027-05-31",
@@ -667,21 +682,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06082167",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06082167",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-EXEL-NCT05932862",
-      "ticker": "EXEL",
-      "date": "2029-01-03",
-      "title": "A Phase 1 Study of XL309 (ISM3091) Alone and in Combination in Participants With Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Advanced Solid Tumor · 429 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05932862",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05932862",
       "origin": "registry",
       "status": "upcoming"
     },

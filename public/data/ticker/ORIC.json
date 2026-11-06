@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-11-05",
+  "generatedDate": "2026-11-06",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 40
+    "daysToNextCatalyst": 39
   },
   "trialStats": {
     "completed": 4,
@@ -425,21 +425,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ORIC-NCT05413421",
-      "ticker": "ORIC",
-      "date": "2027-06-15",
-      "title": "Study of ORIC-944 in Patients With Metastatic Prostate Cancer",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Metastatic Prostate Cancer · 275 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05413421",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05413421",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ORIC-NCT05315700",
       "ticker": "ORIC",
       "date": "2027-06-15",
@@ -451,6 +436,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05315700",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05315700",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ORIC-NCT05413421",
+      "ticker": "ORIC",
+      "date": "2027-06-15",
+      "title": "Study of ORIC-944 in Patients With Metastatic Prostate Cancer",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Metastatic Prostate Cancer · 275 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05413421",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05413421",
       "origin": "registry",
       "status": "upcoming"
     },

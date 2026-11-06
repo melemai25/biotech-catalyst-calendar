@@ -11,68 +11,48 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-05",
+  "generatedDate": "2026-11-06",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
     "isUsd": true,
-    "cashUsd": 18738000,
-    "shortTermInvestmentsUsd": null,
+    "cashUsd": 66936000,
+    "shortTermInvestmentsUsd": 20000000,
     "longTermInvestmentsUsd": null,
-    "totalCashUsd": 18738000,
-    "cashAsOf": "2026-06-30",
-    "longTermDebtUsd": 30068000,
-    "netCashUsd": -11330000,
-    "stockholdersEquityUsd": -199075000,
-    "accumulatedDeficitUsd": -2144089000,
-    "operatingCashFlowUsd": -31199000,
-    "quarterlyBurnUsd": 31199000,
-    "burnPeriod": "2026-04-01 to 2026-06-30",
-    "burnAsOf": "2026-06-30",
+    "totalCashUsd": 86936000,
+    "cashAsOf": "2026-09-30",
+    "longTermDebtUsd": 24429000,
+    "netCashUsd": 62507000,
+    "stockholdersEquityUsd": -105368000,
+    "accumulatedDeficitUsd": -2141355000,
+    "operatingCashFlowUsd": -20095000,
+    "quarterlyBurnUsd": 20095000,
+    "burnPeriod": "2026-07-01 to 2026-09-30",
+    "burnAsOf": "2026-09-30",
     "burnDerived": true,
     "burnBasis": "quarter (differenced)",
     "burnScaled": false,
-    "runwayMonths": 1.8,
-    "cashOutDate": "2026-08-24",
-    "cashStatus": "under-12mo",
+    "runwayMonths": 13,
+    "cashOutDate": "2027-10-30",
+    "cashStatus": "under-24mo",
     "capexQuarterlyUsd": 0,
-    "freeCashFlowQuarterlyUsd": -31199000,
-    "freeCashFlowTtmUsd": -98504000,
-    "revenueQuarterlyUsd": 34518000,
-    "revenueTtmUsd": 132693000,
-    "rndQuarterlyUsd": 14759000,
-    "sgaQuarterlyUsd": 8466000,
-    "operatingIncomeQuarterlyUsd": 11293000,
-    "netIncomeQuarterlyUsd": -567000,
-    "sharesOutstanding": 45020407,
-    "dilutionPctYoy": 41.3,
-    "dilutionFrom": "2025-08-07",
+    "freeCashFlowQuarterlyUsd": -20095000,
+    "freeCashFlowTtmUsd": -103862000,
+    "revenueQuarterlyUsd": 31488000,
+    "revenueTtmUsd": 133946000,
+    "rndQuarterlyUsd": 11646000,
+    "sgaQuarterlyUsd": 8434000,
+    "operatingIncomeQuarterlyUsd": 11408000,
+    "netIncomeQuarterlyUsd": 2725000,
+    "sharesOutstanding": 45246510,
+    "dilutionPctYoy": 33,
+    "dilutionFrom": "2025-11-07",
     "stockIssuanceQuarterlyUsd": 14095000,
-    "cashPerShare": 0.42,
-    "rndIntensityPct": 64,
-    "fcfMarginPct": -74.2,
+    "cashPerShare": 1.92,
+    "rndIntensityPct": 58,
+    "fcfMarginPct": -77.5,
     "marketCapUsd": null,
     "entityName": "AGENUS INC",
-    "financingSinceCash": [
-      {
-        "date": "2026-08-18",
-        "form": "8-K",
-        "label": "New debt or financing obligation",
-        "url": "https://www.sec.gov/Archives/edgar/data/1098972/000119312526355559/agen-20260812.htm"
-      },
-      {
-        "date": "2026-08-17",
-        "form": "424B3",
-        "label": "Prospectus (often a resale after a private placement)",
-        "url": "https://www.sec.gov/Archives/edgar/data/1098972/000119312526353143/d120245d424b3.htm"
-      },
-      {
-        "date": "2026-07-13",
-        "form": "8-K",
-        "label": "Unregistered sale of shares (private placement)",
-        "url": "https://www.sec.gov/Archives/edgar/data/1098972/000119312526301414/d111026d8k.htm"
-      }
-    ],
     "activeTrials": 15,
     "phase3Count": 0,
     "phase2Count": 8,
@@ -80,7 +60,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-02-04",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 91
+    "daysToNextCatalyst": 90
   },
   "trialStats": {
     "completed": 15,
@@ -90,28 +70,28 @@
     "ongoing": 4,
     "withResults": 5,
     "byPhase": {
-      "phase1": {
-        "completed": 6,
-        "terminated": 2,
-        "total": 9,
-        "completionRatePct": 75
-      },
       "phase2": {
         "completed": 7,
         "terminated": 6,
         "total": 16,
         "completionRatePct": 54
       },
-      "other": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
+      "phase1": {
+        "completed": 6,
+        "terminated": 2,
+        "total": 9,
+        "completionRatePct": 75
       },
       "phase3": {
         "completed": 2,
         "terminated": 1,
         "total": 4,
+        "completionRatePct": null
+      },
+      "other": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 2,
         "completionRatePct": null
       }
     },

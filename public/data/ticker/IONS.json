@@ -11,7 +11,7 @@
   "activeTrials": 16,
   "phase3": 11,
   "phase2": 5,
-  "generatedDate": "2026-11-05",
+  "generatedDate": "2026-11-06",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 18,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 40
+    "daysToNextCatalyst": 39
   },
   "trialStats": {
     "completed": 86,
@@ -70,12 +70,6 @@
     "ongoing": 24,
     "withResults": 23,
     "byPhase": {
-      "other": {
-        "completed": 5,
-        "terminated": 1,
-        "total": 11,
-        "completionRatePct": 83
-      },
       "phase2": {
         "completed": 44,
         "terminated": 4,
@@ -87,6 +81,12 @@
         "terminated": 1,
         "total": 26,
         "completionRatePct": 96
+      },
+      "other": {
+        "completed": 5,
+        "terminated": 1,
+        "total": 11,
+        "completionRatePct": 83
       },
       "phase3": {
         "completed": 14,
@@ -116,21 +116,6 @@
       "status": "past"
     },
     {
-      "id": "ct-IONS-NCT02824003",
-      "ticker": "IONS",
-      "date": "2016-12-15",
-      "title": "Study to Evaluate the Effect of ISIS GCGRRx on Hepatic Lipid and Glycogen Content in Type 2 Diabetes",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Type 2 Diabetes · 15 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT02824003",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02824003",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-IONS-NCT02583919",
       "ticker": "IONS",
       "date": "2016-12-15",
@@ -142,6 +127,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT02583919",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02583919",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-IONS-NCT02824003",
+      "ticker": "IONS",
+      "date": "2016-12-15",
+      "title": "Study to Evaluate the Effect of ISIS GCGRRx on Hepatic Lipid and Glycogen Content in Type 2 Diabetes",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Type 2 Diabetes · 15 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT02824003",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02824003",
       "origin": "registry",
       "status": "past"
     },
@@ -1436,21 +1436,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-IONS-NCT04165486",
-      "ticker": "IONS",
-      "date": "2027-09-15",
-      "title": "Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of ION464 Administered to Adults With Multiple System Atrophy (HORIZON)",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Multiple System Atrophy · 40 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04165486",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04165486",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-IONS-NCT07604974",
       "ticker": "IONS",
       "date": "2027-09-15",
@@ -1462,6 +1447,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07604974",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07604974",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-IONS-NCT04165486",
+      "ticker": "IONS",
+      "date": "2027-09-15",
+      "title": "Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of ION464 Administered to Adults With Multiple System Atrophy (HORIZON)",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Multiple System Atrophy · 40 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04165486",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04165486",
       "origin": "registry",
       "status": "upcoming"
     },

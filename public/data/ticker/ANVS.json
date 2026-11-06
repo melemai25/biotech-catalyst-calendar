@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 3,
   "phase2": 0,
-  "generatedDate": "2026-11-05",
+  "generatedDate": "2026-11-06",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,6 +55,12 @@
     "entityName": "Annovis Bio, Inc.",
     "financingSinceCash": [
       {
+        "date": "2026-11-05",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1477845/000110465926123448/tm2628844-2_424b5.htm"
+      },
+      {
         "date": "2026-11-04",
         "form": "424B5",
         "label": "Prospectus supplement",
@@ -68,7 +74,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2027-02-03",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 90
+    "daysToNextCatalyst": 89
   },
   "trialStats": {
     "completed": 4,
@@ -459,6 +465,21 @@
       "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
       "source": "SEC EDGAR 8-K 2026-11-04",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1477845/000110465926122665/tm2628733d2_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-ANVS-0001104659-26-123467",
+      "ticker": "ANVS",
+      "date": "2026-11-05",
+      "title": "8-K filed: Material agreement, Reg FD disclosure",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 1.01, 7.01, 9.01. Material agreement; Reg FD disclosure. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-05",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1477845/000110465926123467/tm2628844d3_8k.htm",
       "origin": "edgar",
       "status": "past"
     },

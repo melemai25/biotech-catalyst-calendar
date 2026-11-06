@@ -11,7 +11,7 @@
   "activeTrials": 14,
   "phase3": 10,
   "phase2": 4,
-  "generatedDate": "2026-11-05",
+  "generatedDate": "2026-11-06",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 12,
     "nextCatalystDate": "2026-12-01",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 26
+    "daysToNextCatalyst": 25
   },
   "trialStats": {
     "completed": 54,
@@ -76,11 +76,11 @@
         "total": 32,
         "completionRatePct": 90
       },
-      "phase2": {
-        "completed": 15,
-        "terminated": 2,
-        "total": 23,
-        "completionRatePct": 88
+      "phase1": {
+        "completed": 18,
+        "terminated": 0,
+        "total": 19,
+        "completionRatePct": 100
       },
       "other": {
         "completed": 3,
@@ -88,11 +88,11 @@
         "total": 8,
         "completionRatePct": null
       },
-      "phase1": {
-        "completed": 18,
-        "terminated": 0,
-        "total": 19,
-        "completionRatePct": 100
+      "phase2": {
+        "completed": 15,
+        "terminated": 2,
+        "total": 23,
+        "completionRatePct": 88
       }
     },
     "concluded": 59,
@@ -881,21 +881,6 @@
       "status": "past"
     },
     {
-      "id": "ct-VNDA-NCT07179055",
-      "ticker": "VNDA",
-      "date": "2026-09-15",
-      "title": "An Eight-Week Study to Evaluate the Safety and Efficacy of VSJ-110 Compared to Placebo in the Treatment of Dry Eye",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Dry Eye · 160 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07179055",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07179055",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-VNDA-NCT07065773",
       "ticker": "VNDA",
       "date": "2026-09-15",
@@ -907,6 +892,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07065773",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07065773",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-VNDA-NCT07179055",
+      "ticker": "VNDA",
+      "date": "2026-09-15",
+      "title": "An Eight-Week Study to Evaluate the Safety and Efficacy of VSJ-110 Compared to Placebo in the Treatment of Dry Eye",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Dry Eye · 160 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07179055",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07179055",
       "origin": "registry",
       "status": "past"
     },
@@ -1016,21 +1016,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-VNDA-NCT06961968",
-      "ticker": "VNDA",
-      "date": "2027-11-15",
-      "title": "Randomized Withdrawal Study in Patients With Schizophrenia",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Schizophrenia · 400 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06961968",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06961968",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-VNDA-NCT06953869",
       "ticker": "VNDA",
       "date": "2027-11-15",
@@ -1042,6 +1027,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06953869",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06953869",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-VNDA-NCT06961968",
+      "ticker": "VNDA",
+      "date": "2027-11-15",
+      "title": "Randomized Withdrawal Study in Patients With Schizophrenia",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Schizophrenia · 400 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06961968",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06961968",
       "origin": "registry",
       "status": "upcoming"
     },

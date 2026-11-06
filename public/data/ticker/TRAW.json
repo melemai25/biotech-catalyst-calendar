@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-11-05",
+  "generatedDate": "2026-11-06",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -74,14 +74,14 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-11-13",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 8
+    "daysToNextCatalyst": 7
   },
   "trialStats": {
-    "completed": 24,
+    "completed": 25,
     "terminated": 3,
     "withdrawn": 2,
     "suspended": 0,
-    "ongoing": 6,
+    "ongoing": 5,
     "withResults": 1,
     "byPhase": {
       "phase1": {
@@ -91,7 +91,7 @@
         "completionRatePct": 87
       },
       "phase2": {
-        "completed": 8,
+        "completed": 9,
         "terminated": 0,
         "total": 13,
         "completionRatePct": 100
@@ -103,7 +103,7 @@
         "completionRatePct": 75
       }
     },
-    "concluded": 29,
+    "concluded": 30,
     "completionRatePct": 83,
     "resultsPostedPct": 4
   },
@@ -486,12 +486,12 @@
     {
       "id": "ct-TRAW-NCT07157007",
       "ticker": "TRAW",
-      "date": "2026-02-15",
+      "date": "2026-02-16",
       "title": "Early-stage Trial to Determine a Safe and Effective Dose for Ratutrelvir in Patients With Mild to Moderate COVID-19",
       "type": "Trial Milestone",
       "phase": "Phase 2",
       "estimated": false,
-      "summary": "COVID - 19 · 90 participants · Status: Recruiting",
+      "summary": "COVID - 19 · 93 participants · Status: Completed",
       "result": null,
       "source": "ClinicalTrials.gov NCT07157007",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07157007",

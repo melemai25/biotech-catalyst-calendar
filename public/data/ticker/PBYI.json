@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-11-05",
+  "generatedDate": "2026-11-06",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2027-02-04",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 91
+    "daysToNextCatalyst": 90
   },
   "trialStats": {
     "completed": 32,
@@ -82,15 +82,15 @@
         "total": 18,
         "completionRatePct": 100
       },
-      "phase3": {
-        "completed": 2,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
-      },
       "other": {
         "completed": 1,
         "terminated": 1,
+        "total": 2,
+        "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 2,
+        "terminated": 0,
         "total": 2,
         "completionRatePct": null
       }
@@ -262,6 +262,21 @@
       "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
       "source": "SEC EDGAR 8-K 2026-08-06",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1401667/000143774926026282/pbyi20260608_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-PBYI-0001437749-26-035279",
+      "ticker": "PBYI",
+      "date": "2026-11-05",
+      "title": "Quarterly results filed (8-K)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. FORM 8-K.",
+      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
+      "source": "SEC EDGAR 8-K 2026-11-05",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1401667/000143774926035279/pbyi20260901_8k.htm",
       "origin": "edgar",
       "status": "past"
     },

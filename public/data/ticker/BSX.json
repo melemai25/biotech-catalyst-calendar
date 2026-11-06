@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 3,
   "phase2": 1,
-  "generatedDate": "2026-11-05",
+  "generatedDate": "2026-11-06",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,65 +53,95 @@
     "fcfMarginPct": 15.8,
     "marketCapUsd": null,
     "entityName": "BOSTON SCIENTIFIC CORPORATION",
-    "activeTrials": 10,
-    "phase3Count": 4,
+    "activeTrials": 11,
+    "phase3Count": 7,
     "phase2Count": 0,
     "leadPhase": 4,
     "upcomingCount": 2,
     "nextCatalystDate": "2027-01-27",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 83
+    "daysToNextCatalyst": 82
   },
   "trialStats": {
-    "completed": 273,
-    "terminated": 40,
-    "withdrawn": 16,
+    "completed": 274,
+    "terminated": 43,
+    "withdrawn": 10,
     "suspended": 1,
-    "ongoing": 52,
-    "withResults": 200,
+    "ongoing": 51,
+    "withResults": 196,
     "byPhase": {
       "other": {
-        "completed": 224,
-        "terminated": 33,
-        "total": 320,
+        "completed": 225,
+        "terminated": 35,
+        "total": 319,
         "completionRatePct": 87
       },
       "phase3": {
-        "completed": 38,
-        "terminated": 1,
-        "total": 41,
-        "completionRatePct": 97
+        "completed": 37,
+        "terminated": 4,
+        "total": 42,
+        "completionRatePct": 90
+      },
+      "phase2": {
+        "completed": 9,
+        "terminated": 3,
+        "total": 13,
+        "completionRatePct": 75
       },
       "phase1": {
         "completed": 3,
         "terminated": 1,
-        "total": 6,
+        "total": 5,
         "completionRatePct": 75
-      },
-      "phase2": {
-        "completed": 8,
-        "terminated": 5,
-        "total": 15,
-        "completionRatePct": 62
       }
     },
-    "concluded": 329,
-    "completionRatePct": 83,
-    "resultsPostedPct": 73
+    "concluded": 327,
+    "completionRatePct": 84,
+    "resultsPostedPct": 72
   },
   "events": [
     {
-      "id": "ct-BSX-NCT02396758",
+      "id": "ct-BSX-NCT01887717",
       "ticker": "BSX",
-      "date": "2019-04-30",
-      "title": "Optimum Duration of Acoustic Pulse Thrombolysis Procedure in Acute Pulmonary Embolism",
+      "date": "2017-05-23",
+      "title": "Efficacy Evaluation of TheraSphere to Treat Inoperable Liver Cancer With Blockage of the Portal Vein",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Hepatocellular Carcinoma · 36 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT01887717",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT01887717",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-BSX-NCT02460991",
+      "ticker": "BSX",
+      "date": "2017-06-05",
+      "title": "A Study of ONCO-DOX in Locally Advanced Hepatocellular Carcinoma",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Hepatocellular Carcinoma, Hepatoma, Liver Cell Carcinoma · 2 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT02460991",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02460991",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-BSX-NCT02159521",
+      "ticker": "BSX",
+      "date": "2017-11-30",
+      "title": "Treatment of Chronic Deep Vein Thrombosis (DVT) and Post-Thrombotic Syndrome (PTS) With the EkoSonic® Endovascular System",
       "type": "Trial Milestone",
       "phase": "Phase 4",
       "estimated": false,
-      "summary": "Pulmonary Embolism and Thrombosis · 131 participants · Status: Completed",
+      "summary": "Deep Vein Thrombosis, Post-thrombotic Syndrome · 81 participants · Status: Completed",
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02396758",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02396758",
+      "source": "ClinicalTrials.gov NCT02159521",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02159521",
       "origin": "registry",
       "status": "past"
     },
@@ -142,6 +172,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT03291379",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03291379",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-BSX-NCT03064126",
+      "ticker": "BSX",
+      "date": "2019-11-18",
+      "title": "RANGER™ Paclitaxel Coated Balloon vs Standard Balloon Angioplasty",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Peripheral Artery Disease, Atherosclerosis, Artery Diseases, Peripheral · 440 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT03064126",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03064126",
       "origin": "registry",
       "status": "past"
     },
@@ -191,21 +236,6 @@
       "status": "past"
     },
     {
-      "id": "ct-BSX-NCT05312970",
-      "ticker": "BSX",
-      "date": "2024-04-04",
-      "title": "Varithena Versus Endothermal Ablation of the Great Saphenous Vein (VERITAS)",
-      "type": "Trial Milestone",
-      "phase": "Phase 4",
-      "estimated": false,
-      "summary": "Varicose Veins · 43 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT05312970",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05312970",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "edgar-BSX-0000885725-25-000033",
       "ticker": "BSX",
       "date": "2025-05-28",
@@ -233,21 +263,6 @@
       "source": "SEC EDGAR 8-K 2025-07-23",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/885725/000088572525000039/bsx-20250723.htm",
       "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "ct-BSX-NCT04790370",
-      "ticker": "BSX",
-      "date": "2025-07-31",
-      "title": "Ultrasound-facilitated, Catheter-directed, Thrombolysis in Intermediate-high Risk Pulmonary Embolism",
-      "type": "Trial Milestone",
-      "phase": "Phase 4",
-      "estimated": false,
-      "summary": "Pulmonary Embolism · 544 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04790370",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04790370",
-      "origin": "registry",
       "status": "past"
     },
     {
@@ -311,21 +326,6 @@
       "status": "past"
     },
     {
-      "id": "ct-BSX-NCT06492174",
-      "ticker": "BSX",
-      "date": "2025-12-19",
-      "title": "A Clinical Trial to Assess the Agent Paclitaxel Coated PTCA Balloon Catheter for the Treatment of Subjects With In-Stent Restenosis (ISR) - Long Lesion Cohort",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "In-Stent Restenosis · 20 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06492174",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06492174",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "edgar-BSX-0000947871-26-000037",
       "ticker": "BSX",
       "date": "2026-01-15",
@@ -383,6 +383,21 @@
       "source": "SEC EDGAR 8-K 2026-02-05",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/885725/000088572526000008/bsx-20260202.htm",
       "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "ct-BSX-NCT05016245",
+      "ticker": "BSX",
+      "date": "2026-02-13",
+      "title": "MANDARIN (S6371)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Inoperable Hepatocellular Carcinoma · 92 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05016245",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05016245",
+      "origin": "registry",
       "status": "past"
     },
     {

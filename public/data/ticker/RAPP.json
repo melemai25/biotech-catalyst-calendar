@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 2,
   "phase2": 2,
-  "generatedDate": "2026-11-05",
+  "generatedDate": "2026-11-06",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -85,33 +85,39 @@
         "url": "https://www.sec.gov/Archives/edgar/data/2012593/000119312526434371/d348288d424b5.htm"
       }
     ],
-    "activeTrials": 5,
+    "activeTrials": 6,
     "phase3Count": 2,
     "phase2Count": 3,
     "leadPhase": 3,
-    "upcomingCount": 4,
+    "upcomingCount": 5,
     "nextCatalystDate": "2027-01-29",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 85
+    "daysToNextCatalyst": 84
   },
   "trialStats": {
     "completed": 2,
     "terminated": 0,
     "withdrawn": 0,
     "suspended": 0,
-    "ongoing": 3,
+    "ongoing": 4,
     "withResults": 0,
     "byPhase": {
+      "phase3": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 2,
+        "completionRatePct": null
+      },
       "phase2": {
         "completed": 2,
         "terminated": 0,
         "total": 3,
         "completionRatePct": null
       },
-      "phase3": {
+      "phase1": {
         "completed": 0,
         "terminated": 0,
-        "total": 2,
+        "total": 1,
         "completionRatePct": null
       }
     },
@@ -403,6 +409,21 @@
       "source": "Projected from SEC EDGAR filing cadence",
       "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002012593&type=8-K",
       "origin": "edgar",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-RAPP-NCT07923097",
+      "ticker": "RAPP",
+      "date": "2027-06-15",
+      "title": "Study Designed to Evaluate the Safety, Tolerability, and PK of RAP-219 Formulated as an Long Acting Injectable.",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Epilepsy · 60 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07923097",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07923097",
+      "origin": "registry",
       "status": "upcoming"
     },
     {

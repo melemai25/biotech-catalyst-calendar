@@ -11,7 +11,7 @@
   "activeTrials": 27,
   "phase3": 15,
   "phase2": 12,
-  "generatedDate": "2026-11-05",
+  "generatedDate": "2026-11-06",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 53,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 10
+    "daysToNextCatalyst": 9
   },
   "trialStats": {
     "completed": 5,
@@ -551,21 +551,6 @@
       "status": "past"
     },
     {
-      "id": "ct-ONC-NCT04973605",
-      "ticker": "ONC",
-      "date": "2026-11-15",
-      "title": "A Phase 1b/2 Study of Sonrotoclax (BGB-11417) as Monotherapy and in Various Combinations With Dexamethasone Plus Carfilzomib, Dexamethasone Plus Daratumumab, and Dexamethasone Plus Pomalidomide in Multiple Myeloma",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Relapsed/Refractory Multiple Myeloma · 246 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04973605",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04973605",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ONC-NCT06637501",
       "ticker": "ONC",
       "date": "2026-11-15",
@@ -577,6 +562,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06637501",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06637501",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ONC-NCT04973605",
+      "ticker": "ONC",
+      "date": "2026-11-15",
+      "title": "A Phase 1b/2 Study of Sonrotoclax (BGB-11417) as Monotherapy and in Various Combinations With Dexamethasone Plus Carfilzomib, Dexamethasone Plus Daratumumab, and Dexamethasone Plus Pomalidomide in Multiple Myeloma",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Relapsed/Refractory Multiple Myeloma · 246 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04973605",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04973605",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1016,21 +1016,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT07619287",
-      "ticker": "ONC",
-      "date": "2028-09-30",
-      "title": "An Investigational Study of BG-75202 Alone and in Combination With Other Agents in Patients With Myeloid Malignancies",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Myeloid Malignancy · 118 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07619287",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07619287",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ONC-NCT07746141",
       "ticker": "ONC",
       "date": "2028-09-30",
@@ -1042,6 +1027,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07746141",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07746141",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ONC-NCT07619287",
+      "ticker": "ONC",
+      "date": "2028-09-30",
+      "title": "An Investigational Study of BG-75202 Alone and in Combination With Other Agents in Patients With Myeloid Malignancies",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Myeloid Malignancy · 118 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07619287",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07619287",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1211,21 +1211,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT07811271",
-      "ticker": "ONC",
-      "date": "2029-11-30",
-      "title": "Efficacy and Safety of BG-C9074 With Bevacizumab Compared With Bevacizumab in Adults With Ovarian, Fallopian Tube, or Primary Peritoneal Cancers",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Epithelial Ovarian Cancer, Fallopian Tube Cancer, Primary Peritoneal Cancer · 600 participants · Status: Not Yet Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07811271",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07811271",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ONC-NCT06970743",
       "ticker": "ONC",
       "date": "2029-11-30",
@@ -1252,6 +1237,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06697184",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06697184",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ONC-NCT07811271",
+      "ticker": "ONC",
+      "date": "2029-11-30",
+      "title": "Efficacy and Safety of BG-C9074 With Bevacizumab Compared With Bevacizumab in Adults With Ovarian, Fallopian Tube, or Primary Peritoneal Cancers",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Epithelial Ovarian Cancer, Fallopian Tube Cancer, Primary Peritoneal Cancer · 600 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07811271",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07811271",
       "origin": "registry",
       "status": "upcoming"
     },

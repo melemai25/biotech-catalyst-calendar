@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-05",
+  "generatedDate": "2026-11-06",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -52,7 +52,15 @@
     "rndIntensityPct": 75,
     "fcfMarginPct": -2249.4,
     "marketCapUsd": null,
-    "entityName": "FATE THERAPEUTICS, INC.",
+    "entityName": "FATE THERAPEUTICS INC",
+    "financingSinceCash": [
+      {
+        "date": "2026-11-05",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1434316/000119312526450013/d187985d424b5.htm"
+      }
+    ],
     "activeTrials": 19,
     "phase3Count": 0,
     "phase2Count": 3,
@@ -60,7 +68,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2027-02-05",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 92
+    "daysToNextCatalyst": 91
   },
   "trialStats": {
     "completed": 7,
@@ -76,16 +84,16 @@
         "total": 19,
         "completionRatePct": 43
       },
-      "other": {
-        "completed": 0,
-        "terminated": 2,
-        "total": 2,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 1,
         "terminated": 1,
         "total": 4,
+        "completionRatePct": null
+      },
+      "other": {
+        "completed": 0,
+        "terminated": 2,
+        "total": 2,
         "completionRatePct": null
       }
     },
@@ -94,21 +102,6 @@
     "resultsPostedPct": 43
   },
   "events": [
-    {
-      "id": "ct-FATE-NCT02354417",
-      "ticker": "FATE",
-      "date": "2016-12-15",
-      "title": "A Phase 1 Trial of a Single ProHema® CB Product for Pediatric Patients With Hematologic Malignancies",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Hematologic Malignancies · 3 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02354417",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02354417",
-      "origin": "registry",
-      "status": "past"
-    },
     {
       "id": "ct-FATE-NCT02354443",
       "ticker": "FATE",
@@ -121,6 +114,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT02354443",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02354443",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-FATE-NCT02354417",
+      "ticker": "FATE",
+      "date": "2016-12-15",
+      "title": "A Phase 1 Trial of a Single ProHema® CB Product for Pediatric Patients With Hematologic Malignancies",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Hematologic Malignancies · 3 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT02354417",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02354417",
       "origin": "registry",
       "status": "past"
     },
@@ -185,6 +193,21 @@
       "status": "past"
     },
     {
+      "id": "ct-FATE-NCT05069935",
+      "ticker": "FATE",
+      "date": "2023-08-11",
+      "title": "FT538 in Combination With Monoclonal Antibodies in Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Solid Tumor, Adult · 16 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05069935",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05069935",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "ct-FATE-NCT05395052",
       "ticker": "FATE",
       "date": "2023-08-11",
@@ -211,21 +234,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04551885",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04551885",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "ct-FATE-NCT05069935",
-      "ticker": "FATE",
-      "date": "2023-08-11",
-      "title": "FT538 in Combination With Monoclonal Antibodies in Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Solid Tumor, Adult · 16 participants · Status: Terminated",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05069935",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05069935",
       "origin": "registry",
       "status": "past"
     },
@@ -481,6 +489,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-09-28",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1434316/000119312526403429/fate-20260925.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-FATE-0001193125-26-449840",
+      "ticker": "FATE",
+      "date": "2026-11-05",
+      "title": "8-K filed: Material agreement",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 1.01, 1.02, 9.01. Material agreement. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-05",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1434316/000119312526449840/d141617d8k.htm",
       "origin": "edgar",
       "status": "past"
     },

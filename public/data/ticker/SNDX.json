@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 1,
   "phase2": 3,
-  "generatedDate": "2026-11-05",
+  "generatedDate": "2026-11-06",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,21 +53,21 @@
     "fcfMarginPct": -61.3,
     "marketCapUsd": null,
     "entityName": "Syndax Pharmaceuticals, Inc.",
-    "activeTrials": 21,
+    "activeTrials": 22,
     "phase3Count": 1,
     "phase2Count": 9,
     "leadPhase": 3,
-    "upcomingCount": 4,
+    "upcomingCount": 5,
     "nextCatalystDate": "2027-01-11",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 67
+    "daysToNextCatalyst": 66
   },
   "trialStats": {
     "completed": 18,
     "terminated": 5,
     "withdrawn": 1,
     "suspended": 0,
-    "ongoing": 6,
+    "ongoing": 7,
     "withResults": 12,
     "byPhase": {
       "phase2": {
@@ -79,7 +79,7 @@
       "phase1": {
         "completed": 11,
         "terminated": 1,
-        "total": 13,
+        "total": 14,
         "completionRatePct": 92
       },
       "other": {
@@ -652,6 +652,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07211958",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07211958",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-SNDX-NCT07923071",
+      "ticker": "SNDX",
+      "date": "2030-01-15",
+      "title": "A Study to Assess the Pharmacokinetics and Safety of Revumenib in Participants With Advanced Cancer and Hepatic or Renal Impairment",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Relapsed/Refractory (R/R) Hematologic Malignancies, Acute Leukemia, Refractory Leukemia · 18 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07923071",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07923071",
       "origin": "registry",
       "status": "upcoming"
     }

@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 1,
   "phase2": 2,
-  "generatedDate": "2026-11-05",
+  "generatedDate": "2026-11-06",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,39 +53,27 @@
     "fcfMarginPct": 27.2,
     "marketCapUsd": null,
     "entityName": "United Therapeutics Corporation",
-    "activeTrials": 27,
-    "phase3Count": 17,
-    "phase2Count": 9,
+    "activeTrials": 29,
+    "phase3Count": 18,
+    "phase2Count": 11,
     "leadPhase": 4,
-    "upcomingCount": 6,
+    "upcomingCount": 8,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 40
+    "daysToNextCatalyst": 39
   },
   "trialStats": {
     "completed": 43,
     "terminated": 19,
     "withdrawn": 12,
     "suspended": 0,
-    "ongoing": 9,
+    "ongoing": 11,
     "withResults": 40,
     "byPhase": {
-      "phase2": {
-        "completed": 8,
-        "terminated": 3,
-        "total": 17,
-        "completionRatePct": 73
-      },
-      "other": {
-        "completed": 11,
-        "terminated": 6,
-        "total": 22,
-        "completionRatePct": 65
-      },
       "phase3": {
         "completed": 14,
         "terminated": 8,
-        "total": 31,
+        "total": 32,
         "completionRatePct": 64
       },
       "phase1": {
@@ -93,6 +81,18 @@
         "terminated": 2,
         "total": 13,
         "completionRatePct": 83
+      },
+      "other": {
+        "completed": 11,
+        "terminated": 6,
+        "total": 22,
+        "completionRatePct": 65
+      },
+      "phase2": {
+        "completed": 8,
+        "terminated": 3,
+        "total": 18,
+        "completionRatePct": 73
       }
     },
     "concluded": 74,
@@ -746,6 +746,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-UTHR-NCT07923591",
+      "ticker": "UTHR",
+      "date": "2028-05-15",
+      "title": "Study of Treprostinil Administered Via Soft Mist Inhaler (SMI) in Participants With Pulmonary Hypertension Associated With Chronic Obstructive Pulmonary Disease (PH-COPD)",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Pulmonary Hypertension Associated With Chronic Obstructive Pulmonary Disease · 40 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07923591",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07923591",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-UTHR-NCT06878560",
       "ticker": "UTHR",
       "date": "2028-10-15",
@@ -787,6 +802,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04905693",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04905693",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-UTHR-NCT07923526",
+      "ticker": "UTHR",
+      "date": "2034-09-15",
+      "title": "An Open-Label Extension Study to Evaluate Inhaled Treprostinil SMI in Participants With Pulmonary Hypertension Associated With Chronic Obstructive Pulmonary Disease (PH-COPD)",
+      "type": "Trial Milestone",
+      "phase": "Phase 2/Phase 3",
+      "estimated": false,
+      "summary": "Pulmonary Hypertension Associated With Chronic Obstructive Pulmonary Disease · 400 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07923526",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07923526",
       "origin": "registry",
       "status": "upcoming"
     }

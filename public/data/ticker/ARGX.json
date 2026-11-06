@@ -11,7 +11,7 @@
   "activeTrials": 28,
   "phase3": 15,
   "phase2": 13,
-  "generatedDate": "2026-11-05",
+  "generatedDate": "2026-11-06",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 31,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 10
+    "daysToNextCatalyst": 9
   },
   "trialStats": {
     "completed": 35,
@@ -70,18 +70,6 @@
     "ongoing": 44,
     "withResults": 19,
     "byPhase": {
-      "phase3": {
-        "completed": 11,
-        "terminated": 4,
-        "total": 33,
-        "completionRatePct": 73
-      },
-      "phase1": {
-        "completed": 14,
-        "terminated": 0,
-        "total": 19,
-        "completionRatePct": 100
-      },
       "phase2": {
         "completed": 9,
         "terminated": 3,
@@ -93,6 +81,18 @@
         "terminated": 0,
         "total": 10,
         "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 11,
+        "terminated": 4,
+        "total": 33,
+        "completionRatePct": 73
+      },
+      "phase1": {
+        "completed": 14,
+        "terminated": 0,
+        "total": 19,
+        "completionRatePct": 100
       }
     },
     "concluded": 43,
@@ -1421,21 +1421,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ARGX-NCT06655155",
-      "ticker": "ARGX",
-      "date": "2027-03-15",
-      "title": "A Study to Assess the Efficacy and Safety of Efgartigimod PH20 SC in Adults With Systemic Sclerosis",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Systemic Sclerosis (SSc) · 87 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06655155",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06655155",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ARGX-NCT07612020",
       "ticker": "ARGX",
       "date": "2027-03-15",
@@ -1447,6 +1432,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07612020",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07612020",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ARGX-NCT06655155",
+      "ticker": "ARGX",
+      "date": "2027-03-15",
+      "title": "A Study to Assess the Efficacy and Safety of Efgartigimod PH20 SC in Adults With Systemic Sclerosis",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Systemic Sclerosis (SSc) · 87 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06655155",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06655155",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1496,21 +1496,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ARGX-NCT06392386",
-      "ticker": "ARGX",
-      "date": "2027-09-15",
-      "title": "A Study of Efgartigimod PH20 SC in Children Between 2 and Less Than 18 Years of Age With Generalized Myasthenia Gravis",
-      "type": "Trial Milestone",
-      "phase": "Phase 2/Phase 3",
-      "estimated": false,
-      "summary": "Generalized Myasthenia Gravis · 12 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06392386",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06392386",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ARGX-NCT06920004",
       "ticker": "ARGX",
       "date": "2027-09-15",
@@ -1522,6 +1507,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06920004",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06920004",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ARGX-NCT06392386",
+      "ticker": "ARGX",
+      "date": "2027-09-15",
+      "title": "A Study of Efgartigimod PH20 SC in Children Between 2 and Less Than 18 Years of Age With Generalized Myasthenia Gravis",
+      "type": "Trial Milestone",
+      "phase": "Phase 2/Phase 3",
+      "estimated": false,
+      "summary": "Generalized Myasthenia Gravis · 12 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06392386",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06392386",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1646,6 +1646,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-ARGX-NCT07570316",
+      "ticker": "ARGX",
+      "date": "2028-06-15",
+      "title": "A Study to Assess Efficacy and Safety of Efgartigimod PH20 SC PFS in Adult Participants With Graves' Disease",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Graves' Disease, Graves Disease · 230 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07570316",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07570316",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-ARGX-NCT07596849",
       "ticker": "ARGX",
       "date": "2028-06-15",
@@ -1672,21 +1687,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06544499",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06544499",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-ARGX-NCT07570316",
-      "ticker": "ARGX",
-      "date": "2028-06-15",
-      "title": "A Study to Assess Efficacy and Safety of Efgartigimod PH20 SC PFS in Adult Participants With Graves' Disease",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Graves' Disease, Graves Disease · 230 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07570316",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07570316",
       "origin": "registry",
       "status": "upcoming"
     },

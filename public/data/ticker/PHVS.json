@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-11-05",
+  "generatedDate": "2026-11-06",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -68,18 +68,18 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2027-06-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 222
+    "daysToNextCatalyst": 221
   },
   "trialStats": {
-    "completed": 2,
+    "completed": 3,
     "terminated": 1,
     "withdrawn": 0,
     "suspended": 0,
-    "ongoing": 5,
+    "ongoing": 4,
     "withResults": 2,
     "byPhase": {
       "phase3": {
-        "completed": 1,
+        "completed": 2,
         "terminated": 0,
         "total": 5,
         "completionRatePct": null
@@ -97,7 +97,7 @@
         "completionRatePct": null
       }
     },
-    "concluded": 3,
+    "concluded": 4,
     "completionRatePct": null,
     "resultsPostedPct": null
   },
@@ -388,6 +388,21 @@
       "status": "past"
     },
     {
+      "id": "ct-PHVS-NCT06669754",
+      "ticker": "PHVS",
+      "date": "2026-07-21",
+      "title": "Study of Oral Deucrictibant Extended-Release Tablet for Prophylaxis Against Angioedema Attacks in Adolescents and Adults With HAE",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Hereditary Angioedema (HAE) · 85 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06669754",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06669754",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "edgar-PHVS-0001193125-26-345702",
       "ticker": "PHVS",
       "date": "2026-08-12",
@@ -400,21 +415,6 @@
       "source": "SEC EDGAR 6-K 2026-08-12",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1830487/000119312526345702/phvs-20260630.htm",
       "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "ct-PHVS-NCT06669754",
-      "ticker": "PHVS",
-      "date": "2026-08-15",
-      "title": "Study of Oral Deucrictibant Extended-Release Tablet for Prophylaxis Against Angioedema Attacks in Adolescents and Adults With HAE",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Hereditary Angioedema (HAE) · 81 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06669754",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06669754",
-      "origin": "registry",
       "status": "past"
     },
     {

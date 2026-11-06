@@ -11,7 +11,7 @@
   "activeTrials": 15,
   "phase3": 2,
   "phase2": 13,
-  "generatedDate": "2026-11-05",
+  "generatedDate": "2026-11-06",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -68,7 +68,7 @@
     "upcomingCount": 28,
     "nextCatalystDate": "2026-11-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 25
+    "daysToNextCatalyst": 24
   },
   "trialStats": {
     "completed": 78,
@@ -78,12 +78,6 @@
     "ongoing": 31,
     "withResults": 36,
     "byPhase": {
-      "phase1": {
-        "completed": 19,
-        "terminated": 1,
-        "total": 31,
-        "completionRatePct": 95
-      },
       "other": {
         "completed": 17,
         "terminated": 1,
@@ -101,6 +95,12 @@
         "terminated": 3,
         "total": 40,
         "completionRatePct": 88
+      },
+      "phase1": {
+        "completed": 19,
+        "terminated": 1,
+        "total": 31,
+        "completionRatePct": 95
       }
     },
     "concluded": 88,
@@ -1354,6 +1354,21 @@
       "status": "past"
     },
     {
+      "id": "edgar-MRNA-0001682852-26-000194",
+      "ticker": "MRNA",
+      "date": "2026-11-06",
+      "title": "Quarterly results filed (8-K)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
+      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
+      "source": "SEC EDGAR 8-K 2026-11-06",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000194/mrna-20261106.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "ct-MRNA-NCT05095727",
       "ticker": "MRNA",
       "date": "2026-11-30",
@@ -1431,7 +1446,7 @@
     {
       "id": "edgar-MRNA-next-earnings",
       "ticker": "MRNA",
-      "date": "2027-01-01",
+      "date": "2027-01-22",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,
