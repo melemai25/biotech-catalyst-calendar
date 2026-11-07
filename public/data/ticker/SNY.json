@@ -11,7 +11,7 @@
   "activeTrials": 106,
   "phase3": 53,
   "phase2": 53,
-  "generatedDate": "2026-11-06",
+  "generatedDate": "2026-11-07",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 25,
     "nextCatalystDate": "2026-11-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 24
+    "daysToNextCatalyst": 23
   },
   "trialStats": {
     "completed": 329,
@@ -1313,21 +1313,6 @@
       "source": "ClinicalTrials.gov NCT04701983",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04701983",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-SNY-0001193125-25-112509",
-      "ticker": "SNY",
-      "date": "2025-05-05",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-05",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1121404/000119312525112509/d61420d6k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

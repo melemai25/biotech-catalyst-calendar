@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 3,
   "phase2": 0,
-  "generatedDate": "2026-11-06",
+  "generatedDate": "2026-11-07",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2026-12-31",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 55
+    "daysToNextCatalyst": 54
   },
   "trialStats": {
     "completed": 18,
@@ -317,21 +317,6 @@
       "source": "ClinicalTrials.gov NCT04819464",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04819464",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-VTRS-0001140361-25-017356",
-      "ticker": "VTRS",
-      "date": "2025-05-05",
-      "title": "8-K filed: Leadership change, Reg FD disclosure",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.02, 7.01, 9.01. Leadership change; Reg FD disclosure. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-05",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1792044/000114036125017356/ef20048420_8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

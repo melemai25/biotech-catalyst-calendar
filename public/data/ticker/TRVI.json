@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 2,
   "phase2": 1,
-  "generatedDate": "2026-11-06",
+  "generatedDate": "2026-11-07",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -58,9 +58,9 @@
     "phase2Count": 6,
     "leadPhase": 3,
     "upcomingCount": 4,
-    "nextCatalystDate": "2026-11-07",
+    "nextCatalystDate": "2027-02-08",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 93
   },
   "trialStats": {
     "completed": 14,
@@ -457,7 +457,7 @@
     {
       "id": "edgar-TRVI-next-earnings",
       "ticker": "TRVI",
-      "date": "2026-11-07",
+      "date": "2027-02-08",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

@@ -11,7 +11,7 @@
   "activeTrials": 16,
   "phase3": 2,
   "phase2": 14,
-  "generatedDate": "2026-11-06",
+  "generatedDate": "2026-11-07",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 15,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 9
+    "daysToNextCatalyst": 8
   },
   "trialStats": {
     "completed": 18,
@@ -503,21 +503,6 @@
       "source": "ClinicalTrials.gov NCT05304936",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05304936",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-IBRX-0001193125-25-112057",
-      "ticker": "IBRX",
-      "date": "2025-05-05",
-      "title": "8-K filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-05",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326110/000119312525112057/d949868d8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

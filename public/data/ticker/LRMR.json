@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-11-06",
+  "generatedDate": "2026-11-07",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-12-18",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 42
+    "daysToNextCatalyst": 41
   },
   "trialStats": {
     "completed": 5,
@@ -158,21 +158,6 @@
       "source": "ClinicalTrials.gov NCT06681766",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06681766",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-LRMR-0000950170-25-063125",
-      "ticker": "LRMR",
-      "date": "2025-05-05",
-      "title": "8-K filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-05",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1374690/000095017025063125/lrmr-20250505.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

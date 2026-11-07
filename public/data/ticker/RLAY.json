@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-11-06",
+  "generatedDate": "2026-11-07",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2027-02-03",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 89
+    "daysToNextCatalyst": 88
   },
   "trialStats": {
     "completed": 1,
@@ -107,21 +107,6 @@
       "source": "ClinicalTrials.gov NCT05759949",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05759949",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-RLAY-0000950170-25-063539",
-      "ticker": "RLAY",
-      "date": "2025-05-05",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-05",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1812364/000095017025063539/rlay-20250505.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

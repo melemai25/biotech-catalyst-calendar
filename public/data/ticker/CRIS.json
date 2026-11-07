@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-06",
+  "generatedDate": "2026-11-07",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -74,7 +74,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-11-10",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 4
+    "daysToNextCatalyst": 3
   },
   "trialStats": {
     "completed": 8,
@@ -414,6 +414,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-10-19",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108205/000110465926116910/tm2627615d1_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-CRIS-0001104659-26-123906",
+      "ticker": "CRIS",
+      "date": "2026-11-06",
+      "title": "8-K filed: Listing / standard notice",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 3.01. Listing / standard notice. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-06",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108205/000110465926123906/tm2629175d1_8k.htm",
       "origin": "edgar",
       "status": "past"
     },

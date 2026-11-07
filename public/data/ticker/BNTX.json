@@ -11,7 +11,7 @@
   "activeTrials": 25,
   "phase3": 8,
   "phase2": 17,
-  "generatedDate": "2026-11-06",
+  "generatedDate": "2026-11-07",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 29,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 9
+    "daysToNextCatalyst": 8
   },
   "trialStats": {
     "completed": 36,
@@ -533,51 +533,6 @@
       "source": "ClinicalTrials.gov NCT05997290",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05997290",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-BNTX-0001776985-25-000029",
-      "ticker": "BNTX",
-      "date": "2025-05-05",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-05",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1776985/000177698525000029/form6-kq12025quarterlyrepo.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-BNTX-0001776985-25-000026",
-      "ticker": "BNTX",
-      "date": "2025-05-05",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-05",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1776985/000177698525000026/form6-kq12025earningsprear.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-BNTX-0001776985-25-000024",
-      "ticker": "BNTX",
-      "date": "2025-05-05",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-05",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1776985/000177698525000024/form6-kcfoannouncement5may.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

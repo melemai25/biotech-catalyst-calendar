@@ -11,7 +11,7 @@
   "activeTrials": 16,
   "phase3": 11,
   "phase2": 5,
-  "generatedDate": "2026-11-06",
+  "generatedDate": "2026-11-07",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 17,
     "nextCatalystDate": "2027-01-31",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 86
+    "daysToNextCatalyst": 85
   },
   "trialStats": {
     "completed": 54,
@@ -788,21 +788,6 @@
       "source": "ClinicalTrials.gov NCT05110157",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05110157",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-NBIX-0000914475-25-000099",
-      "ticker": "NBIX",
-      "date": "2025-05-05",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-05",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/914475/000091447525000099/nbix-20250505.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {
