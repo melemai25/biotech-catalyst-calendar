@@ -11,7 +11,7 @@
   "activeTrials": 7,
   "phase3": 4,
   "phase2": 3,
-  "generatedDate": "2026-11-07",
+  "generatedDate": "2026-11-08",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -58,9 +58,9 @@
     "phase2Count": 1,
     "leadPhase": 3,
     "upcomingCount": 4,
-    "nextCatalystDate": "2026-11-08",
+    "nextCatalystDate": "2027-02-05",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 89
   },
   "trialStats": {
     "completed": 0,
@@ -307,7 +307,7 @@
     {
       "id": "edgar-TSHA-next-earnings",
       "ticker": "TSHA",
-      "date": "2026-11-08",
+      "date": "2027-02-05",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

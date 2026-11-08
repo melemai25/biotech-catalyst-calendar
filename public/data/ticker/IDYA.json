@@ -11,7 +11,7 @@
   "activeTrials": 6,
   "phase3": 3,
   "phase2": 3,
-  "generatedDate": "2026-11-07",
+  "generatedDate": "2026-11-08",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 11,
     "nextCatalystDate": "2027-01-07",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 61
+    "daysToNextCatalyst": 60
   },
   "trialStats": {
     "completed": 0,
@@ -94,21 +94,6 @@
     "resultsPostedPct": null
   },
   "events": [
-    {
-      "id": "edgar-IDYA-0000950170-25-063938",
-      "ticker": "IDYA",
-      "date": "2025-05-06",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-06",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1676725/000095017025063938/idya-20250506.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
     {
       "id": "edgar-IDYA-0001193125-25-151257",
       "ticker": "IDYA",

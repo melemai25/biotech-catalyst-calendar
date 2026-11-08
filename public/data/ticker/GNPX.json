@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-07",
+  "generatedDate": "2026-11-08",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 403
+    "daysToNextCatalyst": 402
   },
   "trialStats": {
     "completed": 0,
@@ -101,21 +101,6 @@
       "source": "ClinicalTrials.gov NCT05062980",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05062980",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-GNPX-0001437749-25-014618",
-      "ticker": "GNPX",
-      "date": "2025-05-06",
-      "title": "8-K filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. FORM 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-06",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1595248/000143774925014618/gnpx20250428_8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

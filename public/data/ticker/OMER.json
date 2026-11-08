@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-11-07",
+  "generatedDate": "2026-11-08",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 38
+    "daysToNextCatalyst": 37
   },
   "trialStats": {
     "completed": 16,
@@ -173,21 +173,6 @@
       "source": "ClinicalTrials.gov NCT05972967",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05972967",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-OMER-0001437749-25-014815",
-      "ticker": "OMER",
-      "date": "2025-05-06",
-      "title": "8-K filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. FORM 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-06",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1285819/000143774925014815/omer20250506_8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

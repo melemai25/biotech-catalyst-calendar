@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-07",
+  "generatedDate": "2026-11-08",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -68,7 +68,7 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2029-07-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 981
+    "daysToNextCatalyst": 980
   },
   "trialStats": {
     "completed": 1,
@@ -109,21 +109,6 @@
       "source": "ClinicalTrials.gov NCT04218071",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04218071",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ACTU-0001683168-25-003163",
-      "ticker": "ACTU",
-      "date": "2025-05-06",
-      "title": "8-K filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. FORM 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-06",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652935/000168316825003163/actuate_8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

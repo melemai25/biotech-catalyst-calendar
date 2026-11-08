@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-07",
+  "generatedDate": "2026-11-08",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-02-02",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 87
+    "daysToNextCatalyst": 86
   },
   "trialStats": {
     "completed": 8,
@@ -176,21 +176,6 @@
       "source": "ClinicalTrials.gov NCT04874350",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04874350",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-LPCN-0001641172-25-008766",
-      "ticker": "LPCN",
-      "date": "2025-05-06",
-      "title": "8-K filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-06",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1535955/000164117225008766/form8-k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

@@ -11,7 +11,7 @@
   "activeTrials": 318,
   "phase3": 191,
   "phase2": 127,
-  "generatedDate": "2026-11-07",
+  "generatedDate": "2026-11-08",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -92,7 +92,7 @@
     "upcomingCount": 36,
     "nextCatalystDate": "2026-11-18",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 11
+    "daysToNextCatalyst": 10
   },
   "trialStats": {
     "completed": 339,
@@ -1240,21 +1240,6 @@
       "source": "ClinicalTrials.gov NCT02264678",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02264678",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-AZN-0001654954-25-005099",
-      "ticker": "AZN",
-      "date": "2025-05-06",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. CALQUENCE COMBINATION APPROVED IN EU FOR 1L MCL.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-06",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/901832/000165495425005099/a4568h.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 4,
   "phase2": 0,
-  "generatedDate": "2026-11-07",
+  "generatedDate": "2026-11-08",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2027-09-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 327
+    "daysToNextCatalyst": 326
   },
   "trialStats": {
     "completed": 35,
@@ -383,21 +383,6 @@
       "source": "ClinicalTrials.gov NCT03451292",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03451292",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-GRFS-0001104659-25-044928",
-      "ticker": "GRFS",
-      "date": "2025-05-06",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. FORM 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-06",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1438569/000110465925044928/tm2514176d1_6k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

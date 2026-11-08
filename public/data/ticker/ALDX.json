@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-07",
+  "generatedDate": "2026-11-08",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 38
+    "daysToNextCatalyst": 37
   },
   "trialStats": {
     "completed": 33,
@@ -521,21 +521,6 @@
       "source": "ClinicalTrials.gov NCT06493604",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06493604",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ALDX-0001193125-25-113275",
-      "ticker": "ALDX",
-      "date": "2025-05-06",
-      "title": "8-K filed: Reg FD disclosure, Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 7.01, 8.01, 9.01. Reg FD disclosure; Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-06",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1341235/000119312525113275/d941544d8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {
