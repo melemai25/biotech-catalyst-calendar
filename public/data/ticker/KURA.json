@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-11-08",
+  "generatedDate": "2026-11-09",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 7,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 37
+    "daysToNextCatalyst": 36
   },
   "trialStats": {
     "completed": 5,
@@ -70,11 +70,11 @@
     "ongoing": 8,
     "withResults": 5,
     "byPhase": {
-      "phase2": {
-        "completed": 5,
-        "terminated": 1,
-        "total": 7,
-        "completionRatePct": 83
+      "other": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 2,
+        "completionRatePct": null
       },
       "phase1": {
         "completed": 0,
@@ -82,16 +82,16 @@
         "total": 7,
         "completionRatePct": null
       },
+      "phase2": {
+        "completed": 5,
+        "terminated": 1,
+        "total": 7,
+        "completionRatePct": 83
+      },
       "phase3": {
         "completed": 0,
         "terminated": 0,
         "total": 1,
-        "completionRatePct": null
-      },
-      "other": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 2,
         "completionRatePct": null
       }
     },
@@ -176,21 +176,6 @@
       "status": "past"
     },
     {
-      "id": "ct-KURA-NCT04865159",
-      "ticker": "KURA",
-      "date": "2023-05-02",
-      "title": "Cardiovascular Safety Study of Tipifarnib in Patients With Advanced Solid Malignancies",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Advanced Solid Tumor · 6 participants · Status: Terminated",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04865159",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04865159",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-KURA-NCT03719690",
       "ticker": "KURA",
       "date": "2023-05-02",
@@ -202,6 +187,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT03719690",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03719690",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-KURA-NCT04865159",
+      "ticker": "KURA",
+      "date": "2023-05-02",
+      "title": "Cardiovascular Safety Study of Tipifarnib in Patients With Advanced Solid Malignancies",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Advanced Solid Tumor · 6 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04865159",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04865159",
       "origin": "registry",
       "status": "past"
     },

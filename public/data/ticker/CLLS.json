@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-08",
+  "generatedDate": "2026-11-09",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2027-08-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 280
+    "daysToNextCatalyst": 279
   },
   "trialStats": {
     "completed": 0,
@@ -70,16 +70,16 @@
     "ongoing": 3,
     "withResults": 0,
     "byPhase": {
-      "phase1": {
-        "completed": 0,
-        "terminated": 2,
-        "total": 4,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 0,
         "terminated": 0,
         "total": 2,
+        "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 0,
+        "terminated": 2,
+        "total": 4,
         "completionRatePct": null
       }
     },
@@ -689,21 +689,6 @@
       "status": "past"
     },
     {
-      "id": "ct-CLLS-NCT04150497",
-      "ticker": "CLLS",
-      "date": "2026-06-30",
-      "title": "Phase 1/2 Study of UCART22 in Patients With Relapsed or Refractory CD22+ B-cell Acute Lymphoblastic Leukemia (BALLI-01)",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "B-cell Acute Lymphoblastic Leukemia · 52 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04150497",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04150497",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "edgar-CLLS-0001171843-26-005091",
       "ticker": "CLLS",
       "date": "2026-07-30",
@@ -806,6 +791,21 @@
       "source": "SEC EDGAR 6-K 2026-09-14",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1627281/000117184326006010/f6k_091326.htm",
       "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "ct-CLLS-NCT04150497",
+      "ticker": "CLLS",
+      "date": "2026-09-16",
+      "title": "Phase 1/2 Study of UCART22 in Patients With Relapsed or Refractory CD22+ B-cell Acute Lymphoblastic Leukemia (BALLI-01)",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "B-cell Acute Lymphoblastic Leukemia · 45 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04150497",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04150497",
+      "origin": "registry",
       "status": "past"
     },
     {

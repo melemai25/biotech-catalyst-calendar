@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-08",
+  "generatedDate": "2026-11-09",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -92,7 +92,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-11-13",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 5
+    "daysToNextCatalyst": 4
   },
   "trialStats": {
     "completed": 3,
@@ -102,10 +102,10 @@
     "ongoing": 3,
     "withResults": 2,
     "byPhase": {
-      "other": {
-        "completed": 1,
+      "phase3": {
+        "completed": 0,
         "terminated": 0,
-        "total": 2,
+        "total": 1,
         "completionRatePct": null
       },
       "phase1": {
@@ -114,10 +114,10 @@
         "total": 3,
         "completionRatePct": null
       },
-      "phase3": {
-        "completed": 0,
+      "other": {
+        "completed": 1,
         "terminated": 0,
-        "total": 1,
+        "total": 2,
         "completionRatePct": null
       }
     },
@@ -169,36 +169,6 @@
       "source": "ClinicalTrials.gov NCT04160065",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04160065",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-HURA-0000950170-25-065860",
-      "ticker": "HURA",
-      "date": "2025-05-07",
-      "title": "8-K/A filed: Leadership change",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K/A, items 5.02. Leadership change. 8-K/A.",
-      "result": null,
-      "source": "SEC EDGAR 8-K/A 2025-05-07",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1498382/000095017025065860/hura-20250307.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-HURA-0000950170-25-065057",
-      "ticker": "HURA",
-      "date": "2025-05-07",
-      "title": "8-K filed: Material agreement, Leadership change",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 1.01, 5.02, 9.01. Material agreement; Leadership change. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-07",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1498382/000095017025065057/hura-20250505.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

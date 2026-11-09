@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-08",
+  "generatedDate": "2026-11-09",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -58,7 +58,7 @@
     "phase2Count": 4,
     "leadPhase": 3,
     "upcomingCount": 2,
-    "nextCatalystDate": "2027-02-06",
+    "nextCatalystDate": "2027-02-07",
     "nextCatalystType": "Earnings",
     "daysToNextCatalyst": 90
   },
@@ -70,27 +70,27 @@
     "ongoing": 3,
     "withResults": 2,
     "byPhase": {
-      "other": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 3,
         "terminated": 1,
         "total": 4,
         "completionRatePct": 75
       },
-      "phase1": {
-        "completed": 1,
-        "terminated": 1,
+      "other": {
+        "completed": 0,
+        "terminated": 0,
         "total": 2,
         "completionRatePct": null
       },
       "phase3": {
         "completed": 0,
         "terminated": 0,
+        "total": 2,
+        "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 1,
+        "terminated": 1,
         "total": 2,
         "completionRatePct": null
       }
@@ -416,9 +416,24 @@
       "status": "past"
     },
     {
+      "id": "edgar-PROK-0001193125-26-452616",
+      "ticker": "PROK",
+      "date": "2026-11-09",
+      "title": "Quarterly results filed (8-K)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 2.02, 7.01, 8.01, 9.01. Quarterly results; Reg FD disclosure; Other event. 8-K.",
+      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
+      "source": "SEC EDGAR 8-K 2026-11-09",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1850270/000119312526452616/prok-20261109.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "edgar-PROK-next-earnings",
       "ticker": "PROK",
-      "date": "2027-02-06",
+      "date": "2027-02-07",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

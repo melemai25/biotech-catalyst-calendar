@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-08",
+  "generatedDate": "2026-11-09",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2027-02-03",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 87
+    "daysToNextCatalyst": 86
   },
   "trialStats": {
     "completed": 0,
@@ -265,6 +265,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-11-06",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1787400/000178740026000023/nktx-20261106.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-NKTX-0001787400-26-000027",
+      "ticker": "NKTX",
+      "date": "2026-11-09",
+      "title": "8-K filed: Reg FD disclosure, Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 7.01, 8.01, 9.01. Reg FD disclosure; Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-09",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1787400/000178740026000027/nktx-20261109.htm",
       "origin": "edgar",
       "status": "past"
     },

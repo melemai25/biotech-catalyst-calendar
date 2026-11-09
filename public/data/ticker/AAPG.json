@@ -11,7 +11,7 @@
   "activeTrials": 15,
   "phase3": 7,
   "phase2": 8,
-  "generatedDate": "2026-11-08",
+  "generatedDate": "2026-11-09",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 16,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 37
+    "daysToNextCatalyst": 36
   },
   "trialStats": {
     "completed": 9,
@@ -70,6 +70,12 @@
     "ongoing": 37,
     "withResults": 0,
     "byPhase": {
+      "other": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 2,
+        "completionRatePct": null
+      },
       "phase2": {
         "completed": 1,
         "terminated": 3,
@@ -87,12 +93,6 @@
         "terminated": 2,
         "total": 22,
         "completionRatePct": 80
-      },
-      "other": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
       }
     },
     "concluded": 15,
@@ -971,21 +971,6 @@
       "status": "past"
     },
     {
-      "id": "ct-AAPG-NCT04785196",
-      "ticker": "AAPG",
-      "date": "2026-04-15",
-      "title": "APG-115 in Combination With PD-1 Inhibitor in Patients With Advanced Liposarcoma or Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Liposarcoma, Advanced Solid Tumor · 95 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04785196",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04785196",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-AAPG-NCT06182969",
       "ticker": "AAPG",
       "date": "2026-04-15",
@@ -997,6 +982,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06182969",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06182969",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-AAPG-NCT04785196",
+      "ticker": "AAPG",
+      "date": "2026-04-15",
+      "title": "APG-115 in Combination With PD-1 Inhibitor in Patients With Advanced Liposarcoma or Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Liposarcoma, Advanced Solid Tumor · 95 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04785196",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04785196",
       "origin": "registry",
       "status": "past"
     },

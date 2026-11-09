@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 0,
   "phase2": 4,
-  "generatedDate": "2026-11-08",
+  "generatedDate": "2026-11-09",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-04-01",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 144
+    "daysToNextCatalyst": 143
   },
   "trialStats": {
     "completed": 2,
@@ -70,16 +70,16 @@
     "ongoing": 6,
     "withResults": 2,
     "byPhase": {
-      "phase1": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 3,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 1,
         "terminated": 2,
         "total": 10,
+        "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 3,
         "completionRatePct": null
       },
       "other": {
@@ -1066,6 +1066,36 @@
       "result": null,
       "source": "SEC EDGAR 6-K 2026-11-05",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1723069/000121390026116277/ea0311115-6k_tiziana.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-TLSA-0001213900-26-117429",
+      "ticker": "TLSA",
+      "date": "2026-11-09",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. REPORT OF FOREIGN PRIVATE ISSUER.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-11-09",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1723069/000121390026117429/ea0311457-6k_tiziana.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-TLSA-0001213900-26-117181",
+      "ticker": "TLSA",
+      "date": "2026-11-09",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. REPORT OF FOREIGN PRIVATE ISSUER.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-11-09",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1723069/000121390026117181/ea0311443-6k_tiziana.htm",
       "origin": "edgar",
       "status": "past"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 25,
   "phase3": 8,
   "phase2": 17,
-  "generatedDate": "2026-11-08",
+  "generatedDate": "2026-11-09",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 29,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 7
+    "daysToNextCatalyst": 6
   },
   "trialStats": {
     "completed": 36,
@@ -1676,21 +1676,6 @@
       "status": "past"
     },
     {
-      "id": "ct-BNTX-NCT04486378",
-      "ticker": "BNTX",
-      "date": "2026-11-15",
-      "title": "A Phase II Clinical Trial Comparing the Efficacy of RO7198457 Versus Watchful Waiting in Patients With ctDNA-positive, Resected Stage II (High Risk) and Stage III Colorectal Cancer",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Colorectal Cancer Stage II, Colorectal Cancer Stage III · 327 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04486378",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04486378",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BNTX-NCT07392372",
       "ticker": "BNTX",
       "date": "2026-11-15",
@@ -1702,6 +1687,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07392372",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07392372",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BNTX-NCT04486378",
+      "ticker": "BNTX",
+      "date": "2026-11-15",
+      "title": "A Phase II Clinical Trial Comparing the Efficacy of RO7198457 Versus Watchful Waiting in Patients With ctDNA-positive, Resected Stage II (High Risk) and Stage III Colorectal Cancer",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Colorectal Cancer Stage II, Colorectal Cancer Stage III · 327 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04486378",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04486378",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1826,21 +1826,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BNTX-NCT06340568",
-      "ticker": "BNTX",
-      "date": "2028-03-15",
-      "title": "A Clinical Study of the Anti-cancer Effects of an Investigational Therapy or Chemotherapy in Patients With Recurring Uterine Cancer",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Endometrial Cancer · 480 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06340568",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06340568",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BNTX-NCT07070232",
       "ticker": "BNTX",
       "date": "2028-03-15",
@@ -1852,6 +1837,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07070232",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07070232",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BNTX-NCT06340568",
+      "ticker": "BNTX",
+      "date": "2028-03-15",
+      "title": "A Clinical Study of the Anti-cancer Effects of an Investigational Therapy or Chemotherapy in Patients With Recurring Uterine Cancer",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Endometrial Cancer · 480 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06340568",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06340568",
       "origin": "registry",
       "status": "upcoming"
     },

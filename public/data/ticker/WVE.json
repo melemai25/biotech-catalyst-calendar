@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-11-08",
+  "generatedDate": "2026-11-09",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-12-29",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 51
+    "daysToNextCatalyst": 50
   },
   "trialStats": {
     "completed": 3,
@@ -70,6 +70,12 @@
     "ongoing": 4,
     "withResults": 8,
     "byPhase": {
+      "phase2": {
+        "completed": 1,
+        "terminated": 6,
+        "total": 11,
+        "completionRatePct": 14
+      },
       "phase3": {
         "completed": 0,
         "terminated": 1,
@@ -81,12 +87,6 @@
         "terminated": 0,
         "total": 2,
         "completionRatePct": null
-      },
-      "phase2": {
-        "completed": 1,
-        "terminated": 6,
-        "total": 11,
-        "completionRatePct": 14
       }
     },
     "concluded": 10,
@@ -185,21 +185,6 @@
       "status": "past"
     },
     {
-      "id": "ct-WVE-NCT05683860",
-      "ticker": "WVE",
-      "date": "2023-06-27",
-      "title": "Open-label Extension (OLE) Study of WVE-004 in Patients With C9orf72-associated Amyotrophic Lateral Sclerosis (ALS) and/or Frontotemporal Dementia (FTD)",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Amyotrophic Lateral Sclerosis, Frontotemporal Dementia · 8 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT05683860",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05683860",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-WVE-NCT04931862",
       "ticker": "WVE",
       "date": "2023-06-27",
@@ -211,6 +196,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04931862",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04931862",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-WVE-NCT05683860",
+      "ticker": "WVE",
+      "date": "2023-06-27",
+      "title": "Open-label Extension (OLE) Study of WVE-004 in Patients With C9orf72-associated Amyotrophic Lateral Sclerosis (ALS) and/or Frontotemporal Dementia (FTD)",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Amyotrophic Lateral Sclerosis, Frontotemporal Dementia · 8 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT05683860",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05683860",
       "origin": "registry",
       "status": "past"
     },

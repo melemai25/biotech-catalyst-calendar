@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-08",
+  "generatedDate": "2026-11-09",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -74,7 +74,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-11-13",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 5
+    "daysToNextCatalyst": 4
   },
   "trialStats": {
     "completed": 6,
@@ -84,11 +84,11 @@
     "ongoing": 1,
     "withResults": 1,
     "byPhase": {
-      "phase1": {
-        "completed": 2,
+      "phase2": {
+        "completed": 4,
         "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
+        "total": 4,
+        "completionRatePct": 100
       },
       "phase3": {
         "completed": 0,
@@ -96,11 +96,11 @@
         "total": 1,
         "completionRatePct": null
       },
-      "phase2": {
-        "completed": 4,
+      "phase1": {
+        "completed": 2,
         "terminated": 0,
-        "total": 4,
-        "completionRatePct": 100
+        "total": 2,
+        "completionRatePct": null
       }
     },
     "concluded": 6,
@@ -196,21 +196,6 @@
       "source": "ClinicalTrials.gov NCT05319587",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05319587",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-MBRX-0001437749-25-014934",
-      "ticker": "MBRX",
-      "date": "2025-05-07",
-      "title": "8-K filed: Reg FD disclosure",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 7.01, 9.01. Reg FD disclosure. FORM 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-07",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1659617/000143774925014934/mbrx20250506_8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

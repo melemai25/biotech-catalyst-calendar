@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-08",
+  "generatedDate": "2026-11-09",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,6 +53,14 @@
     "fcfMarginPct": 80.3,
     "marketCapUsd": null,
     "entityName": "CORMEDIX INC.",
+    "financingSinceCash": [
+      {
+        "date": "2026-11-09",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1410098/000121390026117213/ea0311423-8k_cormedix.htm"
+      }
+    ],
     "activeTrials": 3,
     "phase3Count": 2,
     "phase2Count": 0,
@@ -60,7 +68,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2027-01-11",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 64
+    "daysToNextCatalyst": 63
   },
   "trialStats": {
     "completed": 2,
@@ -70,16 +78,16 @@
     "ongoing": 3,
     "withResults": 1,
     "byPhase": {
-      "phase3": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 3,
-        "completionRatePct": null
-      },
       "other": {
         "completed": 0,
         "terminated": 0,
         "total": 2,
+        "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 3,
         "completionRatePct": null
       },
       "phase2": {
@@ -376,6 +384,21 @@
       "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
       "source": "SEC EDGAR 8-K 2026-11-02",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1410098/000121390026114665/ea0310445-8k_cormedix.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-CRMD-0001213900-26-117213",
+      "ticker": "CRMD",
+      "date": "2026-11-09",
+      "title": "8-K filed: Material agreement, Reg FD disclosure",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 1.01, 2.03, 3.02, 7.01, 9.01. Material agreement; Reg FD disclosure. CURRENT REPORT.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-09",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1410098/000121390026117213/ea0311423-8k_cormedix.htm",
       "origin": "edgar",
       "status": "past"
     },

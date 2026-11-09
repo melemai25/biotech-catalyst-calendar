@@ -11,7 +11,7 @@
   "activeTrials": 28,
   "phase3": 15,
   "phase2": 13,
-  "generatedDate": "2026-11-08",
+  "generatedDate": "2026-11-09",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 31,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 7
+    "daysToNextCatalyst": 6
   },
   "trialStats": {
     "completed": 35,
@@ -70,17 +70,11 @@
     "ongoing": 44,
     "withResults": 19,
     "byPhase": {
-      "phase2": {
-        "completed": 9,
-        "terminated": 3,
-        "total": 25,
-        "completionRatePct": 75
-      },
-      "other": {
-        "completed": 1,
+      "phase1": {
+        "completed": 14,
         "terminated": 0,
-        "total": 10,
-        "completionRatePct": null
+        "total": 19,
+        "completionRatePct": 100
       },
       "phase3": {
         "completed": 11,
@@ -88,11 +82,17 @@
         "total": 33,
         "completionRatePct": 73
       },
-      "phase1": {
-        "completed": 14,
+      "other": {
+        "completed": 1,
         "terminated": 0,
-        "total": 19,
-        "completionRatePct": 100
+        "total": 10,
+        "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 9,
+        "terminated": 3,
+        "total": 25,
+        "completionRatePct": 75
       }
     },
     "concluded": 43,
@@ -1361,6 +1361,36 @@
       "status": "past"
     },
     {
+      "id": "edgar-ARGX-0001104659-26-124180",
+      "ticker": "ARGX",
+      "date": "2026-11-09",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. FORM 6-K.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-11-09",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1697862/000110465926124180/tm2629301d1_6k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-ARGX-0001104659-26-124060",
+      "ticker": "ARGX",
+      "date": "2026-11-09",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. FORM 6-K.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-11-09",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1697862/000110465926124060/tm2629301d2_6k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "ct-ARGX-NCT06284954",
       "ticker": "ARGX",
       "date": "2026-11-15",
@@ -1496,21 +1526,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ARGX-NCT06920004",
-      "ticker": "ARGX",
-      "date": "2027-09-15",
-      "title": "A Study to Assess Efficacy and Safety of Empasiprubart Versus IVIg in Adults With CIDP",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Chronic Inflammatory Demyelinating Polyneuropathy, CIDP, CIDP - Chronic Inflammatory Demyelinating Polyneuropathy · 218 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06920004",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06920004",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ARGX-NCT06392386",
       "ticker": "ARGX",
       "date": "2027-09-15",
@@ -1522,6 +1537,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06392386",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06392386",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ARGX-NCT06920004",
+      "ticker": "ARGX",
+      "date": "2027-09-15",
+      "title": "A Study to Assess Efficacy and Safety of Empasiprubart Versus IVIg in Adults With CIDP",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Chronic Inflammatory Demyelinating Polyneuropathy, CIDP, CIDP - Chronic Inflammatory Demyelinating Polyneuropathy · 218 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06920004",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06920004",
       "origin": "registry",
       "status": "upcoming"
     },

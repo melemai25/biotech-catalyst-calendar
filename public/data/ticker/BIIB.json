@@ -11,7 +11,7 @@
   "activeTrials": 18,
   "phase3": 14,
   "phase2": 4,
-  "generatedDate": "2026-11-08",
+  "generatedDate": "2026-11-09",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,53 +53,68 @@
     "fcfMarginPct": 20.1,
     "marketCapUsd": null,
     "entityName": "BIOGEN INC.",
-    "activeTrials": 149,
-    "phase3Count": 50,
-    "phase2Count": 35,
+    "activeTrials": 159,
+    "phase3Count": 49,
+    "phase2Count": 39,
     "leadPhase": 4,
-    "upcomingCount": 20,
-    "nextCatalystDate": "2027-02-02",
+    "upcomingCount": 22,
+    "nextCatalystDate": "2026-12-01",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 86
+    "daysToNextCatalyst": 22
   },
   "trialStats": {
-    "completed": 316,
-    "terminated": 78,
-    "withdrawn": 19,
+    "completed": 320,
+    "terminated": 79,
+    "withdrawn": 16,
     "suspended": 0,
-    "ongoing": 40,
-    "withResults": 116,
+    "ongoing": 41,
+    "withResults": 113,
     "byPhase": {
+      "phase3": {
+        "completed": 41,
+        "terminated": 23,
+        "total": 81,
+        "completionRatePct": 64
+      },
+      "phase1": {
+        "completed": 125,
+        "terminated": 15,
+        "total": 147,
+        "completionRatePct": 89
+      },
       "other": {
-        "completed": 90,
+        "completed": 92,
         "terminated": 17,
-        "total": 131,
+        "total": 130,
         "completionRatePct": 84
       },
       "phase2": {
-        "completed": 59,
-        "terminated": 22,
-        "total": 91,
-        "completionRatePct": 73
-      },
-      "phase1": {
-        "completed": 123,
-        "terminated": 16,
-        "total": 147,
-        "completionRatePct": 88
-      },
-      "phase3": {
-        "completed": 44,
-        "terminated": 23,
-        "total": 84,
-        "completionRatePct": 66
+        "completed": 62,
+        "terminated": 24,
+        "total": 98,
+        "completionRatePct": 72
       }
     },
-    "concluded": 413,
+    "concluded": 415,
     "completionRatePct": 77,
-    "resultsPostedPct": 37
+    "resultsPostedPct": 35
   },
   "events": [
+    {
+      "id": "ct-BIIB-NCT02782975",
+      "ticker": "BIIB",
+      "date": "2016-11-15",
+      "title": "Absolute Bioavailability of a Single, Fixed Subcutaneous Dose of Aducanumab in Healthy Participants",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Alzheimer's Disease · 28 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT02782975",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02782975",
+      "origin": "registry",
+      "status": "past"
+    },
     {
       "id": "ct-BIIB-NCT02833142",
       "ticker": "BIIB",
@@ -116,17 +131,17 @@
       "status": "past"
     },
     {
-      "id": "ct-BIIB-NCT02782975",
+      "id": "ct-BIIB-NCT02193074",
       "ticker": "BIIB",
-      "date": "2016-11-15",
-      "title": "Absolute Bioavailability of a Single, Fixed Subcutaneous Dose of Aducanumab in Healthy Participants",
+      "date": "2016-11-21",
+      "title": "A Study to Assess the Efficacy and Safety of Nusinersen (ISIS 396443) in Infants With Spinal Muscular Atrophy",
       "type": "Trial Milestone",
-      "phase": "Phase 1",
+      "phase": "Phase 3",
       "estimated": false,
-      "summary": "Alzheimer's Disease · 28 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT02782975",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02782975",
+      "summary": "Spinal Muscular Atrophy · 122 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT02193074",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02193074",
       "origin": "registry",
       "status": "past"
     },
@@ -157,6 +172,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT02829541",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02829541",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-BIIB-NCT02917187",
+      "ticker": "BIIB",
+      "date": "2016-12-27",
+      "title": "A Phase 2a Study of BIIB074 in the Treatment of Erythromelalgia",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Primary Inherited Erythromelalgia · 8 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT02917187",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02917187",
       "origin": "registry",
       "status": "past"
     },
@@ -281,6 +311,21 @@
       "status": "past"
     },
     {
+      "id": "ct-BIIB-NCT02525874",
+      "ticker": "BIIB",
+      "date": "2017-04-24",
+      "title": "Effect of BG00012 on Lymphocyte Subsets and Immunoglobulins in Subjects With Relapsing Remitting Multiple Sclerosis (RRMS).",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Multiple Sclerosis, Relapsing-Remitting, Multiple Sclerosis · 218 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT02525874",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02525874",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "ct-BIIB-NCT02471560",
       "ticker": "BIIB",
       "date": "2017-06-12",
@@ -352,6 +397,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT02587065",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02587065",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-BIIB-NCT03000530",
+      "ticker": "BIIB",
+      "date": "2017-10-04",
+      "title": "A Study to Evaluate SAGE-217 in Participants With Moderate to Severe Major Depressive Disorder",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Major Depression · 102 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT03000530",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03000530",
       "origin": "registry",
       "status": "past"
     },
@@ -581,21 +641,6 @@
       "status": "past"
     },
     {
-      "id": "ct-BIIB-NCT01797965",
-      "ticker": "BIIB",
-      "date": "2018-09-24",
-      "title": "Long-Term Extension Study in Participants With Multiple Sclerosis Who Have Completed Study 205MS301 (NCT01064401) to Evaluate the Safety and Efficacy of BIIB019",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Relapsing-Remitting Multiple Sclerosis, Multiple Sclerosis · 1,501 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT01797965",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT01797965",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-BIIB-NCT02978326",
       "ticker": "BIIB",
       "date": "2018-11-15",
@@ -611,6 +656,21 @@
       "status": "past"
     },
     {
+      "id": "ct-BIIB-NCT03664453",
+      "ticker": "BIIB",
+      "date": "2018-11-20",
+      "title": "A Pharmacokinetic Study of Omaveloxolone in Healthy Volunteers",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Healthy · 32 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT03664453",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03664453",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "ct-BIIB-NCT03366337",
       "ticker": "BIIB",
       "date": "2019-01-02",
@@ -622,6 +682,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT03366337",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03366337",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-BIIB-NCT02957617",
+      "ticker": "BIIB",
+      "date": "2019-02-07",
+      "title": "Extension Study to Evaluate the Long-Term Safety, Tolerability, and Maintenance of Effect of BIIB074",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Neuropathic Pain From Lumbosacral Radiculopathy · 302 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT02957617",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02957617",
       "origin": "registry",
       "status": "past"
     },
@@ -656,17 +731,17 @@
       "status": "past"
     },
     {
-      "id": "ct-BIIB-NCT03093324",
+      "id": "ct-BIIB-NCT03931590",
       "ticker": "BIIB",
-      "date": "2019-06-27",
-      "title": "A Tolerability Study of ALKS 8700 in Subjects With Relapsing Remitting Multiple Sclerosis (RRMS) EVOLVE-MS-2",
+      "date": "2019-05-31",
+      "title": "A Human AME Study for Omaveloxolone",
       "type": "Trial Milestone",
-      "phase": "Phase 3",
+      "phase": "Phase 1",
       "estimated": false,
-      "summary": "Relapsing Remitting Multiple Sclerosis · 506 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT03093324",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT03093324",
+      "summary": "Healthy Male Subjects · 8 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT03931590",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03931590",
       "origin": "registry",
       "status": "past"
     },
@@ -881,6 +956,21 @@
       "status": "past"
     },
     {
+      "id": "ct-BIIB-NCT03943056",
+      "ticker": "BIIB",
+      "date": "2020-01-10",
+      "title": "A Safety, Tolerability, Pharmacokinetic, and Pharmacodynamic Study of BIIB091, a Bruton's Tyrosine Kinase (BTK) Inhibitor, in Healthy Adult Participants",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Healthy Volunteer · 64 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT03943056",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03943056",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "ct-BIIB-NCT03283371",
       "ticker": "BIIB",
       "date": "2020-01-11",
@@ -907,6 +997,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT03902002",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03902002",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-BIIB-NCT03056729",
+      "ticker": "BIIB",
+      "date": "2020-03-03",
+      "title": "Single-Ascending-Dose Study of BIIB076 in Healthy Volunteers and Participants With Alzheimer's Disease",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Alzheimer's Disease, Healthy Volunteer · 46 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT03056729",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03056729",
       "origin": "registry",
       "status": "past"
     },
@@ -971,21 +1076,6 @@
       "status": "past"
     },
     {
-      "id": "ct-BIIB-NCT03318523",
-      "ticker": "BIIB",
-      "date": "2020-10-26",
-      "title": "Evaluating the Efficacy, Safety, Pharmacokinetics, and Pharmacodynamics of BIIB054 in Participants With Parkinson's Disease",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Parkinson's Disease · 357 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT03318523",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT03318523",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-BIIB-NCT03177083",
       "ticker": "BIIB",
       "date": "2020-10-26",
@@ -997,6 +1087,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT03177083",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03177083",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-BIIB-NCT04068532",
+      "ticker": "BIIB",
+      "date": "2020-11-11",
+      "title": "A Study to Explore Pharmacodynamic Effects of BIIB104 on Brain Circuitry in Healthy Participants",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Healthy Volunteers · 30 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04068532",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04068532",
       "origin": "registry",
       "status": "past"
     },
@@ -1076,21 +1181,6 @@
       "status": "past"
     },
     {
-      "id": "ct-BIIB-NCT04571424",
-      "ticker": "BIIB",
-      "date": "2021-04-08",
-      "title": "A Study to Evaluate Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of BIIB133 (Dapirolizumab Pegol) in Healthy Japanese and Caucasian Participants",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Healthy Volunteers · 33 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04571424",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04571424",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-BIIB-NCT03339336",
       "ticker": "BIIB",
       "date": "2021-04-12",
@@ -1121,21 +1211,6 @@
       "status": "past"
     },
     {
-      "id": "ct-BIIB-NCT02634307",
-      "ticker": "BIIB",
-      "date": "2021-06-01",
-      "title": "A Study of ALKS 8700 in Adults With Relapsing Remitting Multiple Sclerosis (MS) EVOLVE-MS-1",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Multiple Sclerosis · 1,057 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02634307",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02634307",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-BIIB-NCT03945279",
       "ticker": "BIIB",
       "date": "2021-06-21",
@@ -1151,17 +1226,17 @@
       "status": "past"
     },
     {
-      "id": "ct-BIIB-NCT02623699",
+      "id": "ct-BIIB-NCT03352557",
       "ticker": "BIIB",
-      "date": "2021-07-16",
-      "title": "An Efficacy, Safety, Tolerability, Pharmacokinetics and Pharmacodynamics Study of BIIB067 (Tofersen) in Adults With Inherited Amyotrophic Lateral Sclerosis (ALS)",
+      "date": "2021-08-30",
+      "title": "Phase 2 Study of BIIB092 in Participants With Early Alzheimer's Disease",
       "type": "Trial Milestone",
-      "phase": "Phase 3",
+      "phase": "Phase 2",
       "estimated": false,
-      "summary": "Amyotrophic Lateral Sclerosis · 176 participants · Status: Completed",
+      "summary": "Alzheimer's Disease · 654 participants · Status: Terminated",
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02623699",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02623699",
+      "source": "ClinicalTrials.gov NCT03352557",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03352557",
       "origin": "registry",
       "status": "past"
     },
@@ -1256,21 +1331,6 @@
       "status": "past"
     },
     {
-      "id": "ct-BIIB-NCT04103333",
-      "ticker": "BIIB",
-      "date": "2022-01-02",
-      "title": "Angelman Syndrome (AS) Biomarker Study",
-      "type": "Trial Milestone",
-      "phase": "EARLY_Phase 1",
-      "estimated": false,
-      "summary": "Angelman Syndrome, Chromosome 15q Duplication (dup15q) Syndrome · 20 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04103333",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04103333",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-BIIB-NCT04145440",
       "ticker": "BIIB",
       "date": "2022-01-19",
@@ -1297,6 +1357,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05148481",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05148481",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-BIIB-NCT05152485",
+      "ticker": "BIIB",
+      "date": "2022-01-31",
+      "title": "A Study to Evaluate the Relative Bioavailability of Two Formulations of BIIB104 and Assess the Effect of Food on the Pharmacokinetics of BIIB104 Following Administration of a Single, Fixed, Oral Dose of BIIB104 in Healthy Participants",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Healthy Volunteers · 36 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05152485",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05152485",
       "origin": "registry",
       "status": "past"
     },
@@ -1331,6 +1406,21 @@
       "status": "past"
     },
     {
+      "id": "ct-BIIB-NCT04288856",
+      "ticker": "BIIB",
+      "date": "2022-05-03",
+      "title": "Study to Assess the Safety, Tolerability, Pharmacokinetics, and Effect on Disease Progression of BIIB078 Administered to Previously Treated Adults C9ORF72-Associated Amyotrophic Lateral Sclerosis (ALS)",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Amyotrophic Lateral Sclerosis · 75 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04288856",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04288856",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "ct-BIIB-NCT05127564",
       "ticker": "BIIB",
       "date": "2022-06-09",
@@ -1342,21 +1432,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05127564",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05127564",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "ct-BIIB-NCT03507686",
-      "ticker": "BIIB",
-      "date": "2022-06-29",
-      "title": "A Safety Study of Retinal Gene Therapy for Choroideremia With Administration of BIIB111",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Choroideremia · 66 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT03507686",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT03507686",
       "origin": "registry",
       "status": "past"
     },
@@ -1391,21 +1466,6 @@
       "status": "past"
     },
     {
-      "id": "ct-BIIB-NCT05229562",
-      "ticker": "BIIB",
-      "date": "2022-09-07",
-      "title": "A Study to See How BIIB122 Works in the Human Body, and to Evaluate it's Safety, and Tolerability in Healthy Adult Japanese, Chinese, and Caucasian Participants",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Healthy Volunteer · 84 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05229562",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05229562",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-BIIB-NCT04564612",
       "ticker": "BIIB",
       "date": "2022-09-07",
@@ -1417,6 +1477,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04564612",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04564612",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-BIIB-NCT05229562",
+      "ticker": "BIIB",
+      "date": "2022-09-07",
+      "title": "A Study to See How BIIB122 Works in the Human Body, and to Evaluate it's Safety, and Tolerability in Healthy Adult Japanese, Chinese, and Caucasian Participants",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Healthy Volunteer · 84 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05229562",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05229562",
       "origin": "registry",
       "status": "past"
     },
@@ -1492,21 +1567,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05160558",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05160558",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "ct-BIIB-NCT05418673",
-      "ticker": "BIIB",
-      "date": "2023-07-27",
-      "title": "A Study to Assess if BIIB122 Tablets Are Safe and Can Slow Worsening of Early-Stage Parkinson's Disease in Participants With Specific LRRK2 Genetic Variants Between the Ages of 30 and 80 Using the Movement Disorder Society-Unified Parkinson's Disease Rating Scale",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Parkinson Disease · 7 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT05418673",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05418673",
       "origin": "registry",
       "status": "past"
     },
@@ -1631,6 +1691,36 @@
       "status": "past"
     },
     {
+      "id": "ct-BIIB-NCT04089566",
+      "ticker": "BIIB",
+      "date": "2024-02-21",
+      "title": "Study of Nusinersen (BIIB058) in Participants With Spinal Muscular Atrophy",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Muscular Atrophy, Spinal · 145 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT04089566",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04089566",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-BIIB-NCT04593121",
+      "ticker": "BIIB",
+      "date": "2024-03-05",
+      "title": "Study to Evaluate Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of BIIB107 in Healthy Adult Participants",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Healthy Volunteers · 84 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04593121",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04593121",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "ct-BIIB-NCT06311786",
       "ticker": "BIIB",
       "date": "2024-05-11",
@@ -1751,6 +1841,36 @@
       "status": "past"
     },
     {
+      "id": "ct-BIIB-NCT05655507",
+      "ticker": "BIIB",
+      "date": "2024-10-18",
+      "title": "Zuranolone Pharmacokinetics (PK) and Safety Study Adolescent Participants With Major Depressive Disorder (MDD)",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Major Depressive Disorder · 19 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05655507",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05655507",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-BIIB-NCT05895552",
+      "ticker": "BIIB",
+      "date": "2024-11-15",
+      "title": "A Study of RTA 901 (BIIB143) in Participants With Diabetic Peripheral Neuropathic Pain",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Diabetic Peripheral Neuropathic Pain · 209 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT05895552",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05895552",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "ct-BIIB-NCT02386553",
       "ticker": "BIIB",
       "date": "2024-12-17",
@@ -1762,21 +1882,6 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT02386553",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02386553",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "ct-BIIB-NCT06640933",
-      "ticker": "BIIB",
-      "date": "2025-02-07",
-      "title": "A Study to Find Out How Different Forms of BIIB091 is Processed in The Body With and Without Food in Healthy Participants",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Healthy Volunteer · 25 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06640933",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06640933",
       "origin": "registry",
       "status": "past"
     },
@@ -1976,21 +2081,6 @@
       "status": "past"
     },
     {
-      "id": "ct-BIIB-NCT05798520",
-      "ticker": "BIIB",
-      "date": "2026-02-10",
-      "title": "A Study to Learn About the Safety of BIIB091 and Its Effect on Brain Inflammation When Taken Alone or With Diroximel Fumarate (DRF) in Adults With Relapsing Forms of Multiple Sclerosis (MS)",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Relapsing Forms of Multiple Sclerosis · 127 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05798520",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05798520",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "edgar-BIIB-0001193125-26-046803",
       "ticker": "BIIB",
       "date": "2026-02-11",
@@ -2047,6 +2137,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06741657",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06741657",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-BIIB-NCT05399888",
+      "ticker": "BIIB",
+      "date": "2026-03-11",
+      "title": "A Study to Learn About the Safety of Diranersen (BIIB080) Injections and Whether They Can Improve Symptoms of Participants With Mild Cognitive Impairment Due to Alzheimer's Disease (AD) or Mild AD Dementia Between 50 to 80 Years of Age",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Mild Cognitive Impairment Due to Alzheimer's Disease, Alzheimer's Disease Dementia · 416 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05399888",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05399888",
       "origin": "registry",
       "status": "past"
     },
@@ -2108,6 +2213,21 @@
       "source": "SEC EDGAR 8-K 2026-04-29",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/875045/000087504526000042/biib-20260429.htm",
       "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "ct-BIIB-NCT07297199",
+      "ticker": "BIIB",
+      "date": "2026-05-01",
+      "title": "A Study to Learn How the Body Processes BIIB141 (Omaveloxolone) When Taken as a Capsule or as a Tablet Dissolved in Liquid, and to Learn About Its Safety in Healthy Adults Ages 18 to 55",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Healthy Volunteer · 70 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07297199",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07297199",
+      "origin": "registry",
       "status": "past"
     },
     {
@@ -2276,6 +2396,21 @@
       "status": "past"
     },
     {
+      "id": "ct-BIIB-NCT06685757",
+      "ticker": "BIIB",
+      "date": "2026-12-01",
+      "title": "A Study to Learn More About the Effects and Safety of Felzartamab Infusions in Adults With Kidney Transplants Who Have Antibody-Mediated Rejection (AMR)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Antibody-mediated Rejection · 132 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06685757",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06685757",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-BIIB-NCT07225517",
       "ticker": "BIIB",
       "date": "2027-02-02",
@@ -2291,6 +2426,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-BIIB-NCT03958877",
+      "ticker": "BIIB",
+      "date": "2027-05-20",
+      "title": "A Study to Evaluate the Safety, Tolerability, and Efficacy of BIIB017 (Peginterferon Beta-1a) in Pediatric Participants for the Treatment of Relapsing-Remitting Multiple Sclerosis",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Multiple Sclerosis, Relapsing-Remitting · 152 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT03958877",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03958877",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-BIIB-NCT07223723",
       "ticker": "BIIB",
       "date": "2027-05-26",
@@ -2302,21 +2452,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07223723",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07223723",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-BIIB-NCT06935357",
-      "ticker": "BIIB",
-      "date": "2027-05-31",
-      "title": "A Study to Learn About the Effects of Felzartamab Infusions on Adults With Immunoglobulin A Nephropathy (IgAN)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Immunoglobulin A Nephropathy (IgAN) · 454 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06935357",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06935357",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -2392,6 +2527,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07722546",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07722546",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BIIB-NCT07219043",
+      "ticker": "BIIB",
+      "date": "2028-02-10",
+      "title": "A Study to Learn About the Effects of Felzartamab Infusions in Adults With Kidney Transplants Who Have Late Isolated Microvascular Inflammation",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Microvascular Inflammation · 81 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07219043",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07219043",
       "origin": "registry",
       "status": "upcoming"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 2,
   "phase2": 2,
-  "generatedDate": "2026-11-08",
+  "generatedDate": "2026-11-09",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2027-01-10",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 63
+    "daysToNextCatalyst": 62
   },
   "trialStats": {
     "completed": 23,
@@ -76,12 +76,6 @@
         "total": 11,
         "completionRatePct": 100
       },
-      "phase3": {
-        "completed": 8,
-        "terminated": 0,
-        "total": 10,
-        "completionRatePct": 100
-      },
       "phase1": {
         "completed": 3,
         "terminated": 0,
@@ -92,6 +86,12 @@
         "completed": 4,
         "terminated": 0,
         "total": 5,
+        "completionRatePct": 100
+      },
+      "phase3": {
+        "completed": 8,
+        "terminated": 0,
+        "total": 10,
         "completionRatePct": 100
       }
     },
@@ -293,21 +293,6 @@
       "source": "ClinicalTrials.gov NCT05774756",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05774756",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-RYTM-0001558370-25-006602",
-      "ticker": "RYTM",
-      "date": "2025-05-07",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-07",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1649904/000155837025006602/rytm-20250507x8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

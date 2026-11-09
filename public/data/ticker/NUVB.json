@@ -11,7 +11,7 @@
   "activeTrials": 8,
   "phase3": 4,
   "phase2": 4,
-  "generatedDate": "2026-11-08",
+  "generatedDate": "2026-11-09",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 8,
     "nextCatalystDate": "2027-01-13",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 66
+    "daysToNextCatalyst": 65
   },
   "trialStats": {
     "completed": 4,
@@ -82,16 +82,16 @@
         "total": 4,
         "completionRatePct": null
       },
-      "phase2": {
-        "completed": 0,
-        "terminated": 1,
-        "total": 7,
-        "completionRatePct": null
-      },
       "other": {
         "completed": 0,
         "terminated": 0,
         "total": 1,
+        "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 0,
+        "terminated": 1,
+        "total": 7,
         "completionRatePct": null
       }
     },
@@ -218,21 +218,6 @@
       "source": "ClinicalTrials.gov NCT04617054",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04617054",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-NUVB-0001193125-25-114908",
-      "ticker": "NUVB",
-      "date": "2025-05-07",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-07",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1811063/000119312525114908/d905090d8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-08",
+  "generatedDate": "2026-11-09",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -84,11 +84,11 @@
         "total": 23,
         "completionRatePct": 100
       },
-      "other": {
-        "completed": 3,
+      "phase1": {
+        "completed": 6,
         "terminated": 0,
         "total": 7,
-        "completionRatePct": null
+        "completionRatePct": 100
       },
       "phase2": {
         "completed": 7,
@@ -96,11 +96,11 @@
         "total": 7,
         "completionRatePct": 100
       },
-      "phase1": {
-        "completed": 6,
+      "other": {
+        "completed": 3,
         "terminated": 0,
         "total": 7,
-        "completionRatePct": 100
+        "completionRatePct": null
       }
     },
     "concluded": 39,
@@ -286,21 +286,6 @@
       "source": "ClinicalTrials.gov NCT06334393",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06334393",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-VALN-0001628280-25-022959",
-      "ticker": "VALN",
-      "date": "2025-05-07",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-07",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1836564/000162828025022959/valn-20250331.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

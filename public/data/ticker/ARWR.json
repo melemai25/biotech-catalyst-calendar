@@ -11,7 +11,7 @@
   "activeTrials": 10,
   "phase3": 4,
   "phase2": 6,
-  "generatedDate": "2026-11-08",
+  "generatedDate": "2026-11-09",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -68,7 +68,7 @@
     "upcomingCount": 13,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 37
+    "daysToNextCatalyst": 36
   },
   "trialStats": {
     "completed": 23,
@@ -78,11 +78,11 @@
     "ongoing": 13,
     "withResults": 21,
     "byPhase": {
-      "phase1": {
-        "completed": 8,
-        "terminated": 2,
-        "total": 13,
-        "completionRatePct": 80
+      "phase3": {
+        "completed": 4,
+        "terminated": 0,
+        "total": 8,
+        "completionRatePct": 100
       },
       "phase2": {
         "completed": 11,
@@ -90,17 +90,17 @@
         "total": 28,
         "completionRatePct": 55
       },
+      "phase1": {
+        "completed": 8,
+        "terminated": 2,
+        "total": 13,
+        "completionRatePct": 80
+      },
       "other": {
         "completed": 0,
         "terminated": 0,
         "total": 1,
         "completionRatePct": null
-      },
-      "phase3": {
-        "completed": 4,
-        "terminated": 0,
-        "total": 8,
-        "completionRatePct": 100
       }
     },
     "concluded": 37,
@@ -108,21 +108,6 @@
     "resultsPostedPct": 91
   },
   "events": [
-    {
-      "id": "ct-ARWR-NCT02363946",
-      "ticker": "ARWR",
-      "date": "2016-11-15",
-      "title": "A Study of ARC-AAT in Healthy Volunteer Subjects and Patients With Alpha-1 Antitrypsin Deficiency (AATD)",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Alpha-1 Antitrypsin Deficiency · 65 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02363946",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02363946",
-      "origin": "registry",
-      "status": "past"
-    },
     {
       "id": "ct-ARWR-NCT02797522",
       "ticker": "ARWR",
@@ -139,17 +124,32 @@
       "status": "past"
     },
     {
-      "id": "ct-ARWR-NCT02604212",
+      "id": "ct-ARWR-NCT02363946",
+      "ticker": "ARWR",
+      "date": "2016-11-15",
+      "title": "A Study of ARC-AAT in Healthy Volunteer Subjects and Patients With Alpha-1 Antitrypsin Deficiency (AATD)",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Alpha-1 Antitrypsin Deficiency · 65 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT02363946",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02363946",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-ARWR-NCT02577029",
       "ticker": "ARWR",
       "date": "2016-12-15",
-      "title": "A Multi-dose Study of ARC-520 in Patients With Hepatitis B 'e' Antigen (HBeAg) Positive, Chronic Hepatitis B Virus Infection",
+      "title": "Study of ARC-520 With or Without Other Drugs Used in the Treatment of Chronic Chronic Hepatitis B Virus (HBV)",
       "type": "Trial Milestone",
       "phase": "Phase 2",
       "estimated": false,
-      "summary": "Hepatitis B · 32 participants · Status: Terminated",
+      "summary": "Hepatitis B, Hepatitis D · 79 participants · Status: Terminated",
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02604212",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02604212",
+      "source": "ClinicalTrials.gov NCT02577029",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02577029",
       "origin": "registry",
       "status": "past"
     },
@@ -169,6 +169,21 @@
       "status": "past"
     },
     {
+      "id": "ct-ARWR-NCT02604212",
+      "ticker": "ARWR",
+      "date": "2016-12-15",
+      "title": "A Multi-dose Study of ARC-520 in Patients With Hepatitis B 'e' Antigen (HBeAg) Positive, Chronic Hepatitis B Virus Infection",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Hepatitis B · 32 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT02604212",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02604212",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "ct-ARWR-NCT02452528",
       "ticker": "ARWR",
       "date": "2016-12-15",
@@ -180,21 +195,6 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT02452528",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02452528",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "ct-ARWR-NCT02577029",
-      "ticker": "ARWR",
-      "date": "2016-12-15",
-      "title": "Study of ARC-520 With or Without Other Drugs Used in the Treatment of Chronic Chronic Hepatitis B Virus (HBV)",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Hepatitis B, Hepatitis D · 79 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02577029",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02577029",
       "origin": "registry",
       "status": "past"
     },
@@ -949,21 +949,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ARWR-NCT06822790",
-      "ticker": "ARWR",
-      "date": "2028-07-15",
-      "title": "Long-Term Safety and Efficacy of Plozasiran in Adults With Hypertriglyceridemia",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Hypertriglyceridemia · 710 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06822790",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06822790",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ARWR-NCT07473843",
       "ticker": "ARWR",
       "date": "2028-07-15",
@@ -975,6 +960,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07473843",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07473843",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ARWR-NCT06822790",
+      "ticker": "ARWR",
+      "date": "2028-07-15",
+      "title": "Long-Term Safety and Efficacy of Plozasiran in Adults With Hypertriglyceridemia",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Hypertriglyceridemia · 710 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06822790",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06822790",
       "origin": "registry",
       "status": "upcoming"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-08",
+  "generatedDate": "2026-11-09",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,6 +55,12 @@
     "entityName": "ABEONA THERAPEUTICS INC.",
     "financingSinceCash": [
       {
+        "date": "2026-11-09",
+        "form": "8-K",
+        "label": "Unregistered sale of shares (private placement)",
+        "url": "https://www.sec.gov/Archives/edgar/data/318306/000149315226050606/form8-k.htm"
+      },
+      {
         "date": "2026-07-10",
         "form": "424B3",
         "label": "Prospectus (often a resale after a private placement)",
@@ -66,9 +72,9 @@
     "phase2Count": 2,
     "leadPhase": 4,
     "upcomingCount": 2,
-    "nextCatalystDate": "2026-11-11",
+    "nextCatalystDate": "2027-02-07",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 3
+    "daysToNextCatalyst": 90
   },
   "trialStats": {
     "completed": 5,
@@ -78,12 +84,6 @@
     "ongoing": 4,
     "withResults": 1,
     "byPhase": {
-      "phase3": {
-        "completed": 3,
-        "terminated": 0,
-        "total": 4,
-        "completionRatePct": null
-      },
       "other": {
         "completed": 0,
         "terminated": 1,
@@ -94,6 +94,12 @@
         "completed": 2,
         "terminated": 1,
         "total": 3,
+        "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 3,
+        "terminated": 0,
+        "total": 4,
         "completionRatePct": null
       }
     },
@@ -388,9 +394,39 @@
       "status": "past"
     },
     {
+      "id": "edgar-ABEO-0001493152-26-050609",
+      "ticker": "ABEO",
+      "date": "2026-11-09",
+      "title": "Quarterly results filed (8-K)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 2.02, 7.01, 9.01. Quarterly results; Reg FD disclosure. 8-K.",
+      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
+      "source": "SEC EDGAR 8-K 2026-11-09",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/318306/000149315226050609/form8-k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-ABEO-0001493152-26-050606",
+      "ticker": "ABEO",
+      "date": "2026-11-09",
+      "title": "8-K filed: Material agreement, Acquisition completed, Reg FD disclosure",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 1.01, 2.01, 3.02, 7.01, 9.01. Material agreement; Acquisition completed; Reg FD disclosure. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-09",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/318306/000149315226050606/form8-k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "edgar-ABEO-next-earnings",
       "ticker": "ABEO",
-      "date": "2026-11-11",
+      "date": "2027-02-07",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,
