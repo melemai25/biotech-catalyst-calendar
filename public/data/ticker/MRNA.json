@@ -11,7 +11,7 @@
   "activeTrials": 15,
   "phase3": 2,
   "phase2": 13,
-  "generatedDate": "2026-11-09",
+  "generatedDate": "2026-11-10",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 28,
     "nextCatalystDate": "2026-11-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 21
+    "daysToNextCatalyst": 20
   },
   "trialStats": {
     "completed": 78,
@@ -70,18 +70,6 @@
     "ongoing": 31,
     "withResults": 36,
     "byPhase": {
-      "other": {
-        "completed": 17,
-        "terminated": 1,
-        "total": 25,
-        "completionRatePct": 94
-      },
-      "phase2": {
-        "completed": 22,
-        "terminated": 3,
-        "total": 40,
-        "completionRatePct": 88
-      },
       "phase1": {
         "completed": 19,
         "terminated": 1,
@@ -93,6 +81,18 @@
         "terminated": 1,
         "total": 23,
         "completionRatePct": 95
+      },
+      "phase2": {
+        "completed": 22,
+        "terminated": 3,
+        "total": 40,
+        "completionRatePct": 88
+      },
+      "other": {
+        "completed": 17,
+        "terminated": 1,
+        "total": 25,
+        "completionRatePct": 94
       }
     },
     "concluded": 88,
@@ -311,21 +311,6 @@
       "status": "past"
     },
     {
-      "id": "ct-MRNA-NCT05375838",
-      "ticker": "MRNA",
-      "date": "2022-12-29",
-      "title": "A Safety, Reactogenicity, and Immunogenicity Study of mRNA-1073 (COVID-19/Influenza) Vaccine in Adults 18 to 75 Years Old",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "SARS-CoV-2, Influenza · 550 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT05375838",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05375838",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-MRNA-NCT04470427",
       "ticker": "MRNA",
       "date": "2022-12-29",
@@ -337,6 +322,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT04470427",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04470427",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-MRNA-NCT05375838",
+      "ticker": "MRNA",
+      "date": "2022-12-29",
+      "title": "A Safety, Reactogenicity, and Immunogenicity Study of mRNA-1073 (COVID-19/Influenza) Vaccine in Adults 18 to 75 Years Old",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "SARS-CoV-2, Influenza · 550 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT05375838",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05375838",
       "origin": "registry",
       "status": "past"
     },

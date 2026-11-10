@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-09",
+  "generatedDate": "2026-11-10",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -68,7 +68,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 36
+    "daysToNextCatalyst": 35
   },
   "trialStats": {
     "completed": 2,
@@ -109,21 +109,6 @@
       "source": "ClinicalTrials.gov NCT05363293",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05363293",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ALZN-0001214659-25-007204",
-      "ticker": "ALZN",
-      "date": "2025-05-08",
-      "title": "8-K filed: Reg FD disclosure",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.03, 7.01, 9.01. Reg FD disclosure.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-08",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1677077/000121465925007204/z572538k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

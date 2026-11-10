@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 2,
   "phase2": 2,
-  "generatedDate": "2026-11-09",
+  "generatedDate": "2026-11-10",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2027-01-15",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 67
+    "daysToNextCatalyst": 66
   },
   "trialStats": {
     "completed": 8,
@@ -70,8 +70,8 @@
     "ongoing": 5,
     "withResults": 6,
     "byPhase": {
-      "other": {
-        "completed": 3,
+      "phase2": {
+        "completed": 2,
         "terminated": 0,
         "total": 4,
         "completionRatePct": null
@@ -82,16 +82,16 @@
         "total": 5,
         "completionRatePct": null
       },
-      "phase2": {
-        "completed": 2,
-        "terminated": 0,
-        "total": 4,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 1,
         "terminated": 0,
         "total": 1,
+        "completionRatePct": null
+      },
+      "other": {
+        "completed": 3,
+        "terminated": 0,
+        "total": 4,
         "completionRatePct": null
       }
     },
@@ -524,7 +524,7 @@
       "id": "ct-TVTX-NCT06431893",
       "ticker": "TVTX",
       "date": "2030-08-15",
-      "title": "A Long-term Extension Study to Assess the Long-term Safety and Efficacy of Pegtibatinase Treatment in Participants ≥5 to ≤65 Years of Age With Classical Homocystinuria (HCU) (ENSEMBLE)",
+      "title": "A Long-term Extension Study to Assess the Long-term Safety and Efficacy of Pegtibatinase Treatment in Participants ≥5 to ≤65 Years of Age With Classical Homocystinuria (HCU) (ENSEMBLE) (ENSEMBLE)",
       "type": "Trial Milestone",
       "phase": "Phase 3",
       "estimated": false,

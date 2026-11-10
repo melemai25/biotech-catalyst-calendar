@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-09",
+  "generatedDate": "2026-11-10",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,21 +53,21 @@
     "fcfMarginPct": 11.1,
     "marketCapUsd": null,
     "entityName": "Organon & Co.",
-    "activeTrials": 22,
-    "phase3Count": 15,
+    "activeTrials": 23,
+    "phase3Count": 16,
     "phase2Count": 3,
     "leadPhase": 4,
-    "upcomingCount": 1,
+    "upcomingCount": 2,
     "nextCatalystDate": "2027-02-06",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 89
+    "daysToNextCatalyst": 88
   },
   "trialStats": {
     "completed": 474,
     "terminated": 21,
     "withdrawn": 9,
-    "suspended": 1,
-    "ongoing": 0,
+    "suspended": 0,
+    "ongoing": 1,
     "withResults": 264,
     "byPhase": {
       "phase3": {
@@ -82,17 +82,17 @@
         "total": 153,
         "completionRatePct": 95
       },
-      "phase2": {
-        "completed": 31,
-        "terminated": 2,
-        "total": 35,
-        "completionRatePct": 94
-      },
       "phase1": {
         "completed": 20,
         "terminated": 0,
         "total": 20,
         "completionRatePct": 100
+      },
+      "phase2": {
+        "completed": 31,
+        "terminated": 2,
+        "total": 35,
+        "completionRatePct": 94
       }
     },
     "concluded": 504,
@@ -668,6 +668,21 @@
       "source": "Projected from SEC EDGAR filing cadence",
       "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001821825&type=8-K",
       "origin": "edgar",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-OGN-NCT07265479",
+      "ticker": "OGN",
+      "date": "2027-08-15",
+      "title": "A Study to Investigate Safety and Efficacy of Tapinarof Cream, 1% in Participants Ages 3 Months to < 24 Months With Atopic Dermatitis",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Atopic Dermatitis · 187 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07265479",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07265479",
+      "origin": "registry",
       "status": "upcoming"
     }
   ]

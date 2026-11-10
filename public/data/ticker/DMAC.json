@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-09",
+  "generatedDate": "2026-11-10",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -58,9 +58,9 @@
     "phase2Count": 3,
     "leadPhase": 3,
     "upcomingCount": 2,
-    "nextCatalystDate": "2026-11-10",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "nextCatalystDate": "2026-12-15",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 35
   },
   "trialStats": {
     "completed": 5,
@@ -68,8 +68,14 @@
     "withdrawn": 1,
     "suspended": 0,
     "ongoing": 1,
-    "withResults": 0,
+    "withResults": 1,
     "byPhase": {
+      "other": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 1,
+        "completionRatePct": null
+      },
       "phase1": {
         "completed": 2,
         "terminated": 0,
@@ -87,17 +93,11 @@
         "terminated": 0,
         "total": 1,
         "completionRatePct": null
-      },
-      "other": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 1,
-        "completionRatePct": null
       }
     },
     "concluded": 6,
     "completionRatePct": 83,
-    "resultsPostedPct": 0
+    "resultsPostedPct": 20
   },
   "events": [
     {
@@ -153,8 +153,8 @@
       "type": "Trial Milestone",
       "phase": "Phase 2",
       "estimated": false,
-      "summary": "Kidney Diseases · 79 participants · Status: Completed",
-      "result": null,
+      "summary": "Kidney Diseases · 84 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT04123613",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04123613",
       "origin": "registry",
@@ -341,21 +341,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-DMAC-next-earnings",
-      "ticker": "DMAC",
-      "date": "2026-11-10",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001401040&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-DMAC-NCT05065216",
       "ticker": "DMAC",
       "date": "2026-12-15",
@@ -368,6 +353,21 @@
       "source": "ClinicalTrials.gov NCT05065216",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05065216",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-DMAC-next-earnings",
+      "ticker": "DMAC",
+      "date": "2027-02-10",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001401040&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     }
   ]

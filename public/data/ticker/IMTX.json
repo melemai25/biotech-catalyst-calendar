@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-11-09",
+  "generatedDate": "2026-11-10",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -68,7 +68,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2028-01-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 432
+    "daysToNextCatalyst": 431
   },
   "trialStats": {
     "completed": 4,
@@ -525,6 +525,21 @@
       "result": null,
       "source": "SEC EDGAR 6-K 2026-10-26",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1809196/000095010326016136/dp255472_6k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-IMTX-0001193125-26-454401",
+      "ticker": "IMTX",
+      "date": "2026-11-10",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-11-10",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1809196/000119312526454401/immatics_n.v._6-k_q3_26.htm",
       "origin": "edgar",
       "status": "past"
     },

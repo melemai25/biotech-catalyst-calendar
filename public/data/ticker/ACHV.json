@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-09",
+  "generatedDate": "2026-11-10",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -66,9 +66,9 @@
     "phase2Count": 3,
     "leadPhase": 3,
     "upcomingCount": 2,
-    "nextCatalystDate": "2026-11-10",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "nextCatalystDate": "2026-11-15",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 5
   },
   "trialStats": {
     "completed": 27,
@@ -84,17 +84,17 @@
         "total": 10,
         "completionRatePct": 100
       },
-      "phase3": {
-        "completed": 6,
-        "terminated": 2,
-        "total": 9,
-        "completionRatePct": 75
-      },
       "phase2": {
         "completed": 11,
         "terminated": 1,
         "total": 12,
         "completionRatePct": 92
+      },
+      "phase3": {
+        "completed": 6,
+        "terminated": 2,
+        "total": 9,
+        "completionRatePct": 75
       }
     },
     "concluded": 30,
@@ -493,21 +493,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-ACHV-next-earnings",
-      "ticker": "ACHV",
-      "date": "2026-11-10",
-      "title": "Next quarterly earnings (projected)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000949858&type=8-K",
-      "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ACHV-NCT07392125",
       "ticker": "ACHV",
       "date": "2026-11-15",
@@ -520,6 +505,21 @@
       "source": "ClinicalTrials.gov NCT07392125",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07392125",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-ACHV-next-earnings",
+      "ticker": "ACHV",
+      "date": "2027-02-09",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000949858&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     }
   ]

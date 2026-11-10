@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 3,
   "phase2": 1,
-  "generatedDate": "2026-11-09",
+  "generatedDate": "2026-11-10",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -92,7 +92,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2027-02-03",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 86
+    "daysToNextCatalyst": 85
   },
   "trialStats": {
     "completed": 5,
@@ -102,12 +102,6 @@
     "ongoing": 4,
     "withResults": 3,
     "byPhase": {
-      "phase3": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 3,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 4,
         "terminated": 0,
@@ -118,6 +112,12 @@
         "completed": 0,
         "terminated": 0,
         "total": 1,
+        "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 3,
         "completionRatePct": null
       }
     },
@@ -442,21 +442,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-PCVX-NCT07425392",
-      "ticker": "PCVX",
-      "date": "2027-03-15",
-      "title": "Safety, Tolerability, and Immunogenicity of VAX-31 in Adults ≥50 Years With Prior Pneumococcal Vaccination",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Pneumococcal Vaccines · 752 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07425392",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07425392",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-PCVX-NCT07365826",
       "ticker": "PCVX",
       "date": "2027-03-15",
@@ -468,6 +453,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07365826",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07365826",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-PCVX-NCT07425392",
+      "ticker": "PCVX",
+      "date": "2027-03-15",
+      "title": "Safety, Tolerability, and Immunogenicity of VAX-31 in Adults ≥50 Years With Prior Pneumococcal Vaccination",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Pneumococcal Vaccines · 752 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07425392",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07425392",
       "origin": "registry",
       "status": "upcoming"
     },

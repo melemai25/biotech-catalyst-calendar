@@ -11,7 +11,7 @@
   "activeTrials": 27,
   "phase3": 15,
   "phase2": 12,
-  "generatedDate": "2026-11-09",
+  "generatedDate": "2026-11-10",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 53,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 6
+    "daysToNextCatalyst": 5
   },
   "trialStats": {
     "completed": 5,
@@ -76,16 +76,16 @@
         "total": 37,
         "completionRatePct": 44
       },
-      "phase3": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 16,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 0,
         "terminated": 0,
         "total": 14,
+        "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 16,
         "completionRatePct": null
       },
       "other": {
@@ -296,21 +296,6 @@
       "status": "past"
     },
     {
-      "id": "ct-ONC-NCT06585488",
-      "ticker": "ONC",
-      "date": "2026-04-23",
-      "title": "A First-in-human Study of BGB-53038, a Pan-KRAS Inhibitor, Alone or in Combinations in Participants With Advanced or Metastatic Solid Tumors With KRAS Mutations or Amplification",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Metastatic Solid Tumors, Advanced Non-squamous Non-small-cell Lung Cancer, Advanced Colorectal Cancer · 47 participants · Status: Terminated",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06585488",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06585488",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-ONC-NCT06253195",
       "ticker": "ONC",
       "date": "2026-04-23",
@@ -322,6 +307,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06253195",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06253195",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-ONC-NCT06585488",
+      "ticker": "ONC",
+      "date": "2026-04-23",
+      "title": "A First-in-human Study of BGB-53038, a Pan-KRAS Inhibitor, Alone or in Combinations in Participants With Advanced or Metastatic Solid Tumors With KRAS Mutations or Amplification",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Metastatic Solid Tumors, Advanced Non-squamous Non-small-cell Lung Cancer, Advanced Colorectal Cancer · 47 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06585488",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06585488",
       "origin": "registry",
       "status": "past"
     },
@@ -536,21 +536,6 @@
       "status": "past"
     },
     {
-      "id": "ct-ONC-NCT04973605",
-      "ticker": "ONC",
-      "date": "2026-11-15",
-      "title": "A Phase 1b/2 Study of Sonrotoclax (BGB-11417) as Monotherapy and in Various Combinations With Dexamethasone Plus Carfilzomib, Dexamethasone Plus Daratumumab, and Dexamethasone Plus Pomalidomide in Multiple Myeloma",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Relapsed/Refractory Multiple Myeloma · 246 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04973605",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04973605",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ONC-NCT06637501",
       "ticker": "ONC",
       "date": "2026-11-15",
@@ -562,6 +547,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06637501",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06637501",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ONC-NCT04973605",
+      "ticker": "ONC",
+      "date": "2026-11-15",
+      "title": "A Phase 1b/2 Study of Sonrotoclax (BGB-11417) as Monotherapy and in Various Combinations With Dexamethasone Plus Carfilzomib, Dexamethasone Plus Daratumumab, and Dexamethasone Plus Pomalidomide in Multiple Myeloma",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Relapsed/Refractory Multiple Myeloma · 246 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04973605",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04973605",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -596,21 +596,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT06625593",
-      "ticker": "ONC",
-      "date": "2026-12-31",
-      "title": "A First-in-Human (FIH) Study of BG-C137, an Anti-Fibroblast Growth Factor Receptor 2b (FGFR2b) Antibody Drug Conjugate, in Participants With Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Advanced Solid Tumor · 168 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06625593",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06625593",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ONC-NCT04170283",
       "ticker": "ONC",
       "date": "2026-12-31",
@@ -622,6 +607,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04170283",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04170283",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ONC-NCT06625593",
+      "ticker": "ONC",
+      "date": "2026-12-31",
+      "title": "A First-in-Human (FIH) Study of BG-C137, an Anti-Fibroblast Growth Factor Receptor 2b (FGFR2b) Antibody Drug Conjugate, in Participants With Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Advanced Solid Tumor · 168 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06625593",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06625593",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -956,21 +956,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT04771130",
-      "ticker": "ONC",
-      "date": "2028-08-31",
-      "title": "A Study of BGB-11417 in Participants With Myeloid Malignancies",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Acute Myeloid Leukemia, Myelodysplastic Syndromes, Myelodysplastic/Myeloproliferative Neoplasm · 260 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04771130",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04771130",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ONC-NCT06742996",
       "ticker": "ONC",
       "date": "2028-08-31",
@@ -982,6 +967,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06742996",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06742996",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ONC-NCT04771130",
+      "ticker": "ONC",
+      "date": "2028-08-31",
+      "title": "A Study of BGB-11417 in Participants With Myeloid Malignancies",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Acute Myeloid Leukemia, Myelodysplastic Syndromes, Myelodysplastic/Myeloproliferative Neoplasm · 260 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04771130",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04771130",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1124,11 +1124,11 @@
       "id": "ct-ONC-NCT07836530",
       "ticker": "ONC",
       "date": "2029-09-21",
-      "title": "Study Comparing BGB-B2033 With Sorafenib or Lenvatinib in Relapsed Hepatocellular Carcinoma",
+      "title": "Study Comparing BGB-B2033 With Sorafenib or Lenvatinib in Advanced Hepatocellular Carcinoma",
       "type": "Trial Milestone",
       "phase": "Phase 3",
       "estimated": false,
-      "summary": "Hepatocellular Carcinoma, Liver Cancer · 492 participants · Status: Not Yet Recruiting",
+      "summary": "Hepatocellular Carcinoma, Liver Cancer · 492 participants · Status: Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT07836530",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07836530",
@@ -1196,17 +1196,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT06970743",
+      "id": "ct-ONC-NCT07811271",
       "ticker": "ONC",
       "date": "2029-11-30",
-      "title": "A Study of BGB-16673 Compared to Investigator's Choice in Participants With Relapsed/Refractory Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma Previously Exposed to Covalent Bruton Tyrosine Kinase (BTK) Inhibitors",
+      "title": "Efficacy and Safety of BG-C9074 With Bevacizumab Compared With Bevacizumab in Adults With Ovarian, Fallopian Tube, or Primary Peritoneal Cancers",
       "type": "Trial Milestone",
       "phase": "Phase 3",
       "estimated": false,
-      "summary": "Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma · 153 participants · Status: Active Not Recruiting",
+      "summary": "Epithelial Ovarian Cancer, Fallopian Tube Cancer, Primary Peritoneal Cancer · 600 participants · Status: Not Yet Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT06970743",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06970743",
+      "source": "ClinicalTrials.gov NCT07811271",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07811271",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1226,17 +1226,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT07811271",
+      "id": "ct-ONC-NCT06970743",
       "ticker": "ONC",
       "date": "2029-11-30",
-      "title": "Efficacy and Safety of BG-C9074 With Bevacizumab Compared With Bevacizumab in Adults With Ovarian, Fallopian Tube, or Primary Peritoneal Cancers",
+      "title": "A Study of BGB-16673 Compared to Investigator's Choice in Participants With Relapsed/Refractory Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma Previously Exposed to Covalent Bruton Tyrosine Kinase (BTK) Inhibitors",
       "type": "Trial Milestone",
       "phase": "Phase 3",
       "estimated": false,
-      "summary": "Epithelial Ovarian Cancer, Fallopian Tube Cancer, Primary Peritoneal Cancer · 600 participants · Status: Not Yet Recruiting",
+      "summary": "Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma · 153 participants · Status: Active Not Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT07811271",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07811271",
+      "source": "ClinicalTrials.gov NCT06970743",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06970743",
       "origin": "registry",
       "status": "upcoming"
     },

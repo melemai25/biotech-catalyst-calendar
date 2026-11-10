@@ -11,7 +11,7 @@
   "activeTrials": 25,
   "phase3": 8,
   "phase2": 17,
-  "generatedDate": "2026-11-09",
+  "generatedDate": "2026-11-10",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 29,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 6
+    "daysToNextCatalyst": 5
   },
   "trialStats": {
     "completed": 36,
@@ -82,17 +82,17 @@
         "total": 21,
         "completionRatePct": 100
       },
-      "other": {
-        "completed": 2,
-        "terminated": 0,
-        "total": 3,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 8,
         "terminated": 0,
         "total": 15,
         "completionRatePct": 100
+      },
+      "other": {
+        "completed": 2,
+        "terminated": 0,
+        "total": 3,
+        "completionRatePct": null
       }
     },
     "concluded": 44,
@@ -1676,6 +1676,21 @@
       "status": "past"
     },
     {
+      "id": "edgar-BNTX-0001776985-26-000083",
+      "ticker": "BNTX",
+      "date": "2026-11-10",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-11-10",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1776985/000177698526000083/form6-kprvacquisition10nov.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "ct-BNTX-NCT07392372",
       "ticker": "BNTX",
       "date": "2026-11-15",
@@ -1826,21 +1841,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BNTX-NCT07070232",
-      "ticker": "BNTX",
-      "date": "2028-03-15",
-      "title": "A Clinical Study to Test if an Investigational Treatment Called BNT326 is Safe and Potentially Beneficial When Used Alone or in Combination With Other Investigational Treatments Such as BNT327, for People With Advanced Malignant Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Advanced Solid Tumor · 1,438 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07070232",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07070232",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BNTX-NCT06340568",
       "ticker": "BNTX",
       "date": "2028-03-15",
@@ -1852,6 +1852,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06340568",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06340568",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BNTX-NCT07070232",
+      "ticker": "BNTX",
+      "date": "2028-03-15",
+      "title": "A Clinical Study to Test if an Investigational Treatment Called BNT326 is Safe and Potentially Beneficial When Used Alone or in Combination With Other Investigational Treatments Such as BNT327, for People With Advanced Malignant Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Advanced Solid Tumor · 1,438 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07070232",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07070232",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1931,21 +1946,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BNTX-NCT06712355",
-      "ticker": "BNTX",
-      "date": "2029-04-15",
-      "title": "Safety and Efficacy of BNT327, an Investigational Therapy in Combination With Chemotherapy for Patients With Untreated Small-cell Lung Cancer",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Extensive-stage Small-cell Lung Cancer · 621 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06712355",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06712355",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BNTX-NCT04534205",
       "ticker": "BNTX",
       "date": "2029-04-15",
@@ -1957,6 +1957,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04534205",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04534205",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BNTX-NCT06712355",
+      "ticker": "BNTX",
+      "date": "2029-04-15",
+      "title": "Safety and Efficacy of BNT327, an Investigational Therapy in Combination With Chemotherapy for Patients With Untreated Small-cell Lung Cancer",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Extensive-stage Small-cell Lung Cancer · 621 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06712355",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06712355",
       "origin": "registry",
       "status": "upcoming"
     },

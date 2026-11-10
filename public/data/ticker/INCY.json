@@ -11,7 +11,7 @@
   "activeTrials": 40,
   "phase3": 23,
   "phase2": 17,
-  "generatedDate": "2026-11-09",
+  "generatedDate": "2026-11-10",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 41,
     "nextCatalystDate": "2026-11-14",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 5
+    "daysToNextCatalyst": 4
   },
   "trialStats": {
     "completed": 144,
@@ -70,18 +70,6 @@
     "ongoing": 66,
     "withResults": 127,
     "byPhase": {
-      "phase2": {
-        "completed": 67,
-        "terminated": 44,
-        "total": 128,
-        "completionRatePct": 60
-      },
-      "phase3": {
-        "completed": 25,
-        "terminated": 9,
-        "total": 62,
-        "completionRatePct": 74
-      },
       "phase1": {
         "completed": 48,
         "terminated": 14,
@@ -93,6 +81,18 @@
         "terminated": 1,
         "total": 18,
         "completionRatePct": 80
+      },
+      "phase2": {
+        "completed": 67,
+        "terminated": 44,
+        "total": 128,
+        "completionRatePct": 60
+      },
+      "phase3": {
+        "completed": 25,
+        "terminated": 9,
+        "total": 62,
+        "completionRatePct": 74
       }
     },
     "concluded": 222,
@@ -191,21 +191,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT02953678",
-      "ticker": "INCY",
-      "date": "2018-01-31",
-      "title": "A Study of Ruxolitinib in Combination With Corticosteroids for the Treatment of Steroid-Refractory Acute Graft-Versus-Host Disease (REACH-1)",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Graft-versus-host Disease (GVHD) · 71 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02953678",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02953678",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT02431260",
       "ticker": "INCY",
       "date": "2018-01-31",
@@ -217,6 +202,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT02431260",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02431260",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT02953678",
+      "ticker": "INCY",
+      "date": "2018-01-31",
+      "title": "A Study of Ruxolitinib in Combination With Corticosteroids for the Treatment of Steroid-Refractory Acute Graft-Versus-Host Disease (REACH-1)",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Graft-versus-host Disease (GVHD) · 71 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT02953678",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02953678",
       "origin": "registry",
       "status": "past"
     },
@@ -1451,21 +1451,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT05127421",
-      "ticker": "INCY",
-      "date": "2023-08-03",
-      "title": "Ruxolitinib Cream in Participants With Facial and/or Neck Atopic Dermatitis Involvement",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Atopic Dermatitis · 77 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT05127421",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05127421",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT04551066",
       "ticker": "INCY",
       "date": "2023-08-03",
@@ -1477,6 +1462,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT04551066",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04551066",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT05127421",
+      "ticker": "INCY",
+      "date": "2023-08-03",
+      "title": "Ruxolitinib Cream in Participants With Facial and/or Neck Atopic Dermatitis Involvement",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Atopic Dermatitis · 77 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT05127421",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05127421",
       "origin": "registry",
       "status": "past"
     },
@@ -1511,21 +1511,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT04551053",
-      "ticker": "INCY",
-      "date": "2023-08-16",
-      "title": "To Evaluate Efficacy and Safety of Parsaclisib and Ruxolitinib in Participants With Myelofibrosis Who Have Suboptimal Response to Ruxolitinib (LIMBER-304)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Myelofibrosis, Primary Myelofibrosis, Post Essential Thrombocythemia Myelofibrosis · 177 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT04551053",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04551053",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT05253807",
       "ticker": "INCY",
       "date": "2023-08-16",
@@ -1537,6 +1522,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT05253807",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05253807",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT04551053",
+      "ticker": "INCY",
+      "date": "2023-08-16",
+      "title": "To Evaluate Efficacy and Safety of Parsaclisib and Ruxolitinib in Participants With Myelofibrosis Who Have Suboptimal Response to Ruxolitinib (LIMBER-304)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Myelofibrosis, Primary Myelofibrosis, Post Essential Thrombocythemia Myelofibrosis · 177 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT04551053",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04551053",
       "origin": "registry",
       "status": "past"
     },
@@ -2006,21 +2006,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT04989387",
-      "ticker": "INCY",
-      "date": "2024-09-19",
-      "title": "Study of INCA 0186 in Subjects With Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Advanced Solid Tumors, Squamous Cell Carcinoma of the Head and Neck (SCCHN), Gastrointestinal (GI) Malignancies · 57 participants · Status: Terminated",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04989387",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04989387",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT05909995",
       "ticker": "INCY",
       "date": "2024-09-19",
@@ -2032,6 +2017,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05909995",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05909995",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT04989387",
+      "ticker": "INCY",
+      "date": "2024-09-19",
+      "title": "Study of INCA 0186 in Subjects With Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Advanced Solid Tumors, Squamous Cell Carcinoma of the Head and Neck (SCCHN), Gastrointestinal (GI) Malignancies · 57 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04989387",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04989387",
       "origin": "registry",
       "status": "past"
     },
@@ -2951,21 +2951,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT06958211",
-      "ticker": "INCY",
-      "date": "2026-10-01",
-      "title": "Study to Evaluate the Efficacy and Safety of Ruxolitinib Cream in Participants With Hidradenitis Suppurativa (TRuE-HS2)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Hidradenitis Suppurativa · 573 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06958211",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06958211",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT06388564",
       "ticker": "INCY",
       "date": "2026-10-01",
@@ -2977,6 +2962,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06388564",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06388564",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT06958211",
+      "ticker": "INCY",
+      "date": "2026-10-01",
+      "title": "Study to Evaluate the Efficacy and Safety of Ruxolitinib Cream in Participants With Hidradenitis Suppurativa (TRuE-HS2)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Hidradenitis Suppurativa · 573 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06958211",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06958211",
       "origin": "registry",
       "status": "past"
     },
@@ -3266,21 +3266,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-INCY-NCT06804811",
-      "ticker": "INCY",
-      "date": "2027-04-30",
-      "title": "A Study to Evaluate the Efficacy and Safety of Ruxolitinib Cream in Children (6 to < 12 Years Old) With Nonsegmental Vitiligo",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "NonSegmental Vitiligo · 250 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06804811",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06804811",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-INCY-NCT04279847",
       "ticker": "INCY",
       "date": "2027-04-30",
@@ -3292,6 +3277,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04279847",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04279847",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-INCY-NCT06804811",
+      "ticker": "INCY",
+      "date": "2027-04-30",
+      "title": "A Study to Evaluate the Efficacy and Safety of Ruxolitinib Cream in Children (6 to < 12 Years Old) With Nonsegmental Vitiligo",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "NonSegmental Vitiligo · 250 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06804811",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06804811",
       "origin": "registry",
       "status": "upcoming"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-11-09",
+  "generatedDate": "2026-11-10",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,33 +53,27 @@
     "fcfMarginPct": -152.1,
     "marketCapUsd": null,
     "entityName": "KURA ONCOLOGY, INC.",
-    "activeTrials": 14,
+    "activeTrials": 15,
     "phase3Count": 1,
     "phase2Count": 7,
     "leadPhase": 3,
-    "upcomingCount": 7,
+    "upcomingCount": 8,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 36
+    "daysToNextCatalyst": 35
   },
   "trialStats": {
     "completed": 5,
     "terminated": 3,
     "withdrawn": 1,
     "suspended": 0,
-    "ongoing": 8,
+    "ongoing": 9,
     "withResults": 5,
     "byPhase": {
-      "other": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 0,
         "terminated": 2,
-        "total": 7,
+        "total": 8,
         "completionRatePct": null
       },
       "phase2": {
@@ -92,6 +86,12 @@
         "completed": 0,
         "terminated": 0,
         "total": 1,
+        "completionRatePct": null
+      },
+      "other": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 2,
         "completionRatePct": null
       }
     },
@@ -176,21 +176,6 @@
       "status": "past"
     },
     {
-      "id": "ct-KURA-NCT03719690",
-      "ticker": "KURA",
-      "date": "2023-05-02",
-      "title": "Safety and Efficacy of Tipifarnib in Head and Neck Cancer With HRAS Mutations and Impact of HRAS on Response to Therapy",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "HRAS Gene Mutation, HNSCC · 296 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT03719690",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT03719690",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-KURA-NCT04865159",
       "ticker": "KURA",
       "date": "2023-05-02",
@@ -202,6 +187,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04865159",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04865159",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-KURA-NCT03719690",
+      "ticker": "KURA",
+      "date": "2023-05-02",
+      "title": "Safety and Efficacy of Tipifarnib in Head and Neck Cancer With HRAS Mutations and Impact of HRAS on Response to Therapy",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "HRAS Gene Mutation, HNSCC · 296 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT03719690",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03719690",
       "origin": "registry",
       "status": "past"
     },
@@ -547,6 +547,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04067336",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04067336",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-KURA-NCT07929740",
+      "ticker": "KURA",
+      "date": "2029-02-28",
+      "title": "Bioavailability and Bioequivalence Study of Ziftomenib in Participants With Relapsed/Refractory AML or MDS",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Myelodysplastic Syndrome (MDS)/AML, Myeloid Leukemia, Acute · 126 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07929740",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07929740",
       "origin": "registry",
       "status": "upcoming"
     },

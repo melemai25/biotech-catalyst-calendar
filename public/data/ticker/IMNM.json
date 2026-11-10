@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-09",
+  "generatedDate": "2026-11-10",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -52,7 +52,7 @@
     "rndIntensityPct": 77,
     "fcfMarginPct": null,
     "marketCapUsd": null,
-    "entityName": "Immunome, Inc.",
+    "entityName": "Immunome Inc.",
     "financingSinceCash": [
       {
         "date": "2026-10-05",
@@ -68,7 +68,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2027-02-08",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 91
+    "daysToNextCatalyst": 90
   },
   "trialStats": {
     "completed": 4,

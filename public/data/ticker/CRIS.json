@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-09",
+  "generatedDate": "2026-11-10",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -72,9 +72,9 @@
     "phase2Count": 3,
     "leadPhase": 2,
     "upcomingCount": 3,
-    "nextCatalystDate": "2026-11-10",
+    "nextCatalystDate": "2027-02-09",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 91
   },
   "trialStats": {
     "completed": 8,
@@ -84,17 +84,17 @@
     "ongoing": 2,
     "withResults": 2,
     "byPhase": {
-      "phase1": {
-        "completed": 7,
-        "terminated": 2,
-        "total": 9,
-        "completionRatePct": 78
-      },
       "phase2": {
         "completed": 1,
         "terminated": 0,
         "total": 4,
         "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 7,
+        "terminated": 2,
+        "total": 9,
+        "completionRatePct": 78
       }
     },
     "concluded": 10,
@@ -420,7 +420,7 @@
     {
       "id": "edgar-CRIS-next-earnings",
       "ticker": "CRIS",
-      "date": "2026-11-10",
+      "date": "2027-02-09",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

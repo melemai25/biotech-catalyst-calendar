@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-09",
+  "generatedDate": "2026-11-10",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2027-02-04",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 87
+    "daysToNextCatalyst": 86
   },
   "trialStats": {
     "completed": 45,
@@ -70,18 +70,6 @@
     "ongoing": 4,
     "withResults": 16,
     "byPhase": {
-      "phase3": {
-        "completed": 8,
-        "terminated": 5,
-        "total": 13,
-        "completionRatePct": 62
-      },
-      "other": {
-        "completed": 5,
-        "terminated": 1,
-        "total": 7,
-        "completionRatePct": 83
-      },
       "phase1": {
         "completed": 21,
         "terminated": 0,
@@ -93,6 +81,18 @@
         "terminated": 2,
         "total": 15,
         "completionRatePct": 85
+      },
+      "phase3": {
+        "completed": 8,
+        "terminated": 5,
+        "total": 13,
+        "completionRatePct": 62
+      },
+      "other": {
+        "completed": 5,
+        "terminated": 1,
+        "total": 7,
+        "completionRatePct": 83
       }
     },
     "concluded": 53,
@@ -188,21 +188,6 @@
       "source": "ClinicalTrials.gov NCT04974528",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04974528",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-MNKD-0000950170-25-066426",
-      "ticker": "MNKD",
-      "date": "2025-05-08",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-08",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/899460/000095017025066426/mnkd-20250508.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

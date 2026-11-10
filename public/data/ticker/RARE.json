@@ -11,7 +11,7 @@
   "activeTrials": 11,
   "phase3": 8,
   "phase2": 3,
-  "generatedDate": "2026-11-09",
+  "generatedDate": "2026-11-10",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 8,
     "nextCatalystDate": "2027-01-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 67
+    "daysToNextCatalyst": 66
   },
   "trialStats": {
     "completed": 27,
@@ -70,11 +70,11 @@
     "ongoing": 18,
     "withResults": 22,
     "byPhase": {
-      "phase2": {
-        "completed": 14,
-        "terminated": 7,
-        "total": 25,
-        "completionRatePct": 67
+      "phase3": {
+        "completed": 4,
+        "terminated": 4,
+        "total": 15,
+        "completionRatePct": 50
       },
       "other": {
         "completed": 8,
@@ -82,11 +82,11 @@
         "total": 22,
         "completionRatePct": 62
       },
-      "phase3": {
-        "completed": 4,
-        "terminated": 4,
-        "total": 15,
-        "completionRatePct": 50
+      "phase2": {
+        "completed": 14,
+        "terminated": 7,
+        "total": 25,
+        "completionRatePct": 67
       },
       "phase1": {
         "completed": 1,
@@ -956,21 +956,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-RARE-NCT05933200",
-      "ticker": "RARE",
-      "date": "2027-08-15",
-      "title": "A Study to Determine the Effect of Triheptanoin Compared With Even-Chain MCT on MCEs in Pediatric Patients With LC-FAOD",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Long-chain Fatty Acid Oxidation Disorders (LC-FAOD) · 69 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05933200",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05933200",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-RARE-NCT04360265",
       "ticker": "RARE",
       "date": "2027-08-15",
@@ -982,6 +967,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04360265",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04360265",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-RARE-NCT05933200",
+      "ticker": "RARE",
+      "date": "2027-08-15",
+      "title": "A Study to Determine the Effect of Triheptanoin Compared With Even-Chain MCT on MCEs in Pediatric Patients With LC-FAOD",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Long-chain Fatty Acid Oxidation Disorders (LC-FAOD) · 69 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05933200",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05933200",
       "origin": "registry",
       "status": "upcoming"
     },

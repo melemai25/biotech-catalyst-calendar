@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-11-09",
+  "generatedDate": "2026-11-10",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2027-01-30",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 82
+    "daysToNextCatalyst": 81
   },
   "trialStats": {
     "completed": 8,
@@ -70,17 +70,17 @@
     "ongoing": 2,
     "withResults": 4,
     "byPhase": {
-      "phase2": {
-        "completed": 7,
-        "terminated": 2,
-        "total": 10,
-        "completionRatePct": 78
-      },
       "phase3": {
         "completed": 0,
         "terminated": 2,
         "total": 3,
         "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 7,
+        "terminated": 2,
+        "total": 10,
+        "completionRatePct": 78
       },
       "phase1": {
         "completed": 1,
@@ -110,21 +110,6 @@
       "status": "past"
     },
     {
-      "id": "ct-VTVT-NCT02916056",
-      "ticker": "VTVT",
-      "date": "2018-06-01",
-      "title": "2-Year Extension Study of Azeliragon in Subjects With Alzheimer's Disease (STEADFAST Extension)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Alzheimer's Disease · 297 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02916056",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02916056",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-VTVT-NCT02080364",
       "ticker": "VTVT",
       "date": "2018-06-01",
@@ -136,6 +121,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT02080364",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02080364",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-VTVT-NCT02916056",
+      "ticker": "VTVT",
+      "date": "2018-06-01",
+      "title": "2-Year Extension Study of Azeliragon in Subjects With Alzheimer's Disease (STEADFAST Extension)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Alzheimer's Disease · 297 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT02916056",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02916056",
       "origin": "registry",
       "status": "past"
     },
@@ -432,7 +432,7 @@
       "type": "Trial Milestone",
       "phase": "Phase 2",
       "estimated": false,
-      "summary": "Type 1 Diabetes (T1D) · 40 participants · Status: Not Yet Recruiting",
+      "summary": "Type 1 Diabetes (T1D) · 40 participants · Status: Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT07616206",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07616206",

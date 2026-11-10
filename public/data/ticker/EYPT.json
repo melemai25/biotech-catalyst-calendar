@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 4,
   "phase2": 0,
-  "generatedDate": "2026-11-09",
+  "generatedDate": "2026-11-10",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-12-21",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 42
+    "daysToNextCatalyst": 41
   },
   "trialStats": {
     "completed": 10,
@@ -626,6 +626,21 @@
       "status": "past"
     },
     {
+      "id": "ct-EYPT-NCT06683742",
+      "ticker": "EYPT",
+      "date": "2026-09-09",
+      "title": "A 2-year Study of EYP-1901 in Subjects With Wet Age Related Macular Degeneration (wAMD) (LUCIA) Primary Efficacy Will be Determined at Week 56",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Wet Age Related Macular Degeneration, wAMD · 400 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06683742",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06683742",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "edgar-EYPT-0001193125-26-387197",
       "ticker": "EYPT",
       "date": "2026-09-10",
@@ -638,21 +653,6 @@
       "source": "SEC EDGAR 8-K 2026-09-10",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1314102/000119312526387197/eypt-20260910.htm",
       "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "ct-EYPT-NCT06683742",
-      "ticker": "EYPT",
-      "date": "2026-10-15",
-      "title": "A 2-year Study of EYP-1901 in Subjects With Wet Age Related Macular Degeneration (wAMD) (LUCIA) Primary Efficacy Will be Determined at Week 56",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Wet Age Related Macular Degeneration, wAMD · 400 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06683742",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06683742",
-      "origin": "registry",
       "status": "past"
     },
     {
@@ -701,21 +701,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-EYPT-NCT07449923",
-      "ticker": "EYPT",
-      "date": "2027-10-15",
-      "title": "CAPRI: A Phase 3 Randomized, Double-Masked Study Comparing the Efficacy of EYP-1901 Against Aflibercept in DME",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Diabetic Macular Edema, DME, Diabetic Macular Edema (DME) · 240 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07449923",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07449923",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-EYPT-NCT07449936",
       "ticker": "EYPT",
       "date": "2027-10-15",
@@ -727,6 +712,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07449936",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07449936",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-EYPT-NCT07449923",
+      "ticker": "EYPT",
+      "date": "2027-10-15",
+      "title": "CAPRI: A Phase 3 Randomized, Double-Masked Study Comparing the Efficacy of EYP-1901 Against Aflibercept in DME",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Diabetic Macular Edema, DME, Diabetic Macular Edema (DME) · 240 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07449923",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07449923",
       "origin": "registry",
       "status": "upcoming"
     }

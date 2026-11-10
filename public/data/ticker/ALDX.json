@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-09",
+  "generatedDate": "2026-11-10",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 36
+    "daysToNextCatalyst": 35
   },
   "trialStats": {
     "completed": 33,
@@ -68,7 +68,7 @@
     "withdrawn": 1,
     "suspended": 0,
     "ongoing": 1,
-    "withResults": 28,
+    "withResults": 29,
     "byPhase": {
       "phase3": {
         "completed": 13,
@@ -85,7 +85,7 @@
     },
     "concluded": 34,
     "completionRatePct": 97,
-    "resultsPostedPct": 85
+    "resultsPostedPct": 88
   },
   "events": [
     {
@@ -472,7 +472,7 @@
       "phase": "Phase 2",
       "estimated": false,
       "summary": "Atopic Dermatitis · 8 participants · Status: Completed",
-      "result": null,
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT05717920",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05717920",
       "origin": "registry",

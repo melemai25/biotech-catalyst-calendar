@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-09",
+  "generatedDate": "2026-11-10",
   "metrics": {
     "reportingCurrency": "CAD",
     "taxonomy": "ifrs-full",
@@ -53,33 +53,33 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "MEDICURE INC.",
-    "activeTrials": 2,
-    "phase3Count": 1,
+    "activeTrials": 3,
+    "phase3Count": 2,
     "phase2Count": 1,
     "leadPhase": 3,
-    "upcomingCount": 1,
+    "upcomingCount": 2,
     "nextCatalystDate": "2027-09-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 310
+    "daysToNextCatalyst": 309
   },
   "trialStats": {
     "completed": 5,
     "terminated": 1,
     "withdrawn": 1,
     "suspended": 0,
-    "ongoing": 2,
+    "ongoing": 3,
     "withResults": 1,
     "byPhase": {
+      "other": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 1,
+        "completionRatePct": null
+      },
       "phase3": {
         "completed": 1,
         "terminated": 0,
-        "total": 3,
-        "completionRatePct": null
-      },
-      "phase1": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 1,
+        "total": 4,
         "completionRatePct": null
       },
       "phase2": {
@@ -88,8 +88,8 @@
         "total": 4,
         "completionRatePct": 75
       },
-      "other": {
-        "completed": 0,
+      "phase1": {
+        "completed": 1,
         "terminated": 0,
         "total": 1,
         "completionRatePct": null
@@ -367,6 +367,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04706013",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04706013",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-MCUJF-NCT07928388",
+      "ticker": "MCUJF",
+      "date": "2029-07-15",
+      "title": "Continuation Study With Oral MC-1 for Treatment of Patients With PNPO-Deficiency",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Pyridox(am)Ine 5'-Phosphate Oxidase Deficiency · 10 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07928388",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07928388",
       "origin": "registry",
       "status": "upcoming"
     }

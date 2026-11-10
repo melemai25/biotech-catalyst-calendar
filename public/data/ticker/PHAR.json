@@ -11,7 +11,7 @@
   "activeTrials": 6,
   "phase3": 2,
   "phase2": 4,
-  "generatedDate": "2026-11-09",
+  "generatedDate": "2026-11-10",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2026-11-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 21
+    "daysToNextCatalyst": 20
   },
   "trialStats": {
     "completed": 13,
@@ -152,21 +152,6 @@
       "source": "ClinicalTrials.gov NCT02859727",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02859727",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-PHAR-0001828316-25-000027",
-      "ticker": "PHAR",
-      "date": "2025-05-08",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-08",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1828316/000182831625000027/a2025q1pressrelease.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

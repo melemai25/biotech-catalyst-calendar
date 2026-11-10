@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-11-09",
+  "generatedDate": "2026-11-10",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -52,7 +52,7 @@
     "rndIntensityPct": 63,
     "fcfMarginPct": null,
     "marketCapUsd": null,
-    "entityName": "BICARA THERAPEUTICS INC.",
+    "entityName": "Bicara Therapeutics Inc.",
     "activeTrials": 3,
     "phase3Count": 1,
     "phase2Count": 2,
@@ -60,7 +60,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2027-02-07",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 90
+    "daysToNextCatalyst": 89
   },
   "trialStats": {
     "completed": 0,
@@ -76,13 +76,13 @@
         "total": 1,
         "completionRatePct": null
       },
-      "phase3": {
+      "phase2": {
         "completed": 0,
         "terminated": 0,
         "total": 1,
         "completionRatePct": null
       },
-      "phase2": {
+      "phase3": {
         "completed": 0,
         "terminated": 0,
         "total": 1,
