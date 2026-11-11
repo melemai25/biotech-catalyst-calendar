@@ -11,7 +11,7 @@
   "activeTrials": 318,
   "phase3": 191,
   "phase2": 127,
-  "generatedDate": "2026-11-10",
+  "generatedDate": "2026-11-11",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -92,7 +92,7 @@
     "upcomingCount": 31,
     "nextCatalystDate": "2026-11-16",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 6
+    "daysToNextCatalyst": 5
   },
   "trialStats": {
     "completed": 340,
@@ -1090,21 +1090,6 @@
       "source": "ClinicalTrials.gov NCT06555822",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06555822",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-AZN-0001654954-25-005331",
-      "ticker": "AZN",
-      "date": "2025-05-09",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. IMFINZI IMPROVED DFS IN EARLY BLADDER CANCER.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-09",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/901832/000165495425005331/a9743h.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

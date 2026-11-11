@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-10",
+  "generatedDate": "2026-11-11",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -90,9 +90,9 @@
     "phase2Count": 0,
     "leadPhase": 3,
     "upcomingCount": 2,
-    "nextCatalystDate": "2026-11-11",
+    "nextCatalystDate": "2027-02-09",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 90
   },
   "trialStats": {
     "completed": 2,
@@ -693,7 +693,7 @@
     {
       "id": "edgar-TPST-next-earnings",
       "ticker": "TPST",
-      "date": "2026-11-11",
+      "date": "2027-02-09",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

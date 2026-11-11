@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-10",
+  "generatedDate": "2026-11-11",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -68,7 +68,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2027-01-11",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 62
+    "daysToNextCatalyst": 61
   },
   "trialStats": {
     "completed": 2,
@@ -399,6 +399,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-11-09",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1410098/000121390026117213/ea0311423-8k_cormedix.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-CRMD-0001213900-26-118109",
+      "ticker": "CRMD",
+      "date": "2026-11-10",
+      "title": "8-K filed: Reg FD disclosure",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 7.01, 9.01. Reg FD disclosure. CURRENT REPORT.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-10",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1410098/000121390026118109/ea0311532-8k_cormedix.htm",
       "origin": "edgar",
       "status": "past"
     },

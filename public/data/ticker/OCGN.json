@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 3,
   "phase2": 2,
-  "generatedDate": "2026-11-10",
+  "generatedDate": "2026-11-11",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2027-01-04",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 55
+    "daysToNextCatalyst": 54
   },
   "trialStats": {
     "completed": 2,
@@ -143,21 +143,6 @@
       "source": "ClinicalTrials.gov NCT03591874",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03591874",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-OCGN-0001628280-25-024095",
-      "ticker": "OCGN",
-      "date": "2025-05-09",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-09",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1372299/000162828025024095/ocgn-20250509.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

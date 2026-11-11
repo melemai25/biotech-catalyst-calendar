@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-11-10",
+  "generatedDate": "2026-11-11",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2027-02-04",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 86
+    "daysToNextCatalyst": 85
   },
   "trialStats": {
     "completed": 32,
@@ -158,21 +158,6 @@
       "source": "ClinicalTrials.gov NCT01953926",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT01953926",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-PBYI-0001437749-25-015648",
-      "ticker": "PBYI",
-      "date": "2025-05-09",
-      "title": "8-K filed: Leadership change",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.02. Leadership change. FORM 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-09",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1401667/000143774925015648/pbyi20250507_8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

@@ -11,7 +11,7 @@
   "activeTrials": 10,
   "phase3": 5,
   "phase2": 5,
-  "generatedDate": "2026-11-10",
+  "generatedDate": "2026-11-11",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -58,9 +58,9 @@
     "phase2Count": 9,
     "leadPhase": 4,
     "upcomingCount": 9,
-    "nextCatalystDate": "2026-11-12",
-    "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 2
+    "nextCatalystDate": "2026-11-30",
+    "nextCatalystType": "Trial Milestone",
+    "daysToNextCatalyst": 19
   },
   "trialStats": {
     "completed": 35,
@@ -1406,19 +1406,19 @@
       "status": "past"
     },
     {
-      "id": "edgar-INBS-next-earnings",
+      "id": "edgar-INBS-0001493152-26-050982",
       "ticker": "INBS",
-      "date": "2026-11-12",
-      "title": "Next quarterly earnings (projected)",
+      "date": "2026-11-10",
+      "title": "Quarterly results filed (8-K)",
       "type": "Earnings",
       "phase": null,
-      "estimated": true,
-      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
-      "result": null,
-      "source": "Projected from SEC EDGAR filing cadence",
-      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001725430&type=8-K",
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
+      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
+      "source": "SEC EDGAR 8-K 2026-11-10",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1725430/000149315226050982/form8-k.htm",
       "origin": "edgar",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-INBS-NCT06341114",
@@ -1448,6 +1448,21 @@
       "source": "ClinicalTrials.gov NCT06094179",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06094179",
       "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "edgar-INBS-next-earnings",
+      "ticker": "INBS",
+      "date": "2027-02-03",
+      "title": "Next quarterly earnings (projected)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": true,
+      "summary": "Projected from the median gap between this company’s recent 8-K item 2.02 filings. Not a company-confirmed date — verify against investor relations.",
+      "result": null,
+      "source": "Projected from SEC EDGAR filing cadence",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001725430&type=8-K",
+      "origin": "edgar",
       "status": "upcoming"
     },
     {

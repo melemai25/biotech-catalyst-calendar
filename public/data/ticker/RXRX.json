@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-11-10",
+  "generatedDate": "2026-11-11",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -74,7 +74,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2027-01-12",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 63
+    "daysToNextCatalyst": 62
   },
   "trialStats": {
     "completed": 1,
@@ -130,21 +130,6 @@
       "source": "ClinicalTrials.gov NCT06536465",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06536465",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-RXRX-0001193125-25-116989",
-      "ticker": "RXRX",
-      "date": "2025-05-09",
-      "title": "8-K filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-09",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1601830/000119312525116989/d947576d8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

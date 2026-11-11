@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-10",
+  "generatedDate": "2026-11-11",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-11-13",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 3
+    "daysToNextCatalyst": 2
   },
   "trialStats": {
     "completed": 6,
@@ -212,21 +212,6 @@
       "source": "ClinicalTrials.gov NCT06432647",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06432647",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-LONA-0000950170-25-068020",
-      "ticker": "LONA",
-      "date": "2025-05-09",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 7.01, 9.01. Quarterly results; Reg FD disclosure. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-09",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1620463/000095017025068020/atha-20250509.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

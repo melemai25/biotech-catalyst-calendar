@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-10",
+  "generatedDate": "2026-11-11",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-12-30",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 50
+    "daysToNextCatalyst": 49
   },
   "trialStats": {
     "completed": 0,
@@ -259,6 +259,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-11-06",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1781174/000119312526450779/acrv-20261106.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-ACRV-0001193125-26-455669",
+      "ticker": "ACRV",
+      "date": "2026-11-10",
+      "title": "8-K filed: Reg FD disclosure",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 7.01, 9.01. Reg FD disclosure. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-10",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1781174/000119312526455669/acrv-20261110.htm",
       "origin": "edgar",
       "status": "past"
     },

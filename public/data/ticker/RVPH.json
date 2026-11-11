@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-10",
+  "generatedDate": "2026-11-11",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -58,9 +58,9 @@
     "phase2Count": 0,
     "leadPhase": 3,
     "upcomingCount": 1,
-    "nextCatalystDate": "2026-11-11",
+    "nextCatalystDate": "2027-02-10",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 91
   },
   "trialStats": {
     "completed": 1,
@@ -361,7 +361,7 @@
     {
       "id": "edgar-RVPH-next-earnings",
       "ticker": "RVPH",
-      "date": "2026-11-11",
+      "date": "2027-02-10",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

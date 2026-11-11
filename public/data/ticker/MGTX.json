@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 2,
   "phase2": 1,
-  "generatedDate": "2026-11-10",
+  "generatedDate": "2026-11-11",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -68,7 +68,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-11-12",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 2
+    "daysToNextCatalyst": 1
   },
   "trialStats": {
     "completed": 2,
@@ -115,21 +115,6 @@
       "source": "ClinicalTrials.gov NCT04671433",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04671433",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-MGTX-0001558370-25-007074",
-      "ticker": "MGTX",
-      "date": "2025-05-09",
-      "title": "8-K filed: Reg FD disclosure",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 7.01, 9.01. Reg FD disclosure. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-09",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1735438/000155837025007074/mgtx-20250509x8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {
