@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-11",
+  "generatedDate": "2026-11-12",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 8,
     "nextCatalystDate": "2027-01-13",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 63
+    "daysToNextCatalyst": 62
   },
   "trialStats": {
     "completed": 16,
@@ -616,7 +616,7 @@
     {
       "id": "ct-XNCR-NCT07713485",
       "ticker": "XNCR",
-      "date": "2027-05-15",
+      "date": "2027-08-15",
       "title": "Study of XmAb412 in Healthy Participants",
       "type": "Trial Milestone",
       "phase": "Phase 1",

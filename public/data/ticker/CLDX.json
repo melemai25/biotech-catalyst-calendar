@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 3,
   "phase2": 2,
-  "generatedDate": "2026-11-11",
+  "generatedDate": "2026-11-12",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2027-02-04",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 85
+    "daysToNextCatalyst": 84
   },
   "trialStats": {
     "completed": 27,
@@ -70,18 +70,6 @@
     "ongoing": 9,
     "withResults": 3,
     "byPhase": {
-      "phase2": {
-        "completed": 9,
-        "terminated": 5,
-        "total": 16,
-        "completionRatePct": 64
-      },
-      "phase3": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 5,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 17,
         "terminated": 4,
@@ -92,6 +80,18 @@
         "completed": 0,
         "terminated": 0,
         "total": 2,
+        "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 9,
+        "terminated": 5,
+        "total": 16,
+        "completionRatePct": 64
+      },
+      "phase3": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 5,
         "completionRatePct": null
       }
     },
@@ -596,6 +596,21 @@
       "status": "past"
     },
     {
+      "id": "ct-CLDX-NCT06455202",
+      "ticker": "CLDX",
+      "date": "2026-08-04",
+      "title": "A Phase 3 Study of Barzolvolimab in Participants With Chronic Spontaneous Urticaria (CSU)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Chronic Spontaneous Urticaria · 976 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06455202",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06455202",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "edgar-CLDX-0001171843-26-005316",
       "ticker": "CLDX",
       "date": "2026-08-06",
@@ -611,6 +626,21 @@
       "status": "past"
     },
     {
+      "id": "ct-CLDX-NCT06445023",
+      "ticker": "CLDX",
+      "date": "2026-08-12",
+      "title": "A Phase 3 Study of Barzolvolimab in Participants With Chronic Spontaneous Urticaria",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Chronic Spontaneous Urticaria · 963 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06445023",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06445023",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "edgar-CLDX-0001104659-26-109465",
       "ticker": "CLDX",
       "date": "2026-09-22",
@@ -623,36 +653,6 @@
       "source": "SEC EDGAR 8-K 2026-09-22",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/744218/000110465926109465/tm2625892d1_8k.htm",
       "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "ct-CLDX-NCT06455202",
-      "ticker": "CLDX",
-      "date": "2026-10-15",
-      "title": "A Phase 3 Study of Barzolvolimab in Participants With Chronic Spontaneous Urticaria (CSU)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Chronic Spontaneous Urticaria · 976 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06455202",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06455202",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "ct-CLDX-NCT06445023",
-      "ticker": "CLDX",
-      "date": "2026-10-15",
-      "title": "A Phase 3 Study of Barzolvolimab in Participants With Chronic Spontaneous Urticaria",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Chronic Spontaneous Urticaria · 963 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06445023",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06445023",
-      "origin": "registry",
       "status": "past"
     },
     {

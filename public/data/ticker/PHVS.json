@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-11-11",
+  "generatedDate": "2026-11-12",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -68,7 +68,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2027-06-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 216
+    "daysToNextCatalyst": 215
   },
   "trialStats": {
     "completed": 3,
@@ -78,16 +78,16 @@
     "ongoing": 4,
     "withResults": 2,
     "byPhase": {
-      "phase3": {
-        "completed": 2,
-        "terminated": 0,
-        "total": 5,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 1,
         "terminated": 1,
         "total": 2,
+        "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 2,
+        "terminated": 0,
+        "total": 5,
         "completionRatePct": null
       },
       "other": {
@@ -444,6 +444,21 @@
       "result": null,
       "source": "SEC EDGAR 6-K 2026-09-08",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1830487/000119312526384339/6-k_september_8_2026.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-PHVS-0001193125-26-456847",
+      "ticker": "PHVS",
+      "date": "2026-11-12",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-11-12",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1830487/000119312526456847/6-k_q3_26.htm",
       "origin": "edgar",
       "status": "past"
     },

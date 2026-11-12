@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-11",
+  "generatedDate": "2026-11-12",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,6 +53,14 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "PROKIDNEY CORP.",
+    "financingSinceCash": [
+      {
+        "date": "2026-11-12",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1850270/000119312526457084/d81716d424b5.htm"
+      }
+    ],
     "activeTrials": 7,
     "phase3Count": 1,
     "phase2Count": 4,
@@ -60,7 +68,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-02-07",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 88
+    "daysToNextCatalyst": 87
   },
   "trialStats": {
     "completed": 4,
@@ -70,17 +78,17 @@
     "ongoing": 3,
     "withResults": 2,
     "byPhase": {
-      "phase2": {
-        "completed": 3,
-        "terminated": 1,
-        "total": 4,
-        "completionRatePct": 75
-      },
       "phase1": {
         "completed": 1,
         "terminated": 1,
         "total": 2,
         "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 3,
+        "terminated": 1,
+        "total": 4,
+        "completionRatePct": 75
       },
       "other": {
         "completed": 0,

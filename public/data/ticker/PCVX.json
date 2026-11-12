@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 3,
   "phase2": 1,
-  "generatedDate": "2026-11-11",
+  "generatedDate": "2026-11-12",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -92,7 +92,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2027-02-03",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 84
+    "daysToNextCatalyst": 83
   },
   "trialStats": {
     "completed": 5,
@@ -472,21 +472,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-PCVX-NCT06720038",
-      "ticker": "PCVX",
-      "date": "2027-12-15",
-      "title": "A Clinical Study to Evaluate the Safety, Tolerability, and Immunogenicity of VAX-31 in Healthy Infants",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Pneumococcal Vaccines · 900 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06720038",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06720038",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-PCVX-NCT07616934",
       "ticker": "PCVX",
       "date": "2027-12-15",
@@ -498,6 +483,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07616934",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07616934",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-PCVX-NCT06720038",
+      "ticker": "PCVX",
+      "date": "2027-12-15",
+      "title": "A Clinical Study to Evaluate the Safety, Tolerability, and Immunogenicity of VAX-31 in Healthy Infants",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Pneumococcal Vaccines · 900 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06720038",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06720038",
       "origin": "registry",
       "status": "upcoming"
     }

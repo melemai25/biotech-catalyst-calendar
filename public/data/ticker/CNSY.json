@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-11",
+  "generatedDate": "2026-11-12",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -68,7 +68,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2027-01-15",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 65
+    "daysToNextCatalyst": 64
   },
   "trialStats": {
     "completed": 1,
@@ -529,6 +529,21 @@
       "source": "ClinicalTrials.gov NCT05034497",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05034497",
       "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "edgar-CNSY-0001193125-26-455816",
+      "ticker": "CNSY",
+      "date": "2026-11-12",
+      "title": "8-K filed: Leadership change, Other event",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 5.02, 8.01, 9.01. Leadership change; Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-12",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1095981/000119312526455816/cnsy-20261106.htm",
+      "origin": "edgar",
       "status": "past"
     },
     {

@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 2,
   "phase2": 1,
-  "generatedDate": "2026-11-11",
+  "generatedDate": "2026-11-12",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -58,9 +58,9 @@
     "phase2Count": 13,
     "leadPhase": 3,
     "upcomingCount": 3,
-    "nextCatalystDate": "2026-11-12",
+    "nextCatalystDate": "2027-02-11",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 91
   },
   "trialStats": {
     "completed": 27,
@@ -892,7 +892,7 @@
     {
       "id": "edgar-NKTR-next-earnings",
       "ticker": "NKTR",
-      "date": "2026-11-12",
+      "date": "2027-02-11",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

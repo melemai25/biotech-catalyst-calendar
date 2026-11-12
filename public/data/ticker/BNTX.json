@@ -11,7 +11,7 @@
   "activeTrials": 25,
   "phase3": 8,
   "phase2": 17,
-  "generatedDate": "2026-11-11",
+  "generatedDate": "2026-11-12",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 29,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 4
+    "daysToNextCatalyst": 3
   },
   "trialStats": {
     "completed": 36,
@@ -70,17 +70,17 @@
     "ongoing": 32,
     "withResults": 30,
     "byPhase": {
-      "phase2": {
-        "completed": 12,
-        "terminated": 6,
-        "total": 37,
-        "completionRatePct": 67
-      },
       "phase3": {
         "completed": 14,
         "terminated": 0,
         "total": 21,
         "completionRatePct": 100
+      },
+      "phase2": {
+        "completed": 12,
+        "terminated": 6,
+        "total": 37,
+        "completionRatePct": 67
       },
       "phase1": {
         "completed": 8,
@@ -1691,21 +1691,6 @@
       "status": "past"
     },
     {
-      "id": "ct-BNTX-NCT07392372",
-      "ticker": "BNTX",
-      "date": "2026-11-15",
-      "title": "A Clinical Trial Investigating the Safety and Biological Activity of the Antibody BNT351 in Adults Living Without and With HIV",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "HIV -1 Infection · 67 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07392372",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07392372",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BNTX-NCT04486378",
       "ticker": "BNTX",
       "date": "2026-11-15",
@@ -1717,6 +1702,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04486378",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04486378",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BNTX-NCT07392372",
+      "ticker": "BNTX",
+      "date": "2026-11-15",
+      "title": "A Clinical Trial Investigating the Safety and Biological Activity of the Antibody BNT351 in Adults Living Without and With HIV",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "HIV -1 Infection · 67 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07392372",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07392372",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1736,21 +1736,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BNTX-NCT07379580",
-      "ticker": "BNTX",
-      "date": "2027-06-15",
-      "title": "A Randomized Clinical Trial Investigating the Safety, Reactogenicity, and Immunogenicity After Immunization With an mRNA-based Mpox Vaccine Candidate in Africa",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Mpox (Monkeypox), Smallpox, Orthopoxvirus Infection · 310 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07379580",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07379580",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BNTX-NCT06449209",
       "ticker": "BNTX",
       "date": "2027-06-15",
@@ -1762,6 +1747,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06449209",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06449209",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BNTX-NCT07379580",
+      "ticker": "BNTX",
+      "date": "2027-06-15",
+      "title": "A Randomized Clinical Trial Investigating the Safety, Reactogenicity, and Immunogenicity After Immunization With an mRNA-based Mpox Vaccine Candidate in Africa",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Mpox (Monkeypox), Smallpox, Orthopoxvirus Infection · 310 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07379580",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07379580",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1946,21 +1946,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BNTX-NCT04534205",
-      "ticker": "BNTX",
-      "date": "2029-04-15",
-      "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
-      "type": "Trial Milestone",
-      "phase": "Phase 2/Phase 3",
-      "estimated": false,
-      "summary": "Unresectable Head and Neck Squamous Cell Carcinoma, Metastatic Head and Neck Cancer, Recurrent Head and Neck Cancer · 358 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04534205",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04534205",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BNTX-NCT06712355",
       "ticker": "BNTX",
       "date": "2029-04-15",
@@ -1972,6 +1957,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06712355",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06712355",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BNTX-NCT04534205",
+      "ticker": "BNTX",
+      "date": "2029-04-15",
+      "title": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
+      "type": "Trial Milestone",
+      "phase": "Phase 2/Phase 3",
+      "estimated": false,
+      "summary": "Unresectable Head and Neck Squamous Cell Carcinoma, Metastatic Head and Neck Cancer, Recurrent Head and Neck Cancer · 358 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04534205",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04534205",
       "origin": "registry",
       "status": "upcoming"
     },

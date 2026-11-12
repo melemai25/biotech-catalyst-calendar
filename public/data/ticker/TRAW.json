@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-11-11",
+  "generatedDate": "2026-11-12",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -74,7 +74,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-11-13",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 2
+    "daysToNextCatalyst": 1
   },
   "trialStats": {
     "completed": 25,
@@ -84,6 +84,12 @@
     "ongoing": 5,
     "withResults": 1,
     "byPhase": {
+      "phase2": {
+        "completed": 9,
+        "terminated": 0,
+        "total": 13,
+        "completionRatePct": 100
+      },
       "phase1": {
         "completed": 13,
         "terminated": 2,
@@ -95,12 +101,6 @@
         "terminated": 1,
         "total": 4,
         "completionRatePct": 75
-      },
-      "phase2": {
-        "completed": 9,
-        "terminated": 0,
-        "total": 13,
-        "completionRatePct": 100
       }
     },
     "concluded": 30,
@@ -705,6 +705,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-10-23",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1130598/000110465926118519/tm2626240d4_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-TRAW-0001104659-26-125797",
+      "ticker": "TRAW",
+      "date": "2026-11-12",
+      "title": "8-K filed: Reg FD disclosure",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 7.01, 9.01. Reg FD disclosure. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-12",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1130598/000110465926125797/tm2629616d1_8k.htm",
       "origin": "edgar",
       "status": "past"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 15,
   "phase3": 7,
   "phase2": 8,
-  "generatedDate": "2026-11-11",
+  "generatedDate": "2026-11-12",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -60,21 +60,21 @@
     "upcomingCount": 16,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 34
+    "daysToNextCatalyst": 33
   },
   "trialStats": {
-    "completed": 9,
+    "completed": 10,
     "terminated": 5,
     "withdrawn": 1,
     "suspended": 1,
-    "ongoing": 37,
+    "ongoing": 36,
     "withResults": 0,
     "byPhase": {
       "phase1": {
-        "completed": 8,
+        "completed": 9,
         "terminated": 2,
         "total": 22,
-        "completionRatePct": 80
+        "completionRatePct": 82
       },
       "phase2": {
         "completed": 1,
@@ -95,8 +95,8 @@
         "completionRatePct": null
       }
     },
-    "concluded": 15,
-    "completionRatePct": 60,
+    "concluded": 16,
+    "completionRatePct": 63,
     "resultsPostedPct": 0
   },
   "events": [
@@ -368,6 +368,21 @@
       "source": "SEC EDGAR 6-K 2025-05-23",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2023311/000121390025047081/ea0243353-6k_ascentage.htm",
       "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "ct-AAPG-NCT04001777",
+      "ticker": "AAPG",
+      "date": "2025-05-27",
+      "title": "A Study of APG-1252 Plus Osimertinib(AZD9291) in EGFR TKI Resistant NSCLC Patients",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "EGFR Positive Non-small Cell Lung Cancer · 73 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04001777",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04001777",
+      "origin": "registry",
       "status": "past"
     },
     {
@@ -758,21 +773,6 @@
       "source": "SEC EDGAR 6-K 2025-12-09",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2023311/000121390025119453/ea0268888-6k_ascentage.htm",
       "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "ct-AAPG-NCT04001777",
-      "ticker": "AAPG",
-      "date": "2025-12-15",
-      "title": "A Study of APG-1252 Plus Osimertinib(AZD9291) in EGFR TKI Resistant NSCLC Patients",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "EGFR Positive Non-small Cell Lung Cancer · 80 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04001777",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04001777",
-      "origin": "registry",
       "status": "past"
     },
     {
@@ -1556,21 +1556,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-AAPG-NCT03594422",
-      "ticker": "AAPG",
-      "date": "2027-12-15",
-      "title": "A Study of HQP1351 in Patients With GIST or Other Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Gastrointestinal Stromal Tumor (GIST), Solid Tumor, Adult · 100 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT03594422",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT03594422",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-AAPG-NCT03917043",
       "ticker": "AAPG",
       "date": "2027-12-15",
@@ -1582,6 +1567,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT03917043",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03917043",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-AAPG-NCT03594422",
+      "ticker": "AAPG",
+      "date": "2027-12-15",
+      "title": "A Study of HQP1351 in Patients With GIST or Other Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Gastrointestinal Stromal Tumor (GIST), Solid Tumor, Adult · 100 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT03594422",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03594422",
       "origin": "registry",
       "status": "upcoming"
     },

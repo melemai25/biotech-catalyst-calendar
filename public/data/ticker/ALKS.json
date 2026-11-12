@@ -11,7 +11,7 @@
   "activeTrials": 7,
   "phase3": 5,
   "phase2": 2,
-  "generatedDate": "2026-11-11",
+  "generatedDate": "2026-11-12",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 9,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 4
+    "daysToNextCatalyst": 3
   },
   "trialStats": {
     "completed": 68,
@@ -76,17 +76,17 @@
         "total": 18,
         "completionRatePct": 100
       },
-      "other": {
-        "completed": 6,
-        "terminated": 0,
-        "total": 7,
-        "completionRatePct": 100
-      },
       "phase3": {
         "completed": 25,
         "terminated": 3,
         "total": 34,
         "completionRatePct": 89
+      },
+      "other": {
+        "completed": 6,
+        "terminated": 0,
+        "total": 7,
+        "completionRatePct": 100
       },
       "phase1": {
         "completed": 22,
@@ -821,6 +821,21 @@
       "status": "past"
     },
     {
+      "id": "edgar-ALKS-0001193125-26-456888",
+      "ticker": "ALKS",
+      "date": "2026-11-12",
+      "title": "8-K filed: Material agreement",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 1.01. Material agreement. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-12",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1520262/000119312526456888/alks-20261106.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "ct-ALKS-NCT06843590",
       "ticker": "ALKS",
       "date": "2026-11-15",
@@ -851,21 +866,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ALKS-NCT07455383",
-      "ticker": "ALKS",
-      "date": "2027-05-15",
-      "title": "A Study to Evaluate the Efficacy and Safety of ALKS 2680 in Adults With Narcolepsy Type 1",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Narcolepsy Type 1 · 150 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07455383",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07455383",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ALKS-NCT07502443",
       "ticker": "ALKS",
       "date": "2027-05-15",
@@ -877,6 +877,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07502443",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07502443",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ALKS-NCT07455383",
+      "ticker": "ALKS",
+      "date": "2027-05-15",
+      "title": "A Study to Evaluate the Efficacy and Safety of ALKS 2680 in Adults With Narcolepsy Type 1",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Narcolepsy Type 1 · 150 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07455383",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07455383",
       "origin": "registry",
       "status": "upcoming"
     },

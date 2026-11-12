@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-11-11",
+  "generatedDate": "2026-11-12",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -66,9 +66,9 @@
     "phase2Count": 8,
     "leadPhase": 4,
     "upcomingCount": 3,
-    "nextCatalystDate": "2026-11-12",
+    "nextCatalystDate": "2027-02-11",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 91
   },
   "trialStats": {
     "completed": 28,
@@ -84,12 +84,6 @@
         "total": 17,
         "completionRatePct": 75
       },
-      "phase3": {
-        "completed": 10,
-        "terminated": 5,
-        "total": 17,
-        "completionRatePct": 67
-      },
       "other": {
         "completed": 1,
         "terminated": 0,
@@ -101,6 +95,12 @@
         "terminated": 1,
         "total": 6,
         "completionRatePct": 83
+      },
+      "phase3": {
+        "completed": 10,
+        "terminated": 5,
+        "total": 17,
+        "completionRatePct": 67
       }
     },
     "concluded": 39,
@@ -726,7 +726,7 @@
     {
       "id": "edgar-KYNB-next-earnings",
       "ticker": "KYNB",
-      "date": "2026-11-12",
+      "date": "2027-02-11",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

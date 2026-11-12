@@ -11,7 +11,7 @@
   "activeTrials": 27,
   "phase3": 15,
   "phase2": 12,
-  "generatedDate": "2026-11-11",
+  "generatedDate": "2026-11-12",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,28 +53,28 @@
     "fcfMarginPct": 21.9,
     "marketCapUsd": null,
     "entityName": "BEONE MEDICINES LTD.",
-    "activeTrials": 67,
+    "activeTrials": 68,
     "phase3Count": 16,
     "phase2Count": 15,
     "leadPhase": 3,
-    "upcomingCount": 53,
+    "upcomingCount": 54,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 4
+    "daysToNextCatalyst": 3
   },
   "trialStats": {
     "completed": 5,
     "terminated": 5,
     "withdrawn": 0,
     "suspended": 0,
-    "ongoing": 58,
+    "ongoing": 59,
     "withResults": 1,
     "byPhase": {
-      "phase1": {
-        "completed": 4,
-        "terminated": 5,
-        "total": 37,
-        "completionRatePct": 44
+      "phase3": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 16,
+        "completionRatePct": null
       },
       "phase2": {
         "completed": 0,
@@ -82,11 +82,11 @@
         "total": 14,
         "completionRatePct": null
       },
-      "phase3": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 16,
-        "completionRatePct": null
+      "phase1": {
+        "completed": 4,
+        "terminated": 5,
+        "total": 38,
+        "completionRatePct": 44
       },
       "other": {
         "completed": 0,
@@ -761,6 +761,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-ONC-NCT07934069",
+      "ticker": "ONC",
+      "date": "2027-10-11",
+      "title": "A Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics and Food Effect of BON-107 in Healthy Participants",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Healthy Participants · 100 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07934069",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07934069",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-ONC-NCT05707377",
       "ticker": "ONC",
       "date": "2027-10-15",
@@ -873,7 +888,7 @@
       "type": "Trial Milestone",
       "phase": "Phase 3",
       "estimated": false,
-      "summary": "CLL, Chronic Lymphocytic Leukemia · 250 participants · Status: Recruiting",
+      "summary": "CLL, Chronic Lymphocytic Leukemia, SLL · 250 participants · Status: Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT06846671",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06846671",
@@ -941,21 +956,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT06589596",
-      "ticker": "ONC",
-      "date": "2028-08-31",
-      "title": "An Investigational Study of BGB-58067 As a Single Agent and in Combination With Anticancer Agents in Participants With Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Advanced Solid Tumor · 695 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06589596",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06589596",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ONC-NCT06742996",
       "ticker": "ONC",
       "date": "2028-08-31",
@@ -982,6 +982,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04771130",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04771130",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ONC-NCT06589596",
+      "ticker": "ONC",
+      "date": "2028-08-31",
+      "title": "An Investigational Study of BGB-58067 As a Single Agent and in Combination With Anticancer Agents in Participants With Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Advanced Solid Tumor · 695 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06589596",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06589596",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1154,11 +1169,11 @@
       "id": "ct-ONC-NCT07222267",
       "ticker": "ONC",
       "date": "2029-09-30",
-      "title": "An Investigational Study of BG-75202 Alone and in Combination With Other Therapeutic Agents in Adults With Advanced Solid Tumors",
+      "title": "An Investigational Study of BG-75202 Alone and in Combination With Other Agents in Adults With Advanced Solid Tumors",
       "type": "Trial Milestone",
       "phase": "Phase 1",
       "estimated": false,
-      "summary": "Breast Cancer, Advanced Solid Tumor · 86 participants · Status: Recruiting",
+      "summary": "Breast Cancer, Advanced Solid Tumor · 186 participants · Status: Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT07222267",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07222267",
@@ -1196,17 +1211,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT07811271",
+      "id": "ct-ONC-NCT06970743",
       "ticker": "ONC",
       "date": "2029-11-30",
-      "title": "Efficacy and Safety of BG-C9074 With Bevacizumab Compared With Bevacizumab in Adults With Ovarian, Fallopian Tube, or Primary Peritoneal Cancers",
+      "title": "A Study of BGB-16673 Compared to Investigator's Choice in Participants With Relapsed/Refractory Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma Previously Exposed to Covalent Bruton Tyrosine Kinase (BTK) Inhibitors",
       "type": "Trial Milestone",
       "phase": "Phase 3",
       "estimated": false,
-      "summary": "Epithelial Ovarian Cancer, Fallopian Tube Cancer, Primary Peritoneal Cancer · 600 participants · Status: Not Yet Recruiting",
+      "summary": "Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma · 153 participants · Status: Active Not Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT07811271",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07811271",
+      "source": "ClinicalTrials.gov NCT06970743",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06970743",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1226,17 +1241,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT06970743",
+      "id": "ct-ONC-NCT07811271",
       "ticker": "ONC",
       "date": "2029-11-30",
-      "title": "A Study of BGB-16673 Compared to Investigator's Choice in Participants With Relapsed/Refractory Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma Previously Exposed to Covalent Bruton Tyrosine Kinase (BTK) Inhibitors",
+      "title": "Efficacy and Safety of BG-C9074 With Bevacizumab Compared With Bevacizumab in Adults With Ovarian, Fallopian Tube, or Primary Peritoneal Cancers",
       "type": "Trial Milestone",
       "phase": "Phase 3",
       "estimated": false,
-      "summary": "Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma · 153 participants · Status: Active Not Recruiting",
+      "summary": "Epithelial Ovarian Cancer, Fallopian Tube Cancer, Primary Peritoneal Cancer · 600 participants · Status: Not Yet Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT06970743",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06970743",
+      "source": "ClinicalTrials.gov NCT07811271",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07811271",
       "origin": "registry",
       "status": "upcoming"
     },

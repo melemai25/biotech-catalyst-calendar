@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-11-11",
+  "generatedDate": "2026-11-12",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -76,14 +76,14 @@
         "total": 3,
         "completionRatePct": null
       },
-      "phase1": {
-        "completed": 1,
+      "phase3": {
+        "completed": 0,
         "terminated": 0,
         "total": 2,
         "completionRatePct": null
       },
-      "phase3": {
-        "completed": 0,
+      "phase1": {
+        "completed": 1,
         "terminated": 0,
         "total": 2,
         "completionRatePct": null
@@ -541,6 +541,36 @@
       "result": null,
       "source": "SEC EDGAR 6-K/A 2026-10-30",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1612940/000110465926120645/tm2628597d1_6ka.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-PRQR-0001104659-26-125900",
+      "ticker": "PRQR",
+      "date": "2026-11-12",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. FORM 6-K.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-11-12",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1612940/000110465926125900/tm2629577d1_6k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-PRQR-0001104659-26-125795",
+      "ticker": "PRQR",
+      "date": "2026-11-12",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-11-12",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1612940/000110465926125795/prqr-20260930x6k.htm",
       "origin": "edgar",
       "status": "past"
     }

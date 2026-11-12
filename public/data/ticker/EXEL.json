@@ -11,7 +11,7 @@
   "activeTrials": 11,
   "phase3": 9,
   "phase2": 2,
-  "generatedDate": "2026-11-11",
+  "generatedDate": "2026-11-12",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 14,
     "nextCatalystDate": "2026-11-23",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 12
+    "daysToNextCatalyst": 11
   },
   "trialStats": {
     "completed": 18,
@@ -70,12 +70,6 @@
     "ongoing": 23,
     "withResults": 15,
     "byPhase": {
-      "phase3": {
-        "completed": 4,
-        "terminated": 1,
-        "total": 15,
-        "completionRatePct": 80
-      },
       "phase1": {
         "completed": 10,
         "terminated": 11,
@@ -87,6 +81,12 @@
         "terminated": 2,
         "total": 8,
         "completionRatePct": 67
+      },
+      "phase3": {
+        "completed": 4,
+        "terminated": 1,
+        "total": 15,
+        "completionRatePct": 80
       },
       "other": {
         "completed": 0,
@@ -648,7 +648,7 @@
       "type": "Trial Milestone",
       "phase": "Phase 2",
       "estimated": false,
-      "summary": "Squamous Non-Small Cell Lung Cancer (NSCLC) · 60 participants · Status: Not Yet Recruiting",
+      "summary": "Squamous Non-Small Cell Lung Cancer (NSCLC) · 60 participants · Status: Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT07845786",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07845786",

@@ -11,7 +11,7 @@
   "activeTrials": 6,
   "phase3": 1,
   "phase2": 5,
-  "generatedDate": "2026-11-11",
+  "generatedDate": "2026-11-12",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -68,7 +68,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2026-12-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 49
+    "daysToNextCatalyst": 48
   },
   "trialStats": {
     "completed": 47,
@@ -78,11 +78,11 @@
     "ongoing": 11,
     "withResults": 37,
     "byPhase": {
-      "other": {
-        "completed": 7,
-        "terminated": 1,
-        "total": 13,
-        "completionRatePct": 88
+      "phase1": {
+        "completed": 10,
+        "terminated": 0,
+        "total": 10,
+        "completionRatePct": 100
       },
       "phase2": {
         "completed": 16,
@@ -96,11 +96,11 @@
         "total": 19,
         "completionRatePct": 82
       },
-      "phase1": {
-        "completed": 10,
-        "terminated": 0,
-        "total": 10,
-        "completionRatePct": 100
+      "other": {
+        "completed": 7,
+        "terminated": 1,
+        "total": 13,
+        "completionRatePct": 88
       }
     },
     "concluded": 53,
@@ -439,21 +439,6 @@
       "status": "past"
     },
     {
-      "id": "ct-SUPN-NCT05102552",
-      "ticker": "SUPN",
-      "date": "2022-03-25",
-      "title": "Evaluating the Safety and Relative Bioavailability of Three SPN-817 Treatments (A, B and C) in Healthy Adult Subjects",
-      "type": "Trial Milestone",
-      "phase": "EARLY_Phase 1",
-      "estimated": false,
-      "summary": "Healthy Volunteer · 30 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05102552",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05102552",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-SUPN-NCT04476017",
       "ticker": "SUPN",
       "date": "2022-03-25",
@@ -465,6 +450,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT04476017",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04476017",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-SUPN-NCT05102552",
+      "ticker": "SUPN",
+      "date": "2022-03-25",
+      "title": "Evaluating the Safety and Relative Bioavailability of Three SPN-817 Treatments (A, B and C) in Healthy Adult Subjects",
+      "type": "Trial Milestone",
+      "phase": "EARLY_Phase 1",
+      "estimated": false,
+      "summary": "Healthy Volunteer · 30 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05102552",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05102552",
       "origin": "registry",
       "status": "past"
     },
