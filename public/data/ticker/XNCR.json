@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-12",
+  "generatedDate": "2026-11-13",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 8,
     "nextCatalystDate": "2027-01-13",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 62
+    "daysToNextCatalyst": 61
   },
   "trialStats": {
     "completed": 16,
@@ -629,21 +629,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-XNCR-NCT06619990",
-      "ticker": "XNCR",
-      "date": "2027-12-15",
-      "title": "Study of XmAb942 in Healthy Participants and Participants With Ulcerative Colitis",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Ulcerative Colitis (UC) · 270 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06619990",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06619990",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-XNCR-NCT06276491",
       "ticker": "XNCR",
       "date": "2027-12-15",
@@ -655,6 +640,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06276491",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06276491",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-XNCR-NCT06619990",
+      "ticker": "XNCR",
+      "date": "2027-12-15",
+      "title": "Study of XmAb942 in Healthy Participants and Participants With Ulcerative Colitis",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Ulcerative Colitis (UC) · 270 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06619990",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06619990",
       "origin": "registry",
       "status": "upcoming"
     },

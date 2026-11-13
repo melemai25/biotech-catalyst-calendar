@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-12",
+  "generatedDate": "2026-11-13",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,6 +55,12 @@
     "entityName": "FATE THERAPEUTICS INC",
     "financingSinceCash": [
       {
+        "date": "2026-11-12",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1434316/000119312526458736/d150438d424b5.htm"
+      },
+      {
         "date": "2026-11-05",
         "form": "424B5",
         "label": "Prospectus supplement",
@@ -68,7 +74,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2027-02-05",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 85
+    "daysToNextCatalyst": 84
   },
   "trialStats": {
     "completed": 7,
@@ -78,17 +84,17 @@
     "ongoing": 6,
     "withResults": 3,
     "byPhase": {
-      "phase1": {
-        "completed": 6,
-        "terminated": 8,
-        "total": 19,
-        "completionRatePct": 43
-      },
       "phase2": {
         "completed": 1,
         "terminated": 1,
         "total": 4,
         "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 6,
+        "terminated": 8,
+        "total": 19,
+        "completionRatePct": 43
       },
       "other": {
         "completed": 0,
@@ -193,21 +199,6 @@
       "status": "past"
     },
     {
-      "id": "ct-FATE-NCT05395052",
-      "ticker": "FATE",
-      "date": "2023-08-11",
-      "title": "FT536 Monotherapy and in Combination With Monoclonal Antibodies in Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Non Small Cell Lung Cancer, Colorectal Cancer, Breast Cancer · 5 participants · Status: Terminated",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05395052",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05395052",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-FATE-NCT04551885",
       "ticker": "FATE",
       "date": "2023-08-11",
@@ -234,6 +225,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05069935",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05069935",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-FATE-NCT05395052",
+      "ticker": "FATE",
+      "date": "2023-08-11",
+      "title": "FT536 Monotherapy and in Combination With Monoclonal Antibodies in Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Non Small Cell Lung Cancer, Colorectal Cancer, Breast Cancer · 5 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05395052",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05395052",
       "origin": "registry",
       "status": "past"
     },

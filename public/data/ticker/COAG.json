@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-11-12",
+  "generatedDate": "2026-11-13",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,21 +53,21 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "Hemab Therapeutics Holdings, Inc.",
-    "activeTrials": 4,
-    "phase3Count": 0,
+    "activeTrials": 5,
+    "phase3Count": 1,
     "phase2Count": 3,
-    "leadPhase": 2,
-    "upcomingCount": 5,
+    "leadPhase": 3,
+    "upcomingCount": 6,
     "nextCatalystDate": "2027-02-09",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 89
+    "daysToNextCatalyst": 88
   },
   "trialStats": {
     "completed": 0,
     "terminated": 0,
     "withdrawn": 0,
     "suspended": 0,
-    "ongoing": 5,
+    "ongoing": 6,
     "withResults": 0,
     "byPhase": {
       "phase2": {
@@ -77,6 +77,12 @@
         "completionRatePct": null
       },
       "other": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 1,
+        "completionRatePct": null
+      },
+      "phase3": {
         "completed": 0,
         "terminated": 0,
         "total": 1,
@@ -256,6 +262,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07347249",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07347249",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-COAG-NCT07935356",
+      "ticker": "COAG",
+      "date": "2029-11-15",
+      "title": "A Phase 3 Evaluation of Sutacimig in Glanzmann Thrombasthenia",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Thrombasthenia · 76 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07935356",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07935356",
       "origin": "registry",
       "status": "upcoming"
     }

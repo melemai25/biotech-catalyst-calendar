@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 1,
   "phase2": 2,
-  "generatedDate": "2026-11-12",
+  "generatedDate": "2026-11-13",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -77,10 +77,10 @@
     "phase3Count": 5,
     "phase2Count": 13,
     "leadPhase": 3,
-    "upcomingCount": 2,
+    "upcomingCount": 3,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 33
+    "daysToNextCatalyst": 32
   },
   "trialStats": {
     "completed": 17,
@@ -90,12 +90,6 @@
     "ongoing": 4,
     "withResults": 12,
     "byPhase": {
-      "phase1": {
-        "completed": 4,
-        "terminated": 0,
-        "total": 5,
-        "completionRatePct": 100
-      },
       "phase3": {
         "completed": 3,
         "terminated": 1,
@@ -106,6 +100,12 @@
         "completed": 10,
         "terminated": 0,
         "total": 12,
+        "completionRatePct": 100
+      },
+      "phase1": {
+        "completed": 4,
+        "terminated": 0,
+        "total": 5,
         "completionRatePct": 100
       }
     },
@@ -595,21 +595,6 @@
       "status": "past"
     },
     {
-      "id": "ct-ABVX-NCT07453784",
-      "ticker": "ABVX",
-      "date": "2026-09-15",
-      "title": "Study to Evaluate Pharmacokinetics, Relative Bioavailability, Palatability of Obefazimod Minitablet Formulation",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Healthy · 44 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07453784",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07453784",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "edgar-ABVX-0001956827-26-000027",
       "ticker": "ABVX",
       "date": "2026-09-21",
@@ -636,6 +621,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06456593",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06456593",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ABVX-NCT07453784",
+      "ticker": "ABVX",
+      "date": "2027-04-15",
+      "title": "Study to Evaluate Pharmacokinetics, Relative Bioavailability, Palatability of Obefazimod Minitablet Formulation",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Healthy · 44 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07453784",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07453784",
       "origin": "registry",
       "status": "upcoming"
     },

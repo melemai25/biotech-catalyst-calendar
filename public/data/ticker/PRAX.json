@@ -11,7 +11,7 @@
   "activeTrials": 7,
   "phase3": 5,
   "phase2": 2,
-  "generatedDate": "2026-11-12",
+  "generatedDate": "2026-11-13",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 33
+    "daysToNextCatalyst": 32
   },
   "trialStats": {
     "completed": 7,
@@ -70,12 +70,6 @@
     "ongoing": 8,
     "withResults": 1,
     "byPhase": {
-      "phase1": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 1,
-        "completionRatePct": null
-      },
       "phase3": {
         "completed": 2,
         "terminated": 0,
@@ -89,6 +83,12 @@
         "completionRatePct": 75
       },
       "other": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 1,
+        "completionRatePct": null
+      },
+      "phase1": {
         "completed": 1,
         "terminated": 0,
         "total": 1,
@@ -626,19 +626,19 @@
       "status": "past"
     },
     {
-      "id": "ct-PRAX-NCT07010471",
+      "id": "edgar-PRAX-0001689548-26-000091",
       "ticker": "PRAX",
-      "date": "2026-12-15",
-      "title": "A Clinical Trial for Participants With DEE to Assess Efficacy, Safety, Tolerability, and PK of Relutrigine",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
+      "date": "2026-11-12",
+      "title": "8-K filed: Reg FD disclosure, Other event",
+      "type": "Filing",
+      "phase": null,
       "estimated": false,
-      "summary": "Developmental and Epileptic Encephalopathy 1 · 160 participants · Status: Active Not Recruiting",
+      "summary": "SEC Form 8-K, items 7.01, 8.01, 9.01. Reg FD disclosure; Other event. 8-K.",
       "result": null,
-      "source": "ClinicalTrials.gov NCT07010471",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07010471",
-      "origin": "registry",
-      "status": "upcoming"
+      "source": "SEC EDGAR 8-K 2026-11-12",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1689548/000168954826000091/prax-20261112.htm",
+      "origin": "edgar",
+      "status": "past"
     },
     {
       "id": "ct-PRAX-NCT07019922",
@@ -652,6 +652,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07019922",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07019922",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-PRAX-NCT07010471",
+      "ticker": "PRAX",
+      "date": "2026-12-15",
+      "title": "A Clinical Trial for Participants With DEE to Assess Efficacy, Safety, Tolerability, and PK of Relutrigine",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Developmental and Epileptic Encephalopathy 1 · 160 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07010471",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07010471",
       "origin": "registry",
       "status": "upcoming"
     },

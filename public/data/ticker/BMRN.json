@@ -11,7 +11,7 @@
   "activeTrials": 14,
   "phase3": 5,
   "phase2": 9,
-  "generatedDate": "2026-11-12",
+  "generatedDate": "2026-11-13",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,25 +57,19 @@
     "phase3Count": 12,
     "phase2Count": 19,
     "leadPhase": 4,
-    "upcomingCount": 14,
+    "upcomingCount": 13,
     "nextCatalystDate": "2027-01-02",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 51
+    "daysToNextCatalyst": 50
   },
   "trialStats": {
     "completed": 62,
-    "terminated": 19,
+    "terminated": 20,
     "withdrawn": 1,
     "suspended": 0,
-    "ongoing": 30,
+    "ongoing": 29,
     "withResults": 46,
     "byPhase": {
-      "phase3": {
-        "completed": 20,
-        "terminated": 2,
-        "total": 27,
-        "completionRatePct": 91
-      },
       "other": {
         "completed": 16,
         "terminated": 5,
@@ -84,19 +78,25 @@
       },
       "phase2": {
         "completed": 22,
-        "terminated": 11,
+        "terminated": 12,
         "total": 43,
-        "completionRatePct": 67
+        "completionRatePct": 65
       },
       "phase1": {
         "completed": 4,
         "terminated": 1,
         "total": 7,
         "completionRatePct": 80
+      },
+      "phase3": {
+        "completed": 20,
+        "terminated": 2,
+        "total": 27,
+        "completionRatePct": 91
       }
     },
-    "concluded": 82,
-    "completionRatePct": 76,
+    "concluded": 83,
+    "completionRatePct": 75,
     "resultsPostedPct": 74
   },
   "events": [
@@ -836,6 +836,21 @@
       "status": "past"
     },
     {
+      "id": "ct-BMRN-NCT06668805",
+      "ticker": "BMRN",
+      "date": "2026-09-16",
+      "title": "A Study of Vosoritide in Children With Noonan Syndrome With Inadequate Growth During or After Human Growth Hormone Treatment",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Noonan Syndrome · 18 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06668805",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06668805",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "edgar-BMRN-0001628280-26-063981",
       "ticker": "BMRN",
       "date": "2026-09-30",
@@ -896,21 +911,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BMRN-NCT06668805",
-      "ticker": "BMRN",
-      "date": "2027-03-15",
-      "title": "A Study of Vosoritide in Children With Noonan Syndrome With Inadequate Growth During or After Human Growth Hormone Treatment",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Noonan Syndrome · 30 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06668805",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06668805",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BMRN-NCT06280209",
       "ticker": "BMRN",
       "date": "2027-04-14",
@@ -941,6 +941,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-BMRN-NCT04480567",
+      "ticker": "BMRN",
+      "date": "2027-12-15",
+      "title": "AAV Gene Therapy Study for Subjects with PKU",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Phenylketonuria (PKU) · 100 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04480567",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04480567",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-BMRN-NCT02724228",
       "ticker": "BMRN",
       "date": "2027-12-15",
@@ -967,21 +982,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04554940",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04554940",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-BMRN-NCT04480567",
-      "ticker": "BMRN",
-      "date": "2027-12-15",
-      "title": "AAV Gene Therapy Study for Subjects with PKU",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Phenylketonuria (PKU) · 100 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04480567",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04480567",
       "origin": "registry",
       "status": "upcoming"
     },

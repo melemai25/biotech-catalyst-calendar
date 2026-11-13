@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 4,
   "phase2": 1,
-  "generatedDate": "2026-11-12",
+  "generatedDate": "2026-11-13",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,17 +57,17 @@
     "phase3Count": 4,
     "phase2Count": 3,
     "leadPhase": 3,
-    "upcomingCount": 3,
+    "upcomingCount": 2,
     "nextCatalystDate": "2027-01-18",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 67
+    "daysToNextCatalyst": 66
   },
   "trialStats": {
-    "completed": 3,
+    "completed": 4,
     "terminated": 0,
     "withdrawn": 0,
     "suspended": 0,
-    "ongoing": 5,
+    "ongoing": 4,
     "withResults": 2,
     "byPhase": {
       "phase3": {
@@ -77,7 +77,7 @@
         "completionRatePct": null
       },
       "phase2": {
-        "completed": 2,
+        "completed": 3,
         "terminated": 0,
         "total": 3,
         "completionRatePct": null
@@ -89,7 +89,7 @@
         "completionRatePct": null
       }
     },
-    "concluded": 3,
+    "concluded": 4,
     "completionRatePct": null,
     "resultsPostedPct": null
   },
@@ -500,6 +500,21 @@
       "status": "past"
     },
     {
+      "id": "ct-DFTX-NCT07303907",
+      "ticker": "DFTX",
+      "date": "2026-09-16",
+      "title": "A Phase 2A Trial of DT402 for Autism Spectrum Disorder",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Autism Spectrum Disorder, ASD · 5 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07303907",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07303907",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "edgar-DFTX-0001193125-26-453595",
       "ticker": "DFTX",
       "date": "2026-11-09",
@@ -527,21 +542,6 @@
       "source": "Projected from SEC EDGAR filing cadence",
       "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001813814&type=8-K",
       "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-DFTX-NCT07303907",
-      "ticker": "DFTX",
-      "date": "2027-08-15",
-      "title": "A Phase 2A Trial of DT402 for Autism Spectrum Disorder",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Autism Spectrum Disorder, ASD · 20 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07303907",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07303907",
-      "origin": "registry",
       "status": "upcoming"
     },
     {

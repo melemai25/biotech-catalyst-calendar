@@ -11,7 +11,7 @@
   "activeTrials": 9,
   "phase3": 5,
   "phase2": 4,
-  "generatedDate": "2026-11-12",
+  "generatedDate": "2026-11-13",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 8,
     "nextCatalystDate": "2027-01-12",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 61
+    "daysToNextCatalyst": 60
   },
   "trialStats": {
     "completed": 22,
@@ -82,17 +82,17 @@
         "total": 12,
         "completionRatePct": 100
       },
-      "phase1": {
-        "completed": 4,
-        "terminated": 0,
-        "total": 4,
-        "completionRatePct": 100
-      },
       "other": {
         "completed": 1,
         "terminated": 0,
         "total": 6,
         "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 4,
+        "terminated": 0,
+        "total": 4,
+        "completionRatePct": 100
       }
     },
     "concluded": 26,
@@ -521,6 +521,21 @@
       "status": "past"
     },
     {
+      "id": "ct-MIRM-NCT06553768",
+      "ticker": "MIRM",
+      "date": "2026-07-29",
+      "title": "Evaluation of Maralixibat in Pruritus Associated With General Cholestatic Liver Disease (EXPAND)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Cholestatic Liver Disease (Except ALGS, PFIC, PBC and PSC) · 90 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06553768",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06553768",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "edgar-MIRM-0001759425-26-000044",
       "ticker": "MIRM",
       "date": "2026-08-05",
@@ -593,21 +608,6 @@
       "source": "SEC EDGAR 8-K 2026-10-13",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000051/mirm-20261012.htm",
       "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "ct-MIRM-NCT06553768",
-      "ticker": "MIRM",
-      "date": "2026-10-15",
-      "title": "Evaluation of Maralixibat in Pruritus Associated With General Cholestatic Liver Disease (EXPAND)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Cholestatic Liver Disease (Except ALGS, PFIC, PBC and PSC) · 90 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06553768",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06553768",
-      "origin": "registry",
       "status": "past"
     },
     {

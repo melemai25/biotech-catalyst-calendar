@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-12",
+  "generatedDate": "2026-11-13",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -58,9 +58,9 @@
     "phase2Count": 1,
     "leadPhase": 3,
     "upcomingCount": 2,
-    "nextCatalystDate": "2026-11-13",
+    "nextCatalystDate": "2027-02-12",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 91
   },
   "trialStats": {
     "completed": 5,
@@ -70,17 +70,17 @@
     "ongoing": 2,
     "withResults": 3,
     "byPhase": {
-      "phase2": {
-        "completed": 4,
-        "terminated": 0,
-        "total": 4,
-        "completionRatePct": 100
-      },
       "other": {
         "completed": 0,
         "terminated": 0,
         "total": 1,
         "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 4,
+        "terminated": 0,
+        "total": 4,
+        "completionRatePct": 100
       },
       "phase3": {
         "completed": 1,
@@ -367,7 +367,7 @@
     {
       "id": "edgar-BCLI-next-earnings",
       "ticker": "BCLI",
-      "date": "2026-11-13",
+      "date": "2027-02-12",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

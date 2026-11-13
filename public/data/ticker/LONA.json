@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-12",
+  "generatedDate": "2026-11-13",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -58,9 +58,9 @@
     "phase2Count": 4,
     "leadPhase": 3,
     "upcomingCount": 2,
-    "nextCatalystDate": "2026-11-13",
+    "nextCatalystDate": "2027-02-12",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 91
   },
   "trialStats": {
     "completed": 6,
@@ -70,6 +70,12 @@
     "ongoing": 1,
     "withResults": 4,
     "byPhase": {
+      "phase2": {
+        "completed": 1,
+        "terminated": 1,
+        "total": 2,
+        "completionRatePct": null
+      },
       "phase1": {
         "completed": 4,
         "terminated": 0,
@@ -80,12 +86,6 @@
         "completed": 1,
         "terminated": 1,
         "total": 3,
-        "completionRatePct": null
-      },
-      "phase2": {
-        "completed": 1,
-        "terminated": 1,
-        "total": 2,
         "completionRatePct": null
       }
     },
@@ -412,7 +412,7 @@
     {
       "id": "edgar-LONA-next-earnings",
       "ticker": "LONA",
-      "date": "2026-11-13",
+      "date": "2027-02-12",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

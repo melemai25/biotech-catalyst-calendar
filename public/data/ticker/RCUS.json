@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 2,
   "phase2": 2,
-  "generatedDate": "2026-11-12",
+  "generatedDate": "2026-11-13",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -74,7 +74,7 @@
     "upcomingCount": 7,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 33
+    "daysToNextCatalyst": 32
   },
   "trialStats": {
     "completed": 26,
@@ -84,12 +84,6 @@
     "ongoing": 6,
     "withResults": 0,
     "byPhase": {
-      "phase2": {
-        "completed": 5,
-        "terminated": 0,
-        "total": 5,
-        "completionRatePct": 100
-      },
       "phase1": {
         "completed": 20,
         "terminated": 0,
@@ -101,6 +95,12 @@
         "terminated": 0,
         "total": 3,
         "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 5,
+        "terminated": 0,
+        "total": 5,
+        "completionRatePct": 100
       }
     },
     "concluded": 26,
@@ -851,7 +851,7 @@
       "type": "Trial Milestone",
       "phase": "Phase 1",
       "estimated": false,
-      "summary": "Clear Cell Renal Cell Carcinoma, Solid Tumors · 362 participants · Status: Recruiting",
+      "summary": "Clear Cell Renal Cell Carcinoma, Solid Tumors · 512 participants · Status: Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT05536141",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05536141",

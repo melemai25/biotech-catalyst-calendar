@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 3,
   "phase2": 2,
-  "generatedDate": "2026-11-12",
+  "generatedDate": "2026-11-13",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2027-08-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 276
+    "daysToNextCatalyst": 275
   },
   "trialStats": {
     "completed": 7,
@@ -70,18 +70,6 @@
     "ongoing": 8,
     "withResults": 5,
     "byPhase": {
-      "phase2": {
-        "completed": 4,
-        "terminated": 1,
-        "total": 7,
-        "completionRatePct": 80
-      },
-      "other": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 3,
-        "completionRatePct": null
-      },
       "phase3": {
         "completed": 1,
         "terminated": 0,
@@ -92,6 +80,18 @@
         "completed": 1,
         "terminated": 1,
         "total": 2,
+        "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 4,
+        "terminated": 1,
+        "total": 7,
+        "completionRatePct": 80
+      },
+      "other": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 3,
         "completionRatePct": null
       }
     },
@@ -1162,6 +1162,21 @@
       "result": null,
       "source": "SEC EDGAR 6-K 2026-11-06",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526451904/d117407d6k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-ASND-0001193125-26-458255",
+      "ticker": "ASND",
+      "date": "2026-11-12",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-11-12",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526458255/d179714d6k.htm",
       "origin": "edgar",
       "status": "past"
     },

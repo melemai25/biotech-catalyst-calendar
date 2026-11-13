@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 1,
   "phase2": 2,
-  "generatedDate": "2026-11-12",
+  "generatedDate": "2026-11-13",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2027-02-05",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 85
+    "daysToNextCatalyst": 84
   },
   "trialStats": {
     "completed": 1,
@@ -359,21 +359,6 @@
       "status": "past"
     },
     {
-      "id": "ct-VERA-NCT07020923",
-      "ticker": "VERA",
-      "date": "2026-09-15",
-      "title": "Monthly Dosing of Atacicept in IgAN",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "IgA Nephropathy (IgAN), Berger Disease · 90 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07020923",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07020923",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "edgar-VERA-0001193125-26-391280",
       "ticker": "VERA",
       "date": "2026-09-15",
@@ -386,6 +371,21 @@
       "source": "SEC EDGAR 8-K 2026-09-15",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1831828/000119312526391280/d32300d8k.htm",
       "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "ct-VERA-NCT07020923",
+      "ticker": "VERA",
+      "date": "2026-09-22",
+      "title": "Monthly Dosing of Atacicept in IgAN",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "IgA Nephropathy (IgAN), Berger Disease · 90 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07020923",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07020923",
+      "origin": "registry",
       "status": "past"
     },
     {

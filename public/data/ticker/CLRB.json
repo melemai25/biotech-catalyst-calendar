@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-11-12",
+  "generatedDate": "2026-11-13",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2027-02-07",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 87
+    "daysToNextCatalyst": 86
   },
   "trialStats": {
     "completed": 6,
@@ -76,16 +76,16 @@
         "total": 6,
         "completionRatePct": null
       },
-      "phase3": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 2,
         "terminated": 1,
         "total": 5,
+        "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 2,
         "completionRatePct": null
       }
     },
@@ -365,21 +365,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-CLRB-NCT03478462",
-      "ticker": "CLRB",
-      "date": "2027-06-30",
-      "title": "Dose Escalation Study of CLR 131 in Pediatric Relapsed/Refractory Malignant Tumors Including Neuroblastoma and Sarcomas",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Pediatric Solid Tumor, Pediatric Lymphoma, Pediatric Brain Tumor · 30 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT03478462",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT03478462",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-CLRB-NCT05610891",
       "ticker": "CLRB",
       "date": "2027-06-30",
@@ -391,6 +376,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05610891",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05610891",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-CLRB-NCT03478462",
+      "ticker": "CLRB",
+      "date": "2027-06-30",
+      "title": "Dose Escalation Study of CLR 131 in Pediatric Relapsed/Refractory Malignant Tumors Including Neuroblastoma and Sarcomas",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Pediatric Solid Tumor, Pediatric Lymphoma, Pediatric Brain Tumor · 30 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT03478462",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03478462",
       "origin": "registry",
       "status": "upcoming"
     },

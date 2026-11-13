@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-12",
+  "generatedDate": "2026-11-13",
   "metrics": {
     "reportingCurrency": "CAD",
     "taxonomy": "ifrs-full",
@@ -70,15 +70,15 @@
     "ongoing": 1,
     "withResults": 3,
     "byPhase": {
-      "phase2": {
-        "completed": 2,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
-      },
       "phase3": {
         "completed": 0,
         "terminated": 1,
+        "total": 2,
+        "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 2,
+        "terminated": 0,
         "total": 2,
         "completionRatePct": null
       }
@@ -820,6 +820,21 @@
       "result": null,
       "source": "SEC EDGAR 6-K 2026-11-03",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1702123/000127956926001022/cardiol6k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-CRDL-0001104659-26-126269",
+      "ticker": "CRDL",
+      "date": "2026-11-12",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. FORM 6-K.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-11-12",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1702123/000110465926126269/tm2629596d1_6k.htm",
       "origin": "edgar",
       "status": "past"
     }

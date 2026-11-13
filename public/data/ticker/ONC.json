@@ -11,7 +11,7 @@
   "activeTrials": 27,
   "phase3": 15,
   "phase2": 12,
-  "generatedDate": "2026-11-12",
+  "generatedDate": "2026-11-13",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 54,
     "nextCatalystDate": "2026-11-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 3
+    "daysToNextCatalyst": 2
   },
   "trialStats": {
     "completed": 5,
@@ -70,11 +70,11 @@
     "ongoing": 59,
     "withResults": 1,
     "byPhase": {
-      "phase3": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 16,
-        "completionRatePct": null
+      "phase1": {
+        "completed": 4,
+        "terminated": 5,
+        "total": 38,
+        "completionRatePct": 44
       },
       "phase2": {
         "completed": 0,
@@ -82,11 +82,11 @@
         "total": 14,
         "completionRatePct": null
       },
-      "phase1": {
-        "completed": 4,
-        "terminated": 5,
-        "total": 38,
-        "completionRatePct": 44
+      "phase3": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 16,
+        "completionRatePct": null
       },
       "other": {
         "completed": 0,
@@ -971,6 +971,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-ONC-NCT06589596",
+      "ticker": "ONC",
+      "date": "2028-08-31",
+      "title": "An Investigational Study of BGB-58067 As a Single Agent and in Combination With Anticancer Agents in Participants With Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Advanced Solid Tumor · 695 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06589596",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06589596",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-ONC-NCT04771130",
       "ticker": "ONC",
       "date": "2028-08-31",
@@ -986,17 +1001,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT06589596",
+      "id": "ct-ONC-NCT07619287",
       "ticker": "ONC",
-      "date": "2028-08-31",
-      "title": "An Investigational Study of BGB-58067 As a Single Agent and in Combination With Anticancer Agents in Participants With Advanced Solid Tumors",
+      "date": "2028-09-30",
+      "title": "An Investigational Study of BG-75202 Alone and in Combination With Other Agents in Patients With Myeloid Malignancies",
       "type": "Trial Milestone",
       "phase": "Phase 1",
       "estimated": false,
-      "summary": "Advanced Solid Tumor · 695 participants · Status: Recruiting",
+      "summary": "Myeloid Malignancy · 118 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT06589596",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06589596",
+      "source": "ClinicalTrials.gov NCT07619287",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07619287",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1027,21 +1042,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06598800",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06598800",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-ONC-NCT07619287",
-      "ticker": "ONC",
-      "date": "2028-09-30",
-      "title": "An Investigational Study of BG-75202 Alone and in Combination With Other Agents in Patients With Myeloid Malignancies",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Myeloid Malignancy · 118 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07619287",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07619287",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1151,21 +1151,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT06943872",
-      "ticker": "ONC",
-      "date": "2029-09-30",
-      "title": "A Study to Investigate Progression-Free Survival With Sonrotoclax Plus Obinutuzumab Or Sonrotoclax Plus Rituximab Compared With Venetoclax Plus Rituximab Treatment In Patients With Relapsed and/or Refractory Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (CELESTIAL-RRCLL)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma · 630 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06943872",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06943872",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ONC-NCT07222267",
       "ticker": "ONC",
       "date": "2029-09-30",
@@ -1177,6 +1162,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07222267",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07222267",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ONC-NCT06943872",
+      "ticker": "ONC",
+      "date": "2029-09-30",
+      "title": "A Study to Investigate Progression-Free Survival With Sonrotoclax Plus Obinutuzumab Or Sonrotoclax Plus Rituximab Compared With Venetoclax Plus Rituximab Treatment In Patients With Relapsed and/or Refractory Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (CELESTIAL-RRCLL)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma · 630 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06943872",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06943872",
       "origin": "registry",
       "status": "upcoming"
     },

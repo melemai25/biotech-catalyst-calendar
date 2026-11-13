@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 2,
   "phase2": 2,
-  "generatedDate": "2026-11-12",
+  "generatedDate": "2026-11-13",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2027-01-10",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 59
+    "daysToNextCatalyst": 58
   },
   "trialStats": {
     "completed": 23,
@@ -70,16 +70,22 @@
     "ongoing": 6,
     "withResults": 16,
     "byPhase": {
+      "phase2": {
+        "completed": 8,
+        "terminated": 0,
+        "total": 11,
+        "completionRatePct": 100
+      },
       "phase3": {
         "completed": 8,
         "terminated": 0,
         "total": 10,
         "completionRatePct": 100
       },
-      "phase2": {
-        "completed": 8,
+      "other": {
+        "completed": 4,
         "terminated": 0,
-        "total": 11,
+        "total": 5,
         "completionRatePct": 100
       },
       "phase1": {
@@ -87,12 +93,6 @@
         "terminated": 0,
         "total": 3,
         "completionRatePct": null
-      },
-      "other": {
-        "completed": 4,
-        "terminated": 0,
-        "total": 5,
-        "completionRatePct": 100
       }
     },
     "concluded": 23,
@@ -598,7 +598,7 @@
     {
       "id": "ct-RYTM-NCT06772597",
       "ticker": "RYTM",
-      "date": "2026-10-31",
+      "date": "2026-11-03",
       "title": "A Study of Setmelanotide in Patients With Prader-Willi Syndrome",
       "type": "Trial Milestone",
       "phase": "Phase 2",

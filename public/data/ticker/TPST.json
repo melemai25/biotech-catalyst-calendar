@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-12",
+  "generatedDate": "2026-11-13",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -92,7 +92,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-02-09",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 89
+    "daysToNextCatalyst": 88
   },
   "trialStats": {
     "completed": 2,
@@ -687,6 +687,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-11-06",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1544227/000121390026116484/ea0311157-8k_tempest.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-TPST-0001213900-26-118986",
+      "ticker": "TPST",
+      "date": "2026-11-12",
+      "title": "8-K filed: Reg FD disclosure, Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 7.01, 8.01, 9.01. Reg FD disclosure; Other event. CURRENT REPORT.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-12",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1544227/000121390026118986/ea0311982-8k_tempest.htm",
       "origin": "edgar",
       "status": "past"
     },

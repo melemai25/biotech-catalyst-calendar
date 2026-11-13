@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-12",
+  "generatedDate": "2026-11-13",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2027-08-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 276
+    "daysToNextCatalyst": 275
   },
   "trialStats": {
     "completed": 0,
@@ -70,16 +70,16 @@
     "ongoing": 3,
     "withResults": 0,
     "byPhase": {
-      "phase1": {
-        "completed": 0,
-        "terminated": 2,
-        "total": 4,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 0,
         "terminated": 0,
         "total": 2,
+        "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 0,
+        "terminated": 2,
+        "total": 4,
         "completionRatePct": null
       }
     },
@@ -835,6 +835,36 @@
       "result": null,
       "source": "SEC EDGAR 6-K 2026-11-09",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1627281/000117184326007273/f6k_110926.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-CLLS-0001193125-26-458679",
+      "ticker": "CLLS",
+      "date": "2026-11-12",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-11-12",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1627281/000119312526458679/clls_6-k_q3_2026.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-CLLS-0001171843-26-007410",
+      "ticker": "CLLS",
+      "date": "2026-11-13",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. FORM 6-K.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-11-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1627281/000117184326007410/f6k_111326.htm",
       "origin": "edgar",
       "status": "past"
     },
