@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-13",
+  "generatedDate": "2026-11-14",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-01-20",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 68
+    "daysToNextCatalyst": 67
   },
   "trialStats": {
     "completed": 0,
@@ -145,6 +145,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-09-25",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1187953/000147793226005805/celz_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-CELZ-0001477932-26-006933",
+      "ticker": "CELZ",
+      "date": "2026-11-13",
+      "title": "8-K filed: Listing / standard notice",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 3.01, 9.01. Listing / standard notice. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1187953/000147793226006933/celz_8k.htm",
       "origin": "edgar",
       "status": "past"
     },

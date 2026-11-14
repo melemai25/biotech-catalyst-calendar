@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-13",
+  "generatedDate": "2026-11-14",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -68,7 +68,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-01-28",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 76
+    "daysToNextCatalyst": 75
   },
   "trialStats": {
     "completed": 1,
@@ -103,21 +103,6 @@
       "source": "ClinicalTrials.gov NCT05583552",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05583552",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-WST-0000105770-25-000043",
-      "ticker": "WST",
-      "date": "2025-05-12",
-      "title": "8-K/A filed: Leadership change",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K/A, items 5.02, 9.01. Leadership change. 8-K/A.",
-      "result": null,
-      "source": "SEC EDGAR 8-K/A 2025-05-12",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/105770/000010577025000043/wst-20250506.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

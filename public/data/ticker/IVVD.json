@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-11-13",
+  "generatedDate": "2026-11-14",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-12-31",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 48
+    "daysToNextCatalyst": 47
   },
   "trialStats": {
     "completed": 3,
@@ -158,21 +158,6 @@
       "source": "ClinicalTrials.gov NCT06039449",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06039449",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-IVVD-0000950170-25-068543",
-      "ticker": "IVVD",
-      "date": "2025-05-12",
-      "title": "8-K filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-12",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1832038/000095017025068543/ivvd-20250512.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

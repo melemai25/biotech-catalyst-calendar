@@ -11,7 +11,7 @@
   "activeTrials": 18,
   "phase3": 14,
   "phase2": 4,
-  "generatedDate": "2026-11-13",
+  "generatedDate": "2026-11-14",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 23,
     "nextCatalystDate": "2026-12-01",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 18
+    "daysToNextCatalyst": 17
   },
   "trialStats": {
     "completed": 322,
@@ -1823,21 +1823,6 @@
       "source": "ClinicalTrials.gov NCT05658484",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05658484",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-BIIB-0001193125-25-117854",
-      "ticker": "BIIB",
-      "date": "2025-05-12",
-      "title": "8-K filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-12",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/875045/000119312525117854/d13940d8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

@@ -11,7 +11,7 @@
   "activeTrials": 40,
   "phase3": 23,
   "phase2": 17,
-  "generatedDate": "2026-11-13",
+  "generatedDate": "2026-11-14",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,10 +57,10 @@
     "phase3Count": 51,
     "phase2Count": 97,
     "leadPhase": 4,
-    "upcomingCount": 41,
-    "nextCatalystDate": "2026-11-14",
+    "upcomingCount": 40,
+    "nextCatalystDate": "2026-11-20",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 6
   },
   "trialStats": {
     "completed": 144,
@@ -3071,6 +3071,21 @@
       "status": "past"
     },
     {
+      "id": "edgar-INCY-0000879169-26-000068",
+      "ticker": "INCY",
+      "date": "2026-11-13",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 8.01. Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/879169/000087916926000068/incy-20261113.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "ct-INCY-NCT07448155",
       "ticker": "INCY",
       "date": "2026-11-14",
@@ -3083,7 +3098,7 @@
       "source": "ClinicalTrials.gov NCT07448155",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07448155",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-INCY-NCT05851443",

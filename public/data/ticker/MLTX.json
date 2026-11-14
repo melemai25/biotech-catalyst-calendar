@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 3,
   "phase2": 0,
-  "generatedDate": "2026-11-13",
+  "generatedDate": "2026-11-14",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2027-01-04",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 52
+    "daysToNextCatalyst": 51
   },
   "trialStats": {
     "completed": 6,
@@ -122,21 +122,6 @@
       "source": "ClinicalTrials.gov NCT05640245",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05640245",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-MLTX-0001821586-25-000009",
-      "ticker": "MLTX",
-      "date": "2025-05-12",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-12",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1821586/000182158625000009/mnlk-20250512.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {
