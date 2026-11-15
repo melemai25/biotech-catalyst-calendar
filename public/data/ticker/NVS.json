@@ -11,7 +11,7 @@
   "activeTrials": 188,
   "phase3": 92,
   "phase2": 96,
-  "generatedDate": "2026-11-14",
+  "generatedDate": "2026-11-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -79,14 +79,14 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1114448/000110465926028048/tm268725-1_424b5.htm"
       }
     ],
-    "activeTrials": 177,
+    "activeTrials": 176,
     "phase3Count": 43,
     "phase2Count": 73,
     "leadPhase": 4,
     "upcomingCount": 42,
     "nextCatalystDate": "2026-12-23",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 39
+    "daysToNextCatalyst": 38
   },
   "trialStats": {
     "completed": 332,
@@ -126,21 +126,6 @@
     "resultsPostedPct": 65
   },
   "events": [
-    {
-      "id": "ct-NVS-NCT02720107",
-      "ticker": "NVS",
-      "date": "2016-11-14",
-      "title": "Follow up Study of Patients on Fingolimod Who Were Enrolled in the Original Biobank Study (CFTY720DDE01)",
-      "type": "Trial Milestone",
-      "phase": "Phase 4",
-      "estimated": false,
-      "summary": "Relapsing-remitting Multiple Sclerosis · 133 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02720107",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02720107",
-      "origin": "registry",
-      "status": "past"
-    },
     {
       "id": "ct-NVS-NCT02607774",
       "ticker": "NVS",

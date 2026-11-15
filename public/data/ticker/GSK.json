@@ -11,7 +11,7 @@
   "activeTrials": 135,
   "phase3": 72,
   "phase2": 63,
-  "generatedDate": "2026-11-14",
+  "generatedDate": "2026-11-15",
   "metrics": {
     "reportingCurrency": "GBP",
     "taxonomy": "ifrs-full",
@@ -74,7 +74,7 @@
     "upcomingCount": 14,
     "nextCatalystDate": "2027-01-26",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 73
+    "daysToNextCatalyst": 72
   },
   "trialStats": {
     "completed": 384,
@@ -1132,51 +1132,6 @@
       "source": "ClinicalTrials.gov NCT05082285",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05082285",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-GSK-0001654954-25-005488",
-      "ticker": "GSK",
-      "date": "2025-05-13",
-      "title": "6-K filed: Corporate announcement",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Corporate announcement. DIRECTOR/PDMR SHAREHOLDING.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1131399/000165495425005488/a5058i.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-GSK-0001654954-25-005476",
-      "ticker": "GSK",
-      "date": "2025-05-13",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. UPDATE ON BELRESTOTUG DEVELOPMENT PROGRAMME.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1131399/000165495425005476/a4515i.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-GSK-0001654954-25-005461",
-      "ticker": "GSK",
-      "date": "2025-05-13",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. TRANSACTION IN OWN SHARES.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1131399/000165495425005461/a3437i.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

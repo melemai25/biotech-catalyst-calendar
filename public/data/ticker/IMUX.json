@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 2,
   "phase2": 1,
-  "generatedDate": "2026-11-14",
+  "generatedDate": "2026-11-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,10 +57,10 @@
     "phase3Count": 3,
     "phase2Count": 3,
     "leadPhase": 3,
-    "upcomingCount": 3,
-    "nextCatalystDate": "2026-11-15",
-    "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 1
+    "upcomingCount": 1,
+    "nextCatalystDate": "2027-02-15",
+    "nextCatalystType": "Earnings",
+    "daysToNextCatalyst": 92
   },
   "trialStats": {
     "completed": 1,
@@ -617,7 +617,7 @@
       "source": "ClinicalTrials.gov NCT05201638",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05201638",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-IMUX-NCT05134441",
@@ -632,7 +632,7 @@
       "source": "ClinicalTrials.gov NCT05134441",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05134441",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "edgar-IMUX-next-earnings",

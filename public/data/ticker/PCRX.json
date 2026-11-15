@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-11-14",
+  "generatedDate": "2026-11-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,10 +57,10 @@
     "phase3Count": 10,
     "phase2Count": 7,
     "leadPhase": 4,
-    "upcomingCount": 4,
-    "nextCatalystDate": "2026-11-15",
-    "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 1
+    "upcomingCount": 3,
+    "nextCatalystDate": "2026-12-08",
+    "nextCatalystType": "Earnings",
+    "daysToNextCatalyst": 23
   },
   "trialStats": {
     "completed": 73,
@@ -773,7 +773,7 @@
       "source": "ClinicalTrials.gov NCT06884865",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06884865",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "edgar-PCRX-next-earnings",

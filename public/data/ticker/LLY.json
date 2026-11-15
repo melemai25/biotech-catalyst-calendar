@@ -11,7 +11,7 @@
   "activeTrials": 148,
   "phase3": 98,
   "phase2": 50,
-  "generatedDate": "2026-11-14",
+  "generatedDate": "2026-11-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,10 +57,10 @@
     "phase3Count": 51,
     "phase2Count": 39,
     "leadPhase": 4,
-    "upcomingCount": 43,
-    "nextCatalystDate": "2026-11-15",
-    "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 1
+    "upcomingCount": 42,
+    "nextCatalystDate": "2027-01-22",
+    "nextCatalystType": "Earnings",
+    "daysToNextCatalyst": 68
   },
   "trialStats": {
     "completed": 349,
@@ -2738,7 +2738,7 @@
       "source": "ClinicalTrials.gov NCT07511816",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07511816",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "edgar-LLY-next-earnings",

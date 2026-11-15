@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-14T17:06:35.176Z",
-  "generatedDate": "2026-11-14",
+  "generatedAt": "2026-11-15T17:45:44.930Z",
+  "generatedDate": "2026-11-15",
   "tickers": {
     "AZN": {
       "name": "ASTRAZENECA PLC",
@@ -1209,41 +1209,11 @@
   },
   "warnings": [],
   "counts": {
-    "total": 13145,
-    "registry": 6320,
-    "edgar": 6825
+    "total": 13105,
+    "registry": 6318,
+    "edgar": 6787
   },
   "events": [
-    {
-      "id": "ct-NVS-NCT02720107",
-      "ticker": "NVS",
-      "date": "2016-11-14",
-      "title": "Follow up Study of Patients on Fingolimod Who Were Enrolled in the Original Biobank Study (CFTY720DDE01)",
-      "type": "Trial Milestone",
-      "phase": "Phase 4",
-      "estimated": false,
-      "summary": "Relapsing-remitting Multiple Sclerosis · 133 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02720107",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02720107",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "ct-ABBV-NCT02707952",
-      "ticker": "ABBV",
-      "date": "2016-11-14",
-      "title": "A Study to Evaluate the Efficacy and Safety of ABT-493/ABT-530 in Japanese Adults With Chronic Hepatitis C Virus Infection",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Chronic Hepatitis C Virus, Hepatitis C Virus · 295 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02707952",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02707952",
-      "origin": "registry",
-      "status": "past"
-    },
     {
       "id": "ct-BMY-NCT02536469",
       "ticker": "BMY",
@@ -58017,576 +57987,6 @@
       "source": "ClinicalTrials.gov NCT05349214",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05349214",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-GSK-0001654954-25-005488",
-      "ticker": "GSK",
-      "date": "2025-05-13",
-      "title": "6-K filed: Corporate announcement",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Corporate announcement. DIRECTOR/PDMR SHAREHOLDING.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1131399/000165495425005488/a5058i.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-GSK-0001654954-25-005476",
-      "ticker": "GSK",
-      "date": "2025-05-13",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. UPDATE ON BELRESTOTUG DEVELOPMENT PROGRAMME.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1131399/000165495425005476/a4515i.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-GSK-0001654954-25-005461",
-      "ticker": "GSK",
-      "date": "2025-05-13",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. TRANSACTION IN OWN SHARES.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1131399/000165495425005461/a3437i.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ABBV-0001104659-25-047402",
-      "ticker": "ABBV",
-      "date": "2025-05-13",
-      "title": "8-K filed: Leadership change",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.02, 5.07. Leadership change. FORM 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1551152/000110465925047402/tm2513856d1_8k.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-EXEL-0000939767-25-000074",
-      "ticker": "EXEL",
-      "date": "2025-05-13",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/939767/000093976725000074/exel-20250513.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-AXSM-0000950170-25-069785",
-      "ticker": "AXSM",
-      "date": "2025-05-13",
-      "title": "8-K filed: Material agreement, Other event",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 1.01, 1.02, 2.03, 3.02, 8.01, 9.01. Material agreement; Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1579428/000095017025069785/axsm-20250508.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-INBS-0001641172-25-010006",
-      "ticker": "INBS",
-      "date": "2025-05-13",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 5.02, 5.07, 9.01. Quarterly results; Leadership change. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1725430/000164117225010006/form8-k.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-VRCA-0001193125-25-118839",
-      "ticker": "VRCA",
-      "date": "2025-05-13",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1660334/000119312525118839/d88474d8k.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-CADL-0000950170-25-069826",
-      "ticker": "CADL",
-      "date": "2025-05-13",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1841387/000095017025069826/cadl-20250513.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ANVS-0001104659-25-047871",
-      "ticker": "ANVS",
-      "date": "2025-05-13",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 5.02, 9.01. Quarterly results; Leadership change. FORM 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1477845/000110465925047871/tm2514854d1_8k.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-HUMA-0001818382-25-000073",
-      "ticker": "HUMA",
-      "date": "2025-05-13",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1818382/000181838225000073/huma-20250513.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-KRYS-0001711279-25-000048",
-      "ticker": "KRYS",
-      "date": "2025-05-13",
-      "title": "8-K filed: Reg FD disclosure",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 7.01. Reg FD disclosure. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1711279/000171127925000048/krys-20250512.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-MGTX-0001558370-25-007497",
-      "ticker": "MGTX",
-      "date": "2025-05-13",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1735438/000155837025007497/mgtx-20250513x8k.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-CGON-0000950170-25-069825",
-      "ticker": "CGON",
-      "date": "2025-05-13",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1991792/000095017025069825/ck0001991792-20250513.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-OLMA-0000950170-25-070291",
-      "ticker": "OLMA",
-      "date": "2025-05-13",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1750284/000095017025070291/olma-20250513.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-PHVS-0000950170-25-070308",
-      "ticker": "PHVS",
-      "date": "2025-05-13",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1830487/000095017025070308/6-k_q1_25.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-IMNN-0001641172-25-009775",
-      "ticker": "IMNN",
-      "date": "2025-05-13",
-      "title": "8-K filed: Material agreement",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 1.01, 3.02, 9.01. Material agreement.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/749647/000164117225009775/form8-k.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-LYEL-0001628280-25-025128",
-      "ticker": "LYEL",
-      "date": "2025-05-13",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1806952/000162828025025128/lyel-20250513.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-STOK-0000950170-25-069783",
-      "ticker": "STOK",
-      "date": "2025-05-13",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1623526/000095017025069783/stok-20250513.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-IMTX-0000950170-25-069784",
-      "ticker": "IMTX",
-      "date": "2025-05-13",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1809196/000095017025069784/6k-_q12025.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-CAPR-0001558370-25-007574",
-      "ticker": "CAPR",
-      "date": "2025-05-13",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1133869/000155837025007574/capr-20250513x8k.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-BCAX-0002023658-25-000034",
-      "ticker": "BCAX",
-      "date": "2025-05-13",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2023658/000202365825000034/bcax-20250513.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-SLS-0001390478-25-000009",
-      "ticker": "SLS",
-      "date": "2025-05-13",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1390478/000139047825000009/sls-20250513.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ALT-0001326190-25-000031",
-      "ticker": "ALT",
-      "date": "2025-05-13",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 1.01, 2.02, 2.03, 7.01, 9.01. Material agreement; Quarterly results; Reg FD disclosure. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326190/000132619025000031/alt-20250513x8k.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-CLRB-0001104659-25-047568",
-      "ticker": "CLRB",
-      "date": "2025-05-13",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. FORM 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1279704/000110465925047568/tm2514904d1_8k.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-KYTX-0000950170-25-070286",
-      "ticker": "KYTX",
-      "date": "2025-05-13",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1994702/000095017025070286/kytx-20250513.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-INTS-0001567264-25-000040",
-      "ticker": "INTS",
-      "date": "2025-05-13",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1567264/000156726425000040/intensity-20250513.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-DMAC-0001437749-25-016487",
-      "ticker": "DMAC",
-      "date": "2025-05-13",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. FORM 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1401040/000143774925016487/dmtp20250512_8k.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-COYA-0000950170-25-069819",
-      "ticker": "COYA",
-      "date": "2025-05-13",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 7.01, 9.01. Quarterly results; Reg FD disclosure. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1835022/000095017025069819/coya-20250513.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-LXRX-0001062822-25-000027",
-      "ticker": "LXRX",
-      "date": "2025-05-13",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1062822/000106282225000027/lxrx-20250513.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-LKFT-0001171843-25-003106",
-      "ticker": "LKFT",
-      "date": "2025-05-13",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. FORM 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1421876/000117184325003106/f6k_051325.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-TPST-0000950170-25-070416",
-      "ticker": "TPST",
-      "date": "2025-05-13",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1544227/000095017025070416/tpst-20250513.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ACHV-0000950170-25-069804",
-      "ticker": "ACHV",
-      "date": "2025-05-13",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/949858/000095017025069804/achv-20250513.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ERAS-0000950170-25-070336",
-      "ticker": "ERAS",
-      "date": "2025-05-13",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1761918/000095017025070336/eras-20250513.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ENSC-0001641172-25-009949",
-      "ticker": "ENSC",
-      "date": "2025-05-13",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1716947/000164117225009949/form8-k.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-EDIT-0001650664-25-000077",
-      "ticker": "EDIT",
-      "date": "2025-05-13",
-      "title": "8-K filed: Reg FD disclosure, Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 7.01, 8.01, 9.01. Reg FD disclosure; Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1650664/000165066425000077/edit-20250513.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-FATE-0000950170-25-070280",
-      "ticker": "FATE",
-      "date": "2025-05-13",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1434316/000095017025070280/fate-20250513.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ALLO-0001737287-25-000063",
-      "ticker": "ALLO",
-      "date": "2025-05-13",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1737287/000173728725000063/allo-20250513.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {
@@ -169422,7 +168822,7 @@
       "source": "ClinicalTrials.gov NCT07511816",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07511816",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-ABBV-NCT06895343",
@@ -169437,7 +168837,7 @@
       "source": "ClinicalTrials.gov NCT06895343",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06895343",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-ABBV-NCT04895436",
@@ -169452,7 +168852,7 @@
       "source": "ClinicalTrials.gov NCT04895436",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04895436",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-ARGX-NCT06284954",
@@ -169467,7 +168867,7 @@
       "source": "ClinicalTrials.gov NCT06284954",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06284954",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-ONC-NCT06637501",
@@ -169482,7 +168882,7 @@
       "source": "ClinicalTrials.gov NCT06637501",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06637501",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-ONC-NCT04973605",
@@ -169497,7 +168897,7 @@
       "source": "ClinicalTrials.gov NCT04973605",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04973605",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-SVA-NCT07505888",
@@ -169512,7 +168912,7 @@
       "source": "ClinicalTrials.gov NCT07505888",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07505888",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-BNTX-NCT07392372",
@@ -169527,7 +168927,7 @@
       "source": "ClinicalTrials.gov NCT07392372",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07392372",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-BNTX-NCT04486378",
@@ -169542,7 +168942,7 @@
       "source": "ClinicalTrials.gov NCT04486378",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04486378",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-IBRX-NCT06829823",
@@ -169557,7 +168957,7 @@
       "source": "ClinicalTrials.gov NCT06829823",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06829823",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-ALKS-NCT06843590",
@@ -169572,7 +168972,7 @@
       "source": "ClinicalTrials.gov NCT06843590",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06843590",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-VRCA-NCT07246590",
@@ -169587,7 +168987,7 @@
       "source": "ClinicalTrials.gov NCT07246590",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07246590",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-VIR-NCT07142811",
@@ -169602,7 +169002,7 @@
       "source": "ClinicalTrials.gov NCT07142811",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07142811",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-IMUX-NCT05201638",
@@ -169617,7 +169017,7 @@
       "source": "ClinicalTrials.gov NCT05201638",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05201638",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-IMUX-NCT05134441",
@@ -169632,7 +169032,7 @@
       "source": "ClinicalTrials.gov NCT05134441",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05134441",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-KRYS-NCT07717346",
@@ -169647,7 +169047,7 @@
       "source": "ClinicalTrials.gov NCT07717346",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07717346",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-CGON-NCT06111235",
@@ -169662,7 +169062,7 @@
       "source": "ClinicalTrials.gov NCT06111235",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06111235",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-TYRA-NCT05544552",
@@ -169677,7 +169077,7 @@
       "source": "ClinicalTrials.gov NCT05544552",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05544552",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-PCRX-NCT06884865",
@@ -169692,7 +169092,7 @@
       "source": "ClinicalTrials.gov NCT06884865",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06884865",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-TRAW-NCT07503405",
@@ -169707,7 +169107,7 @@
       "source": "ClinicalTrials.gov NCT07503405",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07503405",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-ACHV-NCT07392125",
@@ -169722,7 +169122,7 @@
       "source": "ClinicalTrials.gov NCT07392125",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07392125",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-ACIU-NCT06891716",
@@ -169737,7 +169137,7 @@
       "source": "ClinicalTrials.gov NCT06891716",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06891716",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-KPRX-NCT06825702",
@@ -169752,7 +169152,7 @@
       "source": "ClinicalTrials.gov NCT06825702",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06825702",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-DRUG-NCT07266324",
@@ -169767,7 +169167,7 @@
       "source": "ClinicalTrials.gov NCT07266324",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07266324",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "edgar-ORKA-next-earnings",

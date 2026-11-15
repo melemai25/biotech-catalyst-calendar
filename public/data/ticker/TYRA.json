@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 0,
   "phase2": 4,
-  "generatedDate": "2026-11-14",
+  "generatedDate": "2026-11-15",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,10 +57,10 @@
     "phase3Count": 0,
     "phase2Count": 4,
     "leadPhase": 2,
-    "upcomingCount": 7,
-    "nextCatalystDate": "2026-11-15",
-    "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 1
+    "upcomingCount": 6,
+    "nextCatalystDate": "2027-02-01",
+    "nextCatalystType": "Earnings",
+    "daysToNextCatalyst": 78
   },
   "trialStats": {
     "completed": 0,
@@ -326,7 +326,7 @@
       "source": "ClinicalTrials.gov NCT05544552",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05544552",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "edgar-TYRA-next-earnings",

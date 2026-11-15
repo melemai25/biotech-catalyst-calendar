@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-11-14",
+  "generatedDate": "2026-11-15",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -68,7 +68,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2027-06-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 213
+    "daysToNextCatalyst": 212
   },
   "trialStats": {
     "completed": 3,
@@ -115,21 +115,6 @@
       "source": "ClinicalTrials.gov NCT04618211",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04618211",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-PHVS-0000950170-25-070308",
-      "ticker": "PHVS",
-      "date": "2025-05-13",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1830487/000095017025070308/6-k_q1_25.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {
