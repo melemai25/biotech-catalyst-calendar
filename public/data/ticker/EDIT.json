@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-15",
+  "generatedDate": "2026-11-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-02-09",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 86
+    "daysToNextCatalyst": 85
   },
   "trialStats": {
     "completed": 1,
@@ -88,21 +88,6 @@
     "resultsPostedPct": null
   },
   "events": [
-    {
-      "id": "edgar-EDIT-0001650664-25-000081",
-      "ticker": "EDIT",
-      "date": "2025-05-14",
-      "title": "8-K filed: Reg FD disclosure, Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 7.01, 8.01, 9.01. Reg FD disclosure; Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-14",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1650664/000165066425000081/edit-20250514.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
     {
       "id": "edgar-EDIT-0001650664-25-000086",
       "ticker": "EDIT",

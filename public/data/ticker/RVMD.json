@@ -11,7 +11,7 @@
   "activeTrials": 12,
   "phase3": 7,
   "phase2": 5,
-  "generatedDate": "2026-11-15",
+  "generatedDate": "2026-11-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -68,7 +68,7 @@
     "upcomingCount": 15,
     "nextCatalystDate": "2026-12-31",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 46
+    "daysToNextCatalyst": 45
   },
   "trialStats": {
     "completed": 3,
@@ -514,6 +514,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-RVMD-NCT07491445",
+      "ticker": "RVMD",
+      "date": "2028-04-15",
+      "title": "Study of Daraxonrasib and Daraxonrasib + GnP as First-line Treatment in Patients With Metastatic Pancreatic Adenocarcinoma",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Pancreatic Cancer, Pancreatic Cancer Metastatic, PDAC · 900 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07491445",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07491445",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-RVMD-NCT07349537",
       "ticker": "RVMD",
       "date": "2028-04-15",
@@ -525,21 +540,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07349537",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07349537",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-RVMD-NCT07491445",
-      "ticker": "RVMD",
-      "date": "2028-06-15",
-      "title": "Study of Daraxonrasib and Daraxonrasib + GnP as First-line Treatment in Patients With Metastatic Pancreatic Adenocarcinoma",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Pancreatic Cancer, Pancreatic Cancer Metastatic, PDAC · 900 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07491445",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07491445",
       "origin": "registry",
       "status": "upcoming"
     },

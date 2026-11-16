@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-15",
+  "generatedDate": "2026-11-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,6 +53,14 @@
     "fcfMarginPct": 7,
     "marketCapUsd": null,
     "entityName": "AKEBIA THERAPEUTICS, INC.",
+    "financingSinceCash": [
+      {
+        "date": "2026-11-16",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1517022/000151702226000089/akba-20261112.htm"
+      }
+    ],
     "activeTrials": 25,
     "phase3Count": 7,
     "phase2Count": 8,
@@ -60,7 +68,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 30
+    "daysToNextCatalyst": 29
   },
   "trialStats": {
     "completed": 30,
@@ -70,17 +78,17 @@
     "ongoing": 3,
     "withResults": 17,
     "byPhase": {
-      "phase2": {
-        "completed": 10,
-        "terminated": 1,
-        "total": 13,
-        "completionRatePct": 91
-      },
       "phase3": {
         "completed": 7,
         "terminated": 0,
         "total": 10,
         "completionRatePct": 100
+      },
+      "phase2": {
+        "completed": 10,
+        "terminated": 1,
+        "total": 13,
+        "completionRatePct": 91
       },
       "phase1": {
         "completed": 13,
@@ -661,6 +669,21 @@
       "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
       "source": "SEC EDGAR 8-K 2026-11-05",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1517022/000151702226000083/akba-20261105.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-AKBA-0001517022-26-000089",
+      "ticker": "AKBA",
+      "date": "2026-11-16",
+      "title": "8-K filed: Material agreement, Reg FD disclosure, Other event",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 1.01, 1.02, 2.03, 3.02, 7.01, 8.01, 9.01. Material agreement; Reg FD disclosure; Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-16",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1517022/000151702226000089/akba-20261112.htm",
       "origin": "edgar",
       "status": "past"
     },

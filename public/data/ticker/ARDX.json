@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-15",
+  "generatedDate": "2026-11-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2027-01-12",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 58
+    "daysToNextCatalyst": 57
   },
   "trialStats": {
     "completed": 26,
@@ -70,14 +70,14 @@
     "ongoing": 2,
     "withResults": 13,
     "byPhase": {
-      "other": {
-        "completed": 2,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 10,
+        "terminated": 0,
+        "total": 10,
+        "completionRatePct": 100
+      },
+      "phase3": {
+        "completed": 8,
         "terminated": 0,
         "total": 10,
         "completionRatePct": 100
@@ -88,11 +88,11 @@
         "total": 7,
         "completionRatePct": 86
       },
-      "phase3": {
-        "completed": 8,
+      "other": {
+        "completed": 2,
         "terminated": 0,
-        "total": 10,
-        "completionRatePct": 100
+        "total": 2,
+        "completionRatePct": null
       }
     },
     "concluded": 27,

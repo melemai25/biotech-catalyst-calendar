@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 2,
   "phase2": 3,
-  "generatedDate": "2026-11-15",
+  "generatedDate": "2026-11-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,6 +55,18 @@
     "entityName": "Vir Biotechnology, Inc.",
     "financingSinceCash": [
       {
+        "date": "2026-11-16",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1706431/000119312526462355/d178815d424b5.htm"
+      },
+      {
+        "date": "2026-11-16",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1706431/000119312526461407/d178815d424b5.htm"
+      },
+      {
         "date": "2026-11-12",
         "form": "424B5",
         "label": "Prospectus supplement",
@@ -74,7 +86,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 30
+    "daysToNextCatalyst": 29
   },
   "trialStats": {
     "completed": 12,
@@ -84,12 +96,6 @@
     "ongoing": 7,
     "withResults": 11,
     "byPhase": {
-      "phase3": {
-        "completed": 1,
-        "terminated": 1,
-        "total": 4,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 6,
         "terminated": 1,
@@ -101,6 +107,12 @@
         "terminated": 1,
         "total": 9,
         "completionRatePct": 83
+      },
+      "phase3": {
+        "completed": 1,
+        "terminated": 1,
+        "total": 4,
+        "completionRatePct": null
       },
       "other": {
         "completed": 0,
@@ -682,6 +694,21 @@
       "source": "ClinicalTrials.gov NCT07142811",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07142811",
       "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "edgar-VIR-0001193125-26-461412",
+      "ticker": "VIR",
+      "date": "2026-11-16",
+      "title": "8-K filed: Material agreement, Other event",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 1.01, 8.01, 9.01. Material agreement; Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-16",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1706431/000119312526461412/d156106d8k.htm",
+      "origin": "edgar",
       "status": "past"
     },
     {

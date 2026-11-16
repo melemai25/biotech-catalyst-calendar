@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-15",
+  "generatedDate": "2026-11-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -67,33 +67,39 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1498382/000119312526424228/hura-20261009.htm"
       }
     ],
-    "activeTrials": 5,
+    "activeTrials": 6,
     "phase3Count": 1,
-    "phase2Count": 1,
+    "phase2Count": 2,
     "leadPhase": 3,
-    "upcomingCount": 3,
+    "upcomingCount": 4,
     "nextCatalystDate": "2027-02-12",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 89
+    "daysToNextCatalyst": 88
   },
   "trialStats": {
     "completed": 3,
     "terminated": 0,
     "withdrawn": 0,
     "suspended": 0,
-    "ongoing": 3,
+    "ongoing": 4,
     "withResults": 2,
     "byPhase": {
-      "other": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 2,
         "terminated": 0,
         "total": 3,
+        "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 1,
+        "completionRatePct": null
+      },
+      "other": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 2,
         "completionRatePct": null
       },
       "phase3": {
@@ -555,6 +561,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06940440",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06940440",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-HURA-NCT07939971",
+      "ticker": "HURA",
+      "date": "2028-12-15",
+      "title": "A Study of TBS-2025 Monotherapy in Participants With r/r NPM1mut AML",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Acute Myeloid Leukemia · 55 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07939971",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07939971",
       "origin": "registry",
       "status": "upcoming"
     }

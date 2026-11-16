@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-11-15",
+  "generatedDate": "2026-11-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-07-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 257
+    "daysToNextCatalyst": 256
   },
   "trialStats": {
     "completed": 10,
@@ -158,36 +158,6 @@
       "source": "ClinicalTrials.gov NCT04215146",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04215146",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ONCY-0001129928-25-000034",
-      "ticker": "ONCY",
-      "date": "2025-05-14",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-14",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1129928/000112992825000034/q12025form6-k.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ONCY-0001129928-25-000032",
-      "ticker": "ONCY",
-      "date": "2025-05-14",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-14",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1129928/000112992825000032/form6kq1-25financialresults.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

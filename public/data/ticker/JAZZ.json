@@ -11,7 +11,7 @@
   "activeTrials": 13,
   "phase3": 7,
   "phase2": 6,
-  "generatedDate": "2026-11-15",
+  "generatedDate": "2026-11-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,14 +53,14 @@
     "fcfMarginPct": 34.4,
     "marketCapUsd": null,
     "entityName": "Jazz Pharmaceuticals plc",
-    "activeTrials": 85,
-    "phase3Count": 30,
+    "activeTrials": 84,
+    "phase3Count": 29,
     "phase2Count": 37,
     "leadPhase": 4,
     "upcomingCount": 21,
     "nextCatalystDate": "2026-11-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 15
+    "daysToNextCatalyst": 14
   },
   "trialStats": {
     "completed": 133,
@@ -82,17 +82,17 @@
         "total": 67,
         "completionRatePct": 77
       },
-      "other": {
-        "completed": 18,
-        "terminated": 2,
-        "total": 36,
-        "completionRatePct": 90
-      },
       "phase1": {
         "completed": 19,
         "terminated": 4,
         "total": 29,
         "completionRatePct": 83
+      },
+      "other": {
+        "completed": 18,
+        "terminated": 2,
+        "total": 36,
+        "completionRatePct": 90
       }
     },
     "concluded": 172,
@@ -100,21 +100,6 @@
     "resultsPostedPct": 84
   },
   "events": [
-    {
-      "id": "ct-JAZZ-NCT02348619",
-      "ticker": "JAZZ",
-      "date": "2016-11-15",
-      "title": "\"Six-week Study of the Safety and Efficacy of JZP-110 in the Treatment of Excessive Sleepiness in OSA\"",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Obstructive Sleep Apnea · 174 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02348619",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02348619",
-      "origin": "registry",
-      "status": "past"
-    },
     {
       "id": "ct-JAZZ-NCT02348606",
       "ticker": "JAZZ",

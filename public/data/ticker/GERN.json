@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-11-15",
+  "generatedDate": "2026-11-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,33 +53,33 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "GERON CORP",
-    "activeTrials": 5,
+    "activeTrials": 6,
     "phase3Count": 2,
     "phase2Count": 3,
-    "leadPhase": 3,
-    "upcomingCount": 3,
+    "leadPhase": 4,
+    "upcomingCount": 4,
     "nextCatalystDate": "2027-02-03",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 80
+    "daysToNextCatalyst": 79
   },
   "trialStats": {
     "completed": 12,
     "terminated": 0,
     "withdrawn": 0,
     "suspended": 0,
-    "ongoing": 4,
+    "ongoing": 5,
     "withResults": 3,
     "byPhase": {
+      "other": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 2,
+        "completionRatePct": null
+      },
       "phase2": {
         "completed": 6,
         "terminated": 0,
         "total": 6,
-        "completionRatePct": 100
-      },
-      "phase1": {
-        "completed": 6,
-        "terminated": 0,
-        "total": 7,
         "completionRatePct": 100
       },
       "phase3": {
@@ -88,11 +88,11 @@
         "total": 2,
         "completionRatePct": null
       },
-      "other": {
-        "completed": 0,
+      "phase1": {
+        "completed": 6,
         "terminated": 0,
-        "total": 1,
-        "completionRatePct": null
+        "total": 7,
+        "completionRatePct": 100
       }
     },
     "concluded": 12,
@@ -382,6 +382,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04576156",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04576156",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-GERN-NCT07939451",
+      "ticker": "GERN",
+      "date": "2030-07-15",
+      "title": "A Trial Evaluating Two Imetelstat Doses in Participants With Lower Risk Myelodysplastic Syndrome (MDS)",
+      "type": "Trial Milestone",
+      "phase": "Phase 4",
+      "estimated": false,
+      "summary": "MDS (Myelodysplastic Syndrome), MDS · 100 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07939451",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07939451",
       "origin": "registry",
       "status": "upcoming"
     }

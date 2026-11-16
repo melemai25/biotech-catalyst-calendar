@@ -11,7 +11,7 @@
   "activeTrials": 40,
   "phase3": 23,
   "phase2": 17,
-  "generatedDate": "2026-11-15",
+  "generatedDate": "2026-11-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 40,
     "nextCatalystDate": "2026-11-20",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 5
+    "daysToNextCatalyst": 4
   },
   "trialStats": {
     "completed": 144,
@@ -1151,21 +1151,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT02924376",
-      "ticker": "INCY",
-      "date": "2022-02-01",
-      "title": "Efficacy and Safety of Pemigatinib in Subjects With Advanced/Metastatic or Surgically Unresectable Cholangiocarcinoma Who Failed Previous Therapy - (FIGHT-202)",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Cholangiocarcinoma · 147 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02924376",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02924376",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT02872714",
       "ticker": "INCY",
       "date": "2022-02-01",
@@ -1177,6 +1162,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT02872714",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02872714",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT02924376",
+      "ticker": "INCY",
+      "date": "2022-02-01",
+      "title": "Efficacy and Safety of Pemigatinib in Subjects With Advanced/Metastatic or Surgically Unresectable Cholangiocarcinoma Who Failed Previous Therapy - (FIGHT-202)",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Cholangiocarcinoma · 147 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT02924376",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02924376",
       "origin": "registry",
       "status": "past"
     },
@@ -1511,21 +1511,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT05253807",
-      "ticker": "INCY",
-      "date": "2023-08-16",
-      "title": "Study to Evaluate the Efficacy and Safety of Pemigatinib in Participants With Relapsed or Refractory Advanced Non-Small Cell Lung Cancer With an FGFR Alteration",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Non-Small Cell Lung Cancer (NSCLC) · 8 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT05253807",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05253807",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT04551053",
       "ticker": "INCY",
       "date": "2023-08-16",
@@ -1537,6 +1522,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT04551053",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04551053",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT05253807",
+      "ticker": "INCY",
+      "date": "2023-08-16",
+      "title": "Study to Evaluate the Efficacy and Safety of Pemigatinib in Participants With Relapsed or Refractory Advanced Non-Small Cell Lung Cancer With an FGFR Alteration",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Non-Small Cell Lung Cancer (NSCLC) · 8 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT05253807",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05253807",
       "origin": "registry",
       "status": "past"
     },
@@ -2246,21 +2246,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-INCY-0000879169-25-000059",
-      "ticker": "INCY",
-      "date": "2025-05-14",
-      "title": "8-K filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 8.01. Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-14",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/879169/000087916925000059/incy-20250511.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT06238817",
       "ticker": "INCY",
       "date": "2025-05-21",
@@ -2306,21 +2291,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT06713590",
-      "ticker": "INCY",
-      "date": "2025-06-06",
-      "title": "A Study to Evaluate a Single-Dose Subcutaneous Axatilimab Compared With Intravenous Axatilimab in Healthy Participants",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Healthy Participants · 72 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06713590",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06713590",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT05949632",
       "ticker": "INCY",
       "date": "2025-06-06",
@@ -2332,6 +2302,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT05949632",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05949632",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT06713590",
+      "ticker": "INCY",
+      "date": "2025-06-06",
+      "title": "A Study to Evaluate a Single-Dose Subcutaneous Axatilimab Compared With Intravenous Axatilimab in Healthy Participants",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Healthy Participants · 72 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06713590",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06713590",
       "origin": "registry",
       "status": "past"
     },
@@ -3281,21 +3266,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-INCY-NCT06804811",
-      "ticker": "INCY",
-      "date": "2027-04-30",
-      "title": "A Study to Evaluate the Efficacy and Safety of Ruxolitinib Cream in Children (6 to < 12 Years Old) With Nonsegmental Vitiligo",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "NonSegmental Vitiligo · 250 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06804811",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06804811",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-INCY-NCT04279847",
       "ticker": "INCY",
       "date": "2027-04-30",
@@ -3307,6 +3277,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04279847",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04279847",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-INCY-NCT06804811",
+      "ticker": "INCY",
+      "date": "2027-04-30",
+      "title": "A Study to Evaluate the Efficacy and Safety of Ruxolitinib Cream in Children (6 to < 12 Years Old) With Nonsegmental Vitiligo",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "NonSegmental Vitiligo · 250 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06804811",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06804811",
       "origin": "registry",
       "status": "upcoming"
     },

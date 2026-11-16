@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 1,
   "phase2": 4,
-  "generatedDate": "2026-11-15",
+  "generatedDate": "2026-11-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2027-01-12",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 58
+    "daysToNextCatalyst": 57
   },
   "trialStats": {
     "completed": 39,
@@ -70,6 +70,12 @@
     "ongoing": 21,
     "withResults": 13,
     "byPhase": {
+      "phase3": {
+        "completed": 10,
+        "terminated": 1,
+        "total": 14,
+        "completionRatePct": 91
+      },
       "other": {
         "completed": 24,
         "terminated": 3,
@@ -81,12 +87,6 @@
         "terminated": 2,
         "total": 13,
         "completionRatePct": 71
-      },
-      "phase3": {
-        "completed": 10,
-        "terminated": 1,
-        "total": 14,
-        "completionRatePct": 91
       }
     },
     "concluded": 46,
@@ -302,21 +302,6 @@
       "source": "ClinicalTrials.gov NCT06582732",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06582732",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-GKOS-0001558370-25-007647",
-      "ticker": "GKOS",
-      "date": "2025-05-14",
-      "title": "8-K filed: Reg FD disclosure",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 7.01, 9.01. Reg FD disclosure. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-14",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1192448/000155837025007647/gkos-20250514x8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

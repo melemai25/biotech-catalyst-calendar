@@ -11,7 +11,7 @@
   "activeTrials": 6,
   "phase3": 1,
   "phase2": 5,
-  "generatedDate": "2026-11-15",
+  "generatedDate": "2026-11-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,10 +57,10 @@
     "phase3Count": 4,
     "phase2Count": 13,
     "leadPhase": 4,
-    "upcomingCount": 3,
+    "upcomingCount": 4,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 30
+    "daysToNextCatalyst": 29
   },
   "trialStats": {
     "completed": 59,
@@ -986,21 +986,6 @@
       "status": "past"
     },
     {
-      "id": "ct-CORT-NCT06906341",
-      "ticker": "CORT",
-      "date": "2026-08-15",
-      "title": "Relacorilant in Combination With Different Treatment Regimens in Patients With Gynecological Cancers",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Ovarian Cancer, Fallopian Tube Cancer, Peritoneal Neoplasms · 270 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06906341",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06906341",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-CORT-NCT07276373",
       "ticker": "CORT",
       "date": "2026-09-15",
@@ -1117,6 +1102,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07259317",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07259317",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-CORT-NCT06906341",
+      "ticker": "CORT",
+      "date": "2027-12-15",
+      "title": "Relacorilant in Combination With Different Treatment Regimens in Patients With Gynecological Cancers",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Ovarian Cancer, Fallopian Tube Cancer, Peritoneal Neoplasms · 270 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06906341",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06906341",
       "origin": "registry",
       "status": "upcoming"
     }

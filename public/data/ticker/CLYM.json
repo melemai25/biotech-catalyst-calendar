@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-11-15",
+  "generatedDate": "2026-11-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2027-02-04",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 81
+    "daysToNextCatalyst": 80
   },
   "trialStats": {
     "completed": 1,
@@ -70,12 +70,6 @@
     "ongoing": 5,
     "withResults": 0,
     "byPhase": {
-      "phase2": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 3,
-        "completionRatePct": null
-      },
       "other": {
         "completed": 1,
         "terminated": 0,
@@ -87,6 +81,12 @@
         "terminated": 0,
         "total": 2,
         "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 3,
+        "completionRatePct": null
       }
     },
     "concluded": 1,
@@ -94,21 +94,6 @@
     "resultsPostedPct": null
   },
   "events": [
-    {
-      "id": "edgar-CLYM-0000950170-25-070901",
-      "ticker": "CLYM",
-      "date": "2025-05-14",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 9.01. Quarterly results. 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-14",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1768446/000095017025070901/clym-20250514.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
     {
       "id": "edgar-CLYM-0001193125-25-125866",
       "ticker": "CLYM",

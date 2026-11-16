@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 0,
   "phase2": 5,
-  "generatedDate": "2026-11-15",
+  "generatedDate": "2026-11-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -58,9 +58,9 @@
     "phase2Count": 6,
     "leadPhase": 2,
     "upcomingCount": 5,
-    "nextCatalystDate": "2026-11-16",
+    "nextCatalystDate": "2027-02-22",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 98
   },
   "trialStats": {
     "completed": 2,
@@ -70,16 +70,16 @@
     "ongoing": 6,
     "withResults": 0,
     "byPhase": {
-      "phase1": {
-        "completed": 2,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 0,
         "terminated": 0,
         "total": 6,
+        "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 2,
+        "terminated": 0,
+        "total": 2,
         "completionRatePct": null
       }
     },
@@ -286,7 +286,7 @@
     {
       "id": "edgar-ORKA-next-earnings",
       "ticker": "ORKA",
-      "date": "2026-11-16",
+      "date": "2027-02-22",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,

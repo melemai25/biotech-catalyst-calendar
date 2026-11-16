@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-11-15",
+  "generatedDate": "2026-11-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,62 +53,28 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "OLEMA PHARMACEUTICALS, INC.",
-    "activeTrials": 6,
-    "phase3Count": 2,
-    "phase2Count": 1,
-    "leadPhase": 3,
-    "upcomingCount": 4,
+    "activeTrials": 0,
+    "phase3Count": 0,
+    "phase2Count": 0,
+    "leadPhase": null,
+    "upcomingCount": 1,
     "nextCatalystDate": "2027-01-12",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 58
+    "daysToNextCatalyst": 57
   },
   "trialStats": {
-    "completed": 1,
+    "completed": 0,
     "terminated": 0,
     "withdrawn": 0,
     "suspended": 0,
-    "ongoing": 5,
-    "withResults": 1,
-    "byPhase": {
-      "phase3": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
-      },
-      "phase2": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 1,
-        "completionRatePct": null
-      },
-      "phase1": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 3,
-        "completionRatePct": null
-      }
-    },
-    "concluded": 1,
+    "ongoing": 0,
+    "withResults": 0,
+    "byPhase": {},
+    "concluded": 0,
     "completionRatePct": null,
     "resultsPostedPct": null
   },
   "events": [
-    {
-      "id": "ct-OLMA-NCT04505826",
-      "ticker": "OLMA",
-      "date": "2024-07-30",
-      "title": "A Dose Escalation/Expansion Study of Oral OP-1250 in Subjects With Advanced and/or Metastatic HR+, HER2- Breast Cancer",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Hormone Receptor Positive Breast Carcinoma, HER2-negative Breast Cancer · 153 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT04505826",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04505826",
-      "origin": "registry",
-      "status": "past"
-    },
     {
       "id": "edgar-OLMA-0000950170-25-106545",
       "ticker": "OLMA",
@@ -227,21 +193,6 @@
       "source": "SEC EDGAR 8-K 2026-01-30",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1750284/000119312526031792/d126625d8k.htm",
       "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "ct-OLMA-NCT05266105",
-      "ticker": "OLMA",
-      "date": "2026-03-15",
-      "title": "A Phase 1 Study of Oral OP-1250 in Combination With Palbociclib in HR+/HER2- Breast Cancer Patients",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Breast Cancer · 60 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05266105",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05266105",
-      "origin": "registry",
       "status": "past"
     },
     {
@@ -380,21 +331,6 @@
       "status": "past"
     },
     {
-      "id": "ct-OLMA-NCT06016738",
-      "ticker": "OLMA",
-      "date": "2026-10-31",
-      "title": "OP-1250 (Palazestrant) vs. Standard of Care for the Treatment of ER+/HER2- Advanced Breast Cancer",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Breast Cancer, Advanced Breast Cancer, Metastatic Breast Cancer · 510 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06016738",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06016738",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "edgar-OLMA-0001193125-26-454403",
       "ticker": "OLMA",
       "date": "2026-11-10",
@@ -437,51 +373,6 @@
       "source": "Projected from SEC EDGAR filing cadence",
       "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001750284&type=8-K",
       "origin": "edgar",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-OLMA-NCT06784193",
-      "ticker": "OLMA",
-      "date": "2027-05-30",
-      "title": "Phase 1 Study of OP-3136 in Advanced or Metastatic Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Advanced or Metastatic ER+ HER2- Breast Cancer (mBC), Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC), Advanced or Metastatic Castration-Resistant Prostate Cancer (mCRPC) · 180 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06784193",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06784193",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-OLMA-NCT05508906",
-      "ticker": "OLMA",
-      "date": "2027-12-31",
-      "title": "Phase 1b Study of OP-1250 (Palazestrant) in Combination With Ribociclib, Alpelisib, Everolimus, or Atirmociclib in ER+, HER2- Breast Cancer",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Metastatic Breast Cancer, ER-positive Breast Cancer, HER2-negative Breast Cancer · 190 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05508906",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05508906",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-OLMA-NCT07085767",
-      "ticker": "OLMA",
-      "date": "2028-12-15",
-      "title": "Palazestrant in Combination With Ribociclib for the First-line Treatment of ER+/HER2- Advanced Breast Cancer",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Breast Cancer, Locally Advanced Breast Cancer, Metastatic Breast Cancer · 1,000 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07085767",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07085767",
-      "origin": "registry",
       "status": "upcoming"
     }
   ]

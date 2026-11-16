@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-15",
+  "generatedDate": "2026-11-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -58,9 +58,9 @@
     "phase2Count": 18,
     "leadPhase": 3,
     "upcomingCount": 1,
-    "nextCatalystDate": "2026-12-15",
+    "nextCatalystDate": "2029-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 30
+    "daysToNextCatalyst": 1125
   },
   "trialStats": {
     "completed": 33,
@@ -70,16 +70,16 @@
     "ongoing": 1,
     "withResults": 29,
     "byPhase": {
-      "phase2": {
-        "completed": 20,
-        "terminated": 0,
-        "total": 21,
-        "completionRatePct": 100
-      },
       "phase3": {
         "completed": 13,
         "terminated": 0,
         "total": 14,
+        "completionRatePct": 100
+      },
+      "phase2": {
+        "completed": 20,
+        "terminated": 0,
+        "total": 21,
         "completionRatePct": 100
       }
     },
@@ -781,7 +781,7 @@
     {
       "id": "ct-ALDX-NCT07402876",
       "ticker": "ALDX",
-      "date": "2026-12-15",
+      "date": "2029-12-15",
       "title": "A Clinical Trial Evaluating Patients With Primary Vitreoretinal Lymphoma",
       "type": "Trial Milestone",
       "phase": "Phase 3",

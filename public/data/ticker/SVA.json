@@ -11,7 +11,7 @@
   "activeTrials": 21,
   "phase3": 17,
   "phase2": 4,
-  "generatedDate": "2026-11-15",
+  "generatedDate": "2026-11-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 10,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 30
+    "daysToNextCatalyst": 29
   },
   "trialStats": {
     "completed": 66,
@@ -70,10 +70,10 @@
     "ongoing": 26,
     "withResults": 0,
     "byPhase": {
-      "other": {
-        "completed": 36,
+      "phase3": {
+        "completed": 17,
         "terminated": 0,
-        "total": 48,
+        "total": 27,
         "completionRatePct": 100
       },
       "phase2": {
@@ -82,16 +82,16 @@
         "total": 10,
         "completionRatePct": 100
       },
-      "phase3": {
-        "completed": 17,
-        "terminated": 0,
-        "total": 27,
-        "completionRatePct": 100
-      },
       "phase1": {
         "completed": 6,
         "terminated": 0,
         "total": 8,
+        "completionRatePct": 100
+      },
+      "other": {
+        "completed": 36,
+        "terminated": 0,
+        "total": 48,
         "completionRatePct": 100
       }
     },
@@ -371,21 +371,6 @@
       "status": "past"
     },
     {
-      "id": "ct-SVA-NCT05107557",
-      "ticker": "SVA",
-      "date": "2021-12-05",
-      "title": "Immunogenicity And Safety of COVID-19 Vaccine , Inactivated Co -Administration With EV71 Vaccine (Vero Cell)",
-      "type": "Trial Milestone",
-      "phase": "Phase 4",
-      "estimated": false,
-      "summary": "COVID-19 · 520 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05107557",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05107557",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-SVA-NCT05499351",
       "ticker": "SVA",
       "date": "2021-12-05",
@@ -397,6 +382,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05499351",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05499351",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-SVA-NCT05107557",
+      "ticker": "SVA",
+      "date": "2021-12-05",
+      "title": "Immunogenicity And Safety of COVID-19 Vaccine , Inactivated Co -Administration With EV71 Vaccine (Vero Cell)",
+      "type": "Trial Milestone",
+      "phase": "Phase 4",
+      "estimated": false,
+      "summary": "COVID-19 · 520 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05107557",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05107557",
       "origin": "registry",
       "status": "past"
     },
@@ -1136,6 +1136,21 @@
       "status": "past"
     },
     {
+      "id": "ct-SVA-NCT07416110",
+      "ticker": "SVA",
+      "date": "2026-07-15",
+      "title": "Phase IIIb Clinical Trial to Evaluate Lot-to-lot Consistency of Sinovac Rabies Vaccine",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Rabies (Healthy Volunteers) · 912 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07416110",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07416110",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "edgar-SVA-0001213900-26-078116",
       "ticker": "SVA",
       "date": "2026-07-15",
@@ -1177,21 +1192,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07457060",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07457060",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "ct-SVA-NCT07416110",
-      "ticker": "SVA",
-      "date": "2026-09-30",
-      "title": "Phase IIIb Clinical Trial to Evaluate Lot-to-lot Consistency of Sinovac Rabies Vaccine",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Rabies (Healthy Volunteers) · 912 participants · Status: Not Yet Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07416110",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07416110",
       "origin": "registry",
       "status": "past"
     },

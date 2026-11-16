@@ -11,7 +11,7 @@
   "activeTrials": 15,
   "phase3": 7,
   "phase2": 8,
-  "generatedDate": "2026-11-15",
+  "generatedDate": "2026-11-16",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 16,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 30
+    "daysToNextCatalyst": 29
   },
   "trialStats": {
     "completed": 10,
@@ -70,6 +70,12 @@
     "ongoing": 36,
     "withResults": 0,
     "byPhase": {
+      "phase1": {
+        "completed": 9,
+        "terminated": 2,
+        "total": 22,
+        "completionRatePct": 82
+      },
       "phase2": {
         "completed": 1,
         "terminated": 3,
@@ -81,12 +87,6 @@
         "terminated": 0,
         "total": 7,
         "completionRatePct": null
-      },
-      "phase1": {
-        "completed": 9,
-        "terminated": 2,
-        "total": 22,
-        "completionRatePct": 82
       },
       "other": {
         "completed": 0,
@@ -1451,6 +1451,21 @@
       "status": "past"
     },
     {
+      "id": "edgar-AAPG-0001213900-26-120260",
+      "ticker": "AAPG",
+      "date": "2026-11-16",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. REPORT OF FOREIGN PRIVATE ISSUER.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-11-16",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2023311/000121390026120260/ea0312299-6k_ascentage.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "ct-AAPG-NCT05147467",
       "ticker": "AAPG",
       "date": "2026-12-15",
@@ -1556,21 +1571,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-AAPG-NCT03594422",
-      "ticker": "AAPG",
-      "date": "2027-12-15",
-      "title": "A Study of HQP1351 in Patients With GIST or Other Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Gastrointestinal Stromal Tumor (GIST), Solid Tumor, Adult · 100 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT03594422",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT03594422",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-AAPG-NCT03917043",
       "ticker": "AAPG",
       "date": "2027-12-15",
@@ -1582,6 +1582,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT03917043",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03917043",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-AAPG-NCT03594422",
+      "ticker": "AAPG",
+      "date": "2027-12-15",
+      "title": "A Study of HQP1351 in Patients With GIST or Other Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Gastrointestinal Stromal Tumor (GIST), Solid Tumor, Adult · 100 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT03594422",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03594422",
       "origin": "registry",
       "status": "upcoming"
     },
