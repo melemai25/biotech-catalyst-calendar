@@ -11,7 +11,7 @@
   "activeTrials": 27,
   "phase3": 15,
   "phase2": 12,
-  "generatedDate": "2026-11-16",
+  "generatedDate": "2026-11-17",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 52,
     "nextCatalystDate": "2026-11-22",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 6
+    "daysToNextCatalyst": 5
   },
   "trialStats": {
     "completed": 5,
@@ -536,21 +536,6 @@
       "status": "past"
     },
     {
-      "id": "ct-ONC-NCT06637501",
-      "ticker": "ONC",
-      "date": "2026-11-15",
-      "title": "A Study to Investigate Sonrotoclax Combined With Zanubrutinib Versus Zanubrutinib Alone in Participants With Previously Untreated Chronic Lymphocytic Leukemia",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Chronic Lymphocytic Leukemia · 94 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06637501",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06637501",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-ONC-NCT04973605",
       "ticker": "ONC",
       "date": "2026-11-15",
@@ -562,6 +547,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04973605",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04973605",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-ONC-NCT06637501",
+      "ticker": "ONC",
+      "date": "2026-11-15",
+      "title": "A Study to Investigate Sonrotoclax Combined With Zanubrutinib Versus Zanubrutinib Alone in Participants With Previously Untreated Chronic Lymphocytic Leukemia",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Chronic Lymphocytic Leukemia · 94 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06637501",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06637501",
       "origin": "registry",
       "status": "past"
     },
@@ -596,21 +596,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT04170283",
-      "ticker": "ONC",
-      "date": "2026-12-31",
-      "title": "A Study to Evaluate Long-term Safety of Zanubrutinib Regimens in Participants With B-Cell Malignancies Who Participated in BeiGene Parent Studies of Zanubrutinib",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "B-cell Malignancies · 955 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04170283",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04170283",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ONC-NCT06625593",
       "ticker": "ONC",
       "date": "2026-12-31",
@@ -622,6 +607,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06625593",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06625593",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ONC-NCT04170283",
+      "ticker": "ONC",
+      "date": "2026-12-31",
+      "title": "A Study to Evaluate Long-term Safety of Zanubrutinib Regimens in Participants With B-Cell Malignancies Who Participated in BeiGene Parent Studies of Zanubrutinib",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "B-cell Malignancies · 955 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04170283",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04170283",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1001,6 +1001,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-ONC-NCT07619287",
+      "ticker": "ONC",
+      "date": "2028-09-30",
+      "title": "An Investigational Study of BG-75202 Alone and in Combination With Other Agents in Patients With Myeloid Malignancies",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Myeloid Malignancy · 118 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07619287",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07619287",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-ONC-NCT07746141",
       "ticker": "ONC",
       "date": "2028-09-30",
@@ -1027,21 +1042,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06598800",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06598800",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-ONC-NCT07619287",
-      "ticker": "ONC",
-      "date": "2028-09-30",
-      "title": "An Investigational Study of BG-75202 Alone and in Combination With Other Agents in Patients With Myeloid Malignancies",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Myeloid Malignancy · 118 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07619287",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07619287",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1211,6 +1211,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-ONC-NCT06697184",
+      "ticker": "ONC",
+      "date": "2029-11-30",
+      "title": "A Study to Investigate the Safety of Novel Dose Ramp-up Schedule(s) When Initiating Sonrotoclax in Participants Treated for Blood Cancers.",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Chronic Lymphocytic Leukemia, CLL, Mantle Cell Lymphoma · 258 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06697184",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06697184",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-ONC-NCT07811271",
       "ticker": "ONC",
       "date": "2029-11-30",
@@ -1237,21 +1252,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06970743",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06970743",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-ONC-NCT06697184",
-      "ticker": "ONC",
-      "date": "2029-11-30",
-      "title": "A Study to Investigate the Safety of Novel Dose Ramp-up Schedule(s) When Initiating Sonrotoclax in Participants Treated for Blood Cancers.",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Chronic Lymphocytic Leukemia, CLL, Mantle Cell Lymphoma · 258 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06697184",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06697184",
       "origin": "registry",
       "status": "upcoming"
     },

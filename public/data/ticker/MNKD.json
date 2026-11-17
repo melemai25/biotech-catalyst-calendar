@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-16",
+  "generatedDate": "2026-11-17",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2027-02-04",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 80
+    "daysToNextCatalyst": 79
   },
   "trialStats": {
     "completed": 45,
@@ -70,12 +70,6 @@
     "ongoing": 4,
     "withResults": 16,
     "byPhase": {
-      "phase1": {
-        "completed": 21,
-        "terminated": 0,
-        "total": 22,
-        "completionRatePct": 100
-      },
       "phase3": {
         "completed": 8,
         "terminated": 5,
@@ -93,6 +87,12 @@
         "terminated": 1,
         "total": 7,
         "completionRatePct": 83
+      },
+      "phase1": {
+        "completed": 21,
+        "terminated": 0,
+        "total": 22,
+        "completionRatePct": 100
       }
     },
     "concluded": 53,
@@ -188,21 +188,6 @@
       "source": "ClinicalTrials.gov NCT04974528",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04974528",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-MNKD-0001193125-25-120797",
-      "ticker": "MNKD",
-      "date": "2025-05-15",
-      "title": "8-K filed: Leadership change",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.02. Leadership change. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-15",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/899460/000119312525120797/d915656d8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

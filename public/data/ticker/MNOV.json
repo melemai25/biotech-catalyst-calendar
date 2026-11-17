@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-11-16",
+  "generatedDate": "2026-11-17",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-12-31",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 45
+    "daysToNextCatalyst": 44
   },
   "trialStats": {
     "completed": 14,
@@ -70,17 +70,17 @@
     "ongoing": 2,
     "withResults": 9,
     "byPhase": {
-      "phase2": {
-        "completed": 10,
-        "terminated": 1,
-        "total": 12,
-        "completionRatePct": 91
-      },
       "phase3": {
         "completed": 0,
         "terminated": 0,
         "total": 1,
         "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 10,
+        "terminated": 1,
+        "total": 12,
+        "completionRatePct": 91
       },
       "phase1": {
         "completed": 4,
@@ -301,6 +301,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-09-28",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1226616/000119312526405318/d120345d8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-MNOV-0001193125-26-463626",
+      "ticker": "MNOV",
+      "date": "2026-11-16",
+      "title": "8-K filed: Leadership change",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 5.02. Leadership change. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-16",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1226616/000119312526463626/mnov-20261110.htm",
       "origin": "edgar",
       "status": "past"
     },

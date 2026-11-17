@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 2,
   "phase2": 2,
-  "generatedDate": "2026-11-16",
+  "generatedDate": "2026-11-17",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,22 +60,16 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2027-02-04",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 80
+    "daysToNextCatalyst": 79
   },
   "trialStats": {
-    "completed": 20,
+    "completed": 21,
     "terminated": 0,
     "withdrawn": 4,
     "suspended": 0,
-    "ongoing": 6,
+    "ongoing": 5,
     "withResults": 8,
     "byPhase": {
-      "other": {
-        "completed": 9,
-        "terminated": 0,
-        "total": 13,
-        "completionRatePct": 100
-      },
       "phase2": {
         "completed": 3,
         "terminated": 0,
@@ -93,11 +87,17 @@
         "terminated": 0,
         "total": 4,
         "completionRatePct": 100
+      },
+      "other": {
+        "completed": 10,
+        "terminated": 0,
+        "total": 13,
+        "completionRatePct": 100
       }
     },
-    "concluded": 24,
-    "completionRatePct": 83,
-    "resultsPostedPct": 40
+    "concluded": 25,
+    "completionRatePct": 84,
+    "resultsPostedPct": 38
   },
   "events": [
     {
@@ -313,12 +313,12 @@
     {
       "id": "ct-LNTH-NCT06074510",
       "ticker": "LNTH",
-      "date": "2026-09-15",
+      "date": "2026-08-28",
       "title": "PYLARIFY® PET/CT or PET/MRI in Men With Favorable Intermediate Risk (FIR) Prostate Cancer",
       "type": "Trial Milestone",
       "phase": "Phase 4",
       "estimated": false,
-      "summary": "Prostate Cancer · 274 participants · Status: Active Not Recruiting",
+      "summary": "Prostate Cancer · 279 participants · Status: Completed",
       "result": null,
       "source": "ClinicalTrials.gov NCT06074510",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06074510",

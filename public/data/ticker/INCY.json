@@ -11,7 +11,7 @@
   "activeTrials": 40,
   "phase3": 23,
   "phase2": 17,
-  "generatedDate": "2026-11-16",
+  "generatedDate": "2026-11-17",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 40,
     "nextCatalystDate": "2026-11-20",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 4
+    "daysToNextCatalyst": 3
   },
   "trialStats": {
     "completed": 144,
@@ -76,17 +76,17 @@
         "total": 80,
         "completionRatePct": 77
       },
-      "phase2": {
-        "completed": 67,
-        "terminated": 44,
-        "total": 128,
-        "completionRatePct": 60
-      },
       "phase3": {
         "completed": 25,
         "terminated": 9,
         "total": 62,
         "completionRatePct": 74
+      },
+      "phase2": {
+        "completed": 67,
+        "terminated": 44,
+        "total": 128,
+        "completionRatePct": 60
       },
       "other": {
         "completed": 4,
@@ -1151,21 +1151,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT02872714",
-      "ticker": "INCY",
-      "date": "2022-02-01",
-      "title": "A Study to Evaluate the Efficacy and Safety of Pemigatinib (INCB054828) in Subjects With Urothelial Carcinoma - (FIGHT-201)",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "UC (Urothelial Cancer) · 263 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02872714",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02872714",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT02924376",
       "ticker": "INCY",
       "date": "2022-02-01",
@@ -1177,6 +1162,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT02924376",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02924376",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT02872714",
+      "ticker": "INCY",
+      "date": "2022-02-01",
+      "title": "A Study to Evaluate the Efficacy and Safety of Pemigatinib (INCB054828) in Subjects With Urothelial Carcinoma - (FIGHT-201)",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "UC (Urothelial Cancer) · 263 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT02872714",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02872714",
       "origin": "registry",
       "status": "past"
     },
@@ -1451,21 +1451,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT04551066",
-      "ticker": "INCY",
-      "date": "2023-08-03",
-      "title": "To Evaluate the Efficacy and Safety of Parsaclisib and Ruxolitinib in Participants With Myelofibrosis (LIMBER-313)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Myelofibrosis, Primary Myelofibrosis, Post Essential Thrombocythemia Myelofibrosis · 252 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT04551066",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04551066",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT05127421",
       "ticker": "INCY",
       "date": "2023-08-03",
@@ -1477,6 +1462,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT05127421",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05127421",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT04551066",
+      "ticker": "INCY",
+      "date": "2023-08-03",
+      "title": "To Evaluate the Efficacy and Safety of Parsaclisib and Ruxolitinib in Participants With Myelofibrosis (LIMBER-313)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Myelofibrosis, Primary Myelofibrosis, Post Essential Thrombocythemia Myelofibrosis · 252 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT04551066",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04551066",
       "origin": "registry",
       "status": "past"
     },
@@ -1511,21 +1511,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT04551053",
-      "ticker": "INCY",
-      "date": "2023-08-16",
-      "title": "To Evaluate Efficacy and Safety of Parsaclisib and Ruxolitinib in Participants With Myelofibrosis Who Have Suboptimal Response to Ruxolitinib (LIMBER-304)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Myelofibrosis, Primary Myelofibrosis, Post Essential Thrombocythemia Myelofibrosis · 177 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT04551053",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04551053",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT05253807",
       "ticker": "INCY",
       "date": "2023-08-16",
@@ -1537,6 +1522,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT05253807",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05253807",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT04551053",
+      "ticker": "INCY",
+      "date": "2023-08-16",
+      "title": "To Evaluate Efficacy and Safety of Parsaclisib and Ruxolitinib in Participants With Myelofibrosis Who Have Suboptimal Response to Ruxolitinib (LIMBER-304)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Myelofibrosis, Primary Myelofibrosis, Post Essential Thrombocythemia Myelofibrosis · 177 participants · Status: Terminated",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT04551053",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04551053",
       "origin": "registry",
       "status": "past"
     },
@@ -2006,21 +2006,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT04989387",
-      "ticker": "INCY",
-      "date": "2024-09-19",
-      "title": "Study of INCA 0186 in Subjects With Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Advanced Solid Tumors, Squamous Cell Carcinoma of the Head and Neck (SCCHN), Gastrointestinal (GI) Malignancies · 57 participants · Status: Terminated",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04989387",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04989387",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT05909995",
       "ticker": "INCY",
       "date": "2024-09-19",
@@ -2032,6 +2017,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05909995",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05909995",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT04989387",
+      "ticker": "INCY",
+      "date": "2024-09-19",
+      "title": "Study of INCA 0186 in Subjects With Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Advanced Solid Tumors, Squamous Cell Carcinoma of the Head and Neck (SCCHN), Gastrointestinal (GI) Malignancies · 57 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04989387",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04989387",
       "origin": "registry",
       "status": "past"
     },
@@ -2906,21 +2906,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT06516965",
-      "ticker": "INCY",
-      "date": "2026-09-28",
-      "title": "A Study to Evaluate the Efficacy and Safety Study of Povorcitinib in Participants With Prurigo Nodularis (STOP-PN2)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Prurigo Nodularis · 346 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06516965",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06516965",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT05888844",
       "ticker": "INCY",
       "date": "2026-09-28",
@@ -2932,6 +2917,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05888844",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05888844",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT06516965",
+      "ticker": "INCY",
+      "date": "2026-09-28",
+      "title": "A Study to Evaluate the Efficacy and Safety Study of Povorcitinib in Participants With Prurigo Nodularis (STOP-PN2)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Prurigo Nodularis · 346 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06516965",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06516965",
       "origin": "registry",
       "status": "past"
     },
@@ -3228,7 +3228,7 @@
       "type": "Trial Milestone",
       "phase": "Phase 1",
       "estimated": false,
-      "summary": "Hepatic Insufficiency, Liver Diseases · 24 participants · Status: Not Yet Recruiting",
+      "summary": "Hepatic Insufficiency, Liver Diseases · 24 participants · Status: Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT07853040",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07853040",
@@ -3386,6 +3386,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-INCY-NCT07214779",
+      "ticker": "INCY",
+      "date": "2027-10-12",
+      "title": "Study to Evaluate INCB123667 Versus Investigator's Choice of Chemotherapy in Participants With Platinum-Resistant Ovarian Cancer With Cyclin E1 Overexpression",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Ovarian Cancer · 13 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07214779",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07214779",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-INCY-NCT06855498",
       "ticker": "INCY",
       "date": "2028-02-28",
@@ -3536,21 +3551,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-INCY-NCT07214779",
-      "ticker": "INCY",
-      "date": "2028-11-15",
-      "title": "Study to Evaluate INCB123667 Versus Investigator's Choice of Chemotherapy in Participants With Platinum-Resistant Ovarian Cancer With Cyclin E1 Overexpression",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Ovarian Cancer · 466 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07214779",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07214779",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-INCY-NCT07284849",
       "ticker": "INCY",
       "date": "2028-12-29",
@@ -3603,7 +3603,7 @@
       "type": "Trial Milestone",
       "phase": "Phase 2",
       "estimated": false,
-      "summary": "CRC (Colorectal Cancer) · 40 participants · Status: Not Yet Recruiting",
+      "summary": "CRC (Colorectal Cancer) · 40 participants · Status: Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT07823322",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07823322",

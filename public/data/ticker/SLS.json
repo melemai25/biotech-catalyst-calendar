@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-11-16",
+  "generatedDate": "2026-11-17",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-12-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 44
+    "daysToNextCatalyst": 43
   },
   "trialStats": {
     "completed": 4,
@@ -70,17 +70,17 @@
     "ongoing": 3,
     "withResults": 4,
     "byPhase": {
-      "other": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 1,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 4,
         "terminated": 0,
         "total": 5,
         "completionRatePct": 100
+      },
+      "other": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 1,
+        "completionRatePct": null
       },
       "phase3": {
         "completed": 0,
@@ -361,6 +361,21 @@
       "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
       "source": "SEC EDGAR 8-K 2026-11-12",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1390478/000139047826000021/sls-20261112.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-SLS-0001104659-26-128825",
+      "ticker": "SLS",
+      "date": "2026-11-17",
+      "title": "8-K filed: Reg FD disclosure, Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 7.01, 8.01, 9.01. Reg FD disclosure; Other event. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-17",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1390478/000110465926128825/tm2629947d1_8k.htm",
       "origin": "edgar",
       "status": "past"
     },

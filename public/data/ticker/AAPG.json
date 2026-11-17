@@ -11,7 +11,7 @@
   "activeTrials": 15,
   "phase3": 7,
   "phase2": 8,
-  "generatedDate": "2026-11-16",
+  "generatedDate": "2026-11-17",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 16,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 29
+    "daysToNextCatalyst": 28
   },
   "trialStats": {
     "completed": 10,
@@ -1571,21 +1571,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-AAPG-NCT03917043",
-      "ticker": "AAPG",
-      "date": "2027-12-15",
-      "title": "APG-2449 in Patients With Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Advanced Solid Cancer, Non Small Cell Lung Cancer, Esophageal Cancer · 165 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT03917043",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT03917043",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-AAPG-NCT03594422",
       "ticker": "AAPG",
       "date": "2027-12-15",
@@ -1597,6 +1582,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT03594422",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03594422",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-AAPG-NCT03917043",
+      "ticker": "AAPG",
+      "date": "2027-12-15",
+      "title": "APG-2449 in Patients With Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Advanced Solid Cancer, Non Small Cell Lung Cancer, Esophageal Cancer · 165 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT03917043",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03917043",
       "origin": "registry",
       "status": "upcoming"
     },

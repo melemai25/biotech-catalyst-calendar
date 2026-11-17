@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 1,
   "phase2": 2,
-  "generatedDate": "2026-11-16",
+  "generatedDate": "2026-11-17",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,21 +60,21 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2027-01-16",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 61
+    "daysToNextCatalyst": 60
   },
   "trialStats": {
-    "completed": 4,
+    "completed": 5,
     "terminated": 3,
     "withdrawn": 0,
     "suspended": 0,
-    "ongoing": 3,
+    "ongoing": 2,
     "withResults": 4,
     "byPhase": {
-      "phase3": {
-        "completed": 1,
-        "terminated": 1,
-        "total": 3,
-        "completionRatePct": null
+      "phase2": {
+        "completed": 3,
+        "terminated": 2,
+        "total": 6,
+        "completionRatePct": 60
       },
       "phase1": {
         "completed": 1,
@@ -82,16 +82,16 @@
         "total": 1,
         "completionRatePct": null
       },
-      "phase2": {
-        "completed": 2,
-        "terminated": 2,
-        "total": 6,
-        "completionRatePct": 50
+      "phase3": {
+        "completed": 1,
+        "terminated": 1,
+        "total": 3,
+        "completionRatePct": null
       }
     },
-    "concluded": 7,
-    "completionRatePct": 57,
-    "resultsPostedPct": null
+    "concluded": 8,
+    "completionRatePct": 63,
+    "resultsPostedPct": 80
   },
   "events": [
     {
@@ -320,6 +320,21 @@
       "status": "past"
     },
     {
+      "id": "ct-CRBP-NCT06603844",
+      "ticker": "CRBP",
+      "date": "2026-01-30",
+      "title": "First-in-human Study of CRB-601-01 to Treat Patients With Advanced Solid Tumor.",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Solid Tumor · 51 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06603844",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06603844",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "edgar-CRBP-0001193125-26-068566",
       "ticker": "CRBP",
       "date": "2026-02-25",
@@ -527,21 +542,6 @@
       "source": "SEC EDGAR 8-K 2026-10-15",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1595097/000119312526422437/crbp-20261015.htm",
       "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "ct-CRBP-NCT06603844",
-      "ticker": "CRBP",
-      "date": "2026-11-01",
-      "title": "First-in-human Study of CRB-601-01 to Treat Patients With Advanced Solid Tumor.",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Solid Tumor · 156 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06603844",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06603844",
-      "origin": "registry",
       "status": "past"
     },
     {

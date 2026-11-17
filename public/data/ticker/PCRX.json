@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-11-16",
+  "generatedDate": "2026-11-17",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,22 +60,16 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-12-08",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 22
+    "daysToNextCatalyst": 21
   },
   "trialStats": {
-    "completed": 73,
+    "completed": 74,
     "terminated": 18,
     "withdrawn": 4,
     "suspended": 0,
-    "ongoing": 7,
+    "ongoing": 6,
     "withResults": 67,
     "byPhase": {
-      "phase1": {
-        "completed": 10,
-        "terminated": 2,
-        "total": 15,
-        "completionRatePct": 83
-      },
       "phase2": {
         "completed": 17,
         "terminated": 5,
@@ -83,21 +77,27 @@
         "completionRatePct": 77
       },
       "other": {
-        "completed": 27,
+        "completed": 28,
         "terminated": 9,
         "total": 41,
-        "completionRatePct": 75
+        "completionRatePct": 76
       },
       "phase3": {
         "completed": 19,
         "terminated": 2,
         "total": 23,
         "completionRatePct": 90
+      },
+      "phase1": {
+        "completed": 10,
+        "terminated": 2,
+        "total": 15,
+        "completionRatePct": 83
       }
     },
-    "concluded": 95,
+    "concluded": 96,
     "completionRatePct": 77,
-    "resultsPostedPct": 92
+    "resultsPostedPct": 91
   },
   "events": [
     {
@@ -773,6 +773,21 @@
       "source": "ClinicalTrials.gov NCT06884865",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06884865",
       "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "edgar-PCRX-0001140361-26-044354",
+      "ticker": "PCRX",
+      "date": "2026-11-17",
+      "title": "8-K filed: Material agreement, Acquisition completed, Listing / standard notice, Leadership change, Reg FD disclosure",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 1.01, 1.02, 2.01, 2.04, 3.01, 3.03, 5.01, 5.02, 5.03, 7.01, 9.01. Material agreement; Acquisition completed; Listing / standard notice; Leadership change; Reg FD disclosure. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-17",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1396814/000114036126044354/ef20085678_8k.htm",
+      "origin": "edgar",
       "status": "past"
     },
     {

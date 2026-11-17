@@ -11,7 +11,7 @@
   "activeTrials": 11,
   "phase3": 8,
   "phase2": 3,
-  "generatedDate": "2026-11-16",
+  "generatedDate": "2026-11-17",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 8,
     "nextCatalystDate": "2027-01-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 60
+    "daysToNextCatalyst": 59
   },
   "trialStats": {
     "completed": 27,
@@ -881,21 +881,6 @@
       "status": "past"
     },
     {
-      "id": "ct-RARE-NCT07157254",
-      "ticker": "RARE",
-      "date": "2026-10-30",
-      "title": "A Safety and Efficacy Study of GTX-102 in Subjects With Deletion- or Nondeletion-type Angelman Syndrome (AS)",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Angelman Syndrome · 55 participants · Status: Terminated",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07157254",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07157254",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-RARE-NCT06415344",
       "ticker": "RARE",
       "date": "2026-10-30",
@@ -907,6 +892,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06415344",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06415344",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-RARE-NCT07157254",
+      "ticker": "RARE",
+      "date": "2026-10-30",
+      "title": "A Safety and Efficacy Study of GTX-102 in Subjects With Deletion- or Nondeletion-type Angelman Syndrome (AS)",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Angelman Syndrome · 55 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07157254",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07157254",
       "origin": "registry",
       "status": "past"
     },

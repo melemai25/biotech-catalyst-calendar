@@ -11,48 +11,48 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-11-16",
+  "generatedDate": "2026-11-17",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
     "isUsd": true,
-    "cashUsd": 5016000,
+    "cashUsd": 2338000,
     "shortTermInvestmentsUsd": null,
     "longTermInvestmentsUsd": null,
-    "totalCashUsd": 5016000,
-    "cashAsOf": "2026-06-30",
+    "totalCashUsd": 2338000,
+    "cashAsOf": "2026-09-30",
     "longTermDebtUsd": null,
-    "netCashUsd": 5016000,
+    "netCashUsd": 2338000,
     "stockholdersEquityUsd": null,
-    "accumulatedDeficitUsd": -650145000,
-    "operatingCashFlowUsd": -7504000,
-    "quarterlyBurnUsd": 7504000,
-    "burnPeriod": "2026-04-01 to 2026-06-30",
-    "burnAsOf": "2026-06-30",
+    "accumulatedDeficitUsd": -654848000,
+    "operatingCashFlowUsd": -2479000,
+    "quarterlyBurnUsd": 2479000,
+    "burnPeriod": "2026-07-01 to 2026-09-30",
+    "burnAsOf": "2026-09-30",
     "burnDerived": true,
     "burnBasis": "quarter (differenced)",
     "burnScaled": false,
-    "runwayMonths": 2,
-    "cashOutDate": "2026-08-30",
+    "runwayMonths": 2.8,
+    "cashOutDate": "2026-12-25",
     "cashStatus": "under-12mo",
     "capexQuarterlyUsd": 0,
-    "freeCashFlowQuarterlyUsd": -7504000,
-    "freeCashFlowTtmUsd": -19434000,
+    "freeCashFlowQuarterlyUsd": -2479000,
+    "freeCashFlowTtmUsd": -17902000,
     "revenueQuarterlyUsd": 0,
     "revenueTtmUsd": 2790000,
-    "rndQuarterlyUsd": 1101000,
-    "sgaQuarterlyUsd": 3479000,
-    "operatingIncomeQuarterlyUsd": -3175000,
-    "netIncomeQuarterlyUsd": -3054000,
+    "rndQuarterlyUsd": 1832000,
+    "sgaQuarterlyUsd": 1770000,
+    "operatingIncomeQuarterlyUsd": -3602000,
+    "netIncomeQuarterlyUsd": -3547000,
     "sharesOutstanding": 15368277,
-    "dilutionPctYoy": 117.6,
-    "dilutionFrom": "2025-08-12",
-    "stockIssuanceQuarterlyUsd": 120000,
-    "cashPerShare": 0.33,
-    "rndIntensityPct": 24,
-    "fcfMarginPct": -696.6,
+    "dilutionPctYoy": 92.3,
+    "dilutionFrom": "2025-11-10",
+    "stockIssuanceQuarterlyUsd": 91000,
+    "cashPerShare": 0.15,
+    "rndIntensityPct": 51,
+    "fcfMarginPct": -641.6,
     "marketCapUsd": null,
-    "entityName": "Traws Pharma, Inc.",
+    "entityName": "Traws Pharma, Inc.",
     "financingSinceCash": [
       {
         "date": "2026-11-16",
@@ -65,12 +65,6 @@
         "form": "8-K",
         "label": "Unregistered sale of shares (private placement)",
         "url": "https://www.sec.gov/Archives/edgar/data/1130598/000110465926118519/tm2626240d4_8k.htm"
-      },
-      {
-        "date": "2026-07-10",
-        "form": "424B5",
-        "label": "Prospectus supplement",
-        "url": "https://www.sec.gov/Archives/edgar/data/1130598/000110465926082645/tm2618293d3_424b5.htm"
       }
     ],
     "activeTrials": 11,
@@ -80,7 +74,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 29
+    "daysToNextCatalyst": 28
   },
   "trialStats": {
     "completed": 25,
@@ -90,11 +84,11 @@
     "ongoing": 5,
     "withResults": 1,
     "byPhase": {
-      "phase2": {
-        "completed": 9,
-        "terminated": 0,
-        "total": 13,
-        "completionRatePct": 100
+      "phase3": {
+        "completed": 3,
+        "terminated": 1,
+        "total": 4,
+        "completionRatePct": 75
       },
       "phase1": {
         "completed": 13,
@@ -102,11 +96,11 @@
         "total": 18,
         "completionRatePct": 87
       },
-      "phase3": {
-        "completed": 3,
-        "terminated": 1,
-        "total": 4,
-        "completionRatePct": 75
+      "phase2": {
+        "completed": 9,
+        "terminated": 0,
+        "total": 13,
+        "completionRatePct": 100
       }
     },
     "concluded": 30,
@@ -217,21 +211,6 @@
       "source": "ClinicalTrials.gov NCT06757738",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06757738",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-TRAW-0001104659-25-048915",
-      "ticker": "TRAW",
-      "date": "2025-05-15",
-      "title": "Quarterly results filed (8-K)",
-      "type": "Earnings",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 2.02, 7.01, 9.01. Quarterly results; Reg FD disclosure. FORM 8-K.",
-      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
-      "source": "SEC EDGAR 8-K 2025-05-15",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1130598/000110465925048915/tm2515069d1_8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {
@@ -745,6 +724,21 @@
       "status": "past"
     },
     {
+      "id": "edgar-TRAW-0001104659-26-128450",
+      "ticker": "TRAW",
+      "date": "2026-11-16",
+      "title": "Quarterly results filed (8-K)",
+      "type": "Earnings",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 2.02, 7.01, 9.01. Quarterly results; Reg FD disclosure. FORM 8-K.",
+      "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
+      "source": "SEC EDGAR 8-K 2026-11-16",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1130598/000110465926128450/tm2629930d1_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "ct-TRAW-NCT07371650",
       "ticker": "TRAW",
       "date": "2026-12-15",
@@ -762,7 +756,7 @@
     {
       "id": "edgar-TRAW-next-earnings",
       "ticker": "TRAW",
-      "date": "2027-02-12",
+      "date": "2027-02-15",
       "title": "Next quarterly earnings (projected)",
       "type": "Earnings",
       "phase": null,
