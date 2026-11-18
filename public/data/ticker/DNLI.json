@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 1,
   "phase2": 4,
-  "generatedDate": "2026-11-17",
+  "generatedDate": "2026-11-18",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,12 +55,12 @@
     "entityName": "Denali Therapeutics Inc.",
     "activeTrials": 18,
     "phase3Count": 2,
-    "phase2Count": 6,
+    "phase2Count": 7,
     "leadPhase": 3,
     "upcomingCount": 10,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 28
+    "daysToNextCatalyst": 27
   },
   "trialStats": {
     "completed": 10,
@@ -73,19 +73,19 @@
       "phase1": {
         "completed": 9,
         "terminated": 0,
-        "total": 12,
+        "total": 11,
         "completionRatePct": 100
-      },
-      "phase2": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 4,
-        "completionRatePct": null
       },
       "other": {
         "completed": 1,
         "terminated": 0,
         "total": 1,
+        "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 5,
         "completionRatePct": null
       },
       "phase3": {
@@ -601,7 +601,7 @@
       "date": "2028-08-15",
       "title": "A Study to Evaluate the Safety, Pharmacokinetics, and Pharmacodynamics of DNL952 in Adult Participants With Late-Onset Pompe Disease",
       "type": "Trial Milestone",
-      "phase": "Phase 1",
+      "phase": "Phase 1/Phase 2",
       "estimated": false,
       "summary": "Late-onset Pompe Disease · 32 participants · Status: Recruiting",
       "result": null,

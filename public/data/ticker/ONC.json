@@ -11,7 +11,7 @@
   "activeTrials": 27,
   "phase3": 15,
   "phase2": 12,
-  "generatedDate": "2026-11-17",
+  "generatedDate": "2026-11-18",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 52,
     "nextCatalystDate": "2026-11-22",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 5
+    "daysToNextCatalyst": 4
   },
   "trialStats": {
     "completed": 5,
@@ -70,17 +70,17 @@
     "ongoing": 59,
     "withResults": 1,
     "byPhase": {
-      "phase2": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 14,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 4,
         "terminated": 5,
         "total": 38,
         "completionRatePct": 44
+      },
+      "phase2": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 14,
+        "completionRatePct": null
       },
       "phase3": {
         "completed": 1,
@@ -296,21 +296,6 @@
       "status": "past"
     },
     {
-      "id": "ct-ONC-NCT06585488",
-      "ticker": "ONC",
-      "date": "2026-04-23",
-      "title": "A First-in-human Study of BGB-53038, a Pan-KRAS Inhibitor, Alone or in Combinations in Participants With Advanced or Metastatic Solid Tumors With KRAS Mutations or Amplification",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Metastatic Solid Tumors, Advanced Non-squamous Non-small-cell Lung Cancer, Advanced Colorectal Cancer · 47 participants · Status: Terminated",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06585488",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06585488",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-ONC-NCT06253195",
       "ticker": "ONC",
       "date": "2026-04-23",
@@ -322,6 +307,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06253195",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06253195",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-ONC-NCT06585488",
+      "ticker": "ONC",
+      "date": "2026-04-23",
+      "title": "A First-in-human Study of BGB-53038, a Pan-KRAS Inhibitor, Alone or in Combinations in Participants With Advanced or Metastatic Solid Tumors With KRAS Mutations or Amplification",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Metastatic Solid Tumors, Advanced Non-squamous Non-small-cell Lung Cancer, Advanced Colorectal Cancer · 47 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06585488",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06585488",
       "origin": "registry",
       "status": "past"
     },
@@ -596,21 +596,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT06625593",
-      "ticker": "ONC",
-      "date": "2026-12-31",
-      "title": "A First-in-Human (FIH) Study of BG-C137, an Anti-Fibroblast Growth Factor Receptor 2b (FGFR2b) Antibody Drug Conjugate, in Participants With Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Advanced Solid Tumor · 168 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06625593",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06625593",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ONC-NCT04170283",
       "ticker": "ONC",
       "date": "2026-12-31",
@@ -622,6 +607,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04170283",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04170283",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ONC-NCT06625593",
+      "ticker": "ONC",
+      "date": "2026-12-31",
+      "title": "A First-in-Human (FIH) Study of BG-C137, an Anti-Fibroblast Growth Factor Receptor 2b (FGFR2b) Antibody Drug Conjugate, in Participants With Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Advanced Solid Tumor · 168 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06625593",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06625593",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -956,6 +956,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-ONC-NCT04771130",
+      "ticker": "ONC",
+      "date": "2028-08-31",
+      "title": "A Study of BGB-11417 in Participants With Myeloid Malignancies",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Acute Myeloid Leukemia, Myelodysplastic Syndromes, Myelodysplastic/Myeloproliferative Neoplasm · 260 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04771130",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04771130",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-ONC-NCT06742996",
       "ticker": "ONC",
       "date": "2028-08-31",
@@ -986,21 +1001,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT04771130",
-      "ticker": "ONC",
-      "date": "2028-08-31",
-      "title": "A Study of BGB-11417 in Participants With Myeloid Malignancies",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Acute Myeloid Leukemia, Myelodysplastic Syndromes, Myelodysplastic/Myeloproliferative Neoplasm · 260 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04771130",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04771130",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ONC-NCT07619287",
       "ticker": "ONC",
       "date": "2028-09-30",
@@ -1016,21 +1016,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT07746141",
-      "ticker": "ONC",
-      "date": "2028-09-30",
-      "title": "A First-in-Human Study Investigating BG-85738 Alone or in Combination With Other Antitumor Agents in Patients With Advanced or Metastatic Solid Tumors With Rat Sarcoma Virus (RAS) Mutations",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "RAS Mutation, Advanced Solid Tumor, Metastatic Solid Tumor · 100 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07746141",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07746141",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ONC-NCT06598800",
       "ticker": "ONC",
       "date": "2028-09-30",
@@ -1042,6 +1027,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06598800",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06598800",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ONC-NCT07746141",
+      "ticker": "ONC",
+      "date": "2028-09-30",
+      "title": "A First-in-Human Study Investigating BG-85738 Alone or in Combination With Other Antitumor Agents in Patients With Advanced or Metastatic Solid Tumors With Rat Sarcoma Virus (RAS) Mutations",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "RAS Mutation, Advanced Solid Tumor, Metastatic Solid Tumor · 100 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07746141",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07746141",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1151,21 +1151,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT07222267",
-      "ticker": "ONC",
-      "date": "2029-09-30",
-      "title": "An Investigational Study of BG-75202 Alone and in Combination With Other Agents in Adults With Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Breast Cancer, Advanced Solid Tumor · 186 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07222267",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07222267",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ONC-NCT06943872",
       "ticker": "ONC",
       "date": "2029-09-30",
@@ -1181,17 +1166,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT07881211",
+      "id": "ct-ONC-NCT07222267",
       "ticker": "ONC",
-      "date": "2029-10-31",
-      "title": "A Study Investigating the Safety and How the Trispecific T-Cell Engaging Antibody BG-T0050 Works in Adults With Diffuse Large B-cell Lymphoma (DLBCL) and Other Aggressive B-Cell Malignancies",
+      "date": "2029-09-30",
+      "title": "An Investigational Study of BG-75202 Alone and in Combination With Other Agents in Adults With Advanced Solid Tumors",
       "type": "Trial Milestone",
       "phase": "Phase 1",
       "estimated": false,
-      "summary": "Diffuse Large B-Cell Lymphoma, B-Cell Malignancies · 70 participants · Status: Not Yet Recruiting",
+      "summary": "Breast Cancer, Advanced Solid Tumor · 186 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT07881211",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07881211",
+      "source": "ClinicalTrials.gov NCT07222267",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07222267",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1211,17 +1196,32 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT06697184",
+      "id": "ct-ONC-NCT07881211",
+      "ticker": "ONC",
+      "date": "2029-10-31",
+      "title": "A Study Investigating the Safety and How the Trispecific T-Cell Engaging Antibody BG-T0050 Works in Adults With Diffuse Large B-cell Lymphoma (DLBCL) and Other Aggressive B-Cell Malignancies",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Diffuse Large B-Cell Lymphoma, B-Cell Malignancies · 70 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07881211",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07881211",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ONC-NCT06970743",
       "ticker": "ONC",
       "date": "2029-11-30",
-      "title": "A Study to Investigate the Safety of Novel Dose Ramp-up Schedule(s) When Initiating Sonrotoclax in Participants Treated for Blood Cancers.",
+      "title": "A Study of BGB-16673 Compared to Investigator's Choice in Participants With Relapsed/Refractory Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma Previously Exposed to Covalent Bruton Tyrosine Kinase (BTK) Inhibitors",
       "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
+      "phase": "Phase 3",
       "estimated": false,
-      "summary": "Chronic Lymphocytic Leukemia, CLL, Mantle Cell Lymphoma · 258 participants · Status: Recruiting",
+      "summary": "Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma · 153 participants · Status: Active Not Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT06697184",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06697184",
+      "source": "ClinicalTrials.gov NCT06970743",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06970743",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1241,17 +1241,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT06970743",
+      "id": "ct-ONC-NCT06697184",
       "ticker": "ONC",
       "date": "2029-11-30",
-      "title": "A Study of BGB-16673 Compared to Investigator's Choice in Participants With Relapsed/Refractory Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma Previously Exposed to Covalent Bruton Tyrosine Kinase (BTK) Inhibitors",
+      "title": "A Study to Investigate the Safety of Novel Dose Ramp-up Schedule(s) When Initiating Sonrotoclax in Participants Treated for Blood Cancers.",
       "type": "Trial Milestone",
-      "phase": "Phase 3",
+      "phase": "Phase 1/Phase 2",
       "estimated": false,
-      "summary": "Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma · 153 participants · Status: Active Not Recruiting",
+      "summary": "Chronic Lymphocytic Leukemia, CLL, Mantle Cell Lymphoma · 258 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT06970743",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06970743",
+      "source": "ClinicalTrials.gov NCT06697184",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06697184",
       "origin": "registry",
       "status": "upcoming"
     },

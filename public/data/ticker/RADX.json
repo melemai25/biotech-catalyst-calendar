@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-11-17",
+  "generatedDate": "2026-11-18",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -92,7 +92,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2027-08-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 286
+    "daysToNextCatalyst": 285
   },
   "trialStats": {
     "completed": 0,
@@ -102,6 +102,12 @@
     "ongoing": 7,
     "withResults": 0,
     "byPhase": {
+      "phase1": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 2,
+        "completionRatePct": null
+      },
       "other": {
         "completed": 0,
         "terminated": 0,
@@ -112,12 +118,6 @@
         "completed": 0,
         "terminated": 0,
         "total": 3,
-        "completionRatePct": null
-      },
-      "phase1": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 2,
         "completionRatePct": null
       }
     },
@@ -1372,21 +1372,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-RADX-NCT07189871",
-      "ticker": "RADX",
-      "date": "2027-12-15",
-      "title": "177Lu-BetaBart in Patients With Relapsed/Refractory, Locally Advanced Inoperable, or Metastatic Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Castration-Resistant Prostate Cancer (CRPC), Colorectal Cancer, NSCLC (Non-small Cell Lung Cancer) · 61 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07189871",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07189871",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-RADX-NCT06824155",
       "ticker": "RADX",
       "date": "2027-12-15",
@@ -1398,6 +1383,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06824155",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06824155",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-RADX-NCT07189871",
+      "ticker": "RADX",
+      "date": "2027-12-15",
+      "title": "177Lu-BetaBart in Patients With Relapsed/Refractory, Locally Advanced Inoperable, or Metastatic Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Castration-Resistant Prostate Cancer (CRPC), Colorectal Cancer, NSCLC (Non-small Cell Lung Cancer) · 61 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07189871",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07189871",
       "origin": "registry",
       "status": "upcoming"
     },

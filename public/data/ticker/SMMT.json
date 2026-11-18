@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 5,
   "phase2": 0,
-  "generatedDate": "2026-11-17",
+  "generatedDate": "2026-11-18",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -68,7 +68,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2027-01-27",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 71
+    "daysToNextCatalyst": 70
   },
   "trialStats": {
     "completed": 5,
@@ -78,6 +78,12 @@
     "ongoing": 6,
     "withResults": 3,
     "byPhase": {
+      "phase1": {
+        "completed": 2,
+        "terminated": 0,
+        "total": 2,
+        "completionRatePct": null
+      },
       "phase3": {
         "completed": 1,
         "terminated": 1,
@@ -88,12 +94,6 @@
         "completed": 2,
         "terminated": 1,
         "total": 4,
-        "completionRatePct": null
-      },
-      "phase1": {
-        "completed": 2,
-        "terminated": 0,
-        "total": 2,
         "completionRatePct": null
       }
     },
@@ -564,6 +564,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-11-16",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1599298/000159929826000092/smmt-20261115.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-SMMT-0001599298-26-000094",
+      "ticker": "SMMT",
+      "date": "2026-11-18",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-18",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1599298/000159929826000094/smmt-20261118.htm",
       "origin": "edgar",
       "status": "past"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-17",
+  "generatedDate": "2026-11-18",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,10 +57,10 @@
     "phase3Count": 0,
     "phase2Count": 2,
     "leadPhase": 2,
-    "upcomingCount": 2,
+    "upcomingCount": 3,
     "nextCatalystDate": "2027-02-08",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 83
+    "daysToNextCatalyst": 82
   },
   "trialStats": {
     "completed": 0,
@@ -116,21 +116,6 @@
       "source": "SEC EDGAR 8-K 2025-08-07",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1701541/000170154125000029/bdtx-20250807.htm",
       "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "ct-BDTX-NCT05256290",
-      "ticker": "BDTX",
-      "date": "2025-11-03",
-      "title": "Phase 1/2 Study of Silevertinib (BDTX-1535) in Patients With Glioblastoma or Non-Small Cell Lung Cancer With EGFR Mutations",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Non-Small Cell Lung Cancer, Advanced Non-Small Cell Squamous Lung Cancer, Metastatic Lung Non-Small Cell Carcinoma · 200 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05256290",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05256290",
-      "origin": "registry",
       "status": "past"
     },
     {
@@ -251,6 +236,21 @@
       "source": "Projected from SEC EDGAR filing cadence",
       "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001701541&type=8-K",
       "origin": "edgar",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BDTX-NCT05256290",
+      "ticker": "BDTX",
+      "date": "2028-03-15",
+      "title": "Phase 1/2 Study of Silevertinib (BDTX-1535) in Patients With Glioblastoma or Non-Small Cell Lung Cancer With EGFR Mutations",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Non-Small Cell Lung Cancer, Advanced Non-Small Cell Squamous Lung Cancer, Metastatic Lung Non-Small Cell Carcinoma · 220 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05256290",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05256290",
+      "origin": "registry",
       "status": "upcoming"
     },
     {

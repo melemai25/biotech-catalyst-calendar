@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-11-17",
+  "generatedDate": "2026-11-18",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-11-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 13
+    "daysToNextCatalyst": 12
   },
   "trialStats": {
     "completed": 2,
@@ -70,16 +70,16 @@
     "ongoing": 6,
     "withResults": 1,
     "byPhase": {
-      "other": {
-        "completed": 0,
-        "terminated": 1,
-        "total": 4,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 2,
         "terminated": 0,
         "total": 3,
+        "completionRatePct": null
+      },
+      "other": {
+        "completed": 0,
+        "terminated": 1,
+        "total": 4,
         "completionRatePct": null
       },
       "phase3": {
@@ -128,21 +128,6 @@
       "source": "ClinicalTrials.gov NCT04417530",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04417530",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-AURA-0001193125-25-121677",
-      "ticker": "AURA",
-      "date": "2025-05-16",
-      "title": "8-K filed: Material agreement, Other event",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 1.01, 8.01, 9.01. Material agreement; Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-16",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1501796/000119312525121677/d213451d8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

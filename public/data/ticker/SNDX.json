@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 1,
   "phase2": 3,
-  "generatedDate": "2026-11-17",
+  "generatedDate": "2026-11-18",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2027-01-11",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 55
+    "daysToNextCatalyst": 54
   },
   "trialStats": {
     "completed": 19,
@@ -70,17 +70,17 @@
     "ongoing": 6,
     "withResults": 12,
     "byPhase": {
-      "phase2": {
-        "completed": 8,
-        "terminated": 4,
-        "total": 15,
-        "completionRatePct": 67
-      },
       "phase1": {
         "completed": 11,
         "terminated": 1,
         "total": 14,
         "completionRatePct": 92
+      },
+      "phase2": {
+        "completed": 8,
+        "terminated": 4,
+        "total": 15,
+        "completionRatePct": 67
       },
       "other": {
         "completed": 0,
@@ -338,21 +338,6 @@
       "source": "ClinicalTrials.gov NCT05406817",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05406817",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-SNDX-0000950170-25-073555",
-      "ticker": "SNDX",
-      "date": "2025-05-16",
-      "title": "8-K filed: Leadership change, Reg FD disclosure",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.02, 7.01, 9.01. Leadership change; Reg FD disclosure. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-16",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1395937/000095017025073555/sndx-20250512.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

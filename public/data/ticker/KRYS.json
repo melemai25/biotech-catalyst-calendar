@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 1,
   "phase2": 4,
-  "generatedDate": "2026-11-17",
+  "generatedDate": "2026-11-18",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 28
+    "daysToNextCatalyst": 27
   },
   "trialStats": {
     "completed": 3,
@@ -82,16 +82,16 @@
         "total": 7,
         "completionRatePct": null
       },
-      "phase1": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 4,
-        "completionRatePct": null
-      },
       "phase3": {
         "completed": 2,
         "terminated": 0,
         "total": 3,
+        "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 4,
         "completionRatePct": null
       }
     },
@@ -431,17 +431,17 @@
       "status": "past"
     },
     {
-      "id": "ct-KRYS-NCT05504837",
+      "id": "ct-KRYS-NCT06999733",
       "ticker": "KRYS",
       "date": "2026-12-15",
-      "title": "A Study Assessing KB407 for the Treatment of Cystic Fibrosis",
+      "title": "A Study Comparing KB801 Verse Placebo in Patients With Stage 2 or 3 Neurotrophic Keratitis",
       "type": "Trial Milestone",
-      "phase": "Phase 1",
+      "phase": "Phase 1/Phase 2",
       "estimated": false,
-      "summary": "Cystic Fibrosis · 20 participants · Status: Recruiting",
+      "summary": "Neurotrophic Keratitis · 60 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT05504837",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05504837",
+      "source": "ClinicalTrials.gov NCT06999733",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06999733",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -461,17 +461,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-KRYS-NCT06999733",
+      "id": "ct-KRYS-NCT05504837",
       "ticker": "KRYS",
       "date": "2026-12-15",
-      "title": "A Study Comparing KB801 Verse Placebo in Patients With Stage 2 or 3 Neurotrophic Keratitis",
+      "title": "A Study Assessing KB407 for the Treatment of Cystic Fibrosis",
       "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
+      "phase": "Phase 1",
       "estimated": false,
-      "summary": "Neurotrophic Keratitis · 60 participants · Status: Recruiting",
+      "summary": "Cystic Fibrosis · 20 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT06999733",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06999733",
+      "source": "ClinicalTrials.gov NCT05504837",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05504837",
       "origin": "registry",
       "status": "upcoming"
     },

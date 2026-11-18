@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-11-17",
+  "generatedDate": "2026-11-18",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -71,10 +71,10 @@
     "phase3Count": 0,
     "phase2Count": 4,
     "leadPhase": 2,
-    "upcomingCount": 5,
-    "nextCatalystDate": "2026-11-18",
-    "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 1
+    "upcomingCount": 4,
+    "nextCatalystDate": "2027-02-02",
+    "nextCatalystType": "Earnings",
+    "daysToNextCatalyst": 76
   },
   "trialStats": {
     "completed": 3,
@@ -460,7 +460,7 @@
       "source": "ClinicalTrials.gov NCT06873724",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06873724",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "edgar-SYRE-next-earnings",

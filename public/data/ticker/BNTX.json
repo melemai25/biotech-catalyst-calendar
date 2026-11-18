@@ -11,7 +11,7 @@
   "activeTrials": 25,
   "phase3": 8,
   "phase2": 17,
-  "generatedDate": "2026-11-17",
+  "generatedDate": "2026-11-18",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -58,9 +58,9 @@
     "phase2Count": 42,
     "leadPhase": 4,
     "upcomingCount": 27,
-    "nextCatalystDate": "2027-04-21",
+    "nextCatalystDate": "2027-04-12",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 155
+    "daysToNextCatalyst": 145
   },
   "trialStats": {
     "completed": 36,
@@ -533,21 +533,6 @@
       "source": "ClinicalTrials.gov NCT05997290",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05997290",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-BNTX-0001776985-25-000033",
-      "ticker": "BNTX",
-      "date": "2025-05-16",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-16",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1776985/000177698525000033/form6-k2025agm16may2025.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {
@@ -1723,30 +1708,15 @@
     {
       "id": "ct-BNTX-NCT07798648",
       "ticker": "BNTX",
-      "date": "2027-04-21",
+      "date": "2027-04-12",
       "title": "A Study of COVID-19 Vaccine(s) in Children and Adults",
       "type": "Trial Milestone",
       "phase": "Phase 3",
       "estimated": false,
-      "summary": "COVID-19 Vaccines · 700 participants · Status: Recruiting",
+      "summary": "COVID-19 Vaccines · 713 participants · Status: Active Not Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT07798648",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07798648",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-BNTX-NCT06449209",
-      "ticker": "BNTX",
-      "date": "2027-06-15",
-      "title": "Safety, Preliminary Effectiveness of BNT327, an Investigational Therapy for Patients With Small-cell Lung Cancer in Combination With Chemotherapy",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Extensive-stage Small-cell Lung Cancer, Small-cell Lung Cancer · 110 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06449209",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06449209",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1762,6 +1732,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07379580",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07379580",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BNTX-NCT06449209",
+      "ticker": "BNTX",
+      "date": "2027-06-15",
+      "title": "Safety, Preliminary Effectiveness of BNT327, an Investigational Therapy for Patients With Small-cell Lung Cancer in Combination With Chemotherapy",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Extensive-stage Small-cell Lung Cancer, Small-cell Lung Cancer · 110 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06449209",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06449209",
       "origin": "registry",
       "status": "upcoming"
     },

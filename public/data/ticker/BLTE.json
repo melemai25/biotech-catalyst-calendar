@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-11-17",
+  "generatedDate": "2026-11-18",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -52,7 +52,15 @@
     "rndIntensityPct": 54,
     "fcfMarginPct": null,
     "marketCapUsd": null,
-    "entityName": "Belite Bio, Inc",
+    "entityName": "BELITE BIO, INC",
+    "financingSinceCash": [
+      {
+        "date": "2026-11-17",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1889109/000110465926129048/tm2629715-1_424b5.htm"
+      }
+    ],
     "activeTrials": 4,
     "phase3Count": 3,
     "phase2Count": 1,
@@ -60,7 +68,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-06-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 225
+    "daysToNextCatalyst": 224
   },
   "trialStats": {
     "completed": 2,
@@ -70,16 +78,16 @@
     "ongoing": 2,
     "withResults": 0,
     "byPhase": {
-      "phase1": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 1,
-        "completionRatePct": null
-      },
       "phase3": {
         "completed": 1,
         "terminated": 0,
         "total": 3,
+        "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 1,
         "completionRatePct": null
       }
     },

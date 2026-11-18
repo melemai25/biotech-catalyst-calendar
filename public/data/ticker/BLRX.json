@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-17",
+  "generatedDate": "2026-11-18",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -570,6 +570,21 @@
       "result": null,
       "source": "SEC EDGAR 6-K 2026-11-16",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1498403/000117891326005231/zk2636420.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-BLRX-0001178913-26-005266",
+      "ticker": "BLRX",
+      "date": "2026-11-18",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-11-18",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1498403/000117891326005266/zk2636437.htm",
       "origin": "edgar",
       "status": "past"
     }

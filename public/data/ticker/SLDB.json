@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 1,
   "phase2": 2,
-  "generatedDate": "2026-11-17",
+  "generatedDate": "2026-11-18",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,29 +57,23 @@
     "phase3Count": 1,
     "phase2Count": 2,
     "leadPhase": 3,
-    "upcomingCount": 5,
-    "nextCatalystDate": "2026-11-30",
+    "upcomingCount": 4,
+    "nextCatalystDate": "2027-05-06",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 13
+    "daysToNextCatalyst": 169
   },
   "trialStats": {
-    "completed": 1,
+    "completed": 2,
     "terminated": 0,
     "withdrawn": 0,
     "suspended": 0,
-    "ongoing": 5,
+    "ongoing": 4,
     "withResults": 0,
     "byPhase": {
-      "phase1": {
-        "completed": 0,
+      "other": {
+        "completed": 1,
         "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
-      },
-      "phase2": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 2,
+        "total": 1,
         "completionRatePct": null
       },
       "phase3": {
@@ -88,14 +82,20 @@
         "total": 1,
         "completionRatePct": null
       },
-      "other": {
+      "phase1": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 2,
+        "completionRatePct": null
+      },
+      "phase2": {
         "completed": 1,
         "terminated": 0,
-        "total": 1,
+        "total": 2,
         "completionRatePct": null
       }
     },
-    "concluded": 1,
+    "concluded": 2,
     "completionRatePct": null,
     "resultsPostedPct": null
   },
@@ -193,17 +193,17 @@
     {
       "id": "ct-SLDB-NCT03368742",
       "ticker": "SLDB",
-      "date": "2026-11-30",
+      "date": "2026-11-03",
       "title": "Microdystrophin Gene Transfer Study in Adolescents and Children With DMD",
       "type": "Trial Milestone",
       "phase": "Phase 1/Phase 2",
       "estimated": false,
-      "summary": "Duchenne Muscular Dystrophy · 12 participants · Status: Active Not Recruiting",
+      "summary": "Duchenne Muscular Dystrophy · 12 participants · Status: Completed",
       "result": null,
       "source": "ClinicalTrials.gov NCT03368742",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03368742",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-SLDB-NCT06138639",

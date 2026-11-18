@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-17",
+  "generatedDate": "2026-11-18",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,27 +53,27 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "Braveheart Bio, Inc.",
-    "activeTrials": 1,
-    "phase3Count": 1,
+    "activeTrials": 2,
+    "phase3Count": 2,
     "phase2Count": 0,
     "leadPhase": 3,
-    "upcomingCount": 1,
+    "upcomingCount": 2,
     "nextCatalystDate": "2028-10-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 698
+    "daysToNextCatalyst": 697
   },
   "trialStats": {
     "completed": 0,
     "terminated": 0,
     "withdrawn": 0,
     "suspended": 0,
-    "ongoing": 1,
+    "ongoing": 2,
     "withResults": 0,
     "byPhase": {
       "phase3": {
         "completed": 0,
         "terminated": 0,
-        "total": 1,
+        "total": 2,
         "completionRatePct": null
       }
     },
@@ -139,6 +139,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07755904",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07755904",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BRVE-NCT07946107",
+      "ticker": "BRVE",
+      "date": "2029-12-15",
+      "title": "BHB-1893 vs. Placebo for Symptomatic Non-obstructive Hypertrophic Cardiomyopathy",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Cardiomyopathy, Hypertrophic Non-Obstructive · 600 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07946107",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07946107",
       "origin": "registry",
       "status": "upcoming"
     }

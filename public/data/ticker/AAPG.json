@@ -11,7 +11,7 @@
   "activeTrials": 15,
   "phase3": 7,
   "phase2": 8,
-  "generatedDate": "2026-11-17",
+  "generatedDate": "2026-11-18",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 16,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 28
+    "daysToNextCatalyst": 27
   },
   "trialStats": {
     "completed": 10,
@@ -76,11 +76,11 @@
         "total": 22,
         "completionRatePct": 82
       },
-      "phase2": {
-        "completed": 1,
-        "terminated": 3,
-        "total": 22,
-        "completionRatePct": 25
+      "other": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 2,
+        "completionRatePct": null
       },
       "phase3": {
         "completed": 0,
@@ -88,11 +88,11 @@
         "total": 7,
         "completionRatePct": null
       },
-      "other": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
+      "phase2": {
+        "completed": 1,
+        "terminated": 3,
+        "total": 22,
+        "completionRatePct": 25
       }
     },
     "concluded": 16,
@@ -296,21 +296,6 @@
       "status": "past"
     },
     {
-      "id": "ct-AAPG-NCT03913949",
-      "ticker": "AAPG",
-      "date": "2024-10-20",
-      "title": "A Study to Evaluate the Safety,PK and PD of APG-2575 in Patients With Hematologic Malignancies",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Chronic Lymphocytic Leukemia, Non Hodgkin Lymphoma · 74 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT03913949",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT03913949",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-AAPG-NCT04494503",
       "ticker": "AAPG",
       "date": "2024-10-20",
@@ -322,6 +307,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04494503",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04494503",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-AAPG-NCT03913949",
+      "ticker": "AAPG",
+      "date": "2024-10-20",
+      "title": "A Study to Evaluate the Safety,PK and PD of APG-2575 in Patients With Hematologic Malignancies",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Chronic Lymphocytic Leukemia, Non Hodgkin Lymphoma · 74 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT03913949",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03913949",
       "origin": "registry",
       "status": "past"
     },
@@ -971,21 +971,6 @@
       "status": "past"
     },
     {
-      "id": "ct-AAPG-NCT04785196",
-      "ticker": "AAPG",
-      "date": "2026-04-15",
-      "title": "APG-115 in Combination With PD-1 Inhibitor in Patients With Advanced Liposarcoma or Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Liposarcoma, Advanced Solid Tumor · 95 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04785196",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04785196",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-AAPG-NCT06182969",
       "ticker": "AAPG",
       "date": "2026-04-15",
@@ -997,6 +982,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06182969",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06182969",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-AAPG-NCT04785196",
+      "ticker": "AAPG",
+      "date": "2026-04-15",
+      "title": "APG-115 in Combination With PD-1 Inhibitor in Patients With Advanced Liposarcoma or Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Liposarcoma, Advanced Solid Tumor · 95 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04785196",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04785196",
       "origin": "registry",
       "status": "past"
     },
@@ -1462,6 +1462,21 @@
       "result": null,
       "source": "SEC EDGAR 6-K 2026-11-16",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2023311/000121390026120260/ea0312299-6k_ascentage.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-AAPG-0001213900-26-121498",
+      "ticker": "AAPG",
+      "date": "2026-11-18",
+      "title": "6-K/A filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K/A. Foreign issuer report. AMENDMENT NO. 1 TO FORM 6-K.",
+      "result": null,
+      "source": "SEC EDGAR 6-K/A 2026-11-18",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2023311/000121390026121498/ea0312642-6ka1_ascentage.htm",
       "origin": "edgar",
       "status": "past"
     },

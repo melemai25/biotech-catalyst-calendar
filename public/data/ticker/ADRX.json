@@ -11,7 +11,7 @@
   "activeTrials": 7,
   "phase3": 2,
   "phase2": 5,
-  "generatedDate": "2026-11-17",
+  "generatedDate": "2026-11-18",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 8,
     "nextCatalystDate": "2027-01-22",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 66
+    "daysToNextCatalyst": 65
   },
   "trialStats": {
     "completed": 0,
@@ -215,21 +215,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ADRX-NCT06989359",
-      "ticker": "ADRX",
-      "date": "2028-12-31",
-      "title": "Phase 2 Study of ADX-038 in Complement-Mediated Kidney Disease",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "IgAN, C3G, Complement-mediated Kidney Disease · 45 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06989359",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06989359",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ADRX-NCT06990269",
       "ticker": "ADRX",
       "date": "2030-02-28",
@@ -241,6 +226,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06990269",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06990269",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ADRX-NCT06989359",
+      "ticker": "ADRX",
+      "date": "2030-04-30",
+      "title": "Phase 2 Study of ADX-038 in Complement-Mediated Kidney Disease",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "IgAN, C3G, Complement-mediated Kidney Disease · 85 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06989359",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06989359",
       "origin": "registry",
       "status": "upcoming"
     },

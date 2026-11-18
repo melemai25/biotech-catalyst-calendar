@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-17",
+  "generatedDate": "2026-11-18",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2029-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 1124
+    "daysToNextCatalyst": 1123
   },
   "trialStats": {
     "completed": 33,
@@ -775,6 +775,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-11-09",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1341235/000119312526453537/aldx-20261109.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-ALDX-0001193125-26-465667",
+      "ticker": "ALDX",
+      "date": "2026-11-17",
+      "title": "8-K filed: Listing / standard notice",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 3.01. Listing / standard notice. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-17",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1341235/000119312526465667/aldx-20261117.htm",
       "origin": "edgar",
       "status": "past"
     },
