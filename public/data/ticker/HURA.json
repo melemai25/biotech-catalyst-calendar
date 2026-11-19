@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-18",
+  "generatedDate": "2026-11-19",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,6 +55,12 @@
     "entityName": "TuHURA BIOSCIENCES, INC./NV",
     "financingSinceCash": [
       {
+        "date": "2026-11-18",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1498382/000119312526467254/hura-20261112.htm"
+      },
+      {
         "date": "2026-11-06",
         "form": "8-K",
         "label": "New debt or financing obligation",
@@ -74,7 +80,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2027-02-12",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 86
+    "daysToNextCatalyst": 85
   },
   "trialStats": {
     "completed": 3,
@@ -84,12 +90,6 @@
     "ongoing": 4,
     "withResults": 2,
     "byPhase": {
-      "phase2": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 1,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 2,
         "terminated": 0,
@@ -97,6 +97,12 @@
         "completionRatePct": null
       },
       "phase3": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 1,
+        "completionRatePct": null
+      },
+      "phase2": {
         "completed": 0,
         "terminated": 0,
         "total": 1,

@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-11-18",
+  "generatedDate": "2026-11-19",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -74,7 +74,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2027-01-12",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 55
+    "daysToNextCatalyst": 54
   },
   "trialStats": {
     "completed": 1,
@@ -84,16 +84,16 @@
     "ongoing": 3,
     "withResults": 2,
     "byPhase": {
-      "phase2": {
-        "completed": 1,
-        "terminated": 2,
-        "total": 6,
-        "completionRatePct": null
-      },
       "phase3": {
         "completed": 0,
         "terminated": 1,
         "total": 1,
+        "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 1,
+        "terminated": 2,
+        "total": 6,
         "completionRatePct": null
       }
     },
@@ -450,12 +450,12 @@
     {
       "id": "ct-RXRX-NCT06678659",
       "ticker": "RXRX",
-      "date": "2028-10-30",
+      "date": "2029-07-15",
       "title": "A Study of REC-1245 in Participants With Unresectable, Locally Advanced, or Metastatic Cancer",
       "type": "Trial Milestone",
       "phase": "Phase 1/Phase 2",
       "estimated": false,
-      "summary": "Unresectable, Locally Advanced, Metastatic Cancers · 170 participants · Status: Recruiting",
+      "summary": "Unresectable, Locally Advanced, Metastatic Cancers · 310 participants · Status: Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT06678659",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06678659",

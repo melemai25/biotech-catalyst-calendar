@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 3,
   "phase2": 0,
-  "generatedDate": "2026-11-18",
+  "generatedDate": "2026-11-19",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -74,7 +74,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2027-02-03",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 77
+    "daysToNextCatalyst": 76
   },
   "trialStats": {
     "completed": 4,
@@ -84,10 +84,10 @@
     "ongoing": 3,
     "withResults": 4,
     "byPhase": {
-      "phase1": {
-        "completed": 0,
-        "terminated": 1,
-        "total": 1,
+      "phase2": {
+        "completed": 2,
+        "terminated": 0,
+        "total": 2,
         "completionRatePct": null
       },
       "phase3": {
@@ -96,10 +96,10 @@
         "total": 5,
         "completionRatePct": null
       },
-      "phase2": {
-        "completed": 2,
-        "terminated": 0,
-        "total": 2,
+      "phase1": {
+        "completed": 0,
+        "terminated": 1,
+        "total": 1,
         "completionRatePct": null
       }
     },
@@ -506,7 +506,7 @@
       "type": "Trial Milestone",
       "phase": "Phase 3",
       "estimated": false,
-      "summary": "Early Alzheimers Disease · 760 participants · Status: Active Not Recruiting",
+      "summary": "Early Alzheimers Disease · 861 participants · Status: Active Not Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT06709014",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06709014",

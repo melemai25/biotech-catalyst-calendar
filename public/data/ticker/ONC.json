@@ -11,7 +11,7 @@
   "activeTrials": 27,
   "phase3": 15,
   "phase2": 12,
-  "generatedDate": "2026-11-18",
+  "generatedDate": "2026-11-19",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 52,
     "nextCatalystDate": "2026-11-22",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 4
+    "daysToNextCatalyst": 3
   },
   "trialStats": {
     "completed": 5,
@@ -596,21 +596,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT04170283",
-      "ticker": "ONC",
-      "date": "2026-12-31",
-      "title": "A Study to Evaluate Long-term Safety of Zanubrutinib Regimens in Participants With B-Cell Malignancies Who Participated in BeiGene Parent Studies of Zanubrutinib",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "B-cell Malignancies · 955 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04170283",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04170283",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ONC-NCT06625593",
       "ticker": "ONC",
       "date": "2026-12-31",
@@ -622,6 +607,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06625593",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06625593",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ONC-NCT04170283",
+      "ticker": "ONC",
+      "date": "2026-12-31",
+      "title": "A Study to Evaluate Long-term Safety of Zanubrutinib Regimens in Participants With B-Cell Malignancies Who Participated in BeiGene Parent Studies of Zanubrutinib",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "B-cell Malignancies · 955 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04170283",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04170283",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -971,21 +971,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT06742996",
-      "ticker": "ONC",
-      "date": "2028-08-31",
-      "title": "A Study to Investigate the Efficacy and Safety of Sonrotoclax Plus Zanubrutinib Compared With Placebo Plus Zanubrutinib in Adults With Relapsed/Refractory Mantle Cell Lymphoma (CELESTIAL-RRMCL)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Mantle Cell Lymphoma, B Cell Lymphoma · 300 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06742996",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06742996",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ONC-NCT06589596",
       "ticker": "ONC",
       "date": "2028-08-31",
@@ -997,6 +982,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06589596",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06589596",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ONC-NCT06742996",
+      "ticker": "ONC",
+      "date": "2028-08-31",
+      "title": "A Study to Investigate the Efficacy and Safety of Sonrotoclax Plus Zanubrutinib Compared With Placebo Plus Zanubrutinib in Adults With Relapsed/Refractory Mantle Cell Lymphoma (CELESTIAL-RRMCL)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Mantle Cell Lymphoma, B Cell Lymphoma · 300 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06742996",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06742996",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1151,21 +1151,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT06943872",
-      "ticker": "ONC",
-      "date": "2029-09-30",
-      "title": "A Study to Investigate Progression-Free Survival With Sonrotoclax Plus Obinutuzumab Or Sonrotoclax Plus Rituximab Compared With Venetoclax Plus Rituximab Treatment In Patients With Relapsed and/or Refractory Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (CELESTIAL-RRCLL)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma · 630 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06943872",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06943872",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ONC-NCT07222267",
       "ticker": "ONC",
       "date": "2029-09-30",
@@ -1177,6 +1162,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07222267",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07222267",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ONC-NCT06943872",
+      "ticker": "ONC",
+      "date": "2029-09-30",
+      "title": "A Study to Investigate Progression-Free Survival With Sonrotoclax Plus Obinutuzumab Or Sonrotoclax Plus Rituximab Compared With Venetoclax Plus Rituximab Treatment In Patients With Relapsed and/or Refractory Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (CELESTIAL-RRCLL)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma · 630 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06943872",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06943872",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1211,17 +1211,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT06970743",
+      "id": "ct-ONC-NCT06697184",
       "ticker": "ONC",
       "date": "2029-11-30",
-      "title": "A Study of BGB-16673 Compared to Investigator's Choice in Participants With Relapsed/Refractory Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma Previously Exposed to Covalent Bruton Tyrosine Kinase (BTK) Inhibitors",
+      "title": "A Study to Investigate the Safety of Novel Dose Ramp-up Schedule(s) When Initiating Sonrotoclax in Participants Treated for Blood Cancers.",
       "type": "Trial Milestone",
-      "phase": "Phase 3",
+      "phase": "Phase 1/Phase 2",
       "estimated": false,
-      "summary": "Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma · 153 participants · Status: Active Not Recruiting",
+      "summary": "Chronic Lymphocytic Leukemia, CLL, Mantle Cell Lymphoma · 258 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT06970743",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06970743",
+      "source": "ClinicalTrials.gov NCT06697184",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06697184",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1241,17 +1241,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT06697184",
+      "id": "ct-ONC-NCT06970743",
       "ticker": "ONC",
       "date": "2029-11-30",
-      "title": "A Study to Investigate the Safety of Novel Dose Ramp-up Schedule(s) When Initiating Sonrotoclax in Participants Treated for Blood Cancers.",
+      "title": "A Study of BGB-16673 Compared to Investigator's Choice in Participants With Relapsed/Refractory Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma Previously Exposed to Covalent Bruton Tyrosine Kinase (BTK) Inhibitors",
       "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
+      "phase": "Phase 3",
       "estimated": false,
-      "summary": "Chronic Lymphocytic Leukemia, CLL, Mantle Cell Lymphoma · 258 participants · Status: Recruiting",
+      "summary": "Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma · 153 participants · Status: Active Not Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT06697184",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06697184",
+      "source": "ClinicalTrials.gov NCT06970743",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06970743",
       "origin": "registry",
       "status": "upcoming"
     },

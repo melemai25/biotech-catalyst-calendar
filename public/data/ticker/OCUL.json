@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 4,
   "phase2": 0,
-  "generatedDate": "2026-11-18",
+  "generatedDate": "2026-11-19",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,39 +53,33 @@
     "fcfMarginPct": -530,
     "marketCapUsd": null,
     "entityName": "OCULAR THERAPEUTIX, INC",
-    "activeTrials": 16,
+    "activeTrials": 17,
     "phase3Count": 8,
     "phase2Count": 4,
     "leadPhase": 3,
     "upcomingCount": 4,
     "nextCatalystDate": "2027-01-08",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 51
+    "daysToNextCatalyst": 50
   },
   "trialStats": {
-    "completed": 24,
+    "completed": 25,
     "terminated": 1,
     "withdrawn": 1,
     "suspended": 0,
-    "ongoing": 7,
+    "ongoing": 6,
     "withResults": 14,
     "byPhase": {
-      "phase1": {
-        "completed": 4,
-        "terminated": 0,
-        "total": 6,
-        "completionRatePct": 100
-      },
-      "phase2": {
-        "completed": 8,
-        "terminated": 0,
-        "total": 8,
-        "completionRatePct": 100
-      },
       "phase3": {
         "completed": 10,
         "terminated": 0,
         "total": 14,
+        "completionRatePct": 100
+      },
+      "phase1": {
+        "completed": 5,
+        "terminated": 0,
+        "total": 6,
         "completionRatePct": 100
       },
       "other": {
@@ -93,11 +87,17 @@
         "terminated": 1,
         "total": 5,
         "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 8,
+        "terminated": 0,
+        "total": 8,
+        "completionRatePct": 100
       }
     },
-    "concluded": 26,
-    "completionRatePct": 92,
-    "resultsPostedPct": 58
+    "concluded": 27,
+    "completionRatePct": 93,
+    "resultsPostedPct": 56
   },
   "events": [
     {
@@ -277,6 +277,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05814757",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05814757",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-OCUL-NCT05695417",
+      "ticker": "OCUL",
+      "date": "2024-05-28",
+      "title": "Study to Evaluate the Safety, Tolerability, and Efficacy of OTX-TKI in Subjects With Moderately Severe to Severe Non-proliferative Diabetic Retinopathy",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Non-proliferative Diabetic Retinopathy · 22 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05695417",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05695417",
       "origin": "registry",
       "status": "past"
     },

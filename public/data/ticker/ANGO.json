@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-18",
+  "generatedDate": "2026-11-19",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-01-02",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 45
+    "daysToNextCatalyst": 44
   },
   "trialStats": {
     "completed": 8,
@@ -271,6 +271,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-10-08",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1275187/000114036126039019/ef20083270_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-ANGO-0001140361-26-044750",
+      "ticker": "ANGO",
+      "date": "2026-11-18",
+      "title": "8-K filed: Leadership change",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 5.02, 5.07, 9.01. Leadership change. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-18",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1275187/000114036126044750/ef20085947_8k.htm",
       "origin": "edgar",
       "status": "past"
     },
