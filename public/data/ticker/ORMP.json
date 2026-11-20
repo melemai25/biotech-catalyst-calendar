@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-19",
+  "generatedDate": "2026-11-20",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2027-04-25",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 157
+    "daysToNextCatalyst": 156
   },
   "trialStats": {
     "completed": 10,
@@ -194,21 +194,6 @@
       "status": "past"
     },
     {
-      "id": "ct-ORMP-NCT04606576",
-      "ticker": "ORMP",
-      "date": "2023-01-13",
-      "title": "Study to Evaluate the Efficacy and Safety of ORMD-0801 in Subjects With Type 2 Diabetes Mellitus",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Type 2 Diabetes Mellitus · 710 participants · Status: Terminated",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04606576",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04606576",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-ORMP-NCT04754334",
       "ticker": "ORMP",
       "date": "2023-01-13",
@@ -220,6 +205,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04754334",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04754334",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-ORMP-NCT04606576",
+      "ticker": "ORMP",
+      "date": "2023-01-13",
+      "title": "Study to Evaluate the Efficacy and Safety of ORMD-0801 in Subjects With Type 2 Diabetes Mellitus",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Type 2 Diabetes Mellitus · 710 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04606576",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04606576",
       "origin": "registry",
       "status": "past"
     },
@@ -430,6 +430,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-06-30",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1176309/000121390026073709/ea0296520-8k_oramed.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-ORMP-0001213900-26-122239",
+      "ticker": "ORMP",
+      "date": "2026-11-19",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 8.01. Other event. CURRENT REPORT.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-19",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1176309/000121390026122239/ea0312873-8k_oramed.htm",
       "origin": "edgar",
       "status": "past"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-11-19",
+  "generatedDate": "2026-11-20",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,6 +55,12 @@
     "entityName": "SELLAS Life Sciences Group, Inc.",
     "financingSinceCash": [
       {
+        "date": "2026-11-19",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1390478/000110465926130132/tm2629996d2_424b5.htm"
+      },
+      {
         "date": "2026-11-17",
         "form": "424B5",
         "label": "Prospectus supplement",
@@ -68,7 +74,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-12-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 41
+    "daysToNextCatalyst": 40
   },
   "trialStats": {
     "completed": 4,
@@ -384,6 +390,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-11-17",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1390478/000110465926128825/tm2629947d1_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-SLS-0001104659-26-130331",
+      "ticker": "SLS",
+      "date": "2026-11-20",
+      "title": "8-K filed: Material agreement, Other event",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 1.01, 8.01, 9.01. Material agreement; Other event. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-20",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1390478/000110465926130331/tm2630303d1_8k.htm",
       "origin": "edgar",
       "status": "past"
     },

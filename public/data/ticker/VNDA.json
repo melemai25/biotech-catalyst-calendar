@@ -11,7 +11,7 @@
   "activeTrials": 14,
   "phase3": 10,
   "phase2": 4,
-  "generatedDate": "2026-11-19",
+  "generatedDate": "2026-11-20",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 12,
     "nextCatalystDate": "2026-12-01",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 12
+    "daysToNextCatalyst": 11
   },
   "trialStats": {
     "completed": 54,
@@ -70,18 +70,6 @@
     "ongoing": 23,
     "withResults": 31,
     "byPhase": {
-      "phase3": {
-        "completed": 18,
-        "terminated": 2,
-        "total": 32,
-        "completionRatePct": 90
-      },
-      "other": {
-        "completed": 3,
-        "terminated": 0,
-        "total": 8,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 18,
         "terminated": 0,
@@ -93,6 +81,18 @@
         "terminated": 2,
         "total": 23,
         "completionRatePct": 88
+      },
+      "phase3": {
+        "completed": 18,
+        "terminated": 2,
+        "total": 32,
+        "completionRatePct": 90
+      },
+      "other": {
+        "completed": 3,
+        "terminated": 0,
+        "total": 8,
+        "completionRatePct": null
       }
     },
     "concluded": 59,
@@ -926,6 +926,21 @@
       "status": "past"
     },
     {
+      "id": "edgar-VNDA-0001628280-26-075166",
+      "ticker": "VNDA",
+      "date": "2026-11-20",
+      "title": "8-K filed: Material agreement",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 1.01. Material agreement. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-20",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1347178/000162828026075166/vnda-20261116.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "ct-VNDA-NCT07446439",
       "ticker": "VNDA",
       "date": "2026-12-01",
@@ -1001,21 +1016,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-VNDA-NCT06961968",
-      "ticker": "VNDA",
-      "date": "2027-11-15",
-      "title": "Randomized Withdrawal Study in Patients With Schizophrenia",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Schizophrenia · 400 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06961968",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06961968",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-VNDA-NCT06953869",
       "ticker": "VNDA",
       "date": "2027-11-15",
@@ -1027,6 +1027,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06953869",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06953869",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-VNDA-NCT06961968",
+      "ticker": "VNDA",
+      "date": "2027-11-15",
+      "title": "Randomized Withdrawal Study in Patients With Schizophrenia",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Schizophrenia · 400 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06961968",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06961968",
       "origin": "registry",
       "status": "upcoming"
     },

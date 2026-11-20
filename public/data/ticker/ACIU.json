@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-19",
+  "generatedDate": "2026-11-20",
   "metrics": {
     "reportingCurrency": "CHF",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 26
+    "daysToNextCatalyst": 25
   },
   "trialStats": {
     "completed": 2,
@@ -530,21 +530,6 @@
       "status": "past"
     },
     {
-      "id": "ct-ACIU-NCT06891703",
-      "ticker": "ACIU",
-      "date": "2026-12-15",
-      "title": "[18F]ACI-15916 PET in α-synucleinopathies",
-      "type": "Trial Milestone",
-      "phase": "EARLY_Phase 1",
-      "estimated": false,
-      "summary": "Parkinson's Disease (PD), Multiple System Atrophy (MSA), Dementia With Lewy Bodies (DLB) · 46 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06891703",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06891703",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ACIU-NCT07463196",
       "ticker": "ACIU",
       "date": "2026-12-15",
@@ -556,6 +541,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07463196",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07463196",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ACIU-NCT06891703",
+      "ticker": "ACIU",
+      "date": "2026-12-15",
+      "title": "[18F]ACI-15916 PET in α-synucleinopathies",
+      "type": "Trial Milestone",
+      "phase": "EARLY_Phase 1",
+      "estimated": false,
+      "summary": "Parkinson's Disease (PD), Multiple System Atrophy (MSA), Dementia With Lewy Bodies (DLB) · 46 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06891703",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06891703",
       "origin": "registry",
       "status": "upcoming"
     },

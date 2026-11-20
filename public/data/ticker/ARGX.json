@@ -11,7 +11,7 @@
   "activeTrials": 28,
   "phase3": 15,
   "phase2": 13,
-  "generatedDate": "2026-11-19",
+  "generatedDate": "2026-11-20",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 29,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 26
+    "daysToNextCatalyst": 25
   },
   "trialStats": {
     "completed": 35,
@@ -76,12 +76,6 @@
         "total": 33,
         "completionRatePct": 73
       },
-      "phase2": {
-        "completed": 9,
-        "terminated": 3,
-        "total": 25,
-        "completionRatePct": 75
-      },
       "other": {
         "completed": 1,
         "terminated": 0,
@@ -93,6 +87,12 @@
         "terminated": 0,
         "total": 19,
         "completionRatePct": 100
+      },
+      "phase2": {
+        "completed": 9,
+        "terminated": 3,
+        "total": 25,
+        "completionRatePct": 75
       }
     },
     "concluded": 44,
@@ -1421,21 +1421,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ARGX-NCT06655155",
-      "ticker": "ARGX",
-      "date": "2027-03-15",
-      "title": "A Study to Assess the Efficacy and Safety of Efgartigimod PH20 SC in Adults With Systemic Sclerosis",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Systemic Sclerosis (SSc) · 87 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06655155",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06655155",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ARGX-NCT07612020",
       "ticker": "ARGX",
       "date": "2027-03-15",
@@ -1447,6 +1432,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07612020",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07612020",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ARGX-NCT06655155",
+      "ticker": "ARGX",
+      "date": "2027-03-15",
+      "title": "A Study to Assess the Efficacy and Safety of Efgartigimod PH20 SC in Adults With Systemic Sclerosis",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Systemic Sclerosis (SSc) · 87 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06655155",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06655155",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1541,21 +1541,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ARGX-NCT04812925",
-      "ticker": "ARGX",
-      "date": "2027-10-15",
-      "title": "A Phase 3 Study to Evaluate the Safety and Efficacy of Efgartigimod PH20 Subcutaneous in Adult Patients With Primary Immune Thrombocytopenia",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Primary Immune Thrombocytopenia · 173 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04812925",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04812925",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ARGX-NCT07673627",
       "ticker": "ARGX",
       "date": "2027-10-15",
@@ -1567,6 +1552,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07673627",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07673627",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ARGX-NCT04812925",
+      "ticker": "ARGX",
+      "date": "2027-10-15",
+      "title": "A Phase 3 Study to Evaluate the Safety and Efficacy of Efgartigimod PH20 Subcutaneous in Adult Patients With Primary Immune Thrombocytopenia",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Primary Immune Thrombocytopenia · 173 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04812925",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04812925",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1631,6 +1631,21 @@
       "status": "upcoming"
     },
     {
+      "id": "ct-ARGX-NCT07570316",
+      "ticker": "ARGX",
+      "date": "2028-06-15",
+      "title": "A Study to Assess Efficacy and Safety of Efgartigimod PH20 SC PFS in Adult Participants With Graves' Disease",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Graves' Disease, Graves Disease · 230 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07570316",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07570316",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
       "id": "ct-ARGX-NCT06544499",
       "ticker": "ARGX",
       "date": "2028-06-15",
@@ -1657,21 +1672,6 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07596849",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07596849",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-ARGX-NCT07570316",
-      "ticker": "ARGX",
-      "date": "2028-06-15",
-      "title": "A Study to Assess Efficacy and Safety of Efgartigimod PH20 SC PFS in Adult Participants With Graves' Disease",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Graves' Disease, Graves Disease · 230 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07570316",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07570316",
       "origin": "registry",
       "status": "upcoming"
     },

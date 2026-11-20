@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 4,
   "phase2": 0,
-  "generatedDate": "2026-11-19",
+  "generatedDate": "2026-11-20",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2027-01-14",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 56
+    "daysToNextCatalyst": 55
   },
   "trialStats": {
     "completed": 10,
@@ -76,17 +76,17 @@
         "total": 10,
         "completionRatePct": 75
       },
-      "phase2": {
-        "completed": 5,
-        "terminated": 1,
-        "total": 6,
-        "completionRatePct": 83
-      },
       "other": {
         "completed": 1,
         "terminated": 1,
         "total": 2,
         "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 5,
+        "terminated": 1,
+        "total": 6,
+        "completionRatePct": 83
       },
       "phase1": {
         "completed": 1,
@@ -697,6 +697,21 @@
       "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
       "source": "SEC EDGAR 8-K 2026-11-12",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1314102/000119312526456889/eypt-20261112.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-EYPT-0001193125-26-468558",
+      "ticker": "EYPT",
+      "date": "2026-11-19",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 8.01. Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-19",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1314102/000119312526468558/eypt-20261117.htm",
       "origin": "edgar",
       "status": "past"
     },

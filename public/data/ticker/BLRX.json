@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-19",
+  "generatedDate": "2026-11-20",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -84,6 +84,12 @@
     "ongoing": 2,
     "withResults": 8,
     "byPhase": {
+      "phase3": {
+        "completed": 0,
+        "terminated": 1,
+        "total": 2,
+        "completionRatePct": null
+      },
       "phase2": {
         "completed": 9,
         "terminated": 2,
@@ -95,12 +101,6 @@
         "terminated": 1,
         "total": 4,
         "completionRatePct": 75
-      },
-      "phase3": {
-        "completed": 0,
-        "terminated": 1,
-        "total": 2,
-        "completionRatePct": null
       }
     },
     "concluded": 16,

@@ -11,7 +11,7 @@
   "activeTrials": 25,
   "phase3": 8,
   "phase2": 17,
-  "generatedDate": "2026-11-19",
+  "generatedDate": "2026-11-20",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -53,39 +53,39 @@
     "fcfMarginPct": 9.8,
     "marketCapUsd": null,
     "entityName": "BioNTech SE",
-    "activeTrials": 73,
+    "activeTrials": 74,
     "phase3Count": 21,
-    "phase2Count": 42,
+    "phase2Count": 43,
     "leadPhase": 4,
-    "upcomingCount": 27,
+    "upcomingCount": 28,
     "nextCatalystDate": "2027-04-12",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 144
+    "daysToNextCatalyst": 143
   },
   "trialStats": {
     "completed": 36,
     "terminated": 6,
     "withdrawn": 2,
     "suspended": 0,
-    "ongoing": 32,
+    "ongoing": 33,
     "withResults": 30,
     "byPhase": {
+      "phase1": {
+        "completed": 8,
+        "terminated": 0,
+        "total": 15,
+        "completionRatePct": 100
+      },
       "phase2": {
         "completed": 12,
         "terminated": 6,
-        "total": 37,
+        "total": 38,
         "completionRatePct": 67
       },
       "phase3": {
         "completed": 14,
         "terminated": 0,
         "total": 21,
-        "completionRatePct": 100
-      },
-      "phase1": {
-        "completed": 8,
-        "terminated": 0,
-        "total": 15,
         "completionRatePct": 100
       },
       "other": {
@@ -1676,21 +1676,6 @@
       "status": "past"
     },
     {
-      "id": "ct-BNTX-NCT07392372",
-      "ticker": "BNTX",
-      "date": "2026-11-15",
-      "title": "A Clinical Trial Investigating the Safety and Biological Activity of the Antibody BNT351 in Adults Living Without and With HIV",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "HIV -1 Infection · 67 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07392372",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07392372",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-BNTX-NCT04486378",
       "ticker": "BNTX",
       "date": "2026-11-15",
@@ -1702,6 +1687,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04486378",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04486378",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-BNTX-NCT07392372",
+      "ticker": "BNTX",
+      "date": "2026-11-15",
+      "title": "A Clinical Trial Investigating the Safety and Biological Activity of the Antibody BNT351 in Adults Living Without and With HIV",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "HIV -1 Infection · 67 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07392372",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07392372",
       "origin": "registry",
       "status": "past"
     },
@@ -1721,21 +1721,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BNTX-NCT06449209",
-      "ticker": "BNTX",
-      "date": "2027-06-15",
-      "title": "Safety, Preliminary Effectiveness of BNT327, an Investigational Therapy for Patients With Small-cell Lung Cancer in Combination With Chemotherapy",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Extensive-stage Small-cell Lung Cancer, Small-cell Lung Cancer · 110 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06449209",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06449209",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BNTX-NCT07379580",
       "ticker": "BNTX",
       "date": "2027-06-15",
@@ -1747,6 +1732,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07379580",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07379580",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BNTX-NCT06449209",
+      "ticker": "BNTX",
+      "date": "2027-06-15",
+      "title": "Safety, Preliminary Effectiveness of BNT327, an Investigational Therapy for Patients With Small-cell Lung Cancer in Combination With Chemotherapy",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Extensive-stage Small-cell Lung Cancer, Small-cell Lung Cancer · 110 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06449209",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06449209",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1826,21 +1826,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BNTX-NCT07070232",
-      "ticker": "BNTX",
-      "date": "2028-03-15",
-      "title": "A Clinical Study to Test if an Investigational Treatment Called BNT326 is Safe and Potentially Beneficial When Used Alone or in Combination With Other Investigational Treatments Such as BNT327, for People With Advanced Malignant Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Advanced Solid Tumor · 1,438 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07070232",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07070232",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BNTX-NCT06340568",
       "ticker": "BNTX",
       "date": "2028-03-15",
@@ -1852,6 +1837,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06340568",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06340568",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BNTX-NCT07070232",
+      "ticker": "BNTX",
+      "date": "2028-03-15",
+      "title": "A Clinical Study to Test if an Investigational Treatment Called BNT326 is Safe and Potentially Beneficial When Used Alone or in Combination With Other Investigational Treatments Such as BNT327, for People With Advanced Malignant Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Advanced Solid Tumor · 1,438 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07070232",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07070232",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -2002,6 +2002,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07886684",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07886684",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BNTX-NCT07951359",
+      "ticker": "BNTX",
+      "date": "2029-10-15",
+      "title": "A First-in-human, Dose Escalation, and Expansion Study of BNT3211 for Participants With Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Advanced Solid Tumor · 345 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07951359",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07951359",
       "origin": "registry",
       "status": "upcoming"
     },

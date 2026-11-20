@@ -11,7 +11,7 @@
   "activeTrials": 16,
   "phase3": 11,
   "phase2": 5,
-  "generatedDate": "2026-11-19",
+  "generatedDate": "2026-11-20",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 18,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 26
+    "daysToNextCatalyst": 25
   },
   "trialStats": {
     "completed": 86,
@@ -76,17 +76,17 @@
         "total": 55,
         "completionRatePct": 92
       },
-      "phase3": {
-        "completed": 14,
-        "terminated": 0,
-        "total": 26,
-        "completionRatePct": 100
-      },
       "phase1": {
         "completed": 23,
         "terminated": 1,
         "total": 26,
         "completionRatePct": 96
+      },
+      "phase3": {
+        "completed": 14,
+        "terminated": 0,
+        "total": 26,
+        "completionRatePct": 100
       },
       "other": {
         "completed": 5,
@@ -101,21 +101,6 @@
   },
   "events": [
     {
-      "id": "ct-IONS-NCT02824003",
-      "ticker": "IONS",
-      "date": "2016-12-15",
-      "title": "Study to Evaluate the Effect of ISIS GCGRRx on Hepatic Lipid and Glycogen Content in Type 2 Diabetes",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Type 2 Diabetes · 15 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT02824003",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02824003",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-IONS-NCT02583919",
       "ticker": "IONS",
       "date": "2016-12-15",
@@ -127,6 +112,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT02583919",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02583919",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-IONS-NCT02824003",
+      "ticker": "IONS",
+      "date": "2016-12-15",
+      "title": "Study to Evaluate the Effect of ISIS GCGRRx on Hepatic Lipid and Glycogen Content in Type 2 Diabetes",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Type 2 Diabetes · 15 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT02824003",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02824003",
       "origin": "registry",
       "status": "past"
     },
@@ -1421,21 +1421,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-IONS-NCT07604974",
-      "ticker": "IONS",
-      "date": "2027-09-15",
-      "title": "A Study to Assess the Safety, Tolerability and Efficacy of ION775",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Hypertriglyceridemia, Severe Hypertriglyceridemia · 72 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07604974",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07604974",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-IONS-NCT06430385",
       "ticker": "IONS",
       "date": "2027-09-15",
@@ -1447,6 +1432,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06430385",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06430385",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-IONS-NCT07604974",
+      "ticker": "IONS",
+      "date": "2027-09-15",
+      "title": "A Study to Assess the Safety, Tolerability and Efficacy of ION775",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Hypertriglyceridemia, Severe Hypertriglyceridemia · 72 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07604974",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07604974",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1526,21 +1526,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-IONS-NCT05667493",
-      "ticker": "IONS",
-      "date": "2029-08-15",
-      "title": "An Extension Study to Assess Long-Term Safety of Eplontersen in Adults With Transthyretin-Mediated Amyloid Cardiomyopathy (ATTR-CM)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Transthyretin-Mediated Amyloid Cardiomyopathy (ATTR CM) · 1,400 participants · Status: Enrolling By Invitation",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05667493",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05667493",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-IONS-NCT05071300",
       "ticker": "IONS",
       "date": "2029-08-15",
@@ -1552,6 +1537,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05071300",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05071300",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-IONS-NCT05667493",
+      "ticker": "IONS",
+      "date": "2029-08-15",
+      "title": "An Extension Study to Assess Long-Term Safety of Eplontersen in Adults With Transthyretin-Mediated Amyloid Cardiomyopathy (ATTR-CM)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Transthyretin-Mediated Amyloid Cardiomyopathy (ATTR CM) · 1,400 participants · Status: Enrolling By Invitation",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05667493",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05667493",
       "origin": "registry",
       "status": "upcoming"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 14,
   "phase3": 5,
   "phase2": 9,
-  "generatedDate": "2026-11-19",
+  "generatedDate": "2026-11-20",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 13,
     "nextCatalystDate": "2027-01-02",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 44
+    "daysToNextCatalyst": 43
   },
   "trialStats": {
     "completed": 62,
@@ -70,11 +70,11 @@
     "ongoing": 29,
     "withResults": 46,
     "byPhase": {
-      "phase2": {
-        "completed": 22,
-        "terminated": 12,
-        "total": 43,
-        "completionRatePct": 65
+      "phase3": {
+        "completed": 20,
+        "terminated": 2,
+        "total": 27,
+        "completionRatePct": 91
       },
       "other": {
         "completed": 16,
@@ -82,17 +82,17 @@
         "total": 35,
         "completionRatePct": 76
       },
+      "phase2": {
+        "completed": 22,
+        "terminated": 12,
+        "total": 43,
+        "completionRatePct": 65
+      },
       "phase1": {
         "completed": 4,
         "terminated": 1,
         "total": 7,
         "completionRatePct": 80
-      },
-      "phase3": {
-        "completed": 20,
-        "terminated": 2,
-        "total": 27,
-        "completionRatePct": 91
       }
     },
     "concluded": 83,
@@ -926,21 +926,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BMRN-NCT04480567",
-      "ticker": "BMRN",
-      "date": "2027-12-15",
-      "title": "AAV Gene Therapy Study for Subjects with PKU",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Phenylketonuria (PKU) · 100 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04480567",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04480567",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BMRN-NCT02724228",
       "ticker": "BMRN",
       "date": "2027-12-15",
@@ -952,6 +937,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT02724228",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02724228",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BMRN-NCT04480567",
+      "ticker": "BMRN",
+      "date": "2027-12-15",
+      "title": "AAV Gene Therapy Study for Subjects with PKU",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Phenylketonuria (PKU) · 100 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04480567",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04480567",
       "origin": "registry",
       "status": "upcoming"
     },

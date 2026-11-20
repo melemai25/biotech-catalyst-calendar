@@ -11,7 +11,7 @@
   "activeTrials": 6,
   "phase3": 3,
   "phase2": 3,
-  "generatedDate": "2026-11-19",
+  "generatedDate": "2026-11-20",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 11,
     "nextCatalystDate": "2027-01-07",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 49
+    "daysToNextCatalyst": 48
   },
   "trialStats": {
     "completed": 0,
@@ -76,16 +76,16 @@
         "total": 3,
         "completionRatePct": null
       },
-      "phase2": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 3,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 0,
         "terminated": 0,
         "total": 5,
+        "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 3,
         "completionRatePct": null
       }
     },
@@ -507,7 +507,7 @@
       "type": "Trial Milestone",
       "phase": "Phase 1",
       "estimated": false,
-      "summary": "NSCLC Adenocarcinoma, Gastroesophageal Cancer (GC), Gastric Adenocarcinoma · 260 participants · Status: Recruiting",
+      "summary": "Bladder Cancer, Mesothelioma, Pleural Mesothelioma · 570 participants · Status: Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT07277413",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07277413",
