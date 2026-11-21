@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 3,
   "phase2": 0,
-  "generatedDate": "2026-11-20",
+  "generatedDate": "2026-11-21",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-02-04",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 76
+    "daysToNextCatalyst": 75
   },
   "trialStats": {
     "completed": 4,
@@ -152,21 +152,6 @@
       "source": "ClinicalTrials.gov NCT03566043",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03566043",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-RGNX-0001193125-25-122456",
-      "ticker": "RGNX",
-      "date": "2025-05-19",
-      "title": "8-K filed: Material agreement, Reg FD disclosure",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 1.01, 2.03, 7.01, 9.01. Material agreement; Reg FD disclosure. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-19",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1590877/000119312525122456/d31892d8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

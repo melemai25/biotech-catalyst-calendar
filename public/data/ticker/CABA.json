@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 2,
   "phase2": 3,
-  "generatedDate": "2026-11-20",
+  "generatedDate": "2026-11-21",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2027-01-28",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 69
+    "daysToNextCatalyst": 68
   },
   "trialStats": {
     "completed": 1,
@@ -94,21 +94,6 @@
     "resultsPostedPct": null
   },
   "events": [
-    {
-      "id": "edgar-CABA-0000950170-25-074589",
-      "ticker": "CABA",
-      "date": "2025-05-19",
-      "title": "8-K filed: Leadership change",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.02. Leadership change. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-19",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1759138/000095017025074589/caba-20250515.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
     {
       "id": "edgar-CABA-0001193125-25-138737",
       "ticker": "CABA",

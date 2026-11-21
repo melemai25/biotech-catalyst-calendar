@@ -11,7 +11,7 @@
   "activeTrials": 16,
   "phase3": 11,
   "phase2": 5,
-  "generatedDate": "2026-11-20",
+  "generatedDate": "2026-11-21",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 18,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 25
+    "daysToNextCatalyst": 24
   },
   "trialStats": {
     "completed": 86,
@@ -818,21 +818,6 @@
       "source": "ClinicalTrials.gov NCT04307381",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04307381",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-IONS-0001140361-25-019620",
-      "ticker": "IONS",
-      "date": "2025-05-19",
-      "title": "8-K filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-19",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/874015/000114036125019620/ef20049265_8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

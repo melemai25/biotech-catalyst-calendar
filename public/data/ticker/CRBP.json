@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 1,
   "phase2": 2,
-  "generatedDate": "2026-11-20",
+  "generatedDate": "2026-11-21",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2027-01-16",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 57
+    "daysToNextCatalyst": 56
   },
   "trialStats": {
     "completed": 5,
@@ -167,21 +167,6 @@
       "source": "ClinicalTrials.gov NCT03813160",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03813160",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-CRBP-0000950170-25-073967",
-      "ticker": "CRBP",
-      "date": "2025-05-19",
-      "title": "8-K filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.07, 8.01. Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-19",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1595097/000095017025073967/crbp-20250515.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

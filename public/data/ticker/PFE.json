@@ -11,7 +11,7 @@
   "activeTrials": 145,
   "phase3": 98,
   "phase2": 47,
-  "generatedDate": "2026-11-20",
+  "generatedDate": "2026-11-21",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 10,
     "nextCatalystDate": "2026-12-25",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 35
+    "daysToNextCatalyst": 34
   },
   "trialStats": {
     "completed": 325,
@@ -1328,21 +1328,6 @@
       "source": "ClinicalTrials.gov NCT04173273",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04173273",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-PFE-0001193125-25-122480",
-      "ticker": "PFE",
-      "date": "2025-05-19",
-      "title": "8-K filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-19",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/78003/000119312525122480/d60311d8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

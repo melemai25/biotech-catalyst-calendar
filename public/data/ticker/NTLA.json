@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 3,
   "phase2": 1,
-  "generatedDate": "2026-11-20",
+  "generatedDate": "2026-11-21",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -52,7 +52,7 @@
     "rndIntensityPct": 64,
     "fcfMarginPct": -677.1,
     "marketCapUsd": null,
-    "entityName": "INTELLIA THERAPEUTICS, INC.",
+    "entityName": "Intellia Therapeutics, Inc.",
     "activeTrials": 6,
     "phase3Count": 3,
     "phase2Count": 2,
@@ -60,7 +60,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2027-01-14",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 55
+    "daysToNextCatalyst": 54
   },
   "trialStats": {
     "completed": 1,
@@ -128,21 +128,6 @@
       "source": "ClinicalTrials.gov NCT05120830",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05120830",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-NTLA-0001193125-25-122076",
-      "ticker": "NTLA",
-      "date": "2025-05-19",
-      "title": "8-K filed: Reg FD disclosure, Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 7.01, 8.01, 9.01. Reg FD disclosure; Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-19",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652130/000119312525122076/d80735d8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

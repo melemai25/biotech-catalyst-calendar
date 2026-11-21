@@ -11,7 +11,7 @@
   "activeTrials": 135,
   "phase3": 72,
   "phase2": 63,
-  "generatedDate": "2026-11-20",
+  "generatedDate": "2026-11-21",
   "metrics": {
     "reportingCurrency": "GBP",
     "taxonomy": "ifrs-full",
@@ -74,7 +74,7 @@
     "upcomingCount": 13,
     "nextCatalystDate": "2027-05-03",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 164
+    "daysToNextCatalyst": 163
   },
   "trialStats": {
     "completed": 378,
@@ -1087,36 +1087,6 @@
       "source": "ClinicalTrials.gov NCT04475939",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04475939",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-GSK-0001654954-25-005839",
-      "ticker": "GSK",
-      "date": "2025-05-19",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. BLENREP FOR 2L+ MULTIPLE MYELOMA APPROVED IN JAPAN.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-19",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1131399/000165495425005839/a1837j.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-GSK-0001654954-25-005825",
-      "ticker": "GSK",
-      "date": "2025-05-19",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. TRANSACTION IN OWN SHARES.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-19",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1131399/000165495425005825/a1002j.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {
