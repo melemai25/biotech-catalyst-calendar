@@ -11,7 +11,7 @@
   "activeTrials": 318,
   "phase3": 191,
   "phase2": 127,
-  "generatedDate": "2026-11-21",
+  "generatedDate": "2026-11-22",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -92,7 +92,7 @@
     "upcomingCount": 29,
     "nextCatalystDate": "2027-01-25",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 65
+    "daysToNextCatalyst": 64
   },
   "trialStats": {
     "completed": 346,
@@ -1315,21 +1315,6 @@
       "source": "ClinicalTrials.gov NCT06519968",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06519968",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-AZN-0001654954-25-005901",
-      "ticker": "AZN",
-      "date": "2025-05-20",
-      "title": "6-K filed: Corporate announcement",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Corporate announcement. ACQUISITION OF ESOBIOTEC COMPLETED.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-20",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/901832/000165495425005901/a3029j.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

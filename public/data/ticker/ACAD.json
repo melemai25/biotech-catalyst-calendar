@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 3,
   "phase2": 2,
-  "generatedDate": "2026-11-21",
+  "generatedDate": "2026-11-22",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2027-01-13",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 53
+    "daysToNextCatalyst": 52
   },
   "trialStats": {
     "completed": 25,
@@ -452,21 +452,6 @@
       "source": "ClinicalTrials.gov NCT05555615",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05555615",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ACAD-0001193125-25-123175",
-      "ticker": "ACAD",
-      "date": "2025-05-20",
-      "title": "8-K filed: Material agreement, Other event",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 1.01, 8.01. Material agreement; Other event. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-20",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1070494/000119312525123175/d943674d8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

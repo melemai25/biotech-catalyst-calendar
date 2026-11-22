@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-11-21",
+  "generatedDate": "2026-11-22",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -74,7 +74,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-03-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 114
+    "daysToNextCatalyst": 113
   },
   "trialStats": {
     "completed": 0,
@@ -121,21 +121,6 @@
       "source": "ClinicalTrials.gov NCT05306574",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05306574",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-VOR-0001193125-25-123141",
-      "ticker": "VOR",
-      "date": "2025-05-20",
-      "title": "8-K filed: Leadership change",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.02. Leadership change. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-20",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1817229/000119312525123141/d927316d8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

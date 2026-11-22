@@ -11,7 +11,7 @@
   "activeTrials": 18,
   "phase3": 14,
   "phase2": 4,
-  "generatedDate": "2026-11-21",
+  "generatedDate": "2026-11-22",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,14 +53,14 @@
     "fcfMarginPct": 20.1,
     "marketCapUsd": null,
     "entityName": "BIOGEN INC.",
-    "activeTrials": 158,
-    "phase3Count": 52,
+    "activeTrials": 157,
+    "phase3Count": 51,
     "phase2Count": 44,
     "leadPhase": 4,
     "upcomingCount": 22,
     "nextCatalystDate": "2026-12-01",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 10
+    "daysToNextCatalyst": 9
   },
   "trialStats": {
     "completed": 321,
@@ -100,21 +100,6 @@
     "resultsPostedPct": 36
   },
   "events": [
-    {
-      "id": "ct-BIIB-NCT02193074",
-      "ticker": "BIIB",
-      "date": "2016-11-21",
-      "title": "A Study to Assess the Efficacy and Safety of Nusinersen (ISIS 396443) in Infants With Spinal Muscular Atrophy",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Spinal Muscular Atrophy · 122 participants · Status: Terminated",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02193074",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02193074",
-      "origin": "registry",
-      "status": "past"
-    },
     {
       "id": "ct-BIIB-NCT02434718",
       "ticker": "BIIB",
