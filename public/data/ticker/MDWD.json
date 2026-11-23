@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 1,
   "phase2": 3,
-  "generatedDate": "2026-11-22",
+  "generatedDate": "2026-11-23",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -74,7 +74,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 23
+    "daysToNextCatalyst": 22
   },
   "trialStats": {
     "completed": 8,
@@ -84,12 +84,6 @@
     "ongoing": 6,
     "withResults": 2,
     "byPhase": {
-      "other": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 3,
-        "completionRatePct": null
-      },
       "phase3": {
         "completed": 3,
         "terminated": 0,
@@ -101,6 +95,12 @@
         "terminated": 1,
         "total": 8,
         "completionRatePct": 80
+      },
+      "other": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 3,
+        "completionRatePct": null
       }
     },
     "concluded": 9,
@@ -196,21 +196,6 @@
       "source": "ClinicalTrials.gov NCT05157763",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05157763",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-MDWD-0001178913-25-001904",
-      "ticker": "MDWD",
-      "date": "2025-05-21",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-21",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1593984/000117891325001904/zk2533237.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

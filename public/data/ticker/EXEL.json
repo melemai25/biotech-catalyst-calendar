@@ -11,7 +11,7 @@
   "activeTrials": 11,
   "phase3": 9,
   "phase2": 2,
-  "generatedDate": "2026-11-22",
+  "generatedDate": "2026-11-23",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,10 +57,10 @@
     "phase3Count": 11,
     "phase2Count": 4,
     "leadPhase": 4,
-    "upcomingCount": 14,
-    "nextCatalystDate": "2026-11-23",
+    "upcomingCount": 13,
+    "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 22
   },
   "trialStats": {
     "completed": 18,
@@ -70,6 +70,12 @@
     "ongoing": 23,
     "withResults": 15,
     "byPhase": {
+      "phase1": {
+        "completed": 10,
+        "terminated": 11,
+        "total": 32,
+        "completionRatePct": 48
+      },
       "phase3": {
         "completed": 4,
         "terminated": 1,
@@ -87,12 +93,6 @@
         "terminated": 0,
         "total": 2,
         "completionRatePct": null
-      },
-      "phase1": {
-        "completed": 10,
-        "terminated": 11,
-        "total": 32,
-        "completionRatePct": 48
       }
     },
     "concluded": 33,
@@ -518,7 +518,7 @@
       "source": "ClinicalTrials.gov NCT06545331",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06545331",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-EXEL-NCT05678673",

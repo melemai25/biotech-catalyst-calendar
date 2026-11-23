@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-22",
+  "generatedDate": "2026-11-23",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -80,7 +80,7 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2027-05-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 174
+    "daysToNextCatalyst": 173
   },
   "trialStats": {
     "completed": 1,
@@ -956,7 +956,7 @@
       "type": "Trial Milestone",
       "phase": "Phase 3",
       "estimated": false,
-      "summary": "Neuropathic Corneal Pain · 111 participants · Status: Not Yet Recruiting",
+      "summary": "Neuropathic Corneal Pain · 111 participants · Status: Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT07838506",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07838506",

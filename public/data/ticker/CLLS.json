@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-22",
+  "generatedDate": "2026-11-23",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2027-08-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 266
+    "daysToNextCatalyst": 265
   },
   "trialStats": {
     "completed": 0,
@@ -70,16 +70,16 @@
     "ongoing": 3,
     "withResults": 0,
     "byPhase": {
-      "phase2": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 0,
         "terminated": 2,
         "total": 4,
+        "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 2,
         "completionRatePct": null
       }
     },
@@ -131,36 +131,6 @@
       "source": "ClinicalTrials.gov NCT03190278",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03190278",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-CLLS-0001171843-25-003373",
-      "ticker": "CLLS",
-      "date": "2025-05-21",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. FORM 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-21",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1627281/000117184325003373/f6k_052125.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "edgar-CLLS-0000950170-25-075808",
-      "ticker": "CLLS",
-      "date": "2025-05-21",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-21",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1627281/000095017025075808/ccls_6-k_general_meeting.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

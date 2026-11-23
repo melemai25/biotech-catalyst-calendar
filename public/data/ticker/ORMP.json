@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-22",
+  "generatedDate": "2026-11-23",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2027-04-25",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 154
+    "daysToNextCatalyst": 153
   },
   "trialStats": {
     "completed": 10,
@@ -221,21 +221,6 @@
       "source": "ClinicalTrials.gov NCT04606576",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04606576",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ORMP-0001213900-25-046436",
-      "ticker": "ORMP",
-      "date": "2025-05-21",
-      "title": "8-K filed: Other event",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 8.01. Other event. CURRENT REPORT.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-21",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1176309/000121390025046436/ea0243059-8k_oramed.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

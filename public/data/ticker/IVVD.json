@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-11-22",
+  "generatedDate": "2026-11-23",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-01-25",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 64
+    "daysToNextCatalyst": 63
   },
   "trialStats": {
     "completed": 3,
@@ -76,16 +76,16 @@
         "total": 5,
         "completionRatePct": 50
       },
-      "phase1": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
-      },
       "other": {
         "completed": 0,
         "terminated": 0,
         "total": 1,
+        "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 2,
         "completionRatePct": null
       },
       "phase2": {
@@ -517,6 +517,21 @@
       "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
       "source": "SEC EDGAR 8-K 2026-11-16",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1832038/000119312526462025/ivvd-20261116.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-IVVD-0001193125-26-471002",
+      "ticker": "IVVD",
+      "date": "2026-11-23",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-23",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1832038/000119312526471002/ivvd-20261123.htm",
       "origin": "edgar",
       "status": "past"
     },

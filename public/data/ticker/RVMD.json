@@ -11,7 +11,7 @@
   "activeTrials": 12,
   "phase3": 7,
   "phase2": 5,
-  "generatedDate": "2026-11-22",
+  "generatedDate": "2026-11-23",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -68,7 +68,7 @@
     "upcomingCount": 15,
     "nextCatalystDate": "2026-12-31",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 39
+    "daysToNextCatalyst": 38
   },
   "trialStats": {
     "completed": 3,
@@ -78,10 +78,10 @@
     "ongoing": 17,
     "withResults": 2,
     "byPhase": {
-      "phase1": {
-        "completed": 1,
+      "phase2": {
+        "completed": 2,
         "terminated": 0,
-        "total": 5,
+        "total": 7,
         "completionRatePct": null
       },
       "phase3": {
@@ -90,16 +90,16 @@
         "total": 7,
         "completionRatePct": null
       },
-      "phase2": {
-        "completed": 2,
-        "terminated": 0,
-        "total": 7,
-        "completionRatePct": null
-      },
       "other": {
         "completed": 0,
         "terminated": 0,
         "total": 1,
+        "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 5,
         "completionRatePct": null
       }
     },
@@ -514,21 +514,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-RVMD-NCT07349537",
-      "ticker": "RVMD",
-      "date": "2028-04-15",
-      "title": "Study of RMC-5127 in Patients With Advanced KRAS G12V-Mutant Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Non-small Cell Lung Cancer (NSCLC), Colorectal Cancer (CRC), Pancreatic Adenocarcinoma · 574 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07349537",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07349537",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-RVMD-NCT07491445",
       "ticker": "RVMD",
       "date": "2028-04-15",
@@ -540,6 +525,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07491445",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07491445",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-RVMD-NCT07349537",
+      "ticker": "RVMD",
+      "date": "2028-04-15",
+      "title": "Study of RMC-5127 in Patients With Advanced KRAS G12V-Mutant Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Non-small Cell Lung Cancer (NSCLC), Colorectal Cancer (CRC), Pancreatic Adenocarcinoma · 574 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07349537",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07349537",
       "origin": "registry",
       "status": "upcoming"
     },

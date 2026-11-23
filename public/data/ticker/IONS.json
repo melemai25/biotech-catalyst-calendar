@@ -11,7 +11,7 @@
   "activeTrials": 16,
   "phase3": 11,
   "phase2": 5,
-  "generatedDate": "2026-11-22",
+  "generatedDate": "2026-11-23",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 18,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 23
+    "daysToNextCatalyst": 22
   },
   "trialStats": {
     "completed": 86,
@@ -101,21 +101,6 @@
   },
   "events": [
     {
-      "id": "ct-IONS-NCT02583919",
-      "ticker": "IONS",
-      "date": "2016-12-15",
-      "title": "Safety, Tolerability and Efficacy of ISIS-GCGRRx in Patients With Type 2 Diabetes",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Type 2 Diabetes · 79 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT02583919",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02583919",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-IONS-NCT02824003",
       "ticker": "IONS",
       "date": "2016-12-15",
@@ -127,6 +112,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT02824003",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02824003",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-IONS-NCT02583919",
+      "ticker": "IONS",
+      "date": "2016-12-15",
+      "title": "Safety, Tolerability and Efficacy of ISIS-GCGRRx in Patients With Type 2 Diabetes",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Type 2 Diabetes · 79 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT02583919",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02583919",
       "origin": "registry",
       "status": "past"
     },
@@ -1406,17 +1406,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-IONS-NCT06430385",
+      "id": "ct-IONS-NCT04165486",
       "ticker": "IONS",
       "date": "2027-09-15",
-      "title": "ATTUNE: A Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of Intrathecally-Administered ION440 in Participants With Methyl CpG Binding Protein 2 (MECP2) Duplication Syndrome (MDS)",
+      "title": "Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of ION464 Administered to Adults With Multiple System Atrophy (HORIZON)",
       "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
+      "phase": "Phase 1",
       "estimated": false,
-      "summary": "Methyl CpG Binding Protein 2 (MECP2) Duplication Syndrome · 48 participants · Status: Recruiting",
+      "summary": "Multiple System Atrophy · 40 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT06430385",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06430385",
+      "source": "ClinicalTrials.gov NCT04165486",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04165486",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1436,17 +1436,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-IONS-NCT04165486",
+      "id": "ct-IONS-NCT06430385",
       "ticker": "IONS",
       "date": "2027-09-15",
-      "title": "Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of ION464 Administered to Adults With Multiple System Atrophy (HORIZON)",
+      "title": "ATTUNE: A Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of Intrathecally-Administered ION440 in Participants With Methyl CpG Binding Protein 2 (MECP2) Duplication Syndrome (MDS)",
       "type": "Trial Milestone",
-      "phase": "Phase 1",
+      "phase": "Phase 1/Phase 2",
       "estimated": false,
-      "summary": "Multiple System Atrophy · 40 participants · Status: Recruiting",
+      "summary": "Methyl CpG Binding Protein 2 (MECP2) Duplication Syndrome · 48 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT04165486",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04165486",
+      "source": "ClinicalTrials.gov NCT06430385",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06430385",
       "origin": "registry",
       "status": "upcoming"
     },

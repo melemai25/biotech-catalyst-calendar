@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-22",
+  "generatedDate": "2026-11-23",
   "metrics": {
     "reportingCurrency": "CAD",
     "taxonomy": "ifrs-full",
@@ -70,16 +70,16 @@
     "ongoing": 2,
     "withResults": 0,
     "byPhase": {
-      "phase1": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 1,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 0,
         "terminated": 0,
         "total": 2,
+        "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 1,
         "completionRatePct": null
       }
     },
@@ -101,21 +101,6 @@
       "source": "ClinicalTrials.gov NCT05397041",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05397041",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-DRUG-0002060755-25-000016",
-      "ticker": "DRUG",
-      "date": "2025-05-21",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-21",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1827401/000206075525000016/f6k-20250520.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

@@ -11,7 +11,7 @@
   "activeTrials": 6,
   "phase3": 1,
   "phase2": 5,
-  "generatedDate": "2026-11-22",
+  "generatedDate": "2026-11-23",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,10 +57,10 @@
     "phase3Count": 4,
     "phase2Count": 13,
     "leadPhase": 4,
-    "upcomingCount": 4,
-    "nextCatalystDate": "2026-12-15",
+    "upcomingCount": 5,
+    "nextCatalystDate": "2026-12-08",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 23
+    "daysToNextCatalyst": 15
   },
   "trialStats": {
     "completed": 59,
@@ -1031,21 +1031,6 @@
       "status": "past"
     },
     {
-      "id": "ct-CORT-NCT05407324",
-      "ticker": "CORT",
-      "date": "2026-10-15",
-      "title": "Dazucorilant in Patients With Amyotrophic Lateral Sclerosis",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Amyotrophic Lateral Sclerosis · 279 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05407324",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05407324",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "edgar-CORT-0001628280-26-069494",
       "ticker": "CORT",
       "date": "2026-11-03",
@@ -1059,6 +1044,21 @@
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026069494/cort-20261103.htm",
       "origin": "edgar",
       "status": "past"
+    },
+    {
+      "id": "ct-CORT-NCT05407324",
+      "ticker": "CORT",
+      "date": "2026-12-08",
+      "title": "Dazucorilant in Patients With Amyotrophic Lateral Sclerosis",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Amyotrophic Lateral Sclerosis · 279 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05407324",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05407324",
+      "origin": "registry",
+      "status": "upcoming"
     },
     {
       "id": "ct-CORT-NCT03604198",

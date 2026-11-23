@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 2,
   "phase2": 1,
-  "generatedDate": "2026-11-22",
+  "generatedDate": "2026-11-23",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,21 +53,21 @@
     "fcfMarginPct": -493.4,
     "marketCapUsd": null,
     "entityName": "NEKTAR THERAPEUTICS",
-    "activeTrials": 31,
-    "phase3Count": 9,
+    "activeTrials": 32,
+    "phase3Count": 10,
     "phase2Count": 13,
     "leadPhase": 3,
-    "upcomingCount": 3,
+    "upcomingCount": 4,
     "nextCatalystDate": "2027-02-11",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 81
+    "daysToNextCatalyst": 80
   },
   "trialStats": {
     "completed": 27,
     "terminated": 8,
     "withdrawn": 1,
     "suspended": 0,
-    "ongoing": 3,
+    "ongoing": 4,
     "withResults": 24,
     "byPhase": {
       "phase2": {
@@ -79,7 +79,7 @@
       "phase3": {
         "completed": 4,
         "terminated": 4,
-        "total": 10,
+        "total": 11,
         "completionRatePct": 50
       },
       "phase1": {
@@ -961,6 +961,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07711418",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07711418",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-NKTR-NCT07954349",
+      "ticker": "NKTR",
+      "date": "2028-07-15",
+      "title": "A Phase 3 Study of Rezpegaldesleukin (NKTR-358) in the Treatment of Patients ≥ 12 Years of Age With Moderate-to-Severe Atopic Dermatitis Previously Treated With Biologic and/or Oral JAK Inhibitor Therapy (ZENITH AD-3)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Moderate-to-Severe Atopic Dermatitis · 510 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07954349",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07954349",
       "origin": "registry",
       "status": "upcoming"
     }

@@ -11,7 +11,7 @@
   "activeTrials": 25,
   "phase3": 8,
   "phase2": 17,
-  "generatedDate": "2026-11-22",
+  "generatedDate": "2026-11-23",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -57,10 +57,10 @@
     "phase3Count": 21,
     "phase2Count": 43,
     "leadPhase": 4,
-    "upcomingCount": 28,
+    "upcomingCount": 27,
     "nextCatalystDate": "2027-04-12",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 141
+    "daysToNextCatalyst": 140
   },
   "trialStats": {
     "completed": 36,
@@ -70,10 +70,10 @@
     "ongoing": 33,
     "withResults": 30,
     "byPhase": {
-      "phase1": {
-        "completed": 8,
+      "phase3": {
+        "completed": 14,
         "terminated": 0,
-        "total": 15,
+        "total": 21,
         "completionRatePct": 100
       },
       "phase2": {
@@ -82,10 +82,10 @@
         "total": 38,
         "completionRatePct": 67
       },
-      "phase3": {
-        "completed": 14,
+      "phase1": {
+        "completed": 8,
         "terminated": 0,
-        "total": 21,
+        "total": 15,
         "completionRatePct": 100
       },
       "other": {
@@ -1526,6 +1526,21 @@
       "status": "past"
     },
     {
+      "id": "ct-BNTX-NCT07730450",
+      "ticker": "BNTX",
+      "date": "2026-09-30",
+      "title": "A Study to Learn About a COVID-19 Vaccine in Healthy Adults 18 Through 64 Years of Age",
+      "type": "Trial Milestone",
+      "phase": "Phase 4",
+      "estimated": false,
+      "summary": "COVID-19 Vaccines · 175 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07730450",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07730450",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "edgar-BNTX-0001776985-26-000067",
       "ticker": "BNTX",
       "date": "2026-10-13",
@@ -1661,21 +1676,6 @@
       "status": "past"
     },
     {
-      "id": "ct-BNTX-NCT04486378",
-      "ticker": "BNTX",
-      "date": "2026-11-15",
-      "title": "A Phase II Clinical Trial Comparing the Efficacy of RO7198457 Versus Watchful Waiting in Patients With ctDNA-positive, Resected Stage II (High Risk) and Stage III Colorectal Cancer",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Colorectal Cancer Stage II, Colorectal Cancer Stage III · 327 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04486378",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04486378",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-BNTX-NCT07392372",
       "ticker": "BNTX",
       "date": "2026-11-15",
@@ -1687,6 +1687,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07392372",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07392372",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-BNTX-NCT04486378",
+      "ticker": "BNTX",
+      "date": "2026-11-15",
+      "title": "A Phase II Clinical Trial Comparing the Efficacy of RO7198457 Versus Watchful Waiting in Patients With ctDNA-positive, Resected Stage II (High Risk) and Stage III Colorectal Cancer",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Colorectal Cancer Stage II, Colorectal Cancer Stage III · 327 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04486378",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04486378",
       "origin": "registry",
       "status": "past"
     },
@@ -1706,21 +1721,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BNTX-NCT07379580",
-      "ticker": "BNTX",
-      "date": "2027-06-15",
-      "title": "A Randomized Clinical Trial Investigating the Safety, Reactogenicity, and Immunogenicity After Immunization With an mRNA-based Mpox Vaccine Candidate in Africa",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Mpox (Monkeypox), Smallpox, Orthopoxvirus Infection · 310 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07379580",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07379580",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BNTX-NCT06449209",
       "ticker": "BNTX",
       "date": "2027-06-15",
@@ -1736,17 +1736,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BNTX-NCT07730450",
+      "id": "ct-BNTX-NCT07379580",
       "ticker": "BNTX",
-      "date": "2027-08-20",
-      "title": "A Study to Learn About a COVID-19 Vaccine in Healthy Adults 18 Through 64 Years of Age",
+      "date": "2027-06-15",
+      "title": "A Randomized Clinical Trial Investigating the Safety, Reactogenicity, and Immunogenicity After Immunization With an mRNA-based Mpox Vaccine Candidate in Africa",
       "type": "Trial Milestone",
-      "phase": "Phase 4",
+      "phase": "Phase 2",
       "estimated": false,
-      "summary": "COVID-19 Vaccines · 200 participants · Status: Recruiting",
+      "summary": "Mpox (Monkeypox), Smallpox, Orthopoxvirus Infection · 310 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT07730450",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07730450",
+      "source": "ClinicalTrials.gov NCT07379580",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07379580",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1916,21 +1916,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BNTX-NCT06712355",
-      "ticker": "BNTX",
-      "date": "2029-04-15",
-      "title": "Safety and Efficacy of BNT327, an Investigational Therapy in Combination With Chemotherapy for Patients With Untreated Small-cell Lung Cancer",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Extensive-stage Small-cell Lung Cancer · 621 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06712355",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06712355",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BNTX-NCT04534205",
       "ticker": "BNTX",
       "date": "2029-04-15",
@@ -1942,6 +1927,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04534205",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04534205",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BNTX-NCT06712355",
+      "ticker": "BNTX",
+      "date": "2029-04-15",
+      "title": "Safety and Efficacy of BNT327, an Investigational Therapy in Combination With Chemotherapy for Patients With Untreated Small-cell Lung Cancer",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Extensive-stage Small-cell Lung Cancer · 621 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06712355",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06712355",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1976,21 +1976,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BNTX-NCT07886684",
-      "ticker": "BNTX",
-      "date": "2029-10-15",
-      "title": "A Clinical Trial to Test if the Investigational Drug BNT3210 is Safe and Potentially Beneficial for People With Advanced Solid Tumors Known to Express the Tumor Marker Sialyl-Tn",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Advanced Solid Tumors · 173 participants · Status: Not Yet Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07886684",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07886684",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BNTX-NCT07951359",
       "ticker": "BNTX",
       "date": "2029-10-15",
@@ -2002,6 +1987,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07951359",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07951359",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BNTX-NCT07886684",
+      "ticker": "BNTX",
+      "date": "2029-10-15",
+      "title": "A Clinical Trial to Test if the Investigational Drug BNT3210 is Safe and Potentially Beneficial for People With Advanced Solid Tumors Known to Express the Tumor Marker Sialyl-Tn",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Advanced Solid Tumors · 173 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07886684",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07886684",
       "origin": "registry",
       "status": "upcoming"
     },

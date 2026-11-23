@@ -11,7 +11,7 @@
   "activeTrials": 16,
   "phase3": 2,
   "phase2": 14,
-  "generatedDate": "2026-11-22",
+  "generatedDate": "2026-11-23",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -52,7 +52,21 @@
     "rndIntensityPct": null,
     "fcfMarginPct": -162.5,
     "marketCapUsd": null,
-    "entityName": "IMMUNITYBIO, INC.",
+    "entityName": "ImmunityBio, Inc.",
+    "financingSinceCash": [
+      {
+        "date": "2026-11-23",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326110/000119312526471020/d206985d424b5.htm"
+      },
+      {
+        "date": "2026-11-23",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326110/000119312526470955/d286740d8k.htm"
+      }
+    ],
     "activeTrials": 48,
     "phase3Count": 5,
     "phase2Count": 30,
@@ -60,7 +74,7 @@
     "upcomingCount": 13,
     "nextCatalystDate": "2027-03-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 113
+    "daysToNextCatalyst": 112
   },
   "trialStats": {
     "completed": 18,
@@ -70,28 +84,28 @@
     "ongoing": 23,
     "withResults": 24,
     "byPhase": {
-      "phase1": {
-        "completed": 10,
-        "terminated": 4,
-        "total": 21,
-        "completionRatePct": 71
-      },
       "phase2": {
         "completed": 7,
         "terminated": 11,
         "total": 51,
         "completionRatePct": 39
       },
-      "other": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 3,
-        "completionRatePct": null
+      "phase1": {
+        "completed": 10,
+        "terminated": 4,
+        "total": 21,
+        "completionRatePct": 71
       },
       "phase3": {
         "completed": 1,
         "terminated": 2,
         "total": 8,
+        "completionRatePct": null
+      },
+      "other": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 3,
         "completionRatePct": null
       }
     },
@@ -131,21 +145,6 @@
       "status": "past"
     },
     {
-      "id": "ct-IBRX-NCT02049905",
-      "ticker": "IBRX",
-      "date": "2017-05-15",
-      "title": "Phase 3 Study to Treat Patients With Soft Tissue Sarcomas",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Metastatic, Locally Advanced or Unresectable Soft Tissue Sarcoma · 433 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02049905",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02049905",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-IBRX-NCT02200757",
       "ticker": "IBRX",
       "date": "2017-05-15",
@@ -157,6 +156,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT02200757",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02200757",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-IBRX-NCT02049905",
+      "ticker": "IBRX",
+      "date": "2017-05-15",
+      "title": "Phase 3 Study to Treat Patients With Soft Tissue Sarcomas",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Metastatic, Locally Advanced or Unresectable Soft Tissue Sarcoma · 433 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT02049905",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02049905",
       "origin": "registry",
       "status": "past"
     },
@@ -566,21 +580,6 @@
       "status": "past"
     },
     {
-      "id": "ct-IBRX-NCT03520686",
-      "ticker": "IBRX",
-      "date": "2025-10-13",
-      "title": "Nogapendekin Alfa Inbakicept for Advanced Non-Small Cell Lung Cancer",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Non Small Cell Lung Cancer · 102 participants · Status: Terminated",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT03520686",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT03520686",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-IBRX-NCT04390399",
       "ticker": "IBRX",
       "date": "2025-10-13",
@@ -592,6 +591,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04390399",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04390399",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-IBRX-NCT03520686",
+      "ticker": "IBRX",
+      "date": "2025-10-13",
+      "title": "Nogapendekin Alfa Inbakicept for Advanced Non-Small Cell Lung Cancer",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Non Small Cell Lung Cancer · 102 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT03520686",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03520686",
       "origin": "registry",
       "status": "past"
     },
@@ -968,6 +982,21 @@
       "source": "ClinicalTrials.gov NCT06829823",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06829823",
       "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "edgar-IBRX-0001193125-26-470955",
+      "ticker": "IBRX",
+      "date": "2026-11-23",
+      "title": "8-K filed: Material agreement, Other event",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 1.01, 2.03, 8.01, 9.01. Material agreement; Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-23",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326110/000119312526470955/d286740d8k.htm",
+      "origin": "edgar",
       "status": "past"
     },
     {

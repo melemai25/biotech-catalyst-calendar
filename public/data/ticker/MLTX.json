@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 3,
   "phase2": 0,
-  "generatedDate": "2026-11-22",
+  "generatedDate": "2026-11-23",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,33 +53,33 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "MOONLAKE IMMUNOTHERAPEUTICS",
-    "activeTrials": 10,
-    "phase3Count": 7,
+    "activeTrials": 11,
+    "phase3Count": 8,
     "phase2Count": 2,
     "leadPhase": 3,
-    "upcomingCount": 4,
+    "upcomingCount": 5,
     "nextCatalystDate": "2027-01-04",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 43
+    "daysToNextCatalyst": 42
   },
   "trialStats": {
     "completed": 6,
     "terminated": 0,
     "withdrawn": 0,
     "suspended": 0,
-    "ongoing": 4,
+    "ongoing": 5,
     "withResults": 2,
     "byPhase": {
-      "phase3": {
-        "completed": 3,
-        "terminated": 0,
-        "total": 7,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 2,
         "terminated": 0,
         "total": 2,
+        "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 3,
+        "terminated": 0,
+        "total": 8,
         "completionRatePct": null
       },
       "phase1": {
@@ -481,6 +481,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07007637",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07007637",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-MLTX-NCT07951983",
+      "ticker": "MLTX",
+      "date": "2029-04-02",
+      "title": "A Study to Evaluate the Efficacy and Safety of Sonelokimab Compared With Placebo in Participants With Palmoplantar Pustulosis",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Palmoplantar Pustulosis (PPP) · 372 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07951983",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07951983",
       "origin": "registry",
       "status": "upcoming"
     }
