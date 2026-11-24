@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-23",
+  "generatedDate": "2026-11-24",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -68,7 +68,7 @@
     "upcomingCount": 6,
     "nextCatalystDate": "2027-02-08",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 77
+    "daysToNextCatalyst": 76
   },
   "trialStats": {
     "completed": 4,
@@ -404,7 +404,7 @@
       "type": "Trial Milestone",
       "phase": "Phase 1",
       "estimated": false,
-      "summary": "Colorectal Cancer, Non-Small Cell Lung Cancer, Small Cell Lung Cancer · 200 participants · Status: Not Yet Recruiting",
+      "summary": "Colorectal Cancer, Non-Small Cell Lung Cancer, Small Cell Lung Cancer · 200 participants · Status: Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT07890246",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07890246",

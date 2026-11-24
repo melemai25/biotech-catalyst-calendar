@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-23",
+  "generatedDate": "2026-11-24",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,6 +53,14 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "DIAMEDICA THERAPEUTICS INC.",
+    "financingSinceCash": [
+      {
+        "date": "2026-11-24",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1401040/000143774926038178/dmtp20261120_424b5.htm"
+      }
+    ],
     "activeTrials": 5,
     "phase3Count": 1,
     "phase2Count": 3,
@@ -60,7 +68,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 22
+    "daysToNextCatalyst": 21
   },
   "trialStats": {
     "completed": 5,
@@ -82,13 +90,13 @@
         "total": 3,
         "completionRatePct": null
       },
-      "other": {
+      "phase3": {
         "completed": 0,
         "terminated": 0,
         "total": 1,
         "completionRatePct": null
       },
-      "phase3": {
+      "other": {
         "completed": 0,
         "terminated": 0,
         "total": 1,
@@ -337,6 +345,36 @@
       "result": "Results were furnished with this filing. Open the 8-K for the earnings release exhibit.",
       "source": "SEC EDGAR 8-K 2026-11-12",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1401040/000143774926036600/dmtp20261112_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-DMAC-0001437749-26-038185",
+      "ticker": "DMAC",
+      "date": "2026-11-24",
+      "title": "8-K filed: Material agreement, Other event",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 1.01, 8.01, 9.01. Material agreement; Other event. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-24",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1401040/000143774926038185/dmtp20261124_8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-DMAC-0001437749-26-038127",
+      "ticker": "DMAC",
+      "date": "2026-11-24",
+      "title": "8-K filed: Reg FD disclosure, Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 7.01, 8.01, 9.01. Reg FD disclosure; Other event. FORM 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-24",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1401040/000143774926038127/dmtp20261122_8k.htm",
       "origin": "edgar",
       "status": "past"
     },

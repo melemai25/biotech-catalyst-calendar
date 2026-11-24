@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-11-23",
+  "generatedDate": "2026-11-24",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2027-01-22",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 60
+    "daysToNextCatalyst": 59
   },
   "trialStats": {
     "completed": 1,
@@ -366,7 +366,7 @@
       "type": "Trial Milestone",
       "phase": "Phase 2",
       "estimated": false,
-      "summary": "NSCLC (Advanced Non-small Cell Lung Cancer), Non-Squamous Non Small Cell Lung Cancer, Metastatic Non-Small Lung Cell Cancer · 100 participants · Status: Not Yet Recruiting",
+      "summary": "NSCLC (Advanced Non-small Cell Lung Cancer), Non-Squamous Non Small Cell Lung Cancer, Metastatic Non-Small Lung Cell Cancer · 100 participants · Status: Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT07946848",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07946848",

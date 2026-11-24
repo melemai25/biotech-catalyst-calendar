@@ -11,7 +11,7 @@
   "activeTrials": 7,
   "phase3": 4,
   "phase2": 3,
-  "generatedDate": "2026-11-23",
+  "generatedDate": "2026-11-24",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 8,
     "nextCatalystDate": "2026-12-01",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 8
+    "daysToNextCatalyst": 7
   },
   "trialStats": {
     "completed": 15,
@@ -70,17 +70,17 @@
     "ongoing": 12,
     "withResults": 11,
     "byPhase": {
-      "phase2": {
-        "completed": 5,
-        "terminated": 6,
-        "total": 14,
-        "completionRatePct": 45
-      },
       "phase3": {
         "completed": 3,
         "terminated": 3,
         "total": 10,
         "completionRatePct": 50
+      },
+      "phase2": {
+        "completed": 5,
+        "terminated": 6,
+        "total": 14,
+        "completionRatePct": 45
       },
       "phase1": {
         "completed": 7,
@@ -673,12 +673,12 @@
     {
       "id": "ct-TGTX-NCT07503873",
       "ticker": "TGTX",
-      "date": "2027-07-31",
+      "date": "2027-03-31",
       "title": "A Study to Evaluate Pharmacokinetics (PK) and Safety of Subcutaneous (SC) Ublituximab Administered at Various Injection Sites and Relative Bioavailability Via Autoinjector (AI) Versus Syringe Subcutaneously in Participants With Multiple Sclerosis (MS)",
       "type": "Trial Milestone",
       "phase": "Phase 2",
       "estimated": false,
-      "summary": "Multiple Sclerosis · 350 participants · Status: Recruiting",
+      "summary": "Multiple Sclerosis · 350 participants · Status: Active Not Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT07503873",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07503873",

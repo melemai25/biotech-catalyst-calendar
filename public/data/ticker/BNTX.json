@@ -11,7 +11,7 @@
   "activeTrials": 25,
   "phase3": 8,
   "phase2": 17,
-  "generatedDate": "2026-11-23",
+  "generatedDate": "2026-11-24",
   "metrics": {
     "reportingCurrency": "EUR",
     "taxonomy": "ifrs-full",
@@ -57,10 +57,10 @@
     "phase3Count": 21,
     "phase2Count": 43,
     "leadPhase": 4,
-    "upcomingCount": 27,
-    "nextCatalystDate": "2027-04-12",
+    "upcomingCount": 28,
+    "nextCatalystDate": "2027-02-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 140
+    "daysToNextCatalyst": 83
   },
   "trialStats": {
     "completed": 36,
@@ -70,12 +70,6 @@
     "ongoing": 33,
     "withResults": 30,
     "byPhase": {
-      "phase3": {
-        "completed": 14,
-        "terminated": 0,
-        "total": 21,
-        "completionRatePct": 100
-      },
       "phase2": {
         "completed": 12,
         "terminated": 6,
@@ -86,6 +80,12 @@
         "completed": 8,
         "terminated": 0,
         "total": 15,
+        "completionRatePct": 100
+      },
+      "phase3": {
+        "completed": 14,
+        "terminated": 0,
+        "total": 21,
         "completionRatePct": 100
       },
       "other": {
@@ -1676,21 +1676,6 @@
       "status": "past"
     },
     {
-      "id": "ct-BNTX-NCT07392372",
-      "ticker": "BNTX",
-      "date": "2026-11-15",
-      "title": "A Clinical Trial Investigating the Safety and Biological Activity of the Antibody BNT351 in Adults Living Without and With HIV",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "HIV -1 Infection · 67 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07392372",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07392372",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-BNTX-NCT04486378",
       "ticker": "BNTX",
       "date": "2026-11-15",
@@ -1704,6 +1689,21 @@
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04486378",
       "origin": "registry",
       "status": "past"
+    },
+    {
+      "id": "ct-BNTX-NCT07392372",
+      "ticker": "BNTX",
+      "date": "2027-02-15",
+      "title": "A Clinical Trial Investigating the Safety and Biological Activity of the Antibody BNT351 in Adults Living Without and With HIV",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "HIV -1 Infection · 67 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07392372",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07392372",
+      "origin": "registry",
+      "status": "upcoming"
     },
     {
       "id": "ct-BNTX-NCT07798648",
@@ -1811,21 +1811,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-BNTX-NCT06340568",
-      "ticker": "BNTX",
-      "date": "2028-03-15",
-      "title": "A Clinical Study of the Anti-cancer Effects of an Investigational Therapy or Chemotherapy in Patients With Recurring Uterine Cancer",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Endometrial Cancer · 480 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06340568",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06340568",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-BNTX-NCT07070232",
       "ticker": "BNTX",
       "date": "2028-03-15",
@@ -1837,6 +1822,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07070232",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07070232",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-BNTX-NCT06340568",
+      "ticker": "BNTX",
+      "date": "2028-03-15",
+      "title": "A Clinical Study of the Anti-cancer Effects of an Investigational Therapy or Chemotherapy in Patients With Recurring Uterine Cancer",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Endometrial Cancer · 480 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06340568",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06340568",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1998,7 +1998,7 @@
       "type": "Trial Milestone",
       "phase": "Phase 1/Phase 2",
       "estimated": false,
-      "summary": "Advanced Solid Tumors · 173 participants · Status: Not Yet Recruiting",
+      "summary": "Advanced Solid Tumors · 173 participants · Status: Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT07886684",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07886684",

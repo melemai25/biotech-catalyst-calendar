@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 3,
   "phase2": 1,
-  "generatedDate": "2026-11-23",
+  "generatedDate": "2026-11-24",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,21 +60,21 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2027-02-02",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 71
+    "daysToNextCatalyst": 70
   },
   "trialStats": {
-    "completed": 28,
+    "completed": 29,
     "terminated": 6,
     "withdrawn": 2,
     "suspended": 0,
-    "ongoing": 5,
+    "ongoing": 4,
     "withResults": 21,
     "byPhase": {
-      "phase3": {
-        "completed": 6,
+      "phase1": {
+        "completed": 7,
         "terminated": 2,
-        "total": 13,
-        "completionRatePct": 75
+        "total": 9,
+        "completionRatePct": 78
       },
       "phase2": {
         "completed": 15,
@@ -82,16 +82,16 @@
         "total": 19,
         "completionRatePct": 88
       },
-      "phase1": {
+      "phase3": {
         "completed": 7,
         "terminated": 2,
-        "total": 9,
+        "total": 13,
         "completionRatePct": 78
       }
     },
-    "concluded": 36,
+    "concluded": 37,
     "completionRatePct": 78,
-    "resultsPostedPct": 75
+    "resultsPostedPct": 72
   },
   "events": [
     {
@@ -642,7 +642,7 @@
       "type": "Trial Milestone",
       "phase": "Phase 3",
       "estimated": false,
-      "summary": "Symptomatic Non-Obstructive Hypertrophic Cardiomyopathy · 500 participants · Status: Active Not Recruiting",
+      "summary": "Symptomatic Non-Obstructive Hypertrophic Cardiomyopathy · 548 participants · Status: Completed",
       "result": null,
       "source": "ClinicalTrials.gov NCT06081894",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06081894",

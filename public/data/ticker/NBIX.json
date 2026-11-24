@@ -11,7 +11,7 @@
   "activeTrials": 16,
   "phase3": 11,
   "phase2": 5,
-  "generatedDate": "2026-11-23",
+  "generatedDate": "2026-11-24",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 19,
     "nextCatalystDate": "2027-01-31",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 69
+    "daysToNextCatalyst": 68
   },
   "trialStats": {
     "completed": 54,
@@ -70,6 +70,18 @@
     "ongoing": 21,
     "withResults": 40,
     "byPhase": {
+      "other": {
+        "completed": 5,
+        "terminated": 0,
+        "total": 7,
+        "completionRatePct": 100
+      },
+      "phase2": {
+        "completed": 24,
+        "terminated": 7,
+        "total": 36,
+        "completionRatePct": 77
+      },
       "phase3": {
         "completed": 6,
         "terminated": 3,
@@ -81,18 +93,6 @@
         "terminated": 1,
         "total": 22,
         "completionRatePct": 95
-      },
-      "phase2": {
-        "completed": 24,
-        "terminated": 7,
-        "total": 36,
-        "completionRatePct": 77
-      },
-      "other": {
-        "completed": 5,
-        "terminated": 0,
-        "total": 7,
-        "completionRatePct": 100
       }
     },
     "concluded": 67,
@@ -791,21 +791,6 @@
       "status": "past"
     },
     {
-      "id": "edgar-NBIX-0000914475-25-000120",
-      "ticker": "NBIX",
-      "date": "2025-05-22",
-      "title": "8-K filed: Leadership change",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.02, 5.07. Leadership change. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-22",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/914475/000091447525000120/nbix-20250521.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
-    {
       "id": "edgar-NBIX-0000914475-25-000139",
       "ticker": "NBIX",
       "date": "2025-05-30",
@@ -1091,21 +1076,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-NBIX-NCT06911112",
-      "ticker": "NBIX",
-      "date": "2027-07-15",
-      "title": "NBI-1065845-MDD3025: Study to Assess the Efficacy and Safety of Osavampator as an Adjunctive Treatment in Participants With Major Depressive Disorder (MDD)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Major Depressive Disorder · 200 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06911112",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06911112",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-NBIX-NCT06963021",
       "ticker": "NBIX",
       "date": "2027-07-15",
@@ -1117,6 +1087,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06963021",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06963021",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-NBIX-NCT06911112",
+      "ticker": "NBIX",
+      "date": "2027-07-15",
+      "title": "NBI-1065845-MDD3025: Study to Assess the Efficacy and Safety of Osavampator as an Adjunctive Treatment in Participants With Major Depressive Disorder (MDD)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Major Depressive Disorder · 200 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06911112",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06911112",
       "origin": "registry",
       "status": "upcoming"
     },

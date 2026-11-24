@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-23",
+  "generatedDate": "2026-11-24",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,27 +53,27 @@
     "fcfMarginPct": null,
     "marketCapUsd": null,
     "entityName": "BRIACELL THERAPEUTICS CORP.",
-    "activeTrials": 3,
+    "activeTrials": 4,
     "phase3Count": 1,
-    "phase2Count": 2,
+    "phase2Count": 3,
     "leadPhase": 3,
-    "upcomingCount": 1,
-    "nextCatalystDate": "2027-12-15",
+    "upcomingCount": 2,
+    "nextCatalystDate": "2027-11-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 387
+    "daysToNextCatalyst": 371
   },
   "trialStats": {
     "completed": 2,
     "terminated": 0,
     "withdrawn": 0,
     "suspended": 0,
-    "ongoing": 2,
+    "ongoing": 3,
     "withResults": 1,
     "byPhase": {
       "phase2": {
         "completed": 2,
         "terminated": 0,
-        "total": 3,
+        "total": 4,
         "completionRatePct": null
       },
       "phase3": {
@@ -267,6 +267,21 @@
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1610820/000149315226030286/form8-k.htm",
       "origin": "edgar",
       "status": "past"
+    },
+    {
+      "id": "ct-BCTX-NCT07957586",
+      "ticker": "BCTX",
+      "date": "2027-11-30",
+      "title": "Bria-BRES+ Immunotherapy for Recurrent or Metastatic Breast Cancer",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Breast Cancer · 48 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07957586",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07957586",
+      "origin": "registry",
+      "status": "upcoming"
     },
     {
       "id": "ct-BCTX-NCT06072612",

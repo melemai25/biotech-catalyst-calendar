@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-11-23",
+  "generatedDate": "2026-11-24",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2027-02-18",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 87
+    "daysToNextCatalyst": 86
   },
   "trialStats": {
     "completed": 28,
@@ -70,17 +70,17 @@
     "ongoing": 2,
     "withResults": 21,
     "byPhase": {
-      "phase2": {
-        "completed": 12,
-        "terminated": 4,
-        "total": 17,
-        "completionRatePct": 75
-      },
       "phase3": {
         "completed": 10,
         "terminated": 5,
         "total": 17,
         "completionRatePct": 67
+      },
+      "phase2": {
+        "completed": 12,
+        "terminated": 4,
+        "total": 17,
+        "completionRatePct": 75
       },
       "phase1": {
         "completed": 5,
@@ -738,7 +738,7 @@
       "type": "Trial Milestone",
       "phase": "Phase 2",
       "estimated": false,
-      "summary": "Metastatic Castration-Resistant Prostate Cancer · 75 participants · Status: Recruiting",
+      "summary": "Metastatic Castration-Resistant Prostate Cancer · 34 participants · Status: Active Not Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT06842498",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06842498",
