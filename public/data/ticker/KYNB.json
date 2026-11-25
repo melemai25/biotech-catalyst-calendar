@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 1,
   "phase2": 1,
-  "generatedDate": "2026-11-24",
+  "generatedDate": "2026-11-25",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2027-02-18",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 86
+    "daysToNextCatalyst": 85
   },
   "trialStats": {
     "completed": 28,
@@ -70,11 +70,11 @@
     "ongoing": 2,
     "withResults": 21,
     "byPhase": {
-      "phase3": {
-        "completed": 10,
-        "terminated": 5,
-        "total": 17,
-        "completionRatePct": 67
+      "phase1": {
+        "completed": 5,
+        "terminated": 1,
+        "total": 6,
+        "completionRatePct": 83
       },
       "phase2": {
         "completed": 12,
@@ -82,11 +82,11 @@
         "total": 17,
         "completionRatePct": 75
       },
-      "phase1": {
-        "completed": 5,
-        "terminated": 1,
-        "total": 6,
-        "completionRatePct": 83
+      "phase3": {
+        "completed": 10,
+        "terminated": 5,
+        "total": 17,
+        "completionRatePct": 67
       },
       "other": {
         "completed": 1,
@@ -101,21 +101,6 @@
   },
   "events": [
     {
-      "id": "ct-KYNB-NCT02652819",
-      "ticker": "KYNB",
-      "date": "2017-01-24",
-      "title": "FG-4592 for Treatment of Anemia in Subjects With Chronic Kidney Disease Not on Dialysis",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Anemia · 154 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT02652819",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02652819",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-KYNB-NCT02652806",
       "ticker": "KYNB",
       "date": "2017-01-24",
@@ -127,6 +112,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT02652806",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02652806",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-KYNB-NCT02652819",
+      "ticker": "KYNB",
+      "date": "2017-01-24",
+      "title": "FG-4592 for Treatment of Anemia in Subjects With Chronic Kidney Disease Not on Dialysis",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Anemia · 154 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT02652819",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02652819",
       "origin": "registry",
       "status": "past"
     },

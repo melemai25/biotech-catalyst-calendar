@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 1,
   "phase2": 2,
-  "generatedDate": "2026-11-24",
+  "generatedDate": "2026-11-25",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 4,
     "nextCatalystDate": "2027-05-06",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 163
+    "daysToNextCatalyst": 162
   },
   "trialStats": {
     "completed": 2,
@@ -70,12 +70,6 @@
     "ongoing": 4,
     "withResults": 0,
     "byPhase": {
-      "phase2": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 0,
         "terminated": 0,
@@ -92,6 +86,12 @@
         "completed": 0,
         "terminated": 0,
         "total": 1,
+        "completionRatePct": null
+      },
+      "phase2": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 2,
         "completionRatePct": null
       }
     },
@@ -213,7 +213,7 @@
       "type": "Trial Milestone",
       "phase": "Phase 1/Phase 2",
       "estimated": false,
-      "summary": "Duchenne Muscular Dystrophy · 60 participants · Status: Recruiting",
+      "summary": "Duchenne Muscular Dystrophy · 70 participants · Status: Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT06138639",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06138639",

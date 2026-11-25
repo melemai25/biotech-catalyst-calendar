@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 5,
   "phase2": 0,
-  "generatedDate": "2026-11-24",
+  "generatedDate": "2026-11-25",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,10 +57,10 @@
     "phase3Count": 11,
     "phase2Count": 10,
     "leadPhase": 3,
-    "upcomingCount": 9,
-    "nextCatalystDate": "2026-11-25",
+    "upcomingCount": 8,
+    "nextCatalystDate": "2026-12-31",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 1
+    "daysToNextCatalyst": 36
   },
   "trialStats": {
     "completed": 36,
@@ -70,17 +70,17 @@
     "ongoing": 11,
     "withResults": 17,
     "byPhase": {
+      "other": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 3,
+        "completionRatePct": null
+      },
       "phase2": {
         "completed": 13,
         "terminated": 3,
         "total": 16,
         "completionRatePct": 81
-      },
-      "phase3": {
-        "completed": 9,
-        "terminated": 0,
-        "total": 15,
-        "completionRatePct": 100
       },
       "phase1": {
         "completed": 14,
@@ -88,11 +88,11 @@
         "total": 17,
         "completionRatePct": 100
       },
-      "other": {
-        "completed": 0,
+      "phase3": {
+        "completed": 9,
         "terminated": 0,
-        "total": 3,
-        "completionRatePct": null
+        "total": 15,
+        "completionRatePct": 100
       }
     },
     "concluded": 40,
@@ -773,7 +773,7 @@
       "source": "ClinicalTrials.gov NCT07859007",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07859007",
       "origin": "registry",
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "ct-INSM-NCT05649748",

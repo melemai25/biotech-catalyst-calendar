@@ -11,7 +11,7 @@
   "activeTrials": 14,
   "phase3": 10,
   "phase2": 4,
-  "generatedDate": "2026-11-24",
+  "generatedDate": "2026-11-25",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,24 +57,24 @@
     "phase3Count": 22,
     "phase2Count": 19,
     "leadPhase": 4,
-    "upcomingCount": 12,
-    "nextCatalystDate": "2026-12-01",
-    "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 7
+    "upcomingCount": 10,
+    "nextCatalystDate": "2027-01-26",
+    "nextCatalystType": "Earnings",
+    "daysToNextCatalyst": 62
   },
   "trialStats": {
-    "completed": 54,
+    "completed": 56,
     "terminated": 4,
     "withdrawn": 1,
     "suspended": 0,
-    "ongoing": 23,
+    "ongoing": 21,
     "withResults": 31,
     "byPhase": {
       "phase3": {
-        "completed": 18,
+        "completed": 20,
         "terminated": 2,
         "total": 32,
-        "completionRatePct": 90
+        "completionRatePct": 91
       },
       "phase2": {
         "completed": 15,
@@ -95,9 +95,9 @@
         "completionRatePct": null
       }
     },
-    "concluded": 59,
+    "concluded": 61,
     "completionRatePct": 92,
-    "resultsPostedPct": 57
+    "resultsPostedPct": 55
   },
   "events": [
     {
@@ -851,6 +851,21 @@
       "status": "past"
     },
     {
+      "id": "ct-VNDA-NCT07221578",
+      "ticker": "VNDA",
+      "date": "2026-08-17",
+      "title": "Study to Evaluate the Efficacy and Safety of VQW-765 for the On-Demand Treatment of Social Anxiety Disorder",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Social Anxiety Disorder (SAD) · 546 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07221578",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07221578",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
       "id": "ct-VNDA-NCT04652882",
       "ticker": "VNDA",
       "date": "2026-09-04",
@@ -866,17 +881,17 @@
       "status": "past"
     },
     {
-      "id": "ct-VNDA-NCT07065773",
+      "id": "ct-VNDA-NCT07446439",
       "ticker": "VNDA",
       "date": "2026-09-15",
-      "title": "Safety, Tolerability and Efficacy of Trichostatin A in Patients With Mild to Severe Onychomycosis",
+      "title": "A Study to Evaluate Tradipitant on Treating Nausea and Vomiting Induced by GLP-1R Agonist Use",
       "type": "Trial Milestone",
-      "phase": "Phase 2",
+      "phase": "Phase 3",
       "estimated": false,
-      "summary": "Onychomycosis of Toenail · 50 participants · Status: Active Not Recruiting",
+      "summary": "Nausea and Vomiting, Obesity · 376 participants · Status: Completed",
       "result": null,
-      "source": "ClinicalTrials.gov NCT07065773",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07065773",
+      "source": "ClinicalTrials.gov NCT07446439",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07446439",
       "origin": "registry",
       "status": "past"
     },
@@ -892,6 +907,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07179055",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07179055",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-VNDA-NCT07065773",
+      "ticker": "VNDA",
+      "date": "2026-09-15",
+      "title": "Safety, Tolerability and Efficacy of Trichostatin A in Patients With Mild to Severe Onychomycosis",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Onychomycosis of Toenail · 50 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07065773",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07065773",
       "origin": "registry",
       "status": "past"
     },
@@ -941,36 +971,6 @@
       "status": "past"
     },
     {
-      "id": "ct-VNDA-NCT07446439",
-      "ticker": "VNDA",
-      "date": "2026-12-01",
-      "title": "A Study to Evaluate Tradipitant on Treating Nausea and Vomiting Induced by GLP-1R Agonist Use",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Nausea and Vomiting, Obesity · 280 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07446439",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07446439",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
-      "id": "ct-VNDA-NCT07221578",
-      "ticker": "VNDA",
-      "date": "2026-12-15",
-      "title": "Study to Evaluate the Efficacy and Safety of VQW-765 for the On-Demand Treatment of Social Anxiety Disorder",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Social Anxiety Disorder (SAD) · 500 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07221578",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07221578",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "edgar-VNDA-next-earnings",
       "ticker": "VNDA",
       "date": "2027-01-26",
@@ -1016,21 +1016,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-VNDA-NCT06953869",
-      "ticker": "VNDA",
-      "date": "2027-11-15",
-      "title": "Evaluating the Effects of Tasimelteon vs. Placebo in Treating Pediatric Insomnia",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Insomnia Disorder · 420 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06953869",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06953869",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-VNDA-NCT06961968",
       "ticker": "VNDA",
       "date": "2027-11-15",
@@ -1042,6 +1027,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06961968",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06961968",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-VNDA-NCT06953869",
+      "ticker": "VNDA",
+      "date": "2027-11-15",
+      "title": "Evaluating the Effects of Tasimelteon vs. Placebo in Treating Pediatric Insomnia",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Insomnia Disorder · 420 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06953869",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06953869",
       "origin": "registry",
       "status": "upcoming"
     },

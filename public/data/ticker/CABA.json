@@ -11,7 +11,7 @@
   "activeTrials": 5,
   "phase3": 2,
   "phase2": 3,
-  "generatedDate": "2026-11-24",
+  "generatedDate": "2026-11-25",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,17 +57,17 @@
     "phase3Count": 2,
     "phase2Count": 5,
     "leadPhase": 3,
-    "upcomingCount": 6,
+    "upcomingCount": 7,
     "nextCatalystDate": "2027-01-28",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 65
+    "daysToNextCatalyst": 64
   },
   "trialStats": {
-    "completed": 1,
+    "completed": 0,
     "terminated": 0,
     "withdrawn": 1,
     "suspended": 0,
-    "ongoing": 5,
+    "ongoing": 6,
     "withResults": 0,
     "byPhase": {
       "phase2": {
@@ -83,13 +83,13 @@
         "completionRatePct": null
       },
       "phase1": {
-        "completed": 1,
+        "completed": 0,
         "terminated": 0,
         "total": 1,
         "completionRatePct": null
       }
     },
-    "concluded": 2,
+    "concluded": 1,
     "completionRatePct": null,
     "resultsPostedPct": null
   },
@@ -122,21 +122,6 @@
       "source": "SEC EDGAR 8-K 2025-06-12",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1759138/000119312525139517/d828604d8k.htm",
       "origin": "edgar",
-      "status": "past"
-    },
-    {
-      "id": "ct-CABA-NCT05451212",
-      "ticker": "CABA",
-      "date": "2025-07-24",
-      "title": "Open-label Study to Evaluate the Safety of Various Dosing Regimens of MuSK-CAART for MuSK Myasthenia Gravis",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "MuSK Myasthenia Gravis · 7 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05451212",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05451212",
-      "origin": "registry",
       "status": "past"
     },
     {
@@ -422,6 +407,21 @@
       "source": "Projected from SEC EDGAR filing cadence",
       "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001759138&type=8-K",
       "origin": "edgar",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-CABA-NCT05451212",
+      "ticker": "CABA",
+      "date": "2027-07-15",
+      "title": "Open-label Study to Evaluate the Safety of Various Dosing Regimens of MuSK-CAART for MuSK Myasthenia Gravis",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "MuSK Myasthenia Gravis · 7 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05451212",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05451212",
+      "origin": "registry",
       "status": "upcoming"
     },
     {

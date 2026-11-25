@@ -11,7 +11,7 @@
   "activeTrials": 15,
   "phase3": 7,
   "phase2": 8,
-  "generatedDate": "2026-11-24",
+  "generatedDate": "2026-11-25",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 16,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 21
+    "daysToNextCatalyst": 20
   },
   "trialStats": {
     "completed": 10,
@@ -76,17 +76,17 @@
         "total": 22,
         "completionRatePct": 25
       },
-      "phase3": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 7,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 9,
         "terminated": 2,
         "total": 22,
         "completionRatePct": 82
+      },
+      "phase3": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 7,
+        "completionRatePct": null
       },
       "other": {
         "completed": 0,
@@ -296,21 +296,6 @@
       "status": "past"
     },
     {
-      "id": "ct-AAPG-NCT03913949",
-      "ticker": "AAPG",
-      "date": "2024-10-20",
-      "title": "A Study to Evaluate the Safety,PK and PD of APG-2575 in Patients With Hematologic Malignancies",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Chronic Lymphocytic Leukemia, Non Hodgkin Lymphoma · 74 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT03913949",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT03913949",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-AAPG-NCT04494503",
       "ticker": "AAPG",
       "date": "2024-10-20",
@@ -322,6 +307,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04494503",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04494503",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-AAPG-NCT03913949",
+      "ticker": "AAPG",
+      "date": "2024-10-20",
+      "title": "A Study to Evaluate the Safety,PK and PD of APG-2575 in Patients With Hematologic Malignancies",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Chronic Lymphocytic Leukemia, Non Hodgkin Lymphoma · 74 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT03913949",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03913949",
       "origin": "registry",
       "status": "past"
     },
@@ -338,21 +338,6 @@
       "source": "ClinicalTrials.gov NCT04284488",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04284488",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-AAPG-0001213900-25-047081",
-      "ticker": "AAPG",
-      "date": "2025-05-23",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. REPORT OF FOREIGN PRIVATE ISSUER.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-23",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2023311/000121390025047081/ea0243353-6k_ascentage.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {
@@ -956,21 +941,6 @@
       "status": "past"
     },
     {
-      "id": "ct-AAPG-NCT06182969",
-      "ticker": "AAPG",
-      "date": "2026-04-15",
-      "title": "A Study of APG-2575 in Patients With Mild-to-moderate Systemic Lupus Erythematosus.",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "SLE · 40 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06182969",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06182969",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-AAPG-NCT04785196",
       "ticker": "AAPG",
       "date": "2026-04-15",
@@ -982,6 +952,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04785196",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04785196",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-AAPG-NCT06182969",
+      "ticker": "AAPG",
+      "date": "2026-04-15",
+      "title": "A Study of APG-2575 in Patients With Mild-to-moderate Systemic Lupus Erythematosus.",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "SLE · 40 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06182969",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06182969",
       "origin": "registry",
       "status": "past"
     },
@@ -1481,6 +1466,21 @@
       "status": "past"
     },
     {
+      "id": "edgar-AAPG-0001213900-26-123686",
+      "ticker": "AAPG",
+      "date": "2026-11-24",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. REPORT OF FOREIGN PRIVATE ISSUER.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-11-24",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2023311/000121390026123686/ea0313475-6k_ascentage.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "ct-AAPG-NCT05147467",
       "ticker": "AAPG",
       "date": "2026-12-15",
@@ -1586,21 +1586,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-AAPG-NCT03594422",
-      "ticker": "AAPG",
-      "date": "2027-12-15",
-      "title": "A Study of HQP1351 in Patients With GIST or Other Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Gastrointestinal Stromal Tumor (GIST), Solid Tumor, Adult · 100 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT03594422",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT03594422",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-AAPG-NCT03917043",
       "ticker": "AAPG",
       "date": "2027-12-15",
@@ -1616,17 +1601,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-AAPG-NCT05773586",
+      "id": "ct-AAPG-NCT03594422",
       "ticker": "AAPG",
-      "date": "2027-12-31",
-      "title": "A Study to Evaluate the Safety, Pharmacokinetics and Preliminary Efficacy of APG-5918.",
+      "date": "2027-12-15",
+      "title": "A Study of HQP1351 in Patients With GIST or Other Solid Tumors",
       "type": "Trial Milestone",
       "phase": "Phase 1",
       "estimated": false,
-      "summary": "Anemia · 105 participants · Status: Recruiting",
+      "summary": "Gastrointestinal Stromal Tumor (GIST), Solid Tumor, Adult · 100 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT05773586",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05773586",
+      "source": "ClinicalTrials.gov NCT03594422",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03594422",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1642,6 +1627,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06051409",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06051409",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-AAPG-NCT05773586",
+      "ticker": "AAPG",
+      "date": "2027-12-31",
+      "title": "A Study to Evaluate the Safety, Pharmacokinetics and Preliminary Efficacy of APG-5918.",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Anemia · 105 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05773586",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05773586",
       "origin": "registry",
       "status": "upcoming"
     },

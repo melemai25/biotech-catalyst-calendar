@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-24",
+  "generatedDate": "2026-11-25",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2027-02-12",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 80
+    "daysToNextCatalyst": 79
   },
   "trialStats": {
     "completed": 1,
@@ -88,21 +88,6 @@
     "resultsPostedPct": null
   },
   "events": [
-    {
-      "id": "edgar-CNSY-0001193125-25-125860",
-      "ticker": "CNSY",
-      "date": "2025-05-23",
-      "title": "8-K filed: Listing / standard notice, Reg FD disclosure",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 3.01, 7.01, 9.01. Listing / standard notice; Reg FD disclosure. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-23",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1095981/000119312525125860/d947753d8k.htm",
-      "origin": "edgar",
-      "status": "past"
-    },
     {
       "id": "edgar-CNSY-0000950170-25-079749",
       "ticker": "CNSY",

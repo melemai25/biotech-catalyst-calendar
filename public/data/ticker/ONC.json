@@ -11,7 +11,7 @@
   "activeTrials": 27,
   "phase3": 15,
   "phase2": 12,
-  "generatedDate": "2026-11-24",
+  "generatedDate": "2026-11-25",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,10 +57,10 @@
     "phase3Count": 16,
     "phase2Count": 15,
     "leadPhase": 3,
-    "upcomingCount": 51,
+    "upcomingCount": 52,
     "nextCatalystDate": "2026-11-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 6
+    "daysToNextCatalyst": 5
   },
   "trialStats": {
     "completed": 5,
@@ -70,17 +70,17 @@
     "ongoing": 59,
     "withResults": 1,
     "byPhase": {
-      "phase1": {
-        "completed": 4,
-        "terminated": 5,
-        "total": 38,
-        "completionRatePct": 44
-      },
       "phase3": {
         "completed": 1,
         "terminated": 0,
         "total": 16,
         "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 4,
+        "terminated": 5,
+        "total": 38,
+        "completionRatePct": 44
       },
       "phase2": {
         "completed": 0,
@@ -296,21 +296,6 @@
       "status": "past"
     },
     {
-      "id": "ct-ONC-NCT06253195",
-      "ticker": "ONC",
-      "date": "2026-04-23",
-      "title": "BGB-43395 Alone or as Part of Combination Therapies in Chinese Participants With HR+/HER2- Breast Cancer and Other Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Advanced Solid Tumor, Metastatic Solid Tumor, Hormone-receptor-positive Breast Cancer · 33 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06253195",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06253195",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-ONC-NCT06585488",
       "ticker": "ONC",
       "date": "2026-04-23",
@@ -322,6 +307,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06585488",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06585488",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-ONC-NCT06253195",
+      "ticker": "ONC",
+      "date": "2026-04-23",
+      "title": "BGB-43395 Alone or as Part of Combination Therapies in Chinese Participants With HR+/HER2- Breast Cancer and Other Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Advanced Solid Tumor, Metastatic Solid Tumor, Hormone-receptor-positive Breast Cancer · 33 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06253195",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06253195",
       "origin": "registry",
       "status": "past"
     },
@@ -506,21 +506,6 @@
       "status": "past"
     },
     {
-      "id": "ct-ONC-NCT07590102",
-      "ticker": "ONC",
-      "date": "2026-10-31",
-      "title": "A Study to Investigate the Effect of the CYP3A Inducer Phenytoin and the CYP3A Inhibitor Itraconazole on the Pharmacokinetics of BGB-58067 in Healthy Participants",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Healthy Volunteers · 30 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07590102",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07590102",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "edgar-ONC-0001628280-26-070469",
       "ticker": "ONC",
       "date": "2026-11-05",
@@ -536,21 +521,6 @@
       "status": "past"
     },
     {
-      "id": "ct-ONC-NCT06637501",
-      "ticker": "ONC",
-      "date": "2026-11-15",
-      "title": "A Study to Investigate Sonrotoclax Combined With Zanubrutinib Versus Zanubrutinib Alone in Participants With Previously Untreated Chronic Lymphocytic Leukemia",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Chronic Lymphocytic Leukemia · 94 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06637501",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06637501",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-ONC-NCT04973605",
       "ticker": "ONC",
       "date": "2026-11-15",
@@ -562,6 +532,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04973605",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04973605",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-ONC-NCT06637501",
+      "ticker": "ONC",
+      "date": "2026-11-15",
+      "title": "A Study to Investigate Sonrotoclax Combined With Zanubrutinib Versus Zanubrutinib Alone in Participants With Previously Untreated Chronic Lymphocytic Leukemia",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Chronic Lymphocytic Leukemia · 94 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06637501",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06637501",
       "origin": "registry",
       "status": "past"
     },
@@ -652,6 +637,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05006716",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05006716",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ONC-NCT07590102",
+      "ticker": "ONC",
+      "date": "2027-03-21",
+      "title": "A Study to Investigate the Effect of the CYP3A Inducer Phenytoin and the CYP3A Inhibitor Itraconazole on the Pharmacokinetics of BGB-58067 in Healthy Participants",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Healthy Volunteers · 30 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07590102",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07590102",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -971,21 +971,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT04771130",
-      "ticker": "ONC",
-      "date": "2028-08-31",
-      "title": "A Study of BGB-11417 in Participants With Myeloid Malignancies",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Acute Myeloid Leukemia, Myelodysplastic Syndromes, Myelodysplastic/Myeloproliferative Neoplasm · 260 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04771130",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04771130",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ONC-NCT06742996",
       "ticker": "ONC",
       "date": "2028-08-31",
@@ -1001,17 +986,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT07619287",
+      "id": "ct-ONC-NCT04771130",
       "ticker": "ONC",
-      "date": "2028-09-30",
-      "title": "An Investigational Study of BG-75202 Alone and in Combination With Other Agents in Patients With Myeloid Malignancies",
+      "date": "2028-08-31",
+      "title": "A Study of BGB-11417 in Participants With Myeloid Malignancies",
       "type": "Trial Milestone",
-      "phase": "Phase 1",
+      "phase": "Phase 1/Phase 2",
       "estimated": false,
-      "summary": "Myeloid Malignancy · 118 participants · Status: Recruiting",
+      "summary": "Acute Myeloid Leukemia, Myelodysplastic Syndromes, Myelodysplastic/Myeloproliferative Neoplasm · 260 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT07619287",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07619287",
+      "source": "ClinicalTrials.gov NCT04771130",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04771130",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1042,6 +1027,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07746141",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07746141",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ONC-NCT07619287",
+      "ticker": "ONC",
+      "date": "2028-09-30",
+      "title": "An Investigational Study of BG-75202 Alone and in Combination With Other Agents in Patients With Myeloid Malignancies",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Myeloid Malignancy · 118 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07619287",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07619287",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1181,21 +1181,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT07881211",
-      "ticker": "ONC",
-      "date": "2029-10-31",
-      "title": "A Study Investigating the Safety and How the Trispecific T-Cell Engaging Antibody BG-T0050 Works in Adults With Diffuse Large B-cell Lymphoma (DLBCL) and Other Aggressive B-Cell Malignancies",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Diffuse Large B-Cell Lymphoma, B-Cell Malignancies · 70 participants · Status: Not Yet Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07881211",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07881211",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ONC-NCT07887646",
       "ticker": "ONC",
       "date": "2029-10-31",
@@ -1211,17 +1196,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT07811271",
+      "id": "ct-ONC-NCT07881211",
       "ticker": "ONC",
-      "date": "2029-11-30",
-      "title": "Efficacy and Safety of BG-C9074 With Bevacizumab Compared With Bevacizumab in Adults With Ovarian, Fallopian Tube, or Primary Peritoneal Cancers",
+      "date": "2029-10-31",
+      "title": "A Study Investigating the Safety and How the Trispecific T-Cell Engaging Antibody BG-T0050 Works in Adults With Diffuse Large B-cell Lymphoma (DLBCL) and Other Aggressive B-Cell Malignancies",
       "type": "Trial Milestone",
-      "phase": "Phase 3",
+      "phase": "Phase 1",
       "estimated": false,
-      "summary": "Epithelial Ovarian Cancer, Fallopian Tube Cancer, Primary Peritoneal Cancer · 600 participants · Status: Recruiting",
+      "summary": "Diffuse Large B-Cell Lymphoma, B-Cell Malignancies · 70 participants · Status: Not Yet Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT07811271",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07811271",
+      "source": "ClinicalTrials.gov NCT07881211",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07881211",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1237,6 +1222,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06697184",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06697184",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ONC-NCT07811271",
+      "ticker": "ONC",
+      "date": "2029-11-30",
+      "title": "Efficacy and Safety of BG-C9074 With Bevacizumab Compared With Bevacizumab in Adults With Ovarian, Fallopian Tube, or Primary Peritoneal Cancers",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Epithelial Ovarian Cancer, Fallopian Tube Cancer, Primary Peritoneal Cancer · 600 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07811271",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07811271",
       "origin": "registry",
       "status": "upcoming"
     },

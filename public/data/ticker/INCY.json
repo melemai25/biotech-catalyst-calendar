@@ -11,7 +11,7 @@
   "activeTrials": 40,
   "phase3": 23,
   "phase2": 17,
-  "generatedDate": "2026-11-24",
+  "generatedDate": "2026-11-25",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,40 +53,40 @@
     "fcfMarginPct": 12.4,
     "marketCapUsd": null,
     "entityName": "INCYTE CORPORATION",
-    "activeTrials": 219,
+    "activeTrials": 220,
     "phase3Count": 51,
-    "phase2Count": 97,
+    "phase2Count": 98,
     "leadPhase": 4,
-    "upcomingCount": 39,
+    "upcomingCount": 40,
     "nextCatalystDate": "2026-12-09",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 15
+    "daysToNextCatalyst": 14
   },
   "trialStats": {
     "completed": 144,
     "terminated": 68,
     "withdrawn": 10,
     "suspended": 0,
-    "ongoing": 66,
+    "ongoing": 67,
     "withResults": 127,
     "byPhase": {
       "phase2": {
         "completed": 67,
         "terminated": 44,
-        "total": 128,
+        "total": 129,
         "completionRatePct": 60
-      },
-      "phase3": {
-        "completed": 25,
-        "terminated": 9,
-        "total": 62,
-        "completionRatePct": 74
       },
       "phase1": {
         "completed": 48,
         "terminated": 14,
         "total": 80,
         "completionRatePct": 77
+      },
+      "phase3": {
+        "completed": 25,
+        "terminated": 9,
+        "total": 62,
+        "completionRatePct": 74
       },
       "other": {
         "completed": 4,
@@ -1511,21 +1511,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT05253807",
-      "ticker": "INCY",
-      "date": "2023-08-16",
-      "title": "Study to Evaluate the Efficacy and Safety of Pemigatinib in Participants With Relapsed or Refractory Advanced Non-Small Cell Lung Cancer With an FGFR Alteration",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Non-Small Cell Lung Cancer (NSCLC) · 8 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT05253807",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05253807",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT04551053",
       "ticker": "INCY",
       "date": "2023-08-16",
@@ -1537,6 +1522,21 @@
       "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT04551053",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04551053",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT05253807",
+      "ticker": "INCY",
+      "date": "2023-08-16",
+      "title": "Study to Evaluate the Efficacy and Safety of Pemigatinib in Participants With Relapsed or Refractory Advanced Non-Small Cell Lung Cancer With an FGFR Alteration",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Non-Small Cell Lung Cancer (NSCLC) · 8 participants · Status: Completed",
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
+      "source": "ClinicalTrials.gov NCT05253807",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05253807",
       "origin": "registry",
       "status": "past"
     },
@@ -2006,21 +2006,6 @@
       "status": "past"
     },
     {
-      "id": "ct-INCY-NCT05909995",
-      "ticker": "INCY",
-      "date": "2024-09-19",
-      "title": "Interventional Study of INCB 99280 With Ipilimumab in Participants With Select Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Melanoma, Hepatocellular Carcinoma (HCC), Renal Cell Carcinoma (RCC) · 8 participants · Status: Terminated",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05909995",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05909995",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-INCY-NCT04989387",
       "ticker": "INCY",
       "date": "2024-09-19",
@@ -2032,6 +2017,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04989387",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04989387",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-INCY-NCT05909995",
+      "ticker": "INCY",
+      "date": "2024-09-19",
+      "title": "Interventional Study of INCB 99280 With Ipilimumab in Participants With Select Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Melanoma, Hepatocellular Carcinoma (HCC), Renal Cell Carcinoma (RCC) · 8 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT05909995",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05909995",
       "origin": "registry",
       "status": "past"
     },
@@ -3607,6 +3607,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07823322",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07823322",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-INCY-NCT07958093",
+      "ticker": "INCY",
+      "date": "2029-06-01",
+      "title": "A Study to Evaluate INCB215543 in Monotherapy and in Combination With Anticancer Therapies in Participants With Select Advanced or Metastatic Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Solid Tumors, Advanced Solid Tumors, Metastatic Solid Tumors · 385 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07958093",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07958093",
       "origin": "registry",
       "status": "upcoming"
     },

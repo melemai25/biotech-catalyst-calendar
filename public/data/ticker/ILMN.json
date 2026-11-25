@@ -9,7 +9,7 @@
   "activeTrials": 0,
   "phase3": 0,
   "phase2": 0,
-  "generatedDate": "2026-11-24",
+  "generatedDate": "2026-11-25",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -66,7 +66,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2027-01-21",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 58
+    "daysToNextCatalyst": 57
   },
   "trialStats": {
     "completed": 12,
@@ -76,17 +76,17 @@
     "ongoing": 5,
     "withResults": 1,
     "byPhase": {
-      "other": {
-        "completed": 11,
-        "terminated": 0,
-        "total": 13,
-        "completionRatePct": 100
-      },
       "phase2": {
         "completed": 0,
         "terminated": 0,
         "total": 4,
         "completionRatePct": null
+      },
+      "other": {
+        "completed": 11,
+        "terminated": 0,
+        "total": 13,
+        "completionRatePct": 100
       },
       "phase3": {
         "completed": 1,
@@ -113,21 +113,6 @@
       "source": "ClinicalTrials.gov NCT04535193",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04535193",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-ILMN-0001110803-25-000051",
-      "ticker": "ILMN",
-      "date": "2025-05-23",
-      "title": "8-K filed: Leadership change",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 5.02, 5.07, 9.01. Leadership change. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-23",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1110803/000111080325000051/ilmn-20250521.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {
@@ -446,21 +431,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ILMN-NCT07176286",
-      "ticker": "ILMN",
-      "date": "2027-03-30",
-      "title": "18F-mFBG Cardiac Uptake With Lewy Body Dementia",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Parkinson Disease (PD), Lewy Body Dementia (LBD) · 20 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07176286",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07176286",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ILMN-NCT06965621",
       "ticker": "ILMN",
       "date": "2027-03-30",
@@ -472,6 +442,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06965621",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06965621",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ILMN-NCT07176286",
+      "ticker": "ILMN",
+      "date": "2027-03-30",
+      "title": "18F-mFBG Cardiac Uptake With Lewy Body Dementia",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Parkinson Disease (PD), Lewy Body Dementia (LBD) · 20 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07176286",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07176286",
       "origin": "registry",
       "status": "upcoming"
     }

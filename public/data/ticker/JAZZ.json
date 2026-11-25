@@ -11,7 +11,7 @@
   "activeTrials": 13,
   "phase3": 7,
   "phase2": 6,
-  "generatedDate": "2026-11-24",
+  "generatedDate": "2026-11-25",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 21,
     "nextCatalystDate": "2026-11-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 6
+    "daysToNextCatalyst": 5
   },
   "trialStats": {
     "completed": 133,
@@ -68,7 +68,7 @@
     "withdrawn": 11,
     "suspended": 0,
     "ongoing": 34,
-    "withResults": 112,
+    "withResults": 113,
     "byPhase": {
       "phase2": {
         "completed": 40,
@@ -97,7 +97,7 @@
     },
     "concluded": 172,
     "completionRatePct": 77,
-    "resultsPostedPct": 84
+    "resultsPostedPct": 85
   },
   "events": [
     {
@@ -1024,7 +1024,7 @@
       "phase": "Phase 1/Phase 2",
       "estimated": false,
       "summary": "HER2-expressing Cancers · 52 participants · Status: Completed",
-      "result": null,
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT05027139",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05027139",
       "origin": "registry",

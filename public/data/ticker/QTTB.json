@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-24",
+  "generatedDate": "2026-11-25",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2027-02-04",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 72
+    "daysToNextCatalyst": 71
   },
   "trialStats": {
     "completed": 1,
@@ -116,21 +116,6 @@
       "source": "ClinicalTrials.gov NCT05509023",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05509023",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-QTTB-0001193125-25-125435",
-      "ticker": "QTTB",
-      "date": "2025-05-23",
-      "title": "8-K filed: Listing / standard notice",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 3.01. Listing / standard notice. 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-23",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1661998/000119312525125435/d842247d8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

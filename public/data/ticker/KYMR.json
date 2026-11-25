@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-11-24",
+  "generatedDate": "2026-11-25",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -52,8 +52,14 @@
     "rndIntensityPct": 87,
     "fcfMarginPct": -282.6,
     "marketCapUsd": null,
-    "entityName": "KYMERA THERAPEUTICS, INC.",
+    "entityName": "Kymera Therapeutics, Inc.",
     "financingSinceCash": [
+      {
+        "date": "2026-11-24",
+        "form": "424B5",
+        "label": "Prospectus supplement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526475984/d159724d424b5.htm"
+      },
       {
         "date": "2026-11-23",
         "form": "424B5",
@@ -68,7 +74,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2027-01-07",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 44
+    "daysToNextCatalyst": 43
   },
   "trialStats": {
     "completed": 8,
@@ -78,17 +84,17 @@
     "ongoing": 4,
     "withResults": 0,
     "byPhase": {
-      "phase2": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 3,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 7,
         "terminated": 0,
         "total": 8,
         "completionRatePct": 100
+      },
+      "phase2": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 3,
+        "completionRatePct": null
       },
       "other": {
         "completed": 1,
@@ -534,6 +540,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-11-23",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526470926/d188151d8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-KYMR-0001193125-26-476205",
+      "ticker": "KYMR",
+      "date": "2026-11-24",
+      "title": "8-K filed: Material agreement, Other event",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 1.01, 8.01, 9.01. Material agreement; Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-24",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526476205/d94169d8k.htm",
       "origin": "edgar",
       "status": "past"
     },

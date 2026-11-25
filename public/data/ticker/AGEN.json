@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-24",
+  "generatedDate": "2026-11-25",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,34 +53,34 @@
     "fcfMarginPct": -77.5,
     "marketCapUsd": null,
     "entityName": "AGENUS INC",
-    "activeTrials": 15,
-    "phase3Count": 0,
+    "activeTrials": 16,
+    "phase3Count": 1,
     "phase2Count": 8,
-    "leadPhase": 2,
-    "upcomingCount": 2,
+    "leadPhase": 3,
+    "upcomingCount": 3,
     "nextCatalystDate": "2027-02-04",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 72
+    "daysToNextCatalyst": 71
   },
   "trialStats": {
     "completed": 15,
     "terminated": 9,
     "withdrawn": 3,
     "suspended": 0,
-    "ongoing": 4,
+    "ongoing": 5,
     "withResults": 5,
     "byPhase": {
-      "phase1": {
-        "completed": 6,
-        "terminated": 2,
-        "total": 9,
-        "completionRatePct": 75
-      },
       "phase2": {
         "completed": 7,
         "terminated": 6,
         "total": 16,
         "completionRatePct": 54
+      },
+      "phase1": {
+        "completed": 6,
+        "terminated": 2,
+        "total": 9,
+        "completionRatePct": 75
       },
       "other": {
         "completed": 0,
@@ -91,7 +91,7 @@
       "phase3": {
         "completed": 2,
         "terminated": 1,
-        "total": 4,
+        "total": 5,
         "completionRatePct": null
       }
     },
@@ -637,6 +637,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05608044",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05608044",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-AGEN-NCT07958080",
+      "ticker": "AGEN",
+      "date": "2032-01-15",
+      "title": "A Study of Botensilimab Plus Balstilimab in Colon Cancer",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Colon Cancer · 850 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07958080",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07958080",
       "origin": "registry",
       "status": "upcoming"
     }

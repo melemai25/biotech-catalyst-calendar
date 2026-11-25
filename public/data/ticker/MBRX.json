@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-24",
+  "generatedDate": "2026-11-25",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-02-15",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 83
+    "daysToNextCatalyst": 82
   },
   "trialStats": {
     "completed": 6,
@@ -68,7 +68,7 @@
     "withdrawn": 0,
     "suspended": 0,
     "ongoing": 1,
-    "withResults": 1,
+    "withResults": 2,
     "byPhase": {
       "phase2": {
         "completed": 4,
@@ -91,7 +91,7 @@
     },
     "concluded": 6,
     "completionRatePct": 100,
-    "resultsPostedPct": 17
+    "resultsPostedPct": 33
   },
   "events": [
     {
@@ -178,25 +178,10 @@
       "phase": "Phase 1/Phase 2",
       "estimated": false,
       "summary": "Leukemia, Myeloid, Acute · 22 participants · Status: Completed",
-      "result": null,
+      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
       "source": "ClinicalTrials.gov NCT05319587",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05319587",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-MBRX-0001437749-25-018358",
-      "ticker": "MBRX",
-      "date": "2025-05-23",
-      "title": "8-K filed: Listing / standard notice",
-      "type": "Corporate",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 8-K, items 3.01. Listing / standard notice. FORM 8-K.",
-      "result": null,
-      "source": "SEC EDGAR 8-K 2025-05-23",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1659617/000143774925018358/mbrx20250523_8k.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

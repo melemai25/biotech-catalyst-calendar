@@ -11,7 +11,7 @@
   "activeTrials": 7,
   "phase3": 7,
   "phase2": 0,
-  "generatedDate": "2026-11-24",
+  "generatedDate": "2026-11-25",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -57,10 +57,10 @@
     "phase3Count": 26,
     "phase2Count": 5,
     "leadPhase": 4,
-    "upcomingCount": 11,
+    "upcomingCount": 12,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 21
+    "daysToNextCatalyst": 20
   },
   "trialStats": {
     "completed": 20,
@@ -76,11 +76,11 @@
         "total": 28,
         "completionRatePct": 94
       },
-      "phase2": {
-        "completed": 3,
-        "terminated": 1,
-        "total": 5,
-        "completionRatePct": 75
+      "other": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 3,
+        "completionRatePct": null
       },
       "phase1": {
         "completed": 1,
@@ -88,11 +88,11 @@
         "total": 1,
         "completionRatePct": null
       },
-      "other": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 3,
-        "completionRatePct": null
+      "phase2": {
+        "completed": 3,
+        "terminated": 1,
+        "total": 5,
+        "completionRatePct": 75
       }
     },
     "concluded": 22,
@@ -581,21 +581,6 @@
       "status": "past"
     },
     {
-      "id": "ct-AXSM-NCT06223880",
-      "ticker": "AXSM",
-      "date": "2026-03-15",
-      "title": "A Study to Evaluate the Efficacy of AXS-05 Compared to Bupropion in Preventing the Relapse of Depressive Symptoms",
-      "type": "Trial Milestone",
-      "phase": "Phase 4",
-      "estimated": false,
-      "summary": "Major Depressive Disorder · 350 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06223880",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06223880",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "edgar-AXSM-0001193125-26-135669",
       "ticker": "AXSM",
       "date": "2026-04-01",
@@ -836,17 +821,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-AXSM-NCT07717892",
+      "id": "ct-AXSM-NCT06223880",
       "ticker": "AXSM",
-      "date": "2028-06-30",
-      "title": "Forward Treatment of Attention Deficit and Hyperactivity Using Solriamfetol (FOCUS-3)",
+      "date": "2028-06-15",
+      "title": "A Study to Evaluate the Efficacy of AXS-05 Compared to Bupropion in Preventing the Relapse of Depressive Symptoms",
       "type": "Trial Milestone",
-      "phase": "Phase 3",
+      "phase": "Phase 4",
       "estimated": false,
-      "summary": "ADHD · 468 participants · Status: Recruiting",
+      "summary": "Major Depressive Disorder · 350 participants · Status: Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT07717892",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07717892",
+      "source": "ClinicalTrials.gov NCT06223880",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06223880",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -862,6 +847,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07717879",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07717879",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-AXSM-NCT07717892",
+      "ticker": "AXSM",
+      "date": "2028-06-30",
+      "title": "Forward Treatment of Attention Deficit and Hyperactivity Using Solriamfetol (FOCUS-3)",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "ADHD · 468 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07717892",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07717892",
       "origin": "registry",
       "status": "upcoming"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 3,
   "phase3": 0,
   "phase2": 3,
-  "generatedDate": "2026-11-24",
+  "generatedDate": "2026-11-25",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -92,7 +92,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2027-08-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 279
+    "daysToNextCatalyst": 278
   },
   "trialStats": {
     "completed": 0,
@@ -102,6 +102,12 @@
     "ongoing": 7,
     "withResults": 0,
     "byPhase": {
+      "phase1": {
+        "completed": 0,
+        "terminated": 0,
+        "total": 2,
+        "completionRatePct": null
+      },
       "phase2": {
         "completed": 0,
         "terminated": 0,
@@ -109,12 +115,6 @@
         "completionRatePct": null
       },
       "other": {
-        "completed": 0,
-        "terminated": 0,
-        "total": 2,
-        "completionRatePct": null
-      },
-      "phase1": {
         "completed": 0,
         "terminated": 0,
         "total": 2,
@@ -1323,6 +1323,21 @@
       "result": null,
       "source": "SEC EDGAR 6-K 2026-11-16",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1949257/000121390026120153/ea0312382-6k_radiopharm.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-RADX-0001213900-26-123924",
+      "ticker": "RADX",
+      "date": "2026-11-25",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. REPORT OF FOREIGN PRIVATE ISSUER.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-11-25",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1949257/000121390026123924/ea0313548-6k_radiopharm.htm",
       "origin": "edgar",
       "status": "past"
     },

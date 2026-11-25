@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-24",
+  "generatedDate": "2026-11-25",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -84,12 +84,6 @@
     "ongoing": 2,
     "withResults": 8,
     "byPhase": {
-      "phase3": {
-        "completed": 0,
-        "terminated": 1,
-        "total": 2,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 9,
         "terminated": 2,
@@ -101,6 +95,12 @@
         "terminated": 1,
         "total": 4,
         "completionRatePct": 75
+      },
+      "phase3": {
+        "completed": 0,
+        "terminated": 1,
+        "total": 2,
+        "completionRatePct": null
       }
     },
     "concluded": 16,
@@ -181,21 +181,6 @@
       "source": "ClinicalTrials.gov NCT02826486",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02826486",
       "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "edgar-BLRX-0001178913-25-001939",
-      "ticker": "BLRX",
-      "date": "2025-05-23",
-      "title": "6-K filed: Foreign issuer report",
-      "type": "Filing",
-      "phase": null,
-      "estimated": false,
-      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
-      "result": null,
-      "source": "SEC EDGAR 6-K 2025-05-23",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1498403/000117891325001939/zk2533250.htm",
-      "origin": "edgar",
       "status": "past"
     },
     {

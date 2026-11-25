@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-11-24",
+  "generatedDate": "2026-11-25",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -68,7 +68,7 @@
     "upcomingCount": 2,
     "nextCatalystDate": "2027-07-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 233
+    "daysToNextCatalyst": 232
   },
   "trialStats": {
     "completed": 12,
@@ -1233,6 +1233,21 @@
       "result": null,
       "source": "SEC EDGAR 6-K 2026-11-23",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1345099/000134509926000104/form6-kxpressreleasecoverf.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-MESO-0001345099-26-000106",
+      "ticker": "MESO",
+      "date": "2026-11-25",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. 6-K.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-11-25",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1345099/000134509926000106/form6-kxpressreleasecoverf.htm",
       "origin": "edgar",
       "status": "past"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 16,
   "phase3": 2,
   "phase2": 14,
-  "generatedDate": "2026-11-24",
+  "generatedDate": "2026-11-25",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -74,7 +74,7 @@
     "upcomingCount": 13,
     "nextCatalystDate": "2027-03-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 111
+    "daysToNextCatalyst": 110
   },
   "trialStats": {
     "completed": 18,
@@ -84,17 +84,17 @@
     "ongoing": 23,
     "withResults": 24,
     "byPhase": {
-      "phase3": {
-        "completed": 1,
-        "terminated": 2,
-        "total": 8,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 7,
         "terminated": 11,
         "total": 51,
         "completionRatePct": 39
+      },
+      "phase3": {
+        "completed": 1,
+        "terminated": 2,
+        "total": 8,
+        "completionRatePct": null
       },
       "phase1": {
         "completed": 10,
@@ -580,21 +580,6 @@
       "status": "past"
     },
     {
-      "id": "ct-IBRX-NCT03520686",
-      "ticker": "IBRX",
-      "date": "2025-10-13",
-      "title": "Nogapendekin Alfa Inbakicept for Advanced Non-Small Cell Lung Cancer",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Non Small Cell Lung Cancer · 102 participants · Status: Terminated",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT03520686",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT03520686",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-IBRX-NCT04390399",
       "ticker": "IBRX",
       "date": "2025-10-13",
@@ -606,6 +591,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT04390399",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT04390399",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-IBRX-NCT03520686",
+      "ticker": "IBRX",
+      "date": "2025-10-13",
+      "title": "Nogapendekin Alfa Inbakicept for Advanced Non-Small Cell Lung Cancer",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Non Small Cell Lung Cancer · 102 participants · Status: Terminated",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT03520686",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03520686",
       "origin": "registry",
       "status": "past"
     },

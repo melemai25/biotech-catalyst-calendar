@@ -11,62 +11,8 @@
   "activeTrials": 8,
   "phase3": 3,
   "phase2": 5,
-  "generatedDate": "2026-11-24",
+  "generatedDate": "2026-11-25",
   "metrics": {
-    "reportingCurrency": "USD",
-    "taxonomy": "us-gaap",
-    "isUsd": true,
-    "cashUsd": 54980000,
-    "shortTermInvestmentsUsd": 10125000,
-    "longTermInvestmentsUsd": null,
-    "totalCashUsd": 65105000,
-    "cashAsOf": "2026-06-30",
-    "longTermDebtUsd": null,
-    "netCashUsd": 65105000,
-    "stockholdersEquityUsd": -330168000,
-    "accumulatedDeficitUsd": -1848914000,
-    "operatingCashFlowUsd": -24931000,
-    "quarterlyBurnUsd": 24931000,
-    "burnPeriod": "2026-04-01 to 2026-06-30",
-    "burnAsOf": "2026-06-30",
-    "burnDerived": true,
-    "burnBasis": "quarter (differenced)",
-    "burnScaled": false,
-    "runwayMonths": 7.8,
-    "cashOutDate": "2027-02-23",
-    "cashStatus": "under-12mo",
-    "capexQuarterlyUsd": 0,
-    "freeCashFlowQuarterlyUsd": -24931000,
-    "freeCashFlowTtmUsd": -65347000,
-    "revenueQuarterlyUsd": 33432000,
-    "revenueTtmUsd": 146621000,
-    "rndQuarterlyUsd": 28957000,
-    "sgaQuarterlyUsd": 25916000,
-    "operatingIncomeQuarterlyUsd": -22526000,
-    "netIncomeQuarterlyUsd": -67023000,
-    "sharesOutstanding": 22681460,
-    "dilutionPctYoy": 161.6,
-    "dilutionFrom": "2025-08-06",
-    "stockIssuanceQuarterlyUsd": 0,
-    "cashPerShare": 2.87,
-    "rndIntensityPct": 53,
-    "fcfMarginPct": -44.6,
-    "marketCapUsd": null,
-    "entityName": "Karyopharm Therapeutics Inc.",
-    "financingSinceCash": [
-      {
-        "date": "2026-11-03",
-        "form": "8-K",
-        "label": "New debt or financing obligation",
-        "url": "https://www.sec.gov/Archives/edgar/data/1503802/000119312526444164/d141618d8k.htm"
-      },
-      {
-        "date": "2026-09-11",
-        "form": "8-K",
-        "label": "Unregistered sale of shares (private placement)",
-        "url": "https://www.sec.gov/Archives/edgar/data/1503802/000119312526388621/d94769d8k.htm"
-      }
-    ],
     "activeTrials": 22,
     "phase3Count": 6,
     "phase2Count": 17,
@@ -74,7 +20,7 @@
     "upcomingCount": 5,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 21
+    "daysToNextCatalyst": 20
   },
   "trialStats": {
     "completed": 12,
@@ -90,17 +36,17 @@
         "total": 25,
         "completionRatePct": 40
       },
-      "phase3": {
-        "completed": 3,
-        "terminated": 0,
-        "total": 6,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 3,
         "terminated": 2,
         "total": 5,
         "completionRatePct": 60
+      },
+      "phase3": {
+        "completed": 3,
+        "terminated": 0,
+        "total": 6,
+        "completionRatePct": null
       },
       "other": {
         "completed": 0,
