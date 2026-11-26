@@ -11,7 +11,7 @@
   "activeTrials": 1,
   "phase3": 1,
   "phase2": 0,
-  "generatedDate": "2026-11-25",
+  "generatedDate": "2026-11-26",
   "metrics": {
     "activeTrials": 13,
     "phase3Count": 4,
@@ -20,7 +20,7 @@
     "upcomingCount": 1,
     "nextCatalystDate": "2027-02-09",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 76
+    "daysToNextCatalyst": 75
   },
   "trialStats": {
     "completed": 27,

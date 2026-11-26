@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 2,
   "phase2": 0,
-  "generatedDate": "2026-11-25",
+  "generatedDate": "2026-11-26",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -55,6 +55,12 @@
     "entityName": "Atea Pharmaceuticals, Inc.",
     "financingSinceCash": [
       {
+        "date": "2026-11-25",
+        "form": "8-K",
+        "label": "New debt or financing obligation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1593899/000119312526478520/d908486d8k.htm"
+      },
+      {
         "date": "2026-11-09",
         "form": "8-K",
         "label": "New debt or financing obligation",
@@ -68,7 +74,7 @@
     "upcomingCount": 3,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 20
+    "daysToNextCatalyst": 19
   },
   "trialStats": {
     "completed": 27,
@@ -669,6 +675,21 @@
       "result": null,
       "source": "SEC EDGAR 8-K 2026-11-09",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1593899/000119312526452659/d164962d8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-AVIR-0001193125-26-478520",
+      "ticker": "AVIR",
+      "date": "2026-11-25",
+      "title": "8-K filed: Material agreement",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 1.01, 2.03, 9.01. Material agreement. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-25",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1593899/000119312526478520/d908486d8k.htm",
       "origin": "edgar",
       "status": "past"
     },

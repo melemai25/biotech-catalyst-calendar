@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-25T20:32:34.336Z",
-  "generatedDate": "2026-11-25",
+  "generatedAt": "2026-11-26T20:14:32.934Z",
+  "generatedDate": "2026-11-26",
   "tickers": {
     "AZN": {
       "name": "ASTRAZENECA PLC",
@@ -1209,41 +1209,11 @@
   },
   "warnings": [],
   "counts": {
-    "total": 13064,
-    "registry": 6303,
-    "edgar": 6761
+    "total": 13069,
+    "registry": 6301,
+    "edgar": 6768
   },
   "events": [
-    {
-      "id": "ct-MRK-NCT02577003",
-      "ticker": "MRK",
-      "date": "2016-11-25",
-      "title": "Double-blind Ipragliflozin Add-on Study in Japanese Participants With Type 2 Diabetes Mellitus Who Have Inadequate Glycemic Control on Sitagliptin (MK-0431J-843)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Type 2 Diabetes Mellitus · 143 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02577003",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02577003",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
-      "id": "ct-ABBV-NCT02365649",
-      "ticker": "ABBV",
-      "date": "2016-11-25",
-      "title": "A Multicenter, Randomized, Double-Blind, Placebo-Controlled Study of ABT-494 for the Induction of Symptomatic and Endoscopic Remission in Subjects With Moderately to Severely Active Crohn's Disease Who Have Inadequately Responded to or Are Intolerant to Immunomodulators or Anti-TNF Therapy",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Crohn's Disease · 220 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02365649",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02365649",
-      "origin": "registry",
-      "status": "past"
-    },
     {
       "id": "ct-AZN-NCT01894243",
       "ticker": "AZN",
@@ -168495,6 +168465,36 @@
       "status": "past"
     },
     {
+      "id": "edgar-OCGN-0001628280-26-075974",
+      "ticker": "OCGN",
+      "date": "2026-11-25",
+      "title": "8-K filed: Other event",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 8.01, 9.01. Other event. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-25",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1372299/000162828026075974/ocgn-20261124.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-OCGN-0001628280-26-075968",
+      "ticker": "OCGN",
+      "date": "2026-11-25",
+      "title": "8-K filed: Listing / standard notice",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 3.01. Listing / standard notice. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-25",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1372299/000162828026075968/ocgn-20261119.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "edgar-PHAR-0001828316-26-000053",
       "ticker": "PHAR",
       "date": "2026-11-25",
@@ -168510,6 +168510,51 @@
       "status": "past"
     },
     {
+      "id": "edgar-VTGN-0001628280-26-075967",
+      "ticker": "VTGN",
+      "date": "2026-11-25",
+      "title": "8-K filed: Reg FD disclosure",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 7.01, 9.01. Reg FD disclosure. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-25",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411685/000162828026075967/vtgn-20261125.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-ATNM-0001213900-26-124224",
+      "ticker": "ATNM",
+      "date": "2026-11-25",
+      "title": "8-K filed: Leadership change",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 5.02, 5.07. Leadership change. CURRENT REPORT.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-25",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1388320/000121390026124224/ea0313634-8k_actinium.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-AVIR-0001193125-26-478520",
+      "ticker": "AVIR",
+      "date": "2026-11-25",
+      "title": "8-K filed: Material agreement",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 1.01, 2.03, 9.01. Material agreement. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-25",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1593899/000119312526478520/d908486d8k.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
       "id": "edgar-MESO-0001345099-26-000106",
       "ticker": "MESO",
       "date": "2026-11-25",
@@ -168521,6 +168566,21 @@
       "result": null,
       "source": "SEC EDGAR 6-K 2026-11-25",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1345099/000134509926000106/form6-kxpressreleasecoverf.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-PRQR-0001104659-26-132049",
+      "ticker": "PRQR",
+      "date": "2026-11-25",
+      "title": "6-K filed: Foreign issuer report",
+      "type": "Filing",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 6-K. Foreign issuer report. FORM 6-K.",
+      "result": null,
+      "source": "SEC EDGAR 6-K 2026-11-25",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1612940/000110465926132049/tm2630182d1_6k.htm",
       "origin": "edgar",
       "status": "past"
     },
@@ -168551,6 +168611,21 @@
       "result": null,
       "source": "SEC EDGAR 6-K 2026-11-25",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1949257/000121390026123924/ea0313548-6k_radiopharm.htm",
+      "origin": "edgar",
+      "status": "past"
+    },
+    {
+      "id": "edgar-ACRV-0001193125-26-478591",
+      "ticker": "ACRV",
+      "date": "2026-11-25",
+      "title": "8-K filed: Leadership change",
+      "type": "Corporate",
+      "phase": null,
+      "estimated": false,
+      "summary": "SEC Form 8-K, items 5.02, 9.01. Leadership change. 8-K.",
+      "result": null,
+      "source": "SEC EDGAR 8-K 2026-11-25",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1781174/000119312526478591/acrv-20261120.htm",
       "origin": "edgar",
       "status": "past"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 199,
   "phase3": 111,
   "phase2": 88,
-  "generatedDate": "2026-11-25",
+  "generatedDate": "2026-11-26",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -53,14 +53,14 @@
     "fcfMarginPct": 21.9,
     "marketCapUsd": null,
     "entityName": "Merck & Co., Inc.",
-    "activeTrials": 118,
-    "phase3Count": 56,
+    "activeTrials": 117,
+    "phase3Count": 55,
     "phase2Count": 23,
     "leadPhase": 4,
     "upcomingCount": 35,
     "nextCatalystDate": "2027-01-12",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 48
+    "daysToNextCatalyst": 47
   },
   "trialStats": {
     "completed": 243,
@@ -100,21 +100,6 @@
     "resultsPostedPct": 72
   },
   "events": [
-    {
-      "id": "ct-MRK-NCT02577003",
-      "ticker": "MRK",
-      "date": "2016-11-25",
-      "title": "Double-blind Ipragliflozin Add-on Study in Japanese Participants With Type 2 Diabetes Mellitus Who Have Inadequate Glycemic Control on Sitagliptin (MK-0431J-843)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Type 2 Diabetes Mellitus · 143 participants · Status: Completed",
-      "result": "Results have been posted to ClinicalTrials.gov. Open the registry record for outcome measures and adverse event data.",
-      "source": "ClinicalTrials.gov NCT02577003",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02577003",
-      "origin": "registry",
-      "status": "past"
-    },
     {
       "id": "ct-MRK-NCT02217904",
       "ticker": "MRK",
