@@ -11,7 +11,7 @@
   "activeTrials": 10,
   "phase3": 1,
   "phase2": 9,
-  "generatedDate": "2026-11-26",
+  "generatedDate": "2026-11-27",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -67,21 +67,21 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1526119/000110465926115875/tm2627537-1_424b5.htm"
       }
     ],
-    "activeTrials": 18,
-    "phase3Count": 1,
+    "activeTrials": 19,
+    "phase3Count": 2,
     "phase2Count": 12,
     "leadPhase": 3,
-    "upcomingCount": 6,
+    "upcomingCount": 7,
     "nextCatalystDate": "2027-06-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 201
+    "daysToNextCatalyst": 200
   },
   "trialStats": {
     "completed": 9,
     "terminated": 7,
     "withdrawn": 1,
     "suspended": 0,
-    "ongoing": 10,
+    "ongoing": 11,
     "withResults": 3,
     "byPhase": {
       "phase2": {
@@ -99,7 +99,7 @@
       "phase3": {
         "completed": 0,
         "terminated": 0,
-        "total": 1,
+        "total": 2,
         "completionRatePct": null
       }
     },
@@ -619,21 +619,6 @@
       "status": "past"
     },
     {
-      "id": "ct-VSTM-NCT07644559",
-      "ticker": "VSTM",
-      "date": "2027-06-15",
-      "title": "A Phase 2 Study of VS-7375 in Patients With KRAS G12D-Mutated Pancreatic Cancer",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Pancreatic Ductal Adenocarcinoma (PDAC), G12D Mutated KRAS · 185 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07644559",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07644559",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-VSTM-NCT07659782",
       "ticker": "VSTM",
       "date": "2027-06-15",
@@ -660,6 +645,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07659795",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07659795",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-VSTM-NCT07644559",
+      "ticker": "VSTM",
+      "date": "2027-06-15",
+      "title": "A Phase 2 Study of VS-7375 in Patients With KRAS G12D-Mutated Pancreatic Cancer",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Pancreatic Ductal Adenocarcinoma (PDAC), G12D Mutated KRAS · 185 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07644559",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07644559",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -705,6 +705,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07020221",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07020221",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-VSTM-NCT07963059",
+      "ticker": "VSTM",
+      "date": "2029-03-15",
+      "title": "A Phase 3 Study to Evaluate VS-7375 in Participants With Newly Diagnosed Metastatic Pancreatic Ductal Adenocarcinoma",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Pancreatic Ductal Adenocarcinoma (PDAC) · 354 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07963059",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07963059",
       "origin": "registry",
       "status": "upcoming"
     }

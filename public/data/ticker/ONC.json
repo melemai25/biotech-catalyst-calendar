@@ -11,7 +11,7 @@
   "activeTrials": 27,
   "phase3": 15,
   "phase2": 12,
-  "generatedDate": "2026-11-26",
+  "generatedDate": "2026-11-27",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -60,7 +60,7 @@
     "upcomingCount": 52,
     "nextCatalystDate": "2026-11-30",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 4
+    "daysToNextCatalyst": 3
   },
   "trialStats": {
     "completed": 5,
@@ -70,12 +70,6 @@
     "ongoing": 59,
     "withResults": 1,
     "byPhase": {
-      "phase3": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 16,
-        "completionRatePct": null
-      },
       "phase1": {
         "completed": 4,
         "terminated": 5,
@@ -86,6 +80,12 @@
         "completed": 0,
         "terminated": 0,
         "total": 14,
+        "completionRatePct": null
+      },
+      "phase3": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 16,
         "completionRatePct": null
       },
       "other": {
@@ -521,21 +521,6 @@
       "status": "past"
     },
     {
-      "id": "ct-ONC-NCT04973605",
-      "ticker": "ONC",
-      "date": "2026-11-15",
-      "title": "A Phase 1b/2 Study of Sonrotoclax (BGB-11417) as Monotherapy and in Various Combinations With Dexamethasone Plus Carfilzomib, Dexamethasone Plus Daratumumab, and Dexamethasone Plus Pomalidomide in Multiple Myeloma",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Relapsed/Refractory Multiple Myeloma · 246 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04973605",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04973605",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-ONC-NCT06637501",
       "ticker": "ONC",
       "date": "2026-11-15",
@@ -547,6 +532,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06637501",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06637501",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-ONC-NCT04973605",
+      "ticker": "ONC",
+      "date": "2026-11-15",
+      "title": "A Phase 1b/2 Study of Sonrotoclax (BGB-11417) as Monotherapy and in Various Combinations With Dexamethasone Plus Carfilzomib, Dexamethasone Plus Daratumumab, and Dexamethasone Plus Pomalidomide in Multiple Myeloma",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Relapsed/Refractory Multiple Myeloma · 246 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04973605",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04973605",
       "origin": "registry",
       "status": "past"
     },
@@ -659,11 +659,11 @@
       "id": "ct-ONC-NCT06427941",
       "ticker": "ONC",
       "date": "2027-03-31",
-      "title": "A Phase 1/2 Study of BGB-B2033, Alone or in Combination With Tislelizumab With or Without Bevacizumab, in Participants With Advanced or Metastatic Solid Tumors",
+      "title": "A Phase 1/2 Study of BGB-B2033, Alone or in Combination With Tislelizumab With or Without Bevacizumab, in Participants With Advanced or Metastatic Hepatocellular Carcinoma (HCC) and Other Solid Tumors",
       "type": "Trial Milestone",
       "phase": "Phase 1/Phase 2",
       "estimated": false,
-      "summary": "Metastatic Hepatocellular Carcinoma, Local Advanced Hepatocellular Carcinoma, Alpha-fetoprotein (AFP)-Producing Gastric Cancer · 630 participants · Status: Recruiting",
+      "summary": "Hepatocellular Carcinoma, Local Advanced Hepatocellular Carcinoma, Alpha-fetoprotein (AFP)-Producing Gastric Cancer · 630 participants · Status: Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT06427941",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06427941",
@@ -1008,7 +1008,7 @@
       "type": "Trial Milestone",
       "phase": "Phase 1",
       "estimated": false,
-      "summary": "Advanced Solid Tumor · 153 participants · Status: Recruiting",
+      "summary": "Advanced Solid Tumor · 438 participants · Status: Recruiting",
       "result": null,
       "source": "ClinicalTrials.gov NCT06598800",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06598800",
@@ -1181,21 +1181,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-ONC-NCT07887646",
-      "ticker": "ONC",
-      "date": "2029-10-31",
-      "title": "A Study Investigating the Safety and How the Trispecific T-Cell Engaging Antibody BG-T0920 Works in Adults With Diffuse Large B-cell Lymphoma (DLBCL) and Other Aggressive B-Cell Malignancies",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Diffuse Large B-Cell Lymphoma, B-cell Malignancies · 70 participants · Status: Not Yet Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT07887646",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT07887646",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-ONC-NCT07881211",
       "ticker": "ONC",
       "date": "2029-10-31",
@@ -1207,6 +1192,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07881211",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07881211",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-ONC-NCT07887646",
+      "ticker": "ONC",
+      "date": "2029-10-31",
+      "title": "A Study Investigating the Safety and How the Trispecific T-Cell Engaging Antibody BG-T0920 Works in Adults With Diffuse Large B-cell Lymphoma (DLBCL) and Other Aggressive B-Cell Malignancies",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Diffuse Large B-Cell Lymphoma, B-cell Malignancies · 70 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07887646",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07887646",
       "origin": "registry",
       "status": "upcoming"
     },

@@ -11,7 +11,7 @@
   "activeTrials": 4,
   "phase3": 2,
   "phase2": 2,
-  "generatedDate": "2026-11-26",
+  "generatedDate": "2026-11-27",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -67,21 +67,21 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1724521/000119312526427888/d117931d424b5.htm"
       }
     ],
-    "activeTrials": 32,
-    "phase3Count": 3,
+    "activeTrials": 33,
+    "phase3Count": 4,
     "phase2Count": 5,
     "leadPhase": 3,
-    "upcomingCount": 7,
+    "upcomingCount": 8,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 19
+    "daysToNextCatalyst": 18
   },
   "trialStats": {
     "completed": 26,
     "terminated": 0,
     "withdrawn": 0,
     "suspended": 0,
-    "ongoing": 6,
+    "ongoing": 7,
     "withResults": 0,
     "byPhase": {
       "phase1": {
@@ -93,7 +93,7 @@
       "phase3": {
         "completed": 1,
         "terminated": 0,
-        "total": 3,
+        "total": 4,
         "completionRatePct": null
       },
       "phase2": {
@@ -870,6 +870,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT05536141",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT05536141",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-RCUS-NCT07961603",
+      "ticker": "RCUS",
+      "date": "2029-11-15",
+      "title": "Randomized Phase 3 Study of Casdatifan, Nivolumab, and Ipilimumab Versus Nivolumab and Ipilimumab in Patients With Previously Untreated Advanced Clear Cell Renal Cell Carcinoma",
+      "type": "Trial Milestone",
+      "phase": "Phase 3",
+      "estimated": false,
+      "summary": "Metastatic Clear Cell Renal Cell Carcinoma, Advanced Clear Cell Renal Cell Carcinoma · 660 participants · Status: Not Yet Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT07961603",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07961603",
       "origin": "registry",
       "status": "upcoming"
     },

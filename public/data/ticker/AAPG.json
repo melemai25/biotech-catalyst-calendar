@@ -11,7 +11,7 @@
   "activeTrials": 15,
   "phase3": 7,
   "phase2": 8,
-  "generatedDate": "2026-11-26",
+  "generatedDate": "2026-11-27",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "ifrs-full",
@@ -60,7 +60,7 @@
     "upcomingCount": 16,
     "nextCatalystDate": "2026-12-15",
     "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 19
+    "daysToNextCatalyst": 18
   },
   "trialStats": {
     "completed": 10,
@@ -70,17 +70,17 @@
     "ongoing": 36,
     "withResults": 0,
     "byPhase": {
-      "phase2": {
-        "completed": 1,
-        "terminated": 3,
-        "total": 22,
-        "completionRatePct": 25
-      },
       "phase1": {
         "completed": 9,
         "terminated": 2,
         "total": 22,
         "completionRatePct": 82
+      },
+      "phase2": {
+        "completed": 1,
+        "terminated": 3,
+        "total": 22,
+        "completionRatePct": 25
       },
       "phase3": {
         "completed": 0,
@@ -941,21 +941,6 @@
       "status": "past"
     },
     {
-      "id": "ct-AAPG-NCT04785196",
-      "ticker": "AAPG",
-      "date": "2026-04-15",
-      "title": "APG-115 in Combination With PD-1 Inhibitor in Patients With Advanced Liposarcoma or Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1/Phase 2",
-      "estimated": false,
-      "summary": "Liposarcoma, Advanced Solid Tumor · 95 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT04785196",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04785196",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "ct-AAPG-NCT06182969",
       "ticker": "AAPG",
       "date": "2026-04-15",
@@ -967,6 +952,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT06182969",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT06182969",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-AAPG-NCT04785196",
+      "ticker": "AAPG",
+      "date": "2026-04-15",
+      "title": "APG-115 in Combination With PD-1 Inhibitor in Patients With Advanced Liposarcoma or Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1/Phase 2",
+      "estimated": false,
+      "summary": "Liposarcoma, Advanced Solid Tumor · 95 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04785196",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04785196",
       "origin": "registry",
       "status": "past"
     },
@@ -1586,21 +1586,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-AAPG-NCT03917043",
-      "ticker": "AAPG",
-      "date": "2027-12-15",
-      "title": "APG-2449 in Patients With Advanced Solid Tumors",
-      "type": "Trial Milestone",
-      "phase": "Phase 1",
-      "estimated": false,
-      "summary": "Advanced Solid Cancer, Non Small Cell Lung Cancer, Esophageal Cancer · 165 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT03917043",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT03917043",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "ct-AAPG-NCT03594422",
       "ticker": "AAPG",
       "date": "2027-12-15",
@@ -1612,6 +1597,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT03594422",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT03594422",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-AAPG-NCT03917043",
+      "ticker": "AAPG",
+      "date": "2027-12-15",
+      "title": "APG-2449 in Patients With Advanced Solid Tumors",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Advanced Solid Cancer, Non Small Cell Lung Cancer, Esophageal Cancer · 165 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT03917043",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03917043",
       "origin": "registry",
       "status": "upcoming"
     },

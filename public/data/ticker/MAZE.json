@@ -11,7 +11,7 @@
   "activeTrials": 2,
   "phase3": 0,
   "phase2": 2,
-  "generatedDate": "2026-11-26",
+  "generatedDate": "2026-11-27",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -65,10 +65,10 @@
     "phase3Count": 0,
     "phase2Count": 2,
     "leadPhase": 2,
-    "upcomingCount": 2,
+    "upcomingCount": 3,
     "nextCatalystDate": "2027-02-07",
     "nextCatalystType": "Earnings",
-    "daysToNextCatalyst": 73
+    "daysToNextCatalyst": 72
   },
   "trialStats": {
     "completed": 1,
@@ -78,16 +78,16 @@
     "ongoing": 2,
     "withResults": 0,
     "byPhase": {
-      "phase1": {
-        "completed": 1,
-        "terminated": 0,
-        "total": 1,
-        "completionRatePct": null
-      },
       "phase2": {
         "completed": 0,
         "terminated": 0,
         "total": 2,
+        "completionRatePct": null
+      },
+      "phase1": {
+        "completed": 1,
+        "terminated": 0,
+        "total": 1,
         "completionRatePct": null
       }
     },
@@ -292,21 +292,6 @@
       "status": "past"
     },
     {
-      "id": "ct-MAZE-NCT06830629",
-      "ticker": "MAZE",
-      "date": "2026-09-15",
-      "title": "A Phase 2 Study of MZE829 in Adults With APOL1 Kidney Disease",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Proteinuric Kidney Disease · 74 participants · Status: Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT06830629",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT06830629",
-      "origin": "registry",
-      "status": "past"
-    },
-    {
       "id": "edgar-MAZE-0001193125-26-424067",
       "ticker": "MAZE",
       "date": "2026-10-16",
@@ -349,6 +334,21 @@
       "source": "Projected from SEC EDGAR filing cadence",
       "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001842295&type=8-K",
       "origin": "edgar",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-MAZE-NCT06830629",
+      "ticker": "MAZE",
+      "date": "2027-03-15",
+      "title": "A Phase 2 Study of MZE829 in Adults With APOL1 Kidney Disease",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Proteinuric Kidney Disease · 74 participants · Status: Active Not Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT06830629",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06830629",
+      "origin": "registry",
       "status": "upcoming"
     },
     {

@@ -11,7 +11,7 @@
   "activeTrials": 16,
   "phase3": 11,
   "phase2": 5,
-  "generatedDate": "2026-11-26",
+  "generatedDate": "2026-11-27",
   "metrics": {
     "reportingCurrency": "USD",
     "taxonomy": "us-gaap",
@@ -52,15 +52,15 @@
     "rndIntensityPct": 60,
     "fcfMarginPct": -64.2,
     "marketCapUsd": null,
-    "entityName": "IONIS PHARMACEUTICALS, INC.",
+    "entityName": "Ionis Pharmaceuticals, Inc.",
     "activeTrials": 71,
     "phase3Count": 22,
     "phase2Count": 29,
     "leadPhase": 3,
     "upcomingCount": 19,
-    "nextCatalystDate": "2026-12-15",
-    "nextCatalystType": "Trial Milestone",
-    "daysToNextCatalyst": 19
+    "nextCatalystDate": "2027-01-23",
+    "nextCatalystType": "Earnings",
+    "daysToNextCatalyst": 57
   },
   "trialStats": {
     "completed": 86,
@@ -70,18 +70,6 @@
     "ongoing": 26,
     "withResults": 23,
     "byPhase": {
-      "phase3": {
-        "completed": 14,
-        "terminated": 0,
-        "total": 26,
-        "completionRatePct": 100
-      },
-      "phase2": {
-        "completed": 44,
-        "terminated": 4,
-        "total": 55,
-        "completionRatePct": 92
-      },
       "phase1": {
         "completed": 23,
         "terminated": 1,
@@ -93,6 +81,18 @@
         "terminated": 1,
         "total": 12,
         "completionRatePct": 83
+      },
+      "phase3": {
+        "completed": 14,
+        "terminated": 0,
+        "total": 26,
+        "completionRatePct": 100
+      },
+      "phase2": {
+        "completed": 44,
+        "terminated": 4,
+        "total": 55,
+        "completionRatePct": 92
       }
     },
     "concluded": 94,
@@ -100,21 +100,6 @@
     "resultsPostedPct": 27
   },
   "events": [
-    {
-      "id": "ct-IONS-NCT02824003",
-      "ticker": "IONS",
-      "date": "2016-12-15",
-      "title": "Study to Evaluate the Effect of ISIS GCGRRx on Hepatic Lipid and Glycogen Content in Type 2 Diabetes",
-      "type": "Trial Milestone",
-      "phase": "Phase 2",
-      "estimated": false,
-      "summary": "Type 2 Diabetes · 15 participants · Status: Completed",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT02824003",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT02824003",
-      "origin": "registry",
-      "status": "past"
-    },
     {
       "id": "ct-IONS-NCT02583919",
       "ticker": "IONS",
@@ -127,6 +112,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT02583919",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT02583919",
+      "origin": "registry",
+      "status": "past"
+    },
+    {
+      "id": "ct-IONS-NCT02824003",
+      "ticker": "IONS",
+      "date": "2016-12-15",
+      "title": "Study to Evaluate the Effect of ISIS GCGRRx on Hepatic Lipid and Glycogen Content in Type 2 Diabetes",
+      "type": "Trial Milestone",
+      "phase": "Phase 2",
+      "estimated": false,
+      "summary": "Type 2 Diabetes · 15 participants · Status: Completed",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT02824003",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT02824003",
       "origin": "registry",
       "status": "past"
     },
@@ -1316,21 +1316,6 @@
       "status": "past"
     },
     {
-      "id": "ct-IONS-NCT05392114",
-      "ticker": "IONS",
-      "date": "2026-12-15",
-      "title": "A Study to Assess the Long-Term Safety and Efficacy of Donidalorsen in the Prophylactic Treatment of Hereditary Angioedema (HAE)",
-      "type": "Trial Milestone",
-      "phase": "Phase 3",
-      "estimated": false,
-      "summary": "Hereditary Angioedema · 154 participants · Status: Active Not Recruiting",
-      "result": null,
-      "source": "ClinicalTrials.gov NCT05392114",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT05392114",
-      "origin": "registry",
-      "status": "upcoming"
-    },
-    {
       "id": "edgar-IONS-next-earnings",
       "ticker": "IONS",
       "date": "2027-01-23",
@@ -1436,17 +1421,17 @@
       "status": "upcoming"
     },
     {
-      "id": "ct-IONS-NCT04165486",
+      "id": "ct-IONS-NCT05392114",
       "ticker": "IONS",
-      "date": "2027-09-15",
-      "title": "Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of ION464 Administered to Adults With Multiple System Atrophy (HORIZON)",
+      "date": "2027-12-15",
+      "title": "A Study to Assess the Long-Term Safety and Efficacy of Donidalorsen in the Prophylactic Treatment of Hereditary Angioedema (HAE)",
       "type": "Trial Milestone",
-      "phase": "Phase 1",
+      "phase": "Phase 3",
       "estimated": false,
-      "summary": "Multiple System Atrophy · 40 participants · Status: Recruiting",
+      "summary": "Hereditary Angioedema · 154 participants · Status: Active Not Recruiting",
       "result": null,
-      "source": "ClinicalTrials.gov NCT04165486",
-      "sourceUrl": "https://clinicaltrials.gov/study/NCT04165486",
+      "source": "ClinicalTrials.gov NCT05392114",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05392114",
       "origin": "registry",
       "status": "upcoming"
     },
@@ -1567,6 +1552,21 @@
       "result": null,
       "source": "ClinicalTrials.gov NCT07727538",
       "sourceUrl": "https://clinicaltrials.gov/study/NCT07727538",
+      "origin": "registry",
+      "status": "upcoming"
+    },
+    {
+      "id": "ct-IONS-NCT04165486",
+      "ticker": "IONS",
+      "date": "2030-09-15",
+      "title": "Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of ION464 Administered to Adults With Multiple System Atrophy (HORIZON)",
+      "type": "Trial Milestone",
+      "phase": "Phase 1",
+      "estimated": false,
+      "summary": "Multiple System Atrophy · 95 participants · Status: Recruiting",
+      "result": null,
+      "source": "ClinicalTrials.gov NCT04165486",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04165486",
       "origin": "registry",
       "status": "upcoming"
     },
